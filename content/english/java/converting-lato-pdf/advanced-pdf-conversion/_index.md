@@ -31,16 +31,16 @@ public class LaTeXPdfConversionAlternative {
 		
         // ExStart:Conversion-LaTeXToPdf-Alternative
         // Create the stream to write the PDF file to.
-        final OutputStream pdfStream = new FileOutputStream(Utils.getOutputDirectory() + "any-name.pdf");
+        final OutputStream pdfStream = new FileOutputStream("Your Output Directory" + "any-name.pdf");
         try {
             // Create conversion options for Object LaTeX format upon Object TeX engine extension.
             TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectLaTeX());
             // Specify a file system working directory for the output.
-            options.setOutputWorkingDirectory(new OutputFileSystemDirectory(Utils.getOutputDirectory()));
+            options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
             // Initialize the options for saving in PDF format.
             options.setSaveOptions(new PdfSaveOptions());
             // Run LaTeX to PDF conversion.
-            new TeXJob(Utils.getInputDirectory() + "hello-world.ltx", new PdfDevice(pdfStream), options).run();
+            new TeXJob("Your Input Directory" + "hello-world.ltx", new PdfDevice(pdfStream), options).run();
         } finally {
         	if (pdfStream != null)
         		pdfStream.close();

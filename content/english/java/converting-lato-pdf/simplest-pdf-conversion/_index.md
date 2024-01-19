@@ -31,11 +31,11 @@ public class LaTeXPdfConversionSimplest {
         // Create conversion options for Object LaTeX format upon Object TeX engine extension.
         TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectLaTeX());
         // Specify a file system working directory for the output.
-        options.setOutputWorkingDirectory(new OutputFileSystemDirectory(Utils.getOutputDirectory()));
+        options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
         // Initialize the options for saving in PDF format.
         options.setSaveOptions(new PdfSaveOptions());
         // Run LaTeX to PDF conversion.
-        new TeXJob(Utils.getInputDirectory() +  "hello-world.ltx", new PdfDevice(), options).run();
+        new TeXJob("Your Input Directory" +  "hello-world.ltx", new PdfDevice(), options).run();
         // ExEnd:Conversion-LaTeXToPdf-Simplest
     }
 }

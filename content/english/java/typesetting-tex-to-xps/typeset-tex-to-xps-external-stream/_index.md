@@ -36,15 +36,15 @@ public class TypesetXpsWrittenToExternalStream {
         // Specify a job name.
         options.setJobName("external-file-stream");
         // Specify a file system working directory for the input.
-        options.setInputWorkingDirectory(new InputFileSystemDirectory(Utils.getInputDirectory()));
+        options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Directory"));
         // Specify a file system working directory for the output.
-        options.setOutputWorkingDirectory(new OutputFileSystemDirectory(Utils.getOutputDirectory()));
+        options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
         // Specify that the terminal output must be written to a file in the output working directory.
         // The file name is <job_name>.trm.
         options.setTerminalOut(new OutputFileTerminal(options.getOutputWorkingDirectory()));
 
         // Open the stream to write typeset XPS document. The file name is not necessarily the same as the job name.
-        final OutputStream stream = new FileOutputStream(Utils.getOutputDirectory() + options.getJobName() + ".xps");
+        final OutputStream stream = new FileOutputStream("Your Output Directory" + options.getJobName() + ".xps");
         try {
             // Run the job.
             new TeXJob("hello-world", new XpsDevice(stream), options).run();

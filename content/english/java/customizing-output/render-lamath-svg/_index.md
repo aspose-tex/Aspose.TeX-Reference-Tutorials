@@ -47,7 +47,7 @@ public class SvgLaTeXMathRenderer {
         // The variable in which the dimensions of the resulting image will be written.
         com.aspose.tex.Size2D size = new com.aspose.tex.Size2D.Float();
         // Create the output stream for the formula image.
-        final OutputStream stream = new FileOutputStream(Utils.getOutputDirectory() + "math-formula.svg");
+        final OutputStream stream = new FileOutputStream("Your Output Directory" + "math-formula.svg");
         try {
             // Run rendering.
             new SvgMathRenderer().render("\\begin{equation*}\r\n" +

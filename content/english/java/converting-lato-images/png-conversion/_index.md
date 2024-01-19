@@ -34,7 +34,7 @@ public class LaTeXPngConversionSimplest {
         // Create conversion options for Object LaTeX format upon Object TeX engine extension.
         TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectLaTeX());
         // Specify a file system working directory for the output.
-        options.setOutputWorkingDirectory(new OutputFileSystemDirectory(Utils.getOutputDirectory()));
+        options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
         // Initialize the options for saving in PNG format.
         options.setSaveOptions(new PngSaveOptions());
 
@@ -54,7 +54,7 @@ public class LaTeXPngConversionSimplest {
         // ExEnd:Aspose.TeX.Examples-Conversion-LaTeXToBmp
 
         // Run LaTeX to PNG conversion.
-        new TeXJob(Utils.getInputDirectory() + "hello-world.ltx", new ImageDevice(), options).run();
+        new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), options).run();
         // ExEnd:Conversion-LaTeXToPng-Simplest
     }
 }

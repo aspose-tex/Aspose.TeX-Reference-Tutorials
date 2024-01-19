@@ -31,14 +31,14 @@ class LaTeXRequiredInputFs {
         // Create conversion options for Object LaTeX format upon Object TeX engine extension.
         TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectLaTeX());
         // Specify a file system working directory for the output.
-        options.setOutputWorkingDirectory(new OutputFileSystemDirectory(Utils.getOutputDirectory()));
+        options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
         // Specify a file system working directory for the required input.
         // The directory containing packages may be located anywhere.
-        options.setRequiredInputDirectory(new InputFileSystemDirectory(Utils.getInputDirectory() + "packages"));
+        options.setRequiredInputDirectory(new InputFileSystemDirectory("Your Input Directory" + "packages"));
         // Initialize the options for saving in PNG format.
         options.setSaveOptions(new PngSaveOptions());
         // Run LaTeX to PNG conversion.
-        new TeXJob(Utils.getInputDirectory() + "required-input-fs.tex", new ImageDevice(), options).run();
+        new TeXJob("Your Input Directory" + "required-input-fs.tex", new ImageDevice(), options).run();
         // ExEnd:Conversion-RequiredInput-FileSystem
     }
 }

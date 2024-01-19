@@ -33,7 +33,7 @@ public class LaTeXPngConversionAlternative {
         // Create conversion options for Object LaTeX format upon Object TeX engine extension.
         TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectLaTeX());
         // Specify a file system working directory for the output.
-        options.setOutputWorkingDirectory(new OutputFileSystemDirectory(Utils.getOutputDirectory()));
+        options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
         // Initialize the options for saving in PNG format.
         PngSaveOptions saveOptions = new PngSaveOptions();
         // Set this property to instruct the device not to output images as you will access them alternatively.
@@ -41,12 +41,12 @@ public class LaTeXPngConversionAlternative {
         options.setSaveOptions(saveOptions);
         // Run LaTeX to PNG conversion.
         ImageDevice device = new ImageDevice();
-        new TeXJob(Utils.getInputDirectory() + "hello-world.ltx", device, options).run();
+        new TeXJob("Your Input Directory" + "hello-world.ltx", device, options).run();
 
         // Save pages file by file.
         for (int i = 0; i < device.getResult().length; i++)
         {
-            final OutputStream fs = new FileOutputStream(Utils.getOutputDirectory() + "page-" + (i + 1) + ".png");
+            final OutputStream fs = new FileOutputStream("Your Output Directory" + "page-" + (i + 1) + ".png");
             try {
                 fs.write(device.getResult()[i], 0, device.getResult()[i].length);
             } finally {

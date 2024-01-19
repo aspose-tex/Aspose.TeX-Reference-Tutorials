@@ -47,7 +47,7 @@ public class PngLaTeXMathRenderer {
         // The variable in which the dimensions of the resulting image will be written.
         com.aspose.tex.Size2D size = new com.aspose.tex.Size2D.Float();
         // Create the output stream for the formula image.
-        final OutputStream stream = new FileOutputStream(Utils.getOutputDirectory() + "math-formula.png");
+        final OutputStream stream = new FileOutputStream("Your Output Directory" + "math-formula.png");
         try {
             // Run rendering.
             new PngMathRenderer().render("\\begin{equation*}\r\n" +

@@ -35,10 +35,10 @@ public class OverridenJobNameAndTerminalOutputWrittenToZip {
 		
 		// ExStart:WriteTerminalOutputToZip
         // Open a stream on a ZIP archive that will serve as the input working directory.
-        final InputStream inZipStream = new FileInputStream(Utils.getInputDirectory() + "zip-in.zip");
+        final InputStream inZipStream = new FileInputStream("Your Input Directory" + "zip-in.zip");
         try {
 	        // Open a stream on a ZIP archive that will serve as the output working directory.
-	        final OutputStream outZipStream = new FileOutputStream(Utils.getOutputDirectory() + "terminal-out-to-zip.zip");
+	        final OutputStream outZipStream = new FileOutputStream("Your Output Directory" + "terminal-out-to-zip.zip");
 	        try {
 	            // Create conversion options for default ObjectTeX format upon ObjectTeX engine extension.
 	            TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX());

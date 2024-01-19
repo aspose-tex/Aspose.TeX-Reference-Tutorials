@@ -37,9 +37,9 @@ public class StreamInputImageOutputAndTerminalInput {
         // Specify a job name.
         options.setJobName("stream-in-image-out");
         // Specify a file system working directory for the input.
-        options.setInputWorkingDirectory(new InputFileSystemDirectory(Utils.getInputDirectory()));
+        options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Directory"));
         // Specify a file system working directory for the output.
-        options.setOutputWorkingDirectory(new OutputFileSystemDirectory(Utils.getOutputDirectory()));
+        options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
         // Specify the console as the input terminal.
         options.setTerminalIn(new InputConsoleTerminal());  // Default value. Arbitrary assignment.
         // Specify the console as the output terminal.

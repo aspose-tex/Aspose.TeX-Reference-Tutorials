@@ -35,10 +35,10 @@ public class ZipFileInputOuputAndPdfOutput {
 		
 		// ExStart:TakeInputFromZip-WriteOutputToZip
         // Open the stream on the ZIP archive that will serve as the input working directory.
-        final InputStream inZipStream = new FileInputStream(Utils.getInputDirectory() + "zip-in.zip");
+        final InputStream inZipStream = new FileInputStream("Your Input Directory" + "zip-in.zip");
         try {
 	        // Open the stream on the ZIP archive that will serve as the output working directory.
-	        final OutputStream outZipStream = new FileOutputStream(Utils.getOutputDirectory() + "zip-pdf-out.zip");
+	        final OutputStream outZipStream = new FileOutputStream("Your Output Directory" + "zip-pdf-out.zip");
 	        try {
 	            // Create conversion options for default ObjectTeX format upon ObjectTeX engine extension.
 	            TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX());

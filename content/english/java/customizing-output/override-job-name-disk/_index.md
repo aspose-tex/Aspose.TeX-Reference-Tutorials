@@ -34,9 +34,9 @@ public class OverridenJobNameAndTerminalOutputWrittenToDisk {
         // Specify a job name. Otherwise, the first argument of the TeXJob constructor will be taken as a job name.
         options.setJobName("overriden-job-name");
         // Specify a file system working directory for the input.
-        options.setInputWorkingDirectory(new InputFileSystemDirectory(Utils.getInputDirectory()));
+        options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Directory"));
         // Specify a file system working directory for the output.
-        options.setOutputWorkingDirectory(new OutputFileSystemDirectory(Utils.getOutputDirectory()));
+        options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
         // Specify that the terminal output must be written to a file in the output working directory.
         // The file name is <job_name>.trm.
         options.setTerminalOut(new OutputFileTerminal(options.getOutputWorkingDirectory()));

@@ -35,10 +35,10 @@ public class TypesetPdfWrittenToExternalStream {
 		
 		// ExStart:WriteOutputPdfToExternalStream
         // Open a stream on a ZIP archive that will serve as the input working directory.
-        final InputStream inZipStream = new FileInputStream(Utils.getInputDirectory() + "zip-in.zip");
+        final InputStream inZipStream = new FileInputStream("Your Input Directory" + "zip-in.zip");
         try {
 	        // Open a stream on a ZIP archive that will serve as the output working directory.
-	        final OutputStream outZipStream = new FileOutputStream(Utils.getOutputDirectory() + "typeset-pdf-to-external-stream.zip");
+	        final OutputStream outZipStream = new FileOutputStream("Your Output Directory" + "typeset-pdf-to-external-stream.zip");
 	        try {
 	            // Create conversion options for default ObjectTeX format upon ObjectTeX engine extension.
 	            TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX());
@@ -56,7 +56,7 @@ public class TypesetPdfWrittenToExternalStream {
 	            options.setSaveOptions(new PdfSaveOptions());
 	            // Open a stream to write the output PDF to.
 	            // 1) A file somewhere on a local file system.
-	            final OutputStream stream = new FileOutputStream(Utils.getOutputDirectory() + "file-name.pdf"); // writing PDF somewhere else
+	            final OutputStream stream = new FileOutputStream("Your Output Directory" + "file-name.pdf"); // writing PDF somewhere else
 	            // 2) A file in the output ZIP. A weird feature that extends flexibilty :)
 	            // final OutputStream stream = options.getOutputWorkingDirectory().getOutputFile("file-name.pdf", new String[]{ null }); // writing PDF to the same ZIP
 	            try {

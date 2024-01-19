@@ -45,7 +45,7 @@ public class PngLaTeXFigureRenderer {
         // The variable in which the dimensions of the resulting image will be written.
         com.aspose.tex.Size2D size = new com.aspose.tex.Size2D.Float();
         // Create the output stream for the figure image.
-        final OutputStream stream = new FileOutputStream(Utils.getOutputDirectory() + "text-and-formula.png");
+        final OutputStream stream = new FileOutputStream("Your Output Directory" + "text-and-formula.png");
         try {
             // Run rendering.
             new PngFigureRenderer().render("\\setlength{\\unitlength}{0.8cm}\r\n" +

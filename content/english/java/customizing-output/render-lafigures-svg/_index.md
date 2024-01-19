@@ -44,7 +44,7 @@ public class SvgLaTeXFigureRenderer {
         // The variable in which the dimensions of the resulting image will be written.
         com.aspose.tex.Size2D size = new com.aspose.tex.Size2D.Float();
         // Create the output stream for the figure image.
-        final OutputStream stream = new FileOutputStream(Utils.getOutputDirectory() + "text-and-formula.svg");
+        final OutputStream stream = new FileOutputStream("Your Output Directory" + "text-and-formula.svg");
         try {
             // Run rendering.
             new SvgFigureRenderer().render("\\setlength{\\unitlength}{0.8cm}\r\n" +

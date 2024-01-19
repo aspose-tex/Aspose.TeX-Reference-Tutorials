@@ -35,7 +35,7 @@ public class LaTeXXpsConversionSimplest {
         // ExStart:Conversion-LaTeXToXps-Simplest
         // Create conversion options for Object LaTeX format upon Object TeX engine extension.
         TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectLaTeX());
-        options.setInputWorkingDirectory(new InputFileSystemDirectory(Utils.getInputDirectory()));
+        options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Directory"));
 
         // ExStart:Aspose.TeX.Examples-Conversion-InteractionMode
         // Set interaction mode.
@@ -68,7 +68,7 @@ public class LaTeXXpsConversionSimplest {
         // Exend:Aspose.TeX.Examples-Conversion-Repeat
 
         // Specify a file system working directory for the output.
-        options.setOutputWorkingDirectory(new OutputFileSystemDirectory(Utils.getOutputDirectory()));
+        options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 
         // Initialize the options for saving in XPS format.
         options.setSaveOptions(new XpsSaveOptions()); // Default value. Arbitrary assignment.
@@ -89,7 +89,7 @@ public class LaTeXXpsConversionSimplest {
         // ExEnd:Aspose.TeX.Examples-Conversion-SubsetFonts
         
         // Run LaTeX to XPS conversion.
-        new TeXJob(Utils.getInputDirectory() + "sample.ltx", new XpsDevice(), options).run();
+        new TeXJob("Your Input Directory" + "sample.ltx", new XpsDevice(), options).run();
 
         // ExStart:Aspose.TeX.Examples-Conversion-InputStream
         // Run LaTeX to XPS conversion.

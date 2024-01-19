@@ -33,16 +33,16 @@ public class TypesetWithCustomTeXFormat {
         // Create the format provider using the file system input working directory.
         // We use the project output directory as our custom format file is supposed to be located there.
         final FormatProvider formatProvider = new FormatProvider(
-        		new InputFileSystemDirectory(Utils.getOutputDirectory()), "customtex");
+        		new InputFileSystemDirectory("Your Output Directory"), "customtex");
         try {
             // Create conversion options for a custom format upon ObjectTeX engine extension.
             TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX(formatProvider));
             options.setJobName("typeset-with-custom-format");
             // Specify the input working directory. This is not required here as we are providing the main input as a stream.
             // But it is required when the main input has dependencies (e.g. images).
-            options.setInputWorkingDirectory(new InputFileSystemDirectory(Utils.getInputDirectory()));
+            options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Directory"));
             // Specify a file system working directory for the output.
-            options.setOutputWorkingDirectory(new OutputFileSystemDirectory(Utils.getOutputDirectory()));
+            options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 
             // Run teh job.
             new TeXJob(new ByteArrayInputStream(

@@ -30,9 +30,9 @@ public class CustomTeXFormatFileCreation {
         // Create TeX engine options for no format upon ObjectTeX engine extension.
         TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectIniTeX());
         // Specify a file system working directory for the input.
-        options.setInputWorkingDirectory(new InputFileSystemDirectory(Utils.getInputDirectory()));
+        options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Directory"));
         // Specify a file system working directory for the output.
-        options.setOutputWorkingDirectory(new OutputFileSystemDirectory(Utils.getOutputDirectory()));
+        options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 
         // Run format creation.
         TeXJob.createFormat("customtex", options);
