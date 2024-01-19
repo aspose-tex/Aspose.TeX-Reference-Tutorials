@@ -25,9 +25,9 @@ namespace Aspose.TeX.Examples.CSharp.TeXTypesetting
             // Create TeX engine options for no format upon ObjectTeX engine extension.
             TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectIniTeX);
             // Specify a file system working directory for the input.
-            options.InputWorkingDirectory = new InputFileSystemDirectory(RunExamples.InputDirectory);
+            options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
             // Specify a file system working directory for the output.
-            options.OutputWorkingDirectory = new OutputFileSystemDirectory(RunExamples.OutputDirectory);
+            options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 
             // Run format creation.
             TeXJob.CreateFormat("customtex", options);

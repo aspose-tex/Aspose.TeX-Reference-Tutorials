@@ -26,9 +26,9 @@ namespace Aspose.TeX.Examples.CSharp.TeXTypesetting
             // Create conversion options for default ObjectTeX format upon ObjectTeX engine extension.
             TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
             // Specify a file system working directory for the input.
-            options.InputWorkingDirectory = new InputFileSystemDirectory(RunExamples.InputDirectory);
+            options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
             // Specify a file system working directory for the output.
-            options.OutputWorkingDirectory = new OutputFileSystemDirectory(RunExamples.OutputDirectory);
+            options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
             // Specify the console as the output terminal.
             options.TerminalOut = new OutputConsoleTerminal(); // Default value. Arbitrary assignment.
             // Specify a memory terminal as output terminal, if you don't want the terminal output to be written to the console.

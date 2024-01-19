@@ -31,9 +31,9 @@ namespace Aspose.TeX.Examples.CSharp.TeXTypesetting
             // Specify a job name.
             options.JobName = "stream-in-image-out";
             // Specify a file system working directory for the input.
-            options.InputWorkingDirectory = new InputFileSystemDirectory(RunExamples.InputDirectory);
+            options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
             // Specify a file system working directory for the output.
-            options.OutputWorkingDirectory = new OutputFileSystemDirectory(RunExamples.OutputDirectory);
+            options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
             // Specify the console as the input terminal.
             options.TerminalIn = new InputConsoleTerminal();  // Default value. Arbitrary assignment.
             // Specify the console as the output terminal.

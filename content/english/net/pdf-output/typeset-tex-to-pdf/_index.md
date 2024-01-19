@@ -25,9 +25,9 @@ namespace Aspose.TeX.Examples.CSharp.TeXTypesetting
         {
             // ExStart:WriteOutputPdfToExternalStream
             // Open a stream on a ZIP archive that will serve as the input working directory.
-            using (Stream inZipStream = File.Open(Path.Combine(RunExamples.InputDirectory, "zip-in.zip"), FileMode.Open))
+            using (Stream inZipStream = File.Open(Path.Combine("Your Input Directory", "zip-in.zip"), FileMode.Open))
             // Open a stream on a ZIP archive that will serve as the output working directory.
-            using (Stream outZipStream = File.Open(Path.Combine(RunExamples.OutputDirectory, "typeset-pdf-to-external-stream.zip"), FileMode.Create))
+            using (Stream outZipStream = File.Open(Path.Combine("Your Output Directory", "typeset-pdf-to-external-stream.zip"), FileMode.Create))
             {
                 // Create conversion options for default ObjectTeX format upon ObjectTeX engine extension.
                 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
@@ -45,7 +45,7 @@ namespace Aspose.TeX.Examples.CSharp.TeXTypesetting
                 options.SaveOptions = new PdfSaveOptions();
                 // Open a stream to write the output PDF to.
                 // 1) A file somewhere on a local file system.
-                using (Stream stream = File.Open(Path.Combine(RunExamples.OutputDirectory, "file-name.pdf"), FileMode.Create)) // writing PDF somewhere else
+                using (Stream stream = File.Open(Path.Combine("Your Output Directory", "file-name.pdf"), FileMode.Create)) // writing PDF somewhere else
                 // 2) A file in the output ZIP. A weird feature that extends flexibilty :)
                 //using (Stream stream = options.OutputWorkingDirectory.GetFile("file-name.pdf", out string fullName)) // writing PDF to the same ZIP
                     new TeXJob("hello-world", new PdfDevice(stream), options).Run();

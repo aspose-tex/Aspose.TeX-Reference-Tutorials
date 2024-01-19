@@ -41,7 +41,7 @@ namespace Aspose.TeX.Examples.CSharp.LaTeXMathRendering
             System.Drawing.SizeF size = new System.Drawing.SizeF();
             // Create the output stream for the formula image.
             using (System.IO.Stream stream = System.IO.File.Open(
-                System.IO.Path.Combine(RunExamples.OutputDirectory, "math-formula.svg"), System.IO.FileMode.Create))
+                System.IO.Path.Combine("Your Output Directory", "math-formula.svg"), System.IO.FileMode.Create))
             {
                 // Run rendering.
                 new SvgMathRenderer().Render(@"\begin{equation*}

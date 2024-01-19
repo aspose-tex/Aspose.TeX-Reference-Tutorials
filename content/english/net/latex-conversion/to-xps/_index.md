@@ -24,7 +24,7 @@ namespace Aspose.TeX.Examples.CSharp.TeXTypesetting
             // ExStart:Conversion-LaTeXToXps-Simplest
             // Create conversion options for Object LaTeX format upon Object TeX engine extension.
             TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectLaTeX);
-            options.InputWorkingDirectory = new InputFileSystemDirectory(RunExamples.InputDirectory);
+            options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
 
             // ExStart:Aspose.TeX.Examples-Conversion-InteractionMode
             // Set interaction mode.
@@ -57,7 +57,7 @@ namespace Aspose.TeX.Examples.CSharp.TeXTypesetting
             // Exend:Aspose.TeX.Examples-Conversion-Repeat
 
             // Specify a file system working directory for the output.
-            options.OutputWorkingDirectory = new OutputFileSystemDirectory(RunExamples.OutputDirectory);
+            options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 
             // Initialize the options for saving in XPS format.
             options.SaveOptions = new XpsSaveOptions(); // Default value. Arbitrary assignment.
@@ -78,7 +78,7 @@ namespace Aspose.TeX.Examples.CSharp.TeXTypesetting
             // ExEnd:Aspose.TeX.Examples-Conversion-SubsetFonts
 
             // Run LaTeX to XPS conversion.
-            new TeXJob(Path.Combine(RunExamples.InputDirectory, "sample.ltx"), new XpsDevice(), options).Run();
+            new TeXJob(Path.Combine("Your Input Directory", "sample.ltx"), new XpsDevice(), options).Run();
 
             // ExStart:Aspose.TeX.Examples-Conversion-InputStream
             // Run LaTeX to XPS conversion.

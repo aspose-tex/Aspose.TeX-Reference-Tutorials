@@ -36,7 +36,7 @@ namespace Aspose.TeX.Examples.CSharp.LaTeXFigureRenderer
             System.Drawing.SizeF size = new System.Drawing.SizeF();
             // Create the output stream for the figure image.
             using (System.IO.Stream stream = System.IO.File.Open(
-               System.IO.Path.Combine(RunExamples.OutputDirectory, "text-and-formula.svg"), System.IO.FileMode.Create))
+               System.IO.Path.Combine("Your Output Directory", "text-and-formula.svg"), System.IO.FileMode.Create))
             {
                 // Run rendering.
                 new SvgFigureRenderer().Render(@"\setlength{\unitlength}{0.8cm}

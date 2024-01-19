@@ -29,16 +29,16 @@ namespace Aspose.TeX.Examples.CSharp.TeXTypesetting
             // Create the format provider using the file system input working directory.
             // We use the project output directory as our custom format file is supposed to be located there.
             using (FormatProvider formatProvider =
-                new FormatProvider(new InputFileSystemDirectory(RunExamples.OutputDirectory), "customtex"))
+                new FormatProvider(new InputFileSystemDirectory("Your Output Directory"), "customtex"))
             {
                 // Create conversion options for a custom format upon ObjectTeX engine extension.
                 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX(formatProvider));
                 options.JobName = "typeset-with-custom-format";
                 // Specify the input working directory. This is not required here as we are providing the main input as a stream.
                 // But it is required when the main input has dependencies (e.g. images).
-                options.InputWorkingDirectory = new InputFileSystemDirectory(RunExamples.InputDirectory);
+                options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
                 // Specify a file system working directory for the output.
-                options.OutputWorkingDirectory = new OutputFileSystemDirectory(RunExamples.OutputDirectory);
+                options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 
                 // Run the job.
                 new TeXJob(new MemoryStream(Encoding.ASCII.GetBytes(

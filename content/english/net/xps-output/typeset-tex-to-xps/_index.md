@@ -29,15 +29,15 @@ namespace Aspose.TeX.Examples.CSharp.TeXTypesetting
             // Specify a job name.
             options.JobName = "external-file-stream";
             // Specify a file system working directory the for input.
-            options.InputWorkingDirectory = new InputFileSystemDirectory(RunExamples.InputDirectory);
+            options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
             // Specify a file system working directory the for output.
-            options.OutputWorkingDirectory = new OutputFileSystemDirectory(RunExamples.OutputDirectory);
+            options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
             // Specify that the terminal output must be written to a file in the output working directory.
             // The file name is <job_name>.trm.
             options.TerminalOut = new OutputFileTerminal(options.OutputWorkingDirectory);
 
             // Open the stream to write typeset XPS document. The file name is not necessarily the same as the job name.
-            using (Stream stream = File.Open(Path.Combine(RunExamples.OutputDirectory, options.JobName + ".xps"), FileMode.Create))
+            using (Stream stream = File.Open(Path.Combine("Your Output Directory", options.JobName + ".xps"), FileMode.Create))
                 // Run the job.
                 new TeXJob("hello-world", new XpsDevice(stream), options).Run();
             // ExEnd:WriteOutputXpsToExternalStream

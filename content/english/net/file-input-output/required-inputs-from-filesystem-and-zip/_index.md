@@ -24,14 +24,14 @@ namespace Aspose.TeX.Examples.CSharp.TeXTypesetting
             // Create conversion options for Object LaTeX format upon Object TeX engine extension.
             TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectLaTeX);
             // Specify a file system working directory for the output.
-            options.OutputWorkingDirectory = new OutputFileSystemDirectory(RunExamples.OutputDirectory);
+            options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
             // Specify a file system working directory for the required input.
             // The directory containing packages may be located anywhere.
-            options.RequiredInputDirectory = new InputFileSystemDirectory(Path.Combine(RunExamples.InputDirectory, "packages"));
+            options.RequiredInputDirectory = new InputFileSystemDirectory(Path.Combine("Your Input Directory", "packages"));
             // Initialize the options for saving in PNG format.
             options.SaveOptions = new PngSaveOptions();
             // Run LaTeX to PNG conversion.
-            new TeXJob(Path.Combine(RunExamples.InputDirectory, "required-input-fs.tex"), new ImageDevice(), options).Run();
+            new TeXJob(Path.Combine("Your Input Directory", "required-input-fs.tex"), new ImageDevice(), options).Run();
             // ExEnd:Conversion-RequiredInput-FileSystem
         }
     }

@@ -25,9 +25,9 @@ namespace Aspose.TeX.Examples.CSharp.TeXTypesetting
         {
             // ExStart:WriteTerminalOutputToZip
             // Open a stream on a ZIP archive that will serve as the input working directory.
-            using (Stream inZipStream = File.Open(Path.Combine(RunExamples.InputDirectory, "zip-in.zip"), FileMode.Open))
+            using (Stream inZipStream = File.Open(Path.Combine("Your Input Directory", "zip-in.zip"), FileMode.Open))
             // Open a stream on a ZIP archive that will serve as the output working directory.
-            using (Stream outZipStream = File.Open(Path.Combine(RunExamples.OutputDirectory, "terminal-out-to-zip.zip"), FileMode.Create))
+            using (Stream outZipStream = File.Open(Path.Combine("Your Output Directory", "terminal-out-to-zip.zip"), FileMode.Create))
             {
                 // Create conversion options for default ObjectTeX format upon ObjectTeX engine extension.
                 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
