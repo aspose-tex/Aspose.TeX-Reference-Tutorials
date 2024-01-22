@@ -10,3 +10,4 @@ url: /net/advanced-formatting-and-customization/
 
 ## Advanced TeX Formatting and Customization Tutorials
 ### [Create Unique LaTeX Designs with Aspose.TeX for .NET](./create-custom-tex-formats/)
+Create stunning LaTeX designs effortlessly with Aspose.TeX for .NET. Download now for a seamless integration into your .NET projects.
