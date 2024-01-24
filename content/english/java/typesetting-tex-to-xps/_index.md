@@ -10,3 +10,4 @@ url: /java/typesetting-tex-to-xps/
 
 ## Typesetting TeX Files to XPS in Java Tutorials
 ### [Typeset TeX to XPS in Java with External Stream](./typeset-tex-to-xps-external-stream/)
+Learn how to typeset TeX to XPS in Java using Aspose.TeX. Explore step-by-step guidance for seamless document processing.
