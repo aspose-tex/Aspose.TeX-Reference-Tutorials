@@ -10,3 +10,4 @@ url: /java/typesetting-tex-to-pdf/
 
 ## Typesetting TeX Files to PDF in Java Tutorials
 ### [Typeset TeX to PDF in Java with External Stream](./typeset-tex-to-pdf-external-stream/)
+Learn how to typeset TeX to PDF in Java using external streams with Aspose.TeX. Follow our step-by-step guide for seamless integration.
