@@ -35,7 +35,7 @@ using Aspose.TeX.Presentation.Image;
 using System.IO;
 ```
 
-## Example: Work with Filesystem & ZIP Inputs
+## Work with Filesystem & ZIP Inputs
 
 ### Step 1: Create Conversion Options
 
