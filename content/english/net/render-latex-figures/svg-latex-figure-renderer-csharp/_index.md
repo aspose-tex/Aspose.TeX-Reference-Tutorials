@@ -76,7 +76,7 @@ A1: Aspose.TeX offers a free trial. You can access it [here](https://releases.as
 
 ### Q2: Where can I find Aspose.TeX documentation?
 
-A2: Refer to the official documentation [here](https://reference.aspose.com/tex/net/).
+A2: Refer to the documentation [here](https://reference.aspose.com/tex/net/).
 
 ### Q3: How do I get support for Aspose.TeX?
 
