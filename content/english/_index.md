@@ -52,7 +52,3 @@ These are links to some useful resources:
 - [Working with Custom TeX Formats in Java](./java/custom-tex-formats/)
 - [Typesetting TeX Files to XPS in Java](./java/typesetting-tex-to-xps/)
 - [Handling ZIP Archives in Aspose.TeX for Java](./java/zip-archives/)
-
-## Document(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_4}
-
-## Document(*string*) {#constructor_3}
