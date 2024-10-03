@@ -11,7 +11,7 @@ url: /net/latex-conversion/
 
 Are you ready to elevate your document processing capabilities in .NET? Aspose.TeX brings you a seamless solution for LaTeX conversion to various formats, including PDF, PNG, SVG, and XPS. In this comprehensive guide, we'll explore each conversion method to help you integrate and customize effortlessly.
 
-## LaTeX to PDF in .NET - 2 Easy Methods with Aspose.TeX
+## LaTeX to [PDF](./to-pdf/) in .NET - 2 Easy Methods with Aspose.TeX
 
 Dive into the world of LaTeX to PDF conversion with Aspose.TeX. This tutorial unveils two easy methods to achieve a smooth and customized transformation. Whether you're a beginner or an experienced developer, the guide ensures effortless integration for a high-quality PDF output. [Explore the tutorial here](./to-pdf/).
 
