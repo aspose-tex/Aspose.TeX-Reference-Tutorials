@@ -3,10 +3,16 @@ title: Twórz niestandardowe formaty TeX dla spójnego składu w Javie
 linktitle: Twórz niestandardowe formaty TeX dla spójnego składu w Javie
 second_title: Aspose.TeX API Java
 description: Zwiększ spójność składu w Javie dzięki Aspose.TeX. Twórz niestandardowe formaty TeX bez wysiłku.
-type: docs
 weight: 10
 url: /pl/java/custom-format/creating-custom-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twórz niestandardowe formaty TeX dla spójnego składu w Javie
+
 ## Wstęp
 
 Formatowanie dokumentów TeX jest krytycznym aspektem przetwarzania dokumentów, szczególnie gdy niezbędna jest spójność między różnymi dokumentami. Aspose.TeX dla Java zapewnia solidne rozwiązanie tego wyzwania, umożliwiając programistom tworzenie niestandardowych formatów TeX dostosowanych do ich specyficznych wymagań.
@@ -114,3 +120,9 @@ W tym samouczku zbadaliśmy proces tworzenia niestandardowych formatów TeX za p
 ### P5: Jak mogę uzyskać wsparcie dla Aspose.TeX dla Java?
 
  Odpowiedź 5: Możesz szukać wsparcia na stronie[Forum Aspose.TeX](https://forum.aspose.com/c/tex/47).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

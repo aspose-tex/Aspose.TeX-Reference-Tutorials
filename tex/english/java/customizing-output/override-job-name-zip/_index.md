@@ -3,10 +3,16 @@ title: Override Job Name and Write Terminal Output to Zip in Java
 linktitle: Override Job Name and Write Terminal Output to Zip in Java
 second_title: Aspose.TeX Java API
 description: Learn how to override job names and write terminal output to ZIP in Java with Aspose.TeX. A comprehensive tutorial for Java developers.
-type: docs
 weight: 11
 url: /java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Override Job Name and Write Terminal Output to Zip in Java
+
 ## Introduction
 
 In the world of Java development, Aspose.TeX stands out as a powerful tool for handling TeX file formats. In this tutorial, we'll delve into a specific scenario – overriding job names and writing terminal output to a zip file. This step-by-step guide will walk you through the process using Aspose.TeX for Java.
@@ -127,3 +133,10 @@ A4: Yes, you can find the free trial version [here](https://releases.aspose.com/
 
 A5: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for support and discussions.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

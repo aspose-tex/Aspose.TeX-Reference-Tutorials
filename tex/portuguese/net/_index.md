@@ -1,12 +1,17 @@
 ---
 title: Tutoriais abrangentes e exemplos de Aspose.TeX para .NET
 linktitle: Tutoriais Aspose.TeX para .NET
-type: docs
 weight: 10
 url: /pt/net/
 description: Domine o design LaTeX com facilidade usando Aspose.TeX para .NET. Baixe para integração perfeita e explore formatação avançada, manipulação de arquivos, licenciamento e muito mais.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriais abrangentes e exemplos de Aspose.TeX para .NET
+
 
 ## Introdução
 
@@ -80,3 +85,9 @@ Descubra a arte de renderizar equações matemáticas LaTeX como SVG em .NET com
 Desbloqueie o domínio da geração de documentos com Aspose.TeX for .NET. Aprenda a criar formatos TeX personalizados sem esforço neste tutorial abrangente.
 ### [Entrada e saída de arquivo zip](./zip-file-io/)
 Desbloqueie o potencial do Aspose.TeX para .NET com nossos tutoriais de entrada e saída de arquivo Zip. Explore o manuseio de arquivos ZIP e o processamento de documentos para seus aplicativos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

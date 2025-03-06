@@ -3,10 +3,16 @@ title: 控制 Aspose.TeX 作业输出
 linktitle: 控制 Aspose.TeX 作业输出
 second_title: Aspose.TeX .NET API
 description: 使用 Aspose.TeX for .NET 增强 TeX 文件管理。通过我们的分步指南，学习使用 C# 轻松覆盖作业名称并捕获终端输出。
-type: docs
 weight: 24
 url: /zh/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 控制 Aspose.TeX 作业输出
+
 
 ## 介绍
 
@@ -36,3 +42,9 @@ Aspose.TeX 使您能够简化工作流程，本教程旨在使该过程变得有
 探索如何使用 Aspose.TeX for .NET 覆盖作业名称并捕获终端输出。请遵循我们的无缝 TeX 文件管理综合指南。
 ### [覆盖作业名称并将终端输出写入 Zip (C#)](./override-job-name-zip-output-csharp/)
 了解如何使用 Aspose.TeX for .NET 覆盖作业名称并将终端输出写入 ZIP 文件。包含 C# 示例的分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

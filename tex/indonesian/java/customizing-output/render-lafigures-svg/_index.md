@@ -3,10 +3,16 @@ title: Render Angka LaTeX ke SVG di Java
 linktitle: Render Angka LaTeX ke SVG di Java
 second_title: Aspose.TeX Java API
 description: Pelajari cara merender angka LaTeX ke SVG dengan mudah di Java menggunakan Aspose.TeX. Ikuti panduan langkah demi langkah ini untuk integrasi yang lancar.
-type: docs
 weight: 14
 url: /id/java/customizing-output/render-lafigures-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render Angka LaTeX ke SVG di Java
+
 ## Perkenalan
 
 Membuat dan merender figur LaTeX di Java bisa menjadi tugas yang kompleks namun krusial untuk berbagai aplikasi. Dalam tutorial ini, kita akan mempelajari cara merender angka LaTeX ke SVG menggunakan Aspose.TeX untuk Java. Aspose.TeX menyediakan fungsionalitas canggih untuk menangani dokumen LaTeX dan mengubahnya menjadi berbagai format, termasuk SVG.
@@ -118,3 +124,9 @@ A4: Aspose.TeX memungkinkan konversi ke berbagai format, termasuk SVG, PNG, dan 
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.TeX untuk Java?
 
  A5: Lihat[Dokumentasi Aspose.TeX](https://reference.aspose.com/tex/java/) untuk informasi yang komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

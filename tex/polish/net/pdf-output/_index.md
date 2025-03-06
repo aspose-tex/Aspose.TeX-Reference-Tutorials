@@ -3,10 +3,16 @@ title: Praca z wyjściem PDF
 linktitle: Praca z wyjściem PDF
 second_title: Aspose.TeX API .NET
 description: Odblokuj moc Aspose.TeX dla .NET dzięki naszemu wszechstronnemu samouczkowi na temat składu TeX-a do formatu PDF. Podnieś swoje umiejętności programistyczne .NET dzięki płynnej integracji.
-type: docs
 weight: 28
 url: /pl/net/pdf-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Praca z wyjściem PDF
+
 ## Wstęp
 
 Aspose.TeX dla .NET zmienia reguły gry w świecie składu TeX-a na format PDF, a ten samouczek jest bramą do uwolnienia jego pełnego potencjału. W tym artykule zagłębimy się w zawiłości pracy z danymi wyjściowymi w formacie PDF, skupiając się na bezproblemowej integracji Aspose.TeX dla .NET.
@@ -31,3 +37,9 @@ Podsumowując, nasz samouczek Aspose.TeX dla .NET na temat składu TeX-a do form
 ## Praca z samouczkami wyjściowymi w formacie PDF
 ### [Jak złożyć TeX do formatu PDF w .NET](./typeset-tex-to-pdf/)
 Poznaj bezproblemową integrację Aspose.TeX dla .NET w składaniu TeX-a do formatu PDF. Zapoznaj się z tym kompleksowym samouczkiem i podnieś swoje umiejętności programistyczne .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

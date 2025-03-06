@@ -3,10 +3,16 @@ title: Gemeten licentie instellen voor Aspose.TeX (C#)
 linktitle: Gemeten licentie instellen voor Aspose.TeX (C#)
 second_title: Aspose.TeX .NET-API
 description: Ontdek Aspose.TeX voor .NET, stel moeiteloos licenties met datalimiet in en ontgrendel het volledige potentieel van TeX-bestandsmanipulatie in uw C#-projecten.
-type: docs
 weight: 12
 url: /nl/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gemeten licentie instellen voor Aspose.TeX (C#)
+
 ## Invoering
 
 Aspose.TeX voor .NET is een krachtige bibliotheek waarmee ontwikkelaars naadloos met TeX-bestanden kunnen werken. Om het volledige potentieel ervan te ontsluiten, is het essentieel om een gemeten licentie in te stellen. Dit zorgt ervoor dat u over de juiste autorisatie beschikt om de bibliotheek in uw toepassingen te gebruiken.
@@ -92,3 +98,9 @@ Het instellen van een gemeten licentie voor Aspose.TeX in C# is een eenvoudig pr
 ### V5: Kan ik een tijdelijke licentie gebruiken voor Aspose.TeX?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

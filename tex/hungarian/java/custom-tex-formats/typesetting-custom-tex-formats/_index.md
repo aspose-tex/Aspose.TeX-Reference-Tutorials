@@ -3,10 +3,16 @@ title: Szedés egyéni TeX formátumokkal Java nyelven
 linktitle: Szedés egyéni TeX formátumokkal Java nyelven
 second_title: Aspose.TeX Java API
 description: Fedezze fel a hatékony betűszedést Java nyelven az Aspose.TeX segítségével. Egyedi TeX formátumok egyszerűvé teszik. Töltse le most a zökkenőmentes fejlesztési élményért.
-type: docs
 weight: 10
 url: /hu/java/custom-tex-formats/typesetting-custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szedés egyéni TeX formátumokkal Java nyelven
+
 ## Bevezetés
 
 A Java fejlesztés területén az Aspose.TeX felbecsülhetetlen értékű eszköznek bizonyult az egyéni TeX formátumok szedésénél. Ez az oktatóanyag az Aspose.TeX for Java használatának folyamatát mutatja be a személyre szabott TeX formátumok használatával történő hatékony szedés érdekében. Akár tapasztalt fejlesztő, akár újonc, ez az útmutató úgy készült, hogy zökkenőmentesen végigvezeti Önt a lépéseken.
@@ -115,3 +121,9 @@ Gratulálunk! Sikeres szedési folyamatot végzett az Aspose.TeX for Java haszn�
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.TeX könyvtárat?
 
  5. válasz: Biztosítsa másolatát a következő címen:[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

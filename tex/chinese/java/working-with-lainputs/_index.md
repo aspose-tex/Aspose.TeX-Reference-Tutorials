@@ -3,10 +3,16 @@ title: 在 Java 中使用 LaTeX 输入
 linktitle: 在 Java 中使用 LaTeX 输入
 second_title: Aspose.TeX Java API
 description: 使用 Aspose.TeX 轻松管理 Java 中的 LaTeX 文件。探索无缝集成，立即下载，并在您的 Java 项目中利用 TeX 的强大功能来增强文档处理。
-type: docs
 weight: 21
 url: /zh/java/working-with-lainputs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用 LaTeX 输入
+
 ## 介绍
 
 LaTeX 是一种以其文档格式精确性而闻名的排版系统，它在 Aspose.TeX for Java 中找到了新盟友。本教程系列将指导您充分利用 Java 中 LaTeX 输入的潜力，使用 Aspose.TeX 来简化您的文档处理能力。
@@ -31,3 +37,9 @@ LaTeX 是一种以其文档格式精确性而闻名的排版系统，它在 Aspo
 使用 Aspose.TeX 轻松处理 Java 中的 LaTeX 文件。立即下载以实现无缝集成，并在您的 Java 项目中探索 TeX 的强大功能。
 ### [用 Java 处理 Zip 档案中的 LaTeX 输入文件](./zip-archive-input/)
 了解使用 Aspose.TeX 在 Java 中处理 zip 存档中的 LaTeX 文件的无缝指南。轻松提升您的文档处理能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

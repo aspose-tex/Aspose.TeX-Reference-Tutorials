@@ -3,10 +3,16 @@ title: Aspose.TeX for Java에서 라이선스 관리
 linktitle: Aspose.TeX for Java에서 라이선스 관리
 second_title: Aspose.TeX 자바 API
 description: Java용 Aspose.TeX의 잠재력을 활용해 보세요! 라이선스를 손쉽게 관리하는 방법을 알아보세요. 단계별 튜토리얼을 통해 파일에서 로드하고 스트리밍하거나 계량형 라이선스를 설정하세요.
-type: docs
 weight: 25
 url: /ko/java/managing-licenses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX for Java에서 라이선스 관리
+
 
 ## 소개 
 
@@ -32,3 +38,9 @@ Java용 Aspose.TeX의 강력한 기능을 알아보세요. 단계별 가이드�
 스트림에서 TeX 라이선스를 로드하는 방법에 대한 단계별 가이드를 통해 Java용 Aspose.TeX의 강력한 기능을 살펴보세요. TeX 문서 조작을 Java 애플리케이션에 원활하게 통합합니다.
 ### [Java에서 Aspose.TeX에 대한 측정 라이센스 설정](./set-metered-license/)
 계량 라이센스를 설정하여 Java에서 Aspose.TeX의 잠재력을 최대한 활용하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

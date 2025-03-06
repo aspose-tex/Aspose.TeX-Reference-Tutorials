@@ -3,10 +3,16 @@ title: Advanced Input and Output in Aspose.TeX for Java
 linktitle: Advanced Input and Output in Aspose.TeX for Java
 second_title: Aspose.TeX Java API
 description: Improve Java TeX processing with Aspose.TeX for Java tutorials. Learn to specify input directories and optimize stream processing for enhanced Java projects.
-type: docs
 weight: 27
 url: /java/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced Input and Output in Aspose.TeX for Java
+
 
 ## Introduction
 
@@ -30,3 +36,9 @@ In conclusion, these tutorials serve as your gateway to mastering Aspose.TeX for
 Enhance Java TeX processing with Aspose.TeX for Java. Follow our step-by-step guide to specify required input directories seamlessly.
 ### [Stream Input, Image Output, and Terminal Input in Java](./stream-input-image-output/)
 Learn stream input, image output, and terminal input in Java using Aspose.TeX. A comprehensive tutorial for seamless integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

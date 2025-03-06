@@ -3,10 +3,16 @@ title: Spisz TeX na XPS w Javie za pomocą strumienia zewnętrznego
 linktitle: Spisz TeX na XPS w Javie za pomocą strumienia zewnętrznego
 second_title: Aspose.TeX API Java
 description: Dowiedz się, jak złożyć TeX na XPS w Javie przy użyciu Aspose.TeX. Zapoznaj się ze wskazówkami krok po kroku dotyczącymi bezproblemowego przetwarzania dokumentów.
-type: docs
 weight: 10
 url: /pl/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spisz TeX na XPS w Javie za pomocą strumienia zewnętrznego
+
 ## Wstęp
 
 W świecie programowania w języku Java Aspose.TeX wyróżnia się jako potężne narzędzie do składu dokumentów TeX-owych w różnych formatach, w tym XPS. Jeśli chcesz ulepszyć możliwości przetwarzania dokumentów w aplikacji Java, ten samouczek jest stworzony dla Ciebie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces składowania TeX-a na XPS przy użyciu Aspose.TeX dla Java z zewnętrznym strumieniem.
@@ -122,3 +128,9 @@ Odpowiedź 1: Aspose.TeX koncentruje się przede wszystkim na przetwarzaniu doku
 ### P5: Czy mogę uzyskać tymczasową licencję do celów testowych?
 
  Odpowiedź 5: Tak, możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

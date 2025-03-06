@@ -3,10 +3,16 @@ title: 管理 Aspose.TeX for Java 中的許可證
 linktitle: 管理 Aspose.TeX for Java 中的許可證
 second_title: Aspose.TeX Java API
 description: 釋放 Aspose.TeX for Java 的潛力！了解如何輕鬆管理許可證 - 透過我們的逐步教學從檔案、串流或設定計量許可證。
-type: docs
 weight: 25
 url: /zh-hant/java/managing-licenses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 管理 Aspose.TeX for Java 中的許可證
+
 
 ## 介紹 
 
@@ -32,3 +38,9 @@ url: /zh-hant/java/managing-licenses/
 透過我們關於從串流載入 TeX 授權的逐步指南，探索 Aspose.TeX for Java 的強大功能。將 TeX 文件操作無縫整合到您的 Java 應用程式中。
 ### [在 Java 中設定 Aspose.TeX 的計量許可證](./set-metered-license/)
 透過設定計量許可證來釋放 Java 中 Aspose.TeX 的全部潛力。請按照我們的逐步指南進行無縫整合。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

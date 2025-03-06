@@ -3,10 +3,16 @@ title: कस्टम टीएक्स प्रारूप
 linktitle: कस्टम टीएक्स प्रारूप
 second_title: Aspose.TeX .NET एपीआई
 description: .NET के लिए Aspose.TeX के साथ दस्तावेज़ निर्माण में महारत हासिल करें। इस व्यापक ट्यूटोरियल में सहजता से कस्टम TeX प्रारूप बनाना सीखें।
-type: docs
 weight: 31
 url: /hi/net/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# कस्टम टीएक्स प्रारूप
+
 ## परिचय
 
  .NET के लिए Aspose.TeX दस्तावेज़ निर्माण के लिए संभावनाओं की दुनिया खोलता है, और कस्टम TeX प्रारूपों के निर्माण में महारत हासिल करना एक महत्वपूर्ण पहलू है। इस ट्यूटोरियल में, हम भवन निर्माण की जटिलताओं के बारे में जानेंगे[.NET में कस्टम TeX प्रारूप](./create-custom-tex-formats/), आपको आपकी विशिष्ट आवश्यकताओं के अनुसार दस्तावेज़ निर्माण को बढ़ाने के लिए सशक्त बनाता है।
@@ -31,3 +37,9 @@ url: /hi/net/custom-tex-formats/
 ## कस्टम TeX प्रारूप ट्यूटोरियल
 ### [.NET में कस्टम TeX फ़ॉर्मेट बनाना](./create-custom-tex-formats/)
 .NET के लिए Aspose.TeX के साथ दस्तावेज़ निर्माण में महारत हासिल करें। सहजता से कस्टम TeX प्रारूप बनाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

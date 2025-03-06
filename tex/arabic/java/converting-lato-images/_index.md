@@ -3,10 +3,16 @@ title: تحويل LaTeX إلى صور في جافا
 linktitle: تحويل LaTeX إلى صور في جافا
 second_title: Aspose.TeX جافا API
 description: قم بتحويل صور LaTeX إلى صور PNG في Java بسهولة باستخدام Aspose.TeX. استكشف الخيارات المتقدمة في برامجنا التعليمية الشاملة لتحقيق التكامل السلس.
-type: docs
 weight: 22
 url: /ar/java/converting-lato-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل LaTeX إلى صور في جافا
+
 
 ## مقدمة
 
@@ -50,3 +56,9 @@ url: /ar/java/converting-lato-images/
 تعلم كيفية تحويل LaTeX إلى صور PNG بسهولة في Java باستخدام Aspose.TeX. اتبع دليلنا خطوة بخطوة للتكامل السلس.
 ### [اكتشف خيارات تحويل PNG المتقدمة باستخدام Aspose.TeX لـ Java](./advanced-png-conversion/)
 اكتشف تحويل PNG المتقدم باستخدام Aspose.TeX لـ Java. برنامج تعليمي شامل حول تحويل LaTeX إلى PNG.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

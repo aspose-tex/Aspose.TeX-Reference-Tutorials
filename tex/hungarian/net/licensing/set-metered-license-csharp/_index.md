@@ -3,10 +3,16 @@ title: Mérhető licenc beállítása az Aspose.TeX (C#) számára
 linktitle: Mérhető licenc beállítása az Aspose.TeX (C#) számára
 second_title: Aspose.TeX .NET API
 description: Fedezze fel az Aspose.TeX for .NET-et, állítsa be könnyedén a mért licencelést, és aknázza ki a TeX fájlkezelésben rejlő lehetőségeket C# projektjeiben.
-type: docs
 weight: 12
 url: /hu/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mérhető licenc beállítása az Aspose.TeX (C#) számára
+
 ## Bevezetés
 
 Az Aspose.TeX for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak TeX fájlokkal. A benne rejlő lehetőségek teljes kiaknázásához elengedhetetlen egy mérsékelt licenc létrehozása. Ez biztosítja, hogy megfelelő jogosultsággal rendelkezzen a könyvtár használatához az alkalmazásokban.
@@ -92,3 +98,9 @@ Az Aspose.TeX mérőlicencének beállítása C# nyelven egyszerű folyamat. Az 
 ### 5. kérdés: Használhatok ideiglenes licencet az Aspose.TeX-hez?
 
  V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pokročilý vstup a výstup Aspose.TeX
 linktitle: Pokročilý vstup a výstup Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: Odhalte sílu Aspose.TeX pro .NET pomocí našich pokročilých výukových programů. Naučte se specifikovat vstupní adresáře a hlavní proudy, obrázky a terminálový vstup v C#.
-type: docs
 weight: 27
 url: /cs/net/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pokročilý vstup a výstup Aspose.TeX
+
 ## Úvod
 
 Aspose.TeX for .NET je zásadní změnou v bezproblémové integraci TeXu a poskytuje vývojářům robustní knihovnu pro zlepšení zpracování dokumentů. V tomto článku se ponoříme do pokročilých výukových programů se zaměřením na specifikaci vstupních adresářů a zvládnutí streamů, obrázků a terminálového vstupu v C#.
@@ -29,3 +35,9 @@ Na závěr, tyto tutoriály slouží jako vaše brána k zvládnutí Aspose.TeX 
 Prozkoumejte Aspose.TeX for .NET, robustní knihovnu pro bezproblémovou integraci TeXu. Postupujte podle našeho podrobného průvodce.
 ### [Hlavní proudy, obrázky a terminálový vstup v Aspose.TeX pro C#](./stream-input-image-output-terminal-input-csharp/)
 Prozkoumejte sílu Aspose.TeX pro hlavní streamy, obrázky a terminálový vstup pro C# bez námahy. Stáhněte si nyní pro bezproblémové zpracování dokumentů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إدخال وإخراج الملف المضغوط
 linktitle: إدخال وإخراج الملف المضغوط
 second_title: Aspose.TeX .NET API
 description: أطلق العنان لإمكانات Aspose.TeX لـ .NET من خلال البرامج التعليمية الخاصة بإدخال وإخراج الملفات المضغوطة. استكشف معالجة ملفات ZIP ومعالجة المستندات لتطبيقاتك.
-type: docs
 weight: 32
 url: /ar/net/zip-file-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدخال وإخراج الملف المضغوط
+
 ## مقدمة
 
 يمثل Aspose.TeX for .NET أداة قوية تعمل على رفع قدرات معالجة المستندات لديك إلى آفاق جديدة. في هذه السلسلة التعليمية، نتعمق في تعقيدات التعامل مع ملفات ZIP باستخدام Aspose.TeX، مما يوفر لك فهمًا شاملاً لوظائفه.
@@ -28,3 +34,9 @@ url: /ar/net/zip-file-io/
 ## دروس إدخال وإخراج الملفات المضغوطة
 ### [استخدام الملفات المضغوطة مع Aspose.TeX لـ .NET](./zip-files-aspose-tex/)
 اكتشف قوة Aspose.TeX for .NET في التعامل مع ملفات ZIP دون عناء. تعزيز معالجة المستندات في تطبيقاتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

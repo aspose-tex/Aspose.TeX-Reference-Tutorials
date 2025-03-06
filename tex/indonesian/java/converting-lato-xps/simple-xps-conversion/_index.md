@@ -3,10 +3,16 @@ title: Konversi LaTeX ke Format XPS di Java dengan Mudah
 linktitle: Konversi LaTeX ke Format XPS di Java dengan Mudah
 second_title: Aspose.TeX Java API
 description: Konversi LaTeX ke XPS dengan mudah di Java menggunakan Aspose.TeX. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/java/converting-lato-xps/simple-xps-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi LaTeX ke Format XPS di Java dengan Mudah
+
 ## Perkenalan
 
 Apakah Anda ingin mengonversi dokumen LaTeX ke format XPS dengan lancar di aplikasi Java Anda? Aspose.TeX untuk Java memberikan solusi yang kuat, memungkinkan Anda mencapai hal ini dengan mudah. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengonversi LaTeX ke XPS menggunakan Aspose.TeX.
@@ -136,3 +142,9 @@ A1: Tentu saja! Aspose.TeX menangani rumus kompleks dengan lancar selama proses 
 ### Q5: Di mana saya dapat menemukan dokumentasi untuk Aspose.TeX?
 
  A5: Lihat[dokumentasi](https://reference.aspose.com/tex/java/) untuk panduan komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

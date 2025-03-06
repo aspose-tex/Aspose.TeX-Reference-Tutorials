@@ -3,10 +3,16 @@ title: Java'da İş Adını Geçersiz Kıl ve Terminal Çıkışını Zip'e Yaz
 linktitle: Java'da İş Adını Geçersiz Kıl ve Terminal Çıkışını Zip'e Yaz
 second_title: Aspose.TeX Java API'si
 description: Aspose.TeX ile Java'da iş adlarını nasıl geçersiz kılacağınızı ve terminal çıktısını ZIP'e yazmayı öğrenin. Java geliştiricileri için kapsamlı bir eğitim.
-type: docs
 weight: 11
 url: /tr/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da İş Adını Geçersiz Kıl ve Terminal Çıkışını Zip'e Yaz
+
 ## giriiş
 
 Java geliştirme dünyasında Aspose.TeX, TeX dosya formatlarını yönetmek için güçlü bir araç olarak öne çıkıyor. Bu eğitimde, iş adlarının geçersiz kılınması ve terminal çıktısının bir zip dosyasına yazılması gibi belirli bir senaryoyu inceleyeceğiz. Bu adım adım kılavuz, Aspose.TeX for Java'yı kullanma sürecinde size yol gösterecektir.
@@ -126,3 +132,10 @@ Cevap1: Aspose.TeX, geliştiricilerin TeX dosya formatlarıyla çalışmasına o
 ### S5: Aspose.TeX ile ilgili nereden destek alabilirim veya soru sorabilirim?
 
  A5: ziyaret edin[Aspose.TeX forumu](https://forum.aspose.com/c/tex/47) Destek ve tartışmalar için.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

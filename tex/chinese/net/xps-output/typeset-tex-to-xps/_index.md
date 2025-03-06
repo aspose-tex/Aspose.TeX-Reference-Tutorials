@@ -3,10 +3,16 @@ title: 在 .NET 中将 TeX 排版为 XPS
 linktitle: 在 .NET 中将 TeX 排版为 XPS
 second_title: Aspose.TeX .NET API
 description: 使用 Aspose.TeX 轻松将 TeX 文档转换为 .NET 中的 XPS。探索我们的分步指南，以获得无缝集成体验。
-type: docs
 weight: 10
 url: /zh/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 .NET 中将 TeX 排版为 XPS
+
 ## 介绍
 
 欢迎阅读我们关于使用强大的 Aspose.TeX 库在 .NET 中将 TeX 排版为 XPS 的分步指南。如果您希望在 .NET 应用程序中将 TeX 文档无缝转换为 XPS 格式，那么您来对地方了。在本教程中，我们将引导您完成整个过程，分解每个步骤以确保顺利实施。
@@ -94,3 +100,9 @@ A2：当然！ Aspose.TeX 可用于商业和个人用途。
 ### Q5: 有免费试用吗？
 
  A5：是的，您可以免费试用[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

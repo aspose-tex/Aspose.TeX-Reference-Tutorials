@@ -3,10 +3,16 @@ title: Mengetik TeX ke XPS di .NET
 linktitle: Mengetik TeX ke XPS di .NET
 second_title: Aspose.TeX .NET API
 description: Konversikan dokumen TeX ke XPS dengan mudah di .NET dengan Aspose.TeX. Jelajahi panduan langkah demi langkah kami untuk pengalaman integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengetik TeX ke XPS di .NET
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang penyusunan huruf TeX ke XPS di .NET menggunakan pustaka Aspose.TeX yang canggih. Jika Anda ingin mengonversi dokumen TeX ke format XPS dengan lancar di aplikasi .NET, Anda datang ke tempat yang tepat. Dalam tutorial ini, kami akan memandu Anda melalui seluruh proses, menguraikan setiap langkah untuk memastikan implementasi yang lancar.
@@ -94,3 +100,9 @@ A2: Tentu saja! Aspose.TeX tersedia untuk penggunaan komersial dan pribadi.
 ### Q5: Apakah tersedia uji coba gratis?
 
  A5: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

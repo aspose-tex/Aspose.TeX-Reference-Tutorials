@@ -3,10 +3,16 @@ title: Work with Filesystems & XPS Output in Aspose.TeX for .NET
 linktitle: Work with Filesystems & XPS Output in Aspose.TeX for .NET
 second_title: Aspose.TeX .NET API
 description: Discover the power of Aspose.TeX for .NET. Learn how to effortlessly handle filesystems and generate XPS output in this comprehensive tutorial.
-type: docs
 weight: 10
 url: /net/file-input-output/filesystem-input-xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Work with Filesystems & XPS Output in Aspose.TeX for .NET
+
 ## Introduction
 
 Welcome to this comprehensive tutorial on working with filesystems and XPS output in Aspose.TeX for .NET! If you're looking to harness the power of Aspose.TeX to manage input and output through filesystems while generating XPS output, you've come to the right place. In this step-by-step guide, we'll walk you through the process, breaking down each example into multiple steps to ensure a clear understanding.
@@ -113,3 +119,10 @@ A4: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for communit
 ### Q5: Are there any sample projects available?
 
 A5: Explore the Aspose.TeX GitHub repository for sample projects and code snippets.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

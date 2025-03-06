@@ -3,10 +3,16 @@ title: 使用外部串流在 Java 中將 TeX 排版為 XPS
 linktitle: 使用外部串流在 Java 中將 TeX 排版為 XPS
 second_title: Aspose.TeX Java API
 description: 了解如何使用 Aspose.TeX 在 Java 中將 TeX 排版為 XPS。探索無縫文件處理的逐步指南。
-type: docs
 weight: 10
 url: /zh-hant/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用外部串流在 Java 中將 TeX 排版為 XPS
+
 ## 介紹
 
 在 Java 開發領域，Aspose.TeX 作為將 TeX 文檔排版為各種格式（包括 XPS）的強大工具而脫穎而出。如果您希望增強 Java 應用程式的文件處理能力，本教學課程就是為您量身訂製的。在本逐步指南中，我們將引導您完成使用 Aspose.TeX for Java 和外部串流將 TeX 排版為 XPS 的過程。
@@ -122,3 +128,9 @@ A1：Aspose.TeX主要專注於TeX相關的文件處理。對於其他格式，�
 ### Q5：我可以獲得臨時許可證用於測試目的嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

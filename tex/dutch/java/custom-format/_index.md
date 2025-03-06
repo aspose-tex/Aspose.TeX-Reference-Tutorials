@@ -3,10 +3,16 @@ title: Aangepaste TeX-indeling maken in Java
 linktitle: Aangepaste TeX-indeling maken in Java
 second_title: Aspose.TeX Java-API
 description: Verbeter de consistentie van het zetwerk in Java met Aspose.TeX. Duik in onze tutorials over het maken van aangepaste TeX-formaten voor naadloze en efficiënte documentopmaak.
-type: docs
 weight: 24
 url: /nl/java/custom-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aangepaste TeX-indeling maken in Java
+
 ## Invoering
 
 Welkom bij een uitgebreide handleiding over het benutten van de kracht van Aspose.TeX voor Java om ongeëvenaarde consistentie in zetwerk te bereiken. In deze tutorialreeks verdiepen we ons in de kunst van het maken van aangepaste TeX-formaten, waardoor u uw documentopmaakspel moeiteloos naar een hoger niveau kunt tillen.
@@ -41,3 +47,9 @@ Ga op deze reis met Aspose.TeX voor Java-tutorials en transformeer de manier waa
 ## Aangepaste TeX-indeling maken in Java-tutorials
 ### [Maak aangepaste TeX-formaten voor consistente typografie in Java](./creating-custom-formats/)
 Verbeter de consistentie van het zetwerk in Java met Aspose.TeX. Creëer moeiteloos aangepaste TeX-formaten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

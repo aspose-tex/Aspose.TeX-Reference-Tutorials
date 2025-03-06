@@ -3,10 +3,16 @@ title: Kết xuất toán LaTeX thành PNG trong Java
 linktitle: Kết xuất toán LaTeX thành PNG trong Java
 second_title: API Java Aspose.TeX
 description: Tìm hiểu cách hiển thị các phương trình toán học LaTeX thành hình ảnh PNG trong Java bằng Aspose.TeX. Hướng dẫn từng bước để tích hợp liền mạch và đạt hiệu suất vượt trội.
-type: docs
 weight: 13
 url: /vi/java/customizing-output/render-lamath-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất toán LaTeX thành PNG trong Java
+
 ## Giới thiệu
 
 Trong thế giới năng động của lập trình Java, việc hiển thị toán học LaTeX sang hình ảnh PNG là một yêu cầu phổ biến. Aspose.TeX dành cho Java cung cấp một giải pháp mạnh mẽ cho nhiệm vụ này, cung cấp khả năng tích hợp liền mạch và hiệu suất vượt trội. Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình hiển thị các phương trình toán học LaTeX sang định dạng PNG bằng Aspose.TeX.
@@ -113,3 +119,9 @@ Câu trả lời 3: Tính đến phiên bản mới nhất, Aspose.TeX chủ y�
 ### Câu hỏi 5: Tôi có thể tìm kiếm trợ giúp hoặc thảo luận các vấn đề liên quan đến Aspose.TeX ở đâu?
 
  A5: Tham quan[diễn đàn Aspose.TeX](https://forum.aspose.com/c/tex/47) để tìm kiếm sự hỗ trợ, đặt câu hỏi và tham gia với cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

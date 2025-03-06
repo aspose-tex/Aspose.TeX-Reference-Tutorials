@@ -3,10 +3,16 @@ title: تحويل LaTeX إلى XPS في جافا
 linktitle: تحويل LaTeX إلى XPS في جافا
 second_title: Aspose.TeX جافا API
 description: قم بتحويل LaTeX إلى XPS بسهولة في Java باستخدام Aspose.TeX. دليل خطوة بخطوة للتكامل السلس ومعالجة المستندات بكفاءة.
-type: docs
 weight: 23
 url: /ar/java/converting-lato-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل LaTeX إلى XPS في جافا
+
 ## مقدمة
 
 عندما تتعمق في عالم دروس Aspose.TeX لـ Java، تصبح عملية تحويل تنسيق LaTeX إلى تنسيق XPS أمرًا سهلاً. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام Java، سيرشدك دليلنا خطوة بخطوة عبر التعقيدات، مما يضمن التكامل السلس لـ Aspose.TeX في مشاريعك.
@@ -27,3 +33,9 @@ url: /ar/java/converting-lato-xps/
 قم بتحويل LaTeX إلى XPS بسهولة في Java باستخدام Aspose.TeX. اتبع دليلنا خطوة بخطوة للتكامل السلس.
 ### [قم بتخصيص تحويل LaTeX إلى XPS في Java باستخدام Aspose.TeX](./advanced-xps-conversion/)
 أطلق العنان للتحويل السلس من LaTeX إلى XPS في Java باستخدام Aspose.TeX. اتبع دليلنا خطوة بخطوة لمعالجة المستندات بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

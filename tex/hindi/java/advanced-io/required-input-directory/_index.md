@@ -3,10 +3,16 @@ title: जावा में आवश्यक इनपुट निर्द
 linktitle: जावा में आवश्यक इनपुट निर्देशिका निर्दिष्ट करें
 second_title: Aspose.TeX जावा एपीआई
 description: Java के लिए Aspose.TeX के साथ Java TeX प्रोसेसिंग को बढ़ाएं। आवश्यक इनपुट निर्देशिकाओं को निर्बाध रूप से निर्दिष्ट करने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 10
 url: /hi/java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में आवश्यक इनपुट निर्देशिका निर्दिष्ट करें
+
 ## परिचय
 
 क्या आप TeX कार्यों को प्रभावी ढंग से संभालने के लिए अपने जावा एप्लिकेशन की क्षमताओं को बढ़ाना चाह रहे हैं? Java के लिए Aspose.TeX वह समाधान है जिसे आप खोज रहे हैं! इस व्यापक गाइड में, हम आपको Aspose.TeX का उपयोग करके जावा में एक आवश्यक इनपुट निर्देशिका निर्दिष्ट करने की प्रक्रिया के बारे में बताएंगे।
@@ -104,3 +110,9 @@ inputDirectory.close();
 ### Q5: मैं जावा के लिए Aspose.TeX कैसे खरीदूं?
 
  A5: खरीदने के लिए, खरीद पृष्ठ पर जाएँ[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

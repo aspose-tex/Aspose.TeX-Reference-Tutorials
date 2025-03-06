@@ -3,10 +3,16 @@ title: 使用外部串流在 Java 中將 TeX 排版為 PDF
 linktitle: 使用外部串流在 Java 中將 TeX 排版為 PDF
 second_title: Aspose.TeX Java API
 description: 了解如何使用 Aspose.TeX 的外部串流在 Java 中將 TeX 排版為 PDF。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 10
 url: /zh-hant/java/typesetting-tex-to-pdf/typeset-tex-to-pdf-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用外部串流在 Java 中將 TeX 排版為 PDF
+
 ## 介紹
 
 在 Java 開發領域，從 TeX 檔案建立 PDF 是一種常見的需求。 Aspose.TeX for Java 簡化了這個過程，為將 TeX 排版為 PDF 提供了有效的解決方案。在本教學中，我們將引導您完成使用外部串流將 TeX 排版為 PDF 的步驟。最後，您將清楚地了解如何在 Java 應用程式中無縫地實現此過程。
@@ -112,3 +118,9 @@ try {
 ### Q5：我可以取得 Aspose.TeX 的臨時授權嗎？
 
  A5：是的，您可以申請臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

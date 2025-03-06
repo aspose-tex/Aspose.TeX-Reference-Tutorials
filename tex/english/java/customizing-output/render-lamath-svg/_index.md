@@ -3,10 +3,16 @@ title: Render LaTeX Math to SVG in Java
 linktitle: Render LaTeX Math to SVG in Java
 second_title: Aspose.TeX Java API
 description: Learn how to render LaTeX math equations to SVG in Java using Aspose.TeX. Follow our step-by-step guide for accurate and visually appealing results.
-type: docs
 weight: 15
 url: /java/customizing-output/render-lamath-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render LaTeX Math to SVG in Java
+
 ## Introduction
 
 Welcome to this comprehensive guide on rendering LaTeX math equations to SVG in Java using Aspose.TeX. Whether you're a seasoned developer or just starting with Java, this tutorial will walk you through the process step by step, ensuring you achieve accurate and visually appealing results. 
@@ -111,3 +117,10 @@ A4: Visit [here](https://purchase.aspose.com/temporary-license/) for temporary l
 ### Q5: Where can I find more detailed documentation?
 
 A5: Explore the comprehensive documentation at [Aspose.TeX Java Documentation](https://reference.aspose.com/tex/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

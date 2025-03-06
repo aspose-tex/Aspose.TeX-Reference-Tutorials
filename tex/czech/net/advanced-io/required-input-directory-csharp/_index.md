@@ -3,10 +3,16 @@ title: Zadejte požadovaný vstupní adresář pro Aspose.TeX (C#)
 linktitle: Zadejte požadovaný vstupní adresář pro Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Prozkoumejte Aspose.TeX for .NET, robustní knihovnu pro bezproblémovou integraci TeXu. Postupujte podle našeho podrobného průvodce.
-type: docs
 weight: 10
 url: /cs/net/advanced-io/required-input-directory-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zadejte požadovaný vstupní adresář pro Aspose.TeX (C#)
+
 ## Úvod
 
 oblasti zpracování a sazby dokumentů představuje Aspose.TeX for .NET výkonný nástroj pro vývojáře. Usnadňuje bezproblémové vytváření a manipulaci se soubory TeX v aplikacích .NET. Tento článek slouží jako obsáhlý průvodce, který rozděluje využití Aspose.TeX pro .NET do snadno pochopitelných kroků.
@@ -123,3 +129,9 @@ A4: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.TeX pro .NET?
 
  A5: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

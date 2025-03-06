@@ -3,10 +3,16 @@ title: عرض أشكال LaTeX إلى SVG باستخدام Aspose.TeX (C#)
 linktitle: عرض أشكال LaTeX إلى SVG باستخدام Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: تحسين عرض المستندات في .NET باستخدام Aspose.TeX. تعرف على كيفية عرض أشكال LaTeX إلى SVG في لغة C# لتحقيق التكامل السلس للتعبيرات الرياضية.
-type: docs
 weight: 11
 url: /ar/net/render-latex-figures/svg-latex-figure-renderer-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض أشكال LaTeX إلى SVG باستخدام Aspose.TeX (C#)
+
 ## مقدمة
 
 إذا كنت تتطلع إلى تحسين إمكانات عرض المستندات لديك في .NET باستخدام أشكال LaTeX، فإن Aspose.TeX هو الحل الأمثل لك. في هذا الدليل خطوة بخطوة، سنرشدك خلال عملية عرض أشكال LaTeX إلى SVG باستخدام Aspose.TeX في C#. بحلول نهاية هذا البرنامج التعليمي، سيكون لديك فهم واضح للعملية، مما يمكّنك من دمج التعبيرات والأشكال الرياضية عالية الجودة بسلاسة في مستنداتك.
@@ -89,3 +95,9 @@ Console.Out.WriteLine("Size: " + size);
 ### س5: هل أحتاج إلى ترخيص مؤقت؟
 
  ج5: إذا لزم الأمر، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Render LaTeX Math to PNG with Aspose.TeX (C#)
 linktitle: Render LaTeX Math to PNG with Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Learn how to render LaTeX math to PNG in C# using Aspose.TeX. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 10
 url: /net/render-latex-math/png-latex-math-renderer-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render LaTeX Math to PNG with Aspose.TeX (C#)
+
 ## Introduction
 
 Welcome to this comprehensive guide on rendering LaTeX math to PNG using Aspose.TeX for .NET! Aspose.TeX is a powerful library that allows you to work with LaTeX documents programmatically in your .NET applications. In this tutorial, we will focus on a specific task: rendering LaTeX math equations to PNG images using C#.
@@ -119,3 +125,10 @@ A4: Yes, Aspose.TeX supports rendering to various formats, including SVG, PDF, a
 
 A5: Yes, visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support and discussions.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

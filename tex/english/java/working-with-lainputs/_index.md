@@ -3,10 +3,16 @@ title: Working with LaTeX Inputs in Java
 linktitle: Working with LaTeX Inputs in Java
 second_title: Aspose.TeX Java API
 description: Effortlessly manage LaTeX files in Java with Aspose.TeX. Explore seamless integration, download now, and harness the power of TeX in your Java projects for enhanced document processing.
-type: docs
 weight: 21
 url: /java/working-with-lainputs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with LaTeX Inputs in Java
+
 ## Introduction
 
 LaTeX, a typesetting system known for its precision in document formatting, finds a new ally in Aspose.TeX for Java. This tutorial series will guide you through harnessing the potential of LaTeX inputs in Java, using Aspose.TeX to streamline your document processing capabilities.
@@ -31,3 +37,9 @@ In conclusion, these tutorials offer a gateway to a world where LaTeX seamlessly
 Effortlessly handle LaTeX files in Java with Aspose.TeX. Download now for seamless integration, and explore the power of TeX in your Java projects.
 ### [Process LaTeX Input Files from Zip Archives in Java](./zip-archive-input/)
 Discover a seamless guide to process LaTeX files from zip archives in Java using Aspose.TeX. Boost your document processing capabilities effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: एक्सपीएस आउटपुट के साथ कार्
 linktitle: एक्सपीएस आउटपुट के साथ कार्य करना
 second_title: Aspose.TeX .NET एपीआई
 description: .NET में Aspose.TeX के साथ TeX को आसानी से XPS में बदलें। हमारा मार्गदर्शक निर्बाध एकीकरण सुनिश्चित करता है। विशेषज्ञ अंतर्दृष्टि के लिए टाइपसेटिंग TeX से XPS ट्यूटोरियल का अन्वेषण करें।
-type: docs
 weight: 29
 url: /hi/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# एक्सपीएस आउटपुट के साथ कार्य करना
+
 ## परिचय
 
 क्या आप अपने .NET अनुप्रयोगों में Aspose.TeX की शक्ति का उपयोग करना चाह रहे हैं? एक्सपीएस आउटपुट के साथ काम करने के लिए विशेष रूप से तैयार किए गए हमारे व्यापक ट्यूटोरियल में गोता लगाएँ। इस लेख में, हम आपको TeX दस्तावेज़ों को आसानी से XPS में परिवर्तित करने की प्रक्रिया के बारे में मार्गदर्शन करेंगे, जो Aspose.TeX के साथ एक सहज एकीकरण अनुभव प्रदान करेगा।
@@ -36,3 +42,9 @@ url: /hi/net/xps-output/
 ## एक्सपीएस आउटपुट ट्यूटोरियल के साथ कार्य करना
 ### [.NET में TeX को XPS पर टाइप करना](./typeset-tex-to-xps/)
 Aspose.TeX के साथ आसानी से TeX दस्तावेज़ों को .NET में XPS में परिवर्तित करें। निर्बाध एकीकरण अनुभव के लिए हमारी चरण-दर-चरण मार्गदर्शिका देखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

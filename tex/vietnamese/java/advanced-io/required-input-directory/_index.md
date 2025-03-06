@@ -3,10 +3,16 @@ title: Chỉ định thư mục đầu vào bắt buộc trong Java
 linktitle: Chỉ định thư mục đầu vào bắt buộc trong Java
 second_title: API Java Aspose.TeX
 description: Tăng cường xử lý Java TeX với Aspose.TeX cho Java. Làm theo hướng dẫn từng bước của chúng tôi để chỉ định liền mạch các thư mục đầu vào cần thiết.
-type: docs
 weight: 10
 url: /vi/java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định thư mục đầu vào bắt buộc trong Java
+
 ## Giới thiệu
 
 Bạn đang tìm cách nâng cao khả năng của ứng dụng Java trong việc xử lý các công việc TeX một cách hiệu quả? Aspose.TeX cho Java chính là giải pháp mà bạn đang tìm kiếm! Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình chỉ định thư mục đầu vào bắt buộc trong Java bằng Aspose.TeX.
@@ -104,3 +110,9 @@ Aspose.TeX dành cho Java trao quyền cho các nhà phát triển xử lý các
 ### Câu hỏi 5: Làm cách nào để mua Aspose.TeX cho Java?
 
  A5: Để mua hàng, hãy truy cập trang mua hàng[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

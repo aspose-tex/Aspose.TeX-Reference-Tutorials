@@ -3,10 +3,16 @@ title: Создание пользовательских форматов TeX в
 linktitle: Создание пользовательских форматов TeX в .NET
 second_title: API Aspose.TeX .NET
 description: Разблокируйте мастерство создания документов с помощью Aspose.TeX для .NET. Создавайте собственные форматы TeX без особых усилий.
-type: docs
 weight: 10
 url: /ru/net/custom-tex-formats/create-custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание пользовательских форматов TeX в .NET
+
 ## Введение
 
 В динамичном мире разработки .NET оптимизация создания и набора документов имеет решающее значение. Aspose.TeX для .NET дает разработчикам возможность настраивать форматы TeX, повышая гибкость и контроль над созданием документов. В этом руководстве рассказывается о процессе создания пользовательских форматов TeX в .NET с использованием Aspose.TeX.
@@ -99,3 +105,9 @@ using (FormatProvider formatProvider =
 ### Вопрос 5: Где я могу найти документацию по Aspose.TeX для .NET?
 
  A5: обратитесь к подробной документации.[здесь](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

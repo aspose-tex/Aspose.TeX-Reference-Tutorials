@@ -3,10 +3,16 @@ title: 高級 Aspose.TeX 輸入和輸出
 linktitle: 高級 Aspose.TeX 輸入和輸出
 second_title: Aspose.TeX .NET API
 description: 透過我們的進階教學探索 Aspose.TeX for .NET 的強大功能。學習在 C# 中指定輸入目錄和主流、影像和終端輸入。
-type: docs
 weight: 27
 url: /zh-hant/net/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 高級 Aspose.TeX 輸入和輸出
+
 ## 介紹
 
 Aspose.TeX for .NET 是無縫 TeX 整合的遊戲規則改變者，為開發人員提供了強大的函式庫來增強文件處理。在本文中，我們將深入研究高級教程，重點關注在 C# 中指定輸入目錄以及掌握流、圖像和終端輸入。
@@ -29,3 +35,9 @@ Aspose.TeX for .NET 為文件處理的無限可能世界打開了大門。為了
 探索 Aspose.TeX for .NET，這是一個用於無縫 TeX 整合的強大函式庫。請遵循我們的逐步指南。
 ### [在 Aspose.TeX for C# 中主控流、影像和終端輸入](./stream-input-image-output-terminal-input-csharp/)
 輕鬆探索 Aspose.TeX 在 C# 主流、影像和終端輸入方面的強大功能。立即下載以進行無縫文件處理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

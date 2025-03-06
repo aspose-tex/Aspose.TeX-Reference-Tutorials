@@ -3,10 +3,16 @@ title: Ввод и вывод ZIP-файла
 linktitle: Ввод и вывод ZIP-файла
 second_title: API Aspose.TeX .NET
 description: Раскройте потенциал Aspose.TeX для .NET с помощью наших руководств по вводу и выводу Zip-файлов. Изучите обработку ZIP-файлов и обработку документов для ваших приложений.
-type: docs
 weight: 32
 url: /ru/net/zip-file-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ввод и вывод ZIP-файла
+
 ## Введение
 
 Aspose.TeX для .NET представляет собой мощный инструмент, поднимающий ваши возможности обработки документов на новую высоту. В этой серии руководств мы углубимся в тонкости обработки ZIP-файлов с помощью Aspose.TeX, предоставив вам полное понимание его функций.
@@ -28,3 +34,9 @@ Aspose.TeX для .NET представляет собой мощный инст
 ## Учебные пособия по вводу и выводу ZIP-файлов
 ### [Использование ZIP-файлов с Aspose.TeX для .NET](./zip-files-aspose-tex/)
 Исследуйте возможности Aspose.TeX для .NET, позволяющие легко обрабатывать ZIP-файлы. Улучшите обработку документов в своих приложениях.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

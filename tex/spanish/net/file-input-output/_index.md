@@ -3,10 +3,16 @@ title: Entrada y salida de archivos con Aspose.TeX
 linktitle: Entrada y salida de archivos con Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Descubra el potencial de Aspose.TeX para .NET con tutoriales sobre entrada y salida de archivos. Domine el manejo del sistema de archivos, las entradas ZIP y la salida XPS sin esfuerzo.
-type: docs
 weight: 22
 url: /es/net/file-input-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Entrada y salida de archivos con Aspose.TeX
+
 ## Introducción
 
 ¿Estás listo para profundizar en el mundo dinámico de Aspose.TeX para .NET? Esta guía completa explora las complejidades de la entrada y salida de archivos, desentrañando el poder de esta sólida biblioteca para el manejo de documentos TeX y LaTeX.
@@ -32,3 +38,9 @@ Los tutoriales de Aspose.TeX para .NET sobre entrada y salida de archivos son la
 Descubra el poder de Aspose.TeX para .NET. Aprenda a manejar sistemas de archivos sin esfuerzo y generar resultados XPS en este completo tutorial.
 ### [Trabaje con sistema de archivos y entradas ZIP en Aspose.TeX para .NET](./required-inputs-from-filesystem-and-zip/)
 Explore Aspose.TeX para .NET, una biblioteca sólida para el manejo de documentos TeX y LaTeX. Convierta archivos de manera eficiente con sistema de archivos y entradas ZIP.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

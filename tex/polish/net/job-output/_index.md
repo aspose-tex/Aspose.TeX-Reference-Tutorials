@@ -3,10 +3,16 @@ title: Kontroluj wyniki zadań Aspose.TeX
 linktitle: Kontroluj wyniki zadań Aspose.TeX
 second_title: Aspose.TeX API .NET
 description: Ulepsz zarządzanie plikami TeX za pomocą Aspose.TeX dla .NET. Dowiedz się, jak zastępować nazwy zadań i bez wysiłku przechwytywać dane wyjściowe terminala przy użyciu języka C#, korzystając z naszych przewodników krok po kroku.
-type: docs
 weight: 24
 url: /pl/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kontroluj wyniki zadań Aspose.TeX
+
 
 ## Wstęp
 
@@ -36,3 +42,9 @@ Podsumowując, te samouczki służą jako brama do opanowania Aspose.TeX dla .NE
 Dowiedz się, jak używać Aspose.TeX dla .NET do zastępowania nazw zadań i przechwytywania danych wyjściowych terminala. Postępuj zgodnie z naszym obszernym przewodnikiem po bezproblemowym zarządzaniu plikami TeX.
 ### [Zastąp nazwę zadania i zapisz dane wyjściowe terminala w formacie Zip (C#)](./override-job-name-zip-output-csharp/)
 Dowiedz się, jak zastąpić nazwy zadań i zapisać dane wyjściowe terminala w pliku ZIP przy użyciu Aspose.TeX dla .NET. Przewodnik krok po kroku z przykładami C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

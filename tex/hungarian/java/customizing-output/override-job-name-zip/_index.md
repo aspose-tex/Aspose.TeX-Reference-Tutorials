@@ -3,10 +3,16 @@ title: Felülírja a feladat nevét, és írja be a terminál kimenetét Zip-be 
 linktitle: Felülírja a feladat nevét, és írja be a terminál kimenetét Zip-be Java nyelven
 second_title: Aspose.TeX Java API
 description: Tanulja meg, hogyan írhatja felül a jobneveket, és hogyan írhat terminálkimenetet ZIP-re Java nyelven az Aspose.TeX segítségével. Átfogó oktatóanyag Java fejlesztőknek.
-type: docs
 weight: 11
 url: /hu/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Felülírja a feladat nevét, és írja be a terminál kimenetét Zip-be Java nyelven
+
 ## Bevezetés
 
 A Java fejlesztés világában az Aspose.TeX a TeX fájlformátumok kezelésének hatékony eszközeként tűnik ki. Ebben az oktatóanyagban egy konkrét forgatókönyvet vizsgálunk meg – a jobnevek felülbírálását és a terminál kimenetének zip fájlba írását. Ez a lépésenkénti útmutató végigvezeti a folyamaton az Aspose.TeX for Java használatával.
@@ -126,3 +132,10 @@ Gratulálunk! Sikeresen megtanulta, hogyan írhatja felül a jobneveket, és hog
 ### 5. kérdés: Hol kérhetek támogatást vagy tehetek fel kérdéseket az Aspose.TeX-szel kapcsolatban?
 
  A5: Látogassa meg a[Aspose.TeX fórum](https://forum.aspose.com/c/tex/47) támogatásért és megbeszélésekért.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

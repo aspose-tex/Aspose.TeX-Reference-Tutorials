@@ -3,10 +3,16 @@ title: Aspose.TeX 작업 출력 제어
 linktitle: Aspose.TeX 작업 출력 제어
 second_title: Aspose.TeX .NET API
 description: .NET용 Aspose.TeX를 사용하여 TeX 파일 관리를 강화하세요. 단계별 가이드를 통해 C#을 사용하여 작업 이름을 재정의하고 터미널 출력을 손쉽게 캡처하는 방법을 알아보세요.
-type: docs
 weight: 24
 url: /ko/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX 작업 출력 제어
+
 
 ## 소개
 
@@ -36,3 +42,9 @@ Aspose.TeX를 사용하면 작업 흐름을 간소화할 수 있으며, 이 튜�
 .NET용 Aspose.TeX를 사용하여 작업 이름을 재정의하고 터미널 출력을 캡처하는 방법을 알아보세요. 원활한 TeX 파일 관리를 위한 포괄적인 가이드를 따르세요.
 ### [작업 이름 재정의 및 터미널 출력을 Zip에 쓰기(C#)](./override-job-name-zip-output-csharp/)
 .NET용 Aspose.TeX를 사용하여 작업 이름을 재정의하고 터미널 출력을 ZIP 파일에 쓰는 방법을 알아보세요. C# 예제가 포함된 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

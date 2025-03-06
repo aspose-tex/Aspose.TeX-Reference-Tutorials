@@ -3,10 +3,16 @@ title: تقديم LaTeX Math إلى PNG في Java
 linktitle: تقديم LaTeX Math إلى PNG في Java
 second_title: Aspose.TeX جافا API
 description: تعلم كيفية عرض معادلات LaTeX الرياضية إلى صور PNG في Java باستخدام Aspose.TeX. دليل خطوة بخطوة للتكامل السلس والأداء الاستثنائي.
-type: docs
 weight: 13
 url: /ar/java/customizing-output/render-lamath-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم LaTeX Math إلى PNG في Java
+
 ## مقدمة
 
 في العالم الديناميكي لبرمجة Java، يعد تقديم رياضيات LaTeX إلى صور PNG مطلبًا شائعًا. يقدم Aspose.TeX for Java حلاً قويًا لهذه المهمة، حيث يوفر تكاملًا سلسًا وأداءً استثنائيًا. في هذا البرنامج التعليمي، سنتعرف على عملية عرض معادلات LaTeX الرياضية إلى تنسيق PNG باستخدام Aspose.TeX.
@@ -113,3 +119,9 @@ System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 ### س5: أين يمكنني طلب المساعدة أو مناقشة المشكلات المتعلقة بـ Aspose.TeX؟
 
  ج5: قم بزيارة[منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47) لطلب الدعم وطرح الأسئلة والتفاعل مع المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

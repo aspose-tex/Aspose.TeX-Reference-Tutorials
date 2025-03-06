@@ -3,10 +3,16 @@ title: Harici Akış ile Java'da TeX'i XPS'ye ayarlayın
 linktitle: Harici Akış ile Java'da TeX'i XPS'ye ayarlayın
 second_title: Aspose.TeX Java API'si
 description: Aspose.TeX'i kullanarak Java'da TeX'i XPS'ye nasıl dizeceğinizi öğrenin. Sorunsuz belge işleme için adım adım kılavuzu keşfedin.
-type: docs
 weight: 10
 url: /tr/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Harici Akış ile Java'da TeX'i XPS'ye ayarlayın
+
 ## giriiş
 
 Java geliştirme dünyasında Aspose.TeX, TeX belgelerini XPS dahil çeşitli formatlara dizmek için güçlü bir araç olarak öne çıkıyor. Java uygulamanızın belge işleme yeteneklerini geliştirmek istiyorsanız bu eğitim tam size göre. Bu adım adım kılavuzda, Aspose.TeX for Java'yı harici bir akışla kullanarak TeX'i XPS'ye dizme sürecinde size yol göstereceğiz.
@@ -122,3 +128,9 @@ Cevap1: Aspose.TeX öncelikli olarak TeX ile ilgili belge işlemeye odaklanır. 
 ### S5: Test amaçlı geçici lisans alabilir miyim?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

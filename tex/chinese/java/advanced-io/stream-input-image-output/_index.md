@@ -3,10 +3,16 @@ title: Java中的流输入、图像输出和终端输入
 linktitle: Java中的流输入、图像输出和终端输入
 second_title: Aspose.TeX Java API
 description: 使用 Aspose.TeX 学习 Java 中的流输入、图像输出和终端输入。无缝集成的综合教程。
-type: docs
 weight: 11
 url: /zh/java/advanced-io/stream-input-image-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java中的流输入、图像输出和终端输入
+
 ## 介绍
 
 Aspose.TeX for Java 是一个功能强大的库，允许开发人员使用 TeX 文件，从而促进高质量文档的创建和操作。在本教程中，我们将探索使用 Aspose.TeX 在 Java 中获取流输入、生成图像输出以及处理终端输入的过程。
@@ -134,3 +140,9 @@ A2：当然！ Aspose.TeX 提供了各种保存输出图像的选项，允许根
 ### Q5：Aspose.TeX 文档还有其他资源吗？
 
  A5：探索综合[文档](https://reference.aspose.com/tex/java/)以获得详细的见解和示例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

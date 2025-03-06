@@ -3,10 +3,16 @@ title: Набор текста TeX в XPS на Java с внешним поток
 linktitle: Набор текста TeX в XPS на Java с внешним потоком
 second_title: API Aspose.TeX Java
 description: Узнайте, как верстать TeX в XPS на Java с помощью Aspose.TeX. Ознакомьтесь с пошаговыми инструкциями по бесперебойной обработке документов.
-type: docs
 weight: 10
 url: /ru/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Набор текста TeX в XPS на Java с внешним потоком
+
 ## Введение
 
 В мире разработки Java Aspose.TeX выделяется как мощный инструмент для верстки документов TeX в различные форматы, включая XPS. Если вы хотите расширить возможности обработки документов в своем Java-приложении, это руководство специально для вас. В этом пошаговом руководстве мы покажем вам процесс верстки TeX в XPS с использованием Aspose.TeX для Java с внешним потоком.
@@ -122,3 +128,9 @@ A1: Aspose.TeX в первую очередь ориентирован на об
 ### Вопрос 5: Могу ли я получить временную лицензию для целей тестирования?
 
  О5: Да, вы можете приобрести временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

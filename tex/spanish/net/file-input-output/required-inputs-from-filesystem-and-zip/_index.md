@@ -3,10 +3,16 @@ title: Trabaje con sistema de archivos y entradas ZIP en Aspose.TeX para .NET
 linktitle: Trabaje con sistema de archivos y entradas ZIP en Aspose.TeX para .NET
 second_title: API Aspose.TeX .NET
 description: Explore Aspose.TeX para .NET, una biblioteca sólida para el manejo de documentos TeX y LaTeX. Convierta archivos de manera eficiente con sistema de archivos y entradas ZIP.
-type: docs
 weight: 11
 url: /es/net/file-input-output/required-inputs-from-filesystem-and-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabaje con sistema de archivos y entradas ZIP en Aspose.TeX para .NET
+
 ## Introducción
 
 Bienvenido al tutorial sobre cómo trabajar con sistemas de archivos y entradas ZIP en Aspose.TeX para .NET. Aspose.TeX es una poderosa biblioteca .NET que le permite trabajar con documentos TeX y LaTeX. En este tutorial, nos centraremos en el manejo del sistema de archivos y las entradas ZIP, brindándole orientación paso a paso sobre cómo utilizar Aspose.TeX para una conversión eficiente de documentos.
@@ -103,3 +109,9 @@ R1: Aspose.TeX se centra principalmente en el procesamiento de documentos TeX y 
 ### P5: ¿Dónde puedo comprar Aspose.TeX para .NET?
 
 R5: Puede comprar Aspose.TeX para .NET desde el[pagina de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

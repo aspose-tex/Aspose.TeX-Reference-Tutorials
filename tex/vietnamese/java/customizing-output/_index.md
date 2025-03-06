@@ -3,10 +3,16 @@ title: Tùy chỉnh đầu ra TeX trong Aspose.TeX cho Java
 linktitle: Tùy chỉnh đầu ra TeX trong Aspose.TeX cho Java
 second_title: API Java Aspose.TeX
 description: Nâng cao khả năng xử lý tài liệu của bạn trong Java với Aspose.TeX. Khám phá các hướng dẫn về ghi đè tên công việc, ghi kết quả đầu ra của thiết bị đầu cuối và hiển thị liền mạch các số liệu và toán học LaTeX sang PNG/SVG.
-type: docs
 weight: 26
 url: /vi/java/customizing-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh đầu ra TeX trong Aspose.TeX cho Java
+
 ## Giới thiệu
 
 Bạn có phải là nhà phát triển Java đang tìm cách nâng cao khả năng xử lý tài liệu của mình không? Đi sâu vào thế giới của Aspose.TeX, một công cụ mạnh mẽ cho phép bạn tùy chỉnh đầu ra TeX với độ chính xác và hiệu quả. Trong bài viết này, chúng tôi sẽ hướng dẫn bạn các hướng dẫn cần thiết về các tùy chọn tùy chỉnh khác nhau.
@@ -61,3 +67,9 @@ Tìm hiểu cách hiển thị các phương trình toán học LaTeX thành hì
 Tìm hiểu cách dễ dàng hiển thị các số liệu LaTeX thành SVG trong Java bằng Aspose.TeX. Hãy làm theo hướng dẫn từng bước này để tích hợp liền mạch.
 ### [Kết xuất toán LaTeX thành SVG trong Java](./render-lamath-svg/)
 Tìm hiểu cách hiển thị các phương trình toán học LaTeX thành SVG trong Java bằng Aspose.TeX. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được kết quả chính xác và hấp dẫn về mặt hình ảnh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

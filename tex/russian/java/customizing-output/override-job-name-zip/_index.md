@@ -3,10 +3,16 @@ title: Переопределить имя задания и записать в
 linktitle: Переопределить имя задания и записать вывод терминала в ZIP в Java
 second_title: API Aspose.TeX Java
 description: Узнайте, как переопределить имена заданий и записать вывод терминала в ZIP на Java с помощью Aspose.TeX. Подробное руководство для разработчиков Java.
-type: docs
 weight: 11
 url: /ru/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Переопределить имя задания и записать вывод терминала в ZIP в Java
+
 ## Введение
 
 В мире разработки Java Aspose.TeX выделяется как мощный инструмент для работы с форматами файлов TeX. В этом руководстве мы углубимся в конкретный сценарий — переопределение имен заданий и запись вывода терминала в zip-файл. Это пошаговое руководство проведет вас через весь процесс использования Aspose.TeX для Java.
@@ -126,3 +132,10 @@ A1: Aspose.TeX — это библиотека Java, которая позвол
 ### В5: Где я могу обратиться за поддержкой или задать вопросы об Aspose.TeX?
 
  A5: Посетите[Форум Aspose.TeX](https://forum.aspose.com/c/tex/47) за поддержку и обсуждения.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Sostituisci il nome del processo e scrivi l'output del terminale su disco
 linktitle: Sostituisci il nome del processo e scrivi l'output del terminale su disco (C#)
 second_title: API Aspose.TeX .NET
 description: Scopri come utilizzare Aspose.TeX per .NET per sovrascrivere i nomi dei lavori e acquisire l'output del terminale. Segui la nostra guida completa per una gestione perfetta dei file TeX.
-type: docs
 weight: 10
 url: /it/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sostituisci il nome del processo e scrivi l'output del terminale su disco (C#)
+
 ## introduzione
 
 Benvenuti in questa guida passo passo sull'utilizzo di Aspose.TeX per .NET per sovrascrivere i nomi dei lavori e scrivere l'output del terminale su disco nel linguaggio di programmazione C#. Aspose.TeX per .NET è una potente libreria che ti consente di lavorare senza problemi con i file TeX e in questo tutorial ci concentreremo su un'attività specifica: sovrascrivere i nomi dei lavori e acquisire l'output del terminale.
@@ -106,3 +112,9 @@ A1: Sì, Aspose.TeX per .NET può essere integrato perfettamente con altre libre
 ### Q5: Dove posso trovare la documentazione per Aspose.TeX per .NET?
 
  A5: La documentazione è disponibile[Qui](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

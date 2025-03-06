@@ -3,10 +3,16 @@ title: Az Aspose.TeX feladatkimenet vezérlése
 linktitle: Az Aspose.TeX feladatkimenet vezérlése
 second_title: Aspose.TeX .NET API
 description: Javítsa a TeX fájlkezelést az Aspose.TeX for .NET segítségével. Ismerje meg a feladatnevek felülírását és a terminálkimenet könnyű rögzítését a C# használatával lépésenkénti útmutatóink segítségével.
-type: docs
 weight: 24
 url: /hu/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.TeX feladatkimenet vezérlése
+
 
 ## Bevezetés
 
@@ -36,3 +42,9 @@ Legyen szó fejlesztőről, aki fejleszteni szeretné készségeit, vagy projekt
 Fedezze fel, hogyan használja az Aspose.TeX for .NET-et a jobnevek felülbírálásához és a terminálkimenet rögzítéséhez. Kövesse átfogó útmutatónkat a zökkenőmentes TeX fájlkezeléshez.
 ### [Feladat nevének felülírása és a terminálkimenet írása Zip-re (C#)](./override-job-name-zip-output-csharp/)
 Ismerje meg, hogyan írhatja felül a jobneveket és írhatja a terminálkimenetet ZIP-fájlba az Aspose.TeX for .NET használatával. Lépésről lépésre útmutató C# példákkal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

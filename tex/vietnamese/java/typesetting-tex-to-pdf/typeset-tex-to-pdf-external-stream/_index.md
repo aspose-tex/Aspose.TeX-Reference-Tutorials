@@ -3,10 +3,16 @@ title: Sắp chữ TeX sang PDF bằng Java bằng luồng ngoài
 linktitle: Sắp chữ TeX sang PDF bằng Java bằng luồng ngoài
 second_title: API Java Aspose.TeX
 description: Tìm hiểu cách sắp chữ TeX thành PDF trong Java bằng cách sử dụng các luồng bên ngoài với Aspose.TeX. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/java/typesetting-tex-to-pdf/typeset-tex-to-pdf-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sắp chữ TeX sang PDF bằng Java bằng luồng ngoài
+
 ## Giới thiệu
 
 Trong thế giới phát triển Java, việc tạo tệp PDF từ tệp TeX là một yêu cầu phổ biến. Aspose.TeX dành cho Java đơn giản hóa quy trình này, cung cấp giải pháp hiệu quả để sắp chữ TeX thành PDF. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước sắp chữ TeX sang PDF bằng cách sử dụng các luồng bên ngoài. Cuối cùng, bạn sẽ hiểu rõ ràng về cách triển khai quy trình này một cách liền mạch trong các ứng dụng Java của mình.
@@ -112,3 +118,9 @@ Chúc mừng! Bạn đã sắp chữ thành công TeX sang PDF trong Java bằng
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.TeX không?
 
  A5: Có, bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

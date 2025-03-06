@@ -3,10 +3,16 @@ title: Рендеринг математических вычислений LaTe
 linktitle: Рендеринг математических вычислений LaTeX в SVG на Java
 second_title: API Aspose.TeX Java
 description: Узнайте, как преобразовать математические уравнения LaTeX в SVG на Java с помощью Aspose.TeX. Следуйте нашему пошаговому руководству для получения точных и визуально привлекательных результатов.
-type: docs
 weight: 15
 url: /ru/java/customizing-output/render-lamath-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг математических вычислений LaTeX в SVG на Java
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по рендерингу математических уравнений LaTeX в SVG на Java с помощью Aspose.TeX. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете осваивать Java, это руководство шаг за шагом проведет вас через весь процесс, гарантируя достижение точных и визуально привлекательных результатов. 
@@ -111,3 +117,9 @@ System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 ### В5: Где я могу найти более подробную документацию?
 
  A5: Изучите подробную документацию на[Документация Aspose.TeX Java](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

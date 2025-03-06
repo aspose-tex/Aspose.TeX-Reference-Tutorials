@@ -3,10 +3,16 @@ title: Ange TeX till XPS i Java med extern ström
 linktitle: Ange TeX till XPS i Java med extern ström
 second_title: Aspose.TeX Java API
 description: Lär dig hur du ställer in TeX till XPS i Java med Aspose.TeX. Utforska steg-för-steg-vägledning för sömlös dokumentbehandling.
-type: docs
 weight: 10
 url: /sv/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ange TeX till XPS i Java med extern ström
+
 ## Introduktion
 
 I en värld av Java-utveckling framstår Aspose.TeX som ett kraftfullt verktyg för att sätta TeX-dokument i olika format, inklusive XPS. Om du vill förbättra din Java-applikations dokumentbearbetningsmöjligheter är den här handledningen skräddarsydd för dig. I den här steg-för-steg-guiden går vi igenom processen att sätta TeX till XPS med Aspose.TeX för Java med en extern ström.
@@ -122,3 +128,9 @@ S1: Aspose.TeX fokuserar främst på TeX-relaterad dokumentbehandling. För andr
 ### F5: Kan jag få en tillfällig licens för teständamål?
 
  S5: Ja, du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

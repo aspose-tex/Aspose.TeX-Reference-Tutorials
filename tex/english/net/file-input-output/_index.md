@@ -3,10 +3,16 @@ title: File Input and Output with Aspose.TeX
 linktitle: File Input and Output with Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: Unlock the potential of Aspose.TeX for .NET with tutorials on file input and output. Master filesystem handling, ZIP inputs, and XPS output effortlessly.
-type: docs
 weight: 22
 url: /net/file-input-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# File Input and Output with Aspose.TeX
+
 ## Introduction
 
 Are you ready to delve into the dynamic world of Aspose.TeX for .NET? This comprehensive guide explores the intricacies of file input and output, unraveling the power of this robust library for TeX and LaTeX document handling.
@@ -32,3 +38,9 @@ Aspose.TeX for .NET tutorials on file input and output are your key to unlocking
 Discover the power of Aspose.TeX for .NET. Learn how to effortlessly handle filesystems and generate XPS output in this comprehensive tutorial.
 ### [Work with Filesystem & ZIP Inputs in Aspose.TeX for .NET](./required-inputs-from-filesystem-and-zip/)
 Explore Aspose.TeX for .NET a robust library for TeX and LaTeX document handling. Efficiently convert files with filesystem and ZIP inputs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

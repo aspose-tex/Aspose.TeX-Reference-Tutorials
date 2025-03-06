@@ -3,10 +3,16 @@ title: Personalización de la salida TeX en Aspose.TeX para Java
 linktitle: Personalización de la salida TeX en Aspose.TeX para Java
 second_title: API de Java Aspose.TeX
 description: Mejore el procesamiento de documentos en Java con Aspose.TeX. Explore guías sobre cómo anular nombres de trabajos, escribir resultados de terminal y renderizar sin problemas figuras y matemáticas de LaTeX en PNG/SVG.
-type: docs
 weight: 26
 url: /es/java/customizing-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalización de la salida TeX en Aspose.TeX para Java
+
 ## Introducción
 
 ¿Es usted un desarrollador de Java que busca mejorar sus capacidades de procesamiento de documentos? Sumérgete en el mundo de Aspose.TeX, una poderosa herramienta que te permite personalizar la salida TeX con precisión y eficiencia. En este artículo, lo guiaremos a través de tutoriales esenciales sobre varias opciones de personalización.
@@ -61,3 +67,9 @@ Aprenda a representar ecuaciones matemáticas de LaTeX en imágenes PNG en Java 
 Aprenda cómo renderizar sin esfuerzo figuras LaTeX a SVG en Java usando Aspose.TeX. Siga esta guía paso a paso para una integración perfecta.
 ### [Renderizar matemáticas LaTeX a SVG en Java](./render-lamath-svg/)
 Aprenda a representar ecuaciones matemáticas de LaTeX a SVG en Java usando Aspose.TeX. Siga nuestra guía paso a paso para obtener resultados precisos y visualmente atractivos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

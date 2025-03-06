@@ -3,10 +3,16 @@ title: Java에서 필수 입력 디렉토리 지정
 linktitle: Java에서 필수 입력 디렉토리 지정
 second_title: Aspose.TeX 자바 API
 description: Java용 Aspose.TeX를 사용하여 Java TeX 처리를 향상하세요. 필수 입력 디렉터리를 원활하게 지정하려면 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 필수 입력 디렉토리 지정
+
 ## 소개
 
 TeX 작업을 효과적으로 처리하기 위해 Java 애플리케이션의 기능을 향상시키고 싶으십니까? Aspose.TeX for Java는 여러분이 찾고 있던 솔루션입니다! 이 종합 가이드에서는 Aspose.TeX를 사용하여 Java에서 필수 입력 디렉터리를 지정하는 과정을 안내합니다.
@@ -104,3 +110,9 @@ Aspose.TeX for Java는 개발자가 TeX 작업을 원활하게 처리할 수 있
 ### Q5: Java용 Aspose.TeX를 어떻게 구매하나요?
 
  A5: 구매하려면 구매 페이지를 방문하세요.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

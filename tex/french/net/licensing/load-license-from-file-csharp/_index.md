@@ -3,10 +3,16 @@ title: Charger la licence Aspose.TeX à partir d'un fichier (C#)
 linktitle: Charger la licence Aspose.TeX à partir d'un fichier (C#)
 second_title: API Aspose.TeX .NET
 description: Explorez les possibilités illimitées d'Aspose.TeX pour .NET. Créez, modifiez et convertissez des fichiers TeX en toute transparence.
-type: docs
 weight: 10
 url: /fr/net/licensing/load-license-from-file-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Charger la licence Aspose.TeX à partir d'un fichier (C#)
+
 ## Introduction
 
 Bienvenue dans le monde passionnant d'Aspose.TeX pour .NET – un outil puissant qui permet aux développeurs de créer, modifier et convertir des fichiers TeX sans effort. Dans ce guide complet, nous approfondirons les subtilités de l'utilisation d'Aspose.TeX dans vos projets .NET, en vous assurant d'exploiter tout son potentiel.
@@ -77,3 +83,9 @@ En suivant ces étapes, vous vous assurez que votre Aspose.TeX dispose d'une lic
 ### Q5 : Où puis-je acheter Aspose.TeX pour .NET ?
 
  A5 : Vous pouvez acheter Aspose.TeX[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

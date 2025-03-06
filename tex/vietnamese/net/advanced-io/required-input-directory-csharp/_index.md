@@ -3,10 +3,16 @@ title: Chỉ định thư mục đầu vào bắt buộc cho Aspose.TeX (C#)
 linktitle: Chỉ định thư mục đầu vào bắt buộc cho Aspose.TeX (C#)
 second_title: API Aspose.TeX .NET
 description: Khám phá Aspose.TeX for .NET, một thư viện mạnh mẽ để tích hợp TeX liền mạch. Thực hiện theo hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 10
 url: /vi/net/advanced-io/required-input-directory-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định thư mục đầu vào bắt buộc cho Aspose.TeX (C#)
+
 ## Giới thiệu
 
 Trong lĩnh vực xử lý tài liệu và sắp chữ, Aspose.TeX for .NET là một công cụ mạnh mẽ dành cho các nhà phát triển. Nó tạo điều kiện thuận lợi cho việc tạo và thao tác các tệp TeX một cách liền mạch trong các ứng dụng .NET. Bài viết này đóng vai trò là hướng dẫn toàn diện, chia nhỏ cách sử dụng Aspose.TeX cho .NET thành các bước dễ thực hiện.
@@ -123,3 +129,9 @@ A4: Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.TeX cho .NET?
 
  Câu trả lời 5: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

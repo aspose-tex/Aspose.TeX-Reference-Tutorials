@@ -3,10 +3,16 @@ title: تقديم أشكال LaTeX إلى PNG باستخدام Aspose.TeX (C#)
 linktitle: تقديم أشكال LaTeX إلى PNG باستخدام Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: استكشف دليلاً شاملاً حول عرض أشكال LaTeX إلى PNG باستخدام Aspose.TeX في C#. تعلم خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 10
 url: /ar/net/render-latex-figures/png-latex-figure-renderer-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم أشكال LaTeX إلى PNG باستخدام Aspose.TeX (C#)
+
 ## مقدمة
 
 إذا كنت تتعمق في عالم التنضيد وإنشاء المستندات في .NET، فمن المحتمل أنك على دراية بتحديات عرض أرقام LaTeX. في هذا الدليل التفصيلي، سنستكشف كيفية استخدام Aspose.TeX لـ .NET لعرض أشكال LaTeX إلى تنسيق PNG باستخدام C#. يوفر Aspose.TeX حلاً قويًا ومرنًا للتعامل مع مستندات LaTeX، مما يجعله أداة لا تقدر بثمن للمطورين الذين يعملون في إنشاء المستندات وتنسيقها.
@@ -99,3 +105,9 @@ System.Console.Out.WriteLine("Size: " + size);
 ### س5: ما هو هيكل التسعير لـ Aspose.TeX؟
 
 ج5: استكشف تفاصيل الأسعار وقم بإجراء عملية شراء[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

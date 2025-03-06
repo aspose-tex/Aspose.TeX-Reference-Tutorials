@@ -3,10 +3,16 @@ title: عرض LaTeX Math كـ SVG في .NET
 linktitle: عرض LaTeX Math كـ SVG في .NET
 second_title: Aspose.TeX .NET API
 description: تعرف على كيفية عرض معادلات LaTeX الرياضية بتنسيق SVG في .NET باستخدام Aspose.TeX. دليل خطوة بخطوة مع خيارات قابلة للتخصيص للتمثيل الرياضي الدقيق.
-type: docs
 weight: 10
 url: /ar/net/svg-math-rendering/render-latex-math-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض LaTeX Math كـ SVG في .NET
+
 ## مقدمة
 
 في عالم التطوير المستمر لـ .NET، يعد عرض معادلات LaTeX الرياضية جانبًا حاسمًا، خاصة عند التعامل مع التطبيقات العلمية أو الرياضية. يوفر Aspose.TeX for .NET حلاً قويًا لهذا المطلب، مما يسمح لك بعرض معادلات LaTeX الرياضية بسلاسة في رسومات متجهة قابلة للتطوير (SVG). في هذا البرنامج التعليمي، سنرشدك خلال عملية عرض معادلات LaTeX الرياضية باستخدام مكتبة Aspose.TeX في بيئة .NET.
@@ -117,3 +123,9 @@ System.Console.Out.WriteLine("Size: " + size);
 ### س5: هل هناك أي أمثلة للدروس المتاحة في الوثائق؟
 
  ج5: نعم، يمكنك استكشاف المزيد من الأمثلة في[وثائق Aspose.TeX](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

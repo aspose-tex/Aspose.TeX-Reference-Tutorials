@@ -3,10 +3,16 @@ title: Làm việc với đầu vào LaTeX trong Java
 linktitle: Làm việc với đầu vào LaTeX trong Java
 second_title: API Java Aspose.TeX
 description: Quản lý dễ dàng các tệp LaTeX trong Java bằng Aspose.TeX. Khám phá khả năng tích hợp liền mạch, tải xuống ngay và khai thác sức mạnh của TeX trong các dự án Java của bạn để xử lý tài liệu nâng cao.
-type: docs
 weight: 21
 url: /vi/java/working-with-lainputs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với đầu vào LaTeX trong Java
+
 ## Giới thiệu
 
 LaTeX, một hệ thống sắp chữ nổi tiếng với độ chính xác trong định dạng tài liệu, đã tìm thấy một đồng minh mới trong Aspose.TeX cho Java. Loạt bài hướng dẫn này sẽ hướng dẫn bạn khai thác tiềm năng của đầu vào LaTeX trong Java, sử dụng Aspose.TeX để hợp lý hóa khả năng xử lý tài liệu của bạn.
@@ -31,3 +37,9 @@ Tóm lại, những hướng dẫn này cung cấp một cánh cổng dẫn đ�
 Xử lý dễ dàng các tệp LaTeX trong Java bằng Aspose.TeX. Tải xuống ngay để tích hợp liền mạch và khám phá sức mạnh của TeX trong các dự án Java của bạn.
 ### [Xử lý tệp đầu vào LaTeX từ kho lưu trữ Zip trong Java](./zip-archive-input/)
 Khám phá hướng dẫn liền mạch để xử lý tệp LaTeX từ kho lưu trữ zip trong Java bằng Aspose.TeX. Tăng cường khả năng xử lý tài liệu của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

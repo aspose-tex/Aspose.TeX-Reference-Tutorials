@@ -3,10 +3,16 @@ title: ควบคุมเอาต์พุตงาน Aspose.TeX
 linktitle: ควบคุมเอาต์พุตงาน Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: ปรับปรุงการจัดการไฟล์ TeX ด้วย Aspose.TeX สำหรับ .NET เรียนรู้ที่จะแทนที่ชื่องานและบันทึกเอาต์พุตเทอร์มินัลอย่างง่ายดายโดยใช้ C# พร้อมคำแนะนำทีละขั้นตอนของเรา
-type: docs
 weight: 24
 url: /th/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ควบคุมเอาต์พุตงาน Aspose.TeX
+
 
 ## การแนะนำ
 
@@ -36,3 +42,9 @@ Aspose.TeX ช่วยให้คุณปรับปรุงขั้นต
 สำรวจวิธีใช้ Aspose.TeX สำหรับ .NET เพื่อแทนที่ชื่องานและบันทึกเอาต์พุตเทอร์มินัล ปฏิบัติตามคำแนะนำที่ครอบคลุมของเราสำหรับการจัดการไฟล์ TeX ที่ราบรื่น
 ### [แทนที่ชื่องานและเขียนเอาต์พุตเทอร์มินัลเป็น Zip (C#)](./override-job-name-zip-output-csharp/)
 เรียนรู้วิธีแทนที่ชื่องานและเขียนเอาต์พุตเทอร์มินัลไปยังไฟล์ ZIP โดยใช้ Aspose.TeX สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่าง C#
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

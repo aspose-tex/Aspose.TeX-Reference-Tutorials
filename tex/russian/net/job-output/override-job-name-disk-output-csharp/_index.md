@@ -3,10 +3,16 @@ title: Переопределить имя задания и записать в
 linktitle: Переопределить имя задания и записать вывод терминала на диск (C#)
 second_title: API Aspose.TeX .NET
 description: Узнайте, как использовать Aspose.TeX для .NET для переопределения имен заданий и захвата вывода терминала. Следуйте нашему подробному руководству по беспрепятственному управлению файлами TeX.
-type: docs
 weight: 10
 url: /ru/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Переопределить имя задания и записать вывод терминала на диск (C#)
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство по использованию Aspose.TeX для .NET для переопределения имен заданий и записи вывода терминала на диск на языке программирования C#. Aspose.TeX для .NET — это мощная библиотека, которая позволяет вам беспрепятственно работать с файлами TeX, и в этом руководстве мы сосредоточимся на конкретной задаче: переопределении имен заданий и захвате вывода терминала.
@@ -106,3 +112,9 @@ job.Run();
 ### Вопрос 5: Где я могу найти документацию по Aspose.TeX для .NET?
 
  A5: документация доступна.[здесь](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

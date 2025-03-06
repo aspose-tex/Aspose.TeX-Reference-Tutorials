@@ -3,10 +3,16 @@ title: Format TeX Kustom
 linktitle: Format TeX Kustom
 second_title: Aspose.TeX .NET API
 description: Buka kunci penguasaan pembuatan dokumen dengan Aspose.TeX untuk .NET. Pelajari cara membuat format TeX khusus dengan mudah dalam tutorial komprehensif ini.
-type: docs
 weight: 31
 url: /id/net/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Format TeX Kustom
+
 ## Perkenalan
 
  Aspose.TeX untuk .NET membuka banyak kemungkinan untuk pembuatan dokumen, dan menguasai pembuatan format TeX khusus adalah aspek kuncinya. Dalam tutorial ini, kita akan mempelajari seluk-beluk bangunan[format TeX khusus di .NET](./create-custom-tex-formats/), memberdayakan Anda untuk meningkatkan pembuatan dokumen sesuai dengan kebutuhan unik Anda.
@@ -31,3 +37,9 @@ Tutorial ini tidak hanya memberikan pengetahuan teknis tetapi juga menekankan pe
 ## Tutorial Format TeX Kustom
 ### [Membuat Format TeX Kustom di .NET](./create-custom-tex-formats/)
 Buka kunci penguasaan pembuatan dokumen dengan Aspose.TeX untuk .NET. Buat format TeX khusus dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

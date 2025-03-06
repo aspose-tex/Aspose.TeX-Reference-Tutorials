@@ -3,10 +3,16 @@ title: حدد دليل الإدخال المطلوب في Java
 linktitle: حدد دليل الإدخال المطلوب في Java
 second_title: Aspose.TeX جافا API
 description: تحسين معالجة Java TeX باستخدام Aspose.TeX لـ Java. اتبع دليلنا خطوة بخطوة لتحديد أدلة الإدخال المطلوبة بسلاسة.
-type: docs
 weight: 10
 url: /ar/java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حدد دليل الإدخال المطلوب في Java
+
 ## مقدمة
 
 هل تتطلع إلى تعزيز قدرات تطبيق Java الخاص بك في التعامل مع وظائف TeX بفعالية؟ Aspose.TeX for Java هو الحل الذي كنت تبحث عنه! في هذا الدليل الشامل، سنرشدك خلال عملية تحديد دليل الإدخال المطلوب في Java باستخدام Aspose.TeX.
@@ -104,3 +110,9 @@ inputDirectory.close();
 ### س5: كيف يمكنني شراء Aspose.TeX لـ Java؟
 
  ج5: للشراء، قم بزيارة صفحة الشراء[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Setzen Sie TeX in Java mit externem Stream auf XPS
 linktitle: Setzen Sie TeX in Java mit externem Stream auf XPS
 second_title: Aspose.TeX Java-API
 description: Erfahren Sie, wie Sie TeX mit Aspose.TeX in Java in XPS umwandeln. Entdecken Sie die Schritt-für-Schritt-Anleitung für eine reibungslose Dokumentenverarbeitung.
-type: docs
 weight: 10
 url: /de/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setzen Sie TeX in Java mit externem Stream auf XPS
+
 ## Einführung
 
 In der Welt der Java-Entwicklung sticht Aspose.TeX als leistungsstarkes Werkzeug zum Setzen von TeX-Dokumenten in verschiedene Formate, einschließlich XPS, hervor. Wenn Sie die Dokumentverarbeitungsfunktionen Ihrer Java-Anwendung verbessern möchten, ist dieses Tutorial genau das Richtige für Sie. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Setzens von TeX in XPS mithilfe von Aspose.TeX für Java mit einem externen Stream.
@@ -122,3 +128,9 @@ A1: Aspose.TeX konzentriert sich hauptsächlich auf die TeX-bezogene Dokumentver
 ### F5: Kann ich zu Testzwecken eine temporäre Lizenz erhalten?
 
  A5: Ja, Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

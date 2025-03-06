@@ -3,10 +3,16 @@ title: 覆蓋作業名稱並將終端輸出寫入 Zip (C#)
 linktitle: 覆蓋作業名稱並將終端輸出寫入 Zip (C#)
 second_title: Aspose.TeX .NET API
 description: 了解如何使用 Aspose.TeX for .NET 覆寫作業名稱並將終端輸出寫入 ZIP 檔案。包含 C# 範例的逐步指南。
-type: docs
 weight: 11
 url: /zh-hant/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 覆蓋作業名稱並將終端輸出寫入 Zip (C#)
+
 ## 介紹
 
 在本教學中，我們將探討如何使用 Aspose.TeX for .NET 覆寫作業名稱並將終端輸出寫入 ZIP 檔案。 Aspose.TeX 是一個功能強大的程式庫，允許開發人員在其 .NET 應用程式中使用 TeX 文件。在這個特定的範例中，我們將專注於一項常見任務 - 將終端輸出寫入 ZIP 文件，並能夠覆蓋作業名稱。
@@ -95,3 +101,9 @@ A1：是的，Aspose.TeX for .NET 與所有 .NET 語言相容。
 ### Q5：哪裡可以購買 Aspose.TeX for .NET？
 
 A5：可以購買Aspose.TeX[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

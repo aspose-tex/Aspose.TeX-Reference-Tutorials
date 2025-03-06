@@ -3,10 +3,16 @@ title: Working with PDF Output
 linktitle: Working with PDF Output
 second_title: Aspose.TeX .NET API
 description: Unlock the power of Aspose.TeX for .NET with our comprehensive tutorial on typesetting TeX to PDF. Elevate your .NET development skills with seamless integration.
-type: docs
 weight: 28
 url: /net/pdf-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with PDF Output
+
 ## Introduction
 
 Aspose.TeX for .NET is a game-changer in the world of TeX to PDF typesetting, and this tutorial is your gateway to unlocking its full potential. In this article, we'll delve into the intricacies of working with PDF output, focusing on the seamless integration of Aspose.TeX for .NET.
@@ -31,3 +37,9 @@ In conclusion, our Aspose.TeX for .NET tutorial on typesetting TeX to PDF is you
 ## Working with PDF Output Tutorials
 ### [How to Typeset TeX to PDF in .NET](./typeset-tex-to-pdf/)
 Explore the seamless integration of Aspose.TeX for .NET in typesetting TeX to PDF. Dive into this comprehensive tutorial and elevate your .NET development skills.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

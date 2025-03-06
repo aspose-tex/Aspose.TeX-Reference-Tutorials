@@ -3,10 +3,16 @@ title: كيفية تنضيد TeX إلى PDF في .NET
 linktitle: كيفية تنضيد TeX إلى PDF في .NET
 second_title: Aspose.TeX .NET API
 description: استكشف التكامل السلس لـ Aspose.TeX for .NET في تنضيد TeX إلى PDF. انغمس في هذا البرنامج التعليمي الشامل وارفع مهاراتك في تطوير .NET.
-type: docs
 weight: 10
 url: /ar/net/pdf-output/typeset-tex-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# كيفية تنضيد TeX إلى PDF في .NET
+
 ## مقدمة
 
 إذا كنت تغوص في عالم التنضيد TeX وPDF في بيئة .NET، فأنت في مكان رائع. في هذا الدليل التفصيلي، سنستكشف كيفية الاستفادة من قوة Aspose.TeX لـ .NET في طباعة مستندات TeX في ملفات PDF بسلاسة. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام TeX، سيرشدك هذا البرنامج التعليمي خلال العملية، مع تفصيل كل خطوة لجعلها في متناول الجميع.
@@ -111,3 +117,9 @@ using (Stream stream = File.Open(Path.Combine("Your Output Directory", "file-nam
 ### س5: هل أحتاج إلى ترخيص مؤقت لأغراض الاختبار؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار من خلاله[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

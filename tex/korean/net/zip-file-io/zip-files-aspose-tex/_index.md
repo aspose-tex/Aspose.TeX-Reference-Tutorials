@@ -3,10 +3,16 @@ title: .NET용 Aspose.TeX와 함께 Zip 파일 사용
 linktitle: .NET용 Aspose.TeX와 함께 Zip 파일 사용
 second_title: Aspose.TeX .NET API
 description: ZIP 파일을 손쉽게 처리하는 .NET용 Aspose.TeX의 강력한 기능을 살펴보세요. 애플리케이션의 문서 처리를 강화하세요.
-type: docs
 weight: 10
 url: /ko/net/zip-file-io/zip-files-aspose-tex/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.TeX와 함께 Zip 파일 사용
+
 ## 소개
 
 .NET 개발 세계에서 Aspose.TeX는 TeX 문서 작업을 위한 강력한 도구로 돋보입니다. .NET용 Aspose.TeX는 다양한 기능을 제공하며 특히 유용한 기능 중 하나는 Zip 파일을 원활하게 처리하는 것입니다. 이 튜토리얼은 .NET 프로젝트에서 Aspose.TeX와 함께 Zip 파일을 활용하는 과정을 안내합니다.
@@ -115,3 +121,9 @@ A1: 현재 Aspose.TeX는 주로 ZIP 아카이브 작업을 지원합니다.
 ### Q5: Aspose.TeX에 대한 임시 라이센스를 어떻게 얻습니까?
 
  A5: 방문[이 링크](https://purchase.aspose.com/temporary-license/) 테스트 목적으로 임시 라이센스를 얻으려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

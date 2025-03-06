@@ -3,10 +3,16 @@ title: XPS Çıkışı ile Çalışma
 linktitle: XPS Çıkışı ile Çalışma
 second_title: Aspose.TeX .NET API'si
 description: .NET'te Aspose.TeX ile TeX'i zahmetsizce XPS'ye dönüştürün. Kılavuzumuz kusursuz entegrasyon sağlar. Uzman görüşleri için TeX'ten XPS'ye Dizgi eğitimini keşfedin.
-type: docs
 weight: 29
 url: /tr/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XPS Çıkışı ile Çalışma
+
 ## giriiş
 
 .NET uygulamalarınızda Aspose.TeX'in gücünden yararlanmak mı istiyorsunuz? XPS çıkışıyla çalışmak için özel olarak tasarlanmış kapsamlı eğitimlerimize göz atın. Bu makalede, TeX belgelerini zahmetsizce XPS'ye dönüştürme sürecinde size rehberlik ederek Aspose.TeX ile kusursuz bir entegrasyon deneyimi sunacağız.
@@ -36,3 +42,9 @@ Sonuç olarak, Aspose.TeX eğitimlerinin sağladığı kapsamlı rehberlik sayes
 ## XPS Çıktı Öğreticileriyle Çalışmak
 ### [.NET'te TeX'i XPS'ye dizme](./typeset-tex-to-xps/)
 Aspose.TeX ile TeX belgelerini zahmetsizce .NET'te XPS'ye dönüştürün. Sorunsuz bir entegrasyon deneyimi için adım adım kılavuzumuzu keşfedin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

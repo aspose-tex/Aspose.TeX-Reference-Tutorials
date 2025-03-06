@@ -3,10 +3,16 @@ title: Đặt giấy phép đo lường cho Aspose.TeX trong Java
 linktitle: Đặt giấy phép đo lường cho Aspose.TeX trong Java
 second_title: API Java Aspose.TeX
 description: Khai thác toàn bộ tiềm năng của Aspose.TeX trong Java bằng cách thiết lập giấy phép có đồng hồ đo. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 12
 url: /vi/java/managing-licenses/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt giấy phép đo lường cho Aspose.TeX trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách thiết lập giấy phép đo lường cho Aspose.TeX trong Java! Aspose.TeX là một thư viện mạnh mẽ cung cấp các chức năng để làm việc với các tệp TeX trong các ứng dụng Java. Để khai thác toàn bộ tiềm năng của nó, điều cần thiết là phải hiểu cách thiết lập giấy phép có đồng hồ đo. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, chia nó thành các bước dễ thực hiện.
@@ -77,3 +83,9 @@ Trong hướng dẫn này, chúng tôi đã trình bày các bước cần thi�
 ### Câu 5: Cần trợ giúp hoặc có thắc mắc?
 
  A5: Tham quan[Diễn đàn hỗ trợ Aspose.TeX](https://forum.aspose.com/c/tex/47) để được hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

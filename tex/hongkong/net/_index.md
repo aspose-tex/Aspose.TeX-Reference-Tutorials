@@ -1,12 +1,17 @@
 ---
 title: Aspose.TeX for .NET 的綜合教學與範例
 linktitle: Aspose.TeX for .NET 教學課程
-type: docs
 weight: 10
 url: /zh-hant/net/
 description: 使用 Aspose.TeX for .NET 輕鬆掌握 LaTeX 設計。下載以實現無縫整合並探索高級格式、文件處理、許可等。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX for .NET 的綜合教學與範例
+
 
 ## 介紹
 
@@ -80,3 +85,9 @@ is_root: true
 使用 Aspose.TeX for .NET 解鎖文件產生能力。在這個綜合教學中學習如何輕鬆建立自訂 TeX 格式。
 ### [Zip 檔案輸入和輸出](./zip-file-io/)
 透過我們的 Zip 檔案輸入和輸出教學釋放 Aspose.TeX for .NET 的潛力。探索適合您的應用程式的 ZIP 檔案處理和文件處理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

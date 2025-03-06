@@ -3,10 +3,16 @@ title: Zaawansowane wejście i wyjście Aspose.TeX
 linktitle: Zaawansowane wejście i wyjście Aspose.TeX
 second_title: Aspose.TeX API .NET
 description: Odkryj moc Aspose.TeX dla .NET dzięki naszym zaawansowanym samouczkom. Dowiedz się, jak określić katalogi wejściowe i strumienie główne, obrazy i dane wejściowe terminala w języku C#.
-type: docs
 weight: 27
 url: /pl/net/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zaawansowane wejście i wyjście Aspose.TeX
+
 ## Wstęp
 
 Aspose.TeX dla .NET to przełom w płynnej integracji TeX-a, zapewniający programistom solidną bibliotekę usprawniającą przetwarzanie dokumentów. W tym artykule zagłębiamy się w zaawansowane samouczki skupiające się na określaniu katalogów wejściowych oraz masteringu strumieni, obrazów i danych wejściowych terminala w języku C#.
@@ -29,3 +35,9 @@ Podsumowując, te samouczki służą jako brama do opanowania Aspose.TeX dla .NE
 Poznaj Aspose.TeX dla .NET, solidną bibliotekę zapewniającą bezproblemową integrację z TeX-em. Postępuj zgodnie z naszym przewodnikiem krok po kroku.
 ### [Główne strumienie, obrazy i dane wejściowe terminala w Aspose.TeX dla C#](./stream-input-image-output-terminal-input-csharp/)
 Odkryj bez wysiłku moc Aspose.TeX dla głównych strumieni C#, obrazów i danych wejściowych terminala. Pobierz teraz, aby bezproblemowo przetwarzać dokumenty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

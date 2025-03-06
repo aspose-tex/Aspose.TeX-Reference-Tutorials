@@ -3,10 +3,16 @@ title: Skład plików TeX do formatu XPS w Javie
 linktitle: Skład plików TeX do formatu XPS w Javie
 second_title: Aspose.TeX API Java
 description: Odblokuj sekrety składu plików TeX-owych do formatu XPS w Javie dzięki Aspose.TeX. Zapoznaj się z naszymi samouczkami, aby uzyskać wskazówki krok po kroku dotyczące bezproblemowego przetwarzania dokumentów.
-type: docs
 weight: 30
 url: /pl/java/typesetting-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skład plików TeX do formatu XPS w Javie
+
 ## Wstęp
 
 Czy jesteś gotowy, aby ulepszyć swoją grę w zakresie przetwarzania dokumentów Java? Nie szukaj dalej! Nasze samouczki Aspose.TeX dla Java dotyczące składu plików TeX w formacie XPS są tutaj, aby zapewnić Ci płynne rozwiązania. W tym artykule zagłębimy się w zawiłości składowania TeX-a na XPS w Javie za pomocą strumienia zewnętrznego, zapewniając kompleksowe zrozumienie procesu.
@@ -37,3 +43,9 @@ Niezależnie od tego, czy jesteś programistą Java chcącym ulepszyć możliwo�
 ## Skład plików TeX do formatu XPS w samouczkach Java
 ### [Spisz TeX na XPS w Javie za pomocą strumienia zewnętrznego](./typeset-tex-to-xps-external-stream/)
 Dowiedz się, jak złożyć TeX na XPS w Javie przy użyciu Aspose.TeX. Zapoznaj się ze wskazówkami krok po kroku dotyczącymi bezproblemowego przetwarzania dokumentów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

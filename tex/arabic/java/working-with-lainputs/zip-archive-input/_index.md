@@ -3,10 +3,16 @@ title: معالجة ملفات إدخال LaTeX من أرشيفات Zip في Jav
 linktitle: معالجة ملفات إدخال LaTeX من أرشيفات Zip في Java
 second_title: Aspose.TeX جافا API
 description: اكتشف دليلاً سلسًا لمعالجة ملفات LaTeX من أرشيفات مضغوطة في Java باستخدام Aspose.TeX. تعزيز قدرات معالجة المستندات الخاصة بك دون عناء.
-type: docs
 weight: 11
 url: /ar/java/working-with-lainputs/zip-archive-input/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة ملفات إدخال LaTeX من أرشيفات Zip في Java
+
 ## مقدمة
 
 في مجال تطوير Java، يعد التعامل مع ملفات إدخال LaTeX من الأرشيفات المضغوطة مطلبًا شائعًا، خاصة عند التعامل مع معالجة المستندات المعقدة. يظهر Aspose.TeX for Java كأداة قوية تعمل على تبسيط هذه المهمة المعقدة. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مما يضمن تجربة سلسة.
@@ -121,3 +127,9 @@ new TeXJob("Your Input Directory" + "required-input-zip.tex", new ImageDevice(),
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت؟
 
  ج5: اطلب أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

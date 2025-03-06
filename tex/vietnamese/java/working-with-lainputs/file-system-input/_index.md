@@ -3,10 +3,16 @@ title: Xử lý các tệp đầu vào LaTeX từ hệ thống tệp trong Java
 linktitle: Xử lý các tệp đầu vào LaTeX từ hệ thống tệp trong Java
 second_title: API Java Aspose.TeX
 description: Xử lý dễ dàng các tệp LaTeX trong Java bằng Aspose.TeX. Tải xuống ngay để tích hợp liền mạch và khám phá sức mạnh của TeX trong các dự án Java của bạn.
-type: docs
 weight: 10
 url: /vi/java/working-with-lainputs/file-system-input/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xử lý các tệp đầu vào LaTeX từ hệ thống tệp trong Java
+
 ## Giới thiệu
 
 Nếu bạn đang tìm hiểu thế giới phát triển Java và cần xử lý các tệp đầu vào LaTeX từ hệ thống tệp một cách hiệu quả thì bạn đã đến đúng nơi. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình sử dụng Aspose.TeX, một thư viện Java mạnh mẽ được thiết kế để làm việc với các tệp TeX và LaTeX.
@@ -116,3 +122,9 @@ A2: Bạn có thể tải xuống[đây](https://releases.aspose.com/tex/java/).
 ### Câu 5: Làm cách nào tôi có thể mua Aspose.TeX?
 
  A5: Tùy chọn mua hàng có sẵn[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

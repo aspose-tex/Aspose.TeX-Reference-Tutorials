@@ -3,10 +3,16 @@ title: Jobnamen überschreiben und Terminalausgabe in Zip in Java schreiben
 linktitle: Jobnamen überschreiben und Terminalausgabe in Zip in Java schreiben
 second_title: Aspose.TeX Java-API
 description: Erfahren Sie, wie Sie mit Aspose.TeX Jobnamen überschreiben und Terminalausgaben in Java in ZIP schreiben. Ein umfassendes Tutorial für Java-Entwickler.
-type: docs
 weight: 11
 url: /de/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jobnamen überschreiben und Terminalausgabe in Zip in Java schreiben
+
 ## Einführung
 
 In der Welt der Java-Entwicklung sticht Aspose.TeX als leistungsstarkes Tool für den Umgang mit TeX-Dateiformaten hervor. In diesem Tutorial befassen wir uns mit einem bestimmten Szenario – dem Überschreiben von Jobnamen und dem Schreiben der Terminalausgabe in eine ZIP-Datei. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess mit Aspose.TeX für Java.
@@ -126,3 +132,10 @@ A1: Aspose.TeX ist eine Java-Bibliothek, die Entwicklern die Arbeit mit TeX-Date
 ### F5: Wo kann ich Unterstützung suchen oder Fragen zu Aspose.TeX stellen?
 
  A5: Besuchen Sie die[Aspose.TeX-Forum](https://forum.aspose.com/c/tex/47) für Unterstützung und Diskussionen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

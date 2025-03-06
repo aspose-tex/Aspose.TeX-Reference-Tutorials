@@ -1,12 +1,17 @@
 ---
 title: دروس وأمثلة شاملة عن Aspose.TeX لـ .NET
 linktitle: Aspose.TeX لبرامج .NET التعليمية
-type: docs
 weight: 10
 url: /ar/net/
 description: إتقان تصميم LaTeX بسهولة باستخدام Aspose.TeX لـ .NET. قم بالتنزيل للتكامل السلس واستكشاف التنسيق المتقدم ومعالجة الملفات والترخيص والمزيد.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دروس وأمثلة شاملة عن Aspose.TeX لـ .NET
+
 
 ## مقدمة
 
@@ -80,3 +85,9 @@ is_root: true
 اكتشف إتقان إنشاء المستندات باستخدام Aspose.TeX لـ .NET. تعلم كيفية إنشاء تنسيقات TeX مخصصة بسهولة في هذا البرنامج التعليمي الشامل.
 ### [إدخال وإخراج الملف المضغوط](./zip-file-io/)
 أطلق العنان لإمكانات Aspose.TeX لـ .NET من خلال البرامج التعليمية الخاصة بإدخال وإخراج الملفات المضغوطة. استكشف معالجة ملفات ZIP ومعالجة المستندات لتطبيقاتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

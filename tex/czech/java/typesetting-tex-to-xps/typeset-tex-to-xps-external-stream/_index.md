@@ -3,10 +3,16 @@ title: Vysázet TeX na XPS v Javě s externím proudem
 linktitle: Vysázet TeX na XPS v Javě s externím proudem
 second_title: Aspose.TeX Java API
 description: Naučte se vysázet TeX na XPS v Javě pomocí Aspose.TeX. Prozkoumejte podrobné pokyny pro bezproblémové zpracování dokumentů.
-type: docs
 weight: 10
 url: /cs/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vysázet TeX na XPS v Javě s externím proudem
+
 ## Úvod
 
 Ve světě vývoje v Javě vyniká Aspose.TeX jako výkonný nástroj pro sazbu TeXových dokumentů do různých formátů, včetně XPS. Pokud chcete vylepšit možnosti zpracování dokumentů vaší Java aplikace, je tento výukový program vytvořen přímo pro vás. V tomto podrobném průvodci vás provedeme procesem sazby TeX na XPS pomocí Aspose.TeX for Java s externím streamem.
@@ -122,3 +128,9 @@ A1: Aspose.TeX se primárně zaměřuje na zpracování dokumentů související
 ### Q5: Mohu získat dočasnou licenci pro testovací účely?
 
  A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

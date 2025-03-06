@@ -3,10 +3,16 @@ title: LaTeX Math를 Java에서 PNG로 렌더링
 linktitle: LaTeX Math를 Java에서 PNG로 렌더링
 second_title: Aspose.TeX 자바 API
 description: Aspose.TeX를 사용하여 LaTeX 수학 방정식을 Java의 PNG 이미지로 렌더링하는 방법을 알아보세요. 원활한 통합과 탁월한 성능을 위한 단계별 가이드입니다.
-type: docs
 weight: 13
 url: /ko/java/customizing-output/render-lamath-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# LaTeX Math를 Java에서 PNG로 렌더링
+
 ## 소개
 
 Java 프로그래밍의 동적 세계에서는 LaTeX 수학을 PNG 이미지로 렌더링하는 것이 일반적인 요구 사항입니다. Aspose.TeX for Java는 원활한 통합과 뛰어난 성능을 제공하여 이 작업에 대한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.TeX를 사용하여 LaTeX 수학 방정식을 PNG 형식으로 렌더링하는 과정을 안내합니다.
@@ -113,3 +119,9 @@ A3: 최신 버전부터 Aspose.TeX는 주로 PNG 형식으로의 렌더링을 �
 ### Q5: Aspose.TeX와 관련된 문제에 대해 도움을 구하거나 논의할 수 있는 곳은 어디입니까?
 
  A5: 다음을 방문하세요.[Aspose.TeX 포럼](https://forum.aspose.com/c/tex/47) 지원을 구하고, 질문하고, 커뮤니티에 참여하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

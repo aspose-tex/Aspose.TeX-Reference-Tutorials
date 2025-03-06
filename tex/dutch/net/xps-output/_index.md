@@ -3,10 +3,16 @@ title: Werken met XPS-uitvoer
 linktitle: Werken met XPS-uitvoer
 second_title: Aspose.TeX .NET-API
 description: Converteer TeX moeiteloos naar XPS met Aspose.TeX in .NET. Onze gids zorgt voor een naadloze integratie. Ontdek de tutorial Typesetting TeX naar XPS voor deskundige inzichten.
-type: docs
 weight: 29
 url: /nl/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met XPS-uitvoer
+
 ## Invoering
 
 Wilt u de kracht van Aspose.TeX benutten in uw .NET-toepassingen? Duik in onze uitgebreide tutorials, speciaal afgestemd op het werken met XPS-uitvoer. In dit artikel begeleiden we u door het proces van het moeiteloos converteren van TeX-documenten naar XPS, waardoor een naadloze integratie-ervaring met Aspose.TeX wordt geboden.
@@ -36,3 +42,9 @@ Kortom, het beheersen van de kunst van het zetten van TeX naar XPS in .NET ligt 
 ## Werken met XPS-uitvoertutorials
 ### [TeX naar XPS zetten in .NET](./typeset-tex-to-xps/)
 Converteer Moeiteloos TeX-documenten naar XPS in .NET met Aspose.TeX. Ontdek onze stapsgewijze handleiding voor een naadloze integratie-ervaring.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

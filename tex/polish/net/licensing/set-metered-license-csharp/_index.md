@@ -3,10 +3,16 @@ title: Ustaw licencję licznikową dla Aspose.TeX (C#)
 linktitle: Ustaw licencję licznikową dla Aspose.TeX (C#)
 second_title: Aspose.TeX API .NET
 description: Poznaj Aspose.TeX dla .NET, bez wysiłku skonfiguruj licencjonowanie odmierzone i odblokuj pełny potencjał manipulacji plikami TeX w swoich projektach C#.
-type: docs
 weight: 12
 url: /pl/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw licencję licznikową dla Aspose.TeX (C#)
+
 ## Wstęp
 
 Aspose.TeX dla .NET to potężna biblioteka, która umożliwia programistom płynną pracę z plikami TeX. Aby uwolnić jego pełny potencjał, konieczne jest skonfigurowanie licencji licznikowej. Dzięki temu masz pewność, że posiadasz odpowiednie uprawnienia do korzystania z biblioteki w swoich aplikacjach.
@@ -92,3 +98,9 @@ Konfigurowanie licencji taryfowej dla Aspose.TeX w języku C# jest prostym proce
 ### P5: Czy mogę używać tymczasowej licencji na Aspose.TeX?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

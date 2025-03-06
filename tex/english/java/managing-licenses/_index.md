@@ -3,10 +3,16 @@ title: Managing Licenses in Aspose.TeX for Java
 linktitle: Managing Licenses in Aspose.TeX for Java
 second_title: Aspose.TeX Java API
 description: Unlock the potential of Aspose.TeX for Java! Learn to manage licenses effortlessly - load from file, stream, or set up a metered license with our step-by-step tutorials.
-type: docs
 weight: 25
 url: /java/managing-licenses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Managing Licenses in Aspose.TeX for Java
+
 
 ## Introduction 
 
@@ -32,3 +38,9 @@ Discover the power of Aspose.TeX for Java. Easily load TeX licenses from files w
 Explore the power of Aspose.TeX for Java with our step-by-step guide on loading TeX licenses from streams. Seamlessly integrate TeX document manipulation into your Java applications.
 ### [Set Metered License for Aspose.TeX in Java](./set-metered-license/)
 Unlock the full potential of Aspose.TeX in Java by setting up a metered license. Follow our step-by-step guide for seamless integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

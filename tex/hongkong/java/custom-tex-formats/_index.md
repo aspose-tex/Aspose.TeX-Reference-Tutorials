@@ -3,10 +3,16 @@ title: 在 Java 中使用自訂 TeX 格式
 linktitle: 在 Java 中使用自訂 TeX 格式
 second_title: Aspose.TeX Java API
 description: 使用 Aspose.TeX 輕鬆掌握 Java 排版。深入研究我們的 Custom TeX Formats 教程，以實現順利的開發之旅。立即下載並提升您的 Java 技能！
-type: docs
 weight: 29
 url: /zh-hant/java/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用自訂 TeX 格式
+
 ## 介紹
 
 歡迎來到 Aspose.TeX for Java 的世界，在這裡掌握排版變得輕而易舉。在這個綜合教學系列中，我們將引導您完成使用自訂 TeX 格式的複雜過程，幫助您充分利用 Aspose.TeX for Java 的全部功能。
@@ -31,3 +37,9 @@ url: /zh-hant/java/custom-tex-formats/
 ## 在 Java 教學中使用自訂 TeX 格式
 ### [在 Java 中使用自訂 TeX 格式進行排版](./typesetting-custom-tex-formats/)
 使用 Aspose.TeX 探索 Java 中的高效排版。自訂 TeX 格式變得簡單。立即下載以獲得無縫的開發體驗。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

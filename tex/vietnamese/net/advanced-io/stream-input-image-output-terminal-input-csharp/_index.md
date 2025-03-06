@@ -3,10 +3,16 @@ title: Luồng chính, hình ảnh và đầu vào đầu cuối trong Aspose.Te
 linktitle: Luồng chính, hình ảnh và đầu vào đầu cuối trong Aspose.TeX cho C#
 second_title: API Aspose.TeX .NET
 description: Khám phá sức mạnh của Aspose.TeX dành cho các luồng chính, hình ảnh và đầu vào đầu cuối C# một cách dễ dàng. Tải xuống ngay để xử lý tài liệu liền mạch.
-type: docs
 weight: 11
 url: /vi/net/advanced-io/stream-input-image-output-terminal-input-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Luồng chính, hình ảnh và đầu vào đầu cuối trong Aspose.TeX cho C#
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách làm chủ luồng, hình ảnh và đầu vào đầu cuối trong Aspose.TeX cho C#. Aspose.TeX là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp TeX, cung cấp nhiều tính năng để thao tác và chuyển đổi tài liệu. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào việc xử lý luồng, quản lý hình ảnh và ghi lại dữ liệu đầu vào của thiết bị đầu cuối bằng Aspose.TeX cho C#. Đến cuối hướng dẫn này, bạn sẽ được trang bị kiến thức để làm việc hiệu quả với các khía cạnh thiết yếu này của xử lý tài liệu.
@@ -92,3 +98,9 @@ A1: Chắc chắn rồi! Aspose.TeX có thể được tích hợp liền mạch
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.TeX?
 
  Câu trả lời 5: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

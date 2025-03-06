@@ -3,10 +3,16 @@ title: Sắp xếp tệp TeX thành PDF trong Java
 linktitle: Sắp xếp tệp TeX thành PDF trong Java
 second_title: API Java Aspose.TeX
 description: Khai phá sức mạnh của Aspose.TeX cho Java bằng hướng dẫn của chúng tôi về cách sắp chữ tệp TeX thành PDF. Nắm vững nghệ thuật tạo PDF một cách liền mạch với các luồng bên ngoài.
-type: docs
 weight: 28
 url: /vi/java/typesetting-tex-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sắp xếp tệp TeX thành PDF trong Java
+
 
 Bạn đã sẵn sàng nâng cao kỹ năng lập trình Java của mình và khám phá thế giới sắp chữ các tệp TeX thành PDF chưa? Đừng tìm đâu xa! Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn những điểm phức tạp khi sử dụng Aspose.TeX cho Java, làm sáng tỏ những bí ẩn của việc tạo PDF một cách dễ dàng.
 
@@ -36,3 +42,9 @@ Chúc mừng! Bạn đã đi đến phần cuối của phần Sắp chữ các 
 ## Sắp xếp tệp TeX thành PDF trong Hướng dẫn Java
 ### [Sắp chữ TeX sang PDF bằng Java bằng luồng ngoài](./typeset-tex-to-pdf-external-stream/)
 Tìm hiểu cách sắp chữ TeX thành PDF trong Java bằng cách sử dụng các luồng bên ngoài với Aspose.TeX. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Установите лимитную лицензию для Aspose.TeX 
 linktitle: Установите лимитную лицензию для Aspose.TeX (C#)
 second_title: API Aspose.TeX .NET
 description: Изучите Aspose.TeX для .NET, легко настройте дозированное лицензирование и раскройте весь потенциал манипуляций с файлами TeX в своих проектах C#.
-type: docs
 weight: 12
 url: /ru/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установите лимитную лицензию для Aspose.TeX (C#)
+
 ## Введение
 
 Aspose.TeX for .NET — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с файлами TeX. Чтобы полностью раскрыть его потенциал, необходимо настроить лимитную лицензию. Это гарантирует, что у вас есть соответствующие права на использование библиотеки в ваших приложениях.
@@ -92,3 +98,9 @@ else
 ### В5: Могу ли я использовать временную лицензию для Aspose.TeX?
 
  О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

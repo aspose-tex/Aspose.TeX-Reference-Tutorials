@@ -3,10 +3,16 @@ title: 在 Java 中将 LaTeX 图形渲染为 PNG
 linktitle: 在 Java 中将 LaTeX 图形渲染为 PNG
 second_title: Aspose.TeX Java API
 description: 使用 Aspose.TeX 在 Java 中轻松将 LaTeX 图形渲染为 PNG。请遵循本指南以实现无缝集成。
-type: docs
 weight: 12
 url: /zh/java/customizing-output/render-lafigures-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中将 LaTeX 图形渲染为 PNG
+
 ## 介绍
 
 在 Java 开发领域，将 LaTeX 图形渲染为 PNG 可能是一项具有挑战性但又必不可少的任务。 Aspose.TeX for Java 以其强大的功能来救援，使这个过程高效且无缝。本分步指南将引导您完成使用 Aspose.TeX 将 LaTeX 图形渲染为 PNG 的整个过程。
@@ -114,3 +120,9 @@ A3：访问[Aspose.TeX 论坛](https://forum.aspose.com/c/tex/47)如有任何支
 ### Q5：哪里可以找到 Aspose.TeX for Java 的详细文档？
 
  A5：文档可用[这里](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

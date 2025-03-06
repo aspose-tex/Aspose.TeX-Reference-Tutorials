@@ -3,10 +3,16 @@ title: Rendre des figures LaTeX avec Aspose.TeX
 linktitle: Rendre des figures LaTeX avec Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Découvrez la puissance d'Aspose.TeX pour .NET pour restituer les figures LaTeX de manière transparente. Guides pas à pas, exemples de code et bien plus encore pour le rendu PNG et SVG en C#.
-type: docs
 weight: 25
 url: /fr/net/render-latex-figures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendre des figures LaTeX avec Aspose.TeX
+
 ## Introduction
 
 Êtes-vous prêt à améliorer votre expérience de rendu de documents dans .NET ? Plongez dans le monde d'Aspose.TeX et libérez le potentiel de rendu sans effort des figures LaTeX pour améliorer l'attrait visuel de vos documents. Dans ce guide complet, nous explorerons deux aspects clés : le rendu des figures LaTeX au format PNG et SVG à l'aide d'Aspose.TeX en C#.
@@ -33,3 +39,9 @@ En conclusion, ces didacticiels Aspose.TeX offrent bien plus que de simples extr
 Découvrez un guide complet sur le rendu des figures LaTeX au format PNG à l'aide d'Aspose.TeX en C#. Apprenez étape par étape avec des exemples de code.
 ### [Rendre les figures LaTeX en SVG avec Aspose.TeX (C#)](./svg-latex-figure-renderer-csharp/)
 Améliorez le rendu des documents dans .NET avec Aspose.TeX. Découvrez comment restituer des figures LaTeX au format SVG en C# pour une intégration transparente des expressions mathématiques.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

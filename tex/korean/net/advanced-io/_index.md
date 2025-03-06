@@ -3,10 +3,16 @@ title: 고급 Aspose.TeX 입력 및 출력
 linktitle: 고급 Aspose.TeX 입력 및 출력
 second_title: Aspose.TeX .NET API
 description: 고급 튜토리얼을 통해 .NET용 Aspose.TeX의 강력한 기능을 알아보세요. C#에서 입력 디렉터리와 마스터 스트림, 이미지, 터미널 입력을 지정하는 방법을 알아봅니다.
-type: docs
 weight: 27
 url: /ko/net/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 고급 Aspose.TeX 입력 및 출력
+
 ## 소개
 
 .NET용 Aspose.TeX는 원활한 TeX 통합의 판도를 바꿔 개발자에게 문서 처리를 향상시킬 수 있는 강력한 라이브러리를 제공합니다. 이 문서에서는 C#에서 입력 디렉터리를 지정하고 스트림, 이미지 및 터미널 입력을 마스터링하는 데 중점을 둔 고급 자습서를 살펴봅니다.
@@ -29,3 +35,9 @@ url: /ko/net/advanced-io/
 원활한 TeX 통합을 위한 강력한 라이브러리인 .NET용 Aspose.TeX를 살펴보세요. 단계별 가이드를 따르세요.
 ### [C#용 Aspose.TeX의 마스터 스트림, 이미지 및 터미널 입력](./stream-input-image-output-terminal-input-csharp/)
 C# 마스터 스트림, 이미지 및 터미널 입력을 위한 Aspose.TeX의 강력한 기능을 손쉽게 살펴보세요. 원활한 문서 처리를 위해 지금 다운로드하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

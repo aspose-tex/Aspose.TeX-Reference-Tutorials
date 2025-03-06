@@ -3,10 +3,16 @@ title: Remplacer le nom du travail et écrire la sortie du terminal en Java
 linktitle: Remplacer le nom du travail et écrire la sortie du terminal en Java
 second_title: API Java Aspose.TeX
 description: Explorez le guide étape par étape sur le remplacement des noms de tâches et l'écriture de la sortie du terminal à l'aide d'Aspose.TeX pour Java. Améliorez le traitement de vos documents grâce à de puissantes options de personnalisation.
-type: docs
 weight: 10
 url: /fr/java/customizing-output/override-job-name-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remplacer le nom du travail et écrire la sortie du terminal en Java
+
 ## Introduction
 
 Aspose.TeX pour Java fournit des fonctionnalités puissantes pour travailler avec des fichiers TeX, permettant aux développeurs de manipuler et de personnaliser le traitement des documents TeX. Dans ce didacticiel, nous vous guiderons tout au long du processus de remplacement du nom du travail et d'écriture de la sortie du terminal sur le système de fichiers à l'aide d'Aspose.TeX en Java.
@@ -104,3 +110,9 @@ A1 : Oui, Aspose.TeX pour Java est conçu pour s'intégrer de manière transpare
 ### Q5 : Où puis-je acheter Aspose.TeX pour Java ?
 
  A5 : Visitez le[page d'achat](https://purchase.aspose.com/buy) pour acquérir une licence pour Aspose.TeX pour Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

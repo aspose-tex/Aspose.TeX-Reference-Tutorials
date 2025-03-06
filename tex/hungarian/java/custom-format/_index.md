@@ -3,10 +3,16 @@ title: Egyedi TeX formátum létrehozása Java nyelven
 linktitle: Egyedi TeX formátum létrehozása Java nyelven
 second_title: Aspose.TeX Java API
 description: Növelje a szedés konzisztenciáját Java nyelven az Aspose.TeX segítségével. Merüljön el oktatóanyagainkban az egyéni TeX formátumok létrehozásáról a zökkenőmentes és hatékony dokumentumformázás érdekében.
-type: docs
 weight: 24
 url: /hu/java/custom-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyedi TeX formátum létrehozása Java nyelven
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.TeX for Java erejének kiaknázásáról szóló átfogó útmutatóban, amellyel páratlan szedési konzisztenciát érhet el. Ebben az oktatóanyag-sorozatban az egyéni TeX formátumok létrehozásának művészetében fogunk elmélyülni, amely lehetővé teszi, hogy könnyedén javítsa dokumentumformázó játékát.
@@ -41,3 +47,9 @@ Kezdje el ezt az utat az Aspose.TeX for Java oktatóanyagaival, és alakítsa á
 ## Egyedi TeX formátum létrehozása Java oktatóanyagokban
 ### [Hozzon létre egyéni TeX formátumokat a konzisztens betűkészlethez Javaban](./creating-custom-formats/)
 Javítsa a szedés konzisztenciáját Java nyelven az Aspose.TeX segítségével. Hozzon létre egyedi TeX formátumokat könnyedén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

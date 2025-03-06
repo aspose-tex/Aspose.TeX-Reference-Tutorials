@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.TeX cho .NET
 linktitle: Hướng dẫn Aspose.TeX cho .NET
-type: docs
 weight: 10
 url: /vi/net/
 description: Làm chủ thiết kế LaTeX một cách dễ dàng bằng Aspose.TeX for .NET. Tải xuống để tích hợp liền mạch và khám phá định dạng nâng cao, xử lý tệp, cấp phép, v.v.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.TeX cho .NET
+
 
 ## Giới thiệu
 
@@ -80,3 +85,9 @@ Khám phá nghệ thuật hiển thị các phương trình toán học LaTeX d�
 Mở khóa khả năng làm chủ việc tạo tài liệu bằng Aspose.TeX cho .NET. Tìm hiểu cách tạo các định dạng TeX tùy chỉnh một cách dễ dàng trong hướng dẫn toàn diện này.
 ### [Đầu vào và đầu ra tệp Zip](./zip-file-io/)
 Mở khóa tiềm năng của Aspose.TeX cho .NET với Hướng dẫn nhập và xuất tệp Zip của chúng tôi. Khám phá khả năng xử lý tệp ZIP, xử lý tài liệu cho ứng dụng của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

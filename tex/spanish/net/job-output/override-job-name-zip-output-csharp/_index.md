@@ -3,10 +3,16 @@ title: Anular el nombre del trabajo y escribir la salida del terminal en Zip (C#
 linktitle: Anular el nombre del trabajo y escribir la salida del terminal en Zip (C#)
 second_title: API Aspose.TeX .NET
 description: Aprenda a anular los nombres de los trabajos y escribir la salida del terminal en un archivo ZIP usando Aspose.TeX para .NET. Guía paso a paso con ejemplos de C#.
-type: docs
 weight: 11
 url: /es/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anular el nombre del trabajo y escribir la salida del terminal en Zip (C#)
+
 ## Introducción
 
 En este tutorial, exploraremos cómo anular el nombre del trabajo y escribir la salida del terminal en un archivo ZIP usando Aspose.TeX para .NET. Aspose.TeX es una poderosa biblioteca que permite a los desarrolladores trabajar con documentos TeX en sus aplicaciones .NET. En este ejemplo particular, nos centraremos en una tarea común: escribir la salida del terminal en un archivo ZIP con la capacidad de anular el nombre del trabajo.
@@ -95,3 +101,9 @@ R1: Sí, Aspose.TeX para .NET es compatible con todos los lenguajes .NET.
 ### P5: ¿Dónde puedo comprar Aspose.TeX para .NET?
 
  R5: Puedes comprar Aspose.TeX[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

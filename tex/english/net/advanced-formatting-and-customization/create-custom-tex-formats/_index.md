@@ -3,10 +3,16 @@ title: Create Unique LaTeX Designs with Aspose.TeX for .NET
 linktitle: Create Unique LaTeX Designs with Aspose.TeX for .NET
 second_title: Aspose.TeX .NET API
 description: Create stunning LaTeX designs effortlessly with Aspose.TeX for .NET. Download now for a seamless integration into your .NET projects.
-type: docs
 weight: 10
 url: /net/advanced-formatting-and-customization/create-custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Unique LaTeX Designs with Aspose.TeX for .NET
+
 ## Introduction
 
 LaTeX, a powerful typesetting system, is widely used for creating high-quality documents and designs. Aspose.TeX for .NET provides a seamless way to harness the potential of LaTeX in your .NET applications. In this tutorial, we'll guide you through the process of creating unique LaTeX designs using Aspose.TeX for .NET.
@@ -89,3 +95,10 @@ A4: Yes, you can explore the capabilities of Aspose.TeX by accessing the [free t
 ### Q5: Can I obtain a temporary license for Aspose.TeX?
 
 A5: Yes, you can obtain a temporary license by visiting [this link](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

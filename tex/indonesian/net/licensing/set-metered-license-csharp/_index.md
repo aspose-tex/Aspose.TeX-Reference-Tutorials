@@ -3,10 +3,16 @@ title: Tetapkan Lisensi Terukur untuk Aspose.TeX (C#)
 linktitle: Tetapkan Lisensi Terukur untuk Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Jelajahi Aspose.TeX untuk .NET, siapkan lisensi terukur dengan mudah, dan buka potensi penuh manipulasi file TeX dalam proyek C# Anda.
-type: docs
 weight: 12
 url: /id/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tetapkan Lisensi Terukur untuk Aspose.TeX (C#)
+
 ## Perkenalan
 
 Aspose.TeX untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file TeX dengan lancar. Untuk membuka potensi penuhnya, penting untuk menyiapkan lisensi terukur. Ini memastikan bahwa Anda memiliki otorisasi yang tepat untuk menggunakan perpustakaan di aplikasi Anda.
@@ -92,3 +98,9 @@ Menyiapkan lisensi terukur untuk Aspose.TeX di C# adalah proses yang mudah. Deng
 ### Q5: Bisakah saya menggunakan lisensi sementara untuk Aspose.TeX?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Přepsat název úlohy a zapsat výstup terminálu do Zip (C#)
 linktitle: Přepsat název úlohy a zapsat výstup terminálu do Zip (C#)
 second_title: Aspose.TeX .NET API
 description: Naučte se, jak přepsat názvy úloh a zapsat výstup terminálu do souboru ZIP pomocí Aspose.TeX for .NET. Průvodce krok za krokem s příklady C#.
-type: docs
 weight: 11
 url: /cs/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přepsat název úlohy a zapsat výstup terminálu do Zip (C#)
+
 ## Úvod
 
 tomto tutoriálu prozkoumáme, jak přepsat název úlohy a zapsat výstup terminálu do souboru ZIP pomocí Aspose.TeX for .NET. Aspose.TeX je výkonná knihovna, která umožňuje vývojářům pracovat s TeXovými dokumenty v jejich aplikacích .NET. V tomto konkrétním příkladu se zaměříme na běžný úkol – zápis terminálového výstupu do souboru ZIP s možností přepsat název úlohy.
@@ -95,3 +101,9 @@ Odpověď 1: Ano, Aspose.TeX for .NET je kompatibilní se všemi jazyky .NET.
 ### Q5: Kde mohu zakoupit Aspose.TeX pro .NET?
 
  A5: Můžete si koupit Aspose.TeX[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

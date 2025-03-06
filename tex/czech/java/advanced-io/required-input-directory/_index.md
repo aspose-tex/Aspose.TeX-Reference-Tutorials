@@ -3,10 +3,16 @@ title: Zadejte požadovaný vstupní adresář v jazyce Java
 linktitle: Zadejte požadovaný vstupní adresář v jazyce Java
 second_title: Aspose.TeX Java API
 description: Vylepšete zpracování Java TeX pomocí Aspose.TeX pro Javu. Postupujte podle našeho podrobného průvodce a plynule specifikujte požadované vstupní adresáře.
-type: docs
 weight: 10
 url: /cs/java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zadejte požadovaný vstupní adresář v jazyce Java
+
 ## Úvod
 
 Hledáte vylepšit možnosti své Java aplikace při efektivním zpracování úloh TeX? Aspose.TeX for Java je řešení, které jste hledali! V tomto komplexním průvodci vás provedeme procesem zadání požadovaného vstupního adresáře v Javě pomocí Aspose.TeX.
@@ -104,3 +110,9 @@ Aspose.TeX for Java umožňuje vývojářům bezproblémově zpracovávat úlohy
 ### Q5: Jak koupím Aspose.TeX pro Javu?
 
  A5: Chcete-li zakoupit, navštivte stránku nákupu[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

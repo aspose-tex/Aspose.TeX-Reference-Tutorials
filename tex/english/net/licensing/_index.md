@@ -3,10 +3,16 @@ title: Manage Aspose.TeX Licenses
 linktitle: Manage Aspose.TeX Licenses
 second_title: Aspose.TeX .NET API
 description: Unlock the full potential of Aspose.TeX .NET with these tutorials. Learn to manage licenses, enhance document processing, and explore limitless possibilities.
-type: docs
 weight: 23
 url: /net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Aspose.TeX Licenses
+
 ## Introduction
 
 Are you ready to dive into the world of Aspose.TeX for .NET? These tutorials will guide you through the essential steps to manage licenses effectively and harness the full power of TeX file manipulation in your C# projects.
@@ -41,3 +47,9 @@ Explore the limitless possibilities of Aspose.TeX for .NET. Create, modify, and 
 Explore Aspose.TeX for .NET Load licenses seamlessly, enhance document processing. Check out the tutorial for step-by-step guidance.
 ### [Set Metered License for Aspose.TeX (C#)](./set-metered-license-csharp/)
 Explore Aspose.TeX for .NET, set up metered licensing effortlessly, and unlock the full potential of TeX file manipulation in your C# projects.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

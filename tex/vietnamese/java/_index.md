@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn và ví dụ toàn diện về Aspose.TeX cho Java
 linktitle: Hướng dẫn Aspose.TeX cho Java
-type: docs
 weight: 10
 url: /vi/java/
 description: Dễ dàng tích hợp Aspose.TeX Java vào các dự án của bạn! Khám phá các hướng dẫn về LaTeX sang PDF, XPS, hình ảnh, v.v. Tối ưu hóa việc xử lý tài liệu với hướng dẫn của chúng tôi.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn và ví dụ toàn diện về Aspose.TeX cho Java
+
 
 
 ## Giới thiệu
@@ -87,3 +92,9 @@ Dễ dàng thành thạo việc sắp chữ trong Java với Aspose.TeX. Đi sâ
 Khám phá bí mật sắp chữ các tệp TeX thành XPS trong Java một cách dễ dàng với Aspose.TeX. Đi sâu vào hướng dẫn của chúng tôi để được hướng dẫn từng bước về cách xử lý tài liệu liền mạch.
 ### [Xử lý kho lưu trữ ZIP trong Aspose.TeX cho Java](./zip-archives/)
 Khai phá sức mạnh của Aspose.TeX cho Java bằng các hướng dẫn toàn diện của chúng tôi về cách xử lý các kho lưu trữ ZIP. Tối ưu hóa quy trình đầu vào và đầu ra một cách liền mạch với hướng dẫn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

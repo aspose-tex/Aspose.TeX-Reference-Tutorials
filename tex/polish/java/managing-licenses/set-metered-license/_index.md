@@ -3,10 +3,16 @@ title: Ustaw licencję licznikową dla Aspose.TeX w Javie
 linktitle: Ustaw licencję licznikową dla Aspose.TeX w Javie
 second_title: Aspose.TeX API Java
 description: Odblokuj pełny potencjał Aspose.TeX w Javie, konfigurując licencję licznikową. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 12
 url: /pl/java/managing-licenses/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw licencję licznikową dla Aspose.TeX w Javie
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym konfiguracji licencji licznikowej dla Aspose.TeX w Javie! Aspose.TeX to potężna biblioteka zapewniająca funkcje do pracy z plikami TeX w aplikacjach Java. Aby uwolnić jego pełny potencjał, konieczne jest zrozumienie, jak skonfigurować licencję licznikową. W tym samouczku przeprowadzimy Cię przez ten proces, dzieląc go na łatwe do wykonania kroki.
@@ -77,3 +83,9 @@ W tym samouczku omówiliśmy podstawowe kroki, aby skonfigurować licencję licz
 ### P5: Potrzebujesz pomocy lub masz pytania?
 
  A5: Odwiedź[Forum wsparcia Aspose.TeX](https://forum.aspose.com/c/tex/47) do pomocy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

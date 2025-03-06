@@ -3,10 +3,16 @@ title: 使用 PDF 输出
 linktitle: 使用 PDF 输出
 second_title: Aspose.TeX .NET API
 description: 通过我们关于将 TeX 排版为 PDF 的综合教程来释放 Aspose.TeX for .NET 的强大功能。通过无缝集成提升您的 .NET 开发技能。
-type: docs
 weight: 28
 url: /zh/net/pdf-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 PDF 输出
+
 ## 介绍
 
 Aspose.TeX for .NET 是 TeX 到 PDF 排版领域的游戏规则改变者，本教程是您释放其全部潜力的门户。在本文中，我们将深入研究处理 PDF 输出的复杂性，重点关注 Aspose.TeX for .NET 的无缝集成。
@@ -31,3 +37,9 @@ Aspose.TeX for .NET 是 TeX 到 PDF 排版领域的游戏规则改变者，本�
 ## 使用 PDF 输出教程
 ### [如何在 .NET 中将 TeX 排版为 PDF](./typeset-tex-to-pdf/)
 探索 Aspose.TeX for .NET 在将 TeX 排版为 PDF 时的无缝集成。深入学习这个综合教程并提高您的 .NET 开发技能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

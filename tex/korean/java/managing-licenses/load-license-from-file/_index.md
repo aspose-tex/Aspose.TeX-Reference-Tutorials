@@ -3,10 +3,16 @@ title: Java의 파일에서 TeX 라이센스 로드
 linktitle: Java의 파일에서 TeX 라이센스 로드
 second_title: Aspose.TeX 자바 API
 description: Java용 Aspose.TeX의 강력한 기능을 알아보세요. 단계별 가이드를 통해 파일에서 TeX 라이센스를 쉽게 로드할 수 있습니다.
-type: docs
 weight: 10
 url: /ko/java/managing-licenses/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 파일에서 TeX 라이센스 로드
+
 ## 소개
 
 Java용 Aspose.TeX 기능 활용에 대한 포괄적인 가이드에 오신 것을 환영합니다! 숙련된 개발자이거나 Java에서 TeX 처리를 이제 막 시작한 사람이라면 이 튜토리얼에서는 파일에서 TeX 라이센스를 로드하는 과정을 안내합니다. 마지막에는 Aspose.TeX를 Java 프로젝트에 원활하게 통합할 수 있는 지식을 갖추게 됩니다.
@@ -77,3 +83,9 @@ System.out.println("License set successfully.");
 ### Q5: 문서는 어디서 찾을 수 있나요?
 
  A5: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

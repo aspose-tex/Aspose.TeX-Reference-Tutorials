@@ -3,10 +3,16 @@ title: Zip File Input and Output
 linktitle: Zip File Input and Output
 second_title: Aspose.TeX .NET API
 description: Unlock the potential of Aspose.TeX for .NET with our Zip File Input and Output Tutorials. Explore ZIP file handling, document processing for your applications.
-type: docs
 weight: 32
 url: /net/zip-file-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zip File Input and Output
+
 ## Introduction
 
 Aspose.TeX for .NET stands as a powerful tool, elevating your document processing capabilities to new heights. In this tutorial series, we delve into the intricacies of handling ZIP files using Aspose.TeX, providing you with a comprehensive understanding of its functionalities.
@@ -28,3 +34,9 @@ In conclusion, our Aspose.TeX for .NET Zip File Input and Output Tutorials empow
 ## Zip File Input and Output Tutorials
 ### [Using Zip Files with Aspose.TeX for .NET](./zip-files-aspose-tex/)
 Explore the power of Aspose.TeX for .NET in handling ZIP files effortlessly. Enhance document processing in your applications.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

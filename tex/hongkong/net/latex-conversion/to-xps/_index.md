@@ -3,10 +3,16 @@ title: .NET 中的 LaTeX 到 XPS - 使用 Aspose.TeX 輕鬆轉換
 linktitle: .NET 中的 LaTeX 到 XPS - 使用 Aspose.TeX 輕鬆轉換
 second_title: Aspose.TeX .NET API
 description: 使用 Aspose.TeX 輕鬆將 .NET 中的 LaTeX 轉換為 XPS。高品質、可客製化、高效。
-type: docs
 weight: 13
 url: /zh-hant/net/latex-conversion/to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET 中的 LaTeX 到 XPS - 使用 Aspose.TeX 輕鬆轉換
+
 ## 介紹
 
 您是否正在尋找一種在 .NET 應用程式中將 LaTeX 文件無縫轉換為 XPS 格式的方法？ Aspose.TeX for .NET 為這項任務提供了強大的解決方案，使轉換過程簡單且有效率。本逐步指南將引導您完成使用 Aspose.TeX 將 LaTeX 轉換為 XPS 的過程，確保您獲得準確且高品質的結果。
@@ -177,3 +183,9 @@ A1：是的，Aspose.TeX 會定期更新，以確保與最新的 .NET 框架相�
 ### Q5: 有樣本檔案可供測試嗎？
 
  A5：探索 Aspose.TeX 範例[這裡](https://github.com/aspose-tex/Aspose.TeX-for-.NET).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

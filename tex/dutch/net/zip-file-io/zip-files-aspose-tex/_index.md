@@ -3,10 +3,16 @@ title: Zip-bestanden gebruiken met Aspose.TeX voor .NET
 linktitle: Zip-bestanden gebruiken met Aspose.TeX voor .NET
 second_title: Aspose.TeX .NET-API
 description: Ontdek de kracht van Aspose.TeX voor .NET bij het moeiteloos verwerken van ZIP-bestanden. Verbeter de documentverwerking in uw toepassingen.
-type: docs
 weight: 10
 url: /nl/net/zip-file-io/zip-files-aspose-tex/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zip-bestanden gebruiken met Aspose.TeX voor .NET
+
 ## Invoering
 
 In de wereld van .NET-ontwikkeling onderscheidt Aspose.TeX zich als een krachtig hulpmiddel voor het werken met TeX-documenten. Aspose.TeX voor .NET biedt een verscheidenheid aan functies, en een bijzonder nuttige mogelijkheid is het naadloos verwerken van Zip-bestanden. Deze tutorial begeleidt u bij het gebruik van Zip-bestanden met Aspose.TeX in uw .NET-projecten.
@@ -115,3 +121,9 @@ A1: Vanaf nu ondersteunt Aspose.TeX voornamelijk het werken met ZIP-archieven.
 ### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.TeX?
 
  A5: Bezoek[deze link](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie te verkrijgen voor testdoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

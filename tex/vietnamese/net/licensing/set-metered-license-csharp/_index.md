@@ -3,10 +3,16 @@ title: Đặt giấy phép đo lường cho Aspose.TeX (C#)
 linktitle: Đặt giấy phép đo lường cho Aspose.TeX (C#)
 second_title: API Aspose.TeX .NET
 description: Khám phá Aspose.TeX cho .NET, dễ dàng thiết lập cấp phép theo đồng hồ đo và khai thác toàn bộ tiềm năng của thao tác tệp TeX trong các dự án C# của bạn.
-type: docs
 weight: 12
 url: /vi/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt giấy phép đo lường cho Aspose.TeX (C#)
+
 ## Giới thiệu
 
 Aspose.TeX for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp TeX. Để khai thác hết tiềm năng của nó, điều cần thiết là phải thiết lập giấy phép có đồng hồ đo. Điều này đảm bảo rằng bạn có quyền thích hợp để sử dụng thư viện trong ứng dụng của mình.
@@ -92,3 +98,9 @@ Thiết lập giấy phép đo lường cho Aspose.TeX trong C# là một quá t
 ### Câu hỏi 5: Tôi có thể sử dụng giấy phép tạm thời cho Aspose.TeX không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

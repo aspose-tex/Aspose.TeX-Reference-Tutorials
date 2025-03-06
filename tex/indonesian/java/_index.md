@@ -1,12 +1,17 @@
 ---
 title: Tutorial Komprehensif & Contoh Aspose.TeX untuk Java
 linktitle: Aspose.TeX untuk Tutorial Java
-type: docs
 weight: 10
 url: /id/java/
 description: Integrasikan Aspose.TeX Java dengan mudah ke dalam proyek Anda! Jelajahi tutorial tentang LaTeX ke PDF, XPS, gambar, dan banyak lagi. Optimalkan pemrosesan dokumen dengan panduan kami.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Komprehensif & Contoh Aspose.TeX untuk Java
+
 
 
 ## Perkenalan
@@ -87,3 +92,9 @@ Kuasai penyusunan huruf dengan mudah di Java dengan Aspose.TeX. Selami tutorial 
 Buka rahasia penyusunan huruf file TeX ke XPS di Java dengan mudah menggunakan Aspose.TeX. Selami tutorial kami untuk panduan langkah demi langkah tentang pemrosesan dokumen yang lancar.
 ### [Menangani Arsip ZIP di Aspose.TeX untuk Java](./zip-archives/)
 Temukan kekuatan Aspose.TeX untuk Java dengan tutorial komprehensif kami tentang penanganan arsip ZIP. Optimalkan proses input dan output secara lancar dengan panduan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

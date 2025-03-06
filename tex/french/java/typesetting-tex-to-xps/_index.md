@@ -3,10 +3,16 @@ title: Composition de fichiers TeX en XPS en Java
 linktitle: Composition de fichiers TeX en XPS en Java
 second_title: API Java Aspose.TeX
 description: Découvrez les secrets de la composition de fichiers TeX sur XPS en Java sans effort avec Aspose.TeX. Plongez dans nos didacticiels pour obtenir des conseils étape par étape sur le traitement fluide des documents.
-type: docs
 weight: 30
 url: /fr/java/typesetting-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Composition de fichiers TeX en XPS en Java
+
 ## Introduction
 
 Êtes-vous prêt à élever votre jeu de traitement de documents Java ? Cherchez pas plus loin! Nos didacticiels Aspose.TeX pour Java sur la composition de fichiers TeX vers XPS sont là pour vous offrir des solutions transparentes. Dans cet article, nous approfondirons les subtilités de la composition de TeX en XPS en Java avec un flux externe, vous offrant ainsi une compréhension complète du processus.
@@ -37,3 +43,9 @@ Que vous soyez un développeur Java cherchant à améliorer les capacités de tr
 ## Composition de fichiers TeX en XPS dans les didacticiels Java
 ### [Composer TeX en XPS en Java avec flux externe](./typeset-tex-to-xps-external-stream/)
 Découvrez comment composer TeX en XPS en Java à l'aide d'Aspose.TeX. Découvrez des conseils étape par étape pour un traitement fluide des documents.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

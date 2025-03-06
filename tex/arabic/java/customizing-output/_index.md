@@ -3,10 +3,16 @@ title: تخصيص مخرجات TeX في Aspose.TeX لـ Java
 linktitle: تخصيص مخرجات TeX في Aspose.TeX لـ Java
 second_title: Aspose.TeX جافا API
 description: قم بتحسين معالجة المستندات الخاصة بك في Java باستخدام Aspose.TeX. استكشف الأدلة حول تجاوز أسماء الوظائف، وكتابة المخرجات الطرفية، والعرض السلس لأشكال LaTeX والرياضيات إلى PNG/SVG.
-type: docs
 weight: 26
 url: /ar/java/customizing-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص مخرجات TeX في Aspose.TeX لـ Java
+
 ## مقدمة
 
 هل أنت مطور Java وتتطلع إلى رفع قدرات معالجة المستندات لديك؟ انغمس في عالم Aspose.TeX، وهي أداة قوية تسمح لك بتخصيص مخرجات TeX بدقة وكفاءة. في هذه المقالة، سنوجهك عبر البرامج التعليمية الأساسية حول خيارات التخصيص المتنوعة.
@@ -61,3 +67,9 @@ url: /ar/java/customizing-output/
 تعرف على كيفية عرض أشكال LaTeX إلى SVG في Java بسهولة باستخدام Aspose.TeX. اتبع هذا الدليل خطوة بخطوة لتحقيق التكامل السلس.
 ### [تقديم LaTeX Math إلى SVG في Java](./render-lamath-svg/)
 تعرف على كيفية عرض معادلات LaTeX الرياضية إلى SVG في Java باستخدام Aspose.TeX. اتبع دليلنا خطوة بخطوة للحصول على نتائج دقيقة وجذابة بصريًا.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

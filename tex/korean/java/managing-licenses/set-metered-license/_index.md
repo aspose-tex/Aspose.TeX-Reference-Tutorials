@@ -3,10 +3,16 @@ title: Java에서 Aspose.TeX에 대한 측정 라이센스 설정
 linktitle: Java에서 Aspose.TeX에 대한 측정 라이센스 설정
 second_title: Aspose.TeX 자바 API
 description: 계량 라이센스를 설정하여 Java에서 Aspose.TeX의 잠재력을 최대한 활용하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 12
 url: /ko/java/managing-licenses/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 Aspose.TeX에 대한 측정 라이센스 설정
+
 ## 소개
 
 Java에서 Aspose.TeX에 대한 계량 라이센스 설정에 대한 단계별 가이드에 오신 것을 환영합니다! Aspose.TeX는 Java 애플리케이션에서 TeX 파일 작업을 위한 기능을 제공하는 강력한 라이브러리입니다. 잠재력을 최대한 활용하려면 측정 라이선스를 설정하는 방법을 이해하는 것이 중요합니다. 이 튜토리얼에서는 프로세스를 따라하기 쉬운 단계로 나누어 단계별로 안내합니다.
@@ -77,3 +83,9 @@ new Metered().setMeteredKey(
 ### Q5: 도움이 필요하거나 질문이 있나요?
 
  A5: 다음을 방문하세요.[Aspose.TeX 지원 포럼](https://forum.aspose.com/c/tex/47) 도움을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

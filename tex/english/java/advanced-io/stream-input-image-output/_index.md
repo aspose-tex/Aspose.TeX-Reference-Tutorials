@@ -3,10 +3,16 @@ title: Stream Input, Image Output, and Terminal Input in Java
 linktitle: Stream Input, Image Output, and Terminal Input in Java
 second_title: Aspose.TeX Java API
 description: Learn stream input, image output, and terminal input in Java using Aspose.TeX. A comprehensive tutorial for seamless integration.
-type: docs
 weight: 11
 url: /java/advanced-io/stream-input-image-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stream Input, Image Output, and Terminal Input in Java
+
 ## Introduction
 
 Aspose.TeX for Java is a powerful library that allows developers to work with TeX files, facilitating the creation and manipulation of high-quality documents. In this tutorial, we'll explore the process of taking stream input, generating image output, and handling terminal input in Java using Aspose.TeX.
@@ -134,3 +140,10 @@ A4: You can get a temporary license from [here](https://purchase.aspose.com/temp
 ### Q5: Are there any additional resources for Aspose.TeX documentation?
 
 A5: Explore the comprehensive [documentation](https://reference.aspose.com/tex/java/) for detailed insights and examples.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

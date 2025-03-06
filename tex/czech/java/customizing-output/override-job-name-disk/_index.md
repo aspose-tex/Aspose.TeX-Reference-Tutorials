@@ -3,10 +3,16 @@ title: Přepište název úlohy a zapište výstup terminálu v jazyce Java
 linktitle: Přepište název úlohy a zapište výstup terminálu v jazyce Java
 second_title: Aspose.TeX Java API
 description: Prozkoumejte podrobného průvodce přepisováním názvů úloh a psaním terminálového výstupu pomocí Aspose.TeX for Java. Vylepšete zpracování dokumentů pomocí výkonných možností přizpůsobení.
-type: docs
 weight: 10
 url: /cs/java/customizing-output/override-job-name-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přepište název úlohy a zapište výstup terminálu v jazyce Java
+
 ## Úvod
 
 Aspose.TeX for Java poskytuje výkonné funkce pro práci se soubory TeX a umožňuje vývojářům manipulovat a přizpůsobovat zpracování dokumentů TeX. V tomto tutoriálu vás provedeme procesem přepsání názvu úlohy a zápisu terminálového výstupu do souborového systému pomocí Aspose.TeX v Javě.
@@ -104,3 +110,9 @@ Odpověď 1: Ano, Aspose.TeX for Java je navržen tak, aby se hladce integroval 
 ### Q5: Kde mohu zakoupit Aspose.TeX pro Javu?
 
  A5: Navštivte[nákupní stránku](https://purchase.aspose.com/buy) získat licenci na Aspose.TeX for Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kết xuất số liệu LaTeX thành SVG bằng Aspose.TeX (C#)
 linktitle: Kết xuất số liệu LaTeX thành SVG bằng Aspose.TeX (C#)
 second_title: API Aspose.TeX .NET
 description: Nâng cao khả năng hiển thị tài liệu trong .NET với Aspose.TeX. Tìm hiểu cách hiển thị số liệu LaTeX thành SVG trong C# để tích hợp liền mạch các biểu thức toán học.
-type: docs
 weight: 11
 url: /vi/net/render-latex-figures/svg-latex-figure-renderer-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất số liệu LaTeX thành SVG bằng Aspose.TeX (C#)
+
 ## Giới thiệu
 
 Nếu bạn đang tìm cách nâng cao khả năng kết xuất tài liệu của mình trong .NET bằng cách sử dụng số liệu LaTeX, Aspose.TeX là giải pháp phù hợp cho bạn. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn cách hiển thị số liệu LaTeX thành SVG bằng Aspose.TeX trong C#. Khi kết thúc hướng dẫn này, bạn sẽ hiểu rõ ràng về quy trình, giúp bạn có thể kết hợp liền mạch các biểu thức và số liệu toán học chất lượng cao vào tài liệu của mình.
@@ -89,3 +95,9 @@ Chúc mừng! Bạn đã học thành công cách hiển thị số liệu LaTeX
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời không?
 
  A5: Nếu được yêu cầu, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

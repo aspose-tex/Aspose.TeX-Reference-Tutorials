@@ -3,10 +3,16 @@ title: Aspose.TeX (C#) için Ölçülü Lisansı Ayarlayın
 linktitle: Aspose.TeX (C#) için Ölçülü Lisansı Ayarlayın
 second_title: Aspose.TeX .NET API'si
 description: Aspose.TeX for .NET'i keşfedin, ölçülü lisanslamayı zahmetsizce kurun ve C# projelerinizde TeX dosya manipülasyonunun tüm potansiyelini ortaya çıkarın.
-type: docs
 weight: 12
 url: /tr/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX (C#) için Ölçülü Lisansı Ayarlayın
+
 ## giriiş
 
 Aspose.TeX for .NET, geliştiricilerin TeX dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır. Tam potansiyelini açığa çıkarmak için ölçülü bir lisans oluşturmak önemlidir. Bu, kitaplığı uygulamalarınızda kullanmak için uygun yetkiye sahip olmanızı sağlar.
@@ -92,3 +98,9 @@ C#'ta Aspose.TeX için ölçülü bir lisans ayarlamak basit bir işlemdir. Bu a
 ### S5: Aspose.TeX için geçici bir lisans kullanabilir miyim?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

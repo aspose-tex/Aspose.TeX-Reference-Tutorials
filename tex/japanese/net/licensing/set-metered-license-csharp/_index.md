@@ -3,10 +3,16 @@ title: Aspose.TeX の従量制ライセンスを設定する (C#)
 linktitle: Aspose.TeX の従量制ライセンスを設定する (C#)
 second_title: Aspose.TeX .NET API
 description: Aspose.TeX for .NET を探索し、従量制ライセンスを簡単に設定し、C# プロジェクトでの TeX ファイル操作の可能性を最大限に引き出します。
-type: docs
 weight: 12
 url: /ja/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX の従量制ライセンスを設定する (C#)
+
 ## 導入
 
 Aspose.TeX for .NET は、開発者が TeX ファイルをシームレスに操作できるようにする強力なライブラリです。その可能性を最大限に活用するには、従量制ライセンスを設定することが不可欠です。これにより、アプリケーションでライブラリを使用するための適切な承認が得られます。
@@ -92,3 +98,9 @@ A2: はい、次のサイトにアクセスして、Aspose.TeX の無料トラ�
 ### Q5: Aspose.TeX の一時ライセンスを使用できますか?
 
  A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

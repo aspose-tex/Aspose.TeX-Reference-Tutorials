@@ -3,10 +3,16 @@ title: Remplacer le nom du travail et écrire la sortie du terminal dans Zip en 
 linktitle: Remplacer le nom du travail et écrire la sortie du terminal dans Zip en Java
 second_title: API Java Aspose.TeX
 description: Découvrez comment remplacer les noms de tâches et écrire la sortie du terminal au format ZIP en Java avec Aspose.TeX. Un tutoriel complet pour les développeurs Java.
-type: docs
 weight: 11
 url: /fr/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remplacer le nom du travail et écrire la sortie du terminal dans Zip en Java
+
 ## Introduction
 
 Dans le monde du développement Java, Aspose.TeX s'impose comme un outil puissant pour gérer les formats de fichiers TeX. Dans ce didacticiel, nous aborderons un scénario spécifique : remplacer les noms de tâches et écrire la sortie du terminal dans un fichier zip. Ce guide étape par étape vous guidera tout au long du processus d'utilisation d'Aspose.TeX pour Java.
@@ -126,3 +132,10 @@ A1 : Aspose.TeX est une bibliothèque Java qui permet aux développeurs de trava
 ### Q5 : Où puis-je demander de l'aide ou poser des questions sur Aspose.TeX ?
 
  A5 : Visitez le[Forum Aspose.TeX](https://forum.aspose.com/c/tex/47) pour du soutien et des discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

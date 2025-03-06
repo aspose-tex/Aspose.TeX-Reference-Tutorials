@@ -3,10 +3,16 @@ title: Как набрать TeX в PDF в .NET
 linktitle: Как набрать TeX в PDF в .NET
 second_title: API Aspose.TeX .NET
 description: Изучите плавную интеграцию Aspose.TeX для .NET при верстке TeX в PDF. Погрузитесь в это подробное руководство и улучшите свои навыки разработки .NET.
-type: docs
 weight: 10
 url: /ru/net/pdf-output/typeset-tex-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Как набрать TeX в PDF в .NET
+
 ## Введение
 
 Если вы погружаетесь в мир верстки TeX и PDF в среде .NET, вас ждет удовольствие. В этом пошаговом руководстве мы рассмотрим, как использовать возможности Aspose.TeX для .NET для беспрепятственного верстки документов TeX в файлы PDF. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете работать с TeX, это руководство проведет вас через весь процесс, разбив каждый шаг, чтобы сделать его доступным для всех.
@@ -111,3 +117,9 @@ using (Stream stream = File.Open(Path.Combine("Your Output Directory", "file-nam
 ### Вопрос 5: Нужна ли мне временная лицензия для целей тестирования?
 
  О5: Да, вы можете получить временную лицензию для целей тестирования через[эта ссылка](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

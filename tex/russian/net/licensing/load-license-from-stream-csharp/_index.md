@@ -3,10 +3,16 @@ title: Загрузка лицензии Aspose.TeX из потока (C#)
 linktitle: Загрузка лицензии Aspose.TeX из потока (C#)
 second_title: API Aspose.TeX .NET
 description: Изучите Aspose.TeX для .NET Беспрепятственная загрузка лицензий и улучшение обработки документов. Ознакомьтесь с руководством, чтобы получить пошаговые инструкции.
-type: docs
 weight: 11
 url: /ru/net/licensing/load-license-from-stream-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Загрузка лицензии Aspose.TeX из потока (C#)
+
 ## Введение
 
 Добро пожаловать в мир Aspose.TeX для .NET, мощного инструмента, который позволяет разработчикам легко создавать, манипулировать и преобразовывать файлы TeX. В этом руководстве мы проведем вас через процесс загрузки лицензии Aspose.TeX из потока с использованием C#. К концу вы будете обладать знаниями, позволяющими беспрепятственно интегрировать эту важную функциональность в ваши .NET-приложения.
@@ -79,3 +85,9 @@ Console.WriteLine("License set successfully.");
 ### Вопрос 5: Где я могу приобрести Aspose.TeX для .NET?
 
  О5: Вы можете приобрести Aspose.TeX для .NET.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Wejście strumieniowe, wyjście obrazu i wejście terminala w Javie
 linktitle: Wejście strumieniowe, wyjście obrazu i wejście terminala w Javie
 second_title: Aspose.TeX API Java
 description: Naucz się wprowadzania strumieniowego, wyjściowego obrazu i terminala w Javie przy użyciu Aspose.TeX. Kompleksowy samouczek dotyczący bezproblemowej integracji.
-type: docs
 weight: 11
 url: /pl/java/advanced-io/stream-input-image-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wejście strumieniowe, wyjście obrazu i wejście terminala w Javie
+
 ## Wstęp
 
 Aspose.TeX dla Java to potężna biblioteka, która umożliwia programistom pracę z plikami TeX, ułatwiając tworzenie i manipulowanie dokumentami wysokiej jakości. W tym samouczku omówimy proces pobierania danych wejściowych ze strumienia, generowania obrazu wyjściowego i obsługi danych wejściowych terminala w Javie przy użyciu Aspose.TeX.
@@ -134,3 +140,9 @@ A2: Absolutnie! Aspose.TeX zapewnia różne opcje zapisywania obrazów wyjściow
 ### P5: Czy są jakieś dodatkowe źródła dokumentacji Aspose.TeX?
 
  A5: Poznaj kompleksowość[dokumentacja](https://reference.aspose.com/tex/java/) szczegółowe informacje i przykłady.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

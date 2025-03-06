@@ -3,10 +3,16 @@ title: Đầu vào và đầu ra nâng cao trong Aspose.TeX cho Java
 linktitle: Đầu vào và đầu ra nâng cao trong Aspose.TeX cho Java
 second_title: API Java Aspose.TeX
 description: Cải thiện khả năng xử lý Java TeX với các hướng dẫn Aspose.TeX dành cho Java. Tìm hiểu cách chỉ định thư mục đầu vào và tối ưu hóa quá trình xử lý luồng cho các dự án Java nâng cao.
-type: docs
 weight: 27
 url: /vi/java/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đầu vào và đầu ra nâng cao trong Aspose.TeX cho Java
+
 
 ## Giới thiệu
 
@@ -30,3 +36,9 @@ Tóm lại, những hướng dẫn này đóng vai trò là cửa ngõ giúp b�
 Tăng cường xử lý Java TeX với Aspose.TeX cho Java. Làm theo hướng dẫn từng bước của chúng tôi để chỉ định liền mạch các thư mục đầu vào cần thiết.
 ### [Đầu vào luồng, đầu ra hình ảnh và đầu vào đầu cuối trong Java](./stream-input-image-output/)
 Tìm hiểu đầu vào luồng, đầu ra hình ảnh và đầu vào đầu cuối trong Java bằng Aspose.TeX. Hướng dẫn toàn diện để tích hợp liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

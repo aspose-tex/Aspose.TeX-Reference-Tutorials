@@ -3,10 +3,16 @@ title: Làm việc với Hệ thống tệp & Đầu ra XPS trong Aspose.TeX cho
 linktitle: Làm việc với Hệ thống tệp & Đầu ra XPS trong Aspose.TeX cho .NET
 second_title: API Aspose.TeX .NET
 description: Khám phá sức mạnh của Aspose.TeX dành cho .NET. Tìm hiểu cách xử lý dễ dàng các hệ thống tệp và tạo đầu ra XPS trong hướng dẫn toàn diện này.
-type: docs
 weight: 10
 url: /vi/net/file-input-output/filesystem-input-xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Hệ thống tệp & Đầu ra XPS trong Aspose.TeX cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách làm việc với hệ thống tệp và đầu ra XPS trong Aspose.TeX cho .NET! Nếu bạn đang tìm cách khai thác sức mạnh của Aspose.TeX để quản lý đầu vào và đầu ra thông qua hệ thống tệp trong khi tạo đầu ra XPS, thì bạn đã đến đúng nơi. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ từng ví dụ thành nhiều bước để đảm bảo bạn hiểu rõ ràng.
@@ -113,3 +119,9 @@ A1: Có, bạn có thể. Aspose.TeX hỗ trợ nhiều định dạng đầu ra
 ### Câu 5: Có dự án mẫu nào không?
 
 Câu trả lời 5: Khám phá kho lưu trữ Aspose.TeX GitHub để biết các dự án mẫu và đoạn mã.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

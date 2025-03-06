@@ -3,10 +3,16 @@ title: Buat Format TeX Khusus untuk Penyusunan Huruf yang Konsisten di Java
 linktitle: Buat Format TeX Khusus untuk Penyusunan Huruf yang Konsisten di Java
 second_title: Aspose.TeX Java API
 description: Tingkatkan konsistensi penyusunan huruf di Java dengan Aspose.TeX. Buat format TeX khusus dengan mudah.
-type: docs
 weight: 10
 url: /id/java/custom-format/creating-custom-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Format TeX Khusus untuk Penyusunan Huruf yang Konsisten di Java
+
 ## Perkenalan
 
 Memformat dokumen TeX adalah aspek penting dalam pemrosesan dokumen, terutama ketika konsistensi di berbagai dokumen sangat penting. Aspose.TeX untuk Java memberikan solusi kuat untuk tantangan ini dengan memungkinkan pengembang membuat format TeX khusus yang disesuaikan dengan kebutuhan spesifik mereka.
@@ -114,3 +120,9 @@ Dalam tutorial ini, kita menjelajahi proses pembuatan format TeX khusus dengan A
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.TeX untuk Java?
 
  A5: Anda dapat mencari dukungan di[Forum Aspose.TeX](https://forum.aspose.com/c/tex/47).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การทำงานกับเอาต์พุต XPS
 linktitle: การทำงานกับเอาต์พุต XPS
 second_title: Aspose.TeX .NET API
 description: แปลง TeX เป็น XPS ได้อย่างง่ายดายด้วย Aspose.TeX ใน .NET คำแนะนำของเรารับประกันการบูรณาการที่ราบรื่น สำรวจบทช่วยสอนการเรียงพิมพ์ TeX เป็น XPS เพื่อรับข้อมูลเชิงลึกจากผู้เชี่ยวชาญ
-type: docs
 weight: 29
 url: /th/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การทำงานกับเอาต์พุต XPS
+
 ## การแนะนำ
 
 คุณต้องการควบคุมพลังของ Aspose.TeX ในแอปพลิเคชัน .NET ของคุณหรือไม่? เจาะลึกบทช่วยสอนที่ครอบคลุมของเรา ซึ่งออกแบบมาโดยเฉพาะสำหรับการทำงานกับเอาท์พุต XPS ในบทความนี้ เราจะแนะนำคุณตลอดกระบวนการแปลงเอกสาร TeX เป็น XPS ได้อย่างง่ายดาย โดยมอบประสบการณ์การผสานรวมกับ Aspose.TeX ได้อย่างราบรื่น
@@ -36,3 +42,9 @@ url: /th/net/xps-output/
 ## การทำงานกับบทช่วยสอนเอาท์พุต XPS
 ### [การเรียงพิมพ์ TeX เป็น XPS ใน .NET](./typeset-tex-to-xps/)
 แปลงเอกสาร TeX เป็น XPS ใน .NET ได้อย่างง่ายดายด้วย Aspose.TeX สำรวจคำแนะนำทีละขั้นตอนของเราเพื่อประสบการณ์การบูรณาการที่ราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

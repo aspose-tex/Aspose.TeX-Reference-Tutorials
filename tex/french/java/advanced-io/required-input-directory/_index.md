@@ -3,10 +3,16 @@ title: Spécifier le répertoire d'entrée requis en Java
 linktitle: Spécifier le répertoire d'entrée requis en Java
 second_title: API Java Aspose.TeX
 description: Améliorez le traitement Java TeX avec Aspose.TeX pour Java. Suivez notre guide étape par étape pour spécifier les répertoires d'entrée requis de manière transparente.
-type: docs
 weight: 10
 url: /fr/java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spécifier le répertoire d'entrée requis en Java
+
 ## Introduction
 
 Cherchez-vous à améliorer les capacités de votre application Java pour gérer efficacement les tâches TeX ? Aspose.TeX pour Java est la solution que vous recherchiez ! Dans ce guide complet, nous vous guiderons tout au long du processus de spécification d'un répertoire d'entrée requis en Java à l'aide d'Aspose.TeX.
@@ -104,3 +110,9 @@ Aspose.TeX pour Java permet aux développeurs de gérer les tâches TeX de mani�
 ### Q5 : Comment puis-je acheter Aspose.TeX pour Java ?
 
  A5 : Pour acheter, visitez la page d'achat[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

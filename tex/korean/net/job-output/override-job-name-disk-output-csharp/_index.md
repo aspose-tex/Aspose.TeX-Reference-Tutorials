@@ -3,10 +3,16 @@ title: 작업 이름 재정의 및 터미널 출력을 디스크에 쓰기(C#)
 linktitle: 작업 이름 재정의 및 터미널 출력을 디스크에 쓰기(C#)
 second_title: Aspose.TeX .NET API
 description: .NET용 Aspose.TeX를 사용하여 작업 이름을 재정의하고 터미널 출력을 캡처하는 방법을 알아보세요. 원활한 TeX 파일 관리를 위한 포괄적인 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 작업 이름 재정의 및 터미널 출력을 디스크에 쓰기(C#)
+
 ## 소개
 
 .NET용 Aspose.TeX를 사용하여 작업 이름을 재정의하고 C# 프로그래밍 언어로 디스크에 터미널 출력을 쓰는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. .NET용 Aspose.TeX는 TeX 파일로 원활하게 작업할 수 있는 강력한 라이브러리이며, 이 튜토리얼에서는 작업 이름 재정의 및 터미널 출력 캡처와 같은 특정 작업에 중점을 둘 것입니다.
@@ -106,3 +112,9 @@ A1: 예, .NET용 Aspose.TeX는 다른 .NET 라이브러리와 원활하게 통�
 ### Q5: .NET용 Aspose.TeX에 대한 설명서는 어디에서 찾을 수 있습니까?
 
  A5: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

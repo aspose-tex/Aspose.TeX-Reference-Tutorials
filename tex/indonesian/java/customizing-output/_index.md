@@ -3,10 +3,16 @@ title: Menyesuaikan Output TeX di Aspose.TeX untuk Java
 linktitle: Menyesuaikan Output TeX di Aspose.TeX untuk Java
 second_title: Aspose.TeX Java API
 description: Tingkatkan pemrosesan dokumen Anda di Java dengan Aspose.TeX. Jelajahi panduan tentang mengganti nama pekerjaan, menulis keluaran terminal, dan merender angka dan matematika LaTeX dengan mulus ke PNG/SVG.
-type: docs
 weight: 26
 url: /id/java/customizing-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyesuaikan Output TeX di Aspose.TeX untuk Java
+
 ## Perkenalan
 
 Apakah Anda seorang pengembang Java yang ingin meningkatkan kemampuan pemrosesan dokumen Anda? Selami dunia Aspose.TeX, alat canggih yang memungkinkan Anda menyesuaikan keluaran TeX dengan presisi dan efisiensi. Pada artikel ini, kami akan memandu Anda melalui tutorial penting tentang berbagai opsi penyesuaian.
@@ -61,3 +67,9 @@ Pelajari cara merender persamaan matematika LaTeX ke gambar PNG di Java dengan A
 Pelajari cara merender angka LaTeX ke SVG dengan mudah di Java menggunakan Aspose.TeX. Ikuti panduan langkah demi langkah ini untuk integrasi yang lancar.
 ### [Render Matematika LaTeX ke SVG di Java](./render-lamath-svg/)
 Pelajari cara merender persamaan matematika LaTeX ke SVG di Java menggunakan Aspose.TeX. Ikuti panduan langkah demi langkah kami untuk hasil yang akurat dan menarik secara visual.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

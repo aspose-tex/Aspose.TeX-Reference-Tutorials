@@ -3,10 +3,16 @@ title: Java中的流輸入、影像輸出和終端輸入
 linktitle: Java中的流輸入、影像輸出和終端輸入
 second_title: Aspose.TeX Java API
 description: 使用 Aspose.TeX 學習 Java 中的流輸入、影像輸出和終端輸入。無縫整合的綜合教程。
-type: docs
 weight: 11
 url: /zh-hant/java/advanced-io/stream-input-image-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java中的流輸入、影像輸出和終端輸入
+
 ## 介紹
 
 Aspose.TeX for Java 是一個功能強大的函式庫，可讓開發人員使用 TeX 文件，從而促進高品質文件的建立和操作。在本教學中，我們將探索使用 Aspose.TeX 在 Java 中取得串流輸入、產生影像輸出以及處理終端輸入的過程。
@@ -134,3 +140,9 @@ A2：當然！ Aspose.TeX 提供了各種保存輸出影像的選項，可根據
 ### Q5：Aspose.TeX 文件還有其他資源嗎？
 
  A5：探索綜合[文件](https://reference.aspose.com/tex/java/)以獲得詳細的見解和範例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

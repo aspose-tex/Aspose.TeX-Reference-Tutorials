@@ -3,10 +3,16 @@ title: 如何在 .NET 中将 TeX 排版为 PDF
 linktitle: 如何在 .NET 中将 TeX 排版为 PDF
 second_title: Aspose.TeX .NET API
 description: 探索 Aspose.TeX for .NET 在将 TeX 排版为 PDF 时的无缝集成。深入学习这个综合教程并提高您的 .NET 开发技能。
-type: docs
 weight: 10
 url: /zh/net/pdf-output/typeset-tex-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 如何在 .NET 中将 TeX 排版为 PDF
+
 ## 介绍
 
 如果您正在深入了解 .NET 环境中的 TeX 和 PDF 排版世界，那么您将会大饱口福。在本分步指南中，我们将探索如何利用 Aspose.TeX for .NET 的强大功能将 TeX 文档无缝排版为 PDF 文件。无论您是经验丰富的开发人员还是刚刚开始使用 TeX，本教程都将引导您完成整个过程，分解每个步骤，以便每个人都可以使用。
@@ -111,3 +117,9 @@ A3：是的，您可以通过免费试用来探索 Aspose.TeX[这里](https://re
 ### Q5：我需要临时许可证才能进行测试吗？
 
 A5：是的，您可以通过以下方式获得用于测试目的的临时许可证[这个链接](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: الإدخال والإخراج المتقدم في Aspose.TeX لـ Java
 linktitle: الإدخال والإخراج المتقدم في Aspose.TeX لـ Java
 second_title: Aspose.TeX جافا API
 description: قم بتحسين معالجة Java TeX باستخدام Aspose.TeX لبرامج Java التعليمية. تعلم كيفية تحديد أدلة الإدخال وتحسين معالجة التدفق لمشاريع Java المحسنة.
-type: docs
 weight: 27
 url: /ar/java/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الإدخال والإخراج المتقدم في Aspose.TeX لـ Java
+
 
 ## مقدمة
 
@@ -30,3 +36,9 @@ url: /ar/java/advanced-io/
 تحسين معالجة Java TeX باستخدام Aspose.TeX لـ Java. اتبع دليلنا خطوة بخطوة لتحديد أدلة الإدخال المطلوبة بسلاسة.
 ### [دفق الإدخال، إخراج الصورة، والإدخال الطرفي في جافا](./stream-input-image-output/)
 تعلم إدخال التدفق وإخراج الصور والإدخال الطرفي في Java باستخدام Aspose.TeX. برنامج تعليمي شامل للتكامل السلس.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

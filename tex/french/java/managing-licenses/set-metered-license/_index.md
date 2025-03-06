@@ -3,10 +3,16 @@ title: Définir une licence limitée pour Aspose.TeX en Java
 linktitle: Définir une licence limitée pour Aspose.TeX en Java
 second_title: API Java Aspose.TeX
 description: Libérez tout le potentiel d’Aspose.TeX en Java en configurant une licence limitée. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 12
 url: /fr/java/managing-licenses/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir une licence limitée pour Aspose.TeX en Java
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur la configuration d'une licence limitée pour Aspose.TeX en Java ! Aspose.TeX est une bibliothèque puissante qui fournit des fonctionnalités permettant de travailler avec des fichiers TeX dans des applications Java. Pour libérer tout son potentiel, il est essentiel de comprendre comment configurer une licence limitée. Dans ce didacticiel, nous vous guiderons tout au long du processus, en le décomposant en étapes faciles à suivre.
@@ -77,3 +83,9 @@ Dans ce didacticiel, nous avons couvert les étapes essentielles pour configurer
 ### Q5 : Besoin d'aide ou avez des questions ?
 
  A5 : Visitez le[Forum d'assistance Aspose.TeX](https://forum.aspose.com/c/tex/47) à l'aide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

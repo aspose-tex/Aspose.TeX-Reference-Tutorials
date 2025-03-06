@@ -3,10 +3,16 @@ title: Набор текста TeX-файлов в PDF на Java
 linktitle: Набор текста TeX-файлов в PDF на Java
 second_title: API Aspose.TeX Java
 description: Раскройте возможности Aspose.TeX для Java с помощью наших руководств по верстке файлов TeX в PDF. Овладейте искусством создания PDF-файлов с помощью внешних потоков.
-type: docs
 weight: 28
 url: /ru/java/typesetting-tex-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Набор текста TeX-файлов в PDF на Java
+
 
 Готовы ли вы повысить свои навыки программирования на Java и погрузиться в мир верстки файлов TeX в PDF? Не смотрите дальше! В этом подробном руководстве мы познакомим вас с тонкостями использования Aspose.TeX для Java, с легкостью разгадав тайны создания PDF-файлов.
 
@@ -36,3 +42,9 @@ url: /ru/java/typesetting-tex-to-pdf/
 ## Набор текста TeX-файлов в PDF в учебниках по Java
 ### [Верстка TeX в PDF на Java с внешним потоком](./typeset-tex-to-pdf-external-stream/)
 Узнайте, как верстать TeX в PDF на Java, используя внешние потоки с помощью Aspose.TeX. Следуйте нашему пошаговому руководству для бесшовной интеграции.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

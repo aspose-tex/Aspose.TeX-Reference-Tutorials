@@ -3,10 +3,16 @@ title: Sắp chữ TeX sang XPS trong Java bằng luồng ngoài
 linktitle: Sắp chữ TeX sang XPS trong Java bằng luồng ngoài
 second_title: API Java Aspose.TeX
 description: Tìm hiểu cách sắp chữ TeX thành XPS trong Java bằng Aspose.TeX. Khám phá hướng dẫn từng bước để xử lý tài liệu liền mạch.
-type: docs
 weight: 10
 url: /vi/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sắp chữ TeX sang XPS trong Java bằng luồng ngoài
+
 ## Giới thiệu
 
 Trong thế giới phát triển Java, Aspose.TeX nổi bật như một công cụ mạnh mẽ để sắp chữ các tài liệu TeX thành nhiều định dạng khác nhau, bao gồm cả XPS. Nếu bạn đang tìm cách nâng cao khả năng xử lý tài liệu của ứng dụng Java thì hướng dẫn này được thiết kế riêng cho bạn. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình sắp chữ TeX sang XPS bằng Aspose.TeX cho Java bằng luồng bên ngoài.
@@ -122,3 +128,9 @@ Câu trả lời 1: Aspose.TeX chủ yếu tập trung vào xử lý tài liệu
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho mục đích thử nghiệm không?
 
  Câu trả lời 5: Có, bạn có thể lấy giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

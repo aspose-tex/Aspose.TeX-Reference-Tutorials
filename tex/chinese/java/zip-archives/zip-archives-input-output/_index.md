@@ -3,10 +3,16 @@ title: 在 Aspose.TeX Java 中使用 ZIP 档案进行输入和输出
 linktitle: 在 Aspose.TeX Java 中使用 ZIP 档案进行输入和输出
 second_title: Aspose.TeX Java API
 description: 使用 Aspose.TeX 增强 Java 开发！学习使用 ZIP 档案进行高效的输入和输出。现在就按照我们的分步指南进行操作。
-type: docs
 weight: 10
 url: /zh/java/zip-archives/zip-archives-input-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.TeX Java 中使用 ZIP 档案进行输入和输出
+
 ## 介绍
 开始进行 Java 开发后，Aspose.TeX 证明了自己对于排版和转换 TeX 文件的价值。本教程重点介绍如何利用 Aspose.TeX for Java 中的 ZIP 存档，这是一种有效管理输入和输出目录的巧妙方法。
 ## 先决条件
@@ -133,3 +139,9 @@ A2：当然！请根据您的项目需求随意修改路径和目录结构。
 ### Q5：我可以在哪里寻求支持或提问？
 
  A5：访问Aspose.TeX论坛[这里](https://forum.aspose.com/c/tex/47)以获得社区支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

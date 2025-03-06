@@ -3,10 +3,16 @@ title: Kết xuất số liệu LaTeX thành SVG trong Java
 linktitle: Kết xuất số liệu LaTeX thành SVG trong Java
 second_title: API Java Aspose.TeX
 description: Tìm hiểu cách dễ dàng hiển thị các số liệu LaTeX thành SVG trong Java bằng Aspose.TeX. Hãy làm theo hướng dẫn từng bước này để tích hợp liền mạch.
-type: docs
 weight: 14
 url: /vi/java/customizing-output/render-lafigures-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất số liệu LaTeX thành SVG trong Java
+
 ## Giới thiệu
 
 Tạo và hiển thị số liệu LaTeX trong Java có thể là một nhiệm vụ phức tạp nhưng quan trọng đối với nhiều ứng dụng khác nhau. Trong hướng dẫn này, chúng ta sẽ khám phá cách hiển thị các số liệu LaTeX thành SVG bằng Aspose.TeX cho Java. Aspose.TeX cung cấp các chức năng mạnh mẽ để xử lý các tài liệu LaTeX và chuyển đổi chúng sang nhiều định dạng khác nhau, bao gồm cả SVG.
@@ -118,3 +124,9 @@ Câu trả lời 4: Aspose.TeX cho phép chuyển đổi sang nhiều định d�
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.TeX cho Java ở đâu?
 
  A5: Hãy tham khảo[Tài liệu Aspose.TeX](https://reference.aspose.com/tex/java/) để biết thông tin toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

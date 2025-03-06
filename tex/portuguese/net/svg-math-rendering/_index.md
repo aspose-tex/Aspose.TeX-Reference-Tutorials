@@ -3,10 +3,16 @@ title: Renderização matemática com SVG
 linktitle: Renderização matemática com SVG
 second_title: API Aspose.TeX .NET
 description: Descubra a arte de renderizar equações matemáticas LaTeX como SVG em .NET com Aspose.TeX. Liberte a precisão com opções personalizáveis para perfeição matemática.
-type: docs
 weight: 30
 url: /pt/net/svg-math-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderização matemática com SVG
+
 ## Introdução
 
 Bem-vindo ao reino da precisão matemática e da elegância visual! Nesta série de tutoriais, mergulhamos no fascinante mundo da renderização de equações matemáticas LaTeX como SVG no ambiente .NET, aproveitando os poderosos recursos do Aspose.TeX. 
@@ -41,3 +47,9 @@ Concluindo, esta série de tutoriais é mais que um guia; é um convite para exp
 ## Renderização matemática com tutoriais SVG
 ### [Renderizando LaTeX Math como SVG em .NET](./render-latex-math-svg/)
 Aprenda como renderizar equações matemáticas LaTeX como SVG em .NET usando Aspose.TeX. Guia passo a passo com opções personalizáveis para representação matemática precisa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

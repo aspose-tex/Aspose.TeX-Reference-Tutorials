@@ -3,10 +3,16 @@ title: Sử dụng Lưu trữ ZIP cho Đầu vào và Đầu ra trong Aspose.TeX
 linktitle: Sử dụng Lưu trữ ZIP cho Đầu vào và Đầu ra trong Aspose.TeX Java
 second_title: API Java Aspose.TeX
 description: Tăng cường phát triển Java với Aspose.TeX! Tìm hiểu cách sử dụng kho lưu trữ ZIP để có đầu vào và đầu ra hiệu quả. Hãy làm theo hướng dẫn từng bước của chúng tôi ngay bây giờ.
-type: docs
 weight: 10
 url: /vi/java/zip-archives/zip-archives-input-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng Lưu trữ ZIP cho Đầu vào và Đầu ra trong Aspose.TeX Java
+
 ## Giới thiệu
 Bắt tay vào phát triển Java, Aspose.TeX chứng tỏ nó vô giá trong việc sắp chữ và chuyển đổi các tệp TeX. Hướng dẫn này tập trung vào việc khai thác các kho lưu trữ ZIP trong Aspose.TeX cho Java, một cách tiếp cận khéo léo để quản lý các thư mục đầu vào và đầu ra một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -133,3 +139,9 @@ A2: Chắc chắn rồi! Vui lòng sửa đổi đường dẫn và cấu trúc 
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ hoặc đặt câu hỏi ở đâu?
 
  Câu 5: Truy cập diễn đàn Aspose.TeX[đây](https://forum.aspose.com/c/tex/47)để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

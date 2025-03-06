@@ -1,12 +1,17 @@
 ---
 title: Java용 Aspose.TeX의 종합 튜토리얼 및 예
 linktitle: Java 튜토리얼용 Aspose.TeX
-type: docs
 weight: 10
 url: /ko/java/
 description: Aspose.TeX Java를 프로젝트에 쉽게 통합하세요! PDF, XPS, 이미지 등에 대한 LaTeX 튜토리얼을 살펴보세요. 가이드를 통해 문서 처리를 최적화하세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.TeX의 종합 튜토리얼 및 예
+
 
 
 ## 소개
@@ -87,3 +92,9 @@ Aspose.TeX를 사용하여 Java에서 조판을 손쉽게 마스터하세요. �
 Aspose.TeX를 사용하여 TeX 파일을 Java에서 XPS로 조판하는 비밀을 쉽게 풀어보세요. 원활한 문서 처리에 대한 단계별 지침을 보려면 튜토리얼을 살펴보세요.
 ### [Java용 Aspose.TeX에서 ZIP 아카이브 처리](./zip-archives/)
 ZIP 아카이브 처리에 대한 포괄적인 튜토리얼을 통해 Java용 Aspose.TeX의 강력한 기능을 활용해 보세요. 지침에 따라 입력 및 출력 프로세스를 원활하게 최적화합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

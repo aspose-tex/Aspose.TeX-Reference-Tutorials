@@ -3,10 +3,16 @@ title: Kết xuất toán LaTeX thành SVG trong Java
 linktitle: Kết xuất toán LaTeX thành SVG trong Java
 second_title: API Java Aspose.TeX
 description: Tìm hiểu cách hiển thị các phương trình toán học LaTeX thành SVG trong Java bằng Aspose.TeX. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được kết quả chính xác và hấp dẫn về mặt hình ảnh.
-type: docs
 weight: 15
 url: /vi/java/customizing-output/render-lamath-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất toán LaTeX thành SVG trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách hiển thị các phương trình toán học LaTeX sang SVG trong Java bằng Aspose.TeX. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với Java, hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo bạn đạt được kết quả chính xác và hấp dẫn về mặt hình ảnh. 
@@ -111,3 +117,9 @@ A2: Chắc chắn rồi! Các tùy chọn kết xuất cho phép bạn kiểm so
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
 
  A5: Khám phá tài liệu toàn diện tại[Tài liệu Java Aspose.TeX](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

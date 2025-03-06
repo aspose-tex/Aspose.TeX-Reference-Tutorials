@@ -3,10 +3,16 @@ title: Ghi đè tên công việc và ghi đầu ra đầu cuối vào đĩa (C#
 linktitle: Ghi đè tên công việc và ghi đầu ra đầu cuối vào đĩa (C#)
 second_title: API Aspose.TeX .NET
 description: Khám phá cách sử dụng Aspose.TeX cho .NET để ghi đè tên công việc và ghi lại đầu ra của thiết bị đầu cuối. Làm theo hướng dẫn toàn diện của chúng tôi để quản lý tệp TeX liền mạch.
-type: docs
 weight: 10
 url: /vi/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ghi đè tên công việc và ghi đầu ra đầu cuối vào đĩa (C#)
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách sử dụng Aspose.TeX cho .NET để ghi đè tên công việc và ghi đầu ra đầu cuối vào đĩa bằng ngôn ngữ lập trình C#. Aspose.TeX for .NET là một thư viện mạnh mẽ cho phép bạn làm việc liền mạch với các tệp TeX và trong hướng dẫn này, chúng tôi sẽ tập trung vào một nhiệm vụ cụ thể: ghi đè tên công việc và ghi lại đầu ra của thiết bị đầu cuối.
@@ -106,3 +112,9 @@ Câu trả lời 1: Có, Aspose.TeX dành cho .NET có thể được tích hợ
 ### Câu hỏi 5: Tôi có thể tìm tài liệu về Aspose.TeX cho .NET ở đâu?
 
  A5: Tài liệu có sẵn[đây](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

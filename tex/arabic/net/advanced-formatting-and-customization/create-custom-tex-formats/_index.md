@@ -3,10 +3,16 @@ title: قم بإنشاء تصميمات LaTeX فريدة باستخدام Aspose
 linktitle: قم بإنشاء تصميمات LaTeX فريدة باستخدام Aspose.TeX لـ .NET
 second_title: Aspose.TeX .NET API
 description: قم بإنشاء تصميمات LaTeX مذهلة دون عناء باستخدام Aspose.TeX for .NET. قم بالتنزيل الآن للتكامل السلس مع مشاريع .NET الخاصة بك.
-type: docs
 weight: 10
 url: /ar/net/advanced-formatting-and-customization/create-custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء تصميمات LaTeX فريدة باستخدام Aspose.TeX لـ .NET
+
 ## مقدمة
 
 يستخدم نظام LaTeX، وهو نظام تنضيد قوي، على نطاق واسع لإنشاء مستندات وتصميمات عالية الجودة. يوفر Aspose.TeX for .NET طريقة سلسة لاستغلال إمكانات LaTeX في تطبيقات .NET الخاصة بك. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء تصميمات LaTeX فريدة باستخدام Aspose.TeX لـ .NET.
@@ -89,3 +95,9 @@ options.TerminalOut.Writer.WriteLine();
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.TeX؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت من خلال الزيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

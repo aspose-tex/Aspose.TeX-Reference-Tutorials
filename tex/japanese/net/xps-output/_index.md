@@ -3,10 +3,16 @@ title: XPS 出力の操作
 linktitle: XPS 出力の操作
 second_title: Aspose.TeX .NET API
 description: .NET の Aspose.TeX を使用して、TeX を XPS に簡単に変換します。私たちのガイドはシームレスな統合を保証します。専門家の洞察については、TeX から XPS への植字チュートリアルを参照してください。
-type: docs
 weight: 29
 url: /ja/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XPS 出力の操作
+
 ## 導入
 
 .NET アプリケーションで Aspose.TeX の機能を活用したいと考えていますか?特に XPS 出力の操作に特化した包括的なチュートリアルをご覧ください。この記事では、TeX ドキュメントを XPS に簡単に変換し、Aspose.TeX とのシームレスな統合エクスペリエンスを提供するプロセスを説明します。
@@ -36,3 +42,9 @@ TeX から XPS への効率的な変換の旅に乗り出す準備はできて�
 ## XPS 出力のチュートリアルの操作
 ### [.NET での TeX から XPS への植字](./typeset-tex-to-xps/)
 Aspose.TeX を使用すると、.NET で TeX ドキュメントを XPS に簡単に変換できます。シームレスな統合エクスペリエンスについては、ステップバイステップのガイドを参照してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

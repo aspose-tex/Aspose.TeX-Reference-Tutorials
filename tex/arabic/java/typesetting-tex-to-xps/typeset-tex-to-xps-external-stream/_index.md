@@ -3,10 +3,16 @@ title: Typeset TeX إلى XPS في Java باستخدام الدفق الخارج
 linktitle: Typeset TeX إلى XPS في Java باستخدام الدفق الخارجي
 second_title: Aspose.TeX جافا API
 description: تعرف على كيفية كتابة TeX على XPS في Java باستخدام Aspose.TeX. استكشف الإرشادات خطوة بخطوة لمعالجة المستندات بسلاسة.
-type: docs
 weight: 10
 url: /ar/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Typeset TeX إلى XPS في Java باستخدام الدفق الخارجي
+
 ## مقدمة
 
 في عالم تطوير Java، يبرز Aspose.TeX كأداة قوية لتنضيد مستندات TeX إلى تنسيقات مختلفة، بما في ذلك XPS. إذا كنت تتطلع إلى تحسين قدرات معالجة المستندات في تطبيق Java الخاص بك، فهذا البرنامج التعليمي مصمم خصيصًا لك. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية تنضيد TeX إلى XPS باستخدام Aspose.TeX لـ Java مع دفق خارجي.
@@ -122,3 +128,9 @@ try {
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لأغراض الاختبار؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

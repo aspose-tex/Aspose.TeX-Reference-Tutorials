@@ -3,10 +3,16 @@ title: Aspose.TeX for Java'da Lisansları Yönetme
 linktitle: Aspose.TeX for Java'da Lisansları Yönetme
 second_title: Aspose.TeX Java API'si
 description: Aspose.TeX for Java'nın potansiyelini ortaya çıkarın! Lisansları zahmetsizce yönetmeyi öğrenin; adım adım eğitimlerimizle dosyadan yükleme yapın, akış yapın veya ölçülü bir lisans ayarlayın.
-type: docs
 weight: 25
 url: /tr/java/managing-licenses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX for Java'da Lisansları Yönetme
+
 
 ## giriiş 
 
@@ -32,3 +38,9 @@ Aspose.TeX for Java'nın gücünü keşfedin. Adım adım kılavuzumuzla TeX lis
 Akışlardan TeX lisanslarının yüklenmesine ilişkin adım adım kılavuzumuzla Aspose.TeX for Java'nın gücünü keşfedin. TeX belge işlemlerini Java uygulamalarınıza sorunsuz bir şekilde entegre edin.
 ### [Java'da Aspose.TeX için Ölçülü Lisansı Ayarlama](./set-metered-license/)
 Ölçülü bir lisans ayarlayarak Java'da Aspose.TeX'in tüm potansiyelini ortaya çıkarın. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

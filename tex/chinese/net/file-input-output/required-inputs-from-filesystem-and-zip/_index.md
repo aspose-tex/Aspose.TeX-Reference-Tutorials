@@ -3,10 +3,16 @@ title: 在 Aspose.TeX for .NET 中使用文件系统和 ZIP 输入
 linktitle: 在 Aspose.TeX for .NET 中使用文件系统和 ZIP 输入
 second_title: Aspose.TeX .NET API
 description: 探索 Aspose.TeX for .NET，这是一个用于 TeX 和 LaTeX 文档处理的强大库。使用文件系统和 ZIP 输入高效转换文件。
-type: docs
 weight: 11
 url: /zh/net/file-input-output/required-inputs-from-filesystem-and-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.TeX for .NET 中使用文件系统和 ZIP 输入
+
 ## 介绍
 
 欢迎来到有关在 Aspose.TeX for .NET 中使用文件系统和 ZIP 输入的教程。 Aspose.TeX 是一个功能强大的 .NET 库，允许您处理 TeX 和 LaTeX 文档。在本教程中，我们将重点关注处理文件系统和 ZIP 输入，为您提供使用 Aspose.TeX 进行高效文档转换的分步指导。
@@ -103,3 +109,9 @@ A3：访问[Aspose.TeX 论坛](https://forum.aspose.com/c/tex/47)寻求社区支
 ### Q5：哪里可以购买 Aspose.TeX for .NET？
 
 A5：您可以从以下网站购买 Aspose.TeX for .NET[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

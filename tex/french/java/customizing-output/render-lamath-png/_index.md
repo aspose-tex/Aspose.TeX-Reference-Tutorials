@@ -3,10 +3,16 @@ title: Rendre les mathématiques LaTeX en PNG en Java
 linktitle: Rendre les mathématiques LaTeX en PNG en Java
 second_title: API Java Aspose.TeX
 description: Apprenez à restituer des équations mathématiques LaTeX en images PNG en Java avec Aspose.TeX. Guide étape par étape pour une intégration transparente et des performances exceptionnelles.
-type: docs
 weight: 13
 url: /fr/java/customizing-output/render-lamath-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendre les mathématiques LaTeX en PNG en Java
+
 ## Introduction
 
 Dans le monde dynamique de la programmation Java, le rendu des mathématiques LaTeX en images PNG est une exigence courante. Aspose.TeX pour Java offre une solution puissante à cette tâche, offrant une intégration transparente et des performances exceptionnelles. Dans ce didacticiel, nous allons parcourir le processus de rendu des équations mathématiques LaTeX au format PNG à l'aide d'Aspose.TeX.
@@ -113,3 +119,9 @@ A3 : Depuis la dernière version, Aspose.TeX prend principalement en charge le r
 ### Q5 : Où puis-je demander de l'aide ou discuter des problèmes liés à Aspose.TeX ?
 
  A5 : Visitez le[Forum Aspose.TeX](https://forum.aspose.com/c/tex/47) pour chercher du soutien, poser des questions et interagir avec la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

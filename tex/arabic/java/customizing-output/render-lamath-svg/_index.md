@@ -3,10 +3,16 @@ title: تقديم LaTeX Math إلى SVG في Java
 linktitle: تقديم LaTeX Math إلى SVG في Java
 second_title: Aspose.TeX جافا API
 description: تعرف على كيفية عرض معادلات LaTeX الرياضية إلى SVG في Java باستخدام Aspose.TeX. اتبع دليلنا خطوة بخطوة للحصول على نتائج دقيقة وجذابة بصريًا.
-type: docs
 weight: 15
 url: /ar/java/customizing-output/render-lamath-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم LaTeX Math إلى SVG في Java
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول عرض معادلات LaTeX الرياضية إلى SVG في Java باستخدام Aspose.TeX. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام Java، سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مما يضمن تحقيق نتائج دقيقة وجذابة بصريًا. 
@@ -111,3 +117,9 @@ System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 ### س5: أين يمكنني العثور على وثائق أكثر تفصيلاً؟
 
  ج5: استكشف الوثائق الشاملة في[وثائق جافا Aspose.TeX](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

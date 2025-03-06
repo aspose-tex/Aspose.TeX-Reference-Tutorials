@@ -3,10 +3,16 @@ title: Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip (C#)
 linktitle: Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip (C#)
 second_title: API Aspose.TeX .NET
 description: Tìm hiểu cách ghi đè tên công việc và ghi đầu ra của thiết bị đầu cuối vào tệp ZIP bằng Aspose.TeX cho .NET. Hướng dẫn từng bước với các ví dụ về C#.
-type: docs
 weight: 11
 url: /vi/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip (C#)
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách ghi đè tên công việc và ghi đầu ra của thiết bị đầu cuối vào tệp ZIP bằng Aspose.TeX cho .NET. Aspose.TeX là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tài liệu TeX trong các ứng dụng .NET của họ. Trong ví dụ cụ thể này, chúng tôi sẽ tập trung vào một nhiệm vụ chung – ghi đầu ra của thiết bị đầu cuối vào tệp ZIP có khả năng ghi đè tên công việc.
@@ -95,3 +101,9 @@ Câu trả lời 1: Có, Aspose.TeX dành cho .NET tương thích với tất c�
 ### Câu hỏi 5: Tôi có thể mua Aspose.TeX cho .NET ở đâu?
 
  A5: Bạn có thể mua Aspose.TeX[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

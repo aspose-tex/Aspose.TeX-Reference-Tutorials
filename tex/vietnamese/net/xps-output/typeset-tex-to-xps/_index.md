@@ -3,10 +3,16 @@ title: Sắp chữ TeX thành XPS trong .NET
 linktitle: Sắp chữ TeX thành XPS trong .NET
 second_title: API Aspose.TeX .NET
 description: Dễ dàng chuyển đổi tài liệu TeX sang XPS trong .NET với Aspose.TeX. Khám phá hướng dẫn từng bước của chúng tôi để có trải nghiệm tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sắp chữ TeX thành XPS trong .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách sắp chữ TeX sang XPS trong .NET bằng thư viện Aspose.TeX mạnh mẽ. Nếu bạn đang tìm cách chuyển đổi liền mạch các tài liệu TeX sang định dạng XPS trong các ứng dụng .NET của mình thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn toàn bộ quy trình, chia nhỏ từng bước để đảm bảo quá trình triển khai diễn ra suôn sẻ.
@@ -94,3 +100,9 @@ A2: Chắc chắn rồi! Aspose.TeX có sẵn cho cả mục đích thương m�
 ### Câu 5: Có bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

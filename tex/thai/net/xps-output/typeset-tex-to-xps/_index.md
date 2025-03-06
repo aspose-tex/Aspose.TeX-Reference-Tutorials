@@ -3,10 +3,16 @@ title: การเรียงพิมพ์ TeX เป็น XPS ใน .NET
 linktitle: การเรียงพิมพ์ TeX เป็น XPS ใน .NET
 second_title: Aspose.TeX .NET API
 description: แปลงเอกสาร TeX เป็น XPS ใน .NET ได้อย่างง่ายดายด้วย Aspose.TeX สำรวจคำแนะนำทีละขั้นตอนของเราเพื่อประสบการณ์การบูรณาการที่ราบรื่น
-type: docs
 weight: 10
 url: /th/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเรียงพิมพ์ TeX เป็น XPS ใน .NET
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนของเราเกี่ยวกับการเรียงพิมพ์ TeX เป็น XPS ใน .NET โดยใช้ไลบรารี Aspose.TeX อันทรงพลัง หากคุณต้องการแปลงเอกสาร TeX เป็นรูปแบบ XPS ในแอปพลิเคชัน .NET ของคุณได้อย่างราบรื่น คุณมาถูกที่แล้ว ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการทั้งหมด โดยแจกแจงแต่ละขั้นตอนเพื่อให้แน่ใจว่าการใช้งานจะราบรื่น
@@ -94,3 +100,9 @@ A2: แน่นอน! Aspose.TeX พร้อมใช้งานทั้ง
 ### คำถามที่ 5: มีการทดลองใช้ฟรีหรือไม่?
 
  A5: ได้ คุณสามารถทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा में कस्टम टीएक्स प्रार
 linktitle: जावा में कस्टम टीएक्स प्रारूपों के साथ कार्य करना
 second_title: Aspose.TeX जावा एपीआई
 description: Aspose.TeX के साथ जावा में टाइपसेटिंग में आसानी से महारत हासिल करें। सहज विकास यात्रा के लिए हमारे कस्टम टीएक्स प्रारूप ट्यूटोरियल में गोता लगाएँ। अभी डाउनलोड करें और अपने जावा कौशल को बढ़ाएं!
-type: docs
 weight: 29
 url: /hi/java/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में कस्टम टीएक्स प्रारूपों के साथ कार्य करना
+
 ## परिचय
 
 जावा के लिए Aspose.TeX की दुनिया में आपका स्वागत है, जहां टाइपसेटिंग में महारत हासिल करना आसान हो जाता है। इस व्यापक ट्यूटोरियल श्रृंखला में, हम आपको कस्टम टीएक्स प्रारूपों के साथ काम करने की जटिलताओं के माध्यम से मार्गदर्शन करेंगे, जिससे आपको जावा के लिए Aspose.TeX की पूरी शक्ति का उपयोग करने में मदद मिलेगी।
@@ -31,3 +37,9 @@ url: /hi/java/custom-tex-formats/
 ## जावा ट्यूटोरियल्स में कस्टम टीएक्स प्रारूपों के साथ कार्य करना
 ### [जावा में कस्टम टीएक्स प्रारूपों के साथ टाइपसेटिंग](./typesetting-custom-tex-formats/)
 Aspose.TeX के साथ जावा में कुशल टाइपसेटिंग का अन्वेषण करें। कस्टम TeX प्रारूप आसान बनाये गये। निर्बाध विकास अनुभव के लिए अभी डाउनलोड करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

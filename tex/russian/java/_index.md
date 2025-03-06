@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.TeX для Java
 linktitle: Учебные пособия по Aspose.TeX для Java
-type: docs
 weight: 10
 url: /ru/java/
 description: Легко интегрируйте Aspose.TeX Java в свои проекты! Изучите учебные пособия по преобразованию LaTeX в PDF, XPS, изображения и многое другое. Оптимизируйте обработку документов с помощью наших руководств.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.TeX для Java
+
 
 
 ## Введение
@@ -87,3 +92,9 @@ is_root: true
 Раскройте секреты верстки файлов TeX в XPS на Java без особых усилий с помощью Aspose.TeX. Ознакомьтесь с нашими руководствами, чтобы получить пошаговые инструкции по бесперебойной обработке документов.
 ### [Обработка ZIP-архивов в Aspose.TeX для Java](./zip-archives/)
 Раскройте возможности Aspose.TeX для Java с помощью наших подробных руководств по работе с ZIP-архивами. Легко оптимизируйте процессы ввода и вывода под руководством.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

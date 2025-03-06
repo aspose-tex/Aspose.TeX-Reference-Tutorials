@@ -1,12 +1,17 @@
 ---
 title: Tutorial Komprehensif dan Contoh Aspose.TeX untuk .NET
 linktitle: Aspose.TeX untuk Tutorial .NET
-type: docs
 weight: 10
 url: /id/net/
 description: Kuasai desain LaTeX dengan mudah menggunakan Aspose.TeX untuk .NET. Unduh untuk integrasi yang lancar dan jelajahi pemformatan tingkat lanjut, penanganan file, pemberian lisensi, dan banyak lagi.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Komprehensif dan Contoh Aspose.TeX untuk .NET
+
 
 ## Perkenalan
 
@@ -80,3 +85,9 @@ Temukan seni merender persamaan matematika LaTeX sebagai SVG di .NET dengan Aspo
 Buka kunci penguasaan pembuatan dokumen dengan Aspose.TeX untuk .NET. Pelajari cara membuat format TeX khusus dengan mudah dalam tutorial komprehensif ini.
 ### [Masukan dan Keluaran File Zip](./zip-file-io/)
 Buka potensi Aspose.TeX untuk .NET dengan Tutorial Input dan Output File Zip kami. Jelajahi penanganan file ZIP, pemrosesan dokumen untuk aplikasi Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Рендеринг фигур LaTeX с помощью Aspose.TeX
 linktitle: Рендеринг фигур LaTeX с помощью Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Откройте для себя возможности Aspose.TeX для .NET в беспрепятственном рендеринге фигур LaTeX. Пошаговые руководства, примеры кода и многое другое для рендеринга PNG и SVG на C#.
-type: docs
 weight: 25
 url: /ru/net/render-latex-figures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг фигур LaTeX с помощью Aspose.TeX
+
 ## Введение
 
 Готовы ли вы улучшить свои возможности рендеринга документов в .NET? Погрузитесь в мир Aspose.TeX и раскройте возможности легкой визуализации фигур LaTeX для повышения визуальной привлекательности ваших документов. В этом подробном руководстве мы рассмотрим два ключевых аспекта: рендеринг фигур LaTeX в PNG и SVG с использованием Aspose.TeX на C#.
@@ -33,3 +39,9 @@ url: /ru/net/render-latex-figures/
 Изучите подробное руководство по рендерингу фигур LaTeX в PNG с помощью Aspose.TeX на C#. Изучите шаг за шагом на примерах кода.
 ### [Рендеринг рисунков LaTeX в SVG с помощью Aspose.TeX (C#)](./svg-latex-figure-renderer-csharp/)
 Улучшите рендеринг документов в .NET с помощью Aspose.TeX. Узнайте, как визуализировать фигуры LaTeX в SVG на C# для плавной интеграции математических выражений.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

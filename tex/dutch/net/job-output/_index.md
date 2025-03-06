@@ -3,10 +3,16 @@ title: Beheer Aspose.TeX-taakuitvoer
 linktitle: Beheer Aspose.TeX-taakuitvoer
 second_title: Aspose.TeX .NET-API
 description: Verbeter het TeX-bestandsbeheer met Aspose.TeX voor .NET. Leer hoe u taaknamen kunt overschrijven en terminaluitvoer moeiteloos kunt vastleggen met C# met onze stapsgewijze handleidingen.
-type: docs
 weight: 24
 url: /nl/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer Aspose.TeX-taakuitvoer
+
 
 ## Invoering
 
@@ -36,3 +42,9 @@ Kortom, deze tutorials dienen als uw toegangspoort tot het beheersen van Aspose.
 Ontdek hoe u Aspose.TeX voor .NET kunt gebruiken om taaknamen te overschrijven en terminaluitvoer vast te leggen. Volg onze uitgebreide gids voor naadloos TeX-bestandsbeheer.
 ### [Taaknaam overschrijven en terminaluitvoer naar Zip schrijven (C#)](./override-job-name-zip-output-csharp/)
 Leer hoe u taaknamen kunt overschrijven en terminaluitvoer naar een ZIP-bestand kunt schrijven met Aspose.TeX voor .NET. Stap-voor-stap handleiding met C#-voorbeelden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

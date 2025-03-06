@@ -3,10 +3,16 @@ title: Charger la licence Aspose.TeX à partir de Stream (C#)
 linktitle: Charger la licence Aspose.TeX à partir de Stream (C#)
 second_title: API Aspose.TeX .NET
 description: Explorez Aspose.TeX pour .NET Chargez les licences en toute transparence et améliorez le traitement des documents. Consultez le didacticiel pour obtenir des conseils étape par étape.
-type: docs
 weight: 11
 url: /fr/net/licensing/load-license-from-stream-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Charger la licence Aspose.TeX à partir de Stream (C#)
+
 ## Introduction
 
 Bienvenue dans le monde d'Aspose.TeX pour .NET, un outil puissant qui permet aux développeurs de créer, manipuler et transformer des fichiers TeX sans effort. Dans ce didacticiel, nous vous guiderons tout au long du processus de chargement d'une licence Aspose.TeX à partir d'un flux à l'aide de C#. À la fin, vous disposerez des connaissances nécessaires pour intégrer de manière transparente cette fonctionnalité essentielle dans vos applications .NET.
@@ -79,3 +85,9 @@ A4 : Oui, vous pouvez accéder à l'essai gratuit d'Aspose.TeX pour .NET[ici](ht
 ### Q5 : Où puis-je acheter Aspose.TeX pour .NET ?
 
  A5 : Vous pouvez acheter Aspose.TeX pour .NET[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

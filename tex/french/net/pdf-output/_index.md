@@ -3,10 +3,16 @@ title: Travailler avec la sortie PDF
 linktitle: Travailler avec la sortie PDF
 second_title: API Aspose.TeX .NET
 description: Libérez la puissance d'Aspose.TeX pour .NET avec notre didacticiel complet sur la composition de TeX en PDF. Élevez vos compétences en développement .NET grâce à une intégration transparente.
-type: docs
 weight: 28
 url: /fr/net/pdf-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec la sortie PDF
+
 ## Introduction
 
 Aspose.TeX pour .NET change la donne dans le monde de la composition TeX en PDF, et ce didacticiel est votre passerelle pour libérer tout son potentiel. Dans cet article, nous aborderons les subtilités de l'utilisation de la sortie PDF, en nous concentrant sur l'intégration transparente d'Aspose.TeX pour .NET.
@@ -31,3 +37,9 @@ En conclusion, notre didacticiel Aspose.TeX pour .NET sur la composition de TeX 
 ## Utilisation des didacticiels de sortie PDF
 ### [Comment composer TeX en PDF dans .NET](./typeset-tex-to-pdf/)
 Découvrez l'intégration transparente d'Aspose.TeX pour .NET dans la composition de TeX en PDF. Plongez dans ce didacticiel complet et améliorez vos compétences en développement .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

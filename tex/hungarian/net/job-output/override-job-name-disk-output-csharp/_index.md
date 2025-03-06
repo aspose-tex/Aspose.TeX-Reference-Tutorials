@@ -3,10 +3,16 @@ title: Feladat nevének felülírása és a terminál kimenetének lemezre írá
 linktitle: Feladat nevének felülírása és a terminál kimenetének lemezre írása (C#)
 second_title: Aspose.TeX .NET API
 description: Fedezze fel, hogyan használja az Aspose.TeX for .NET-et a jobnevek felülbírálásához és a terminálkimenet rögzítéséhez. Kövesse átfogó útmutatónkat a zökkenőmentes TeX fájlkezeléshez.
-type: docs
 weight: 10
 url: /hu/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladat nevének felülírása és a terminál kimenetének lemezre írása (C#)
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésről lépésre szóló útmutatóban az Aspose.TeX for .NET használatáról a jobnevek felülbírálásához és a terminálkimenet lemezre írásához C# programozási nyelven. Az Aspose.TeX for .NET egy hatékony könyvtár, amely lehetővé teszi a TeX fájlokkal való zökkenőmentes munkát, és ebben az oktatóanyagban egy konkrét feladatra összpontosítunk: a jobnevek felülbírálására és a terminál kimenetének rögzítésére.
@@ -106,3 +112,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan írhatja felül a jobneveket és írh
 ### 5. kérdés: Hol találom az Aspose.TeX for .NET dokumentációját?
 
  V5: A dokumentáció elérhető[itt](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java의 스트림에서 TeX 라이센스 로드
 linktitle: Java의 스트림에서 TeX 라이센스 로드
 second_title: Aspose.TeX 자바 API
 description: 스트림에서 TeX 라이선스를 로드하는 방법에 대한 단계별 가이드를 통해 Java용 Aspose.TeX의 강력한 기능을 살펴보세요. TeX 문서 조작을 Java 애플리케이션에 원활하게 통합합니다.
-type: docs
 weight: 11
 url: /ko/java/managing-licenses/load-license-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 스트림에서 TeX 라이센스 로드
+
 ## 소개
 
 TeX 문서 조작 및 변환 작업을 단순화하는 강력한 라이브러리인 Aspose.TeX for Java의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 Java의 스트림에서 TeX 라이센스를 로드하는 과정을 안내합니다. 숙련된 개발자이든 Aspose.TeX를 처음 시작하든 이 단계별 가이드는 라이선스를 Java 애플리케이션에 원활하게 통합하는 데 도움이 됩니다.
@@ -89,3 +95,9 @@ A1: 예, 라이선스 없이 Java용 Aspose.TeX를 사용할 수 있지만 출�
 ### Q5: 임시 라이센스를 제공합니까?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

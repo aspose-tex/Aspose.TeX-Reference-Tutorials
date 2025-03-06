@@ -3,10 +3,16 @@ title: Steuern Sie die Aspose.TeX-Jobausgabe
 linktitle: Steuern Sie die Aspose.TeX-Jobausgabe
 second_title: Aspose.TeX .NET-API
 description: Verbessern Sie die TeX-Dateiverwaltung mit Aspose.TeX für .NET. Erfahren Sie mit unseren Schritt-für-Schritt-Anleitungen, wie Sie Jobnamen überschreiben und Terminalausgaben mühelos mit C# erfassen können.
-type: docs
 weight: 24
 url: /de/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Steuern Sie die Aspose.TeX-Jobausgabe
+
 
 ## Einführung
 
@@ -36,3 +42,9 @@ Zusammenfassend dienen diese Tutorials als Ihr Einstieg in die Beherrschung von 
 Erfahren Sie, wie Sie Aspose.TeX für .NET verwenden, um Jobnamen zu überschreiben und Terminalausgaben zu erfassen. Befolgen Sie unseren umfassenden Leitfaden für eine nahtlose TeX-Dateiverwaltung.
 ### [Jobnamen überschreiben und Terminalausgabe in Zip schreiben (C#)](./override-job-name-zip-output-csharp/)
 Erfahren Sie, wie Sie mit Aspose.TeX für .NET Jobnamen überschreiben und Terminalausgaben in eine ZIP-Datei schreiben. Schritt-für-Schritt-Anleitung mit C#-Beispielen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

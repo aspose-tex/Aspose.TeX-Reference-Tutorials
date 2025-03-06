@@ -3,10 +3,16 @@ title: Typesetting TeX Files to XPS in Java
 linktitle: Typesetting TeX Files to XPS in Java
 second_title: Aspose.TeX Java API
 description: Unlock the secrets of typesetting TeX files to XPS in Java effortlessly with Aspose.TeX. Dive into our tutorials for step-by-step guidance on seamless document processing.
-type: docs
 weight: 30
 url: /java/typesetting-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Typesetting TeX Files to XPS in Java
+
 ## Introduction
 
 Are you ready to elevate your Java document processing game? Look no further! Our Aspose.TeX for Java tutorials on typesetting TeX files to XPS are here to empower you with seamless solutions. In this article, we'll delve into the intricacies of Typesetting TeX to XPS in Java with External Stream, providing you with a comprehensive understanding of the process.
@@ -37,3 +43,9 @@ Ready to get started? [Explore the tutorial now](./typeset-tex-to-xps-external-s
 ## Typesetting TeX Files to XPS in Java Tutorials
 ### [Typeset TeX to XPS in Java with External Stream](./typeset-tex-to-xps-external-stream/)
 Learn how to typeset TeX to XPS in Java using Aspose.TeX. Explore step-by-step guidance for seamless document processing.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Рендеринг фигур LaTeX в SVG на Java
 linktitle: Рендеринг фигур LaTeX в SVG на Java
 second_title: API Aspose.TeX Java
 description: Узнайте, как легко преобразовать фигуры LaTeX в SVG на Java с помощью Aspose.TeX. Следуйте этому пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 14
 url: /ru/java/customizing-output/render-lafigures-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг фигур LaTeX в SVG на Java
+
 ## Введение
 
 Создание и рендеринг фигур LaTeX на Java может оказаться сложной, но важной задачей для различных приложений. В этом уроке мы рассмотрим, как визуализировать фигуры LaTeX в SVG с помощью Aspose.TeX для Java. Aspose.TeX предоставляет мощные функции для обработки документов LaTeX и их преобразования в различные форматы, включая SVG.
@@ -118,3 +124,9 @@ A4: Aspose.TeX позволяет конвертировать в различн
 ### Вопрос 5: Где я могу найти подробную документацию по Aspose.TeX для Java?
 
  A5: См.[Документация Aspose.TeX](https://reference.aspose.com/tex/java/) для получения исчерпывающей информации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Load TeX License from File in Java
 linktitle: Load TeX License from File in Java
 second_title: Aspose.TeX Java API
 description: Discover the power of Aspose.TeX for Java. Easily load TeX licenses from files with our step-by-step guide.
-type: docs
 weight: 10
 url: /java/managing-licenses/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Load TeX License from File in Java
+
 ## Introduction
 
 Welcome to our comprehensive guide on leveraging the capabilities of Aspose.TeX for Java! Whether you're a seasoned developer or just starting with TeX processing in Java, this tutorial will walk you through the process of loading TeX licenses from a file. By the end, you'll be equipped with the knowledge to seamlessly integrate Aspose.TeX into your Java projects.
@@ -77,3 +83,10 @@ A4: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/t
 ### Q5: Where can I find the documentation?
 
 A5: The documentation is available [here](https://reference.aspose.com/tex/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chuyển đổi LaTeX sang PDF trong Java
 linktitle: Chuyển đổi LaTeX sang PDF trong Java
 second_title: API Java Aspose.TeX
 description: Chuyển đổi LaTeX sang PDF bằng Java bằng Aspose.TeX. Khám phá các tùy chọn hiệu quả và nâng cao để tích hợp vào các ứng dụng Java của bạn. Mở khóa khả năng xử lý tài liệu mạnh mẽ.
-type: docs
 weight: 20
 url: /vi/java/converting-lato-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi LaTeX sang PDF trong Java
+
 
 ## Giới thiệu
 
@@ -32,3 +38,9 @@ Cho dù bạn là người mới bắt đầu khám phá chuyển đổi LaTeX s
 Tìm hiểu cách chuyển đổi LaTeX sang PDF một cách hiệu quả bằng Aspose.TeX cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch vào các ứng dụng Java của bạn.
 ### [Tùy chọn chuyển đổi LaTeX sang PDF nâng cao trong Java](./advanced-pdf-conversion/)
 Khám phá chuyển đổi LaTeX sang PDF nâng cao trong Java bằng Aspose.TeX. Mở khóa khả năng xử lý tài liệu mạnh mẽ với hướng dẫn từng bước.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

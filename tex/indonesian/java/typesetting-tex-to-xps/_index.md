@@ -3,10 +3,16 @@ title: Mengetik File TeX ke XPS di Java
 linktitle: Mengetik File TeX ke XPS di Java
 second_title: Aspose.TeX Java API
 description: Buka rahasia penyusunan huruf file TeX ke XPS di Java dengan mudah menggunakan Aspose.TeX. Selami tutorial kami untuk panduan langkah demi langkah tentang pemrosesan dokumen yang lancar.
-type: docs
 weight: 30
 url: /id/java/typesetting-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengetik File TeX ke XPS di Java
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan permainan pemrosesan dokumen Java Anda? Tidak perlu mencari lagi! Tutorial Aspose.TeX untuk Java kami tentang penyusunan huruf file TeX ke XPS hadir untuk memberdayakan Anda dengan solusi yang lancar. Pada artikel ini, kami akan mempelajari seluk-beluk Pengaturan Huruf TeX ke XPS di Java dengan Aliran Eksternal, memberi Anda pemahaman komprehensif tentang prosesnya.
@@ -37,3 +43,9 @@ Baik Anda seorang pengembang Java yang ingin meningkatkan kemampuan pemrosesan d
 ## Mengetik File TeX ke XPS dalam Tutorial Java
 ### [Mengeset TeX ke XPS di Java dengan Aliran Eksternal](./typeset-tex-to-xps-external-stream/)
 Pelajari cara mengeset TeX ke XPS di Java menggunakan Aspose.TeX. Jelajahi panduan langkah demi langkah untuk pemrosesan dokumen yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

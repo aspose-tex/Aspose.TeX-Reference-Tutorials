@@ -3,10 +3,16 @@ title: Specify Required Input Directory for Aspose.TeX (C#)
 linktitle: Specify Required Input Directory for Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Explore Aspose.TeX for .NET, a robust library for seamless TeX integration. Follow our step-by-step guide.
-type: docs
 weight: 10
 url: /net/advanced-io/required-input-directory-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specify Required Input Directory for Aspose.TeX (C#)
+
 ## Introduction
 
 In the realm of document processing and typesetting, Aspose.TeX for .NET stands as a powerful tool for developers. It facilitates the creation and manipulation of TeX files seamlessly within .NET applications. This article serves as a comprehensive guide, breaking down the utilization of Aspose.TeX for .NET into easy-to-follow steps.
@@ -123,3 +129,10 @@ A4: Yes, you can explore the free trial version [here](https://releases.aspose.c
 ### Q5: How can I obtain a temporary license for Aspose.TeX for .NET?
 
 A5: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

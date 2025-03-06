@@ -3,10 +3,16 @@ title: 작업 이름 재정의 및 Java에서 터미널 출력 쓰기
 linktitle: 작업 이름 재정의 및 Java에서 터미널 출력 쓰기
 second_title: Aspose.TeX 자바 API
 description: Java용 Aspose.TeX를 사용하여 작업 이름을 재정의하고 터미널 출력을 작성하는 방법에 대한 단계별 가이드를 살펴보세요. 강력한 사용자 정의 옵션으로 문서 처리를 강화하세요.
-type: docs
 weight: 10
 url: /ko/java/customizing-output/override-job-name-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 작업 이름 재정의 및 Java에서 터미널 출력 쓰기
+
 ## 소개
 
 Aspose.TeX for Java는 TeX 파일 작업을 위한 강력한 기능을 제공하므로 개발자는 TeX 문서 처리를 조작하고 사용자 정의할 수 있습니다. 이 튜토리얼에서는 Java에서 Aspose.TeX를 사용하여 작업 이름을 재정의하고 터미널 출력을 파일 시스템에 쓰는 프로세스를 안내합니다.
@@ -104,3 +110,9 @@ A1: 예, Aspose.TeX for Java는 다른 Java 라이브러리와 원활하게 통�
 ### Q5: Java용 Aspose.TeX를 어디서 구입할 수 있나요?
 
  A5: 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy) Java용 Aspose.TeX 라이센스를 취득합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

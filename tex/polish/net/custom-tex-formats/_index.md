@@ -3,10 +3,16 @@ title: Niestandardowe formaty TeX
 linktitle: Niestandardowe formaty TeX
 second_title: Aspose.TeX API .NET
 description: Odblokuj mistrzostwo w generowaniu dokumentów dzięki Aspose.TeX dla .NET. Dzięki temu obszernemu samouczkowi nauczysz się bez wysiłku tworzyć niestandardowe formaty TeX-owe.
-type: docs
 weight: 31
 url: /pl/net/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Niestandardowe formaty TeX
+
 ## Wstęp
 
  Aspose.TeX dla .NET otwiera świat możliwości generowania dokumentów, a opanowanie tworzenia niestandardowych formatów TeX-owych jest kluczowym aspektem. W tym samouczku zagłębimy się w zawiłości budowania[niestandardowe formaty TeX w .NET](./create-custom-tex-formats/), umożliwiając ulepszenie generowania dokumentów zgodnie z Twoimi unikalnymi wymaganiami.
@@ -31,3 +37,9 @@ Ten samouczek nie tylko przekazuje wiedzę techniczną, ale także kładzie naci
 ## Samouczki dotyczące niestandardowych formatów TeX
 ### [Tworzenie niestandardowych formatów TeX w .NET](./create-custom-tex-formats/)
 Odblokuj mistrzostwo w generowaniu dokumentów dzięki Aspose.TeX dla .NET. Twórz niestandardowe formaty TeX bez wysiłku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

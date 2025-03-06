@@ -3,10 +3,16 @@ title: Praca z danymi wyjściowymi XPS
 linktitle: Praca z danymi wyjściowymi XPS
 second_title: Aspose.TeX API .NET
 description: Konwertuj TeX na XPS bez wysiłku dzięki Aspose.TeX w .NET. Nasz przewodnik zapewnia bezproblemową integrację. Zapoznaj się z samouczkiem dotyczącym składu tekstu TeX na XPS, aby uzyskać porady ekspertów.
-type: docs
 weight: 29
 url: /pl/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Praca z danymi wyjściowymi XPS
+
 ## Wstęp
 
 Czy chcesz wykorzystać moc Aspose.TeX w swoich aplikacjach .NET? Zapoznaj się z naszymi obszernymi samouczkami, specjalnie dostosowanymi do pracy z danymi wyjściowymi XPS. W tym artykule przeprowadzimy Cię przez proces łatwej konwersji dokumentów TeX do formatu XPS, zapewniając bezproblemową integrację z Aspose.TeX.
@@ -36,3 +42,9 @@ Podsumowując, opanowanie sztuki składu TeX-a do XPS w .NET jest teraz w Twoim 
 ## Samouczki dotyczące pracy z plikami wyjściowymi XPS
 ### [Skład TeX-a na XPS w .NET](./typeset-tex-to-xps/)
 Bez wysiłku konwertuj dokumenty TeX na XPS w .NET za pomocą Aspose.TeX. Zapoznaj się z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

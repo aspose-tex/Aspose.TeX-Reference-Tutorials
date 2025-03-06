@@ -3,10 +3,16 @@ title: قم بتحميل ترخيص TeX من ملف في Java
 linktitle: قم بتحميل ترخيص TeX من ملف في Java
 second_title: Aspose.TeX جافا API
 description: اكتشف قوة Aspose.TeX لـ Java. يمكنك بسهولة تحميل تراخيص TeX من الملفات من خلال دليلنا التفصيلي خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/managing-licenses/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحميل ترخيص TeX من ملف في Java
+
 ## مقدمة
 
 مرحبًا بك في دليلنا الشامل حول الاستفادة من إمكانيات Aspose.TeX لـ Java! سواء كنت مطورًا متمرسًا أو بدأت للتو في معالجة TeX في Java، فسيرشدك هذا البرنامج التعليمي خلال عملية تحميل تراخيص TeX من ملف. في النهاية، ستكون مجهزًا بالمعرفة اللازمة لدمج Aspose.TeX بسلاسة في مشاريع Java الخاصة بك.
@@ -77,3 +83,9 @@ System.out.println("License set successfully.");
 ### س5: أين يمكنني العثور على الوثائق؟
 
  ج5: الوثائق متاحة[هنا](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

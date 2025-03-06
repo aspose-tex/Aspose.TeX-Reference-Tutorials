@@ -3,10 +3,16 @@ title: Переопределить имя задания и записать в
 linktitle: Переопределить имя задания и записать вывод терминала в Java
 second_title: API Aspose.TeX Java
 description: Изучите пошаговое руководство по переопределению имен заданий и написанию вывода терминала с помощью Aspose.TeX для Java. Улучшите обработку документов с помощью мощных возможностей настройки.
-type: docs
 weight: 10
 url: /ru/java/customizing-output/override-job-name-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Переопределить имя задания и записать вывод терминала в Java
+
 ## Введение
 
 Aspose.TeX for Java предоставляет мощные функции для работы с файлами TeX, позволяя разработчикам манипулировать и настраивать обработку документов TeX. В этом руководстве мы проведем вас через процесс переопределения имени задания и записи вывода терминала в файловую систему с помощью Aspose.TeX на Java.
@@ -104,3 +110,9 @@ job.run();
 ### Вопрос 5: Где я могу приобрести Aspose.TeX для Java?
 
  A5: Посетите[страница покупки](https://purchase.aspose.com/buy) приобрести лицензию на Aspose.TeX для Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

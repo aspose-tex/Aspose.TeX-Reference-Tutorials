@@ -3,10 +3,16 @@ title: Working with Custom TeX Formats in Java
 linktitle: Working with Custom TeX Formats in Java
 second_title: Aspose.TeX Java API
 description: Effortlessly master typesetting in Java with Aspose.TeX. Dive into our Custom TeX Formats tutorials for a smooth development journey. Download now and elevate your Java skills!
-type: docs
 weight: 29
 url: /java/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with Custom TeX Formats in Java
+
 ## Introduction
 
 Welcome to the world of Aspose.TeX for Java, where mastering typesetting becomes a breeze. In this comprehensive tutorial series, we'll guide you through the intricacies of working with Custom TeX Formats, helping you harness the full power of Aspose.TeX for Java.
@@ -31,3 +37,9 @@ In conclusion, Aspose.TeX for Java opens doors to a world of efficient and custo
 ## Working with Custom TeX Formats in Java Tutorials
 ### [Typesetting with Custom TeX Formats in Java](./typesetting-custom-tex-formats/)
 Explore efficient typesetting in Java with Aspose.TeX. Custom TeX formats made easy. Download now for a seamless development experience.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

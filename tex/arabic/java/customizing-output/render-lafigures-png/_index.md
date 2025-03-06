@@ -3,10 +3,16 @@ title: تقديم أرقام LaTeX إلى PNG في Java
 linktitle: تقديم أرقام LaTeX إلى PNG في Java
 second_title: Aspose.TeX جافا API
 description: قم بعرض أشكال LaTeX إلى PNG بسهولة في Java باستخدام Aspose.TeX. اتبع هذا الدليل للتكامل السلس.
-type: docs
 weight: 12
 url: /ar/java/customizing-output/render-lafigures-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم أرقام LaTeX إلى PNG في Java
+
 ## مقدمة
 
 في عالم تطوير Java، قد يكون عرض أشكال LaTeX إلى PNG مهمة صعبة ولكنها أساسية. يأتي Aspose.TeX for Java للإنقاذ بفضل ميزاته القوية، مما يجعل هذه العملية فعالة وسلسة. سيرشدك هذا الدليل خطوة بخطوة خلال العملية الكاملة لعرض أشكال LaTeX إلى PNG باستخدام Aspose.TeX.
@@ -114,3 +120,9 @@ System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 ### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.TeX for Java؟
 
  ج5: الوثائق متاحة[هنا](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

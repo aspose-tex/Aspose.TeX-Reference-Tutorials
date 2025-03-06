@@ -3,10 +3,16 @@ title: Özel TeX Formatları
 linktitle: Özel TeX Formatları
 second_title: Aspose.TeX .NET API'si
 description: Aspose.TeX for .NET ile belge oluşturma ustalığının kilidini açın. Bu kapsamlı eğitimde özel TeX formatlarını zahmetsizce oluşturmayı öğrenin.
-type: docs
 weight: 31
 url: /tr/net/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Özel TeX Formatları
+
 ## giriiş
 
  Aspose.TeX for .NET, belge oluşturma için bir fırsatlar dünyasının kapılarını açıyor ve özel TeX formatlarının oluşturulmasında uzmanlaşmak önemli bir husustur. Bu derste inşaatın inceliklerini inceleyeceğiz[.NET'te özel TeX formatları](./create-custom-tex-formats/)benzersiz gereksinimlerinize göre belge oluşturmayı geliştirmenize olanak sağlar.
@@ -31,3 +37,9 @@ Bu eğitim sadece teknik bilgi vermekle kalmıyor, aynı zamanda Aspose.TeX for 
 ## Özel TeX Formatları Eğitimleri
 ### [.NET'te Özel TeX Formatları Oluşturma](./create-custom-tex-formats/)
 Aspose.TeX for .NET ile belge oluşturma ustalığının kilidini açın. Özel TeX formatlarını zahmetsizce oluşturun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

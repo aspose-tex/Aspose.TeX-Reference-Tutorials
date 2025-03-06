@@ -3,10 +3,16 @@ title: Σύνθετη είσοδος και έξοδος στο Aspose.TeX γι�
 linktitle: Σύνθετη είσοδος και έξοδος στο Aspose.TeX για Java
 second_title: Aspose.TeX Java API
 description: Βελτιώστε την επεξεργασία Java TeX με τα μαθήματα Aspose.TeX for Java. Μάθετε να καθορίζετε καταλόγους εισόδου και να βελτιστοποιείτε την επεξεργασία ροής για βελτιωμένα έργα Java.
-type: docs
 weight: 27
 url: /el/java/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Σύνθετη είσοδος και έξοδος στο Aspose.TeX για Java
+
 
 ## Εισαγωγή
 
@@ -30,3 +36,9 @@ url: /el/java/advanced-io/
 Βελτιώστε την επεξεργασία Java TeX με το Aspose.TeX για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για να καθορίσετε απρόσκοπτα τους απαιτούμενους καταλόγους εισόδου.
 ### [Είσοδος ροής, έξοδος εικόνας και είσοδος τερματικού σε Java](./stream-input-image-output/)
 Μάθετε την είσοδο ροής, την έξοδο εικόνας και την είσοδο τερματικού σε Java χρησιμοποιώντας το Aspose.TeX. Ένα ολοκληρωμένο σεμινάριο για απρόσκοπτη ενσωμάτωση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Írja be a TeX-et XPS-re Java nyelven külső adatfolyammal
 linktitle: Írja be a TeX-et XPS-re Java nyelven külső adatfolyammal
 second_title: Aspose.TeX Java API
 description: Tanulja meg, hogyan lehet TeX-et XPS-re szedni Java nyelven az Aspose.TeX használatával. Fedezze fel a zökkenőmentes dokumentumfeldolgozáshoz lépésről lépésre szóló útmutatót.
-type: docs
 weight: 10
 url: /hu/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Írja be a TeX-et XPS-re Java nyelven külső adatfolyammal
+
 ## Bevezetés
 
 A Java fejlesztés világában az Aspose.TeX hatékony eszköz a TeX dokumentumok különféle formátumokba, köztük XPS formátumokba történő szedésére. Ha javítani szeretné Java-alkalmazása dokumentumfeldolgozási képességeit, ez az oktatóanyag az Ön számára készült. Ebben a lépésenkénti útmutatóban végigvezetjük a TeX-nek XPS-be történő szedés folyamatán az Aspose.TeX for Java használatával külső adatfolyammal.
@@ -122,3 +128,9 @@ Gratulálunk! Sikeresen beírta a TeX-et XPS-re Java nyelven az Aspose.TeX haszn
 ### 5. kérdés: Kaphatok ideiglenes licencet tesztelési célokra?
 
  V5: Igen, szerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

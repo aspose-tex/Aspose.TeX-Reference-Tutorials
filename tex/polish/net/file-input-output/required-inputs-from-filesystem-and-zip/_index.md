@@ -3,10 +3,16 @@ title: Pracuj z wejściami systemu plików i ZIP w Aspose.TeX dla .NET
 linktitle: Pracuj z wejściami systemu plików i ZIP w Aspose.TeX dla .NET
 second_title: Aspose.TeX API .NET
 description: Poznaj Aspose.TeX dla .NET, solidną bibliotekę do obsługi dokumentów TeX i LaTeX. Efektywnie konwertuj pliki za pomocą systemu plików i danych wejściowych ZIP.
-type: docs
 weight: 11
 url: /pl/net/file-input-output/required-inputs-from-filesystem-and-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pracuj z wejściami systemu plików i ZIP w Aspose.TeX dla .NET
+
 ## Wstęp
 
 Witamy w samouczku dotyczącym pracy z systemem plików i wejściami ZIP w Aspose.TeX dla .NET. Aspose.TeX to potężna biblioteka .NET, która umożliwia pracę z dokumentami TeX i LaTeX. W tym samouczku skupimy się na obsłudze danych wejściowych w systemie plików i ZIP, dostarczając wskazówek krok po kroku dotyczących wykorzystania Aspose.TeX do wydajnej konwersji dokumentów.
@@ -103,3 +109,9 @@ Odpowiedź 1: Aspose.TeX koncentruje się głównie na przetwarzaniu dokumentów
 ### P5: Gdzie mogę kupić Aspose.TeX dla .NET?
 
 Odpowiedź 5: Możesz kupić Aspose.TeX dla .NET w sklepie[strona zakupu](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

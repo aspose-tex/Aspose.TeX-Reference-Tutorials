@@ -3,10 +3,16 @@ title: Ställ in mätlicens för Aspose.TeX (C#)
 linktitle: Ställ in mätlicens för Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Utforska Aspose.TeX för .NET, ställ in mätlicenser utan ansträngning och lås upp den fulla potentialen av TeX-filmanipulation i dina C#-projekt.
-type: docs
 weight: 12
 url: /sv/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in mätlicens för Aspose.TeX (C#)
+
 ## Introduktion
 
 Aspose.TeX för .NET är ett kraftfullt bibliotek som låter utvecklare arbeta med TeX-filer sömlöst. För att frigöra dess fulla potential är det viktigt att skapa en uppmätt licens. Detta säkerställer att du har rätt behörighet att använda biblioteket i dina applikationer.
@@ -92,3 +98,9 @@ Att sätta upp en mätlicens för Aspose.TeX i C# är en enkel process. Genom at
 ### F5: Kan jag använda en tillfällig licens för Aspose.TeX?
 
  A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tải giấy phép TeX từ luồng trong Java
 linktitle: Tải giấy phép TeX từ luồng trong Java
 second_title: API Java Aspose.TeX
 description: Khám phá sức mạnh của Aspose.TeX dành cho Java với hướng dẫn từng bước của chúng tôi về cách tải giấy phép TeX từ luồng. Tích hợp liền mạch thao tác tài liệu TeX vào các ứng dụng Java của bạn.
-type: docs
 weight: 11
 url: /vi/java/managing-licenses/load-license-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải giấy phép TeX từ luồng trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.TeX cho Java, một thư viện mạnh mẽ giúp đơn giản hóa các tác vụ chuyển đổi và thao tác tài liệu TeX. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tải giấy phép TeX từ một luồng trong Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với Aspose.TeX, hướng dẫn từng bước này sẽ giúp bạn tích hợp liền mạch giấy phép vào ứng dụng Java của mình.
@@ -89,3 +95,9 @@ Câu trả lời 1: Có, bạn có thể sử dụng Aspose.TeX cho Java mà kh�
 ### Câu 5: Bạn có cung cấp giấy phép tạm thời không?
 
  Câu trả lời 5: Có, có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 XPS 输出
 linktitle: 使用 XPS 输出
 second_title: Aspose.TeX .NET API
 description: 使用 .NET 中的 Aspose.TeX 轻松将 TeX 转换为 XPS。我们的指南确保无缝集成。探索排版 TeX 到 XPS 教程以获得专家见解。
-type: docs
 weight: 29
 url: /zh/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 XPS 输出
+
 ## 介绍
 
 您是否希望在 .NET 应用程序中利用 Aspose.TeX 的强大功能？深入了解我们专为使用 XPS 输出而定制的综合教程。在本文中，我们将指导您轻松地将 TeX 文档转换为 XPS，从而提供与 Aspose.TeX 的无缝集成体验。
@@ -36,3 +42,9 @@ url: /zh/net/xps-output/
 ## 使用 XPS 输出教程
 ### [在 .NET 中将 TeX 排版为 XPS](./typeset-tex-to-xps/)
 使用 Aspose.TeX 轻松将 TeX 文档转换为 .NET 中的 XPS。探索我们的分步指南，以获得无缝集成体验。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

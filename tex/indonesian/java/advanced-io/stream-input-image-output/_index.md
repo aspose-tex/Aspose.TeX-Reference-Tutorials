@@ -3,10 +3,16 @@ title: Input Aliran, Output Gambar, dan Input Terminal di Java
 linktitle: Input Aliran, Output Gambar, dan Input Terminal di Java
 second_title: Aspose.TeX Java API
 description: Pelajari input aliran, output gambar, dan input terminal di Java menggunakan Aspose.TeX. Tutorial komprehensif untuk integrasi yang lancar.
-type: docs
 weight: 11
 url: /id/java/advanced-io/stream-input-image-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Input Aliran, Output Gambar, dan Input Terminal di Java
+
 ## Perkenalan
 
 Aspose.TeX untuk Java adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file TeX, memfasilitasi pembuatan dan manipulasi dokumen berkualitas tinggi. Dalam tutorial ini, kita akan menjelajahi proses mengambil input aliran, menghasilkan output gambar, dan menangani input terminal di Java menggunakan Aspose.TeX.
@@ -134,3 +140,9 @@ A2: Tentu saja! Aspose.TeX menyediakan berbagai opsi untuk menyimpan gambar kelu
 ### Q5: Apakah ada sumber daya tambahan untuk dokumentasi Aspose.TeX?
 
  A5: Jelajahi secara komprehensif[dokumentasi](https://reference.aspose.com/tex/java/) untuk wawasan dan contoh terperinci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

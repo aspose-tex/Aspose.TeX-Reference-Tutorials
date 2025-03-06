@@ -3,10 +3,16 @@ title: Java의 스트림 입력, 이미지 출력 및 터미널 입력
 linktitle: Java의 스트림 입력, 이미지 출력 및 터미널 입력
 second_title: Aspose.TeX 자바 API
 description: Aspose.TeX를 사용하여 Java에서 스트림 입력, 이미지 출력 및 터미널 입력을 알아보세요. 원활한 통합을 위한 포괄적인 튜토리얼입니다.
-type: docs
 weight: 11
 url: /ko/java/advanced-io/stream-input-image-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 스트림 입력, 이미지 출력 및 터미널 입력
+
 ## 소개
 
 Aspose.TeX for Java는 개발자가 TeX 파일로 작업하여 고품질 문서의 생성 및 조작을 용이하게 할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 스트림 입력을 받고, 이미지 출력을 생성하고, Aspose.TeX를 사용하여 Java에서 터미널 입력을 처리하는 프로세스를 살펴보겠습니다.
@@ -134,3 +140,9 @@ A2: 물론이죠! Aspose.TeX는 출력 이미지 저장을 위한 다양한 옵�
 ### Q5: Aspose.TeX 문서를 위한 추가 리소스가 있습니까?
 
  A5: 포괄적인 탐색[선적 서류 비치](https://reference.aspose.com/tex/java/) 자세한 통찰력과 예시를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

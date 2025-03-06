@@ -3,10 +3,16 @@ title: Zastąp nazwę zadania i zapisz dane wyjściowe terminala w formacie Zip 
 linktitle: Zastąp nazwę zadania i zapisz dane wyjściowe terminala w formacie Zip w Javie
 second_title: Aspose.TeX API Java
 description: Dowiedz się, jak zastąpić nazwy zadań i zapisać dane wyjściowe terminala w formacie ZIP w Javie za pomocą Aspose.TeX. Kompleksowy poradnik dla programistów Java.
-type: docs
 weight: 11
 url: /pl/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastąp nazwę zadania i zapisz dane wyjściowe terminala w formacie Zip w Javie
+
 ## Wstęp
 
 W świecie programowania Java Aspose.TeX wyróżnia się jako potężne narzędzie do obsługi formatów plików TeX. W tym samouczku zajmiemy się konkretnym scenariuszem — nadpisywaniem nazw zadań i zapisywaniem danych wyjściowych terminala w pliku zip. Ten przewodnik krok po kroku przeprowadzi Cię przez proces korzystania z Aspose.TeX dla Java.
@@ -126,3 +132,10 @@ O1: Aspose.TeX to biblioteka Java, która umożliwia programistom pracę z forma
 ### P5: Gdzie mogę szukać pomocy lub zadać pytania dotyczące Aspose.TeX?
 
  A5: Odwiedź[Forum Aspose.TeX](https://forum.aspose.com/c/tex/47) za wsparcie i dyskusję.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

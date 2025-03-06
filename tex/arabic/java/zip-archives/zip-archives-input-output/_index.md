@@ -3,10 +3,16 @@ title: استخدام أرشيفات ZIP للإدخال والإخراج في As
 linktitle: استخدام أرشيفات ZIP للإدخال والإخراج في Aspose.TeX Java
 second_title: Aspose.TeX جافا API
 description: تعزيز تطوير Java باستخدام Aspose.TeX! تعلم كيفية استخدام أرشيفات ZIP للإدخال والإخراج بكفاءة. اتبع دليلنا خطوة بخطوة الآن.
-type: docs
 weight: 10
 url: /ar/java/zip-archives/zip-archives-input-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخدام أرشيفات ZIP للإدخال والإخراج في Aspose.TeX Java
+
 ## مقدمة
 بالشروع في تطوير Java، أثبت Aspose.TeX أنه لا يقدر بثمن في تنضيد وتحويل ملفات TeX. يركز هذا البرنامج التعليمي على تسخير أرشيفات ZIP في Aspose.TeX لـ Java، وهو أسلوب ماهر لإدارة أدلة الإدخال والإخراج بشكل فعال.
 ## المتطلبات الأساسية
@@ -133,3 +139,9 @@ options.getTerminalOut().getWriter().newLine();
 ### س5: أين يمكنني طلب الدعم أو طرح الأسئلة؟
 
  ج5: قم بزيارة منتدى Aspose.TeX[هنا](https://forum.aspose.com/c/tex/47)لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

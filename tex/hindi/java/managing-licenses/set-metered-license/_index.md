@@ -3,10 +3,16 @@ title: जावा में Aspose.TeX के लिए मीटर्ड ल
 linktitle: जावा में Aspose.TeX के लिए मीटर्ड लाइसेंस सेट करें
 second_title: Aspose.TeX जावा एपीआई
 description: मीटर्ड लाइसेंस स्थापित करके जावा में Aspose.TeX की पूरी क्षमता को अनलॉक करें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 12
 url: /hi/java/managing-licenses/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में Aspose.TeX के लिए मीटर्ड लाइसेंस सेट करें
+
 ## परिचय
 
 जावा में Aspose.TeX के लिए मीटर्ड लाइसेंस स्थापित करने पर हमारी चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है! Aspose.TeX एक शक्तिशाली लाइब्रेरी है जो जावा अनुप्रयोगों में TeX फ़ाइलों के साथ काम करने के लिए कार्यक्षमता प्रदान करती है। इसकी पूरी क्षमता को अनलॉक करने के लिए, यह समझना आवश्यक है कि मीटर्ड लाइसेंस कैसे स्थापित किया जाए। इस ट्यूटोरियल में, हम आपको इस प्रक्रिया के बारे में बताएंगे, और इसे पालन करने में आसान चरणों में विभाजित करेंगे।
@@ -77,3 +83,9 @@ new Metered().setMeteredKey(
 ### Q5: सहायता चाहिए या कोई प्रश्न हैं?
 
  A5: पर जाएँ[Aspose.TeX समर्थन मंच](https://forum.aspose.com/c/tex/47) सहायता के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

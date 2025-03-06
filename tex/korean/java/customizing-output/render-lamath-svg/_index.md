@@ -3,10 +3,16 @@ title: LaTeX Math를 Java에서 SVG로 렌더링
 linktitle: LaTeX Math를 Java에서 SVG로 렌더링
 second_title: Aspose.TeX 자바 API
 description: Aspose.TeX를 사용하여 LaTeX 수학 방정식을 Java의 SVG로 렌더링하는 방법을 알아보세요. 정확하고 시각적으로 매력적인 결과를 얻으려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 15
 url: /ko/java/customizing-output/render-lamath-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# LaTeX Math를 Java에서 SVG로 렌더링
+
 ## 소개
 
 Aspose.TeX를 사용하여 LaTeX 수학 방정식을 Java의 SVG로 렌더링하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. 숙련된 개발자이든 이제 막 Java를 시작하는 개발자이든 이 튜토리얼에서는 정확하고 시각적으로 매력적인 결과를 얻을 수 있도록 프로세스를 단계별로 안내합니다. 
@@ -111,3 +117,9 @@ A2: 물론이죠! 렌더링 옵션을 사용하면 색상, 크기 조정 및 기
 ### Q5: 더 자세한 문서는 어디서 찾을 수 있나요?
 
  A5: 다음에서 포괄적인 문서를 살펴보세요.[Aspose.TeX 자바 문서](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

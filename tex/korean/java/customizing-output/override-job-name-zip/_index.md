@@ -3,10 +3,16 @@ title: 작업 이름을 재정의하고 터미널 출력을 Java의 Zip에 쓰�
 linktitle: 작업 이름을 재정의하고 터미널 출력을 Java의 Zip에 쓰기
 second_title: Aspose.TeX 자바 API
 description: Aspose.TeX를 사용하여 작업 이름을 재정의하고 Java에서 ZIP에 터미널 출력을 작성하는 방법을 알아보세요. Java 개발자를 위한 포괄적인 튜토리얼입니다.
-type: docs
 weight: 11
 url: /ko/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 작업 이름을 재정의하고 터미널 출력을 Java의 Zip에 쓰기
+
 ## 소개
 
 Java 개발 세계에서 Aspose.TeX는 TeX 파일 형식을 처리하는 강력한 도구로 돋보입니다. 이 튜토리얼에서는 작업 이름을 재정의하고 터미널 출력을 zip 파일에 쓰는 특정 시나리오를 자세히 살펴보겠습니다. 이 단계별 가이드는 Aspose.TeX for Java를 사용하는 프로세스를 안내합니다.
@@ -126,3 +132,10 @@ A1: Aspose.TeX는 개발자가 TeX 파일 형식으로 작업할 수 있게 해 
 ### Q5: Aspose.TeX에 대한 지원을 받거나 질문을 할 수 있는 곳은 어디입니까?
 
  A5: 다음을 방문하세요.[Aspose.TeX 포럼](https://forum.aspose.com/c/tex/47) 지원과 토론을 위해.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Imposta la licenza a consumo per Aspose.TeX (C#)
 linktitle: Imposta la licenza a consumo per Aspose.TeX (C#)
 second_title: API Aspose.TeX .NET
 description: Esplora Aspose.TeX per .NET, imposta facilmente licenze a consumo e sblocca tutto il potenziale della manipolazione dei file TeX nei tuoi progetti C#.
-type: docs
 weight: 12
 url: /it/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imposta la licenza a consumo per Aspose.TeX (C#)
+
 ## introduzione
 
 Aspose.TeX per .NET è una potente libreria che consente agli sviluppatori di lavorare senza problemi con i file TeX. Per sfruttare tutto il suo potenziale, è essenziale impostare una licenza a consumo. Ciò garantisce che tu disponga dell'autorizzazione adeguata per utilizzare la libreria nelle tue applicazioni.
@@ -92,3 +98,9 @@ Configurare una licenza a consumo per Aspose.TeX in C# è un processo semplice. 
 ### Q5: Posso utilizzare una licenza temporanea per Aspose.TeX?
 
  R5: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

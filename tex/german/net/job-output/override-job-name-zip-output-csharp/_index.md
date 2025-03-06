@@ -3,10 +3,16 @@ title: Jobnamen überschreiben und Terminalausgabe in Zip schreiben (C#)
 linktitle: Jobnamen überschreiben und Terminalausgabe in Zip schreiben (C#)
 second_title: Aspose.TeX .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.TeX für .NET Jobnamen überschreiben und Terminalausgaben in eine ZIP-Datei schreiben. Schritt-für-Schritt-Anleitung mit C#-Beispielen.
-type: docs
 weight: 11
 url: /de/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jobnamen überschreiben und Terminalausgabe in Zip schreiben (C#)
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.TeX für .NET den Jobnamen überschreiben und die Terminalausgabe in eine ZIP-Datei schreiben. Aspose.TeX ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, mit TeX-Dokumenten in ihren .NET-Anwendungen zu arbeiten. In diesem speziellen Beispiel konzentrieren wir uns auf eine häufige Aufgabe – das Schreiben der Terminalausgabe in eine ZIP-Datei mit der Möglichkeit, den Jobnamen zu überschreiben.
@@ -95,3 +101,9 @@ A1: Ja, Aspose.TeX für .NET ist mit allen .NET-Sprachen kompatibel.
 ### F5: Wo kann ich Aspose.TeX für .NET kaufen?
 
  A5: Sie können Aspose.TeX kaufen[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ganti Nama Pekerjaan dan Tulis Output Terminal di Java
 linktitle: Ganti Nama Pekerjaan dan Tulis Output Terminal di Java
 second_title: Aspose.TeX Java API
 description: Jelajahi panduan langkah demi langkah tentang mengganti nama pekerjaan dan menulis keluaran terminal menggunakan Aspose.TeX untuk Java. Tingkatkan pemrosesan dokumen Anda dengan opsi penyesuaian yang canggih.
-type: docs
 weight: 10
 url: /id/java/customizing-output/override-job-name-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ganti Nama Pekerjaan dan Tulis Output Terminal di Java
+
 ## Perkenalan
 
 Aspose.TeX untuk Java menyediakan fitur canggih untuk bekerja dengan file TeX, memungkinkan pengembang untuk memanipulasi dan menyesuaikan pemrosesan dokumen TeX. Dalam tutorial ini, kami akan memandu Anda melalui proses penggantian nama pekerjaan dan penulisan output terminal ke sistem file menggunakan Aspose.TeX di Java.
@@ -104,3 +110,9 @@ A1: Ya, Aspose.TeX untuk Java dirancang untuk berintegrasi secara lancar dengan 
 ### Q5: Di mana saya dapat membeli Aspose.TeX untuk Java?
 
  A5: Kunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk memperoleh lisensi Aspose.TeX untuk Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Java 中將 TeX 檔案排版為 PDF
 linktitle: 在 Java 中將 TeX 檔案排版為 PDF
 second_title: Aspose.TeX Java API
 description: 透過我們將 TeX 檔案排版為 PDF 的教學課程來釋放 Aspose.TeX for Java 的強大功能。掌握與外部串流無縫生成 PDF 的藝術。
-type: docs
 weight: 28
 url: /zh-hant/java/typesetting-tex-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中將 TeX 檔案排版為 PDF
+
 
 您準備好提升 Java 程式設計技能並深入研究將 TeX 檔案排版為 PDF 的世界了嗎？別再猶豫了！在這份綜合指南中，我們將引導您了解使用 Aspose.TeX for Java 的複雜性，輕鬆揭開 PDF 產生的奧秘。
 
@@ -36,3 +42,9 @@ url: /zh-hant/java/typesetting-tex-to-pdf/
 ## 在 Java 教學中將 TeX 檔案排版為 PDF
 ### [使用外部串流在 Java 中將 TeX 排版為 PDF](./typeset-tex-to-pdf-external-stream/)
 了解如何使用 Aspose.TeX 的外部串流在 Java 中將 TeX 排版為 PDF。請按照我們的逐步指南進行無縫整合。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

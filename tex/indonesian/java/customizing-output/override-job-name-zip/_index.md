@@ -3,10 +3,16 @@ title: Ganti Nama Pekerjaan dan Tulis Output Terminal ke Zip di Java
 linktitle: Ganti Nama Pekerjaan dan Tulis Output Terminal ke Zip di Java
 second_title: Aspose.TeX Java API
 description: Pelajari cara mengganti nama pekerjaan dan menulis output terminal ke ZIP di Java dengan Aspose.TeX. Tutorial komprehensif untuk pengembang Java.
-type: docs
 weight: 11
 url: /id/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ganti Nama Pekerjaan dan Tulis Output Terminal ke Zip di Java
+
 ## Perkenalan
 
 Dalam dunia pengembangan Java, Aspose.TeX menonjol sebagai alat yang ampuh untuk menangani format file TeX. Dalam tutorial ini, kita akan mempelajari skenario spesifik – mengganti nama pekerjaan dan menulis output terminal ke file zip. Panduan langkah demi langkah ini akan memandu Anda melalui proses menggunakan Aspose.TeX untuk Java.
@@ -126,3 +132,10 @@ A1: Aspose.TeX adalah perpustakaan Java yang memungkinkan pengembang untuk beker
 ### Q5: Di mana saya dapat mencari dukungan atau mengajukan pertanyaan tentang Aspose.TeX?
 
  A5: Kunjungi[Forum Aspose.TeX](https://forum.aspose.com/c/tex/47) untuk dukungan dan diskusi.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

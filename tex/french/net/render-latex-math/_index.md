@@ -3,10 +3,16 @@ title: Rendre les mathématiques LaTeX avec Aspose.TeX
 linktitle: Rendre les mathématiques LaTeX avec Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Découvrez l'art de restituer les mathématiques LaTeX en PNG sans effort avec Aspose.TeX. Maîtrisez le processus à l’aide de notre guide en C#, garantissant l’intégration pour un résultat soigné.
-type: docs
 weight: 26
 url: /fr/net/render-latex-math/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendre les mathématiques LaTeX avec Aspose.TeX
+
 ## Introduction
 
 Êtes-vous prêt à vous lancer dans un voyage dans le domaine du rendu des mathématiques LaTeX en PNG à l'aide d'Aspose.TeX en C# ? Ce guide complet vous guidera étape par étape tout au long du processus, vous assurant ainsi d’en saisir les subtilités sans effort.
@@ -41,3 +47,9 @@ Toutes nos félicitations! Vous avez terminé le premier didacticiel de notre s�
 ## Rendre les mathématiques LaTeX avec les didacticiels Aspose.TeX
 ### [Rendre les mathématiques LaTeX en PNG avec Aspose.TeX (C#)](./png-latex-math-renderer-csharp/)
 Découvrez comment restituer les mathématiques LaTeX en PNG en C# à l'aide d'Aspose.TeX. Suivez notre guide étape par étape pour une intégration transparente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

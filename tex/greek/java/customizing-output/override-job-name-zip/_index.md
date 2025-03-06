@@ -3,10 +3,16 @@ title: Αντικαταστήστε το όνομα εργασίας και εγ
 linktitle: Αντικαταστήστε το όνομα εργασίας και εγγράψτε την έξοδο τερματικού στο Zip σε Java
 second_title: Aspose.TeX Java API
 description: Μάθετε πώς να παρακάμπτετε τα ονόματα εργασιών και να γράφετε την έξοδο τερματικού σε ZIP σε Java με το Aspose.TeX. Ένα ολοκληρωμένο σεμινάριο για προγραμματιστές Java.
-type: docs
 weight: 11
 url: /el/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αντικαταστήστε το όνομα εργασίας και εγγράψτε την έξοδο τερματικού στο Zip σε Java
+
 ## Εισαγωγή
 
 Στον κόσμο της ανάπτυξης Java, το Aspose.TeX ξεχωρίζει ως ένα ισχυρό εργαλείο για το χειρισμό μορφών αρχείων TeX. Σε αυτό το σεμινάριο, θα εμβαθύνουμε σε ένα συγκεκριμένο σενάριο – παράκαμψη ονομάτων εργασιών και εγγραφή της εξόδου τερματικού σε ένα αρχείο zip. Αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία χρησιμοποιώντας το Aspose.TeX για Java.
@@ -126,3 +132,10 @@ A1: Το Aspose.TeX είναι μια βιβλιοθήκη Java που επιτ�
 ### Ε5: Πού μπορώ να αναζητήσω υποστήριξη ή να κάνω ερωτήσεις σχετικά με το Aspose.TeX;
 
  A5: Επισκεφθείτε το[Φόρουμ Aspose.TeX](https://forum.aspose.com/c/tex/47) για υποστήριξη και συζητήσεις.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

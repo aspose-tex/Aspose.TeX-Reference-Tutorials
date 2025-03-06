@@ -3,10 +3,16 @@ title: .NET용 Aspose.TeX에서 파일 시스템 및 XPS 출력 작업
 linktitle: .NET용 Aspose.TeX에서 파일 시스템 및 XPS 출력 작업
 second_title: Aspose.TeX .NET API
 description: .NET용 Aspose.TeX의 강력한 기능을 알아보세요. 이 포괄적인 튜토리얼에서 파일 시스템을 손쉽게 처리하고 XPS 출력을 생성하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/net/file-input-output/filesystem-input-xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.TeX에서 파일 시스템 및 XPS 출력 작업
+
 ## 소개
 
 .NET용 Aspose.TeX에서 파일 시스템 및 XPS 출력 작업에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! XPS 출력을 생성하는 동안 Aspose.TeX의 강력한 기능을 활용하여 파일 시스템을 통해 입력 및 출력을 관리하려는 경우 올바른 위치에 오셨습니다. 이 단계별 가이드에서는 명확한 이해를 보장하기 위해 각 예를 여러 단계로 나누어 프로세스를 안내합니다.
@@ -113,3 +119,9 @@ A1: 네, 가능합니다. Aspose.TeX는 다양한 출력 형식을 지원하며 
 ### Q5: 사용 가능한 샘플 프로젝트가 있나요?
 
 A5: Aspose.TeX GitHub 리포지토리에서 샘플 프로젝트 및 코드 조각을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

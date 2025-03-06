@@ -3,10 +3,16 @@ title: تجاوز اسم الوظيفة وكتابة الإخراج الطرفي
 linktitle: تجاوز اسم الوظيفة وكتابة الإخراج الطرفي في Java
 second_title: Aspose.TeX جافا API
 description: استكشف الدليل التفصيلي خطوة بخطوة حول تجاوز أسماء الوظائف وكتابة المخرجات الطرفية باستخدام Aspose.TeX لـ Java. عزز معالجة مستنداتك باستخدام خيارات التخصيص القوية.
-type: docs
 weight: 10
 url: /ar/java/customizing-output/override-job-name-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تجاوز اسم الوظيفة وكتابة الإخراج الطرفي في Java
+
 ## مقدمة
 
 يوفر Aspose.TeX for Java ميزات قوية للعمل مع ملفات TeX، مما يسمح للمطورين بمعالجة وتخصيص معالجة مستندات TeX. في هذا البرنامج التعليمي، سنرشدك خلال عملية تجاوز اسم الوظيفة وكتابة المخرجات الطرفية إلى نظام الملفات باستخدام Aspose.TeX في Java.
@@ -104,3 +110,9 @@ job.run();
 ### س5: أين يمكنني شراء Aspose.TeX لـ Java؟
 
  ج5: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على ترخيص Aspose.TeX لـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

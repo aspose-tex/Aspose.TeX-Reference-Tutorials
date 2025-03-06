@@ -3,10 +3,16 @@ title: Advanced Aspose.TeX Input and Output
 linktitle: Advanced Aspose.TeX Input and Output
 second_title: Aspose.TeX .NET API
 description: Uncover the power of Aspose.TeX for .NET with our advanced tutorials. Learn to specify input directories and master streams, images, and terminal input in C#.
-type: docs
 weight: 27
 url: /net/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced Aspose.TeX Input and Output
+
 ## Introduction
 
 Aspose.TeX for .NET is a game-changer in seamless TeX integration, providing developers with a robust library to enhance document processing. In this article, we delve into advanced tutorials focusing on specifying input directories and mastering streams, images, and terminal input in C#.
@@ -29,3 +35,9 @@ In conclusion, these tutorials serve as your gateway to mastering Aspose.TeX for
 Explore Aspose.TeX for .NET, a robust library for seamless TeX integration. Follow our step-by-step guide.
 ### [Master Streams, Images, & Terminal Input in Aspose.TeX for C#](./stream-input-image-output-terminal-input-csharp/)
 Explore the power of Aspose.TeX for C# master streams, images, and terminal input effortlessly. Download now for seamless document processing.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Charger la licence TeX à partir d'un fichier en Java
 linktitle: Charger la licence TeX à partir d'un fichier en Java
 second_title: API Java Aspose.TeX
 description: Découvrez la puissance d'Aspose.TeX pour Java. Chargez facilement des licences TeX à partir de fichiers avec notre guide étape par étape.
-type: docs
 weight: 10
 url: /fr/java/managing-licenses/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Charger la licence TeX à partir d'un fichier en Java
+
 ## Introduction
 
 Bienvenue dans notre guide complet sur l'exploitation des capacités d'Aspose.TeX pour Java ! Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec le traitement TeX en Java, ce didacticiel vous guidera tout au long du processus de chargement des licences TeX à partir d'un fichier. À la fin, vous disposerez des connaissances nécessaires pour intégrer de manière transparente Aspose.TeX dans vos projets Java.
@@ -77,3 +83,9 @@ Dans ce tutoriel, nous avons couvert les étapes essentielles pour intégrer Asp
 ### Q5 : Où puis-je trouver la documentation ?
 
  A5 : La documentation est disponible[ici](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

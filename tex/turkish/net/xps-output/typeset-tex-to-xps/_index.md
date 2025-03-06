@@ -3,10 +3,16 @@ title: .NET'te TeX'i XPS'ye dizme
 linktitle: .NET'te TeX'i XPS'ye dizme
 second_title: Aspose.TeX .NET API'si
 description: Aspose.TeX ile TeX belgelerini zahmetsizce .NET'te XPS'ye dönüştürün. Sorunsuz bir entegrasyon deneyimi için adım adım kılavuzumuzu keşfedin.
-type: docs
 weight: 10
 url: /tr/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET'te TeX'i XPS'ye dizme
+
 ## giriiş
 
 Güçlü Aspose.TeX kütüphanesini kullanarak .NET'te TeX'ten XPS'ye dizgiye ilişkin adım adım kılavuzumuza hoş geldiniz. .NET uygulamalarınızda TeX belgelerini sorunsuz bir şekilde XPS formatına dönüştürmek istiyorsanız doğru yere geldiniz. Bu eğitimde, sorunsuz bir uygulama sağlamak için her adımı parçalara ayırarak tüm süreç boyunca size yol göstereceğiz.
@@ -94,3 +100,9 @@ A2: Kesinlikle! Aspose.TeX hem ticari hem de kişisel kullanım için mevcuttur.
 ### S5: Ücretsiz deneme sürümü mevcut mu?
 
  C5: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

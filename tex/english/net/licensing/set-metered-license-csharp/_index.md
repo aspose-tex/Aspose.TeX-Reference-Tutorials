@@ -3,10 +3,16 @@ title: Set Metered License for Aspose.TeX (C#)
 linktitle: Set Metered License for Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Explore Aspose.TeX for .NET, set up metered licensing effortlessly, and unlock the full potential of TeX file manipulation in your C# projects.
-type: docs
 weight: 12
 url: /net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Metered License for Aspose.TeX (C#)
+
 ## Introduction
 
 Aspose.TeX for .NET is a powerful library that allows developers to work with TeX files seamlessly. To unlock its full potential, it's essential to set up a metered license. This ensures that you have the proper authorization to use the library in your applications.
@@ -92,3 +98,10 @@ A4: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for communit
 ### Q5: Can I use a temporary license for Aspose.TeX?
 
 A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Entrée de flux, sortie d'image et entrée de terminal en Java
 linktitle: Entrée de flux, sortie d'image et entrée de terminal en Java
 second_title: API Java Aspose.TeX
 description: Apprenez l'entrée de flux, la sortie d'image et l'entrée de terminal en Java à l'aide d'Aspose.TeX. Un tutoriel complet pour une intégration transparente.
-type: docs
 weight: 11
 url: /fr/java/advanced-io/stream-input-image-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Entrée de flux, sortie d'image et entrée de terminal en Java
+
 ## Introduction
 
 Aspose.TeX pour Java est une bibliothèque puissante qui permet aux développeurs de travailler avec des fichiers TeX, facilitant ainsi la création et la manipulation de documents de haute qualité. Dans ce didacticiel, nous explorerons le processus de prise d'entrée de flux, de génération de sortie d'image et de gestion des entrées de terminal en Java à l'aide d'Aspose.TeX.
@@ -134,3 +140,9 @@ A2 : Absolument ! Aspose.TeX propose diverses options pour enregistrer les image
 ### Q5 : Existe-t-il des ressources supplémentaires pour la documentation Aspose.TeX ?
 
  A5 : Explorer l’ensemble[Documentation](https://reference.aspose.com/tex/java/) pour des informations détaillées et des exemples.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

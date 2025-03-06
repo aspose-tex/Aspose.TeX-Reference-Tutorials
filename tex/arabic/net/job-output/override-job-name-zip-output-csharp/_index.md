@@ -3,10 +3,16 @@ title: تجاوز اسم المهمة وكتابة الإخراج الطرفي �
 linktitle: تجاوز اسم المهمة وكتابة الإخراج الطرفي إلى Zip (C#)
 second_title: Aspose.TeX .NET API
 description: تعرف على كيفية تجاوز أسماء المهام وكتابة مخرجات الوحدة الطرفية إلى ملف ZIP باستخدام Aspose.TeX لـ .NET. دليل خطوة بخطوة مع أمثلة C#.
-type: docs
 weight: 11
 url: /ar/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تجاوز اسم المهمة وكتابة الإخراج الطرفي إلى Zip (C#)
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية تجاوز اسم المهمة وكتابة مخرجات الوحدة الطرفية إلى ملف ZIP باستخدام Aspose.TeX for .NET. Aspose.TeX هي مكتبة قوية تتيح للمطورين العمل مع مستندات TeX في تطبيقات .NET الخاصة بهم. في هذا المثال تحديدًا، سنركز على مهمة شائعة – كتابة مخرجات الوحدة الطرفية إلى ملف ZIP مع إمكانية تجاوز اسم المهمة.
@@ -95,3 +101,9 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 ### س5: أين يمكنني شراء Aspose.TeX لـ .NET؟
 
  ج5: يمكنك شراء Aspose.TeX[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

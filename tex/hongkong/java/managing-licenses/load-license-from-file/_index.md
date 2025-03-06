@@ -3,10 +3,16 @@ title: 在 Java 中從檔案載入 TeX 許可證
 linktitle: 在 Java 中從檔案載入 TeX 許可證
 second_title: Aspose.TeX Java API
 description: 探索 Aspose.TeX for Java 的強大功能。使用我們的逐步指南輕鬆從文件載入 TeX 授權。
-type: docs
 weight: 10
 url: /zh-hant/java/managing-licenses/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中從檔案載入 TeX 許可證
+
 ## 介紹
 
 歡迎閱讀我們關於利用 Aspose.TeX for Java 功能的綜合指南！無論您是經驗豐富的開發人員還是剛開始使用 Java 進行 TeX 處理，本教學都將引導您完成從文件載入 TeX 授權的過程。最後，您將具備將 Aspose.TeX 無縫整合到您的 Java 專案中的知識。
@@ -77,3 +83,9 @@ System.out.println("License set successfully.");
 ### Q5：在哪裡可以找到文件？
 
  A5：文件可用[這裡](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

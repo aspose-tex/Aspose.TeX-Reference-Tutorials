@@ -3,10 +3,16 @@ title: Buat Desain LaTeX Unik dengan Aspose.TeX untuk .NET
 linktitle: Buat Desain LaTeX Unik dengan Aspose.TeX untuk .NET
 second_title: Aspose.TeX .NET API
 description: Buat desain LaTeX yang menakjubkan dengan mudah menggunakan Aspose.TeX untuk .NET. Unduh sekarang untuk integrasi yang lancar ke dalam proyek .NET Anda.
-type: docs
 weight: 10
 url: /id/net/advanced-formatting-and-customization/create-custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Desain LaTeX Unik dengan Aspose.TeX untuk .NET
+
 ## Perkenalan
 
 LaTeX, sistem penyusunan huruf yang kuat, banyak digunakan untuk membuat dokumen dan desain berkualitas tinggi. Aspose.TeX untuk .NET menyediakan cara yang mulus untuk memanfaatkan potensi LaTeX dalam aplikasi .NET Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan desain LaTeX unik menggunakan Aspose.TeX untuk .NET.
@@ -89,3 +95,9 @@ A2: Ya, Aspose.TeX dapat digunakan untuk aplikasi pribadi dan komersial. Periksa
 ### Q5: Bisakah saya mendapatkan lisensi sementara untuk Aspose.TeX?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara dengan mengunjungi[Link ini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

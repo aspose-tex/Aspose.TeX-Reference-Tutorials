@@ -3,10 +3,16 @@ title: Explore Advanced PNG Conversion Options with Aspose.TeX for Java
 linktitle: Explore Advanced PNG Conversion Options with Aspose.TeX for Java
 second_title: Aspose.TeX Java API
 description: Explore advanced PNG conversion with Aspose.TeX for Java. A comprehensive tutorial on LaTeX to PNG conversion.
-type: docs
 weight: 11
 url: /java/converting-lato-images/advanced-png-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Explore Advanced PNG Conversion Options with Aspose.TeX for Java
+
 ## Introduction
 
 In the ever-evolving landscape of Java development, efficient and advanced tools play a pivotal role in achieving seamless results. Aspose.TeX for Java stands out as a powerful library that aids in TeX typesetting and document conversion. In this tutorial, we'll delve into the intricacies of utilizing Aspose.TeX for Java to explore advanced PNG conversion options.
@@ -131,3 +137,10 @@ A4: Join the Aspose.TeX community on the [support forum](https://forum.aspose.co
 ### Q5: Can I obtain a temporary license?
 
 A5: Yes, you can acquire a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Travailler avec les systèmes de fichiers et la sortie XPS dans Aspose.Te
 linktitle: Travailler avec les systèmes de fichiers et la sortie XPS dans Aspose.TeX pour .NET
 second_title: API Aspose.TeX .NET
 description: Découvrez la puissance d'Aspose.TeX pour .NET. Apprenez à gérer sans effort les systèmes de fichiers et à générer une sortie XPS dans ce didacticiel complet.
-type: docs
 weight: 10
 url: /fr/net/file-input-output/filesystem-input-xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec les systèmes de fichiers et la sortie XPS dans Aspose.TeX pour .NET
+
 ## Introduction
 
 Bienvenue dans ce didacticiel complet sur l'utilisation des systèmes de fichiers et de la sortie XPS dans Aspose.TeX pour .NET ! Si vous cherchez à exploiter la puissance d'Aspose.TeX pour gérer les entrées et les sorties via les systèmes de fichiers tout en générant une sortie XPS, vous êtes au bon endroit. Dans ce guide étape par étape, nous vous guiderons tout au long du processus, en décomposant chaque exemple en plusieurs étapes pour garantir une compréhension claire.
@@ -113,3 +119,9 @@ A1 : Oui, vous pouvez. Aspose.TeX prend en charge différents formats de sorti
 ### Q5 : Existe-t-il des exemples de projets disponibles ?
 
 A5 : Explorez le référentiel Aspose.TeX GitHub pour des exemples de projets et des extraits de code.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

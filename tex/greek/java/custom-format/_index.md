@@ -3,10 +3,16 @@ title: Δημιουργία προσαρμοσμένης μορφής TeX σε J
 linktitle: Δημιουργία προσαρμοσμένης μορφής TeX σε Java
 second_title: Aspose.TeX Java API
 description: Ενισχύστε τη συνοχή της στοιχειοθεσίας σε Java με το Aspose.TeX. Ανατρέξτε στα σεμινάρια μας για τη δημιουργία προσαρμοσμένων μορφών TeX για απρόσκοπτη και αποτελεσματική μορφοποίηση εγγράφων.
-type: docs
 weight: 24
 url: /el/java/custom-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία προσαρμοσμένης μορφής TeX σε Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε έναν ολοκληρωμένο οδηγό για την αξιοποίηση της δύναμης του Aspose.TeX για Java για την επίτευξη απαράμιλλης συνοχής στοιχειοθεσίας. Σε αυτήν τη σειρά εκμάθησης, θα εμβαθύνουμε στην τέχνη της δημιουργίας προσαρμοσμένων μορφών TeX, δίνοντάς σας τη δυνατότητα να αναβαθμίσετε το παιχνίδι μορφοποίησης εγγράφων σας χωρίς κόπο.
@@ -41,3 +47,9 @@ url: /el/java/custom-format/
 ## Δημιουργία προσαρμοσμένης μορφής TeX σε εκπαιδευτικά προγράμματα Java
 ### [Δημιουργήστε προσαρμοσμένες μορφές TeX για συνεπή στοιχειοθέτηση σε Java](./creating-custom-formats/)
 Βελτιώστε τη συνοχή της στοιχειοθεσίας σε Java με το Aspose.TeX. Δημιουργήστε προσαρμοσμένες μορφές TeX χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Átfogó oktatóanyagok és példák az Aspose.TeX-re .NET-hez
 linktitle: Aspose.TeX for .NET Tutorials
-type: docs
 weight: 10
 url: /hu/net/
 description: Sajátítsa el a LaTeX tervezést könnyedén az Aspose.TeX for .NET használatával. Töltse le a zökkenőmentes integráció érdekében, és fedezze fel a fejlett formázást, fájlkezelést, licencelést és egyebeket.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó oktatóanyagok és példák az Aspose.TeX-re .NET-hez
+
 
 ## Bevezetés
 
@@ -80,3 +85,9 @@ Fedezze fel a LaTeX matematikai egyenletek SVG formátumú megjelenítésének m
 Oldja fel a dokumentumgenerálási képességeket az Aspose.TeX for .NET segítségével. Ebben az átfogó oktatóanyagban megtanulhatja, hogyan hozhat létre egyedi TeX formátumokat könnyedén.
 ### [Zip fájl bemenet és kimenet](./zip-file-io/)
 Fedezze fel az Aspose.TeX-ben rejlő lehetőségeket .NET-hez Zip fájl beviteli és kimeneti oktatóanyagaink segítségével. Fedezze fel a ZIP-fájlkezelést és az alkalmazások dokumentumfeldolgozását.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

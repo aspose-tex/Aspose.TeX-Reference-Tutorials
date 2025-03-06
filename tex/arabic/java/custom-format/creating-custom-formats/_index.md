@@ -3,10 +3,16 @@ title: إنشاء تنسيقات TeX مخصصة للتنضيد المتسق في
 linktitle: إنشاء تنسيقات TeX مخصصة للتنضيد المتسق في Java
 second_title: Aspose.TeX جافا API
 description: تحسين تناسق التنضيد في Java باستخدام Aspose.TeX. قم بإنشاء تنسيقات TeX مخصصة دون عناء.
-type: docs
 weight: 10
 url: /ar/java/custom-format/creating-custom-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء تنسيقات TeX مخصصة للتنضيد المتسق في Java
+
 ## مقدمة
 
 يعد تنسيق مستندات TeX جانبًا مهمًا في معالجة المستندات، خاصة عندما يكون الاتساق عبر المستندات المختلفة أمرًا ضروريًا. يوفر Aspose.TeX for Java حلاً قويًا لهذا التحدي من خلال السماح للمطورين بإنشاء تنسيقات TeX مخصصة مصممة وفقًا لمتطلباتهم المحددة.
@@ -114,3 +120,9 @@ options.getTerminalOut().getWriter().newLine();
 ### س5: كيف يمكنني الحصول على دعم Aspose.TeX لـ Java؟
 
  ج5: يمكنك طلب الدعم على[منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

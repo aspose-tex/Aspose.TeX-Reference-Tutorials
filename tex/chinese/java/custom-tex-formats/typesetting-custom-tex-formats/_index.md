@@ -3,10 +3,16 @@ title: 在 Java 中使用自定义 TeX 格式进行排版
 linktitle: 在 Java 中使用自定义 TeX 格式进行排版
 second_title: Aspose.TeX Java API
 description: 使用 Aspose.TeX 探索 Java 中的高效排版。自定义 TeX 格式变得简单。立即下载以获得无缝的开发体验。
-type: docs
 weight: 10
 url: /zh/java/custom-tex-formats/typesetting-custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用自定义 TeX 格式进行排版
+
 ## 介绍
 
 在 Java 开发领域，Aspose.TeX 被证明是使用自定义 TeX 格式进行排版的宝贵工具。本教程将深入探讨利用 Aspose.TeX for Java 使用个性化 TeX 格式实现高效排版的过程。无论您是经验丰富的开发人员还是新手，本指南都旨在引导您无缝地完成这些步骤。
@@ -115,3 +121,9 @@ A1：是的，Aspose.TeX 旨在与各种 Java 库无缝集成以增强功能。
 ### Q5：哪里可以购买Aspose.TeX库？
 
  A5：通过访问以下地址来保护您的副本[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

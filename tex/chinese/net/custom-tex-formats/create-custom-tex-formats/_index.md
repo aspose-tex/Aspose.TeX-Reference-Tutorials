@@ -3,10 +3,16 @@ title: 在 .NET 中创建自定义 TeX 格式
 linktitle: 在 .NET 中创建自定义 TeX 格式
 second_title: Aspose.TeX .NET API
 description: 使用 Aspose.TeX for .NET 解锁文档生成能力。轻松创建自定义 TeX 格式。
-type: docs
 weight: 10
 url: /zh/net/custom-tex-formats/create-custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 .NET 中创建自定义 TeX 格式
+
 ## 介绍
 
 在 .NET 开发的动态世界中，优化文档创建和排版至关重要。 Aspose.TeX for .NET 使开发人员能够自定义 TeX 格式，从而增强灵活性和对文档生成的控制。本教程将引导您完成使用 Aspose.TeX 在 .NET 中创建自定义 TeX 格式的过程。
@@ -99,3 +105,9 @@ A3：访问[Aspose.TeX 论坛](https://forum.aspose.com/c/tex/47)寻求社区支
 ### Q5：在哪里可以找到 Aspose.TeX for .NET 的文档？
 
  A5：参考综合文档[这里](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

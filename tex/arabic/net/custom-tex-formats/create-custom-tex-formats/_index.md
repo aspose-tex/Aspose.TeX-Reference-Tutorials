@@ -3,10 +3,16 @@ title: إنشاء تنسيقات TeX مخصصة في .NET
 linktitle: إنشاء تنسيقات TeX مخصصة في .NET
 second_title: Aspose.TeX .NET API
 description: اكتشف إتقان إنشاء المستندات باستخدام Aspose.TeX لـ .NET. قم بإنشاء تنسيقات TeX مخصصة دون عناء.
-type: docs
 weight: 10
 url: /ar/net/custom-tex-formats/create-custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء تنسيقات TeX مخصصة في .NET
+
 ## مقدمة
 
 في العالم الديناميكي لتطوير .NET، يعد تحسين إنشاء المستندات وتنضيدها أمرًا بالغ الأهمية. يعمل Aspose.TeX for .NET على تمكين المطورين من تخصيص تنسيقات TeX، مما يعزز المرونة والتحكم في إنشاء المستندات. يرشدك هذا البرنامج التعليمي خلال عملية إنشاء تنسيقات TeX مخصصة في .NET باستخدام Aspose.TeX.
@@ -99,3 +105,9 @@ using (FormatProvider formatProvider =
 ### س5: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.TeX لـ .NET؟
 
  ج5: راجع الوثائق الشاملة[هنا](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

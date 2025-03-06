@@ -3,10 +3,16 @@ title: Muat Lisensi TeX dari Stream di Java
 linktitle: Muat Lisensi TeX dari Stream di Java
 second_title: Aspose.TeX Java API
 description: Jelajahi kekuatan Aspose.TeX untuk Java dengan panduan langkah demi langkah kami dalam memuat lisensi TeX dari aliran. Integrasikan manipulasi dokumen TeX dengan mulus ke dalam aplikasi Java Anda.
-type: docs
 weight: 11
 url: /id/java/managing-licenses/load-license-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Muat Lisensi TeX dari Stream di Java
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.TeX untuk Java, perpustakaan canggih yang menyederhanakan tugas manipulasi dan konversi dokumen TeX. Dalam tutorial ini, kami akan memandu Anda melalui proses memuat lisensi TeX dari aliran di Java. Baik Anda seorang pengembang berpengalaman atau baru memulai Aspose.TeX, panduan langkah demi langkah ini akan membantu Anda mengintegrasikan lisensi ke dalam aplikasi Java Anda dengan lancar.
@@ -89,3 +95,9 @@ A1: Ya, Anda dapat menggunakan Aspose.TeX untuk Java tanpa lisensi, tetapi ini a
 ### Q5: Apakah Anda menawarkan lisensi sementara?
 
  A5: Ya, izin sementara dapat diperoleh[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

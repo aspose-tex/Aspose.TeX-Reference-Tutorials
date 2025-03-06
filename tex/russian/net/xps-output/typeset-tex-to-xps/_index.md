@@ -3,10 +3,16 @@ title: Набор текста TeX в XPS в .NET
 linktitle: Набор текста TeX в XPS в .NET
 second_title: API Aspose.TeX .NET
 description: Легко конвертируйте документы TeX в XPS в .NET с помощью Aspose.TeX. Ознакомьтесь с нашим пошаговым руководством, чтобы обеспечить беспрепятственную интеграцию.
-type: docs
 weight: 10
 url: /ru/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Набор текста TeX в XPS в .NET
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по верстке TeX в XPS в .NET с использованием мощной библиотеки Aspose.TeX. Если вы хотите легко конвертировать документы TeX в формат XPS в своих приложениях .NET, вы попали по адресу. В этом уроке мы проведем вас через весь процесс, разбив каждый шаг, чтобы обеспечить плавную реализацию.
@@ -94,3 +100,9 @@ new TeXJob("hello-world", new XpsDevice(stream), options).Run();
 ### В5: Есть ли бесплатная пробная версия?
 
  О5: Да, вы можете получить доступ к бесплатной пробной версии.[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

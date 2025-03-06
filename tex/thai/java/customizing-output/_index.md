@@ -3,10 +3,16 @@ title: การปรับแต่งเอาต์พุต TeX ใน Aspo
 linktitle: การปรับแต่งเอาต์พุต TeX ใน Aspose.TeX สำหรับ Java
 second_title: Aspose.TeX Java API
 description: ปรับปรุงการประมวลผลเอกสารของคุณใน Java ด้วย Aspose.TeX สำรวจคำแนะนำเกี่ยวกับการแทนที่ชื่องาน การเขียนเอาต์พุตเทอร์มินัล และการเรนเดอร์ตัวเลข LaTeX และคณิตศาสตร์เป็น PNG/SVG อย่างราบรื่น
-type: docs
 weight: 26
 url: /th/java/customizing-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การปรับแต่งเอาต์พุต TeX ใน Aspose.TeX สำหรับ Java
+
 ## การแนะนำ
 
 คุณเป็นนักพัฒนา Java ที่ต้องการยกระดับความสามารถในการประมวลผลเอกสารของคุณหรือไม่? ดำดิ่งสู่โลกของ Aspose.TeX ซึ่งเป็นเครื่องมืออันทรงพลังที่ช่วยให้คุณปรับแต่งเอาต์พุต TeX ได้อย่างแม่นยำและมีประสิทธิภาพ ในบทความนี้ เราจะแนะนำคุณผ่านบทช่วยสอนที่จำเป็นเกี่ยวกับตัวเลือกการปรับแต่งต่างๆ
@@ -61,3 +67,9 @@ url: /th/java/customizing-output/
 เรียนรู้วิธีเรนเดอร์ตัวเลข LaTeX เป็น SVG ใน Java ได้อย่างง่ายดายโดยใช้ Aspose.TeX ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการผสานรวมที่ราบรื่น
 ### [เรนเดอร์ LaTeX Math เป็น SVG ใน Java](./render-lamath-svg/)
 เรียนรู้วิธีเรนเดอร์สมการทางคณิตศาสตร์ LaTeX เป็น SVG ใน Java โดยใช้ Aspose.TeX ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้ได้ผลลัพธ์ที่ถูกต้องและดึงดูดสายตา
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

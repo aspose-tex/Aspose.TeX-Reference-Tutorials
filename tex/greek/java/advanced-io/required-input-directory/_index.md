@@ -3,10 +3,16 @@ title: Καθορίστε τον Κατάλογο Απαιτούμενων Ει�
 linktitle: Καθορίστε τον Κατάλογο Απαιτούμενων Εισόδου στην Java
 second_title: Aspose.TeX Java API
 description: Βελτιώστε την επεξεργασία Java TeX με το Aspose.TeX για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για να καθορίσετε απρόσκοπτα τους απαιτούμενους καταλόγους εισόδου.
-type: docs
 weight: 10
 url: /el/java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορίστε τον Κατάλογο Απαιτούμενων Εισόδου στην Java
+
 ## Εισαγωγή
 
 Θέλετε να βελτιώσετε τις δυνατότητες της εφαρμογής σας Java στον αποτελεσματικό χειρισμό εργασιών TeX; Το Aspose.TeX για Java είναι η λύση που ψάχνατε! Σε αυτόν τον περιεκτικό οδηγό, θα σας καθοδηγήσουμε στη διαδικασία καθορισμού ενός απαιτούμενου καταλόγου εισόδου στην Java χρησιμοποιώντας το Aspose.TeX.
@@ -104,3 +110,9 @@ inputDirectory.close();
 ### Ε5: Πώς μπορώ να αγοράσω Aspose.TeX για Java;
 
  A5: Για αγορά, επισκεφτείτε τη σελίδα αγοράς[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cómo componer texto TeX a PDF en .NET
 linktitle: Cómo componer texto TeX a PDF en .NET
 second_title: API Aspose.TeX .NET
 description: Explore la perfecta integración de Aspose.TeX para .NET en la composición tipográfica de TeX a PDF. Sumérgete en este completo tutorial y mejora tus habilidades de desarrollo .NET.
-type: docs
 weight: 10
 url: /es/net/pdf-output/typeset-tex-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cómo componer texto TeX a PDF en .NET
+
 ## Introducción
 
 Si se está sumergiendo en el mundo de la composición tipográfica TeX y PDF en el entorno .NET, se encontrará con un placer. En esta guía paso a paso, exploraremos cómo aprovechar el poder de Aspose.TeX para .NET para componer sin problemas documentos TeX en archivos PDF. Ya sea que sea un desarrollador experimentado o esté comenzando con TeX, este tutorial lo guiará a través del proceso, desglosando cada paso para que sea accesible para todos.
@@ -111,3 +117,9 @@ R1: Sí, Aspose.TeX se actualiza periódicamente para garantizar la compatibilid
 ### P5: ¿Necesito una licencia temporal para realizar pruebas?
 
  R5: Sí, puede obtener una licencia temporal para realizar pruebas a través de[este enlace](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

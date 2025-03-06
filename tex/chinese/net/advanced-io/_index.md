@@ -3,10 +3,16 @@ title: 高级 Aspose.TeX 输入和输出
 linktitle: 高级 Aspose.TeX 输入和输出
 second_title: Aspose.TeX .NET API
 description: 通过我们的高级教程探索 Aspose.TeX for .NET 的强大功能。学习在 C# 中指定输入目录和主流、图像和终端输入。
-type: docs
 weight: 27
 url: /zh/net/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 高级 Aspose.TeX 输入和输出
+
 ## 介绍
 
 Aspose.TeX for .NET 是无缝 TeX 集成的游戏规则改变者，为开发人员提供了强大的库来增强文档处理。在本文中，我们将深入研究高级教程，重点关注在 C# 中指定输入目录以及掌握流、图像和终端输入。
@@ -29,3 +35,9 @@ Aspose.TeX for .NET 为文档处理的无限可能世界打开了大门。为了
 探索 Aspose.TeX for .NET，这是一个用于无缝 TeX 集成的强大库。请遵循我们的分步指南。
 ### [在 Aspose.TeX for C# 中主控流、图像和终端输入](./stream-input-image-output-terminal-input-csharp/)
 轻松探索 Aspose.TeX 在 C# 主流、图像和终端输入方面的强大功能。立即下载以进行无缝文档处理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

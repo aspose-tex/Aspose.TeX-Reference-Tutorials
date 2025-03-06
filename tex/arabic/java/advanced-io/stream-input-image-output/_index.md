@@ -3,10 +3,16 @@ title: دفق الإدخال، إخراج الصورة، والإدخال الط
 linktitle: دفق الإدخال، إخراج الصورة، والإدخال الطرفي في جافا
 second_title: Aspose.TeX جافا API
 description: تعلم إدخال التدفق وإخراج الصور والإدخال الطرفي في Java باستخدام Aspose.TeX. برنامج تعليمي شامل للتكامل السلس.
-type: docs
 weight: 11
 url: /ar/java/advanced-io/stream-input-image-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دفق الإدخال، إخراج الصورة، والإدخال الطرفي في جافا
+
 ## مقدمة
 
 Aspose.TeX for Java هي مكتبة قوية تسمح للمطورين بالعمل مع ملفات TeX، مما يسهل إنشاء المستندات عالية الجودة ومعالجتها. في هذا البرنامج التعليمي، سوف نستكشف عملية أخذ مدخلات التدفق، وإنشاء مخرجات الصور، والتعامل مع الإدخال الطرفي في Java باستخدام Aspose.TeX.
@@ -134,3 +140,9 @@ byte[][] result = device.getResult();
 ### س5: هل هناك أي موارد إضافية لتوثيق Aspose.TeX؟
 
  ج5: اكتشف الشامل[توثيق](https://reference.aspose.com/tex/java/) للحصول على رؤى وأمثلة مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

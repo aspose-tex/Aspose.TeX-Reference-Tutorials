@@ -3,10 +3,16 @@ title: Java에서 TeX 파일을 XPS로 조판하기
 linktitle: Java에서 TeX 파일을 XPS로 조판하기
 second_title: Aspose.TeX 자바 API
 description: Aspose.TeX를 사용하여 TeX 파일을 Java에서 XPS로 조판하는 비밀을 쉽게 풀어보세요. 원활한 문서 처리에 대한 단계별 지침을 보려면 튜토리얼을 살펴보세요.
-type: docs
 weight: 30
 url: /ko/java/typesetting-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 TeX 파일을 XPS로 조판하기
+
 ## 소개
 
 Java 문서 처리 게임을 향상시킬 준비가 되셨습니까? 더 이상 보지 마세요! TeX 파일을 XPS로 조판하는 방법에 대한 Java용 Aspose.TeX 튜토리얼은 원활한 솔루션을 제공하기 위해 제공됩니다. 이 기사에서는 외부 스트림을 사용하여 Java에서 TeX를 XPS로 Typesetting하는 복잡한 과정을 조사하여 프로세스에 대한 포괄적인 이해를 제공합니다.
@@ -37,3 +43,9 @@ Java에서 TeX를 XPS로 조판하기 위해 외부 스트림을 사용하면 �
 ## Java 자습서에서 TeX 파일을 XPS로 조판
 ### [외부 스트림을 사용하여 Java에서 TeX를 XPS로 조판](./typeset-tex-to-xps-external-stream/)
 Aspose.TeX를 사용하여 Java에서 TeX를 XPS로 조판하는 방법을 알아보세요. 원활한 문서 처리를 위한 단계별 지침을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

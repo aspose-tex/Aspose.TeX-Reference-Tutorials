@@ -3,10 +3,16 @@ title: إدارة التراخيص في Aspose.TeX لـ Java
 linktitle: إدارة التراخيص في Aspose.TeX لـ Java
 second_title: Aspose.TeX جافا API
 description: أطلق العنان لإمكانات Aspose.TeX لـ Java! تعلم كيفية إدارة التراخيص دون عناء - قم بالتحميل من ملف، أو البث، أو إعداد ترخيص مقنن من خلال برامجنا التعليمية خطوة بخطوة.
-type: docs
 weight: 25
 url: /ar/java/managing-licenses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة التراخيص في Aspose.TeX لـ Java
+
 
 ## مقدمة 
 
@@ -32,3 +38,9 @@ url: /ar/java/managing-licenses/
 اكتشف قوة Aspose.TeX لـ Java من خلال دليلنا خطوة بخطوة حول تحميل تراخيص TeX من التدفقات. قم بدمج معالجة مستندات TeX بسلاسة في تطبيقات Java الخاصة بك.
 ### [قم بتعيين الترخيص المقنن لـ Aspose.TeX في Java](./set-metered-license/)
 أطلق العنان للإمكانات الكاملة لـ Aspose.TeX في Java من خلال إعداد ترخيص مقنن. اتبع دليلنا خطوة بخطوة للتكامل السلس.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

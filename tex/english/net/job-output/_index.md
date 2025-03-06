@@ -3,10 +3,16 @@ title: Control Aspose.TeX Job Output
 linktitle: Control Aspose.TeX Job Output
 second_title: Aspose.TeX .NET API
 description: Enhance TeX file management with Aspose.TeX for .NET. Learn to override job names and capture terminal output effortlessly using C# with our step-by-step guides.
-type: docs
 weight: 24
 url: /net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Control Aspose.TeX Job Output
+
 
 ## Introduction
 
@@ -36,3 +42,9 @@ In conclusion, these tutorials serve as your gateway to mastering Aspose.TeX for
 Explore how to use Aspose.TeX for .NET to override job names and capture terminal output. Follow our comprehensive guide for seamless TeX file management.
 ### [Override Job Name and Write Terminal Output to Zip (C#)](./override-job-name-zip-output-csharp/)
 Learn how to override job names and write terminal output to a ZIP file using Aspose.TeX for .NET. Step-by-step guide with C# examples.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

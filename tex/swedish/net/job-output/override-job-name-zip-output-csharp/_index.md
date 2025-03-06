@@ -3,10 +3,16 @@ title: Åsidosätt jobbnamn och skriv terminalutgång till zip (C#)
 linktitle: Åsidosätt jobbnamn och skriv terminalutgång till zip (C#)
 second_title: Aspose.TeX .NET API
 description: Lär dig hur du åsidosätter jobbnamn och skriver terminalutdata till en ZIP-fil med Aspose.TeX för .NET. Steg-för-steg-guide med C#-exempel.
-type: docs
 weight: 11
 url: /sv/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Åsidosätt jobbnamn och skriv terminalutgång till zip (C#)
+
 ## Introduktion
 
 den här handledningen kommer vi att utforska hur man åsidosätter jobbnamnet och skriver terminalutdata till en ZIP-fil med Aspose.TeX för .NET. Aspose.TeX är ett kraftfullt bibliotek som låter utvecklare arbeta med TeX-dokument i sina .NET-applikationer. I det här specifika exemplet kommer vi att fokusera på en vanlig uppgift – att skriva terminalutdata till en ZIP-fil med möjligheten att åsidosätta jobbnamnet.
@@ -95,3 +101,9 @@ S1: Ja, Aspose.TeX för .NET är kompatibelt med alla .NET-språk.
 ### F5: Var kan jag köpa Aspose.TeX för .NET?
 
  S5: Du kan köpa Aspose.TeX[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

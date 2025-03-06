@@ -3,10 +3,16 @@ title: Componga texto de TeX a PDF en Java con flujo externo
 linktitle: Componga texto de TeX a PDF en Java con flujo externo
 second_title: API de Java Aspose.TeX
 description: Aprenda a componer texto de TeX a PDF en Java utilizando secuencias externas con Aspose.TeX. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 10
 url: /es/java/typesetting-tex-to-pdf/typeset-tex-to-pdf-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Componga texto de TeX a PDF en Java con flujo externo
+
 ## Introducción
 
 En el mundo del desarrollo de Java, la creación de archivos PDF a partir de archivos TeX es un requisito común. Aspose.TeX para Java simplifica este proceso y proporciona una solución eficiente para componer TeX en PDF. En este tutorial, lo guiaremos a través de los pasos para convertir TeX a PDF usando transmisiones externas. Al final, comprenderá claramente cómo implementar este proceso sin problemas en sus aplicaciones Java.
@@ -112,3 +118,9 @@ Finalice el archivo ZIP de salida para completar el proceso de composición tipo
 ### P5: ¿Puedo obtener una licencia temporal para Aspose.TeX?
 
  R5: Sí, puedes solicitar una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

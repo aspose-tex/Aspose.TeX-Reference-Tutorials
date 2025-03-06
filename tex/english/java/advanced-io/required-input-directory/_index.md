@@ -3,10 +3,16 @@ title: Specify Required Input Directory in Java
 linktitle: Specify Required Input Directory in Java
 second_title: Aspose.TeX Java API
 description: Enhance Java TeX processing with Aspose.TeX for Java. Follow our step-by-step guide to specify required input directories seamlessly.
-type: docs
 weight: 10
 url: /java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specify Required Input Directory in Java
+
 ## Introduction
 
 Are you looking to enhance your Java application's capabilities in handling TeX jobs effectively? Aspose.TeX for Java is the solution you've been searching for! In this comprehensive guide, we'll walk you through the process of specifying a required input directory in Java using Aspose.TeX.
@@ -104,3 +110,10 @@ A4: Yes, you can access a free trial [here](https://releases.aspose.com/).
 ### Q5: How do I purchase Aspose.TeX for Java?
 
 A5: To buy, visit the purchase page [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

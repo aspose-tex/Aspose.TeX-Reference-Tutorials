@@ -3,10 +3,16 @@ title: Bekerja dengan Sistem File & Output XPS di Aspose.TeX untuk .NET
 linktitle: Bekerja dengan Sistem File & Output XPS di Aspose.TeX untuk .NET
 second_title: Aspose.TeX .NET API
 description: Temukan kekuatan Aspose.TeX untuk .NET. Pelajari cara menangani sistem file dengan mudah dan menghasilkan output XPS dalam tutorial komprehensif ini.
-type: docs
 weight: 10
 url: /id/net/file-input-output/filesystem-input-xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Sistem File & Output XPS di Aspose.TeX untuk .NET
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang bekerja dengan sistem file dan output XPS di Aspose.TeX untuk .NET! Jika Anda ingin memanfaatkan kekuatan Aspose.TeX untuk mengelola input dan output melalui sistem file sambil menghasilkan output XPS, Anda telah datang ke tempat yang tepat. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui prosesnya, membagi setiap contoh menjadi beberapa langkah untuk memastikan pemahaman yang jelas.
@@ -113,3 +119,9 @@ A1: Ya, Anda bisa. Aspose.TeX mendukung berbagai format keluaran, dan Anda dapat
 ### Q5: Apakah ada contoh proyek yang tersedia?
 
 A5: Jelajahi repositori Aspose.TeX GitHub untuk contoh proyek dan cuplikan kode.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

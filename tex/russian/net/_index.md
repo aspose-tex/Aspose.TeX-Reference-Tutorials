@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.TeX для .NET
 linktitle: Учебные пособия по Aspose.TeX для .NET
-type: docs
 weight: 10
 url: /ru/net/
 description: Освойте дизайн LaTeX с легкостью, используя Aspose.TeX для .NET. Загрузите для полной интеграции и изучите расширенные возможности форматирования, обработки файлов, лицензирования и многое другое.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.TeX для .NET
+
 
 ## Введение
 
@@ -80,3 +85,9 @@ is_root: true
 Разблокируйте мастерство создания документов с помощью Aspose.TeX для .NET. Научитесь легко создавать собственные форматы TeX с помощью этого подробного руководства.
 ### [Ввод и вывод ZIP-файла](./zip-file-io/)
 Раскройте потенциал Aspose.TeX для .NET с помощью наших руководств по вводу и выводу Zip-файлов. Изучите обработку ZIP-файлов и обработку документов для ваших приложений.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحويل LaTeX إلى PDF في جافا
 linktitle: تحويل LaTeX إلى PDF في جافا
 second_title: Aspose.TeX جافا API
 description: قم بتحويل LaTeX إلى PDF في Java باستخدام Aspose.TeX. استكشف الخيارات الفعالة والمتقدمة للتكامل في تطبيقات Java الخاصة بك. أطلق العنان لقدرات معالجة المستندات القوية.
-type: docs
 weight: 20
 url: /ar/java/converting-lato-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل LaTeX إلى PDF في جافا
+
 
 ## مقدمة
 
@@ -32,3 +38,9 @@ url: /ar/java/converting-lato-pdf/
 تعرف على كيفية تحويل LaTeX إلى PDF بكفاءة باستخدام Aspose.TeX لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس مع تطبيقات Java الخاصة بك.
 ### [خيارات تحويل LaTeX المتقدمة إلى PDF في Java](./advanced-pdf-conversion/)
 اكتشف تحويل LaTeX إلى PDF المتقدم في Java باستخدام Aspose.TeX. أطلق العنان للمعالجة الفعالة للمستندات من خلال إرشادات خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

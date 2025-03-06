@@ -3,10 +3,16 @@ title: Override Job Name and Write Terminal Output in Java
 linktitle: Override Job Name and Write Terminal Output in Java
 second_title: Aspose.TeX Java API
 description: Explore the step-by-step guide on overriding job names and writing terminal output using Aspose.TeX for Java. Enhance your document processing with powerful customization options.
-type: docs
 weight: 10
 url: /java/customizing-output/override-job-name-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Override Job Name and Write Terminal Output in Java
+
 ## Introduction
 
 Aspose.TeX for Java provides powerful features for working with TeX files, allowing developers to manipulate and customize the TeX document processing. In this tutorial, we will guide you through the process of overriding the job name and writing terminal output to the file system using Aspose.TeX in Java.
@@ -104,3 +110,10 @@ A4: Follow this [link](https://purchase.aspose.com/temporary-license/) to obtain
 ### Q5: Where can I purchase Aspose.TeX for Java?
 
 A5: Visit the [purchase page](https://purchase.aspose.com/buy) to acquire a license for Aspose.TeX for Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Загрузить лицензию TeX из файла в Java
 linktitle: Загрузить лицензию TeX из файла в Java
 second_title: API Aspose.TeX Java
 description: Откройте для себя возможности Aspose.TeX для Java. С легкостью загружайте лицензии TeX из файлов с помощью нашего пошагового руководства.
-type: docs
 weight: 10
 url: /ru/java/managing-licenses/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Загрузить лицензию TeX из файла в Java
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по использованию возможностей Aspose.TeX для Java! Независимо от того, являетесь ли вы опытным разработчиком или только начинаете обрабатывать TeX на Java, это руководство проведет вас через процесс загрузки лицензий TeX из файла. К концу вы будете обладать знаниями, позволяющими легко интегрировать Aspose.TeX в ваши проекты Java.
@@ -77,3 +83,9 @@ System.out.println("License set successfully.");
 ### В5: Где я могу найти документацию?
 
  A5: документация доступна.[здесь](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

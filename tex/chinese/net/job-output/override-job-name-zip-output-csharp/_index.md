@@ -3,10 +3,16 @@ title: 覆盖作业名称并将终端输出写入 Zip (C#)
 linktitle: 覆盖作业名称并将终端输出写入 Zip (C#)
 second_title: Aspose.TeX .NET API
 description: 了解如何使用 Aspose.TeX for .NET 覆盖作业名称并将终端输出写入 ZIP 文件。包含 C# 示例的分步指南。
-type: docs
 weight: 11
 url: /zh/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 覆盖作业名称并将终端输出写入 Zip (C#)
+
 ## 介绍
 
 在本教程中，我们将探讨如何使用 Aspose.TeX for .NET 覆盖作业名称并将终端输出写入 ZIP 文件。 Aspose.TeX 是一个功能强大的库，允许开发人员在其 .NET 应用程序中使用 TeX 文档。在这个特定的示例中，我们将重点关注一项常见任务 - 将终端输出写入 ZIP 文件，并能够覆盖作业名称。
@@ -95,3 +101,9 @@ A1：是的，Aspose.TeX for .NET 与所有 .NET 语言兼容。
 ### Q5：哪里可以购买 Aspose.TeX for .NET？
 
 A5：可以购买Aspose.TeX[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

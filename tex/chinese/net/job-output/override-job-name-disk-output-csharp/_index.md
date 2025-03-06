@@ -3,10 +3,16 @@ title: 覆盖作业名称并将终端输出写入磁盘 (C#)
 linktitle: 覆盖作业名称并将终端输出写入磁盘 (C#)
 second_title: Aspose.TeX .NET API
 description: 探索如何使用 Aspose.TeX for .NET 覆盖作业名称并捕获终端输出。请遵循我们的无缝 TeX 文件管理综合指南。
-type: docs
 weight: 10
 url: /zh/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 覆盖作业名称并将终端输出写入磁盘 (C#)
+
 ## 介绍
 
 欢迎阅读本分步指南，了解如何使用 Aspose.TeX for .NET 以 C# 编程语言覆盖作业名称并将终端输出写入磁盘。 Aspose.TeX for .NET 是一个功能强大的库，可让您无缝地使用 TeX 文件，在本教程中，我们将重点关注一项特定任务：覆盖作业名称和捕获终端输出。
@@ -106,3 +112,9 @@ A3：访问[Aspose.TeX 论坛](https://forum.aspose.com/c/tex/47)获得社区和
 ### Q5：在哪里可以找到 Aspose.TeX for .NET 的文档？
 
  A5：文档可用[这里](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

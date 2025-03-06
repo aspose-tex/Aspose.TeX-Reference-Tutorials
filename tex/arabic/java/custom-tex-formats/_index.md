@@ -3,10 +3,16 @@ title: العمل مع تنسيقات TeX المخصصة في Java
 linktitle: العمل مع تنسيقات TeX المخصصة في Java
 second_title: Aspose.TeX جافا API
 description: أتقن التنضيد بسهولة في Java باستخدام Aspose.TeX. انغمس في دروسنا التعليمية الخاصة بـ Custom TeX Formats للحصول على رحلة تطوير سلسة. قم بالتنزيل الآن وارفع مهاراتك في Java!
-type: docs
 weight: 29
 url: /ar/java/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع تنسيقات TeX المخصصة في Java
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.TeX لـ Java، حيث يصبح إتقان التنضيد أمرًا سهلاً. في هذه السلسلة التعليمية الشاملة، سنرشدك عبر تعقيدات العمل مع تنسيقات TeX المخصصة، مما يساعدك على الاستفادة من القوة الكاملة لـ Aspose.TeX لـ Java.
@@ -31,3 +37,9 @@ url: /ar/java/custom-tex-formats/
 ## العمل مع تنسيقات TeX المخصصة في برامج Java التعليمية
 ### [التنضيد باستخدام تنسيقات TeX المخصصة في Java](./typesetting-custom-tex-formats/)
 اكتشف التنضيد الفعال في Java باستخدام Aspose.TeX. أصبحت تنسيقات TeX المخصصة سهلة. قم بالتنزيل الآن للحصول على تجربة تطوير سلسة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

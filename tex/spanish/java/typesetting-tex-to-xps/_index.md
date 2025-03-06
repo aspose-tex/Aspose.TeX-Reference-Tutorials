@@ -3,10 +3,16 @@ title: Composición tipográfica de archivos TeX a XPS en Java
 linktitle: Composición tipográfica de archivos TeX a XPS en Java
 second_title: API de Java Aspose.TeX
 description: Descubra los secretos de la composición tipográfica de archivos TeX a XPS en Java sin esfuerzo con Aspose.TeX. Sumérjase en nuestros tutoriales para obtener orientación paso a paso sobre el procesamiento de documentos sin problemas.
-type: docs
 weight: 30
 url: /es/java/typesetting-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Composición tipográfica de archivos TeX a XPS en Java
+
 ## Introducción
 
 ¿Estás listo para mejorar tu juego de procesamiento de documentos Java? ¡No busque más! Nuestros tutoriales de Aspose.TeX para Java sobre cómo componer archivos TeX en XPS están aquí para brindarle soluciones perfectas. En este artículo, profundizaremos en las complejidades de la composición tipográfica de TeX a XPS en Java con External Stream, brindándole una comprensión integral del proceso.
@@ -37,3 +43,9 @@ Si usted es un desarrollador de Java que busca mejorar las capacidades de proces
 ## Composición tipográfica de archivos TeX a XPS en tutoriales de Java
 ### [Componga TeX a XPS en Java con transmisión externa](./typeset-tex-to-xps-external-stream/)
 Aprenda a componer TeX a XPS en Java usando Aspose.TeX. Explore la guía paso a paso para un procesamiento de documentos fluido.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

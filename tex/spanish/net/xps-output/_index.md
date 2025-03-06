@@ -3,10 +3,16 @@ title: Trabajar con salida XPS
 linktitle: Trabajar con salida XPS
 second_title: API Aspose.TeX .NET
 description: Convierta TeX a XPS sin esfuerzo con Aspose.TeX en .NET. Nuestra guía garantiza una integración perfecta. Explore el tutorial de composición tipográfica de TeX a XPS para obtener información de expertos.
-type: docs
 weight: 29
 url: /es/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabajar con salida XPS
+
 ## Introducción
 
 ¿Está buscando aprovechar el poder de Aspose.TeX en sus aplicaciones .NET? Sumérgete en nuestros completos tutoriales, diseñados específicamente para trabajar con salida XPS. En este artículo, lo guiaremos a través del proceso de convertir sin esfuerzo documentos TeX a XPS, brindándole una experiencia de integración perfecta con Aspose.TeX.
@@ -36,3 +42,9 @@ En conclusión, dominar el arte de la composición tipográfica de TeX a XPS en 
 ## Trabajar con tutoriales de salida XPS
 ### [Composición tipográfica de TeX a XPS en .NET](./typeset-tex-to-xps/)
 Convierta sin esfuerzo documentos TeX a XPS en .NET con Aspose.TeX. Explore nuestra guía paso a paso para disfrutar de una experiencia de integración perfecta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 외부 스트림을 사용하여 Java에서 TeX를 XPS로 조판
 linktitle: 외부 스트림을 사용하여 Java에서 TeX를 XPS로 조판
 second_title: Aspose.TeX 자바 API
 description: Aspose.TeX를 사용하여 Java에서 TeX를 XPS로 조판하는 방법을 알아보세요. 원활한 문서 처리를 위한 단계별 지침을 살펴보세요.
-type: docs
 weight: 10
 url: /ko/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 외부 스트림을 사용하여 Java에서 TeX를 XPS로 조판
+
 ## 소개
 
 Java 개발 세계에서 Aspose.TeX는 TeX 문서를 XPS를 포함한 다양한 형식으로 조판하는 강력한 도구로 돋보입니다. Java 애플리케이션의 문서 처리 기능을 향상시키려는 경우 이 튜토리얼이 적합합니다. 이 단계별 가이드에서는 외부 스트림과 함께 Java용 Aspose.TeX를 사용하여 TeX를 XPS로 조판하는 과정을 안내합니다.
@@ -122,3 +128,9 @@ A1: Aspose.TeX는 주로 TeX 관련 문서 처리에 중점을 둡니다. 다른
 ### Q5: 테스트 목적으로 임시 라이선스를 얻을 수 있나요?
 
  A5: 예, 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

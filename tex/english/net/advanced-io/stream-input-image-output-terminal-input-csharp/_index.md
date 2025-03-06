@@ -3,10 +3,16 @@ title: Master Streams, Images, & Terminal Input in Aspose.TeX for C#
 linktitle: Master Streams, Images, & Terminal Input in Aspose.TeX for C#
 second_title: Aspose.TeX .NET API
 description: Explore the power of Aspose.TeX for C# master streams, images, and terminal input effortlessly. Download now for seamless document processing.
-type: docs
 weight: 11
 url: /net/advanced-io/stream-input-image-output-terminal-input-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master Streams, Images, & Terminal Input in Aspose.TeX for C#
+
 ## Introduction
 
 Welcome to this comprehensive tutorial on mastering streams, images, and terminal input in Aspose.TeX for C#. Aspose.TeX is a powerful library that allows developers to work with TeX files, providing a wide range of features for document manipulation and conversion. In this guide, we will delve into handling streams, managing images, and capturing terminal input using Aspose.TeX for C#. By the end of this tutorial, you'll be equipped with the knowledge to efficiently work with these essential aspects of document processing.
@@ -92,3 +98,10 @@ A4: Visit the Aspose.TeX forum [here](https://forum.aspose.com/c/tex/47) for com
 ### Q5: How can I obtain a temporary license for Aspose.TeX?
 
 A5: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

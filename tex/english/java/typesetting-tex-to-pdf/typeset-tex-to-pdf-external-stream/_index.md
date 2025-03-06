@@ -3,10 +3,16 @@ title: Typeset TeX to PDF in Java with External Stream
 linktitle: Typeset TeX to PDF in Java with External Stream
 second_title: Aspose.TeX Java API
 description: Learn how to typeset TeX to PDF in Java using external streams with Aspose.TeX. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 10
 url: /java/typesetting-tex-to-pdf/typeset-tex-to-pdf-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Typeset TeX to PDF in Java with External Stream
+
 ## Introduction
 
 In the world of Java development, creating PDFs from TeX files is a common requirement. Aspose.TeX for Java simplifies this process, providing an efficient solution for typesetting TeX to PDF. In this tutorial, we will walk you through the steps of typesetting TeX to PDF using external streams. By the end, you'll have a clear understanding of how to implement this process seamlessly in your Java applications.
@@ -112,3 +118,10 @@ A4: Explore the comprehensive [Aspose.TeX documentation](https://reference.aspos
 ### Q5: Can I obtain a temporary license for Aspose.TeX?
 
 A5: Yes, you can request a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

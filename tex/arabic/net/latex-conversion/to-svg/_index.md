@@ -3,10 +3,16 @@ title: قم بتحويل LaTeX إلى SVG بسهولة في .NET باستخدا�
 linktitle: قم بتحويل LaTeX إلى SVG بسهولة في .NET باستخدام Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: قم بتحويل LaTeX إلى SVG بسهولة في .NET باستخدام Aspose.TeX. قم بتبسيط عملية معالجة مستنداتك باستخدام هذه المكتبة البديهية والقوية.
-type: docs
 weight: 12
 url: /ar/net/latex-conversion/to-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحويل LaTeX إلى SVG بسهولة في .NET باستخدام Aspose.TeX
+
 ## مقدمة
 
 في عالم تطوير .NET، يبرز Aspose.TeX كأداة قوية لتحويل مستندات LaTeX إلى تنسيق SVG بسلاسة. سيأخذك هذا الدليل خلال العملية خطوة بخطوة، مما يضمن أنه حتى أولئك الجدد في Aspose.TeX يمكنهم دمج هذه الوظيفة في مشاريعهم بسهولة.
@@ -96,3 +102,9 @@ new TeXJob(Path.Combine("Your Input Directory", "hello-world.ltx"), new SvgDevic
 ### س5: هل أحتاج إلى ترخيص مؤقت لأغراض الاختبار؟
 
  ج5: نعم، إذا كنت تختبر Aspose.TeX، فيمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

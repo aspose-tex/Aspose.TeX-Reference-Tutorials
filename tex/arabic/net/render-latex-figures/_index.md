@@ -3,10 +3,16 @@ title: تقديم أرقام LaTeX باستخدام Aspose.TeX
 linktitle: تقديم أرقام LaTeX باستخدام Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: اكتشف قوة Aspose.TeX for .NET في عرض أرقام LaTeX بسلاسة. أدلة خطوة بخطوة، وأمثلة التعليمات البرمجية، والمزيد لعرض PNG وSVG في C#.
-type: docs
 weight: 25
 url: /ar/net/render-latex-figures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم أرقام LaTeX باستخدام Aspose.TeX
+
 ## مقدمة
 
 هل أنت مستعد لرفع مستوى تجربة عرض المستندات الخاصة بك في .NET؟ انغمس في عالم Aspose.TeX واطلق العنان لإمكانية عرض أشكال LaTeX بسهولة لتعزيز المظهر المرئي لمستنداتك. في هذا الدليل الشامل، سنستكشف جانبين رئيسيين: عرض أشكال LaTeX إلى PNG وSVG باستخدام Aspose.TeX في C#.
@@ -33,3 +39,9 @@ url: /ar/net/render-latex-figures/
 استكشف دليلاً شاملاً حول عرض أشكال LaTeX إلى PNG باستخدام Aspose.TeX في C#. تعلم خطوة بخطوة مع أمثلة التعليمات البرمجية.
 ### [عرض أشكال LaTeX إلى SVG باستخدام Aspose.TeX (C#)](./svg-latex-figure-renderer-csharp/)
 تحسين عرض المستندات في .NET باستخدام Aspose.TeX. تعرف على كيفية عرض أشكال LaTeX إلى SVG في لغة C# لتحقيق التكامل السلس للتعبيرات الرياضية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.TeX for Java 中的高级输入和输出
 linktitle: Aspose.TeX for Java 中的高级输入和输出
 second_title: Aspose.TeX Java API
 description: 使用 Aspose.TeX for Java 教程改进 Java TeX 处理。了解指定输入目录并优化增强型 Java 项目的流处理。
-type: docs
 weight: 27
 url: /zh/java/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX for Java 中的高级输入和输出
+
 
 ## 介绍
 
@@ -30,3 +36,9 @@ Aspose.TeX for Java 是一个用于简化 Java 项目中 TeX 文件处理的多�
 使用 Aspose.TeX for Java 增强 Java TeX 处理。按照我们的分步指南无缝指定所需的输入目录。
 ### [Java中的流输入、图像输出和终端输入](./stream-input-image-output/)
 使用 Aspose.TeX 学习 Java 中的流输入、图像输出和终端输入。无缝集成的综合教程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

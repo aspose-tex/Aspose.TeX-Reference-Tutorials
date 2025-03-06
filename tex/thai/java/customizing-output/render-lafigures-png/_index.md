@@ -3,10 +3,16 @@ title: เรนเดอร์ตัวเลข LaTeX เป็น PNG ใน 
 linktitle: เรนเดอร์ตัวเลข LaTeX เป็น PNG ใน Java
 second_title: Aspose.TeX Java API
 description: เรนเดอร์ตัวเลข LaTeX เป็น PNG ได้อย่างง่ายดายใน Java ด้วย Aspose.TeX ปฏิบัติตามคำแนะนำนี้เพื่อการผสานรวมที่ราบรื่น
-type: docs
 weight: 12
 url: /th/java/customizing-output/render-lafigures-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เรนเดอร์ตัวเลข LaTeX เป็น PNG ใน Java
+
 ## การแนะนำ
 
 ในโลกของการพัฒนา Java การแสดงตัวเลข LaTeX เป็น PNG อาจเป็นงานที่ท้าทายแต่จำเป็น Aspose.TeX สำหรับ Java เข้ามาช่วยเหลือด้วยฟีเจอร์อันทรงพลัง ทำให้กระบวนการนี้มีประสิทธิภาพและราบรื่น คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการเรนเดอร์ตัวเลข LaTeX ไปยัง PNG โดยใช้ Aspose.TeX
@@ -114,3 +120,9 @@ System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 ### คำถามที่ 5: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.TeX สำหรับ Java ได้ที่ไหน
 
  A5: มีเอกสารประกอบให้[ที่นี่](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

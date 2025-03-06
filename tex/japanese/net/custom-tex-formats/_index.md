@@ -3,10 +3,16 @@ title: カスタム TeX フォーマット
 linktitle: カスタム TeX フォーマット
 second_title: Aspose.TeX .NET API
 description: Aspose.TeX for .NET を使用してドキュメント生成の知識を解き放ちます。この包括的なチュートリアルでカスタム TeX 形式を簡単に作成する方法を学びましょう。
-type: docs
 weight: 31
 url: /ja/net/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# カスタム TeX フォーマット
+
 ## 導入
 
  Aspose.TeX for .NET はドキュメント生成の可能性の世界を開き、カスタム TeX 形式の作成をマスターすることが重要な要素となります。このチュートリアルでは、構築の複雑さを掘り下げていきます。[.NET のカスタム TeX 形式](./create-custom-tex-formats/)、独自の要件に応じてドキュメント生成を強化できるようになります。
@@ -31,3 +37,9 @@ url: /ja/net/custom-tex-formats/
 ## カスタム TeX 形式のチュートリアル
 ### [.NET でのカスタム TeX 形式の作成](./create-custom-tex-formats/)
 Aspose.TeX for .NET を使用してドキュメント生成の知識を解き放ちます。カスタム TeX 形式を簡単に作成できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: العمل مع إخراج PDF
 linktitle: العمل مع إخراج PDF
 second_title: Aspose.TeX .NET API
 description: أطلق العنان لقوة Aspose.TeX لـ .NET من خلال برنامجنا التعليمي الشامل حول تحويل TeX إلى PDF. ارفع مهاراتك في تطوير .NET من خلال التكامل السلس.
-type: docs
 weight: 28
 url: /ar/net/pdf-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع إخراج PDF
+
 ## مقدمة
 
 يعد Aspose.TeX for .NET بمثابة تغيير جذري في عالم التنضيد من TeX إلى PDF، وهذا البرنامج التعليمي هو بوابتك لفتح إمكاناته الكاملة. في هذه المقالة، سوف نتعمق في تعقيدات العمل مع مخرجات PDF، مع التركيز على التكامل السلس لـ Aspose.TeX for .NET.
@@ -31,3 +37,9 @@ url: /ar/net/pdf-output/
 ## العمل مع البرامج التعليمية الخاصة بإخراج PDF
 ### [كيفية تنضيد TeX إلى PDF في .NET](./typeset-tex-to-pdf/)
 استكشف التكامل السلس لـ Aspose.TeX for .NET في تنضيد TeX إلى PDF. انغمس في هذا البرنامج التعليمي الشامل وارفع مهاراتك في تطوير .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

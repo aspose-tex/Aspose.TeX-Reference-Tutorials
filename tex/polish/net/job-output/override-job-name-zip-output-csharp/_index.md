@@ -3,10 +3,16 @@ title: Zastąp nazwę zadania i zapisz dane wyjściowe terminala w formacie Zip 
 linktitle: Zastąp nazwę zadania i zapisz dane wyjściowe terminala w formacie Zip (C#)
 second_title: Aspose.TeX API .NET
 description: Dowiedz się, jak zastąpić nazwy zadań i zapisać dane wyjściowe terminala w pliku ZIP przy użyciu Aspose.TeX dla .NET. Przewodnik krok po kroku z przykładami C#.
-type: docs
 weight: 11
 url: /pl/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastąp nazwę zadania i zapisz dane wyjściowe terminala w formacie Zip (C#)
+
 ## Wstęp
 
 tym samouczku przyjrzymy się, jak zastąpić nazwę zadania i zapisać dane wyjściowe terminala w pliku ZIP przy użyciu Aspose.TeX dla .NET. Aspose.TeX to potężna biblioteka, która umożliwia programistom pracę z dokumentami TeX w aplikacjach .NET. W tym konkretnym przykładzie skupimy się na typowym zadaniu – zapisaniu danych wyjściowych terminala do pliku ZIP z możliwością nadpisania nazwy zadania.
@@ -95,3 +101,9 @@ O1: Tak, Aspose.TeX dla .NET jest kompatybilny ze wszystkimi językami .NET.
 ### P5: Gdzie mogę kupić Aspose.TeX dla .NET?
 
  Odpowiedź 5: Możesz kupić Aspose.TeX[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

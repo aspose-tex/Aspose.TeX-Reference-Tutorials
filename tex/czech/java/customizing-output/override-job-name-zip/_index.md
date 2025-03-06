@@ -3,10 +3,16 @@ title: Přepište název úlohy a zapište výstup terminálu do Zip v Javě
 linktitle: Přepište název úlohy a zapište výstup terminálu do Zip v Javě
 second_title: Aspose.TeX Java API
 description: Naučte se, jak přepsat názvy úloh a zapsat výstup terminálu do ZIP v Javě pomocí Aspose.TeX. Komplexní návod pro vývojáře v Javě.
-type: docs
 weight: 11
 url: /cs/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přepište název úlohy a zapište výstup terminálu do Zip v Javě
+
 ## Úvod
 
 Ve světě vývoje v Javě vyniká Aspose.TeX jako výkonný nástroj pro práci s formáty souborů TeX. V tomto tutoriálu se ponoříme do konkrétního scénáře – přepsání názvů úloh a zápis výstupu terminálu do souboru zip. Tento průvodce vás krok za krokem provede procesem pomocí Aspose.TeX pro Javu.
@@ -126,3 +132,10 @@ A1: Aspose.TeX je knihovna Java, která umožňuje vývojářům pracovat s form
 ### Q5: Kde mohu hledat podporu nebo se ptát na Aspose.TeX?
 
  A5: Navštivte[Fórum Aspose.TeX](https://forum.aspose.com/c/tex/47) za podporu a diskuze.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

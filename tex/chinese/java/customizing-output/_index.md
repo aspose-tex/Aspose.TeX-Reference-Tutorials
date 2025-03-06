@@ -3,10 +3,16 @@ title: 在 Aspose.TeX for Java 中自定义 TeX 输出
 linktitle: 在 Aspose.TeX for Java 中自定义 TeX 输出
 second_title: Aspose.TeX Java API
 description: 使用 Aspose.TeX 增强 Java 中的文档处理能力。探索有关覆盖作业名称、编写终端输出以及将 LaTeX 图形和数学无缝渲染为 PNG/SVG 的指南。
-type: docs
 weight: 26
 url: /zh/java/customizing-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.TeX for Java 中自定义 TeX 输出
+
 ## 介绍
 
 您是一名希望提高文档处理能力的 Java 开发人员吗？深入了解 Aspose.TeX 的世界，这是一个功能强大的工具，可让您精确高效地自定义 TeX 输出。在本文中，我们将指导您完成有关各种自定义选项的基本教程。
@@ -61,3 +67,9 @@ Aspose.TeX for Java 提供的关键功能之一是能够覆盖作业名称并将
 了解如何使用 Aspose.TeX 在 Java 中轻松将 LaTeX 图形渲染为 SVG。请遵循此分步指南以实现无缝集成。
 ### [在 Java 中将 LaTeX Math 渲染为 SVG](./render-lamath-svg/)
 了解如何使用 Aspose.TeX 将 LaTeX 数学方程渲染为 Java 中的 SVG。按照我们的分步指南获得准确且具有视觉吸引力的结果。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 从 Java 中的 Stream 加载 TeX 许可证
 linktitle: 从 Java 中的 Stream 加载 TeX 许可证
 second_title: Aspose.TeX Java API
 description: 通过我们关于从流加载 TeX 许可证的分步指南，探索 Aspose.TeX for Java 的强大功能。将 TeX 文档操作无缝集成到您的 Java 应用程序中。
-type: docs
 weight: 11
 url: /zh/java/managing-licenses/load-license-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从 Java 中的 Stream 加载 TeX 许可证
+
 ## 介绍
 
 欢迎来到 Aspose.TeX for Java 的世界，这是一个功能强大的库，可以简化 TeX 文档操作和转换任务。在本教程中，我们将指导您完成从 Java 流加载 TeX 许可证的过程。无论您是经验丰富的开发人员还是刚刚开始使用 Aspose.TeX，本分步指南都将帮助您将许可证无缝集成到您的 Java 应用程序中。
@@ -89,3 +95,9 @@ A3：是的，您可以从[发布页面](https://releases.aspose.com/).
 ### Q5: 你们提供临时许可证吗？
 
  A5：是的，可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

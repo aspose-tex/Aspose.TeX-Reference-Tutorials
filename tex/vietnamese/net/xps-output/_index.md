@@ -3,10 +3,16 @@ title: Làm việc với đầu ra XPS
 linktitle: Làm việc với đầu ra XPS
 second_title: API Aspose.TeX .NET
 description: Chuyển đổi TeX sang XPS dễ dàng với Aspose.TeX trong .NET. Hướng dẫn của chúng tôi đảm bảo tích hợp liền mạch. Khám phá hướng dẫn Sắp chữ TeX sang XPS để có được thông tin chi tiết chuyên sâu.
-type: docs
 weight: 29
 url: /vi/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với đầu ra XPS
+
 ## Giới thiệu
 
 Bạn đang muốn khai thác sức mạnh của Aspose.TeX trong các ứng dụng .NET của mình? Đi sâu vào các hướng dẫn toàn diện của chúng tôi, được thiết kế riêng để làm việc với đầu ra XPS. Trong bài viết này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi tài liệu TeX sang XPS một cách dễ dàng, mang lại trải nghiệm tích hợp liền mạch với Aspose.TeX.
@@ -36,3 +42,9 @@ Tóm lại, việc nắm vững nghệ thuật Sắp chữ TeX thành XPS trong 
 ## Hướng dẫn làm việc với đầu ra XPS
 ### [Sắp chữ TeX thành XPS trong .NET](./typeset-tex-to-xps/)
 Dễ dàng chuyển đổi tài liệu TeX sang XPS trong .NET với Aspose.TeX. Khám phá hướng dẫn từng bước của chúng tôi để có trải nghiệm tích hợp liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

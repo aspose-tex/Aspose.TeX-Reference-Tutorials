@@ -3,10 +3,16 @@ title: 使用 Aspose.TeX 渲染 LaTeX 图形
 linktitle: 使用 Aspose.TeX 渲染 LaTeX 图形
 second_title: Aspose.TeX .NET API
 description: 探索 Aspose.TeX for .NET 在无缝渲染 LaTeX 图形方面的强大功能。 C# 中 PNG 和 SVG 渲染的分步指南、代码示例等。
-type: docs
 weight: 25
 url: /zh/net/render-latex-figures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.TeX 渲染 LaTeX 图形
+
 ## 介绍
 
 您准备好提升 .NET 中的文档渲染体验了吗？深入 Aspose.TeX 的世界，释放轻松渲染 LaTeX 图形的潜力，以增强文档的视觉吸引力。在本综合指南中，我们将探讨两个关键方面：在 C# 中使用 Aspose.TeX 将 LaTeX 图形渲染为 PNG 和 SVG。
@@ -33,3 +39,9 @@ url: /zh/net/render-latex-figures/
 探索有关在 C# 中使用 Aspose.TeX 将 LaTeX 图形渲染为 PNG 的综合指南。通过代码示例逐步学习。
 ### [使用 Aspose.TeX 将 LaTeX 图形渲染为 SVG (C#)](./svg-latex-figure-renderer-csharp/)
 使用 Aspose.TeX 增强 .NET 中的文档渲染。了解如何在 C# 中将 LaTeX 图形渲染为 SVG，以实现数学表达式的无缝集成。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

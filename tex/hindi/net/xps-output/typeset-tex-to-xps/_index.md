@@ -3,10 +3,16 @@ title: .NET में TeX को XPS पर टाइप करना
 linktitle: .NET में TeX को XPS पर टाइप करना
 second_title: Aspose.TeX .NET एपीआई
 description: Aspose.TeX के साथ आसानी से TeX दस्तावेज़ों को .NET में XPS में परिवर्तित करें। निर्बाध एकीकरण अनुभव के लिए हमारी चरण-दर-चरण मार्गदर्शिका देखें।
-type: docs
 weight: 10
 url: /hi/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET में TeX को XPS पर टाइप करना
+
 ## परिचय
 
 शक्तिशाली Aspose.TeX लाइब्रेरी का उपयोग करके .NET में TeX को XPS में टाइप करने पर हमारी चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। यदि आप अपने .NET अनुप्रयोगों में TeX दस्तावेज़ों को XPS प्रारूप में निर्बाध रूप से परिवर्तित करना चाहते हैं, तो आप सही जगह पर आए हैं। इस ट्यूटोरियल में, हम आपको संपूर्ण प्रक्रिया के बारे में बताएंगे, और सुचारू कार्यान्वयन सुनिश्चित करने के लिए प्रत्येक चरण का विवरण देंगे।
@@ -94,3 +100,9 @@ A1: हां, Aspose.TeX .NET कोर के साथ पूरी तरह
 ### Q5: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
 
  A5: हाँ, आप निःशुल्क परीक्षण का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

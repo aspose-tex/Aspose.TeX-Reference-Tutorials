@@ -3,10 +3,16 @@ title: Render LaTeX Figures with Aspose.TeX
 linktitle: Render LaTeX Figures with Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: Discover the power of Aspose.TeX for .NET in rendering LaTeX figures seamlessly. Step-by-step guides, code examples, and more for PNG and SVG rendering in C#.
-type: docs
 weight: 25
 url: /net/render-latex-figures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render LaTeX Figures with Aspose.TeX
+
 ## Introduction
 
 Are you ready to elevate your document rendering experience in .NET? Dive into the world of Aspose.TeX and unlock the potential to effortlessly render LaTeX figures to enhance the visual appeal of your documents. In this comprehensive guide, we'll explore two key aspects: rendering LaTeX figures to PNG and SVG using Aspose.TeX in C#.
@@ -33,3 +39,9 @@ In conclusion, these Aspose.TeX tutorials offer more than just code snippets. Th
 Explore a comprehensive guide on rendering LaTeX figures to PNG using Aspose.TeX in C#. Learn step-by-step with code examples.
 ### [Render LaTeX Figures to SVG with Aspose.TeX (C#)](./svg-latex-figure-renderer-csharp/)
 Enhance document rendering in .NET with Aspose.TeX. Learn how to render LaTeX figures to SVG in C# for seamless integration of mathematical expressions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

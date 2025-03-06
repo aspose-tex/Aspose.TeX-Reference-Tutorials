@@ -3,10 +3,16 @@ title: Создание собственного формата TeX в Java
 linktitle: Создание собственного формата TeX в Java
 second_title: API Aspose.TeX Java
 description: Повысьте согласованность набора текста в Java с помощью Aspose.TeX. Погрузитесь в наши руководства по созданию пользовательских форматов TeX для удобного и эффективного форматирования документов.
-type: docs
 weight: 24
 url: /ru/java/custom-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание собственного формата TeX в Java
+
 ## Введение
 
 Добро пожаловать в подробное руководство по использованию возможностей Aspose.TeX для Java для достижения беспрецедентной согласованности набора текста. В этой серии руководств мы углубимся в искусство создания пользовательских форматов TeX, что позволит вам без особых усилий улучшить свою игру по форматированию документов.
@@ -41,3 +47,9 @@ Aspose.TeX — это библиотека Java, предназначенная 
 ## Создание собственного формата TeX в учебниках по Java
 ### [Создавайте собственные форматы TeX для единообразного набора текста в Java](./creating-custom-formats/)
 Повысьте согласованность набора текста в Java с помощью Aspose.TeX. Создавайте собственные форматы TeX без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

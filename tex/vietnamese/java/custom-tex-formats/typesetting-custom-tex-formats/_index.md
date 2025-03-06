@@ -3,10 +3,16 @@ title: Sắp chữ với các định dạng TeX tùy chỉnh trong Java
 linktitle: Sắp chữ với các định dạng TeX tùy chỉnh trong Java
 second_title: API Java Aspose.TeX
 description: Khám phá cách sắp chữ hiệu quả trong Java với Aspose.TeX. Các định dạng TeX tùy chỉnh được thực hiện dễ dàng. Tải xuống ngay để có trải nghiệm phát triển liền mạch.
-type: docs
 weight: 10
 url: /vi/java/custom-tex-formats/typesetting-custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sắp chữ với các định dạng TeX tùy chỉnh trong Java
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển Java, Aspose.TeX chứng tỏ là một công cụ vô giá để sắp chữ với các định dạng TeX tùy chỉnh. Hướng dẫn này sẽ đi sâu vào quá trình sử dụng Aspose.TeX cho Java để đạt được khả năng sắp chữ hiệu quả bằng các định dạng TeX được cá nhân hóa. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn này được thiết kế để hướng dẫn bạn thực hiện các bước một cách liền mạch.
@@ -115,3 +121,9 @@ Câu trả lời 1: Có, Aspose.TeX được thiết kế để tích hợp li�
 ### Câu hỏi 5: Tôi có thể mua thư viện Aspose.TeX ở đâu?
 
  A5: Bảo mật bản sao của bạn bằng cách truy cập[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

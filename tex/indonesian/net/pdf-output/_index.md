@@ -3,10 +3,16 @@ title: Bekerja dengan Keluaran PDF
 linktitle: Bekerja dengan Keluaran PDF
 second_title: Aspose.TeX .NET API
 description: Buka kekuatan Aspose.TeX untuk .NET dengan tutorial komprehensif kami tentang penyusunan huruf TeX ke PDF. Tingkatkan keterampilan pengembangan .NET Anda dengan integrasi yang lancar.
-type: docs
 weight: 28
 url: /id/net/pdf-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Keluaran PDF
+
 ## Perkenalan
 
 Aspose.TeX untuk .NET adalah pengubah permainan dalam dunia penyusunan huruf TeX ke PDF, dan tutorial ini adalah pintu gerbang Anda untuk membuka potensi penuhnya. Dalam artikel ini, kita akan mempelajari seluk-beluk bekerja dengan keluaran PDF, dengan fokus pada integrasi Aspose.TeX untuk .NET yang lancar.
@@ -31,3 +37,9 @@ Kesimpulannya, tutorial Aspose.TeX untuk .NET kami tentang penyusunan huruf TeX 
 ## Bekerja dengan Tutorial Output PDF
 ### [Cara Mengetik TeX ke PDF di .NET](./typeset-tex-to-pdf/)
 Jelajahi integrasi Aspose.TeX untuk .NET dalam penyusunan huruf TeX ke PDF. Selami tutorial komprehensif ini dan tingkatkan keterampilan pengembangan .NET Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

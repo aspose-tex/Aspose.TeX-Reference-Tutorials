@@ -3,10 +3,16 @@ title: 使用 SVG 进行数学渲染
 linktitle: 使用 SVG 进行数学渲染
 second_title: Aspose.TeX .NET API
 description: 探索使用 Aspose.TeX 在 .NET 中将 LaTeX 数学方程渲染为 SVG 的艺术。通过可定制选项释放精度，实现数学完美。
-type: docs
 weight: 30
 url: /zh/net/svg-math-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 SVG 进行数学渲染
+
 ## 介绍
 
 欢迎来到数学精确和视觉优雅的境界！在本教程系列中，我们利用 Aspose.TeX 的强大功能，深入研究在 .NET 环境中将 LaTeX 数学方程渲染为 SVG 的迷人世界。 
@@ -41,3 +47,9 @@ url: /zh/net/svg-math-rendering/
 ## 使用 SVG 教程进行数学渲染
 ### [在 .NET 中将 LaTeX Math 渲染为 SVG](./render-latex-math-svg/)
 了解如何使用 Aspose.TeX 在 .NET 中将 LaTeX 数学方程渲染为 SVG。带有可自定义选项的分步指南，用于精确的数学表示。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET에서 TeX를 XPS로 조판하기
 linktitle: .NET에서 TeX를 XPS로 조판하기
 second_title: Aspose.TeX .NET API
 description: Aspose.TeX를 사용하여 TeX 문서를 .NET의 XPS로 쉽게 변환하세요. 원활한 통합 경험을 위한 단계별 가이드를 살펴보세요.
-type: docs
 weight: 10
 url: /ko/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET에서 TeX를 XPS로 조판하기
+
 ## 소개
 
 강력한 Aspose.TeX 라이브러리를 사용하여 .NET에서 TeX를 XPS로 조판하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. .NET 응용 프로그램에서 TeX 문서를 XPS 형식으로 원활하게 변환하려는 경우 제대로 찾아오셨습니다. 이 튜토리얼에서는 원활한 구현을 보장하기 위해 각 단계를 세분화하여 전체 프로세스를 안내합니다.
@@ -94,3 +100,9 @@ A2: 물론이죠! Aspose.TeX는 상업용 및 개인용으로 모두 사용할 �
 ### Q5: 무료 평가판이 제공됩니까?
 
  A5: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

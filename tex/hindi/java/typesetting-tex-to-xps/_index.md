@@ -3,10 +3,16 @@ title: जावा में TeX फ़ाइलों को XPS पर टा
 linktitle: जावा में TeX फ़ाइलों को XPS पर टाइप करना
 second_title: Aspose.TeX जावा एपीआई
 description: Aspose.TeX के साथ आसानी से जावा में XPS में TeX फ़ाइलों को टाइप करने के रहस्यों को अनलॉक करें। निर्बाध दस्तावेज़ प्रसंस्करण पर चरण-दर-चरण मार्गदर्शन के लिए हमारे ट्यूटोरियल देखें।
-type: docs
 weight: 30
 url: /hi/java/typesetting-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में TeX फ़ाइलों को XPS पर टाइप करना
+
 ## परिचय
 
 क्या आप अपने जावा दस्तावेज़ प्रसंस्करण गेम को उन्नत करने के लिए तैयार हैं? आगे कोई तलाश नहीं करें! TeX फ़ाइलों को XPS में टाइप करने पर जावा के लिए हमारे Aspose.TeX ट्यूटोरियल आपको निर्बाध समाधानों के साथ सशक्त बनाने के लिए यहां हैं। इस लेख में, हम एक्सटर्नल स्ट्रीम के साथ जावा में TeX से XPS टाइपसेटिंग की जटिलताओं के बारे में विस्तार से बताएंगे, जो आपको प्रक्रिया की व्यापक समझ प्रदान करेगा।
@@ -37,3 +43,9 @@ url: /hi/java/typesetting-tex-to-xps/
 ## जावा ट्यूटोरियल में TeX फ़ाइलों को XPS में टाइप करना
 ### [बाह्य स्ट्रीम के साथ जावा में TeX से XPS टाइपसेट करें](./typeset-tex-to-xps-external-stream/)
 Aspose.TeX का उपयोग करके जावा में TeX को XPS में टाइप करना सीखें। निर्बाध दस्तावेज़ प्रसंस्करण के लिए चरण-दर-चरण मार्गदर्शन देखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

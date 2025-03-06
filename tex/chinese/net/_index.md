@@ -1,12 +1,17 @@
 ---
 title: Aspose.TeX for .NET 的综合教程和示例
 linktitle: Aspose.TeX for .NET 教程
-type: docs
 weight: 10
 url: /zh/net/
 description: 使用 Aspose.TeX for .NET 轻松掌握 LaTeX 设计。下载以实现无缝集成并探索高级格式、文件处理、许可等。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX for .NET 的综合教程和示例
+
 
 ## 介绍
 
@@ -80,3 +85,9 @@ is_root: true
 使用 Aspose.TeX for .NET 解锁文档生成能力。在这个综合教程中学习如何轻松创建自定义 TeX 格式。
 ### [Zip 文件输入和输出](./zip-file-io/)
 通过我们的 Zip 文件输入和输出教程释放 Aspose.TeX for .NET 的潜力。探索适合您的应用程序的 ZIP 文件处理和文档处理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

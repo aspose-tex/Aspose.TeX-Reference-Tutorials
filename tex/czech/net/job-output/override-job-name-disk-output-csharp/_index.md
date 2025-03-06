@@ -3,10 +3,16 @@ title: Přepsat název úlohy a zapsat výstup terminálu na disk (C#)
 linktitle: Přepsat název úlohy a zapsat výstup terminálu na disk (C#)
 second_title: Aspose.TeX .NET API
 description: Prozkoumejte, jak používat Aspose.TeX pro .NET k přepsání názvů úloh a zachycení výstupu z terminálu. Postupujte podle našeho komplexního průvodce pro bezproblémovou správu souborů TeX.
-type: docs
 weight: 10
 url: /cs/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přepsat název úlohy a zapsat výstup terminálu na disk (C#)
+
 ## Úvod
 
 Vítejte v tomto podrobném návodu k použití Aspose.TeX pro .NET k přepsání názvů úloh a zápisu terminálového výstupu na disk v programovacím jazyce C#. Aspose.TeX for .NET je výkonná knihovna, která vám umožňuje bezproblémově pracovat se soubory TeX, a v tomto tutoriálu se zaměříme na konkrétní úkol: přepsání názvů úloh a zachycení výstupu z terminálu.
@@ -106,3 +112,9 @@ Odpověď 1: Ano, Aspose.TeX pro .NET lze bez problémů integrovat s jinými kn
 ### Q5: Kde najdu dokumentaci k Aspose.TeX pro .NET?
 
  A5: Dokumentace je k dispozici[tady](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

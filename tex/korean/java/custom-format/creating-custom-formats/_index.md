@@ -3,10 +3,16 @@ title: Java에서 일관된 유형 설정을 위한 사용자 정의 TeX 형식 
 linktitle: Java에서 일관된 유형 설정을 위한 사용자 정의 TeX 형식 만들기
 second_title: Aspose.TeX 자바 API
 description: Aspose.TeX를 사용하여 Java의 조판 일관성을 강화하세요. 사용자 정의 TeX 형식을 쉽게 만들 수 있습니다.
-type: docs
 weight: 10
 url: /ko/java/custom-format/creating-custom-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 일관된 유형 설정을 위한 사용자 정의 TeX 형식 만들기
+
 ## 소개
 
 TeX 문서의 형식을 지정하는 것은 문서 처리의 중요한 측면이며, 특히 다양한 문서 간의 일관성이 필수적인 경우 더욱 그렇습니다. Aspose.TeX for Java는 개발자가 특정 요구 사항에 맞는 사용자 정의 TeX 형식을 만들 수 있도록 하여 이러한 문제에 대한 강력한 솔루션을 제공합니다.
@@ -114,3 +120,9 @@ options.getTerminalOut().getWriter().newLine();
 ### Q5: Java용 Aspose.TeX에 대한 지원을 어떻게 받을 수 있나요?
 
  A5: 다음에서 지원을 요청할 수 있습니다.[Aspose.TeX 포럼](https://forum.aspose.com/c/tex/47).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

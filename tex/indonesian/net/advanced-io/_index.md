@@ -3,10 +3,16 @@ title: Masukan dan Keluaran Aspose.TeX Tingkat Lanjut
 linktitle: Masukan dan Keluaran Aspose.TeX Tingkat Lanjut
 second_title: Aspose.TeX .NET API
 description: Temukan kekuatan Aspose.TeX untuk .NET dengan tutorial lanjutan kami. Pelajari cara menentukan direktori masukan dan aliran master, gambar, dan masukan terminal di C#.
-type: docs
 weight: 27
 url: /id/net/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Masukan dan Keluaran Aspose.TeX Tingkat Lanjut
+
 ## Perkenalan
 
 Aspose.TeX untuk .NET adalah pengubah permainan dalam integrasi TeX yang mulus, menyediakan perpustakaan yang kuat bagi pengembang untuk meningkatkan pemrosesan dokumen. Pada artikel ini, kita mempelajari tutorial tingkat lanjut yang berfokus pada penentuan direktori masukan dan penguasaan aliran, gambar, dan masukan terminal dalam C#.
@@ -29,3 +35,9 @@ Kesimpulannya, tutorial ini berfungsi sebagai gerbang Anda untuk menguasai Aspos
 Jelajahi Aspose.TeX untuk .NET, perpustakaan tangguh untuk integrasi TeX yang lancar. Ikuti panduan langkah demi langkah kami.
 ### [Aliran Master, Gambar, & Input Terminal di Aspose.TeX untuk C#](./stream-input-image-output-terminal-input-csharp/)
 Jelajahi kekuatan Aspose.TeX untuk aliran master C#, gambar, dan input terminal dengan mudah. Unduh sekarang untuk pemrosesan dokumen yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nhập và xuất tệp với Aspose.TeX
 linktitle: Nhập và xuất tệp với Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Khai phá tiềm năng của Aspose.TeX cho .NET bằng các hướng dẫn về đầu vào và đầu ra tệp. Xử lý hệ thống tập tin chính, đầu vào ZIP và đầu ra XPS một cách dễ dàng.
-type: docs
 weight: 22
 url: /vi/net/file-input-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhập và xuất tệp với Aspose.TeX
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng đi sâu vào thế giới năng động của Aspose.TeX cho .NET chưa? Hướng dẫn toàn diện này khám phá sự phức tạp của đầu vào và đầu ra tệp, làm sáng tỏ sức mạnh của thư viện mạnh mẽ này để xử lý tài liệu TeX và LaTeX.
@@ -32,3 +38,9 @@ Các hướng dẫn của Aspose.TeX for .NET về đầu vào và đầu ra t�
 Khám phá sức mạnh của Aspose.TeX dành cho .NET. Tìm hiểu cách xử lý dễ dàng các hệ thống tệp và tạo đầu ra XPS trong hướng dẫn toàn diện này.
 ### [Làm việc với đầu vào Hệ thống tệp & ZIP trong Aspose.TeX cho .NET](./required-inputs-from-filesystem-and-zip/)
 Khám phá Aspose.TeX for .NET một thư viện mạnh mẽ để xử lý tài liệu TeX và LaTeX. Chuyển đổi tập tin một cách hiệu quả với hệ thống tập tin và đầu vào ZIP.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

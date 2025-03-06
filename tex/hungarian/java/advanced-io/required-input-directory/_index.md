@@ -3,10 +3,16 @@ title: Adja meg a szükséges beviteli könyvtárat Java nyelven
 linktitle: Adja meg a szükséges beviteli könyvtárat Java nyelven
 second_title: Aspose.TeX Java API
 description: Javítsa a Java TeX feldolgozást az Aspose.TeX for Java segítségével. Kövesse lépésenkénti útmutatónkat a szükséges bemeneti könyvtárak zökkenőmentes megadásához.
-type: docs
 weight: 10
 url: /hu/java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja meg a szükséges beviteli könyvtárat Java nyelven
+
 ## Bevezetés
 
 Bővíteni szeretné Java-alkalmazásának képességeit a TeX-feladatok hatékony kezelésében? Az Aspose.TeX for Java a megoldás, amit keresett! Ebben az átfogó útmutatóban végigvezetjük a szükséges bemeneti könyvtár megadásának folyamatán a Java nyelven az Aspose.TeX használatával.
@@ -104,3 +110,9 @@ Az Aspose.TeX for Java felhatalmazza a fejlesztőket a TeX feladatok zökkenőme
 ### 5. kérdés: Hogyan vásárolhatom meg az Aspose.TeX-et Java-hoz?
 
  V5: A vásárláshoz látogasson el a vásárlási oldalra[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

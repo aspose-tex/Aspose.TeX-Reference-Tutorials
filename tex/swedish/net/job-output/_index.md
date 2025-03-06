@@ -3,10 +3,16 @@ title: Styr Aspose.TeX-jobbutdata
 linktitle: Styr Aspose.TeX-jobbutdata
 second_title: Aspose.TeX .NET API
 description: Förbättra TeX-filhanteringen med Aspose.TeX för .NET. Lär dig att åsidosätta jobbnamn och fånga terminalutdata utan ansträngning med C# med våra steg-för-steg-guider.
-type: docs
 weight: 24
 url: /sv/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Styr Aspose.TeX-jobbutdata
+
 
 ## Introduktion
 
@@ -36,3 +42,9 @@ Sammanfattningsvis fungerar dessa tutorials som din inkörsport till att bemäst
 Utforska hur du använder Aspose.TeX för .NET för att åsidosätta jobbnamn och fånga terminalutdata. Följ vår omfattande guide för sömlös TeX-filhantering.
 ### [Åsidosätt jobbnamn och skriv terminalutgång till zip (C#)](./override-job-name-zip-output-csharp/)
 Lär dig hur du åsidosätter jobbnamn och skriver terminalutdata till en ZIP-fil med Aspose.TeX för .NET. Steg-för-steg-guide med C#-exempel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

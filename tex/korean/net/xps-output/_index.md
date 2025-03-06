@@ -3,10 +3,16 @@ title: XPS 출력 작업
 linktitle: XPS 출력 작업
 second_title: Aspose.TeX .NET API
 description: .NET의 Aspose.TeX를 사용하여 TeX를 XPS로 손쉽게 변환하세요. 우리 가이드는 원활한 통합을 보장합니다. 전문가의 통찰력을 얻으려면 TeX를 XPS로 조판하는 튜토리얼을 살펴보세요.
-type: docs
 weight: 29
 url: /ko/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XPS 출력 작업
+
 ## 소개
 
 .NET 애플리케이션에서 Aspose.TeX의 강력한 기능을 활용하고 싶으십니까? XPS 출력 작업을 위해 특별히 맞춤화된 포괄적인 튜토리얼을 살펴보세요. 이 기사에서는 TeX 문서를 XPS로 쉽게 변환하여 Aspose.TeX와의 원활한 통합 경험을 제공하는 과정을 안내합니다.
@@ -36,3 +42,9 @@ url: /ko/net/xps-output/
 ## XPS 출력 튜토리얼 작업
 ### [.NET에서 TeX를 XPS로 조판하기](./typeset-tex-to-xps/)
 Aspose.TeX를 사용하여 TeX 문서를 .NET의 XPS로 쉽게 변환하세요. 원활한 통합 경험을 위한 단계별 가이드를 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

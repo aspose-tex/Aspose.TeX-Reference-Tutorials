@@ -1,12 +1,17 @@
 ---
 title: Aspose.TeX for Java 的綜合教學與範例
 linktitle: Aspose.TeX Java 教學課程
-type: docs
 weight: 10
 url: /zh-hant/java/
 description: 輕鬆地將 Aspose.TeX Java 整合到您的專案中！探索 LaTeX 轉 PDF、XPS、圖像等的教學。使用我們的指南優化文件處理。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX for Java 的綜合教學與範例
+
 
 
 ## 介紹
@@ -87,3 +92,9 @@ is_root: true
 使用 Aspose.TeX 輕鬆解鎖在 Java 中將 TeX 檔案排版為 XPS 的秘密。深入研究我們的教程，以獲取有關無縫文件處理的逐步指導。
 ### [在 Aspose.TeX for Java 中處理 ZIP 檔案](./zip-archives/)
 透過我們關於處理 ZIP 檔案的綜合教學來釋放 Aspose.TeX for Java 的強大功能。在指導下無縫優化輸入和輸出流程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

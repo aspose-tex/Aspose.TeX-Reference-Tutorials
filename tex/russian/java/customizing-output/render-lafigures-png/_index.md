@@ -3,10 +3,16 @@ title: Рендеринг рисунков LaTeX в PNG в Java
 linktitle: Рендеринг рисунков LaTeX в PNG в Java
 second_title: API Aspose.TeX Java
 description: Легко визуализируйте фигуры LaTeX в PNG на Java с помощью Aspose.TeX. Следуйте этому руководству для бесшовной интеграции.
-type: docs
 weight: 12
 url: /ru/java/customizing-output/render-lafigures-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг рисунков LaTeX в PNG в Java
+
 ## Введение
 
 В мире разработки Java преобразование фигур LaTeX в PNG может оказаться сложной, но важной задачей. Aspose.TeX for Java приходит на помощь благодаря своим мощным функциям, делающим этот процесс эффективным и бесперебойным. Это пошаговое руководство проведет вас через весь процесс рендеринга фигур LaTeX в PNG с помощью Aspose.TeX.
@@ -114,3 +120,9 @@ System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 ### Вопрос 5: Где я могу найти подробную документацию по Aspose.TeX для Java?
 
  A5: документация доступна.[здесь](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

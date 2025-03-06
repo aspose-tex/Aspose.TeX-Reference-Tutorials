@@ -3,10 +3,16 @@ title: Tetapkan Lisensi Terukur untuk Aspose.TeX di Java
 linktitle: Tetapkan Lisensi Terukur untuk Aspose.TeX di Java
 second_title: Aspose.TeX Java API
 description: Buka potensi penuh Aspose.TeX di Java dengan menyiapkan lisensi terukur. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 12
 url: /id/java/managing-licenses/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tetapkan Lisensi Terukur untuk Aspose.TeX di Java
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang menyiapkan lisensi terukur untuk Aspose.TeX di Java! Aspose.TeX adalah perpustakaan canggih yang menyediakan fungsionalitas untuk bekerja dengan file TeX dalam aplikasi Java. Untuk membuka potensi penuhnya, penting untuk memahami cara menyiapkan lisensi terukur. Dalam tutorial ini, kami akan memandu Anda melalui prosesnya, membaginya menjadi langkah-langkah yang mudah diikuti.
@@ -77,3 +83,9 @@ Dalam tutorial ini, kami telah membahas langkah-langkah penting untuk menyiapkan
 ### Q5: Butuh bantuan atau punya pertanyaan?
 
  A5: Kunjungi[Forum dukungan Aspose.TeX](https://forum.aspose.com/c/tex/47) untuk bantuan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

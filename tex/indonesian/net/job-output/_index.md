@@ -3,10 +3,16 @@ title: Kontrol Output Pekerjaan Aspose.TeX
 linktitle: Kontrol Output Pekerjaan Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: Tingkatkan manajemen file TeX dengan Aspose.TeX untuk .NET. Pelajari cara mengganti nama pekerjaan dan menangkap keluaran terminal dengan mudah menggunakan C# dengan panduan langkah demi langkah kami.
-type: docs
 weight: 24
 url: /id/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kontrol Output Pekerjaan Aspose.TeX
+
 
 ## Perkenalan
 
@@ -36,3 +42,9 @@ Kesimpulannya, tutorial ini berfungsi sebagai pintu gerbang Anda untuk menguasai
 Jelajahi cara menggunakan Aspose.TeX untuk .NET untuk mengganti nama pekerjaan dan menangkap output terminal. Ikuti panduan komprehensif kami untuk pengelolaan file TeX yang lancar.
 ### [Ganti Nama Pekerjaan dan Tulis Output Terminal ke Zip (C#)](./override-job-name-zip-output-csharp/)
 Pelajari cara mengganti nama pekerjaan dan menulis output terminal ke file ZIP menggunakan Aspose.TeX untuk .NET. Panduan langkah demi langkah dengan contoh C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

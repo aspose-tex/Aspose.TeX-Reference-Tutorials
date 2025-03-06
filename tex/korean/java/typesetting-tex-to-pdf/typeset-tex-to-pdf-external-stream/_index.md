@@ -3,10 +3,16 @@ title: 외부 스트림을 사용하여 Java에서 TeX를 PDF로 조판
 linktitle: 외부 스트림을 사용하여 Java에서 TeX를 PDF로 조판
 second_title: Aspose.TeX 자바 API
 description: Aspose.TeX가 포함된 외부 스트림을 사용하여 Java에서 TeX를 PDF로 조판하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/typesetting-tex-to-pdf/typeset-tex-to-pdf-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 외부 스트림을 사용하여 Java에서 TeX를 PDF로 조판
+
 ## 소개
 
 Java 개발 세계에서는 TeX 파일에서 PDF를 생성하는 것이 일반적인 요구 사항입니다. Aspose.TeX for Java는 이 프로세스를 단순화하여 TeX를 PDF로 조판하기 위한 효율적인 솔루션을 제공합니다. 이 튜토리얼에서는 외부 스트림을 사용하여 TeX를 PDF로 조판하는 단계를 안내합니다. 결국에는 Java 애플리케이션에서 이 프로세스를 원활하게 구현하는 방법을 명확하게 이해하게 될 것입니다.
@@ -112,3 +118,9 @@ try {
 ### Q5: Aspose.TeX에 대한 임시 라이센스를 얻을 수 있습니까?
 
  A5: 네, 임시 라이센스를 요청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

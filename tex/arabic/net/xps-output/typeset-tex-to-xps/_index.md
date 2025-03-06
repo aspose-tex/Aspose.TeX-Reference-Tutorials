@@ -3,10 +3,16 @@ title: التنضيد TeX إلى XPS في .NET
 linktitle: التنضيد TeX إلى XPS في .NET
 second_title: Aspose.TeX .NET API
 description: قم بتحويل مستندات TeX بسهولة إلى XPS في .NET باستخدام Aspose.TeX. استكشف دليلنا المفصّل خطوة بخطوة للحصول على تجربة تكامل سلسة.
-type: docs
 weight: 10
 url: /ar/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التنضيد TeX إلى XPS في .NET
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول التنضيد TeX إلى XPS في .NET باستخدام مكتبة Aspose.TeX القوية. إذا كنت تتطلع إلى تحويل مستندات TeX إلى تنسيق XPS بسلاسة في تطبيقات .NET الخاصة بك، فقد وصلت إلى المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال العملية بأكملها، مع تفصيل كل خطوة لضمان التنفيذ السلس.
@@ -94,3 +100,9 @@ new TeXJob("hello-world", new XpsDevice(stream), options).Run();
 ### س5: هل هناك نسخة تجريبية مجانية متاحة؟
 
  ج5: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

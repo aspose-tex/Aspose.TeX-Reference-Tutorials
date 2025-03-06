@@ -3,10 +3,16 @@ title: Substituir o nome do trabalho e gravar a saída do terminal no disco (C#)
 linktitle: Substituir o nome do trabalho e gravar a saída do terminal no disco (C#)
 second_title: API Aspose.TeX .NET
 description: Explore como usar o Aspose.TeX for .NET para substituir nomes de trabalhos e capturar a saída do terminal. Siga nosso guia completo para gerenciamento perfeito de arquivos TeX.
-type: docs
 weight: 10
 url: /pt/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Substituir o nome do trabalho e gravar a saída do terminal no disco (C#)
+
 ## Introdução
 
 Bem-vindo a este guia passo a passo sobre como usar Aspose.TeX para .NET para substituir nomes de trabalhos e gravar a saída do terminal em disco na linguagem de programação C#. Aspose.TeX for .NET é uma biblioteca poderosa que permite trabalhar perfeitamente com arquivos TeX e, neste tutorial, nos concentraremos em uma tarefa específica: substituir nomes de trabalhos e capturar a saída do terminal.
@@ -106,3 +112,9 @@ A1: Sim, o Aspose.TeX for .NET pode ser integrado perfeitamente com outras bibli
 ### Q5: Onde posso encontrar a documentação do Aspose.TeX for .NET?
 
  A5: A documentação está disponível[aqui](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

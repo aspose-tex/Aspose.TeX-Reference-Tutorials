@@ -1,12 +1,17 @@
 ---
 title: برامج تعليمية شاملة وأمثلة على Aspose.TeX لـ Java
 linktitle: Aspose.TeX لدروس جافا
-type: docs
 weight: 10
 url: /ar/java/
 description: قم بدمج Aspose.TeX Java بسهولة في مشاريعك! استكشف البرامج التعليمية حول LaTeX لتحويل PDF وXPS والصور والمزيد. قم بتحسين معالجة المستندات باستخدام أدلةنا.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# برامج تعليمية شاملة وأمثلة على Aspose.TeX لـ Java
+
 
 
 ## مقدمة
@@ -87,3 +92,9 @@ is_root: true
 اكتشف أسرار تنضيد ملفات TeX إلى XPS في Java بسهولة باستخدام Aspose.TeX. تعمق في برامجنا التعليمية للحصول على إرشادات خطوة بخطوة حول المعالجة السلسة للمستندات.
 ### [التعامل مع أرشيفات ZIP في Aspose.TeX لـ Java](./zip-archives/)
 أطلق العنان لقوة Aspose.TeX لـ Java من خلال برامجنا التعليمية الشاملة حول التعامل مع أرشيفات ZIP. قم بتحسين عمليات الإدخال والإخراج بسلاسة مع التوجيه.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

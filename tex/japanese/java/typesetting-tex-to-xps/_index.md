@@ -3,10 +3,16 @@ title: Java で TeX ファイルを XPS に植字する
 linktitle: Java で TeX ファイルを XPS に植字する
 second_title: Aspose.TeX Java API
 description: Aspose.TeX を使用して、Java で TeX ファイルを XPS に簡単に植字する秘密を解き明かしましょう。シームレスなドキュメント処理に関する段階的なガイダンスについては、チュートリアルをご覧ください。
-type: docs
 weight: 30
 url: /ja/java/typesetting-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で TeX ファイルを XPS に植字する
+
 ## 導入
 
 Java 文書処理ゲームを向上させる準備はできていますか?これ以上探さない！ TeX ファイルを XPS にタイプセットするための Aspose.TeX for Java チュートリアルは、シームレスなソリューションを提供するためにここにあります。この記事では、外部ストリームを使用した Java での TeX から XPS への植字の複雑さを掘り下げ、プロセスの包括的な理解を提供します。
@@ -37,3 +43,9 @@ Java で TeX を XPS に組版するために外部ストリームを使用す�
 ## Java チュートリアルで TeX ファイルを XPS にタイプセットする
 ### [外部ストリームを使用して Java で TeX を XPS にタイプセットする](./typeset-tex-to-xps-external-stream/)
 Aspose.TeX を使用して Java で TeX を XPS にタイプセットする方法を学びます。シームレスな文書処理のための段階的なガイダンスをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

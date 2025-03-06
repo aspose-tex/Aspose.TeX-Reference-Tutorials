@@ -3,10 +3,16 @@ title: استخدام الملفات المضغوطة مع Aspose.TeX لـ .NET
 linktitle: استخدام الملفات المضغوطة مع Aspose.TeX لـ .NET
 second_title: Aspose.TeX .NET API
 description: اكتشف قوة Aspose.TeX for .NET في التعامل مع ملفات ZIP دون عناء. تعزيز معالجة المستندات في تطبيقاتك.
-type: docs
 weight: 10
 url: /ar/net/zip-file-io/zip-files-aspose-tex/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخدام الملفات المضغوطة مع Aspose.TeX لـ .NET
+
 ## مقدمة
 
 في عالم تطوير .NET، يبرز Aspose.TeX كأداة قوية للعمل مع مستندات TeX. يوفر Aspose.TeX for .NET مجموعة متنوعة من الميزات، ومن بين الإمكانيات المفيدة بشكل خاص التعامل مع الملفات المضغوطة بسلاسة. سيرشدك هذا البرنامج التعليمي خلال عملية استخدام الملفات المضغوطة مع Aspose.TeX في مشاريع .NET الخاصة بك.
@@ -115,3 +121,9 @@ job.Run();
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.TeX؟
 
  ج5: زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت لأغراض الاختبار.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

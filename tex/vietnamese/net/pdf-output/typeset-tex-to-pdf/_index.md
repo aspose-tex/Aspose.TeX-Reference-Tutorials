@@ -3,10 +3,16 @@ title: Cách sắp chữ TeX sang PDF trong .NET
 linktitle: Cách sắp chữ TeX sang PDF trong .NET
 second_title: API Aspose.TeX .NET
 description: Khám phá sự tích hợp liền mạch của Aspose.TeX cho .NET trong việc sắp chữ TeX thành PDF. Đi sâu vào hướng dẫn toàn diện này và nâng cao kỹ năng phát triển .NET của bạn.
-type: docs
 weight: 10
 url: /vi/net/pdf-output/typeset-tex-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cách sắp chữ TeX sang PDF trong .NET
+
 ## Giới thiệu
 
 Nếu bạn đang tìm hiểu thế giới sắp chữ TeX và PDF trong môi trường .NET, bạn sẽ được thưởng thức. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách tận dụng sức mạnh của Aspose.TeX dành cho .NET để sắp xếp liền mạch các tài liệu TeX thành tệp PDF. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với TeX, hướng dẫn này sẽ hướng dẫn bạn qua quy trình, chia nhỏ từng bước để mọi người có thể truy cập được.
@@ -111,3 +117,9 @@ Câu trả lời 1: Có, Aspose.TeX được cập nhật thường xuyên để
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời cho mục đích thử nghiệm không?
 
  Câu trả lời 5: Có, bạn có thể lấy giấy phép tạm thời cho mục đích thử nghiệm thông qua[liên kết này](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

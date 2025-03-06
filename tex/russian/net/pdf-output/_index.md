@@ -3,10 +3,16 @@ title: Работа с выводом PDF
 linktitle: Работа с выводом PDF
 second_title: API Aspose.TeX .NET
 description: Раскройте возможности Aspose.TeX для .NET с помощью нашего подробного руководства по верстке TeX в PDF. Повысьте свои навыки разработки .NET благодаря простой интеграции.
-type: docs
 weight: 28
 url: /ru/net/pdf-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с выводом PDF
+
 ## Введение
 
 Aspose.TeX для .NET меняет правила игры в мире верстки TeX в PDF, и это руководство — ваш путь к раскрытию всего его потенциала. В этой статье мы углубимся в тонкости работы с PDF-файлами, уделив особое внимание плавной интеграции Aspose.TeX для .NET.
@@ -31,3 +37,9 @@ Aspose.TeX для .NET меняет правила игры в мире верс
 ## Работа с учебными пособиями по выводу PDF
 ### [Как набрать TeX в PDF в .NET](./typeset-tex-to-pdf/)
 Изучите плавную интеграцию Aspose.TeX для .NET при верстке TeX в PDF. Погрузитесь в это подробное руководство и улучшите свои навыки разработки .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

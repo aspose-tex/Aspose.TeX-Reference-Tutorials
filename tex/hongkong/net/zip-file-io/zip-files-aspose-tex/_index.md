@@ -3,10 +3,16 @@ title: 將 Zip 檔案與 Aspose.TeX for .NET 一起使用
 linktitle: 將 Zip 檔案與 Aspose.TeX for .NET 一起使用
 second_title: Aspose.TeX .NET API
 description: 探索 Aspose.TeX for .NET 在輕鬆處理 ZIP 檔案方面的強大功能。增強應用程式中的文件處理。
-type: docs
 weight: 10
 url: /zh-hant/net/zip-file-io/zip-files-aspose-tex/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 Zip 檔案與 Aspose.TeX for .NET 一起使用
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.TeX 作為處理 TeX 文件的強大工具脫穎而出。 Aspose.TeX for .NET 提供了多種功能，其中一個特別有用的功能是無縫處理 Zip 檔案。本教學將引導您完成在 .NET 專案中透過 Aspose.TeX 使用 Zip 檔案的過程。
@@ -115,3 +121,9 @@ A1：到目前為止，Aspose.TeX 主要支援使用 ZIP 檔案。
 ### Q5：如何取得 Aspose.TeX 的臨時授權？
 
  A5：參觀[這個連結](https://purchase.aspose.com/temporary-license/)取得用於測試目的的臨時許可證。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

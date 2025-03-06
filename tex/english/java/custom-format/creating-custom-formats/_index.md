@@ -3,10 +3,16 @@ title: Create Custom TeX Formats for Consistent Typesetting in Java
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 description: Enhance typesetting consistency in Java with Aspose.TeX. Create custom TeX formats effortlessly.
-type: docs
 weight: 10
 url: /java/custom-format/creating-custom-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Custom TeX Formats for Consistent Typesetting in Java
+
 ## Introduction
 
 Formatting TeX documents is a critical aspect of document processing, particularly when consistency across various documents is essential. Aspose.TeX for Java provides a robust solution to this challenge by allowing developers to create custom TeX formats tailored to their specific requirements.
@@ -114,3 +120,10 @@ A4: Yes, you can access the free trial version [here](https://releases.aspose.co
 ### Q5: How can I get support for Aspose.TeX for Java?
 
 A5: You can seek support on the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

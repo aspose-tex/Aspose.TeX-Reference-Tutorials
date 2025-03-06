@@ -3,10 +3,16 @@ title: Kết xuất toán LaTeX với Aspose.TeX
 linktitle: Kết xuất toán LaTeX với Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Khám phá nghệ thuật hiển thị toán học LaTeX sang PNG một cách dễ dàng với Aspose.TeX. Nắm vững quy trình bằng cách sử dụng hướng dẫn của chúng tôi trong C#, đảm bảo tích hợp để có kết quả bóng bẩy.
-type: docs
 weight: 26
 url: /vi/net/render-latex-math/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất toán LaTeX với Aspose.TeX
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng bắt đầu cuộc hành trình vào lĩnh vực hiển thị toán học LaTeX sang PNG bằng Aspose.TeX trong C# chưa? Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo bạn nắm bắt được những điều phức tạp một cách dễ dàng.
@@ -41,3 +47,9 @@ Chúc mừng! Bạn đã hoàn thành hướng dẫn đầu tiên trong loạt b
 ## Kết xuất toán LaTeX với hướng dẫn Aspose.TeX
 ### [Kết xuất LaTeX Math thành PNG bằng Aspose.TeX (C#)](./png-latex-math-renderer-csharp/)
 Tìm hiểu cách hiển thị toán học LaTeX thành PNG trong C# bằng Aspose.TeX. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

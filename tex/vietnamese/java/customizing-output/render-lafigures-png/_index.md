@@ -3,10 +3,16 @@ title: Kết xuất số liệu LaTeX thành PNG trong Java
 linktitle: Kết xuất số liệu LaTeX thành PNG trong Java
 second_title: API Java Aspose.TeX
 description: Kết xuất số liệu LaTeX thành PNG dễ dàng trong Java với Aspose.TeX. Hãy làm theo hướng dẫn này để tích hợp liền mạch.
-type: docs
 weight: 12
 url: /vi/java/customizing-output/render-lafigures-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất số liệu LaTeX thành PNG trong Java
+
 ## Giới thiệu
 
 Trong thế giới phát triển Java, việc hiển thị các số liệu LaTeX thành PNG có thể là một nhiệm vụ đầy thách thức nhưng cần thiết. Aspose.TeX dành cho Java ra đời với các tính năng mạnh mẽ, giúp quá trình này trở nên hiệu quả và liền mạch. Hướng dẫn từng bước này sẽ hướng dẫn bạn toàn bộ quá trình hiển thị số liệu LaTeX sang PNG bằng Aspose.TeX.
@@ -114,3 +120,9 @@ Câu trả lời 1: Có, Aspose.TeX dành cho Java được thiết kế để h
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.TeX cho Java ở đâu?
 
  A5: Tài liệu có sẵn[đây](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Criação de formato TeX personalizado em Java
 linktitle: Criação de formato TeX personalizado em Java
 second_title: API Java Aspose.TeX
 description: Aumente a consistência da composição tipográfica em Java com Aspose.TeX. Mergulhe em nossos tutoriais sobre como criar formatos TeX personalizados para uma formatação de documentos perfeita e eficiente.
-type: docs
 weight: 24
 url: /pt/java/custom-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criação de formato TeX personalizado em Java
+
 ## Introdução
 
 Bem-vindo a um guia abrangente sobre como aproveitar o poder do Aspose.TeX para Java para obter consistência tipográfica incomparável. Nesta série de tutoriais, nos aprofundaremos na arte de criar formatos TeX personalizados, capacitando você a aprimorar seu jogo de formatação de documentos sem esforço.
@@ -41,3 +47,9 @@ Embarque nesta jornada com os tutoriais Aspose.TeX para Java e transforme a mane
 ## Criação de formato TeX personalizado em tutoriais Java
 ### [Crie formatos TeX personalizados para composição tipográfica consistente em Java](./creating-custom-formats/)
 Melhore a consistência da composição tipográfica em Java com Aspose.TeX. Crie formatos TeX personalizados sem esforço.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

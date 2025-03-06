@@ -3,10 +3,16 @@ title: Aspose.TeX ジョブ出力の制御
 linktitle: Aspose.TeX ジョブ出力の制御
 second_title: Aspose.TeX .NET API
 description: Aspose.TeX for .NET を使用して TeX ファイル管理を強化します。ステップバイステップのガイドを使用して、C# を使用してジョブ名をオーバーライドし、ターミナル出力を簡単にキャプチャする方法を学びます。
-type: docs
 weight: 24
 url: /ja/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX ジョブ出力の制御
+
 
 ## 導入
 
@@ -36,3 +42,9 @@ Aspose.TeX を使用すると、ワークフローを合理化できます。こ
 Aspose.TeX for .NET を使用してジョブ名をオーバーライドし、ターミナル出力をキャプチャする方法を検討します。シームレスな TeX ファイル管理のための包括的なガイドに従ってください。
 ### [ジョブ名をオーバーライドしてターミナル出力を Zip に書き込む (C#)](./override-job-name-zip-output-csharp/)
 Aspose.TeX for .NET を使用してジョブ名をオーバーライドし、ターミナル出力を ZIP ファイルに書き込む方法を学びます。 C# の例を含むステップバイステップのガイド。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nastavit měřenou licenci pro Aspose.TeX (C#)
 linktitle: Nastavit měřenou licenci pro Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Prozkoumejte Aspose.TeX for .NET, bez námahy nastavte měřené licencování a odemkněte plný potenciál manipulace se soubory TeX ve svých projektech C#.
-type: docs
 weight: 12
 url: /cs/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavit měřenou licenci pro Aspose.TeX (C#)
+
 ## Úvod
 
 Aspose.TeX for .NET je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory TeX. Chcete-li využít jeho plný potenciál, je nezbytné nastavit měřenou licenci. To zajišťuje, že máte správné oprávnění k používání knihovny ve vašich aplikacích.
@@ -92,3 +98,9 @@ Nastavení měřené licence pro Aspose.TeX v C# je jednoduchý proces. Pomocí 
 ### Q5: Mohu použít dočasnou licenci pro Aspose.TeX?
 
  A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

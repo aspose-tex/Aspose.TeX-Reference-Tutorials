@@ -3,10 +3,16 @@ title: Έλεγχος Aspose.TeX Job Output
 linktitle: Έλεγχος Aspose.TeX Job Output
 second_title: Aspose.TeX .NET API
 description: Βελτιώστε τη διαχείριση αρχείων TeX με το Aspose.TeX για .NET. Μάθετε να παρακάμπτετε τα ονόματα εργασιών και να καταγράφετε την έξοδο τερματικού χωρίς κόπο χρησιμοποιώντας C# με τους οδηγούς βήμα προς βήμα.
-type: docs
 weight: 24
 url: /el/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Έλεγχος Aspose.TeX Job Output
+
 
 ## Εισαγωγή
 
@@ -36,3 +42,9 @@ url: /el/net/job-output/
 Εξερευνήστε πώς να χρησιμοποιήσετε το Aspose.TeX για .NET για να παρακάμψετε τα ονόματα εργασιών και να καταγράψετε την έξοδο τερματικού. Ακολουθήστε τον ολοκληρωμένο οδηγό μας για απρόσκοπτη διαχείριση αρχείων TeX.
 ### [Παράκαμψη ονόματος εργασίας και εγγραφή της εξόδου τερματικού σε Zip (C#)](./override-job-name-zip-output-csharp/)
 Μάθετε πώς να παρακάμπτετε τα ονόματα εργασιών και να γράφετε την έξοδο τερματικού σε ένα αρχείο ZIP χρησιμοποιώντας το Aspose.TeX για .NET. Οδηγός βήμα προς βήμα με παραδείγματα C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

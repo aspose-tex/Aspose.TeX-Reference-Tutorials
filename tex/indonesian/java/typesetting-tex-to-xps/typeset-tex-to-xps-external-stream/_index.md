@@ -3,10 +3,16 @@ title: Mengeset TeX ke XPS di Java dengan Aliran Eksternal
 linktitle: Mengeset TeX ke XPS di Java dengan Aliran Eksternal
 second_title: Aspose.TeX Java API
 description: Pelajari cara mengeset TeX ke XPS di Java menggunakan Aspose.TeX. Jelajahi panduan langkah demi langkah untuk pemrosesan dokumen yang lancar.
-type: docs
 weight: 10
 url: /id/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengeset TeX ke XPS di Java dengan Aliran Eksternal
+
 ## Perkenalan
 
 Dalam dunia pengembangan Java, Aspose.TeX menonjol sebagai alat yang ampuh untuk menyusun dokumen TeX ke dalam berbagai format, termasuk XPS. Jika Anda ingin meningkatkan kemampuan pemrosesan dokumen aplikasi Java, tutorial ini dirancang untuk Anda. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses penyusunan huruf TeX ke XPS menggunakan Aspose.TeX untuk Java dengan aliran eksternal.
@@ -122,3 +128,9 @@ A1: Aspose.TeX terutama berfokus pada pemrosesan dokumen terkait TeX. Untuk form
 ### Q5: Bisakah saya mendapatkan lisensi sementara untuk tujuan pengujian?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

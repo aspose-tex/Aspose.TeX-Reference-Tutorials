@@ -3,10 +3,16 @@ title: Render LaTeX Figures to SVG in Java
 linktitle: Render LaTeX Figures to SVG in Java
 second_title: Aspose.TeX Java API
 description: Learn how to effortlessly render LaTeX figures to SVG in Java using Aspose.TeX. Follow this step-by-step guide for seamless integration.
-type: docs
 weight: 14
 url: /java/customizing-output/render-lafigures-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render LaTeX Figures to SVG in Java
+
 ## Introduction
 
 Creating and rendering LaTeX figures in Java can be a complex yet crucial task for various applications. In this tutorial, we'll explore how to render LaTeX figures to SVG using Aspose.TeX for Java. Aspose.TeX provides powerful functionalities to handle LaTeX documents and convert them into various formats, including SVG.
@@ -118,3 +124,10 @@ A4: Aspose.TeX allows conversion to various formats, including SVG, PNG, and mor
 ### Q5: Where can I find detailed documentation for Aspose.TeX for Java?
 
 A5: Refer to the [Aspose.TeX documentation](https://reference.aspose.com/tex/java/) for comprehensive information.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

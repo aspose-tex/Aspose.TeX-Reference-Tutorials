@@ -3,10 +3,16 @@ title: SVG를 사용한 수학 렌더링
 linktitle: SVG를 사용한 수학 렌더링
 second_title: Aspose.TeX .NET API
 description: Aspose.TeX를 사용하여 .NET에서 LaTeX 수학 방정식을 SVG로 렌더링하는 기술을 알아보세요. 수학적 완벽성을 위한 맞춤형 옵션으로 정밀도를 극대화하세요.
-type: docs
 weight: 30
 url: /ko/net/svg-math-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# SVG를 사용한 수학 렌더링
+
 ## 소개
 
 수학적 정확성과 시각적 우아함의 영역에 오신 것을 환영합니다! 이 튜토리얼 시리즈에서는 Aspose.TeX의 강력한 기능을 활용하여 .NET 환경에서 LaTeX 수학 방정식을 SVG로 렌더링하는 매혹적인 세계를 탐구합니다. 
@@ -41,3 +47,9 @@ Aspose.TeX는 LaTeX 수학 렌더링에서 비교할 수 없는 정밀도를 추
 ## SVG 튜토리얼을 사용한 수학 렌더링
 ### [.NET에서 LaTeX Math를 SVG로 렌더링](./render-latex-math-svg/)
 Aspose.TeX를 사용하여 .NET에서 LaTeX 수학 방정식을 SVG로 렌더링하는 방법을 알아보세요. 정확한 수학적 표현을 위한 사용자 정의 가능한 옵션이 포함된 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

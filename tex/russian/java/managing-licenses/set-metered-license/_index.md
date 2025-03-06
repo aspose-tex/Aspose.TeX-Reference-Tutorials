@@ -3,10 +3,16 @@ title: Установите лимитную лицензию для Aspose.TeX 
 linktitle: Установите лимитную лицензию для Aspose.TeX в Java
 second_title: API Aspose.TeX Java
 description: Раскройте весь потенциал Aspose.TeX на Java, установив лимитную лицензию. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 12
 url: /ru/java/managing-licenses/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установите лимитную лицензию для Aspose.TeX в Java
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по настройке лимитной лицензии для Aspose.TeX на Java! Aspose.TeX — мощная библиотека, предоставляющая функциональные возможности для работы с файлами TeX в приложениях Java. Чтобы полностью раскрыть ее потенциал, важно понять, как настроить лимитную лицензию. В этом уроке мы познакомим вас с процессом, разбив его на простые для выполнения шаги.
@@ -77,3 +83,9 @@ new Metered().setMeteredKey(
 ### В5: Нужна помощь или есть вопросы?
 
  A5: Посетите[Форум поддержки Aspose.TeX](https://forum.aspose.com/c/tex/47) для оказания помощи.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

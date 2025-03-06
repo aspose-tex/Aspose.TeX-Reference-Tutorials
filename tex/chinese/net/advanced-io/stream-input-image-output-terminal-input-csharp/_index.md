@@ -3,10 +3,16 @@ title: 在 Aspose.TeX for C# 中主控流、图像和终端输入
 linktitle: 在 Aspose.TeX for C# 中主控流、图像和终端输入
 second_title: Aspose.TeX .NET API
 description: 轻松探索 Aspose.TeX 在 C# 主流、图像和终端输入方面的强大功能。立即下载以进行无缝文档处理。
-type: docs
 weight: 11
 url: /zh/net/advanced-io/stream-input-image-output-terminal-input-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.TeX for C# 中主控流、图像和终端输入
+
 ## 介绍
 
 欢迎来到这个关于在 Aspose.TeX for C# 中掌握流、图像和终端输入的综合教程。 Aspose.TeX 是一个功能强大的库，允许开发人员使用 TeX 文件，为文档操作和转换提供广泛的功能。在本指南中，我们将深入研究使用 Aspose.TeX for C# 处理流、管理图像和捕获终端输入。在本教程结束时，您将具备有效处理文档处理的这些基本方面的知识。
@@ -92,3 +98,9 @@ A1：当然！ Aspose.TeX可以无缝集成到各种类型的应用程序中，�
 ### Q5：如何获得Aspose.TeX的临时许可证？
 
  A5：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

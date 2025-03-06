@@ -3,10 +3,16 @@ title: التحكم في إخراج مهمة Aspose.TeX
 linktitle: التحكم في إخراج مهمة Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: قم بتحسين إدارة ملفات TeX باستخدام Aspose.TeX لـ .NET. تعلم كيفية تجاوز أسماء الوظائف والتقاط المخرجات الطرفية دون عناء باستخدام C# من خلال أدلتنا خطوة بخطوة.
-type: docs
 weight: 24
 url: /ar/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التحكم في إخراج مهمة Aspose.TeX
+
 
 ## مقدمة
 
@@ -36,3 +42,9 @@ url: /ar/net/job-output/
 اكتشف كيفية استخدام Aspose.TeX لـ .NET لتجاوز أسماء الوظائف والتقاط مخرجات المحطة الطرفية. اتبع دليلنا الشامل لإدارة ملفات TeX بسلاسة.
 ### [تجاوز اسم المهمة وكتابة الإخراج الطرفي إلى Zip (C#)](./override-job-name-zip-output-csharp/)
 تعرف على كيفية تجاوز أسماء المهام وكتابة مخرجات الوحدة الطرفية إلى ملف ZIP باستخدام Aspose.TeX لـ .NET. دليل خطوة بخطوة مع أمثلة C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

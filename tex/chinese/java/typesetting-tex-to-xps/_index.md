@@ -3,10 +3,16 @@ title: 在 Java 中将 TeX 文件排版为 XPS
 linktitle: 在 Java 中将 TeX 文件排版为 XPS
 second_title: Aspose.TeX Java API
 description: 使用 Aspose.TeX 轻松解锁在 Java 中将 TeX 文件排版为 XPS 的秘密。深入研究我们的教程，获取有关无缝文档处理的分步指导。
-type: docs
 weight: 30
 url: /zh/java/typesetting-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中将 TeX 文件排版为 XPS
+
 ## 介绍
 
 您准备好提升您的 Java 文档处理能力了吗？别再犹豫了！我们的 Aspose.TeX for Java 教程将 TeX 文件排版为 XPS，为您提供无缝解决方案。在本文中，我们将深入研究使用外部流在 Java 中将 TeX 排版为 XPS 的复杂性，让您全面了解该过程。
@@ -37,3 +43,9 @@ url: /zh/java/typesetting-tex-to-xps/
 ## Java 教程中将 TeX 文件排版为 XPS
 ### [使用外部流在 Java 中将 TeX 排版为 XPS](./typeset-tex-to-xps-external-stream/)
 了解如何使用 Aspose.TeX 在 Java 中将 TeX 排版为 XPS。探索无缝文档处理的分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

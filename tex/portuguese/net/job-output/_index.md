@@ -3,10 +3,16 @@ title: Controlar a saída do trabalho Aspose.TeX
 linktitle: Controlar a saída do trabalho Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Aprimore o gerenciamento de arquivos TeX com Aspose.TeX para .NET. Aprenda a substituir nomes de trabalhos e capturar a saída do terminal sem esforço usando C# com nossos guias passo a passo.
-type: docs
 weight: 24
 url: /pt/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Controlar a saída do trabalho Aspose.TeX
+
 
 ## Introdução
 
@@ -36,3 +42,9 @@ Concluindo, esses tutoriais servem como porta de entrada para dominar o Aspose.T
 Explore como usar o Aspose.TeX for .NET para substituir nomes de trabalhos e capturar a saída do terminal. Siga nosso guia completo para gerenciamento perfeito de arquivos TeX.
 ### [Substituir o nome do trabalho e gravar a saída do terminal em Zip (C#)](./override-job-name-zip-output-csharp/)
 Aprenda como substituir nomes de trabalhos e gravar a saída do terminal em um arquivo ZIP usando Aspose.TeX para .NET. Guia passo a passo com exemplos de C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

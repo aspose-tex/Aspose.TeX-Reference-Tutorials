@@ -3,10 +3,16 @@ title: Egyedi TeX formátumok
 linktitle: Egyedi TeX formátumok
 second_title: Aspose.TeX .NET API
 description: Oldja fel a dokumentumgenerálási képességeket az Aspose.TeX for .NET segítségével. Ebben az átfogó oktatóanyagban megtanulhatja, hogyan hozhat létre egyedi TeX formátumokat könnyedén.
-type: docs
 weight: 31
 url: /hu/net/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyedi TeX formátumok
+
 ## Bevezetés
 
  Az Aspose.TeX for .NET a lehetőségek világát nyitja meg a dokumentumgenerálásban, és az egyéni TeX formátumok létrehozásának elsajátítása kulcsfontosságú szempont. Ebben az oktatóanyagban az építés fortélyaiba fogunk beleásni[egyéni TeX formátumok .NET-ben](./create-custom-tex-formats/), amely lehetővé teszi, hogy egyedi igényei szerint javítsa a dokumentumgenerálást.
@@ -31,3 +37,9 @@ Ez az oktatóanyag nemcsak a technikai know-how-t ad át, hanem az Aspose.TeX .N
 ## Egyedi TeX formátumok oktatóanyagok
 ### [Egyéni TeX formátumok létrehozása .NET-ben](./create-custom-tex-formats/)
 Oldja fel a dokumentumgenerálási képességeket az Aspose.TeX for .NET segítségével. Hozzon létre egyedi TeX formátumokat könnyedén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

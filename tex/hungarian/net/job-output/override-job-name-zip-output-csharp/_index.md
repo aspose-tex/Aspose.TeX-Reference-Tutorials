@@ -3,10 +3,16 @@ title: Feladat nevének felülírása és a terminálkimenet írása Zip-re (C#)
 linktitle: Feladat nevének felülírása és a terminálkimenet írása Zip-re (C#)
 second_title: Aspose.TeX .NET API
 description: Ismerje meg, hogyan írhatja felül a jobneveket és írhatja a terminálkimenetet ZIP-fájlba az Aspose.TeX for .NET használatával. Lépésről lépésre útmutató C# példákkal.
-type: docs
 weight: 11
 url: /hu/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Feladat nevének felülírása és a terminálkimenet írása Zip-re (C#)
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan írhatjuk felül a feladat nevét, és hogyan írhatjuk a terminál kimenetét ZIP-fájlba az Aspose.TeX for .NET használatával. Az Aspose.TeX egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy TeX-dokumentumokkal dolgozzanak .NET-alkalmazásaikban. Ebben a konkrét példában egy gyakori feladatra összpontosítunk – a terminál kimenetének ZIP-fájlba írására, amely felülírhatja a feladat nevét.
@@ -95,3 +101,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan írhatja felül a job nevét, és hog
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.TeX-et .NET-hez?
 
  V5: Megvásárolhatja az Aspose.TeX-et[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

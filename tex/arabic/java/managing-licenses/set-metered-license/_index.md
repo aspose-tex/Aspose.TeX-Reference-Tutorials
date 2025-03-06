@@ -3,10 +3,16 @@ title: قم بتعيين الترخيص المقنن لـ Aspose.TeX في Java
 linktitle: قم بتعيين الترخيص المقنن لـ Aspose.TeX في Java
 second_title: Aspose.TeX جافا API
 description: أطلق العنان للإمكانات الكاملة لـ Aspose.TeX في Java من خلال إعداد ترخيص مقنن. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 12
 url: /ar/java/managing-licenses/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين الترخيص المقنن لـ Aspose.TeX في Java
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول إعداد ترخيص مقنن لـ Aspose.TeX في Java! Aspose.TeX هي مكتبة قوية توفر وظائف للعمل مع ملفات TeX في تطبيقات Java. لإطلاق العنان لإمكاناته الكاملة، من الضروري فهم كيفية إعداد ترخيص مقنن. في هذا البرنامج التعليمي، سنرشدك خلال العملية، ونقسمها إلى خطوات سهلة المتابعة.
@@ -77,3 +83,9 @@ new Metered().setMeteredKey(
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
  ج5: قم بزيارة[منتدى دعم Aspose.TeX](https://forum.aspose.com/c/tex/47) للمساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: บทช่วยสอนที่ครอบคลุมและตัวอย่าง Aspose.TeX สำหรับ Java
 linktitle: Aspose.TeX สำหรับการสอน Java
-type: docs
 weight: 10
 url: /th/java/
 description: ผสานรวม Aspose.TeX Java เข้ากับโปรเจ็กต์ของคุณได้อย่างง่ายดาย! สำรวจบทช่วยสอนเกี่ยวกับ LaTeX เป็น PDF, XPS, รูปภาพ และอื่นๆ เพิ่มประสิทธิภาพการประมวลผลเอกสารด้วยคำแนะนำของเรา
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บทช่วยสอนที่ครอบคลุมและตัวอย่าง Aspose.TeX สำหรับ Java
+
 
 
 ## การแนะนำ
@@ -87,3 +92,9 @@ is_root: true
 ปลดล็อกความลับของการเรียงพิมพ์ไฟล์ TeX เป็น XPS ใน Java ได้อย่างง่ายดายด้วย Aspose.TeX เจาะลึกบทช่วยสอนของเราเพื่อรับคำแนะนำทีละขั้นตอนเกี่ยวกับการประมวลผลเอกสารที่ราบรื่น
 ### [การจัดการไฟล์ ZIP ใน Aspose.TeX สำหรับ Java](./zip-archives/)
 ปลดล็อกพลังของ Aspose.TeX สำหรับ Java ด้วยบทช่วยสอนที่ครอบคลุมเกี่ยวกับการจัดการไฟล์ ZIP เพิ่มประสิทธิภาพกระบวนการอินพุตและเอาต์พุตได้อย่างราบรื่นพร้อมคำแนะนำ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

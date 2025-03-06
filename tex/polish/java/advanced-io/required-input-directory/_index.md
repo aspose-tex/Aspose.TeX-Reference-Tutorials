@@ -3,10 +3,16 @@ title: Określ wymagany katalog wejściowy w Javie
 linktitle: Określ wymagany katalog wejściowy w Javie
 second_title: Aspose.TeX API Java
 description: Ulepsz przetwarzanie Java TeX za pomocą Aspose.TeX dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo określić wymagane katalogi wejściowe.
-type: docs
 weight: 10
 url: /pl/java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Określ wymagany katalog wejściowy w Javie
+
 ## Wstęp
 
 Czy chcesz zwiększyć możliwości swojej aplikacji Java w zakresie skutecznej obsługi zadań TeX? Aspose.TeX dla Java to rozwiązanie, którego szukałeś! W tym obszernym przewodniku przeprowadzimy Cię przez proces określania wymaganego katalogu wejściowego w Javie przy użyciu Aspose.TeX.
@@ -104,3 +110,9 @@ Aspose.TeX dla Java umożliwia programistom bezproblemową obsługę zadań TeX-
 ### P5: Jak kupić Aspose.TeX dla Java?
 
  Odpowiedź 5: Aby kupić, odwiedź stronę zakupu[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

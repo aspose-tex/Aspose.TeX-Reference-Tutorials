@@ -3,10 +3,16 @@ title: Kết xuất các số liệu LaTeX với Aspose.TeX
 linktitle: Kết xuất các số liệu LaTeX với Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Khám phá sức mạnh của Aspose.TeX dành cho .NET trong việc hiển thị các số liệu LaTeX một cách liền mạch. Hướng dẫn từng bước, ví dụ về mã, v.v. để hiển thị PNG và SVG trong C#.
-type: docs
 weight: 25
 url: /vi/net/render-latex-figures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất các số liệu LaTeX với Aspose.TeX
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao trải nghiệm kết xuất tài liệu của mình trong .NET chưa? Đi sâu vào thế giới của Aspose.TeX và mở khóa tiềm năng hiển thị dễ dàng các số liệu LaTeX nhằm nâng cao sức hấp dẫn trực quan cho tài liệu của bạn. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá hai khía cạnh chính: hiển thị số liệu LaTeX thành PNG và SVG bằng Aspose.TeX trong C#.
@@ -33,3 +39,9 @@ Tóm lại, các hướng dẫn Aspose.TeX này không chỉ cung cấp các đo
 Khám phá hướng dẫn toàn diện về cách hiển thị số liệu LaTeX thành PNG bằng Aspose.TeX trong C#. Tìm hiểu từng bước với các ví dụ về mã.
 ### [Kết xuất số liệu LaTeX thành SVG bằng Aspose.TeX (C#)](./svg-latex-figure-renderer-csharp/)
 Nâng cao khả năng hiển thị tài liệu trong .NET với Aspose.TeX. Tìm hiểu cách hiển thị số liệu LaTeX thành SVG trong C# để tích hợp liền mạch các biểu thức toán học.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

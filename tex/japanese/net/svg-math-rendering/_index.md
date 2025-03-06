@@ -3,10 +3,16 @@ title: SVG を使用した数学的レンダリング
 linktitle: SVG を使用した数学的レンダリング
 second_title: Aspose.TeX .NET API
 description: Aspose.TeX を使用して、.NET で LaTeX 数式を SVG としてレンダリングする技術を発見してください。カスタマイズ可能なオプションで精度を解き放ち、数学的に完璧にします。
-type: docs
 weight: 30
 url: /ja/net/svg-math-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# SVG を使用した数学的レンダリング
+
 ## 導入
 
 数学的精度と視覚的優雅さの領域へようこそ!このチュートリアル シリーズでは、Aspose.TeX の強力な機能を活用して、.NET 環境で LaTeX 数式を SVG としてレンダリングする魅力的な世界を詳しく掘り下げます。 
@@ -41,3 +47,9 @@ Aspose.TeX は、LaTeX 数学のレンダリングに比類のない精度を求
 ## SVG による数学レンダリングのチュートリアル
 ### [.NET で LaTeX Math を SVG としてレンダリングする](./render-latex-math-svg/)
 Aspose.TeX を使用して、.NET で LaTeX 数式を SVG としてレンダリングする方法を学びます。正確な数学的表現のためのカスタマイズ可能なオプションを備えたステップバイステップのガイド。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

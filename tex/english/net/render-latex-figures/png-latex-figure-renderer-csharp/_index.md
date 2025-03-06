@@ -3,10 +3,16 @@ title: Render LaTeX Figures to PNG with Aspose.TeX (C#)
 linktitle: Render LaTeX Figures to PNG with Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Explore a comprehensive guide on rendering LaTeX figures to PNG using Aspose.TeX in C#. Learn step-by-step with code examples.
-type: docs
 weight: 10
 url: /net/render-latex-figures/png-latex-figure-renderer-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render LaTeX Figures to PNG with Aspose.TeX (C#)
+
 ## Introduction
 
 If you're delving into the world of typesetting and document creation in .NET, you're likely familiar with the challenges of rendering LaTeX figures. In this step-by-step guide, we'll explore how to use Aspose.TeX for .NET to render LaTeX figures to PNG format using C#. Aspose.TeX provides a powerful and flexible solution for handling LaTeX documents, making it an invaluable tool for developers working with document generation and formatting.
@@ -99,3 +105,10 @@ A4: Temporary licenses are available [here](https://purchase.aspose.com/temporar
 ### Q5: What is the pricing structure for Aspose.TeX?
 
 A5: Explore pricing details and make a purchase [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dostosuj konwersję LaTeX do XPS w Javie za pomocą Aspose.TeX
 linktitle: Dostosuj konwersję LaTeX do XPS w Javie za pomocą Aspose.TeX
 second_title: Aspose.TeX API Java
 description: Odblokuj płynną konwersję LaTeX-a na XPS w Javie za pomocą Aspose.TeX. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie przetwarzać dokumenty.
-type: docs
 weight: 11
 url: /pl/java/converting-lato-xps/advanced-xps-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj konwersję LaTeX do XPS w Javie za pomocą Aspose.TeX
+
 ## Wstęp
 
 Czy chcesz zwiększyć swoje możliwości przetwarzania dokumentów w Javie? Dzięki Aspose.TeX możesz bezproblemowo konwertować pliki LaTeX do formatu XPS. Ten przewodnik krok po kroku przeprowadzi Cię przez proces, zapewniając odblokowanie pełnego potencjału Aspose.TeX w aplikacjach Java.
@@ -111,3 +117,10 @@ tym samouczku omówiliśmy, jak wykorzystać moc Aspose.TeX do bezproblemowej ko
 ### P5: Gdzie mogę kupić Aspose.TeX dla Java?
 
  Odpowiedź 5: Możesz kupić Aspose.TeX dla Java[Tutaj](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

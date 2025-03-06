@@ -3,10 +3,16 @@ title: Using Zip Files with Aspose.TeX for .NET
 linktitle: Using Zip Files with Aspose.TeX for .NET
 second_title: Aspose.TeX .NET API
 description: Explore the power of Aspose.TeX for .NET in handling ZIP files effortlessly. Enhance document processing in your applications.
-type: docs
 weight: 10
 url: /net/zip-file-io/zip-files-aspose-tex/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Using Zip Files with Aspose.TeX for .NET
+
 ## Introduction
 
 In the world of .NET development, Aspose.TeX stands out as a powerful tool for working with TeX documents. Aspose.TeX for .NET provides a variety of features, and one particularly useful capability is handling Zip files seamlessly. This tutorial will guide you through the process of utilizing Zip files with Aspose.TeX in your .NET projects.
@@ -115,3 +121,10 @@ A4: Refer to the [documentation](https://reference.aspose.com/tex/net/) for in-d
 ### Q5: How do I obtain a temporary license for Aspose.TeX?
 
 A5: Visit [this link](https://purchase.aspose.com/temporary-license/) to get a temporary license for testing purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

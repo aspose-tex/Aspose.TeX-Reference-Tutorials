@@ -3,10 +3,16 @@ title: تجاوز اسم الوظيفة واكتب الإخراج الطرفي �
 linktitle: تجاوز اسم الوظيفة واكتب الإخراج الطرفي إلى Zip في Java
 second_title: Aspose.TeX جافا API
 description: تعرف على كيفية تجاوز أسماء الوظائف وكتابة مخرجات الوحدة الطرفية إلى ZIP في Java باستخدام Aspose.TeX. برنامج تعليمي شامل لمطوري جافا.
-type: docs
 weight: 11
 url: /ar/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تجاوز اسم الوظيفة واكتب الإخراج الطرفي إلى Zip في Java
+
 ## مقدمة
 
 في عالم تطوير Java، يبرز Aspose.TeX كأداة قوية للتعامل مع تنسيقات ملفات TeX. في هذا البرنامج التعليمي، سنتعمق في سيناريو محدد - تجاوز أسماء الوظائف وكتابة مخرجات الوحدة الطرفية في ملف مضغوط. سيرشدك هذا الدليل خطوة بخطوة خلال العملية باستخدام Aspose.TeX لـ Java.
@@ -126,3 +132,10 @@ new TeXJob("hello-world", new PdfDevice(), options).run();
 ### س5: أين يمكنني طلب الدعم أو طرح الأسئلة حول Aspose.TeX؟
 
  ج5: قم بزيارة[منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47) للدعم والمناقشات.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

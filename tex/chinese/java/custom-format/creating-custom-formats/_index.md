@@ -3,10 +3,16 @@ title: 创建自定义 TeX 格式以实现 Java 中的一致排版
 linktitle: 创建自定义 TeX 格式以实现 Java 中的一致排版
 second_title: Aspose.TeX Java API
 description: 使用 Aspose.TeX 增强 Java 中的排版一致性。轻松创建自定义 TeX 格式。
-type: docs
 weight: 10
 url: /zh/java/custom-format/creating-custom-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 创建自定义 TeX 格式以实现 Java 中的一致排版
+
 ## 介绍
 
 格式化 TeX 文档是文档处理的一个关键方面，特别是当不同文档之间的一致性至关重要时。 Aspose.TeX for Java 允许开发人员创建适合其特定需求的自定义 TeX 格式，从而为这一挑战提供了强大的解决方案。
@@ -114,3 +120,9 @@ options.getTerminalOut().getWriter().newLine();
 ### Q5：如何获得 Aspose.TeX for Java 的支持？
 
  A5：您可以通过以下方式寻求支持[Aspose.TeX 论坛](https://forum.aspose.com/c/tex/47).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

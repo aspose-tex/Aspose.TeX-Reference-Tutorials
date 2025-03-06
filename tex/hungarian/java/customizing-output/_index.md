@@ -3,10 +3,16 @@ title: A TeX kimenet testreszabása az Aspose.TeX for Java-ban
 linktitle: A TeX kimenet testreszabása az Aspose.TeX for Java-ban
 second_title: Aspose.TeX Java API
 description: Javítsa dokumentumfeldolgozását Java nyelven az Aspose.TeX segítségével. Tekintse meg az útmutatókat a feladatnevek felülbírálásáról, a terminálkimenet írásáról, valamint a LaTeX-figurák és matematikai PNG/SVG formátumú zökkenőmentes megjelenítéséről.
-type: docs
 weight: 26
 url: /hu/java/customizing-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A TeX kimenet testreszabása az Aspose.TeX for Java-ban
+
 ## Bevezetés
 
 Ön Java-fejlesztő, aki szeretné javítani dokumentumfeldolgozási képességeit? Merüljön el az Aspose.TeX világában, egy olyan hatékony eszközben, amely lehetővé teszi a TeX kimenet pontos és hatékony testreszabását. Ebben a cikkben végigvezetjük a különféle testreszabási lehetőségekről szóló alapvető oktatóanyagokon.
@@ -61,3 +67,9 @@ Tanuljon meg LaTeX matematikai egyenleteket PNG-képekre renderelni Java nyelven
 Tanulja meg, hogyan lehet könnyedén LaTeX-figurákat SVG-be renderelni Java nyelven az Aspose.TeX használatával. Kövesse ezt a lépésről lépésre szóló útmutatót a zökkenőmentes integráció érdekében.
 ### [Renderje le a LaTeX Math-ot SVG-re Java nyelven](./render-lamath-svg/)
 Ismerje meg, hogyan lehet LaTeX matematikai egyenleteket renderelni SVG-re Java nyelven az Aspose.TeX használatával. Kövesse lépésről lépésre útmutatónkat a pontos és tetszetős eredmények érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

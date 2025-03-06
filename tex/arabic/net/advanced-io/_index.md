@@ -3,10 +3,16 @@ title: الإدخال والإخراج المتقدم Aspose.TeX
 linktitle: الإدخال والإخراج المتقدم Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: اكتشف قوة Aspose.TeX for .NET من خلال برامجنا التعليمية المتقدمة. تعلم كيفية تحديد أدلة الإدخال والتدفقات الرئيسية والصور والإدخال الطرفي في C#.
-type: docs
 weight: 27
 url: /ar/net/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الإدخال والإخراج المتقدم Aspose.TeX
+
 ## مقدمة
 
 يعد Aspose.TeX for .NET بمثابة تغيير لقواعد اللعبة في تكامل TeX السلس، حيث يوفر للمطورين مكتبة قوية لتحسين معالجة المستندات. في هذه المقالة، سنتعمق في البرامج التعليمية المتقدمة التي تركز على تحديد أدلة الإدخال وإتقان التدفقات والصور والإدخال الطرفي في لغة C#.
@@ -29,3 +35,9 @@ url: /ar/net/advanced-io/
 استكشف Aspose.TeX for .NET، وهي مكتبة قوية لتكامل TeX السلس. اتبع دليلنا خطوة بخطوة.
 ### [التدفقات الرئيسية والصور والمدخلات الطرفية في Aspose.TeX لـ C#](./stream-input-image-output-terminal-input-csharp/)
 اكتشف قوة Aspose.TeX للتدفقات والصور والمدخلات الطرفية الرئيسية لـ C# دون عناء. قم بالتنزيل الآن لمعالجة المستندات بسلاسة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

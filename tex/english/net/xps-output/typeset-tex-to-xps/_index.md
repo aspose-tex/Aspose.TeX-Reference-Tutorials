@@ -3,10 +3,16 @@ title: Typesetting TeX to XPS in .NET
 linktitle: Typesetting TeX to XPS in .NET
 second_title: Aspose.TeX .NET API
 description: Effortlessly convert TeX documents to XPS in .NET with Aspose.TeX. Explore our step-by-step guide for a seamless integration experience.
-type: docs
 weight: 10
 url: /net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Typesetting TeX to XPS in .NET
+
 ## Introduction
 
 Welcome to our step-by-step guide on typesetting TeX to XPS in .NET using the powerful Aspose.TeX library. If you're looking to seamlessly convert TeX documents to XPS format in your .NET applications, you've come to the right place. In this tutorial, we'll walk you through the entire process, breaking down each step to ensure a smooth implementation.
@@ -94,3 +100,10 @@ A4: Visit the Aspose.TeX support forum [here](https://forum.aspose.com/c/tex/47)
 ### Q5: Is there a free trial available?
 
 A5: Yes, you can access a free trial [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

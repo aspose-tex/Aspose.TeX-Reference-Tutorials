@@ -3,10 +3,16 @@ title: उन्नत Aspose.TeX इनपुट और आउटपुट
 linktitle: उन्नत Aspose.TeX इनपुट और आउटपुट
 second_title: Aspose.TeX .NET एपीआई
 description: हमारे उन्नत ट्यूटोरियल के साथ .NET के लिए Aspose.TeX की शक्ति को उजागर करें। C# में इनपुट निर्देशिकाओं और मास्टर स्ट्रीम, छवियों और टर्मिनल इनपुट को निर्दिष्ट करना सीखें।
-type: docs
 weight: 27
 url: /hi/net/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# उन्नत Aspose.TeX इनपुट और आउटपुट
+
 ## परिचय
 
 .NET के लिए Aspose.TeX निर्बाध TeX एकीकरण में एक गेम-चेंजर है, जो डेवलपर्स को दस्तावेज़ प्रसंस्करण को बढ़ाने के लिए एक मजबूत लाइब्रेरी प्रदान करता है। इस लेख में, हम C# में इनपुट निर्देशिकाओं को निर्दिष्ट करने और स्ट्रीम, छवियों और टर्मिनल इनपुट में महारत हासिल करने पर ध्यान केंद्रित करते हुए उन्नत ट्यूटोरियल पर ध्यान केंद्रित करते हैं।
@@ -29,3 +35,9 @@ url: /hi/net/advanced-io/
 .NET के लिए Aspose.TeX का अन्वेषण करें, जो निर्बाध TeX एकीकरण के लिए एक मजबूत लाइब्रेरी है। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें.
 ### [C# के लिए Aspose.TeX में मास्टर स्ट्रीम, छवियाँ और टर्मिनल इनपुट](./stream-input-image-output-terminal-input-csharp/)
 C# मास्टर स्ट्रीम, छवियों और टर्मिनल इनपुट के लिए Aspose.TeX की शक्ति का सहजता से अन्वेषण करें। निर्बाध दस्तावेज़ प्रसंस्करण के लिए अभी डाउनलोड करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

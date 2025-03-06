@@ -3,10 +3,16 @@ title: TeX gépelése XPS-re .NET-ben
 linktitle: TeX gépelése XPS-re .NET-ben
 second_title: Aspose.TeX .NET API
 description: Könnyedén konvertálhat TeX dokumentumokat XPS-re .NET-ben az Aspose.TeX segítségével. Fedezze fel lépésenkénti útmutatónkat a zökkenőmentes integrációs élmény érdekében.
-type: docs
 weight: 10
 url: /hu/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# TeX gépelése XPS-re .NET-ben
+
 ## Bevezetés
 
 Üdvözöljük lépésenkénti útmutatónkban a TeX szedéséről XPS-re .NET-ben a hatékony Aspose.TeX könyvtár használatával. Ha TeX-dokumentumokat szeretne zökkenőmentesen XPS-formátumba konvertálni .NET-alkalmazásaiban, akkor jó helyen jár. Ebben az oktatóanyagban végigvezetjük a teljes folyamaton, az egyes lépéseket lebontva a zökkenőmentes megvalósítás érdekében.
@@ -94,3 +100,9 @@ A2: Abszolút! Az Aspose.TeX kereskedelmi és személyes használatra egyaránt 
 ### 5. kérdés: Van ingyenes próbaverzió?
 
  5. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

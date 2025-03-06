@@ -3,10 +3,16 @@ title: Παράκαμψη ονόματος εργασίας και εγγραφ�
 linktitle: Παράκαμψη ονόματος εργασίας και εγγραφή εξόδου τερματικού στο δίσκο (C#)
 second_title: Aspose.TeX .NET API
 description: Εξερευνήστε πώς να χρησιμοποιήσετε το Aspose.TeX για .NET για να παρακάμψετε τα ονόματα εργασιών και να καταγράψετε την έξοδο τερματικού. Ακολουθήστε τον ολοκληρωμένο οδηγό μας για απρόσκοπτη διαχείριση αρχείων TeX.
-type: docs
 weight: 10
 url: /el/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Παράκαμψη ονόματος εργασίας και εγγραφή εξόδου τερματικού στο δίσκο (C#)
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον αναλυτικό οδηγό σχετικά με τη χρήση του Aspose.TeX για .NET για την παράκαμψη των ονομάτων εργασιών και την εγγραφή τερματικού εξόδου στο δίσκο στη γλώσσα προγραμματισμού C#. Το Aspose.TeX για .NET είναι μια ισχυρή βιβλιοθήκη που σας επιτρέπει να εργάζεστε απρόσκοπτα με αρχεία TeX και σε αυτό το σεμινάριο, θα επικεντρωθούμε σε μια συγκεκριμένη εργασία: την παράκαμψη ονομάτων εργασιών και τη λήψη εξόδου τερματικού.
@@ -106,3 +112,9 @@ A1: Ναι, το Aspose.TeX για .NET μπορεί να ενσωματωθεί
 ### Ε5: Πού μπορώ να βρω την τεκμηρίωση για το Aspose.TeX για .NET;
 
  A5: Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

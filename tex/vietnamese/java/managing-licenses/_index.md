@@ -3,10 +3,16 @@ title: Quản lý giấy phép trong Aspose.TeX cho Java
 linktitle: Quản lý giấy phép trong Aspose.TeX cho Java
 second_title: API Java Aspose.TeX
 description: Khai phá tiềm năng của Aspose.TeX cho Java! Tìm hiểu cách quản lý giấy phép một cách dễ dàng - tải từ tệp, truyền trực tuyến hoặc thiết lập giấy phép được đo lường bằng hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 25
 url: /vi/java/managing-licenses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý giấy phép trong Aspose.TeX cho Java
+
 
 ## Giới thiệu 
 
@@ -32,3 +38,9 @@ Khám phá sức mạnh của Aspose.TeX cho Java. Dễ dàng tải giấy phép
 Khám phá sức mạnh của Aspose.TeX dành cho Java với hướng dẫn từng bước của chúng tôi về cách tải giấy phép TeX từ luồng. Tích hợp liền mạch thao tác tài liệu TeX vào các ứng dụng Java của bạn.
 ### [Đặt giấy phép đo lường cho Aspose.TeX trong Java](./set-metered-license/)
 Khai thác toàn bộ tiềm năng của Aspose.TeX trong Java bằng cách thiết lập giấy phép có đồng hồ đo. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

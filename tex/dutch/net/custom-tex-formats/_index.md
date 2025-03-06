@@ -3,10 +3,16 @@ title: Aangepaste TeX-formaten
 linktitle: Aangepaste TeX-formaten
 second_title: Aspose.TeX .NET-API
 description: Ontgrendel de beheersing van documentgeneratie met Aspose.TeX voor .NET. Leer moeiteloos aangepaste TeX-formaten maken in deze uitgebreide tutorial.
-type: docs
 weight: 31
 url: /nl/net/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aangepaste TeX-formaten
+
 ## Invoering
 
  Aspose.TeX voor .NET opent een wereld aan mogelijkheden voor het genereren van documenten, en het beheersen van de creatie van aangepaste TeX-formaten is een belangrijk aspect. In deze tutorial gaan we dieper in op de fijne kneepjes van het bouwen[aangepaste TeX-formaten in .NET](./create-custom-tex-formats/), waardoor u het genereren van documenten kunt verbeteren op basis van uw unieke vereisten.
@@ -31,3 +37,9 @@ Deze tutorial brengt niet alleen de technische knowhow over, maar benadrukt ook 
 ## Aangepaste TeX-formaten-tutorials
 ### [Aangepaste TeX-formaten maken in .NET](./create-custom-tex-formats/)
 Ontgrendel de beheersing van documentgeneratie met Aspose.TeX voor .NET. Creëer moeiteloos aangepaste TeX-formaten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

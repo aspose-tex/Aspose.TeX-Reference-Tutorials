@@ -3,10 +3,16 @@ title: 在 Java 中指定所需的输入目录
 linktitle: 在 Java 中指定所需的输入目录
 second_title: Aspose.TeX Java API
 description: 使用 Aspose.TeX for Java 增强 Java TeX 处理。按照我们的分步指南无缝指定所需的输入目录。
-type: docs
 weight: 10
 url: /zh/java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中指定所需的输入目录
+
 ## 介绍
 
 您是否希望增强 Java 应用程序有效处理 TeX 作业的能力？ Aspose.TeX for Java 是您一直在寻找的解决方案！在本综合指南中，我们将引导您完成使用 Aspose.TeX 在 Java 中指定所需输入目录的过程。
@@ -104,3 +110,9 @@ Aspose.TeX for Java 使开发人员能够无缝处理 TeX 作业。通过提供�
 ### Q5: 如何购买 Aspose.TeX for Java？
 
  A5：购买请访问购买页面[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dostosowywanie wyjścia TeX w Aspose.TeX dla Java
 linktitle: Dostosowywanie wyjścia TeX w Aspose.TeX dla Java
 second_title: Aspose.TeX API Java
 description: Usprawnij przetwarzanie dokumentów w Javie dzięki Aspose.TeX. Zapoznaj się z przewodnikami dotyczącymi zastępowania nazw zadań, pisania danych wyjściowych terminala i płynnego renderowania figur LaTeX i matematyki do formatu PNG/SVG.
-type: docs
 weight: 26
 url: /pl/java/customizing-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosowywanie wyjścia TeX w Aspose.TeX dla Java
+
 ## Wstęp
 
 Czy jesteś programistą Java i chcesz zwiększyć swoje możliwości przetwarzania dokumentów? Zanurz się w świecie Aspose.TeX, potężnego narzędzia, które pozwala dostosować dane wyjściowe TeX-a z precyzją i wydajnością. W tym artykule przeprowadzimy Cię przez niezbędne samouczki dotyczące różnych opcji dostosowywania.
@@ -61,3 +67,9 @@ Naucz się renderować równania matematyczne LaTeX do obrazów PNG w Javie za p
 Dowiedz się, jak bez wysiłku renderować figury LaTeX do formatu SVG w Javie przy użyciu Aspose.TeX. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
 ### [Renderuj matematykę LaTeX do SVG w Javie](./render-lamath-svg/)
 Dowiedz się, jak renderować równania matematyczne LaTeX do formatu SVG w Javie przy użyciu Aspose.TeX. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać dokładne i atrakcyjne wizualnie wyniki.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

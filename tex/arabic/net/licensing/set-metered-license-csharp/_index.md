@@ -3,10 +3,16 @@ title: تعيين الترخيص المقنن لـ Aspose.TeX (C#)
 linktitle: تعيين الترخيص المقنن لـ Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: استكشف Aspose.TeX for .NET، وقم بإعداد الترخيص المقنن دون عناء، واطلق العنان للإمكانات الكاملة لمعالجة ملفات TeX في مشاريع C# الخاصة بك.
-type: docs
 weight: 12
 url: /ar/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين الترخيص المقنن لـ Aspose.TeX (C#)
+
 ## مقدمة
 
 Aspose.TeX for .NET هي مكتبة قوية تتيح للمطورين العمل مع ملفات TeX بسلاسة. لفتح إمكاناتها الكاملة، من الضروري إعداد ترخيص مقنن. وهذا يضمن حصولك على التفويض المناسب لاستخدام المكتبة في تطبيقاتك.
@@ -92,3 +98,9 @@ else
 ### س5: هل يمكنني استخدام ترخيص مؤقت لـ Aspose.TeX؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

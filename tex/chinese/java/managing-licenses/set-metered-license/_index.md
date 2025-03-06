@@ -3,10 +3,16 @@ title: 在 Java 中设置 Aspose.TeX 的计量许可证
 linktitle: 在 Java 中设置 Aspose.TeX 的计量许可证
 second_title: Aspose.TeX Java API
 description: 通过设置计量许可证来释放 Java 中 Aspose.TeX 的全部潜力。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 12
 url: /zh/java/managing-licenses/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中设置 Aspose.TeX 的计量许可证
+
 ## 介绍
 
 欢迎来到我们关于在 Java 中设置 Aspose.TeX 计量许可证的分步指南！ Aspose.TeX 是一个功能强大的库，提供在 Java 应用程序中处理 TeX 文件的功能。为了充分发挥其潜力，了解如何设置计量许可证至关重要。在本教程中，我们将引导您完成整个过程，并将其分解为易于遵循的步骤。
@@ -77,3 +83,9 @@ new Metered().setMeteredKey(
 ### Q5: 需要帮助或有疑问吗？
 
  A5：访问[Aspose.TeX 支持论坛](https://forum.aspose.com/c/tex/47)寻求帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kết xuất toán học với SVG
 linktitle: Kết xuất toán học với SVG
 second_title: API Aspose.TeX .NET
 description: Khám phá nghệ thuật hiển thị các phương trình toán học LaTeX dưới dạng SVG trong .NET với Aspose.TeX. Giải phóng độ chính xác với các tùy chọn tùy chỉnh để đạt được sự hoàn hảo về mặt toán học.
-type: docs
 weight: 30
 url: /vi/net/svg-math-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất toán học với SVG
+
 ## Giới thiệu
 
 Chào mừng bạn đến với lĩnh vực toán học chính xác và hình ảnh sang trọng! Trong loạt bài hướng dẫn này, chúng ta đi sâu vào thế giới hấp dẫn của việc hiển thị các phương trình toán học LaTeX dưới dạng SVG trong môi trường .NET, tận dụng các khả năng mạnh mẽ của Aspose.TeX. 
@@ -41,3 +47,9 @@ Tóm lại, loạt bài hướng dẫn này không chỉ là một hướng dẫ
 ## Kết xuất toán học với hướng dẫn SVG
 ### [Hiển thị LaTeX Math dưới dạng SVG trong .NET](./render-latex-math-svg/)
 Tìm hiểu cách hiển thị các phương trình toán học LaTeX dưới dạng SVG trong .NET bằng Aspose.TeX. Hướng dẫn từng bước với các tùy chọn có thể tùy chỉnh để biểu diễn toán học chính xác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Anular el nombre del trabajo y escribir la salida del terminal en Zip en 
 linktitle: Anular el nombre del trabajo y escribir la salida del terminal en Zip en Java
 second_title: API de Java Aspose.TeX
 description: Aprenda a anular los nombres de los trabajos y escribir la salida del terminal en ZIP en Java con Aspose.TeX. Un tutorial completo para desarrolladores de Java.
-type: docs
 weight: 11
 url: /es/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anular el nombre del trabajo y escribir la salida del terminal en Zip en Java
+
 ## Introducción
 
 En el mundo del desarrollo de Java, Aspose.TeX se destaca como una poderosa herramienta para manejar formatos de archivos TeX. En este tutorial, profundizaremos en un escenario específico: anular nombres de trabajos y escribir la salida del terminal en un archivo zip. Esta guía paso a paso lo guiará a través del proceso de uso de Aspose.TeX para Java.
@@ -126,3 +132,10 @@ R1: Aspose.TeX es una biblioteca Java que permite a los desarrolladores trabajar
 ### P5: ¿Dónde puedo buscar ayuda o hacer preguntas sobre Aspose.TeX?
 
  A5: Visita el[Foro Aspose.TeX](https://forum.aspose.com/c/tex/47) para apoyo y discusiones.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

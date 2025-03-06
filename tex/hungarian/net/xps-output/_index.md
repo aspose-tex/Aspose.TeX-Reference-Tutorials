@@ -3,10 +3,16 @@ title: XPS kimenettel való munka
 linktitle: XPS kimenettel való munka
 second_title: Aspose.TeX .NET API
 description: A .NET-ben található Aspose.TeX segítségével könnyedén konvertálja a TeX-et XPS-re. Útmutatónk biztosítja a zökkenőmentes integrációt. Fedezze fel a TeX-ből XPS-be szedési oktatóanyagot a szakértői betekintés érdekében.
-type: docs
 weight: 29
 url: /hu/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XPS kimenettel való munka
+
 ## Bevezetés
 
 Szeretné kihasználni az Aspose.TeX erejét .NET-alkalmazásaiban? Merüljön el átfogó oktatóanyagainkban, amelyeket kifejezetten az XPS-kimenettel való munkához szabtak. Ebben a cikkben végigvezetjük a TeX-dokumentumok XPS-re való könnyed konvertálásának folyamatán, amely zökkenőmentes integrációt biztosít az Aspose.TeX-szel.
@@ -36,3 +42,9 @@ Gratulálunk! Sikeresen navigált az Aspose.TeX for .NET segítségével a TeX-r
 ## XPS Output oktatóanyagok használata
 ### [TeX gépelése XPS-re .NET-ben](./typeset-tex-to-xps/)
 Könnyedén konvertálhat TeX dokumentumokat XPS-re .NET-ben az Aspose.TeX segítségével. Fedezze fel lépésenkénti útmutatónkat a zökkenőmentes integrációs élmény érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

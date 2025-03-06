@@ -3,10 +3,16 @@ title: تنضيد ملفات TeX إلى XPS في Java
 linktitle: تنضيد ملفات TeX إلى XPS في Java
 second_title: Aspose.TeX جافا API
 description: اكتشف أسرار تنضيد ملفات TeX إلى XPS في Java بسهولة باستخدام Aspose.TeX. تعمق في برامجنا التعليمية للحصول على إرشادات خطوة بخطوة حول المعالجة السلسة للمستندات.
-type: docs
 weight: 30
 url: /ar/java/typesetting-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنضيد ملفات TeX إلى XPS في Java
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بلعبة معالجة مستندات Java لديك؟ لا مزيد من البحث! إن برامجنا التعليمية Aspose.TeX for Java حول تنضيد ملفات TeX إلى XPS موجودة هنا لتزويدك بحلول سلسة. في هذه المقالة، سوف نتعمق في تعقيدات عملية التنضيد TeX إلى XPS في Java باستخدام الدفق الخارجي، مما يوفر لك فهمًا شاملاً للعملية.
@@ -37,3 +43,9 @@ url: /ar/java/typesetting-tex-to-xps/
 ## تنضيد ملفات TeX إلى XPS في برامج Java التعليمية
 ### [Typeset TeX إلى XPS في Java باستخدام الدفق الخارجي](./typeset-tex-to-xps-external-stream/)
 تعرف على كيفية كتابة TeX على XPS في Java باستخدام Aspose.TeX. استكشف الإرشادات خطوة بخطوة لمعالجة المستندات بسلاسة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

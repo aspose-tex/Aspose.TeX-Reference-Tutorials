@@ -3,10 +3,16 @@ title: Ovládání výstupu úlohy Aspose.TeX
 linktitle: Ovládání výstupu úlohy Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: Vylepšete správu souborů TeX pomocí Aspose.TeX pro .NET. Naučte se přepisovat názvy úloh a zaznamenávat výstup terminálu bez námahy pomocí C# s našimi podrobnými průvodci.
-type: docs
 weight: 24
 url: /cs/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ovládání výstupu úlohy Aspose.TeX
+
 
 ## Úvod
 
@@ -36,3 +42,9 @@ Závěrem lze říci, že tyto výukové programy slouží jako vaše brána k z
 Prozkoumejte, jak používat Aspose.TeX pro .NET k přepsání názvů úloh a zachycení výstupu z terminálu. Postupujte podle našeho komplexního průvodce pro bezproblémovou správu souborů TeX.
 ### [Přepsat název úlohy a zapsat výstup terminálu do Zip (C#)](./override-job-name-zip-output-csharp/)
 Naučte se, jak přepsat názvy úloh a zapsat výstup terminálu do souboru ZIP pomocí Aspose.TeX for .NET. Průvodce krok za krokem s příklady C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

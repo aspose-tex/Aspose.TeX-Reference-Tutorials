@@ -3,10 +3,16 @@ title: Aspose.TeX Lisanslarını Yönetin
 linktitle: Aspose.TeX Lisanslarını Yönetin
 second_title: Aspose.TeX .NET API'si
 description: Bu eğitimlerle Aspose.TeX .NET'in tüm potansiyelini ortaya çıkarın. Lisansları yönetmeyi, belge işlemeyi geliştirmeyi ve sınırsız olanakları keşfetmeyi öğrenin.
-type: docs
 weight: 23
 url: /tr/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX Lisanslarını Yönetin
+
 ## giriiş
 
 Aspose.TeX for .NET dünyasına dalmaya hazır mısınız? Bu eğitimler, lisansları etkili bir şekilde yönetmek ve C# projelerinizde TeX dosya manipülasyonunun tüm gücünden yararlanmak için gerekli adımlarda size rehberlik edecektir.
@@ -41,3 +47,9 @@ Aspose.TeX for .NET'in sınırsız olanaklarını keşfedin. TeX dosyalarını s
 Aspose.TeX for .NET'i keşfedin Lisansları sorunsuz bir şekilde yükleyin, belge işlemeyi geliştirin. Adım adım rehberlik için eğitime göz atın.
 ### [Aspose.TeX (C#) için Ölçülü Lisansı Ayarlayın](./set-metered-license-csharp/)
 Aspose.TeX for .NET'i keşfedin, ölçülü lisanslamayı zahmetsizce kurun ve C# projelerinizde TeX dosya manipülasyonunun tüm potansiyelini ortaya çıkarın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

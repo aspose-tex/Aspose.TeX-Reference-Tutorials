@@ -3,10 +3,16 @@ title: Конвертируйте изображения LaTeX в PNG в Java б
 linktitle: Конвертируйте изображения LaTeX в PNG в Java без особых усилий
 second_title: API Aspose.TeX Java
 description: Научитесь легко конвертировать изображения LaTeX в PNG на Java с помощью Aspose.TeX. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 10
 url: /ru/java/converting-lato-images/png-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Конвертируйте изображения LaTeX в PNG в Java без особых усилий
+
 ## Введение
 
 Добро пожаловать в подробное руководство по использованию Aspose.TeX для Java для легкого преобразования изображений LaTeX в PNG. Aspose.TeX — это мощная и универсальная библиотека, которая упрощает процесс преобразования, позволяя с легкостью создавать высококачественные изображения PNG из файлов LaTeX. В этом руководстве мы проведем вас через необходимые шаги, гарантируя, что вы сможете без проблем достичь своих целей конверсии.
@@ -108,3 +114,9 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 ### Вопрос 5: Как я могу получить временную лицензию для целей тестирования?
 
  О5: Вы можете получить временную лицензию на[Aspose.Trial](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

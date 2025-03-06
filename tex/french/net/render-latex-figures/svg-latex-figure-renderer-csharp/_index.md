@@ -3,10 +3,16 @@ title: Rendre les figures LaTeX en SVG avec Aspose.TeX (C#)
 linktitle: Rendre les figures LaTeX en SVG avec Aspose.TeX (C#)
 second_title: API Aspose.TeX .NET
 description: Améliorez le rendu des documents dans .NET avec Aspose.TeX. Découvrez comment restituer des figures LaTeX au format SVG en C# pour une intégration transparente des expressions mathématiques.
-type: docs
 weight: 11
 url: /fr/net/render-latex-figures/svg-latex-figure-renderer-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendre les figures LaTeX en SVG avec Aspose.TeX (C#)
+
 ## Introduction
 
 Si vous souhaitez améliorer vos capacités de rendu de documents dans .NET à l'aide de chiffres LaTeX, Aspose.TeX est votre solution incontournable. Dans ce guide étape par étape, nous vous guiderons dans le rendu des figures LaTeX au format SVG à l'aide d'Aspose.TeX en C#. À la fin de ce didacticiel, vous aurez une compréhension claire du processus, ce qui vous permettra d'incorporer de manière transparente des expressions et des chiffres mathématiques de haute qualité dans vos documents.
@@ -89,3 +95,9 @@ Toutes nos félicitations! Vous avez appris avec succès comment restituer des f
 ### Q5 : Ai-je besoin d’une licence temporaire ?
 
  A5 : Si nécessaire, vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

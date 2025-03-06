@@ -3,10 +3,16 @@ title: 在 Java 中覆蓋作業名稱並將終端輸出寫入 Zip
 linktitle: 在 Java 中覆蓋作業名稱並將終端輸出寫入 Zip
 second_title: Aspose.TeX Java API
 description: 了解如何使用 Aspose.TeX 覆寫作業名稱並將終端輸出寫入 Java 中的 ZIP。面向 Java 開發人員的綜合教程。
-type: docs
 weight: 11
 url: /zh-hant/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中覆蓋作業名稱並將終端輸出寫入 Zip
+
 ## 介紹
 
 在 Java 開發領域，Aspose.TeX 作為處理 TeX 檔案格式的強大工具脫穎而出。在本教程中，我們將深入研究一個特定的場景 - 覆蓋作業名稱並將終端輸出寫入 zip 檔案。本逐步指南將引導您完成使用 Aspose.TeX for Java 的過程。
@@ -126,3 +132,10 @@ A1：Aspose.TeX 是一個 Java 函式庫，允許開發人員使用 TeX 檔案�
 ### Q5：我可以在哪裡尋求有關 Aspose.TeX 的支援或提出問題？
 
  A5：訪問[Aspose.TeX 論壇](https://forum.aspose.com/c/tex/47)以尋求支持和討論。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

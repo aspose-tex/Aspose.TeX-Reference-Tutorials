@@ -3,10 +3,16 @@ title: Anular el nombre del trabajo y escribir la salida del terminal en el disc
 linktitle: Anular el nombre del trabajo y escribir la salida del terminal en el disco (C#)
 second_title: API Aspose.TeX .NET
 description: Explore cómo usar Aspose.TeX para .NET para anular los nombres de los trabajos y capturar la salida del terminal. Siga nuestra guía completa para una gestión perfecta de archivos TeX.
-type: docs
 weight: 10
 url: /es/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anular el nombre del trabajo y escribir la salida del terminal en el disco (C#)
+
 ## Introducción
 
 Bienvenido a esta guía paso a paso sobre el uso de Aspose.TeX para .NET para anular nombres de trabajos y escribir la salida del terminal en el disco en el lenguaje de programación C#. Aspose.TeX para .NET es una biblioteca poderosa que le permite trabajar sin problemas con archivos TeX y en este tutorial nos centraremos en una tarea específica: anular los nombres de los trabajos y capturar la salida del terminal.
@@ -106,3 +112,9 @@ R1: Sí, Aspose.TeX para .NET se puede integrar perfectamente con otras bibliote
 ### P5: ¿Dónde puedo encontrar la documentación de Aspose.TeX para .NET?
 
  A5: La documentación está disponible.[aquí](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Trabajar con entradas LaTeX en Java
 linktitle: Trabajar con entradas LaTeX en Java
 second_title: API de Java Aspose.TeX
 description: Administre sin esfuerzo archivos LaTeX en Java con Aspose.TeX. Explore la integración perfecta, descárguela ahora y aproveche el poder de TeX en sus proyectos Java para mejorar el procesamiento de documentos.
-type: docs
 weight: 21
 url: /es/java/working-with-lainputs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabajar con entradas LaTeX en Java
+
 ## Introducción
 
 LaTeX, un sistema de composición tipográfica conocido por su precisión en el formato de documentos, encuentra un nuevo aliado en Aspose.TeX para Java. Esta serie de tutoriales lo guiará para aprovechar el potencial de las entradas de LaTeX en Java, utilizando Aspose.TeX para optimizar sus capacidades de procesamiento de documentos.
@@ -31,3 +37,9 @@ En conclusión, estos tutoriales ofrecen una puerta de entrada a un mundo donde 
 Maneje sin esfuerzo archivos LaTeX en Java con Aspose.TeX. Descárguelo ahora para una integración perfecta y explore el poder de TeX en sus proyectos Java.
 ### [Procese archivos de entrada LaTeX desde archivos Zip en Java](./zip-archive-input/)
 Descubra una guía perfecta para procesar archivos LaTeX desde archivos zip en Java usando Aspose.TeX. Aumente sus capacidades de procesamiento de documentos sin esfuerzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

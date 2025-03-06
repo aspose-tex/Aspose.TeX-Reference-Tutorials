@@ -3,10 +3,16 @@ title: Εργασία με έξοδο XPS
 linktitle: Εργασία με έξοδο XPS
 second_title: Aspose.TeX .NET API
 description: Μετατρέψτε το TeX σε XPS χωρίς κόπο με το Aspose.TeX στο .NET. Ο οδηγός μας εξασφαλίζει απρόσκοπτη ενσωμάτωση. Εξερευνήστε το σεμινάριο Typesetting TeX σε XPS για πληροφορίες από ειδικούς.
-type: docs
 weight: 29
 url: /el/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργασία με έξοδο XPS
+
 ## Εισαγωγή
 
 Θέλετε να αξιοποιήσετε τη δύναμη του Aspose.TeX στις εφαρμογές σας .NET; Ανακαλύψτε τα ολοκληρωμένα σεμινάρια μας, ειδικά προσαρμοσμένα για εργασία με έξοδο XPS. Σε αυτό το άρθρο, θα σας καθοδηγήσουμε στη διαδικασία της αβίαστης μετατροπής εγγράφων TeX σε XPS, παρέχοντας μια απρόσκοπτη εμπειρία ενοποίησης με το Aspose.TeX.
@@ -36,3 +42,9 @@ url: /el/net/xps-output/
 ## Εργασία με Εκμάθηση εξόδου XPS
 ### [Γραπτή ρύθμιση TeX σε XPS σε .NET](./typeset-tex-to-xps/)
 Μετατρέψτε εύκολα έγγραφα TeX σε XPS σε .NET με το Aspose.TeX. Εξερευνήστε τον βήμα προς βήμα οδηγό μας για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

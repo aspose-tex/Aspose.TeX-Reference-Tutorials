@@ -3,10 +3,16 @@ title: Converteer LaTeX eenvoudig naar XPS-indeling in Java
 linktitle: Converteer LaTeX eenvoudig naar XPS-indeling in Java
 second_title: Aspose.TeX Java-API
 description: Converteer LaTeX moeiteloos naar XPS in Java met Aspose.TeX. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-type: docs
 weight: 10
 url: /nl/java/converting-lato-xps/simple-xps-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer LaTeX eenvoudig naar XPS-indeling in Java
+
 ## Invoering
 
 Wilt u LaTeX-documenten naadloos converteren naar XPS-indeling in uw Java-toepassingen? Aspose.TeX voor Java biedt een krachtige oplossing waarmee u dit gemakkelijk kunt bereiken. In deze stapsgewijze handleiding leiden we u door het proces van het converteren van LaTeX naar XPS met behulp van Aspose.TeX.
@@ -136,3 +142,9 @@ A1: Absoluut! Aspose.TeX verwerkt complexe formules naadloos tijdens het convers
 ### V5: Waar kan ik de documentatie voor Aspose.TeX vinden?
 
  A5: Raadpleeg de[documentatie](https://reference.aspose.com/tex/java/) voor uitgebreide begeleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: TeX fájlok gépelése XPS-re Java nyelven
 linktitle: TeX fájlok gépelése XPS-re Java nyelven
 second_title: Aspose.TeX Java API
 description: Az Aspose.TeX segítségével könnyedén feltárja a TeX-fájlok XPS-re szedésének titkait Java nyelven. Merüljön el oktatóanyagainkban, ahol lépésről lépésre kaphat útmutatást a zökkenőmentes dokumentumfeldolgozáshoz.
-type: docs
 weight: 30
 url: /hu/java/typesetting-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# TeX fájlok gépelése XPS-re Java nyelven
+
 ## Bevezetés
 
 Készen áll a Java dokumentumfeldolgozó játék fejlesztésére? Ne keressen tovább! Aspose.TeX for Java oktatóanyagaink a TeX-fájlok XPS-re történő szedéséről készültek, hogy zökkenőmentes megoldásokat kínálhassanak. Ebben a cikkben elmélyülünk a TeX-nek XPS-re történő szedés bonyolultságában Java nyelven külső adatfolyam segítségével, így átfogó képet kaphat a folyamatról.
@@ -37,3 +43,9 @@ Legyen szó Java-fejlesztőről, aki a dokumentumfeldolgozási képességek fejl
 ## TeX fájlok gépelése XPS-re a Java oktatóanyagokban
 ### [Írja be a TeX-et XPS-re Java nyelven külső adatfolyammal](./typeset-tex-to-xps-external-stream/)
 Tanulja meg, hogyan lehet TeX-et XPS-re szedni Java nyelven az Aspose.TeX használatával. Fedezze fel a zökkenőmentes dokumentumfeldolgozáshoz lépésről lépésre szóló útmutatót.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

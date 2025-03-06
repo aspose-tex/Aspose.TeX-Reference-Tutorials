@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.TeX में TeX आउटपुट
 linktitle: जावा के लिए Aspose.TeX में TeX आउटपुट को अनुकूलित करना
 second_title: Aspose.TeX जावा एपीआई
 description: Aspose.TeX के साथ जावा में अपने दस्तावेज़ प्रसंस्करण को बढ़ाएं। नौकरी के नामों को ओवरराइड करने, टर्मिनल आउटपुट लिखने और पीएनजी/एसवीजी के लिए लाटेक्स आंकड़ों और गणित के निर्बाध प्रतिपादन पर गाइड का अन्वेषण करें।
-type: docs
 weight: 26
 url: /hi/java/customizing-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.TeX में TeX आउटपुट को अनुकूलित करना
+
 ## परिचय
 
 क्या आप एक जावा डेवलपर हैं जो अपनी दस्तावेज़ प्रसंस्करण क्षमताओं को उन्नत करना चाहते हैं? Aspose.TeX की दुनिया में उतरें, एक शक्तिशाली उपकरण जो आपको TeX आउटपुट को सटीकता और दक्षता के साथ अनुकूलित करने की अनुमति देता है। इस लेख में, हम आपको विभिन्न अनुकूलन विकल्पों पर आवश्यक ट्यूटोरियल के माध्यम से मार्गदर्शन करेंगे।
@@ -61,3 +67,9 @@ Aspose.TeX के साथ जावा में PNG छवियों के
 Aspose.TeX का उपयोग करके जावा में SVG में आसानी से LaTeX आंकड़े प्रस्तुत करना सीखें। निर्बाध एकीकरण के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [जावा में LaTeX गणित को SVG में प्रस्तुत करें](./render-lamath-svg/)
 Aspose.TeX का उपयोग करके जावा में SVG में LaTeX गणित समीकरणों को प्रस्तुत करना सीखें। सटीक और आकर्षक परिणामों के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

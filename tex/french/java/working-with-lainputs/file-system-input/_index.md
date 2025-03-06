@@ -3,10 +3,16 @@ title: Gérer les fichiers d'entrée LaTeX à partir des systèmes de fichiers e
 linktitle: Gérer les fichiers d'entrée LaTeX à partir des systèmes de fichiers en Java
 second_title: API Java Aspose.TeX
 description: Gérez sans effort les fichiers LaTeX en Java avec Aspose.TeX. Téléchargez-le dès maintenant pour une intégration transparente et explorez la puissance de TeX dans vos projets Java.
-type: docs
 weight: 10
 url: /fr/java/working-with-lainputs/file-system-input/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer les fichiers d'entrée LaTeX à partir des systèmes de fichiers en Java
+
 ## Introduction
 
 Si vous plongez dans le monde du développement Java et avez besoin de gérer efficacement les fichiers d'entrée LaTeX des systèmes de fichiers, vous êtes au bon endroit. Ce guide étape par étape vous guidera tout au long du processus d'utilisation d'Aspose.TeX, une puissante bibliothèque Java conçue pour travailler avec les fichiers TeX et LaTeX.
@@ -116,3 +122,9 @@ A2 : Vous pouvez le télécharger[ici](https://releases.aspose.com/tex/java/).
 ### Q5 : Comment puis-je acheter Aspose.TeX ?
 
  A5 : Des options d'achat sont disponibles[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

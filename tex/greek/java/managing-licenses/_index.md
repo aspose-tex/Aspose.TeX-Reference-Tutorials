@@ -3,10 +3,16 @@ title: Διαχείριση αδειών στο Aspose.TeX για Java
 linktitle: Διαχείριση αδειών στο Aspose.TeX για Java
 second_title: Aspose.TeX Java API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.TeX για Java! Μάθετε να διαχειρίζεστε τις άδειες χωρίς κόπο - φορτώστε από αρχείο, ροή ή ρυθμίστε μια μετρημένη άδεια με τους αναλυτικούς οδηγούς μας.
-type: docs
 weight: 25
 url: /el/java/managing-licenses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση αδειών στο Aspose.TeX για Java
+
 
 ## Εισαγωγή 
 
@@ -32,3 +38,9 @@ url: /el/java/managing-licenses/
 Εξερευνήστε τη δύναμη του Aspose.TeX για Java με τον αναλυτικό οδηγό μας για τη φόρτωση αδειών TeX από ροές. Ενσωματώστε απρόσκοπτα τη διαχείριση εγγράφων TeX στις εφαρμογές σας Java.
 ### [Ορισμός Metered License για το Aspose.TeX σε Java](./set-metered-license/)
 Ξεκλειδώστε το πλήρες δυναμικό του Aspose.TeX σε Java δημιουργώντας μια μετρημένη άδεια. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

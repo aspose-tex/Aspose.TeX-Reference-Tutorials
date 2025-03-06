@@ -3,10 +3,16 @@ title: Definir licença medida para Aspose.TeX (C#)
 linktitle: Definir licença medida para Aspose.TeX (C#)
 second_title: API Aspose.TeX .NET
 description: Explore o Aspose.TeX para .NET, configure o licenciamento medido sem esforço e libere todo o potencial da manipulação de arquivos TeX em seus projetos C#.
-type: docs
 weight: 12
 url: /pt/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir licença medida para Aspose.TeX (C#)
+
 ## Introdução
 
 Aspose.TeX for .NET é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos TeX perfeitamente. Para desbloquear todo o seu potencial, é essencial configurar uma licença limitada. Isso garante que você tenha a autorização adequada para usar a biblioteca em seus aplicativos.
@@ -92,3 +98,9 @@ Configurar uma licença limitada para Aspose.TeX em C# é um processo simples. S
 ### Q5: Posso usar uma licença temporária para Aspose.TeX?
 
  A5: Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

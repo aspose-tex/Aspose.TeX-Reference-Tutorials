@@ -3,10 +3,16 @@ title: Верстка TeX в PDF на Java с внешним потоком
 linktitle: Верстка TeX в PDF на Java с внешним потоком
 second_title: API Aspose.TeX Java
 description: Узнайте, как верстать TeX в PDF на Java, используя внешние потоки с помощью Aspose.TeX. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 10
 url: /ru/java/typesetting-tex-to-pdf/typeset-tex-to-pdf-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Верстка TeX в PDF на Java с внешним потоком
+
 ## Введение
 
 В мире разработки Java создание PDF-файлов из файлов TeX является обычным требованием. Aspose.TeX для Java упрощает этот процесс, предоставляя эффективное решение для верстки TeX в PDF. В этом уроке мы познакомим вас с этапами верстки TeX в PDF с использованием внешних потоков. К концу вы будете иметь четкое представление о том, как беспрепятственно реализовать этот процесс в ваших Java-приложениях.
@@ -112,3 +118,9 @@ try {
 ### В5: Могу ли я получить временную лицензию на Aspose.TeX?
 
  О5: Да, вы можете запросить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Renderizar figuras de LaTeX con Aspose.TeX
 linktitle: Renderizar figuras de LaTeX con Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Descubra el poder de Aspose.TeX para .NET para representar figuras de LaTeX sin problemas. Guías paso a paso, ejemplos de código y más para la representación de PNG y SVG en C#.
-type: docs
 weight: 25
 url: /es/net/render-latex-figures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderizar figuras de LaTeX con Aspose.TeX
+
 ## Introducción
 
 ¿Estás listo para mejorar tu experiencia de representación de documentos en .NET? Sumérgete en el mundo de Aspose.TeX y desbloquea el potencial de renderizar figuras LaTeX sin esfuerzo para mejorar el atractivo visual de tus documentos. En esta guía completa, exploraremos dos aspectos clave: renderizar figuras de LaTeX a PNG y SVG usando Aspose.TeX en C#.
@@ -33,3 +39,9 @@ En conclusión, estos tutoriales de Aspose.TeX ofrecen más que simples fragment
 Explore una guía completa sobre cómo renderizar figuras de LaTeX a PNG usando Aspose.TeX en C#. Aprenda paso a paso con ejemplos de código.
 ### [Renderice figuras de LaTeX a SVG con Aspose.TeX (C#)](./svg-latex-figure-renderer-csharp/)
 Mejore la representación de documentos en .NET con Aspose.TeX. Aprenda a renderizar figuras de LaTeX a SVG en C# para una integración perfecta de expresiones matemáticas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

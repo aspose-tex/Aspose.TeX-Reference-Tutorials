@@ -3,10 +3,16 @@ title: Расширенный ввод и вывод в Aspose.TeX для Java
 linktitle: Расширенный ввод и вывод в Aspose.TeX для Java
 second_title: API Aspose.TeX Java
 description: Улучшите обработку Java TeX с помощью учебных пособий Aspose.TeX для Java. Научитесь указывать входные каталоги и оптимизировать потоковую обработку для расширенных проектов Java.
-type: docs
 weight: 27
 url: /ru/java/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенный ввод и вывод в Aspose.TeX для Java
+
 
 ## Введение
 
@@ -30,3 +36,9 @@ Aspose.TeX for Java представляет собой универсальны
 Улучшите обработку Java TeX с помощью Aspose.TeX для Java. Следуйте нашему пошаговому руководству, чтобы легко указать необходимые входные каталоги.
 ### [Потоковый ввод, вывод изображения и терминальный ввод в Java](./stream-input-image-output/)
 Изучите потоковый ввод, вывод изображений и ввод через терминал на Java с помощью Aspose.TeX. Подробное руководство по плавной интеграции.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

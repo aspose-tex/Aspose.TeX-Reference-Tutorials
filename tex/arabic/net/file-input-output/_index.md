@@ -3,10 +3,16 @@ title: إدخال وإخراج الملف باستخدام Aspose.TeX
 linktitle: إدخال وإخراج الملف باستخدام Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: أطلق العنان لإمكانات Aspose.TeX لـ .NET من خلال البرامج التعليمية حول إدخال الملفات وإخراجها. التعامل مع نظام الملفات بشكل رئيسي، ومدخلات ZIP، ومخرجات XPS دون عناء.
-type: docs
 weight: 22
 url: /ar/net/file-input-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدخال وإخراج الملف باستخدام Aspose.TeX
+
 ## مقدمة
 
 هل أنت مستعد للتعمق في عالم Aspose.TeX الديناميكي لـ .NET؟ يستكشف هذا الدليل الشامل تعقيدات إدخال الملفات وإخراجها، ويكشف عن قوة هذه المكتبة القوية للتعامل مع مستندات TeX وLaTeX.
@@ -32,3 +38,9 @@ url: /ar/net/file-input-output/
 اكتشف قوة Aspose.TeX لـ .NET. تعرف على كيفية التعامل بسهولة مع أنظمة الملفات وإنشاء مخرجات XPS في هذا البرنامج التعليمي الشامل.
 ### [العمل مع نظام الملفات ومدخلات ZIP في Aspose.TeX لـ .NET](./required-inputs-from-filesystem-and-zip/)
 استكشف Aspose.TeX for .NET، وهي مكتبة قوية للتعامل مع مستندات TeX وLaTeX. تحويل الملفات بكفاءة باستخدام نظام الملفات ومدخلات ZIP.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

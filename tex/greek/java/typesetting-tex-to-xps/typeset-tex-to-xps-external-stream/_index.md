@@ -3,10 +3,16 @@ title: Πληκτρολογήστε TeX σε XPS σε Java με εξωτερικ
 linktitle: Πληκτρολογήστε TeX σε XPS σε Java με εξωτερική ροή
 second_title: Aspose.TeX Java API
 description: Μάθετε πώς να στοιχειοθετείτε TeX σε XPS σε Java χρησιμοποιώντας το Aspose.TeX. Εξερευνήστε βήμα προς βήμα οδηγίες για απρόσκοπτη επεξεργασία εγγράφων.
-type: docs
 weight: 10
 url: /el/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Πληκτρολογήστε TeX σε XPS σε Java με εξωτερική ροή
+
 ## Εισαγωγή
 
 Στον κόσμο της ανάπτυξης Java, το Aspose.TeX ξεχωρίζει ως ένα ισχυρό εργαλείο για τη στοιχειοθεσία εγγράφων TeX σε διάφορες μορφές, συμπεριλαμβανομένου του XPS. Αν θέλετε να βελτιώσετε τις δυνατότητες επεξεργασίας εγγράφων της εφαρμογής Java σας, αυτό το σεμινάριο είναι προσαρμοσμένο για εσάς. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία στοιχειοθέτησης TeX σε XPS χρησιμοποιώντας Aspose.TeX για Java με εξωτερική ροή.
@@ -122,3 +128,9 @@ A1: Το Aspose.TeX εστιάζει κυρίως στην επεξεργασί�
 ### Ε5: Μπορώ να αποκτήσω μια προσωρινή άδεια για σκοπούς δοκιμής;
 
  A5: Ναι, μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

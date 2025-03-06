@@ -3,10 +3,16 @@ title: Работа с пользовательскими форматами TeX
 linktitle: Работа с пользовательскими форматами TeX в Java
 second_title: API Aspose.TeX Java
 description: Освойте верстку на Java без особых усилий с помощью Aspose.TeX. Погрузитесь в наши руководства по пользовательским форматам TeX, чтобы облегчить процесс разработки. Загрузите сейчас и улучшите свои навыки Java!
-type: docs
 weight: 29
 url: /ru/java/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с пользовательскими форматами TeX в Java
+
 ## Введение
 
 Добро пожаловать в мир Aspose.TeX для Java, где освоить набор текста станет проще простого. В этой обширной серии руководств мы познакомим вас с тонкостями работы с пользовательскими форматами TeX, помогая вам использовать всю мощь Aspose.TeX для Java.
@@ -31,3 +37,9 @@ url: /ru/java/custom-tex-formats/
 ## Работа с пользовательскими форматами TeX в учебниках по Java
 ### [Набор текста с использованием пользовательских форматов TeX в Java](./typesetting-custom-tex-formats/)
 Изучите эффективную верстку на Java с помощью Aspose.TeX. Пользовательские форматы TeX стали проще. Загрузите сейчас и получите беспрепятственный опыт разработки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Custom TeX Formats
 linktitle: Custom TeX Formats
 second_title: Aspose.TeX .NET API
 description: Unlock document generation mastery with Aspose.TeX for .NET. Learn to create custom TeX formats effortlessly in this comprehensive tutorial.
-type: docs
 weight: 31
 url: /net/custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Custom TeX Formats
+
 ## Introduction
 
 Aspose.TeX for .NET opens up a world of possibilities for document generation, and mastering the creation of custom TeX formats is a key aspect. In this tutorial, we'll delve into the intricacies of building [custom TeX formats in .NET](./create-custom-tex-formats/), empowering you to enhance document generation according to your unique requirements.
@@ -31,3 +37,9 @@ In conclusion, [creating custom TeX formats in .NET with Aspose.TeX](./create-cu
 ## Custom TeX Formats Tutorials
 ### [Creating Custom TeX Formats in .NET](./create-custom-tex-formats/)
 Unlock document generation mastery with Aspose.TeX for .NET. Create custom TeX formats effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

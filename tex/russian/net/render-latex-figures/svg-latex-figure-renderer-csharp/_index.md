@@ -3,10 +3,16 @@ title: Рендеринг рисунков LaTeX в SVG с помощью Aspose
 linktitle: Рендеринг рисунков LaTeX в SVG с помощью Aspose.TeX (C#)
 second_title: API Aspose.TeX .NET
 description: Улучшите рендеринг документов в .NET с помощью Aspose.TeX. Узнайте, как визуализировать фигуры LaTeX в SVG на C# для плавной интеграции математических выражений.
-type: docs
 weight: 11
 url: /ru/net/render-latex-figures/svg-latex-figure-renderer-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг рисунков LaTeX в SVG с помощью Aspose.TeX (C#)
+
 ## Введение
 
 Если вы хотите расширить возможности рендеринга документов в .NET с помощью фигур LaTeX, Aspose.TeX — ваше идеальное решение. В этом пошаговом руководстве мы покажем вам, как преобразовать фигуры LaTeX в SVG с помощью Aspose.TeX на C#. К концу этого руководства вы получите четкое представление о процессе, что позволит вам беспрепятственно включать в свои документы высококачественные математические выражения и цифры.
@@ -89,3 +95,9 @@ Console.Out.WriteLine("Size: " + size);
 ### В5: Нужна ли мне временная лицензия?
 
  О5: При необходимости вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

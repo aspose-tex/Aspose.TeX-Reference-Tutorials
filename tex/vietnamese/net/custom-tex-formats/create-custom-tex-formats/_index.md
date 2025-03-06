@@ -3,10 +3,16 @@ title: Tạo định dạng TeX tùy chỉnh trong .NET
 linktitle: Tạo định dạng TeX tùy chỉnh trong .NET
 second_title: API Aspose.TeX .NET
 description: Mở khóa khả năng làm chủ việc tạo tài liệu bằng Aspose.TeX cho .NET. Tạo các định dạng TeX tùy chỉnh một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/custom-tex-formats/create-custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo định dạng TeX tùy chỉnh trong .NET
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET năng động, việc tối ưu hóa việc tạo và sắp chữ tài liệu là rất quan trọng. Aspose.TeX for .NET trao quyền cho các nhà phát triển tùy chỉnh các định dạng TeX, nâng cao tính linh hoạt và kiểm soát việc tạo tài liệu. Hướng dẫn này hướng dẫn bạn qua quy trình tạo các định dạng TeX tùy chỉnh trong .NET bằng Aspose.TeX.
@@ -99,3 +105,9 @@ Câu trả lời 1: Có, Aspose.TeX được thiết kế để tích hợp li�
 ### Câu hỏi 5: Tôi có thể tìm tài liệu về Aspose.TeX cho .NET ở đâu?
 
  A5: Tham khảo tài liệu toàn diện[đây](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

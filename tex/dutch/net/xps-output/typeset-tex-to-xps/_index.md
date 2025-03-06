@@ -3,10 +3,16 @@ title: TeX naar XPS zetten in .NET
 linktitle: TeX naar XPS zetten in .NET
 second_title: Aspose.TeX .NET-API
 description: Converteer Moeiteloos TeX-documenten naar XPS in .NET met Aspose.TeX. Ontdek onze stapsgewijze handleiding voor een naadloze integratie-ervaring.
-type: docs
 weight: 10
 url: /nl/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# TeX naar XPS zetten in .NET
+
 ## Invoering
 
 Welkom bij onze stapsgewijze handleiding voor het zetten van TeX naar XPS in .NET met behulp van de krachtige Aspose.TeX-bibliotheek. Als u TeX-documenten naadloos naar XPS-indeling wilt converteren in uw .NET-toepassingen, bent u hier aan het juiste adres. In deze zelfstudie leiden we u door het hele proces, waarbij we elke stap opsplitsen om een soepele implementatie te garanderen.
@@ -94,3 +100,9 @@ A2: Absoluut! Aspose.TeX is beschikbaar voor zowel commercieel als persoonlijk g
 ### Vraag 5: Is er een gratis proefversie beschikbaar?
 
  A5: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

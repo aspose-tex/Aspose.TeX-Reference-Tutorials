@@ -3,10 +3,16 @@ title: Ορισμός Metered License για το Aspose.TeX σε Java
 linktitle: Ορισμός Metered License για το Aspose.TeX σε Java
 second_title: Aspose.TeX Java API
 description: Ξεκλειδώστε το πλήρες δυναμικό του Aspose.TeX σε Java δημιουργώντας μια μετρημένη άδεια. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 12
 url: /el/java/managing-licenses/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορισμός Metered License για το Aspose.TeX σε Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για τη ρύθμιση μιας μετρημένης άδειας για το Aspose.TeX σε Java! Το Aspose.TeX είναι μια ισχυρή βιβλιοθήκη που παρέχει λειτουργίες για εργασία με αρχεία TeX σε εφαρμογές Java. Για να ξεκλειδώσετε πλήρως τις δυνατότητές του, είναι απαραίτητο να κατανοήσετε πώς να ρυθμίσετε μια μετρημένη άδεια. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία, αναλύοντάς την σε βήματα που μπορείτε να ακολουθήσετε εύκολα.
@@ -77,3 +83,9 @@ new Metered().setMeteredKey(
 ### Ε5: Χρειάζεστε βοήθεια ή έχετε ερωτήσεις;
 
  A5: Επισκεφθείτε το[Φόρουμ υποστήριξης Aspose.TeX](https://forum.aspose.com/c/tex/47) για βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

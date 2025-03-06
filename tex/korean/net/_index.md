@@ -1,12 +1,17 @@
 ---
 title: .NET용 Aspose.TeX의 종합 튜토리얼 및 예제
 linktitle: .NET 튜토리얼용 Aspose.TeX
-type: docs
 weight: 10
 url: /ko/net/
 description: .NET용 Aspose.TeX를 사용하여 쉽게 LaTeX 디자인을 마스터하세요. 원활한 통합을 위해 다운로드하고 고급 형식 지정, 파일 처리, 라이선스 등을 살펴보세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.TeX의 종합 튜토리얼 및 예제
+
 
 ## 소개
 
@@ -80,3 +85,9 @@ Aspose.TeX를 사용하여 .NET에서 LaTeX 수학 방정식을 SVG로 렌더링
 .NET용 Aspose.TeX를 사용하여 문서 생성 기술을 활용하세요. 이 포괄적인 튜토리얼에서 손쉽게 사용자 정의 TeX 형식을 만드는 방법을 알아보세요.
 ### [Zip 파일 입력 및 출력](./zip-file-io/)
 Zip 파일 입력 및 출력 튜토리얼을 통해 .NET용 Aspose.TeX의 잠재력을 활용해 보세요. 귀하의 애플리케이션에 대한 ZIP 파일 처리, 문서 처리를 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

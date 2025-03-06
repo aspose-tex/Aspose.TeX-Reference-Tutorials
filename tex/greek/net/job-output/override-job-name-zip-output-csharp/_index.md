@@ -3,10 +3,16 @@ title: Παράκαμψη ονόματος εργασίας και εγγραφ�
 linktitle: Παράκαμψη ονόματος εργασίας και εγγραφή της εξόδου τερματικού σε Zip (C#)
 second_title: Aspose.TeX .NET API
 description: Μάθετε πώς να παρακάμπτετε τα ονόματα εργασιών και να γράφετε την έξοδο τερματικού σε ένα αρχείο ZIP χρησιμοποιώντας το Aspose.TeX για .NET. Οδηγός βήμα προς βήμα με παραδείγματα C#.
-type: docs
 weight: 11
 url: /el/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Παράκαμψη ονόματος εργασίας και εγγραφή της εξόδου τερματικού σε Zip (C#)
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να παρακάμψετε το όνομα εργασίας και να εγγράψετε την έξοδο τερματικού σε ένα αρχείο ZIP χρησιμοποιώντας το Aspose.TeX για .NET. Το Aspose.TeX είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με έγγραφα TeX στις εφαρμογές τους .NET. Σε αυτό το συγκεκριμένο παράδειγμα, θα επικεντρωθούμε σε μια κοινή εργασία - τη σύνταξη της εξόδου τερματικού σε ένα αρχείο ZIP με τη δυνατότητα παράκαμψης του ονόματος εργασίας.
@@ -95,3 +101,9 @@ A1: Ναι, το Aspose.TeX για .NET είναι συμβατό με όλες 
 ### Ε5: Πού μπορώ να αγοράσω το Aspose.TeX για .NET;
 
  A5: Μπορείτε να αγοράσετε Aspose.TeX[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

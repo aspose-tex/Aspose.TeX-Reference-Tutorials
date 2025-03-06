@@ -3,10 +3,16 @@ title: Java でのカスタム TeX フォーマットの作成
 linktitle: Java でのカスタム TeX フォーマットの作成
 second_title: Aspose.TeX Java API
 description: Aspose.TeX を使用して Java での組版の一貫性を高めます。シームレスで効率的なドキュメントの書式設定を行うためのカスタム TeX 形式の作成に関するチュートリアルを詳しく見てみましょう。
-type: docs
 weight: 24
 url: /ja/java/custom-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でのカスタム TeX フォーマットの作成
+
 ## 導入
 
 Aspose.TeX for Java の機能を活用して、比類のない組版の一貫性を実現するための包括的なガイドへようこそ。このチュートリアル シリーズでは、カスタム TeX 形式の作成方法を詳しく掘り下げ、ドキュメントの書式設定を簡単に向上できるようにします。
@@ -41,3 +47,9 @@ Aspose.TeX for Java チュートリアルでこの旅に乗り出し、ドキュ
 ## Java でのカスタム TeX 形式の作成のチュートリアル
 ### [Java で一貫した組版のためのカスタム TeX フォーマットを作成する](./creating-custom-formats/)
 Aspose.TeX を使用して Java での組版の一貫性を強化します。カスタム TeX 形式を簡単に作成できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

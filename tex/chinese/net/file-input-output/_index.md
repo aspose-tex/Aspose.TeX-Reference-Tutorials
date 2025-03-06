@@ -3,10 +3,16 @@ title: 使用 Aspose.TeX 进行文件输入和输出
 linktitle: 使用 Aspose.TeX 进行文件输入和输出
 second_title: Aspose.TeX .NET API
 description: 通过文件输入和输出教程释放 Aspose.TeX for .NET 的潜力。轻松掌握文件系统处理、ZIP 输入和 XPS 输出。
-type: docs
 weight: 22
 url: /zh/net/file-input-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.TeX 进行文件输入和输出
+
 ## 介绍
 
 您准备好深入研究 Aspose.TeX for .NET 的动态世界了吗？这本综合指南探讨了文件输入和输出的复杂性，揭示了这个强大的 TeX 和 LaTeX 文档处理库的强大功能。
@@ -32,3 +38,9 @@ url: /zh/net/file-input-output/
 探索 Aspose.TeX for .NET 的强大功能。在这个综合教程中了解如何轻松处理文件系统并生成 XPS 输出。
 ### [在 Aspose.TeX for .NET 中使用文件系统和 ZIP 输入](./required-inputs-from-filesystem-and-zip/)
 探索 Aspose.TeX for .NET，这是一个用于 TeX 和 LaTeX 文档处理的强大库。使用文件系统和 ZIP 输入高效转换文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

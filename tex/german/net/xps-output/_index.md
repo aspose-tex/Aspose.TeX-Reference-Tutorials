@@ -3,10 +3,16 @@ title: Arbeiten mit der XPS-Ausgabe
 linktitle: Arbeiten mit der XPS-Ausgabe
 second_title: Aspose.TeX .NET-API
 description: Konvertieren Sie TeX mühelos in XPS mit Aspose.TeX in .NET. Unser Leitfaden sorgt für eine nahtlose Integration. Entdecken Sie das Tutorial zum Satz von TeX in XPS, um Einblicke von Experten zu erhalten.
-type: docs
 weight: 29
 url: /de/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeiten mit der XPS-Ausgabe
+
 ## Einführung
 
 Möchten Sie die Leistungsfähigkeit von Aspose.TeX in Ihren .NET-Anwendungen nutzen? Tauchen Sie ein in unsere umfassenden Tutorials, die speziell auf die Arbeit mit der XPS-Ausgabe zugeschnitten sind. In diesem Artikel führen wir Sie durch den Prozess der mühelosen Konvertierung von TeX-Dokumenten in XPS und sorgen so für eine nahtlose Integration mit Aspose.TeX.
@@ -36,3 +42,9 @@ Zusammenfassend lässt sich sagen, dass die Beherrschung der Kunst, TeX in XPS i
 ## Tutorials zum Arbeiten mit XPS-Ausgabe
 ### [Satz von TeX zu XPS in .NET](./typeset-tex-to-xps/)
 Konvertieren Sie mit Aspose.TeX mühelos TeX-Dokumente in XPS in .NET. Entdecken Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

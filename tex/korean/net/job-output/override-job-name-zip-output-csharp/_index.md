@@ -3,10 +3,16 @@ title: 작업 이름 재정의 및 터미널 출력을 Zip에 쓰기(C#)
 linktitle: 작업 이름 재정의 및 터미널 출력을 Zip에 쓰기(C#)
 second_title: Aspose.TeX .NET API
 description: .NET용 Aspose.TeX를 사용하여 작업 이름을 재정의하고 터미널 출력을 ZIP 파일에 쓰는 방법을 알아보세요. C# 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 11
 url: /ko/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 작업 이름 재정의 및 터미널 출력을 Zip에 쓰기(C#)
+
 ## 소개
 
 이 튜토리얼에서는 작업 이름을 재정의하고 .NET용 Aspose.TeX를 사용하여 ZIP 파일에 터미널 출력을 쓰는 방법을 살펴보겠습니다. Aspose.TeX는 개발자가 .NET 애플리케이션에서 TeX 문서로 작업할 수 있게 해주는 강력한 라이브러리입니다. 이 특정 예에서는 작업 이름을 재정의하는 기능을 사용하여 터미널 출력을 ZIP 파일에 쓰는 일반적인 작업에 중점을 둘 것입니다.
@@ -95,3 +101,9 @@ A1: 예, .NET용 Aspose.TeX는 모든 .NET 언어와 호환됩니다.
 ### Q5: .NET용 Aspose.TeX를 어디서 구입할 수 있나요?
 
  A5: Aspose.TeX를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

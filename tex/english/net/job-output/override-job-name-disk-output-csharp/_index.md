@@ -3,10 +3,16 @@ title: Override Job Name and Write Terminal Output to Disk (C#)
 linktitle: Override Job Name and Write Terminal Output to Disk (C#)
 second_title: Aspose.TeX .NET API
 description: Explore how to use Aspose.TeX for .NET to override job names and capture terminal output. Follow our comprehensive guide for seamless TeX file management.
-type: docs
 weight: 10
 url: /net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Override Job Name and Write Terminal Output to Disk (C#)
+
 ## Introduction
 
 Welcome to this step-by-step guide on using Aspose.TeX for .NET to override job names and write terminal output to disk in the C# programming language. Aspose.TeX for .NET is a powerful library that allows you to seamlessly work with TeX files, and in this tutorial, we will focus on a specific task: overriding job names and capturing terminal output.
@@ -106,3 +112,10 @@ A4: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/t
 ### Q5: Where can I find the documentation for Aspose.TeX for .NET?
 
 A5: The documentation is available [here](https://reference.aspose.com/tex/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

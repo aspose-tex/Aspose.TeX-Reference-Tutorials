@@ -3,10 +3,16 @@ title: Jobnamen überschreiben und Terminalausgabe auf Festplatte schreiben (C#)
 linktitle: Jobnamen überschreiben und Terminalausgabe auf Festplatte schreiben (C#)
 second_title: Aspose.TeX .NET-API
 description: Erfahren Sie, wie Sie Aspose.TeX für .NET verwenden, um Jobnamen zu überschreiben und Terminalausgaben zu erfassen. Befolgen Sie unseren umfassenden Leitfaden für eine nahtlose TeX-Dateiverwaltung.
-type: docs
 weight: 10
 url: /de/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jobnamen überschreiben und Terminalausgabe auf Festplatte schreiben (C#)
+
 ## Einführung
 
 Willkommen zu dieser Schritt-für-Schritt-Anleitung zur Verwendung von Aspose.TeX für .NET zum Überschreiben von Jobnamen und zum Schreiben von Terminalausgaben auf die Festplatte in der Programmiersprache C#. Aspose.TeX für .NET ist eine leistungsstarke Bibliothek, die Ihnen die nahtlose Arbeit mit TeX-Dateien ermöglicht. In diesem Tutorial konzentrieren wir uns auf eine bestimmte Aufgabe: das Überschreiben von Jobnamen und das Erfassen der Terminalausgabe.
@@ -106,3 +112,9 @@ A1: Ja, Aspose.TeX für .NET kann nahtlos in andere .NET-Bibliotheken integriert
 ### F5: Wo finde ich die Dokumentation für Aspose.TeX für .NET?
 
  A5: Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

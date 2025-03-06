@@ -3,10 +3,16 @@ title: Kết xuất LaTeX Math thành PNG bằng Aspose.TeX (C#)
 linktitle: Kết xuất LaTeX Math thành PNG bằng Aspose.TeX (C#)
 second_title: API Aspose.TeX .NET
 description: Tìm hiểu cách hiển thị toán học LaTeX thành PNG trong C# bằng Aspose.TeX. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/net/render-latex-math/png-latex-math-renderer-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất LaTeX Math thành PNG bằng Aspose.TeX (C#)
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách hiển thị toán học LaTeX sang PNG bằng Aspose.TeX cho .NET! Aspose.TeX là một thư viện mạnh mẽ cho phép bạn làm việc với các tài liệu LaTeX theo chương trình trong các ứng dụng .NET của mình. Trong hướng dẫn này, chúng ta sẽ tập trung vào một nhiệm vụ cụ thể: hiển thị các phương trình toán học LaTeX thành hình ảnh PNG bằng C#.
@@ -118,3 +124,10 @@ Câu trả lời 4: Có, Aspose.TeX hỗ trợ hiển thị ở nhiều định 
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.TeX không?
 
  A5: Có, hãy truy cập[diễn đàn Aspose.TeX](https://forum.aspose.com/c/tex/47)để được cộng đồng hỗ trợ và thảo luận.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Sazba TeXu na XPS v .NET
 linktitle: Sazba TeXu na XPS v .NET
 second_title: Aspose.TeX .NET API
 description: Bez námahy převádějte TeXové dokumenty na XPS v .NET pomocí Aspose.TeX. Prozkoumejte našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 10
 url: /cs/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sazba TeXu na XPS v .NET
+
 ## Úvod
 
 Vítejte v našem podrobném průvodci o sazbě TeXu na XPS v .NET pomocí výkonné knihovny Aspose.TeX. Pokud hledáte bezproblémový převod dokumentů TeX do formátu XPS ve vašich aplikacích .NET, jste na správném místě. V tomto tutoriálu vás provedeme celým procesem a rozebereme každý krok, abychom zajistili hladkou implementaci.
@@ -94,3 +100,9 @@ A2: Rozhodně! Aspose.TeX je k dispozici pro komerční i osobní použití.
 ### Q5: Je k dispozici bezplatná zkušební verze?
 
  A5: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java でのストリーム入力、イメージ出力、ターミナル�
 linktitle: Java でのストリーム入力、イメージ出力、ターミナル入力
 second_title: Aspose.TeX Java API
 description: Aspose.TeX を使用して、Java でのストリーム入力、画像出力、ターミナル入力を学習します。シームレスな統合のための包括的なチュートリアル。
-type: docs
 weight: 11
 url: /ja/java/advanced-io/stream-input-image-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でのストリーム入力、イメージ出力、ターミナル入力
+
 ## 導入
 
 Aspose.TeX for Java は、開発者が TeX ファイルを操作できるようにする強力なライブラリであり、高品質のドキュメントの作成と操作を容易にします。このチュートリアルでは、Aspose.TeX を使用して Java でストリーム入力を取得し、画像出力を生成し、端末入力を処理するプロセスについて説明します。
@@ -134,3 +140,9 @@ A2：もちろんです！ Aspose.TeX には、出力画像を保存するため
 ### Q5: Aspose.TeX ドキュメントに関する追加のリソースはありますか?
 
  A5: 包括的な内容を探索する[ドキュメンテーション](https://reference.aspose.com/tex/java/)詳細な洞察と例については、
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

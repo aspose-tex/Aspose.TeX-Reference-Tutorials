@@ -3,10 +3,16 @@ title: โหลดใบอนุญาต TeX จากสตรีมใน J
 linktitle: โหลดใบอนุญาต TeX จากสตรีมใน Java
 second_title: Aspose.TeX Java API
 description: สำรวจพลังของ Aspose.TeX สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนเกี่ยวกับการโหลดใบอนุญาต TeX จากสตรีม ผสานรวมการจัดการเอกสาร TeX เข้ากับแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น
-type: docs
 weight: 11
 url: /th/java/managing-licenses/load-license-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# โหลดใบอนุญาต TeX จากสตรีมใน Java
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose.TeX สำหรับ Java ไลบรารีอันทรงพลังที่ทำให้การจัดการเอกสาร TeX และงานการแปลงง่ายขึ้น ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการโหลดสิทธิ์การใช้งาน TeX จากสตรีมใน Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นด้วย Aspose.TeX คำแนะนำทีละขั้นตอนนี้จะช่วยให้คุณรวมใบอนุญาตเข้ากับแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น
@@ -89,3 +95,9 @@ System.out.println("License set successfully.");
 ### คำถามที่ 5: คุณมีใบอนุญาตชั่วคราวหรือไม่
 
  A5: ได้ สามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

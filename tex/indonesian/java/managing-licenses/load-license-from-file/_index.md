@@ -3,10 +3,16 @@ title: Muat Lisensi TeX dari File di Java
 linktitle: Muat Lisensi TeX dari File di Java
 second_title: Aspose.TeX Java API
 description: Temukan kekuatan Aspose.TeX untuk Java. Memuat lisensi TeX dengan mudah dari file menggunakan panduan langkah demi langkah kami.
-type: docs
 weight: 10
 url: /id/java/managing-licenses/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Muat Lisensi TeX dari File di Java
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif kami tentang memanfaatkan kemampuan Aspose.TeX untuk Java! Baik Anda seorang pengembang berpengalaman atau baru memulai pemrosesan TeX di Java, tutorial ini akan memandu Anda melalui proses memuat lisensi TeX dari sebuah file. Pada akhirnya, Anda akan dibekali dengan pengetahuan untuk mengintegrasikan Aspose.TeX dengan lancar ke dalam proyek Java Anda.
@@ -77,3 +83,9 @@ Dalam tutorial ini, kami membahas langkah-langkah penting untuk mengintegrasikan
 ### Q5: Di mana saya dapat menemukan dokumentasinya?
 
  A5: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/tex/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

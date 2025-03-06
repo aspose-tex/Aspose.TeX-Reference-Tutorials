@@ -3,10 +3,16 @@ title: LaTeX в XPS в .NET — простое преобразование с �
 linktitle: LaTeX в XPS в .NET — простое преобразование с помощью Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Легко конвертируйте LaTeX в XPS в .NET с помощью Aspose.TeX. Качественный, настраиваемый и эффективный.
-type: docs
 weight: 13
 url: /ru/net/latex-conversion/to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# LaTeX в XPS в .NET — простое преобразование с помощью Aspose.TeX
+
 ## Введение
 
 Вы ищете простой способ конвертировать документы LaTeX в формат XPS в своих приложениях .NET? Aspose.TeX для .NET предоставляет мощное решение этой задачи, делая процесс преобразования простым и эффективным. Это пошаговое руководство проведет вас через процесс преобразования LaTeX в XPS с помощью Aspose.TeX, гарантируя получение точных и высококачественных результатов.
@@ -177,3 +183,9 @@ new TeXJob(Path.Combine("Your Input Directory", "sample.ltx"), new XpsDevice(), 
 ### В5: Есть ли образцы документов для тестирования?
 
  A5: Изучите примеры Aspose.TeX[здесь](https://github.com/aspose-tex/Aspose.TeX-for-.NET).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

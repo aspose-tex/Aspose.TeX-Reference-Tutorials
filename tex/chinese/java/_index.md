@@ -1,12 +1,17 @@
 ---
 title: Aspose.TeX for Java 的综合教程和示例
 linktitle: Aspose.TeX Java 教程
-type: docs
 weight: 10
 url: /zh/java/
 description: 轻松地将 Aspose.TeX Java 集成到您的项目中！探索 LaTeX 转 PDF、XPS、图像等的教程。使用我们的指南优化文档处理。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX for Java 的综合教程和示例
+
 
 
 ## 介绍
@@ -87,3 +92,9 @@ is_root: true
 使用 Aspose.TeX 轻松解锁在 Java 中将 TeX 文件排版为 XPS 的秘密。深入研究我们的教程，获取有关无缝文档处理的分步指导。
 ### [在 Aspose.TeX for Java 中处理 ZIP 档案](./zip-archives/)
 通过我们关于处理 ZIP 档案的综合教程来释放 Aspose.TeX for Java 的强大功能。在指导下无缝优化输入和输出流程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 指定 Aspose.TeX 所需的输入目录 (C#)
 linktitle: 指定 Aspose.TeX 所需的输入目录 (C#)
 second_title: Aspose.TeX .NET API
 description: 探索 Aspose.TeX for .NET，这是一个用于无缝 TeX 集成的强大库。请遵循我们的分步指南。
-type: docs
 weight: 10
 url: /zh/net/advanced-io/required-input-directory-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 指定 Aspose.TeX 所需的输入目录 (C#)
+
 ## 介绍
 
 在文档处理和排版领域，Aspose.TeX for .NET 是开发人员的强大工具。它有助于在 .NET 应用程序中无缝地创建和操作 TeX 文件。本文作为综合指南，将 Aspose.TeX for .NET 的使用分解为易于遵循的步骤。
@@ -123,3 +129,9 @@ A4：是的，您可以探索免费试用版[这里](https://releases.aspose.com
 ### Q5：如何获得 Aspose.TeX for .NET 的临时许可证？
 
  A5：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

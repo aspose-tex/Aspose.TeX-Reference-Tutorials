@@ -3,10 +3,16 @@ title: Felülírja a feladat nevét és írja be a terminál kimenetét Java nye
 linktitle: Felülírja a feladat nevét és írja be a terminál kimenetét Java nyelven
 second_title: Aspose.TeX Java API
 description: Fedezze fel a lépésenkénti útmutatót a jobnevek felülírásáról és a terminálkimenet írásáról az Aspose.TeX for Java használatával. Javítsa dokumentumfeldolgozását hatékony testreszabási lehetőségekkel.
-type: docs
 weight: 10
 url: /hu/java/customizing-output/override-job-name-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Felülírja a feladat nevét és írja be a terminál kimenetét Java nyelven
+
 ## Bevezetés
 
 Az Aspose.TeX for Java hatékony szolgáltatásokat nyújt a TeX fájlokkal való munkavégzéshez, lehetővé téve a fejlesztők számára a TeX dokumentumfeldolgozás kezelését és testreszabását. Ebben az oktatóanyagban végigvezetjük a feladat nevének felülbírálásán és a terminálkimenet fájlrendszerbe írásán a Java Aspose.TeX használatával.
@@ -104,3 +110,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan használható az Aspose.TeX for 
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.TeX-et Java-hoz?
 
  A5: Látogassa meg a[vásárlási oldal](https://purchase.aspose.com/buy) hogy szerezzen licencet az Aspose.TeX for Java számára.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

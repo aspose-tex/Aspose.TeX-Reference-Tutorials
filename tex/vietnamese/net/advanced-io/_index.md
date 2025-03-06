@@ -3,10 +3,16 @@ title: Đầu vào và đầu ra Aspose.TeX nâng cao
 linktitle: Đầu vào và đầu ra Aspose.TeX nâng cao
 second_title: API Aspose.TeX .NET
 description: Khám phá sức mạnh của Aspose.TeX dành cho .NET với các hướng dẫn nâng cao của chúng tôi. Tìm hiểu cách chỉ định thư mục đầu vào và luồng chính, hình ảnh và đầu vào đầu cuối trong C#.
-type: docs
 weight: 27
 url: /vi/net/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đầu vào và đầu ra Aspose.TeX nâng cao
+
 ## Giới thiệu
 
 Aspose.TeX for .NET là một công cụ thay đổi cuộc chơi trong tích hợp TeX liền mạch, cung cấp cho các nhà phát triển một thư viện mạnh mẽ để nâng cao khả năng xử lý tài liệu. Trong bài viết này, chúng tôi đi sâu vào các hướng dẫn nâng cao tập trung vào việc chỉ định thư mục đầu vào và làm chủ các luồng, hình ảnh và đầu vào đầu cuối trong C#.
@@ -29,3 +35,9 @@ Tóm lại, những hướng dẫn này đóng vai trò là cánh cổng giúp b
 Khám phá Aspose.TeX for .NET, một thư viện mạnh mẽ để tích hợp TeX liền mạch. Thực hiện theo hướng dẫn từng bước của chúng tôi.
 ### [Luồng chính, hình ảnh và đầu vào đầu cuối trong Aspose.TeX cho C#](./stream-input-image-output-terminal-input-csharp/)
 Khám phá sức mạnh của Aspose.TeX dành cho các luồng chính, hình ảnh và đầu vào đầu cuối C# một cách dễ dàng. Tải xuống ngay để xử lý tài liệu liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

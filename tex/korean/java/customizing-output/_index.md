@@ -3,10 +3,16 @@ title: Java용 Aspose.TeX에서 TeX 출력 사용자 정의
 linktitle: Java용 Aspose.TeX에서 TeX 출력 사용자 정의
 second_title: Aspose.TeX 자바 API
 description: Aspose.TeX를 사용하여 Java에서 문서 처리를 강화하세요. 작업 이름 재정의, 터미널 출력 작성, LaTeX 수치 및 수학을 PNG/SVG로 원활하게 렌더링하는 방법에 대한 가이드를 살펴보세요.
-type: docs
 weight: 26
 url: /ko/java/customizing-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.TeX에서 TeX 출력 사용자 정의
+
 ## 소개
 
 문서 처리 능력을 향상시키려는 Java 개발자이신가요? TeX 출력을 정확하고 효율적으로 사용자 정의할 수 있는 강력한 도구인 Aspose.TeX의 세계에 빠져보세요. 이 기사에서는 다양한 사용자 정의 옵션에 대한 필수 튜토리얼을 안내합니다.
@@ -61,3 +67,9 @@ Aspose.TeX를 사용하여 LaTeX 수학 방정식을 Java의 PNG 이미지로 �
 Aspose.TeX를 사용하여 LaTeX 수치를 Java의 SVG로 쉽게 렌더링하는 방법을 알아보세요. 원활한 통합을 위해 이 단계별 가이드를 따르세요.
 ### [LaTeX Math를 Java에서 SVG로 렌더링](./render-lamath-svg/)
 Aspose.TeX를 사용하여 LaTeX 수학 방정식을 Java의 SVG로 렌더링하는 방법을 알아보세요. 정확하고 시각적으로 매력적인 결과를 얻으려면 단계별 가이드를 따르십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

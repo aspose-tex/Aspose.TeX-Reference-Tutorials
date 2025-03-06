@@ -3,10 +3,16 @@ title: Tentukan Direktori Input yang Diperlukan di Java
 linktitle: Tentukan Direktori Input yang Diperlukan di Java
 second_title: Aspose.TeX Java API
 description: Tingkatkan pemrosesan Java TeX dengan Aspose.TeX untuk Java. Ikuti panduan langkah demi langkah kami untuk menentukan direktori masukan yang diperlukan dengan lancar.
-type: docs
 weight: 10
 url: /id/java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tentukan Direktori Input yang Diperlukan di Java
+
 ## Perkenalan
 
 Apakah Anda ingin meningkatkan kemampuan aplikasi Java Anda dalam menangani pekerjaan TeX secara efektif? Aspose.TeX untuk Java adalah solusi yang Anda cari! Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses menentukan direktori input yang diperlukan di Java menggunakan Aspose.TeX.
@@ -104,3 +110,9 @@ Aspose.TeX untuk Java memberdayakan pengembang untuk menangani pekerjaan TeX den
 ### Q5: Bagaimana cara membeli Aspose.TeX untuk Java?
 
  A5: Untuk membeli, kunjungi halaman pembelian[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

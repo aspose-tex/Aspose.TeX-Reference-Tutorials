@@ -3,10 +3,16 @@ title: التعامل مع ملفات إدخال LaTeX من أنظمة المل�
 linktitle: التعامل مع ملفات إدخال LaTeX من أنظمة الملفات في Java
 second_title: Aspose.TeX جافا API
 description: تعامل بسهولة مع ملفات LaTeX في Java باستخدام Aspose.TeX. قم بالتنزيل الآن للتمتع بالتكامل السلس واستكشاف قوة TeX في مشاريع Java الخاصة بك.
-type: docs
 weight: 10
 url: /ar/java/working-with-lainputs/file-system-input/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع ملفات إدخال LaTeX من أنظمة الملفات في Java
+
 ## مقدمة
 
 إذا كنت تغوص في عالم تطوير Java وتحتاج إلى التعامل مع ملفات إدخال LaTeX من أنظمة الملفات بكفاءة، فقد وصلت إلى المكان الصحيح. سيرشدك هذا الدليل المفصّل خطوة بخطوة خلال العملية باستخدام Aspose.TeX، وهي مكتبة Java قوية مصممة للعمل مع ملفات TeX وLaTeX.
@@ -116,3 +122,9 @@ new TeXJob("Your Input Directory" + "required-input-fs.tex", new ImageDevice(), 
 ### س5: كيف يمكنني شراء Aspose.TeX؟
 
  ج5: خيارات الشراء متاحة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

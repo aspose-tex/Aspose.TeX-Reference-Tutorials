@@ -3,10 +3,16 @@ title: Bekerja dengan Keluaran XPS
 linktitle: Bekerja dengan Keluaran XPS
 second_title: Aspose.TeX .NET API
 description: Konversikan TeX ke XPS dengan mudah menggunakan Aspose.TeX di .NET. Panduan kami memastikan integrasi yang lancar. Jelajahi tutorial Typesetting TeX ke XPS untuk wawasan ahli.
-type: docs
 weight: 29
 url: /id/net/xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Keluaran XPS
+
 ## Perkenalan
 
 Apakah Anda ingin memanfaatkan kekuatan Aspose.TeX dalam aplikasi .NET Anda? Selami tutorial komprehensif kami, yang dirancang khusus untuk bekerja dengan keluaran XPS. Dalam artikel ini, kami akan memandu Anda melalui proses konversi dokumen TeX ke XPS dengan mudah, memberikan pengalaman integrasi yang lancar dengan Aspose.TeX.
@@ -36,3 +42,9 @@ Kesimpulannya, menguasai seni Typesetting TeX ke XPS di .NET kini berada dalam j
 ## Bekerja dengan Tutorial Output XPS
 ### [Mengetik TeX ke XPS di .NET](./typeset-tex-to-xps/)
 Konversikan dokumen TeX ke XPS dengan mudah di .NET dengan Aspose.TeX. Jelajahi panduan langkah demi langkah kami untuk pengalaman integrasi yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

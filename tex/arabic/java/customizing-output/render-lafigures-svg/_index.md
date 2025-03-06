@@ -3,10 +3,16 @@ title: تقديم أرقام LaTeX إلى SVG في Java
 linktitle: تقديم أرقام LaTeX إلى SVG في Java
 second_title: Aspose.TeX جافا API
 description: تعرف على كيفية عرض أشكال LaTeX إلى SVG في Java بسهولة باستخدام Aspose.TeX. اتبع هذا الدليل خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 14
 url: /ar/java/customizing-output/render-lafigures-svg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم أرقام LaTeX إلى SVG في Java
+
 ## مقدمة
 
 يمكن أن يكون إنشاء أشكال LaTeX وعرضها في Java مهمة معقدة ولكنها حاسمة لمختلف التطبيقات. في هذا البرنامج التعليمي، سوف نستكشف كيفية عرض أشكال LaTeX إلى SVG باستخدام Aspose.TeX لـ Java. يوفر Aspose.TeX وظائف قوية للتعامل مع مستندات LaTeX وتحويلها إلى تنسيقات مختلفة، بما في ذلك SVG.
@@ -118,3 +124,9 @@ System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 ### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.TeX for Java؟
 
  ج5: راجع[وثائق Aspose.TeX](https://reference.aspose.com/tex/java/) للحصول على معلومات شاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

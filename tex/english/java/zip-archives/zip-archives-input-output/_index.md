@@ -3,10 +3,16 @@ title: Using ZIP Archives for Input and Output in Aspose.TeX Java
 linktitle: Using ZIP Archives for Input and Output in Aspose.TeX Java
 second_title: Aspose.TeX Java API
 description: Enhance Java development with Aspose.TeX! Learn to use ZIP archives for efficient input and output. Follow our step-by-step guide now.
-type: docs
 weight: 10
 url: /java/zip-archives/zip-archives-input-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Using ZIP Archives for Input and Output in Aspose.TeX Java
+
 ## Introduction
 Embarking on Java development, Aspose.TeX proves itself invaluable for typesetting and converting TeX files. This tutorial focuses on harnessing ZIP archives in Aspose.TeX for Java, a skillful approach to managing input and output directories effectively.
 ## Prerequisites
@@ -133,3 +139,10 @@ A4: Obtain temporary licenses [here](https://purchase.aspose.com/temporary-licen
 ### Q5: Where can I seek support or ask questions?
 
 A5: Visit the Aspose.TeX forum [here](https://forum.aspose.com/c/tex/47) for community support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

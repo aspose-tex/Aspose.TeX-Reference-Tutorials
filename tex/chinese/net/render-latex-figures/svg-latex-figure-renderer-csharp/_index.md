@@ -3,10 +3,16 @@ title: 使用 Aspose.TeX 将 LaTeX 图形渲染为 SVG (C#)
 linktitle: 使用 Aspose.TeX 将 LaTeX 图形渲染为 SVG (C#)
 second_title: Aspose.TeX .NET API
 description: 使用 Aspose.TeX 增强 .NET 中的文档渲染。了解如何在 C# 中将 LaTeX 图形渲染为 SVG，以实现数学表达式的无缝集成。
-type: docs
 weight: 11
 url: /zh/net/render-latex-figures/svg-latex-figure-renderer-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.TeX 将 LaTeX 图形渲染为 SVG (C#)
+
 ## 介绍
 
 如果您希望使用 LaTeX 图形增强 .NET 中的文档渲染功能，Aspose.TeX 是您的首选解决方案。在本分步指南中，我们将引导您使用 C# 中的 Aspose.TeX 将 LaTeX 图形渲染为 SVG。在本教程结束时，您将清楚地了解该过程，使您能够将高质量的数学表达式和图形无缝地融入到您的文档中。
@@ -89,3 +95,9 @@ Console.Out.WriteLine("Size: " + size);
 ### Q5: 我需要临时许可证吗？
 
  A5：如果需要，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

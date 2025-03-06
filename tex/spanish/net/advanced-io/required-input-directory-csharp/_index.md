@@ -3,10 +3,16 @@ title: Especifique el directorio de entrada requerido para Aspose.TeX (C#)
 linktitle: Especifique el directorio de entrada requerido para Aspose.TeX (C#)
 second_title: API Aspose.TeX .NET
 description: Explore Aspose.TeX para .NET, una biblioteca sólida para una integración perfecta de TeX. Sigue nuestra guía paso a paso.
-type: docs
 weight: 10
 url: /es/net/advanced-io/required-input-directory-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Especifique el directorio de entrada requerido para Aspose.TeX (C#)
+
 ## Introducción
 
 En el ámbito del procesamiento y composición tipográfica de documentos, Aspose.TeX para .NET se presenta como una herramienta poderosa para los desarrolladores. Facilita la creación y manipulación de archivos TeX sin problemas dentro de aplicaciones .NET. Este artículo sirve como una guía completa y desglosa la utilización de Aspose.TeX para .NET en pasos fáciles de seguir.
@@ -123,3 +129,9 @@ R4: Sí, puedes explorar la versión de prueba gratuita[aquí](https://releases.
 ### P5: ¿Cómo puedo obtener una licencia temporal de Aspose.TeX para .NET?
 
  R5: Puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Licencek kezelése az Aspose.TeX for Java-ban
 linktitle: Licencek kezelése az Aspose.TeX for Java-ban
 second_title: Aspose.TeX Java API
 description: Használja ki az Aspose.TeX-ben rejlő lehetőségeket Java számára! Tanulja meg könnyedén kezelni a licenceket – töltsön be fájlból, adatfolyamból, vagy állítson be számlás licencet lépésről lépésre bemutatott oktatóanyagaink segítségével.
-type: docs
 weight: 25
 url: /hu/java/managing-licenses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licencek kezelése az Aspose.TeX for Java-ban
+
 
 ## Bevezetés 
 
@@ -32,3 +38,9 @@ Fedezze fel az Aspose.TeX for Java erejét. Könnyen betöltheti a TeX-licenceke
 Fedezze fel az Aspose.TeX for Java erejét a TeX-licencek adatfolyamokból történő betöltésére vonatkozó lépésről lépésre szóló útmutatónkkal. Zökkenőmentesen integrálja a TeX dokumentumkezelést Java-alkalmazásaiba.
 ### [Állítsa be a mért licencet az Aspose.TeX-hez Java-ban](./set-metered-license/)
 Használja ki az Aspose.TeX teljes potenciálját a Java nyelven egy mért licenc beállításával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

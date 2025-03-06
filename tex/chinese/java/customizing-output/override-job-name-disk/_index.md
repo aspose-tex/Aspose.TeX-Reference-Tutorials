@@ -3,10 +3,16 @@ title: 覆盖作业名称并用 Java 编写终端输出
 linktitle: 覆盖作业名称并用 Java 编写终端输出
 second_title: Aspose.TeX Java API
 description: 探索有关使用 Aspose.TeX for Java 覆盖作业名称和编写终端输出的分步指南。通过强大的自定义选项增强您的文档处理。
-type: docs
 weight: 10
 url: /zh/java/customizing-output/override-job-name-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 覆盖作业名称并用 Java 编写终端输出
+
 ## 介绍
 
 Aspose.TeX for Java 提供了处理 TeX 文件的强大功能，允许开发人员操作和自定义 TeX 文档处理。在本教程中，我们将指导您完成使用 Java 中的 Aspose.TeX 覆盖作业名称并将终端输出写入文件系统的过程。
@@ -104,3 +110,9 @@ A1：是的，Aspose.TeX for Java 旨在与其他 Java 库无缝集成，以增�
 ### Q5: 在哪里可以购买 Aspose.TeX for Java？
 
  A5：访问[购买页面](https://purchase.aspose.com/buy)获取 Aspose.TeX for Java 的许可证。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

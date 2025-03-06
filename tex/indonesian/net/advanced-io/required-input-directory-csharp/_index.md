@@ -3,10 +3,16 @@ title: Tentukan Direktori Input yang Diperlukan untuk Aspose.TeX (C#)
 linktitle: Tentukan Direktori Input yang Diperlukan untuk Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Jelajahi Aspose.TeX untuk .NET, perpustakaan tangguh untuk integrasi TeX yang lancar. Ikuti panduan langkah demi langkah kami.
-type: docs
 weight: 10
 url: /id/net/advanced-io/required-input-directory-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tentukan Direktori Input yang Diperlukan untuk Aspose.TeX (C#)
+
 ## Perkenalan
 
 Di bidang pemrosesan dokumen dan penyusunan huruf, Aspose.TeX untuk .NET berdiri sebagai alat yang ampuh bagi pengembang. Ini memfasilitasi pembuatan dan manipulasi file TeX secara mulus dalam aplikasi .NET. Artikel ini berfungsi sebagai panduan komprehensif, menguraikan pemanfaatan Aspose.TeX untuk .NET menjadi langkah-langkah yang mudah diikuti.
@@ -123,3 +129,9 @@ A4: Ya, Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.a
 ### Q5: Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.TeX untuk .NET?
 
  A5: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

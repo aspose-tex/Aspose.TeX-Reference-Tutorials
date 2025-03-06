@@ -3,10 +3,16 @@ title: Gestion des licences dans Aspose.TeX pour Java
 linktitle: Gestion des licences dans Aspose.TeX pour Java
 second_title: API Java Aspose.TeX
 description: Libérez le potentiel d’Aspose.TeX pour Java ! Apprenez à gérer les licences sans effort  chargez-les à partir d'un fichier, diffusez-les ou configurez une licence limitée grâce à nos didacticiels étape par étape.
-type: docs
 weight: 25
 url: /fr/java/managing-licenses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des licences dans Aspose.TeX pour Java
+
 
 ## Introduction 
 
@@ -32,3 +38,9 @@ Découvrez la puissance d'Aspose.TeX pour Java. Chargez facilement des licences 
 Découvrez la puissance d'Aspose.TeX pour Java avec notre guide étape par étape sur le chargement des licences TeX à partir de flux. Intégrez de manière transparente la manipulation de documents TeX dans vos applications Java.
 ### [Définir une licence limitée pour Aspose.TeX en Java](./set-metered-license/)
 Libérez tout le potentiel d’Aspose.TeX en Java en configurant une licence limitée. Suivez notre guide étape par étape pour une intégration transparente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

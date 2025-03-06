@@ -3,10 +3,16 @@ title: Aspose.TeX에 필요한 입력 디렉터리 지정(C#)
 linktitle: Aspose.TeX에 필요한 입력 디렉터리 지정(C#)
 second_title: Aspose.TeX .NET API
 description: 원활한 TeX 통합을 위한 강력한 라이브러리인 .NET용 Aspose.TeX를 살펴보세요. 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/advanced-io/required-input-directory-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX에 필요한 입력 디렉터리 지정(C#)
+
 ## 소개
 
 문서 처리 및 조판 영역에서 Aspose.TeX for .NET은 개발자를 위한 강력한 도구입니다. .NET 애플리케이션 내에서 TeX 파일을 원활하게 생성하고 조작할 수 있습니다. 이 문서는 .NET용 Aspose.TeX 활용을 따라하기 쉬운 단계로 분류한 포괄적인 가이드 역할을 합니다.
@@ -123,3 +129,9 @@ A4: 예, 무료 평가판을 사용해 볼 수 있습니다.[여기](https://rel
 ### Q5: .NET용 Aspose.TeX에 대한 임시 라이센스를 어떻게 얻을 수 있습니까?
 
  A5: 임시 라이센스를 취득할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

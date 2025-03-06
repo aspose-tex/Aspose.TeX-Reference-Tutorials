@@ -3,10 +3,16 @@ title: Zastąp nazwę zadania i zapisz dane wyjściowe terminala na dysku (C#)
 linktitle: Zastąp nazwę zadania i zapisz dane wyjściowe terminala na dysku (C#)
 second_title: Aspose.TeX API .NET
 description: Dowiedz się, jak używać Aspose.TeX dla .NET do zastępowania nazw zadań i przechwytywania danych wyjściowych terminala. Postępuj zgodnie z naszym obszernym przewodnikiem po bezproblemowym zarządzaniu plikami TeX.
-type: docs
 weight: 10
 url: /pl/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastąp nazwę zadania i zapisz dane wyjściowe terminala na dysku (C#)
+
 ## Wstęp
 
 Witamy w tym przewodniku krok po kroku dotyczącym używania Aspose.TeX dla .NET do zastępowania nazw zadań i zapisywania danych wyjściowych terminala na dysku w języku programowania C#. Aspose.TeX dla .NET to potężna biblioteka, która pozwala bezproblemowo pracować z plikami TeX, a w tym samouczku skupimy się na konkretnym zadaniu: nadpisywaniu nazw zadań i przechwytywaniu danych wyjściowych terminala.
@@ -106,3 +112,9 @@ Odpowiedź 1: Tak, Aspose.TeX dla .NET można bezproblemowo zintegrować z innym
 ### P5: Gdzie mogę znaleźć dokumentację Aspose.TeX dla .NET?
 
  Odpowiedź 5: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

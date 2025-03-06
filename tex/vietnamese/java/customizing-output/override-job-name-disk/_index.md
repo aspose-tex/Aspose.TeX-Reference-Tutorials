@@ -3,10 +3,16 @@ title: Ghi đè tên công việc và ghi đầu ra đầu cuối trong Java
 linktitle: Ghi đè tên công việc và ghi đầu ra đầu cuối trong Java
 second_title: API Java Aspose.TeX
 description: Khám phá hướng dẫn từng bước về ghi đè tên công việc và ghi kết quả đầu cuối bằng Aspose.TeX cho Java. Tăng cường xử lý tài liệu của bạn với các tùy chọn tùy chỉnh mạnh mẽ.
-type: docs
 weight: 10
 url: /vi/java/customizing-output/override-job-name-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ghi đè tên công việc và ghi đầu ra đầu cuối trong Java
+
 ## Giới thiệu
 
 Aspose.TeX cho Java cung cấp các tính năng mạnh mẽ để làm việc với các tệp TeX, cho phép các nhà phát triển thao tác và tùy chỉnh quá trình xử lý tài liệu TeX. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình ghi đè tên công việc và ghi đầu ra đầu cuối vào hệ thống tệp bằng Aspose.TeX trong Java.
@@ -104,3 +110,9 @@ Câu trả lời 1: Có, Aspose.TeX dành cho Java được thiết kế để t
 ### Câu hỏi 5: Tôi có thể mua Aspose.TeX cho Java ở đâu?
 
  A5: Tham quan[trang mua hàng](https://purchase.aspose.com/buy) để có được giấy phép cho Aspose.TeX cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

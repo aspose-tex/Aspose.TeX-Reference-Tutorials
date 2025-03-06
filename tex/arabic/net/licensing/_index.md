@@ -3,10 +3,16 @@ title: إدارة تراخيص Aspose.TeX
 linktitle: إدارة تراخيص Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: أطلق العنان للإمكانات الكاملة لـ Aspose.TeX .NET من خلال هذه البرامج التعليمية. تعلم كيفية إدارة التراخيص وتحسين معالجة المستندات واستكشاف إمكانيات لا حدود لها.
-type: docs
 weight: 23
 url: /ar/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة تراخيص Aspose.TeX
+
 ## مقدمة
 
 هل أنت مستعد للغوص في عالم Aspose.TeX لـ .NET؟ سترشدك هذه البرامج التعليمية خلال الخطوات الأساسية لإدارة التراخيص بشكل فعال وتسخير القوة الكاملة لمعالجة ملفات TeX في مشاريع C# الخاصة بك.
@@ -41,3 +47,9 @@ url: /ar/net/licensing/
 استكشف Aspose.TeX for .NET وقم بتحميل التراخيص بسلاسة، وعزز معالجة المستندات. تحقق من البرنامج التعليمي للحصول على إرشادات خطوة بخطوة.
 ### [تعيين الترخيص المقنن لـ Aspose.TeX (C#)](./set-metered-license-csharp/)
 استكشف Aspose.TeX for .NET، وقم بإعداد الترخيص المقنن دون عناء، واطلق العنان للإمكانات الكاملة لمعالجة ملفات TeX في مشاريع C# الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

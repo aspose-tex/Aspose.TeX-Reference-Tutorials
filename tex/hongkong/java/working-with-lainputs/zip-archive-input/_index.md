@@ -3,10 +3,16 @@ title: 用 Java 處理 Zip 檔案中的 LaTeX 輸入文件
 linktitle: 用 Java 處理 Zip 檔案中的 LaTeX 輸入文件
 second_title: Aspose.TeX Java API
 description: 了解使用 Aspose.TeX 在 Java 中處理 zip 檔案中的 LaTeX 檔案的無縫指南。輕鬆提升您的文件處理能力。
-type: docs
 weight: 11
 url: /zh-hant/java/working-with-lainputs/zip-archive-input/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 用 Java 處理 Zip 檔案中的 LaTeX 輸入文件
+
 ## 介紹
 
 在 Java 開發領域，處理來自 zip 檔案的 LaTeX 輸入檔是一個常見的需求，尤其是在處理複雜的文件處理時。 Aspose.TeX for Java 成為一個強大的工具，簡化了這個複雜的任務。本教學將逐步引導您完成整個過程，確保無縫體驗。
@@ -121,3 +127,9 @@ A3：訪問[Aspose.TeX 論壇](https://forum.aspose.com/c/tex/47)以獲得社區
 ### Q5：如何取得臨時駕照？
 
  A5：請求一個[臨時執照](https://purchase.aspose.com/temporary-license/)出於評估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

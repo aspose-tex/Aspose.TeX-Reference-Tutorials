@@ -3,10 +3,16 @@ title: Skład TeX-a na XPS w .NET
 linktitle: Skład TeX-a na XPS w .NET
 second_title: Aspose.TeX API .NET
 description: Bez wysiłku konwertuj dokumenty TeX na XPS w .NET za pomocą Aspose.TeX. Zapoznaj się z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 10
 url: /pl/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skład TeX-a na XPS w .NET
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym składu TeX-a na XPS w .NET przy użyciu potężnej biblioteki Aspose.TeX. Jeśli chcesz bezproblemowo konwertować dokumenty TeX do formatu XPS w aplikacjach .NET, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię przez cały proces, dzieląc każdy krok, aby zapewnić płynne wdrożenie.
@@ -94,3 +100,9 @@ A2: Absolutnie! Aspose.TeX jest dostępny zarówno do użytku komercyjnego, jak 
 ### P5: Czy dostępny jest bezpłatny okres próbny?
 
  Odpowiedź 5: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

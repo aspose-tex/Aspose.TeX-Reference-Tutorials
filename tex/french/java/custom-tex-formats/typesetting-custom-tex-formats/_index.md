@@ -3,10 +3,16 @@ title: Composition avec des formats TeX personnalisés en Java
 linktitle: Composition avec des formats TeX personnalisés en Java
 second_title: API Java Aspose.TeX
 description: Explorez une composition efficace en Java avec Aspose.TeX. Les formats TeX personnalisés simplifiés. Téléchargez-le maintenant pour une expérience de développement transparente.
-type: docs
 weight: 10
 url: /fr/java/custom-tex-formats/typesetting-custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Composition avec des formats TeX personnalisés en Java
+
 ## Introduction
 
 Dans le domaine du développement Java, Aspose.TeX s'avère être un outil inestimable pour la composition avec des formats TeX personnalisés. Ce didacticiel approfondira le processus d'utilisation d'Aspose.TeX pour Java afin d'obtenir une composition efficace à l'aide de formats TeX personnalisés. Que vous soyez un développeur chevronné ou un nouveau venu, ce guide est conçu pour vous guider à travers les étapes en toute transparence.
@@ -115,3 +121,9 @@ A1 : Oui, Aspose.TeX est conçu pour s'intégrer de manière transparente à div
 ### Q5 : Où puis-je acheter la bibliothèque Aspose.TeX ?
 
  A5 : Sécurisez votre copie en visitant le[page d'achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

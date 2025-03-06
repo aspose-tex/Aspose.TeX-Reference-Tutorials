@@ -3,10 +3,16 @@ title: जावा में लगातार टाइपसेटिंग 
 linktitle: जावा में लगातार टाइपसेटिंग के लिए कस्टम टीएक्स प्रारूप बनाएं
 second_title: Aspose.TeX जावा एपीआई
 description: Aspose.TeX के साथ जावा में टाइपसेटिंग स्थिरता बढ़ाएँ। सहजता से कस्टम TeX प्रारूप बनाएं।
-type: docs
 weight: 10
 url: /hi/java/custom-format/creating-custom-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में लगातार टाइपसेटिंग के लिए कस्टम टीएक्स प्रारूप बनाएं
+
 ## परिचय
 
 TeX दस्तावेज़ों को फ़ॉर्मेट करना दस्तावेज़ प्रसंस्करण का एक महत्वपूर्ण पहलू है, खासकर जब विभिन्न दस्तावेज़ों में एकरूपता आवश्यक हो। जावा के लिए Aspose.TeX डेवलपर्स को उनकी विशिष्ट आवश्यकताओं के अनुरूप कस्टम TeX प्रारूप बनाने की अनुमति देकर इस चुनौती का एक मजबूत समाधान प्रदान करता है।
@@ -114,3 +120,9 @@ options.getTerminalOut().getWriter().newLine();
 ### Q5: मैं जावा के लिए Aspose.TeX के लिए समर्थन कैसे प्राप्त कर सकता हूं?
 
  A5: आप पर समर्थन मांग सकते हैं[Aspose.TeX फोरम](https://forum.aspose.com/c/tex/47).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

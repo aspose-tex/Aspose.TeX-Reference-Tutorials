@@ -3,10 +3,16 @@ title: Math Rendering with SVG
 linktitle: Math Rendering with SVG
 second_title: Aspose.TeX .NET API
 description: Discover the art of rendering LaTeX math equations as SVG in .NET with Aspose.TeX. Unleash precision with customizable options for mathematical perfection.
-type: docs
 weight: 30
 url: /net/svg-math-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Math Rendering with SVG
+
 ## Introduction
 
 Welcome to the realm of mathematical precision and visual elegance! In this tutorial series, we delve into the fascinating world of rendering LaTeX math equations as SVG in the .NET environment, leveraging the powerful capabilities of Aspose.TeX. 
@@ -41,3 +47,9 @@ In conclusion, this tutorial series is more than a guide; it's an invitation to 
 ## Math Rendering with SVG Tutorials
 ### [Rendering LaTeX Math as SVG in .NET](./render-latex-math-svg/)
 Learn how to render LaTeX math equations as SVG in .NET using Aspose.TeX. Step-by-step guide with customizable options for precise mathematical representation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

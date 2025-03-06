@@ -3,10 +3,16 @@ title: Расширенные параметры преобразования La
 linktitle: Расширенные параметры преобразования LaTeX в PDF в Java
 second_title: API Aspose.TeX Java
 description: Изучите расширенные возможности преобразования LaTeX в PDF на Java с помощью Aspose.TeX. Откройте для себя мощные возможности обработки документов с помощью пошаговых инструкций.
-type: docs
 weight: 11
 url: /ru/java/converting-lato-pdf/advanced-pdf-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенные параметры преобразования LaTeX в PDF в Java
+
 ## Введение
 
 Добро пожаловать в мир продвинутого преобразования LaTeX в PDF с помощью Aspose.TeX для Java! Если вы хотите расширить свои возможности обработки документов на Java, вы попали по адресу. В этом уроке мы рассмотрим мощные функции Aspose.TeX для преобразования файлов LaTeX в формат PDF. Пристегнитесь, пока мы углубляемся в сложные шаги и настройки, которые делают этот процесс простым.
@@ -119,3 +125,9 @@ if (pdfStream != null)
 ### В5: Как я могу получить временную лицензию?
 
  A5: Вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

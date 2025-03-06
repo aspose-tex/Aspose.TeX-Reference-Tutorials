@@ -3,10 +3,16 @@ title: อินพุตสตรีม เอาต์พุตรูปภา
 linktitle: อินพุตสตรีม เอาต์พุตรูปภาพ และอินพุตเทอร์มินัลใน Java
 second_title: Aspose.TeX Java API
 description: เรียนรู้อินพุตสตรีม เอาต์พุตรูปภาพ และอินพุตเทอร์มินัลใน Java โดยใช้ Aspose.TeX บทช่วยสอนที่ครอบคลุมสำหรับการบูรณาการอย่างราบรื่น
-type: docs
 weight: 11
 url: /th/java/advanced-io/stream-input-image-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# อินพุตสตรีม เอาต์พุตรูปภาพ และอินพุตเทอร์มินัลใน Java
+
 ## การแนะนำ
 
 Aspose.TeX สำหรับ Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ TeX ได้ ซึ่งอำนวยความสะดวกในการสร้างและจัดการเอกสารคุณภาพสูง ในบทช่วยสอนนี้ เราจะสำรวจกระบวนการรับอินพุตสตรีม การสร้างเอาต์พุตรูปภาพ และการจัดการอินพุตเทอร์มินัลใน Java โดยใช้ Aspose.TeX
@@ -134,3 +140,9 @@ A2: แน่นอน! Aspose.TeX มีตัวเลือกต่างๆ
 ### คำถามที่ 5: มีแหล่งข้อมูลเพิ่มเติมสำหรับเอกสาร Aspose.TeX หรือไม่
 
  A5: สำรวจอย่างครอบคลุม[เอกสารประกอบ](https://reference.aspose.com/tex/java/) สำหรับข้อมูลเชิงลึกและตัวอย่างโดยละเอียด
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

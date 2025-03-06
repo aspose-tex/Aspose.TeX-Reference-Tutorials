@@ -3,10 +3,16 @@ title: Sostituisci il nome del lavoro e scrivi l'output del terminale su Zip (C#
 linktitle: Sostituisci il nome del lavoro e scrivi l'output del terminale su Zip (C#)
 second_title: API Aspose.TeX .NET
 description: Scopri come sovrascrivere i nomi dei lavori e scrivere l'output del terminale in un file ZIP utilizzando Aspose.TeX per .NET. Guida dettagliata con esempi in C#.
-type: docs
 weight: 11
 url: /it/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sostituisci il nome del lavoro e scrivi l'output del terminale su Zip (C#)
+
 ## introduzione
 
 In questo tutorial, esploreremo come sovrascrivere il nome del lavoro e scrivere l'output del terminale in un file ZIP utilizzando Aspose.TeX per .NET. Aspose.TeX è una potente libreria che consente agli sviluppatori di lavorare con documenti TeX nelle loro applicazioni .NET. In questo esempio particolare, ci concentreremo su un'attività comune: scrivere l'output del terminale in un file ZIP con la possibilità di sovrascrivere il nome del lavoro.
@@ -95,3 +101,9 @@ A1: Sì, Aspose.TeX per .NET è compatibile con tutti i linguaggi .NET.
 ### Q5: Dove posso acquistare Aspose.TeX per .NET?
 
  A5: È possibile acquistare Aspose.TeX[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

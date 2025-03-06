@@ -3,10 +3,16 @@ title: Taaknaam overschrijven en terminaluitvoer naar zip in Java schrijven
 linktitle: Taaknaam overschrijven en terminaluitvoer naar zip in Java schrijven
 second_title: Aspose.TeX Java-API
 description: Leer hoe u taaknamen kunt overschrijven en terminaluitvoer naar ZIP in Java kunt schrijven met Aspose.TeX. Een uitgebreide tutorial voor Java-ontwikkelaars.
-type: docs
 weight: 11
 url: /nl/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Taaknaam overschrijven en terminaluitvoer naar zip in Java schrijven
+
 ## Invoering
 
 In de wereld van Java-ontwikkeling onderscheidt Aspose.TeX zich als een krachtig hulpmiddel voor het verwerken van TeX-bestandsformaten. In deze zelfstudie gaan we dieper in op een specifiek scenario: taaknamen overschrijven en terminaluitvoer naar een zipbestand schrijven. Deze stapsgewijze handleiding leidt u door het proces met Aspose.TeX voor Java.
@@ -126,3 +132,10 @@ A1: Aspose.TeX is een Java-bibliotheek waarmee ontwikkelaars met TeX-bestandsind
 ### V5: Waar kan ik ondersteuning zoeken of vragen stellen over Aspose.TeX?
 
  A5: Bezoek de[Aspose.TeX-forum](https://forum.aspose.com/c/tex/47) voor ondersteuning en discussies.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

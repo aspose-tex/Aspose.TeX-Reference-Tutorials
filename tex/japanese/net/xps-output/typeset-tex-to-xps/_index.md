@@ -3,10 +3,16 @@ title: .NET での TeX から XPS への植字
 linktitle: .NET での TeX から XPS への植字
 second_title: Aspose.TeX .NET API
 description: Aspose.TeX を使用すると、.NET で TeX ドキュメントを XPS に簡単に変換できます。シームレスな統合エクスペリエンスについては、ステップバイステップのガイドを参照してください。
-type: docs
 weight: 10
 url: /ja/net/xps-output/typeset-tex-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET での TeX から XPS への植字
+
 ## 導入
 
 強力な Aspose.TeX ライブラリを使用して、.NET で TeX を XPS にタイプセットするためのステップバイステップ ガイドへようこそ。 .NET アプリケーションで TeX ドキュメントを XPS 形式にシームレスに変換したい場合は、ここが適切な場所です。このチュートリアルでは、スムーズな実装を保証するために各ステップに分けてプロセス全体を説明します。
@@ -94,3 +100,9 @@ A2：もちろんです！ Aspose.TeX は商用利用と個人利用の両方で
 ### Q5: 無料トライアルはありますか?
 
  A5: はい、無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

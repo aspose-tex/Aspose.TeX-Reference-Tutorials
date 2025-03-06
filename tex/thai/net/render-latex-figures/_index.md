@@ -3,10 +3,16 @@ title: เรนเดอร์ตัวเลข LaTeX ด้วย Aspose.TeX
 linktitle: เรนเดอร์ตัวเลข LaTeX ด้วย Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: ค้นพบพลังของ Aspose.TeX สำหรับ .NET ในการเรนเดอร์ตัวเลข LaTeX ได้อย่างราบรื่น คำแนะนำทีละขั้นตอน ตัวอย่างโค้ด และอื่นๆ สำหรับการเรนเดอร์ PNG และ SVG ใน C#
-type: docs
 weight: 25
 url: /th/net/render-latex-figures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เรนเดอร์ตัวเลข LaTeX ด้วย Aspose.TeX
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับประสบการณ์การแสดงเอกสารใน .NET แล้วหรือยัง? ดำดิ่งสู่โลกของ Aspose.TeX และปลดล็อกศักยภาพในการแสดงตัวเลข LaTeX ได้อย่างง่ายดาย เพื่อเพิ่มรูปลักษณ์ที่สวยงามให้กับเอกสารของคุณ ในคู่มือที่ครอบคลุมนี้ เราจะสำรวจประเด็นสำคัญสองประการ: การเรนเดอร์ตัวเลข LaTeX เป็น PNG และ SVG โดยใช้ Aspose.TeX ใน C#
@@ -33,3 +39,9 @@ url: /th/net/render-latex-figures/
 สำรวจคำแนะนำที่ครอบคลุมเกี่ยวกับการเรนเดอร์ตัวเลข LaTeX เป็น PNG โดยใช้ Aspose.TeX ใน C# เรียนรู้ทีละขั้นตอนพร้อมตัวอย่างโค้ด
 ### [เรนเดอร์ตัวเลข LaTeX เป็น SVG ด้วย Aspose.TeX (C#)](./svg-latex-figure-renderer-csharp/)
 ปรับปรุงการแสดงผลเอกสารใน .NET ด้วย Aspose.TeX เรียนรู้วิธีเรนเดอร์ตัวเลข LaTeX เป็น SVG ใน C# เพื่อการบูรณาการนิพจน์ทางคณิตศาสตร์ได้อย่างราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip trong
 linktitle: Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip trong Java
 second_title: API Java Aspose.TeX
 description: Tìm hiểu cách ghi đè tên công việc và ghi đầu ra của thiết bị đầu cuối vào ZIP trong Java bằng Aspose.TeX. Hướng dẫn toàn diện dành cho nhà phát triển Java.
-type: docs
 weight: 11
 url: /vi/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip trong Java
+
 ## Giới thiệu
 
 Trong thế giới phát triển Java, Aspose.TeX nổi bật như một công cụ mạnh mẽ để xử lý các định dạng tệp TeX. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một tình huống cụ thể – ghi đè tên công việc và ghi kết quả đầu ra của thiết bị đầu cuối vào tệp zip. Hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình sử dụng Aspose.TeX cho Java.
@@ -126,3 +132,10 @@ Câu trả lời 1: Aspose.TeX là thư viện Java cho phép các nhà phát tr
 ### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ hoặc đặt câu hỏi về Aspose.TeX ở đâu?
 
  A5: Tham quan[diễn đàn Aspose.TeX](https://forum.aspose.com/c/tex/47) để được hỗ trợ và thảo luận.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

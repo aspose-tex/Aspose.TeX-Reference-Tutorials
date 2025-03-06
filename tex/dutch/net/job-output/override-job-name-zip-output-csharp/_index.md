@@ -3,10 +3,16 @@ title: Taaknaam overschrijven en terminaluitvoer naar Zip schrijven (C#)
 linktitle: Taaknaam overschrijven en terminaluitvoer naar Zip schrijven (C#)
 second_title: Aspose.TeX .NET-API
 description: Leer hoe u taaknamen kunt overschrijven en terminaluitvoer naar een ZIP-bestand kunt schrijven met Aspose.TeX voor .NET. Stap-voor-stap handleiding met C#-voorbeelden.
-type: docs
 weight: 11
 url: /nl/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Taaknaam overschrijven en terminaluitvoer naar Zip schrijven (C#)
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u de taaknaam kunt overschrijven en terminaluitvoer naar een ZIP-bestand kunt schrijven met Aspose.TeX voor .NET. Aspose.TeX is een krachtige bibliotheek waarmee ontwikkelaars met TeX-documenten kunnen werken in hun .NET-applicaties. In dit specifieke voorbeeld zullen we ons concentreren op een algemene taak: het schrijven van terminaluitvoer naar een ZIP-bestand met de mogelijkheid om de taaknaam te overschrijven.
@@ -95,3 +101,9 @@ A1: Ja, Aspose.TeX voor .NET is compatibel met alle .NET-talen.
 ### V5: Waar kan ik Aspose.TeX voor .NET kopen?
 
  A5: U kunt Aspose.TeX kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

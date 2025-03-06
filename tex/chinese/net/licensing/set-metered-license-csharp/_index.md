@@ -3,10 +3,16 @@ title: 设置 Aspose.TeX 的计量许可证 (C#)
 linktitle: 设置 Aspose.TeX 的计量许可证 (C#)
 second_title: Aspose.TeX .NET API
 description: 探索 Aspose.TeX for .NET，轻松设置计量许可，并释放 C# 项目中 TeX 文件操作的全部潜力。
-type: docs
 weight: 12
 url: /zh/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 设置 Aspose.TeX 的计量许可证 (C#)
+
 ## 介绍
 
 Aspose.TeX for .NET 是一个功能强大的库，允许开发人员无缝地使用 TeX 文件。为了充分发挥其潜力，必须设置计量许可证。这可确保您拥有在应用程序中使用该库的适当授权。
@@ -92,3 +98,9 @@ A2：是的，您可以访问 Aspose.TeX 的免费试用版[这个链接](https:
 ### Q5：我可以使用 Aspose.TeX 的临时许可证吗？
 
  A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

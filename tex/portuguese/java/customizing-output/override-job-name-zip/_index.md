@@ -3,10 +3,16 @@ title: Substitua o nome do trabalho e grave a saída do terminal em Zip em Java
 linktitle: Substitua o nome do trabalho e grave a saída do terminal em Zip em Java
 second_title: API Java Aspose.TeX
 description: Aprenda como substituir nomes de trabalhos e gravar a saída do terminal em ZIP em Java com Aspose.TeX. Um tutorial abrangente para desenvolvedores Java.
-type: docs
 weight: 11
 url: /pt/java/customizing-output/override-job-name-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Substitua o nome do trabalho e grave a saída do terminal em Zip em Java
+
 ## Introdução
 
 No mundo do desenvolvimento Java, Aspose.TeX se destaca como uma ferramenta poderosa para lidar com formatos de arquivo TeX. Neste tutorial, nos aprofundaremos em um cenário específico – substituindo nomes de trabalhos e gravando a saída do terminal em um arquivo zip. Este guia passo a passo orientará você no processo usando Aspose.TeX para Java.
@@ -126,3 +132,10 @@ A1: Aspose.TeX é uma biblioteca Java que permite aos desenvolvedores trabalhar 
 ### P5: Onde posso procurar suporte ou tirar dúvidas sobre o Aspose.TeX?
 
  A5: Visite o[Fórum Aspose.TeX](https://forum.aspose.com/c/tex/47) para apoio e discussões.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

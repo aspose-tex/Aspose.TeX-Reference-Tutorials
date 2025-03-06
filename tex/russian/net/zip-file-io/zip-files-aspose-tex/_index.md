@@ -3,10 +3,16 @@ title: Использование ZIP-файлов с Aspose.TeX для .NET
 linktitle: Использование ZIP-файлов с Aspose.TeX для .NET
 second_title: API Aspose.TeX .NET
 description: Исследуйте возможности Aspose.TeX для .NET, позволяющие легко обрабатывать ZIP-файлы. Улучшите обработку документов в своих приложениях.
-type: docs
 weight: 10
 url: /ru/net/zip-file-io/zip-files-aspose-tex/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Использование ZIP-файлов с Aspose.TeX для .NET
+
 ## Введение
 
 В мире .NET-разработки Aspose.TeX выделяется как мощный инструмент для работы с документами TeX. Aspose.TeX для .NET предоставляет множество функций, одна из которых особенно полезна — беспрепятственная обработка Zip-файлов. Это руководство проведет вас через процесс использования Zip-файлов с Aspose.TeX в ваших проектах .NET.
@@ -115,3 +121,9 @@ job.Run();
 ### Вопрос 5: Как получить временную лицензию на Aspose.TeX?
 
  А5: Посетите[эта ссылка](https://purchase.aspose.com/temporary-license/) получить временную лицензию для целей тестирования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

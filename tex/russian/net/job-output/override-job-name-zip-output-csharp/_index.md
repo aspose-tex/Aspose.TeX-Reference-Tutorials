@@ -3,10 +3,16 @@ title: Переопределить имя задания и записать в
 linktitle: Переопределить имя задания и записать вывод терминала в ZIP (C#)
 second_title: API Aspose.TeX .NET
 description: Узнайте, как переопределить имена заданий и записать вывод терминала в ZIP-файл с помощью Aspose.TeX для .NET. Пошаговое руководство с примерами C#.
-type: docs
 weight: 11
 url: /ru/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Переопределить имя задания и записать вывод терминала в ZIP (C#)
+
 ## Введение
 
 В этом уроке мы рассмотрим, как переопределить имя задания и записать вывод терминала в ZIP-файл, используя Aspose.TeX для .NET. Aspose.TeX — мощная библиотека, которая позволяет разработчикам работать с документами TeX в своих .NET-приложениях. В этом конкретном примере мы сосредоточимся на общей задаче — записи вывода терминала в ZIP-файл с возможностью переопределения имени задания.
@@ -95,3 +101,9 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 ### Вопрос 5: Где я могу приобрести Aspose.TeX для .NET?
 
  A5: Вы можете купить Aspose.TeX.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

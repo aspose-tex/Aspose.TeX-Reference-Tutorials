@@ -3,10 +3,16 @@ title: เรียงพิมพ์ TeX เป็น XPS ใน Java พร้
 linktitle: เรียงพิมพ์ TeX เป็น XPS ใน Java พร้อมสตรีมภายนอก
 second_title: Aspose.TeX Java API
 description: เรียนรู้วิธีเรียงพิมพ์ TeX เป็น XPS ใน Java โดยใช้ Aspose.TeX สำรวจคำแนะนำทีละขั้นตอนเพื่อการประมวลผลเอกสารที่ราบรื่น
-type: docs
 weight: 10
 url: /th/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เรียงพิมพ์ TeX เป็น XPS ใน Java พร้อมสตรีมภายนอก
+
 ## การแนะนำ
 
 ในโลกของการพัฒนา Java นั้น Aspose.TeX มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังสำหรับการเรียงพิมพ์เอกสาร TeX ในรูปแบบต่างๆ รวมถึง XPS หากคุณต้องการปรับปรุงความสามารถในการประมวลผลเอกสารของแอปพลิเคชัน Java บทช่วยสอนนี้เหมาะสำหรับคุณ ในคำแนะนำทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดกระบวนการเรียงพิมพ์ TeX เป็น XPS โดยใช้ Aspose.TeX สำหรับ Java ด้วยสตรีมภายนอก
@@ -122,3 +128,9 @@ try {
 ### คำถามที่ 5: ฉันสามารถขอรับใบอนุญาตชั่วคราวเพื่อการทดสอบได้หรือไม่
 
  A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

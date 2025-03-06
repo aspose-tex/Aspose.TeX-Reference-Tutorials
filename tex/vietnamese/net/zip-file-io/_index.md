@@ -3,10 +3,16 @@ title: Đầu vào và đầu ra tệp Zip
 linktitle: Đầu vào và đầu ra tệp Zip
 second_title: API Aspose.TeX .NET
 description: Mở khóa tiềm năng của Aspose.TeX cho .NET với Hướng dẫn nhập và xuất tệp Zip của chúng tôi. Khám phá khả năng xử lý tệp ZIP, xử lý tài liệu cho ứng dụng của bạn.
-type: docs
 weight: 32
 url: /vi/net/zip-file-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đầu vào và đầu ra tệp Zip
+
 ## Giới thiệu
 
 Aspose.TeX for .NET là một công cụ mạnh mẽ, nâng khả năng xử lý tài liệu của bạn lên một tầm cao mới. Trong loạt bài hướng dẫn này, chúng tôi đi sâu vào sự phức tạp của việc xử lý tệp ZIP bằng Aspose.TeX, cung cấp cho bạn sự hiểu biết toàn diện về các chức năng của nó.
@@ -28,3 +34,9 @@ Tóm lại, Hướng dẫn đầu vào và đầu ra tệp Zip Aspose.TeX cho .N
 ## Hướng dẫn nhập và xuất tệp Zip
 ### [Sử dụng tệp Zip với Aspose.TeX cho .NET](./zip-files-aspose-tex/)
 Khám phá sức mạnh của Aspose.TeX dành cho .NET trong việc xử lý các tệp ZIP một cách dễ dàng. Tăng cường xử lý tài liệu trong các ứng dụng của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

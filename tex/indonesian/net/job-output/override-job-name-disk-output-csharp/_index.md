@@ -3,10 +3,16 @@ title: Ganti Nama Pekerjaan dan Tulis Output Terminal ke Disk (C#)
 linktitle: Ganti Nama Pekerjaan dan Tulis Output Terminal ke Disk (C#)
 second_title: Aspose.TeX .NET API
 description: Jelajahi cara menggunakan Aspose.TeX untuk .NET untuk mengganti nama pekerjaan dan menangkap output terminal. Ikuti panduan komprehensif kami untuk pengelolaan file TeX yang lancar.
-type: docs
 weight: 10
 url: /id/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ganti Nama Pekerjaan dan Tulis Output Terminal ke Disk (C#)
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah tentang penggunaan Aspose.TeX untuk .NET untuk mengganti nama pekerjaan dan menulis keluaran terminal ke disk dalam bahasa pemrograman C#. Aspose.TeX untuk .NET adalah perpustakaan canggih yang memungkinkan Anda bekerja dengan lancar dengan file TeX, dan dalam tutorial ini, kita akan fokus pada tugas tertentu: mengganti nama pekerjaan dan menangkap keluaran terminal.
@@ -106,3 +112,9 @@ A1: Ya, Aspose.TeX untuk .NET dapat diintegrasikan dengan perpustakaan .NET lain
 ### Q5: Di mana saya dapat menemukan dokumentasi Aspose.TeX untuk .NET?
 
  A5: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

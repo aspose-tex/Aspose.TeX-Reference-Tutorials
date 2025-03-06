@@ -3,10 +3,16 @@ title: Đầu vào luồng, đầu ra hình ảnh và đầu vào đầu cuối 
 linktitle: Đầu vào luồng, đầu ra hình ảnh và đầu vào đầu cuối trong Java
 second_title: API Java Aspose.TeX
 description: Tìm hiểu đầu vào luồng, đầu ra hình ảnh và đầu vào đầu cuối trong Java bằng Aspose.TeX. Hướng dẫn toàn diện để tích hợp liền mạch.
-type: docs
 weight: 11
 url: /vi/java/advanced-io/stream-input-image-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đầu vào luồng, đầu ra hình ảnh và đầu vào đầu cuối trong Java
+
 ## Giới thiệu
 
 Aspose.TeX cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp TeX, tạo điều kiện thuận lợi cho việc tạo và thao tác các tài liệu chất lượng cao. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình lấy luồng đầu vào, tạo đầu ra hình ảnh và xử lý đầu vào đầu cuối trong Java bằng Aspose.TeX.
@@ -134,3 +140,9 @@ A2: Chắc chắn rồi! Aspose.TeX cung cấp nhiều tùy chọn khác nhau đ
 ### Câu hỏi 5: Có tài nguyên bổ sung nào cho tài liệu Aspose.TeX không?
 
  A5: Khám phá toàn diện[tài liệu](https://reference.aspose.com/tex/java/) để biết thông tin chi tiết và ví dụ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

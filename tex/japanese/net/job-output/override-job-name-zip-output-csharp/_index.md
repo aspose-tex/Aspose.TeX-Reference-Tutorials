@@ -3,10 +3,16 @@ title: ジョブ名をオーバーライドしてターミナル出力を Zip �
 linktitle: ジョブ名をオーバーライドしてターミナル出力を Zip に書き込む (C#)
 second_title: Aspose.TeX .NET API
 description: Aspose.TeX for .NET を使用してジョブ名をオーバーライドし、ターミナル出力を ZIP ファイルに書き込む方法を学びます。 C# の例を含むステップバイステップのガイド。
-type: docs
 weight: 11
 url: /ja/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ジョブ名をオーバーライドしてターミナル出力を Zip に書き込む (C#)
+
 ## 導入
 
 このチュートリアルでは、Aspose.TeX for .NET を使用してジョブ名をオーバーライドし、ターミナル出力を ZIP ファイルに書き込む方法を検討します。 Aspose.TeX は、開発者が .NET アプリケーションで TeX ドキュメントを操作できるようにする強力なライブラリです。この特定の例では、ジョブ名をオーバーライドする機能を備えたターミナル出力を ZIP ファイルに書き込むという一般的なタスクに焦点を当てます。
@@ -95,3 +101,9 @@ A1: はい、Aspose.TeX for .NET はすべての .NET 言語と互換性があ�
 ### Q5: Aspose.TeX for .NET はどこで購入できますか?
 
  A5: Aspose.TeX を購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

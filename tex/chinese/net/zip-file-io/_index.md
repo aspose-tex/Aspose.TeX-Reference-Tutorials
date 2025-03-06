@@ -3,10 +3,16 @@ title: Zip 文件输入和输出
 linktitle: Zip 文件输入和输出
 second_title: Aspose.TeX .NET API
 description: 通过我们的 Zip 文件输入和输出教程释放 Aspose.TeX for .NET 的潜力。探索适合您的应用程序的 ZIP 文件处理和文档处理。
-type: docs
 weight: 32
 url: /zh/net/zip-file-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zip 文件输入和输出
+
 ## 介绍
 
 Aspose.TeX for .NET 是一个强大的工具，可将您的文档处理能力提升到新的高度。在本教程系列中，我们深入研究使用 Aspose.TeX 处理 ZIP 文件的复杂性，让您全面了解其功能。
@@ -28,3 +34,9 @@ Aspose.TeX for .NET 是一个强大的工具，可将您的文档处理能力提
 ## Zip 文件输入和输出教程
 ### [将 Zip 文件与 Aspose.TeX for .NET 一起使用](./zip-files-aspose-tex/)
 探索 Aspose.TeX for .NET 在轻松处理 ZIP 文件方面的强大功能。增强应用程序中的文档处理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

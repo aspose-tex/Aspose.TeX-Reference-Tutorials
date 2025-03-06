@@ -3,10 +3,16 @@ title: Zaawansowane wejście i wyjście w Aspose.TeX dla Java
 linktitle: Zaawansowane wejście i wyjście w Aspose.TeX dla Java
 second_title: Aspose.TeX API Java
 description: Ulepsz przetwarzanie Java TeX dzięki samouczkom Aspose.TeX for Java. Naucz się określać katalogi wejściowe i optymalizować przetwarzanie strumieni na potrzeby ulepszonych projektów Java.
-type: docs
 weight: 27
 url: /pl/java/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zaawansowane wejście i wyjście w Aspose.TeX dla Java
+
 
 ## Wstęp
 
@@ -30,3 +36,9 @@ Podsumowując, te tutoriale służą jako brama do opanowania Aspose.TeX dla zaa
 Ulepsz przetwarzanie Java TeX za pomocą Aspose.TeX dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo określić wymagane katalogi wejściowe.
 ### [Wejście strumieniowe, wyjście obrazu i wejście terminala w Javie](./stream-input-image-output/)
 Naucz się wprowadzania strumieniowego, wyjściowego obrazu i terminala w Javie przy użyciu Aspose.TeX. Kompleksowy samouczek dotyczący bezproblemowej integracji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

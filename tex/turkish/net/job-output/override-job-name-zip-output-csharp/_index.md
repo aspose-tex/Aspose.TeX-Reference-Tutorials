@@ -3,10 +3,16 @@ title: İş Adını Geçersiz Kıl ve Terminal Çıkışını Zip'e Yaz (C#)
 linktitle: İş Adını Geçersiz Kıl ve Terminal Çıkışını Zip'e Yaz (C#)
 second_title: Aspose.TeX .NET API'si
 description: Aspose.TeX for .NET kullanarak iş adlarını nasıl geçersiz kılacağınızı ve terminal çıktısını bir ZIP dosyasına nasıl yazacağınızı öğrenin. C# örnekleriyle adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# İş Adını Geçersiz Kıl ve Terminal Çıkışını Zip'e Yaz (C#)
+
 ## giriiş
 
 Bu eğitimde, Aspose.TeX for .NET kullanarak iş adının nasıl geçersiz kılınacağını ve terminal çıktısının bir ZIP dosyasına nasıl yazılacağını inceleyeceğiz. Aspose.TeX, geliştiricilerin .NET uygulamalarında TeX belgeleriyle çalışmasına olanak tanıyan güçlü bir kütüphanedir. Bu özel örnekte, ortak bir göreve odaklanacağız: iş adını geçersiz kılma özelliğiyle terminal çıktısını bir ZIP dosyasına yazmak.
@@ -95,3 +101,9 @@ Cevap1: Evet, Aspose.TeX for .NET tüm .NET dilleriyle uyumludur.
 ### S5: Aspose.TeX for .NET'i nereden satın alabilirim?
 
  Cevap5: Aspose.TeX'i satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

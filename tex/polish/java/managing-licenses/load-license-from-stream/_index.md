@@ -3,10 +3,16 @@ title: Załaduj licencję TeX ze strumienia w Javie
 linktitle: Załaduj licencję TeX ze strumienia w Javie
 second_title: Aspose.TeX API Java
 description: Odkryj moc Aspose.TeX dla Java dzięki naszemu przewodnikowi krok po kroku na temat ładowania licencji TeX ze strumieni. Bezproblemowo integruj manipulację dokumentami TeX z aplikacjami Java.
-type: docs
 weight: 11
 url: /pl/java/managing-licenses/load-license-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Załaduj licencję TeX ze strumienia w Javie
+
 ## Wstęp
 
 Witamy w świecie Aspose.TeX dla Java, potężnej biblioteki, która upraszcza manipulowanie dokumentami TeX i zadania konwersji. W tym samouczku przeprowadzimy Cię przez proces ładowania licencji TeX ze strumienia w Javie. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz z Aspose.TeX, ten przewodnik krok po kroku pomoże Ci bezproblemowo zintegrować licencję z aplikacją Java.
@@ -89,3 +95,9 @@ Odpowiedź 1: Tak, możesz używać Aspose.TeX dla Java bez licencji, ale na wyj
 ### P5: Czy oferujecie licencje tymczasowe?
 
  Odpowiedź 5: Tak, można uzyskać licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

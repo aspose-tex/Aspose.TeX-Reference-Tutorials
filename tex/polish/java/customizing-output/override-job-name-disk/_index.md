@@ -3,10 +3,16 @@ title: Zastąp nazwę zadania i zapisz dane wyjściowe terminala w Javie
 linktitle: Zastąp nazwę zadania i zapisz dane wyjściowe terminala w Javie
 second_title: Aspose.TeX API Java
 description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym zastępowania nazw zadań i zapisywania danych wyjściowych terminala przy użyciu Aspose.TeX dla języka Java. Usprawnij przetwarzanie dokumentów dzięki zaawansowanym opcjom dostosowywania.
-type: docs
 weight: 10
 url: /pl/java/customizing-output/override-job-name-disk/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastąp nazwę zadania i zapisz dane wyjściowe terminala w Javie
+
 ## Wstęp
 
 Aspose.TeX dla Java zapewnia zaawansowane funkcje do pracy z plikami TeX, umożliwiając programistom manipulowanie i dostosowywanie przetwarzania dokumentów TeX. W tym samouczku przeprowadzimy Cię przez proces zastępowania nazwy zadania i zapisywania danych wyjściowych terminala w systemie plików przy użyciu Aspose.TeX w Javie.
@@ -104,3 +110,9 @@ Odpowiedź 1: Tak, Aspose.TeX dla Java został zaprojektowany tak, aby bezproble
 ### P5: Gdzie mogę kupić Aspose.TeX dla Java?
 
  A5: Odwiedź[strona zakupu](https://purchase.aspose.com/buy) nabycie licencji na Aspose.TeX dla Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

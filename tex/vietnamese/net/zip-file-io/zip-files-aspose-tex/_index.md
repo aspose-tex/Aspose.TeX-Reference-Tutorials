@@ -3,10 +3,16 @@ title: Sử dụng tệp Zip với Aspose.TeX cho .NET
 linktitle: Sử dụng tệp Zip với Aspose.TeX cho .NET
 second_title: API Aspose.TeX .NET
 description: Khám phá sức mạnh của Aspose.TeX dành cho .NET trong việc xử lý các tệp ZIP một cách dễ dàng. Tăng cường xử lý tài liệu trong các ứng dụng của bạn.
-type: docs
 weight: 10
 url: /vi/net/zip-file-io/zip-files-aspose-tex/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng tệp Zip với Aspose.TeX cho .NET
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET, Aspose.TeX nổi bật như một công cụ mạnh mẽ để làm việc với các tài liệu TeX. Aspose.TeX for .NET cung cấp nhiều tính năng khác nhau và một khả năng đặc biệt hữu ích là xử lý các tệp Zip một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn quy trình sử dụng tệp Zip với Aspose.TeX trong các dự án .NET của bạn.
@@ -115,3 +121,9 @@ Câu trả lời 1: Tính đến thời điểm hiện tại, Aspose.TeX chủ y
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.TeX?
 
  A5: Thăm quan[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích thử nghiệm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

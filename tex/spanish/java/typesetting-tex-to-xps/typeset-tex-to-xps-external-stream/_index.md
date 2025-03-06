@@ -3,10 +3,16 @@ title: Componga TeX a XPS en Java con transmisión externa
 linktitle: Componga TeX a XPS en Java con transmisión externa
 second_title: API de Java Aspose.TeX
 description: Aprenda a componer TeX a XPS en Java usando Aspose.TeX. Explore la guía paso a paso para un procesamiento de documentos fluido.
-type: docs
 weight: 10
 url: /es/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Componga TeX a XPS en Java con transmisión externa
+
 ## Introducción
 
 En el mundo del desarrollo de Java, Aspose.TeX se destaca como una poderosa herramienta para componer documentos TeX en varios formatos, incluido XPS. Si busca mejorar las capacidades de procesamiento de documentos de su aplicación Java, este tutorial está diseñado para usted. En esta guía paso a paso, lo guiaremos a través del proceso de composición tipográfica de TeX a XPS usando Aspose.TeX para Java con una transmisión externa.
@@ -122,3 +128,9 @@ R1: Aspose.TeX se centra principalmente en el procesamiento de documentos relaci
 ### P5: ¿Puedo obtener una licencia temporal para realizar pruebas?
 
  R5: Sí, puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

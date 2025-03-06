@@ -3,10 +3,16 @@ title: تجاوز اسم المهمة وكتابة المخرجات الطرفي
 linktitle: تجاوز اسم المهمة وكتابة المخرجات الطرفية على القرص (C#)
 second_title: Aspose.TeX .NET API
 description: اكتشف كيفية استخدام Aspose.TeX لـ .NET لتجاوز أسماء الوظائف والتقاط مخرجات المحطة الطرفية. اتبع دليلنا الشامل لإدارة ملفات TeX بسلاسة.
-type: docs
 weight: 10
 url: /ar/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تجاوز اسم المهمة وكتابة المخرجات الطرفية على القرص (C#)
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل التفصيلي حول استخدام Aspose.TeX لـ .NET لتجاوز أسماء المهام وكتابة المخرجات الطرفية على القرص بلغة البرمجة C#. Aspose.TeX for .NET هي مكتبة قوية تتيح لك العمل بسلاسة مع ملفات TeX، وفي هذا البرنامج التعليمي، سنركز على مهمة محددة: تجاوز أسماء الوظائف والتقاط مخرجات المحطة الطرفية.
@@ -106,3 +112,9 @@ job.Run();
 ### س5: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.TeX لـ .NET؟
 
  ج5: الوثائق متاحة[هنا](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

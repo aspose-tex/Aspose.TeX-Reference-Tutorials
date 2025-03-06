@@ -3,10 +3,16 @@ title: Управление выводом задания Aspose.TeX
 linktitle: Управление выводом задания Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Улучшите управление файлами TeX с помощью Aspose.TeX для .NET. Научитесь переопределять имена заданий и легко захватывать выходные данные терминала с помощью C# с помощью наших пошаговых руководств.
-type: docs
 weight: 24
 url: /ru/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление выводом задания Aspose.TeX
+
 
 ## Введение
 
@@ -36,3 +42,9 @@ Aspose.TeX позволяет вам оптимизировать рабочий
 Узнайте, как использовать Aspose.TeX для .NET для переопределения имен заданий и захвата вывода терминала. Следуйте нашему подробному руководству по беспрепятственному управлению файлами TeX.
 ### [Переопределить имя задания и записать вывод терминала в ZIP (C#)](./override-job-name-zip-output-csharp/)
 Узнайте, как переопределить имена заданий и записать вывод терминала в ZIP-файл с помощью Aspose.TeX для .NET. Пошаговое руководство с примерами C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

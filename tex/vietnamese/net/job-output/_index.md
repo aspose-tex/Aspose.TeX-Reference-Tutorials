@@ -3,10 +3,16 @@ title: Kiểm soát đầu ra công việc Aspose.TeX
 linktitle: Kiểm soát đầu ra công việc Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Tăng cường quản lý tệp TeX với Aspose.TeX cho .NET. Tìm hiểu cách ghi đè tên công việc và nắm bắt đầu ra của thiết bị đầu cuối một cách dễ dàng bằng cách sử dụng C# với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 24
 url: /vi/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kiểm soát đầu ra công việc Aspose.TeX
+
 
 ## Giới thiệu
 
@@ -36,3 +42,9 @@ Tóm lại, những hướng dẫn này đóng vai trò là cánh cổng giúp b
 Khám phá cách sử dụng Aspose.TeX cho .NET để ghi đè tên công việc và ghi lại đầu ra của thiết bị đầu cuối. Làm theo hướng dẫn toàn diện của chúng tôi để quản lý tệp TeX liền mạch.
 ### [Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip (C#)](./override-job-name-zip-output-csharp/)
 Tìm hiểu cách ghi đè tên công việc và ghi đầu ra của thiết bị đầu cuối vào tệp ZIP bằng Aspose.TeX cho .NET. Hướng dẫn từng bước với các ví dụ về C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

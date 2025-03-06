@@ -3,10 +3,16 @@ title: Override Job Name and Write Terminal Output to Zip (C#)
 linktitle: Override Job Name and Write Terminal Output to Zip (C#)
 second_title: Aspose.TeX .NET API
 description: Learn how to override job names and write terminal output to a ZIP file using Aspose.TeX for .NET. Step-by-step guide with C# examples.
-type: docs
 weight: 11
 url: /net/job-output/override-job-name-zip-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Override Job Name and Write Terminal Output to Zip (C#)
+
 ## Introduction
 
 In this tutorial, we will explore how to override the job name and write terminal output to a ZIP file using Aspose.TeX for .NET. Aspose.TeX is a powerful library that allows developers to work with TeX documents in their .NET applications. In this particular example, we will focus on a common task – writing terminal output to a ZIP file with the ability to override the job name.
@@ -95,3 +101,10 @@ A4: Yes, join the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for comm
 ### Q5: Where can I purchase Aspose.TeX for .NET?
 
 A5: You can buy Aspose.TeX [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

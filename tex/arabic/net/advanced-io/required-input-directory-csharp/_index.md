@@ -3,10 +3,16 @@ title: تحديد دليل الإدخال المطلوب لـ Aspose.TeX (C#)
 linktitle: تحديد دليل الإدخال المطلوب لـ Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: استكشف Aspose.TeX for .NET، وهي مكتبة قوية لتكامل TeX السلس. اتبع دليلنا خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/net/advanced-io/required-input-directory-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد دليل الإدخال المطلوب لـ Aspose.TeX (C#)
+
 ## مقدمة
 
 في مجال معالجة المستندات وتنضيدها، يمثل Aspose.TeX for .NET أداة قوية للمطورين. فهو يسهل إنشاء ملفات TeX ومعالجتها بسلاسة داخل تطبيقات .NET. تعمل هذه المقالة كدليل شامل، حيث تقسم استخدام Aspose.TeX لـ .NET إلى خطوات سهلة المتابعة.
@@ -123,3 +129,9 @@ public void Dispose()
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.TeX لـ .NET؟
 
  ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

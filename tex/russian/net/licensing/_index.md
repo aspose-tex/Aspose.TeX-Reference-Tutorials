@@ -3,10 +3,16 @@ title: Управление лицензиями Aspose.TeX
 linktitle: Управление лицензиями Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Раскройте весь потенциал Aspose.TeX .NET с помощью этих руководств. Научитесь управлять лицензиями, улучшить обработку документов и изучить безграничные возможности.
-type: docs
 weight: 23
 url: /ru/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление лицензиями Aspose.TeX
+
 ## Введение
 
 Готовы ли вы погрузиться в мир Aspose.TeX для .NET? Эти учебные пособия проведут вас через основные этапы эффективного управления лицензиями и использования всех возможностей манипулирования файлами TeX в ваших проектах C#.
@@ -41,3 +47,9 @@ Aspose.TeX для .NET открывает целый мир возможност
 Изучите Aspose.TeX для .NET Беспрепятственная загрузка лицензий и улучшение обработки документов. Ознакомьтесь с руководством, чтобы получить пошаговые инструкции.
 ### [Установите лимитную лицензию для Aspose.TeX (C#)](./set-metered-license-csharp/)
 Изучите Aspose.TeX для .NET, легко настройте дозированное лицензирование и раскройте весь потенциал манипуляций с файлами TeX в своих проектах C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Controlla l'output del lavoro Aspose.TeX
 linktitle: Controlla l'output del lavoro Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Migliora la gestione dei file TeX con Aspose.TeX per .NET. Impara a sovrascrivere i nomi dei lavori e ad acquisire facilmente l'output del terminale utilizzando C# con le nostre guide dettagliate.
-type: docs
 weight: 24
 url: /it/net/job-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Controlla l'output del lavoro Aspose.TeX
+
 
 ## introduzione
 
@@ -36,3 +42,9 @@ In conclusione, questi tutorial fungono da gateway per padroneggiare Aspose.TeX 
 Scopri come utilizzare Aspose.TeX per .NET per sovrascrivere i nomi dei lavori e acquisire l'output del terminale. Segui la nostra guida completa per una gestione perfetta dei file TeX.
 ### [Sostituisci il nome del lavoro e scrivi l'output del terminale su Zip (C#)](./override-job-name-zip-output-csharp/)
 Scopri come sovrascrivere i nomi dei lavori e scrivere l'output del terminale in un file ZIP utilizzando Aspose.TeX per .NET. Guida dettagliata con esempi in C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

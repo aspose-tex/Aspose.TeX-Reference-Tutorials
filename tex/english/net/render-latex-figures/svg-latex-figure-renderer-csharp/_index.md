@@ -3,10 +3,16 @@ title: Render LaTeX Figures to SVG with Aspose.TeX (C#)
 linktitle: Render LaTeX Figures to SVG with Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Enhance document rendering in .NET with Aspose.TeX. Learn how to render LaTeX figures to SVG in C# for seamless integration of mathematical expressions.
-type: docs
 weight: 11
 url: /net/render-latex-figures/svg-latex-figure-renderer-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render LaTeX Figures to SVG with Aspose.TeX (C#)
+
 ## Introduction
 
 If you're looking to enhance your document rendering capabilities in .NET using LaTeX figures, Aspose.TeX is your go-to solution. In this step-by-step guide, we'll walk you through rendering LaTeX figures to SVG using Aspose.TeX in C#. By the end of this tutorial, you'll have a clear understanding of the process, empowering you to seamlessly incorporate high-quality mathematical expressions and figures into your documents.
@@ -89,3 +95,10 @@ A4: Yes, you can purchase Aspose.TeX [here](https://purchase.aspose.com/buy).
 ### Q5: Do I need a temporary license?
 
 A5: If required, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

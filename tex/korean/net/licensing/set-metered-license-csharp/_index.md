@@ -3,10 +3,16 @@ title: Aspose.TeX에 대한 측정 라이선스 설정(C#)
 linktitle: Aspose.TeX에 대한 측정 라이선스 설정(C#)
 second_title: Aspose.TeX .NET API
 description: .NET용 Aspose.TeX를 탐색하고, 계량형 라이선스를 손쉽게 설정하고, C# 프로젝트에서 TeX 파일 조작의 잠재력을 최대한 활용하세요.
-type: docs
 weight: 12
 url: /ko/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.TeX에 대한 측정 라이선스 설정(C#)
+
 ## 소개
 
 Aspose.TeX for .NET은 개발자가 TeX 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 잠재력을 최대한 활용하려면 계량 라이선스를 설정하는 것이 중요합니다. 이를 통해 애플리케이션에서 라이브러리를 사용할 수 있는 적절한 권한이 있는지 확인합니다.
@@ -92,3 +98,9 @@ C#에서 Aspose.TeX에 대한 계량 라이선스를 설정하는 과정은 간�
 ### Q5: Aspose.TeX에 임시 라이선스를 사용할 수 있나요?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

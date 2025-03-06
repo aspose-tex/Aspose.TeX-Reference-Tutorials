@@ -3,10 +3,16 @@ title: العمل مع أنظمة الملفات ومخرجات XPS في Aspose.
 linktitle: العمل مع أنظمة الملفات ومخرجات XPS في Aspose.TeX لـ .NET
 second_title: Aspose.TeX .NET API
 description: اكتشف قوة Aspose.TeX لـ .NET. تعرف على كيفية التعامل بسهولة مع أنظمة الملفات وإنشاء مخرجات XPS في هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 10
 url: /ar/net/file-input-output/filesystem-input-xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع أنظمة الملفات ومخرجات XPS في Aspose.TeX لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول العمل مع أنظمة الملفات ومخرجات XPS في Aspose.TeX لـ .NET! إذا كنت تتطلع إلى تسخير قوة Aspose.TeX لإدارة الإدخال والإخراج من خلال أنظمة الملفات أثناء إنشاء مخرجات XPS، فقد وصلت إلى المكان الصحيح. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال العملية، مع تقسيم كل مثال إلى خطوات متعددة لضمان فهم واضح.
@@ -113,3 +119,9 @@ options.TerminalOut.Writer.WriteLine();
 ### س 5: هل هناك أي مشاريع عينة متاحة؟
 
 ج5: استكشف مستودع Aspose.TeX GitHub لنماذج المشاريع ومقتطفات التعليمات البرمجية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

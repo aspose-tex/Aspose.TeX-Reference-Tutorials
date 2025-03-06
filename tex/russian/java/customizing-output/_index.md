@@ -3,10 +3,16 @@ title: Настройка вывода TeX в Aspose.TeX для Java
 linktitle: Настройка вывода TeX в Aspose.TeX для Java
 second_title: API Aspose.TeX Java
 description: Улучшите обработку документов на Java с помощью Aspose.TeX. Изучите руководства по переопределению названий заданий, написанию вывода терминала и плавному рендерингу рисунков и математических данных LaTeX в PNG/SVG.
-type: docs
 weight: 26
 url: /ru/java/customizing-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка вывода TeX в Aspose.TeX для Java
+
 ## Введение
 
 Вы разработчик Java и хотите расширить свои возможности обработки документов? Погрузитесь в мир Aspose.TeX, мощного инструмента, позволяющего точно и эффективно настраивать вывод TeX. В этой статье мы проведем вас через основные руководства по различным вариантам настройки.
@@ -61,3 +67,9 @@ url: /ru/java/customizing-output/
 Узнайте, как легко преобразовать фигуры LaTeX в SVG на Java с помощью Aspose.TeX. Следуйте этому пошаговому руководству для бесшовной интеграции.
 ### [Рендеринг математических вычислений LaTeX в SVG на Java](./render-lamath-svg/)
 Узнайте, как преобразовать математические уравнения LaTeX в SVG на Java с помощью Aspose.TeX. Следуйте нашему пошаговому руководству для получения точных и визуально привлекательных результатов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

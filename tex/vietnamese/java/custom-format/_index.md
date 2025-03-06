@@ -3,10 +3,16 @@ title: Tạo định dạng TeX tùy chỉnh trong Java
 linktitle: Tạo định dạng TeX tùy chỉnh trong Java
 second_title: API Java Aspose.TeX
 description: Tăng tính nhất quán trong sắp chữ trong Java với Aspose.TeX. Đi sâu vào hướng dẫn của chúng tôi về cách tạo định dạng TeX tùy chỉnh để định dạng tài liệu liền mạch và hiệu quả.
-type: docs
 weight: 24
 url: /vi/java/custom-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo định dạng TeX tùy chỉnh trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách khai thác sức mạnh của Aspose.TeX cho Java để đạt được tính nhất quán tuyệt vời trong cách sắp chữ. Trong loạt bài hướng dẫn này, chúng ta sẽ đi sâu vào nghệ thuật tạo các định dạng TeX tùy chỉnh, giúp bạn nâng cao trò chơi định dạng tài liệu của mình một cách dễ dàng.
@@ -41,3 +47,9 @@ Bắt đầu cuộc hành trình này với các hướng dẫn Aspose.TeX dành
 ## Tạo định dạng TeX tùy chỉnh trong hướng dẫn Java
 ### [Tạo định dạng TeX tùy chỉnh để sắp chữ nhất quán trong Java](./creating-custom-formats/)
 Nâng cao tính nhất quán trong sắp chữ trong Java với Aspose.TeX. Tạo các định dạng TeX tùy chỉnh một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

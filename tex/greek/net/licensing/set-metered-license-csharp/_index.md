@@ -3,10 +3,16 @@ title: Ορισμός μετρημένης άδειας για Aspose.TeX (C#)
 linktitle: Ορισμός μετρημένης άδειας για Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Εξερευνήστε το Aspose.TeX για .NET, ρυθμίστε τις μετρημένες άδειες χρήσης χωρίς κόπο και ξεκλειδώστε όλες τις δυνατότητες χειρισμού αρχείων TeX στα έργα σας C#.
-type: docs
 weight: 12
 url: /el/net/licensing/set-metered-license-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορισμός μετρημένης άδειας για Aspose.TeX (C#)
+
 ## Εισαγωγή
 
 Το Aspose.TeX for .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία TeX απρόσκοπτα. Για να ξεκλειδώσετε πλήρως τις δυνατότητές του, είναι απαραίτητο να δημιουργήσετε μια μετρημένη άδεια. Αυτό διασφαλίζει ότι έχετε την κατάλληλη εξουσιοδότηση για τη χρήση της βιβλιοθήκης στις εφαρμογές σας.
@@ -92,3 +98,9 @@ else
 ### Ε5: Μπορώ να χρησιμοποιήσω μια προσωρινή άδεια χρήσης για το Aspose.TeX;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

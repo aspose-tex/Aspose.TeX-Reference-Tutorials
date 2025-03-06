@@ -3,10 +3,16 @@ title: Làm việc với đầu vào Hệ thống tệp & ZIP trong Aspose.TeX c
 linktitle: Làm việc với đầu vào Hệ thống tệp & ZIP trong Aspose.TeX cho .NET
 second_title: API Aspose.TeX .NET
 description: Khám phá Aspose.TeX for .NET một thư viện mạnh mẽ để xử lý tài liệu TeX và LaTeX. Chuyển đổi tập tin một cách hiệu quả với hệ thống tập tin và đầu vào ZIP.
-type: docs
 weight: 11
 url: /vi/net/file-input-output/required-inputs-from-filesystem-and-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với đầu vào Hệ thống tệp & ZIP trong Aspose.TeX cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn làm việc với hệ thống tệp và đầu vào ZIP trong Aspose.TeX cho .NET. Aspose.TeX là một thư viện .NET mạnh mẽ cho phép bạn làm việc với các tài liệu TeX và LaTeX. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc xử lý hệ thống tệp và đầu vào ZIP, cung cấp cho bạn hướng dẫn từng bước về cách sử dụng Aspose.TeX để chuyển đổi tài liệu hiệu quả.
@@ -103,3 +109,9 @@ Câu trả lời 1: Aspose.TeX chủ yếu tập trung vào xử lý tài liệu
 ### Câu hỏi 5: Tôi có thể mua Aspose.TeX cho .NET ở đâu?
 
 Câu trả lời 5: Bạn có thể mua Aspose.TeX cho .NET từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 覆蓋作業名稱並將終端輸出寫入磁碟 (C#)
 linktitle: 覆蓋作業名稱並將終端輸出寫入磁碟 (C#)
 second_title: Aspose.TeX .NET API
 description: 探索如何使用 Aspose.TeX for .NET 覆寫作業名稱並擷取終端輸出。請遵循我們的無縫 TeX 檔案管理綜合指南。
-type: docs
 weight: 10
 url: /zh-hant/net/job-output/override-job-name-disk-output-csharp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 覆蓋作業名稱並將終端輸出寫入磁碟 (C#)
+
 ## 介紹
 
 歡迎閱讀本逐步指南，了解如何使用 Aspose.TeX for .NET 以 C# 程式語言覆寫作業名稱並將終端輸出寫入磁碟。 Aspose.TeX for .NET 是一個功能強大的函式庫，可讓您無縫地使用 TeX 文件，在本教學中，我們將專注於一項特定任務：覆蓋作業名稱和捕獲終端輸出。
@@ -106,3 +112,9 @@ A3：訪問[Aspose.TeX 論壇](https://forum.aspose.com/c/tex/47)獲得社區和
 ### Q5：在哪裡可以找到 Aspose.TeX for .NET 的文件？
 
  A5：文件可用[這裡](https://reference.aspose.com/tex/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

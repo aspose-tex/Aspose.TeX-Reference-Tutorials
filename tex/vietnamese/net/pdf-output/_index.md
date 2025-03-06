@@ -3,10 +3,16 @@ title: Làm việc với đầu ra PDF
 linktitle: Làm việc với đầu ra PDF
 second_title: API Aspose.TeX .NET
 description: Khai phá sức mạnh của Aspose.TeX cho .NET với hướng dẫn toàn diện của chúng tôi về cách sắp chữ TeX thành PDF. Nâng cao kỹ năng phát triển .NET của bạn bằng khả năng tích hợp liền mạch.
-type: docs
 weight: 28
 url: /vi/net/pdf-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với đầu ra PDF
+
 ## Giới thiệu
 
 Aspose.TeX for .NET là một công cụ thay đổi cuộc chơi trong thế giới sắp chữ TeX sang PDF và hướng dẫn này là cửa ngõ để bạn khai thác toàn bộ tiềm năng của nó. Trong bài viết này, chúng ta sẽ đi sâu vào những điểm phức tạp khi làm việc với đầu ra PDF, tập trung vào việc tích hợp liền mạch Aspose.TeX cho .NET.
@@ -31,3 +37,9 @@ Tóm lại, hướng dẫn Aspose.TeX dành cho .NET của chúng tôi về các
 ## Hướng dẫn làm việc với đầu ra PDF
 ### [Cách sắp chữ TeX sang PDF trong .NET](./typeset-tex-to-pdf/)
 Khám phá sự tích hợp liền mạch của Aspose.TeX cho .NET trong việc sắp chữ TeX thành PDF. Đi sâu vào hướng dẫn toàn diện này và nâng cao kỹ năng phát triển .NET của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.TeX for .NET 创建独特的 LaTeX 设计
 linktitle: 使用 Aspose.TeX for .NET 创建独特的 LaTeX 设计
 second_title: Aspose.TeX .NET API
 description: 使用 Aspose.TeX for .NET 轻松创建令人惊叹的 LaTeX 设计。立即下载，无缝集成到您的 .NET 项目中。
-type: docs
 weight: 10
 url: /zh/net/advanced-formatting-and-customization/create-custom-tex-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.TeX for .NET 创建独特的 LaTeX 设计
+
 ## 介绍
 
 LaTeX 是一种功能强大的排版系统，广泛用于创建高质量的文档和设计。 Aspose.TeX for .NET 提供了一种在 .NET 应用程序中充分利用 LaTeX 潜力的无缝方法。在本教程中，我们将指导您完成使用 Aspose.TeX for .NET 创建独特的 LaTeX 设计的过程。
@@ -89,3 +95,9 @@ A3：访问[Aspose.TeX 论坛](https://forum.aspose.com/c/tex/47)寻求帮助、
 ### Q5：我可以获得 Aspose.TeX 的临时许可证吗？
 
 A5：是的，您可以通过访问获得临时许可证[这个链接](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

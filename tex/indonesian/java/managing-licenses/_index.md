@@ -3,10 +3,16 @@ title: Mengelola Lisensi di Aspose.TeX untuk Java
 linktitle: Mengelola Lisensi di Aspose.TeX untuk Java
 second_title: Aspose.TeX Java API
 description: Buka potensi Aspose.TeX untuk Java! Pelajari cara mengelola lisensi dengan mudah - memuat dari file, streaming, atau menyiapkan lisensi terukur dengan tutorial langkah demi langkah kami.
-type: docs
 weight: 25
 url: /id/java/managing-licenses/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengelola Lisensi di Aspose.TeX untuk Java
+
 
 ## Perkenalan 
 
@@ -32,3 +38,9 @@ Temukan kekuatan Aspose.TeX untuk Java. Memuat lisensi TeX dengan mudah dari fil
 Jelajahi kekuatan Aspose.TeX untuk Java dengan panduan langkah demi langkah kami dalam memuat lisensi TeX dari aliran. Integrasikan manipulasi dokumen TeX dengan mulus ke dalam aplikasi Java Anda.
 ### [Tetapkan Lisensi Terukur untuk Aspose.TeX di Java](./set-metered-license/)
 Buka potensi penuh Aspose.TeX di Java dengan menyiapkan lisensi terukur. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

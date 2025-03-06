@@ -3,10 +3,16 @@ title: Укажите требуемый входной каталог в Java
 linktitle: Укажите требуемый входной каталог в Java
 second_title: API Aspose.TeX Java
 description: Улучшите обработку Java TeX с помощью Aspose.TeX для Java. Следуйте нашему пошаговому руководству, чтобы легко указать необходимые входные каталоги.
-type: docs
 weight: 10
 url: /ru/java/advanced-io/required-input-directory/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Укажите требуемый входной каталог в Java
+
 ## Введение
 
 Вы хотите расширить возможности вашего Java-приложения для эффективной обработки заданий TeX? Aspose.TeX для Java — это решение, которое вы искали! В этом подробном руководстве мы покажем вам процесс указания требуемого входного каталога в Java с помощью Aspose.TeX.
@@ -104,3 +110,9 @@ Aspose.TeX for Java позволяет разработчикам беспреп
 ### Вопрос 5: Как мне приобрести Aspose.TeX для Java?
 
  A5: Чтобы купить, посетите страницу покупки.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

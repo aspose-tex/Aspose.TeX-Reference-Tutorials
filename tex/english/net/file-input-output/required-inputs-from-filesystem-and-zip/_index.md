@@ -3,10 +3,16 @@ title: Work with Filesystem & ZIP Inputs in Aspose.TeX for .NET
 linktitle: Work with Filesystem & ZIP Inputs in Aspose.TeX for .NET
 second_title: Aspose.TeX .NET API
 description: Explore Aspose.TeX for .NET a robust library for TeX and LaTeX document handling. Efficiently convert files with filesystem and ZIP inputs.
-type: docs
 weight: 11
 url: /net/file-input-output/required-inputs-from-filesystem-and-zip/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Work with Filesystem & ZIP Inputs in Aspose.TeX for .NET
+
 ## Introduction
 
 Welcome to the tutorial on working with filesystem and ZIP inputs in Aspose.TeX for .NET. Aspose.TeX is a powerful .NET library that allows you to work with TeX and LaTeX documents. In this tutorial, we will focus on handling filesystem and ZIP inputs, providing you with step-by-step guidance on utilizing Aspose.TeX for efficient document conversion.
@@ -103,3 +109,10 @@ A4: Yes, you can access a free trial version at [Aspose.TeX Releases](https://re
 ### Q5: Where can I purchase Aspose.TeX for .NET?
 
 A5: You can purchase Aspose.TeX for .NET from the [purchase page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Convert LaTeX to PNG in .NET with Aspose.TeX
 linktitle: Convert LaTeX to PNG in .NET with Aspose.TeX
 second_title: Aspose.TeX .NET API
 description: Explore the comprehensive guide on converting LaTeX to PNG in .NET using Aspose.TeX. Elevate your document processing capabilities with this step-by-step tutorial.
-type: docs
 weight: 11
 url: /net/latex-conversion/to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert LaTeX to PNG in .NET with Aspose.TeX
+
 ## Introduction
 
 Welcome to our step-by-step guide on converting LaTeX to PNG in .NET using Aspose.TeX. If you're a .NET developer looking to seamlessly integrate LaTeX document conversion into your applications, you're in the right place. In this tutorial, we will walk you through the process, breaking down each step to ensure a smooth and successful conversion.
@@ -98,3 +104,10 @@ A4: Visit our support forum [here](https://forum.aspose.com/c/tex/47) for assist
 ### Q5: Where can I purchase Aspose.TeX for .NET?
 
 A:5 You can purchase the product [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

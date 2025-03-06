@@ -3,10 +3,16 @@ title: قم بتحميل ترخيص TeX من Stream في Java
 linktitle: قم بتحميل ترخيص TeX من Stream في Java
 second_title: Aspose.TeX جافا API
 description: اكتشف قوة Aspose.TeX لـ Java من خلال دليلنا خطوة بخطوة حول تحميل تراخيص TeX من التدفقات. قم بدمج معالجة مستندات TeX بسلاسة في تطبيقات Java الخاصة بك.
-type: docs
 weight: 11
 url: /ar/java/managing-licenses/load-license-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحميل ترخيص TeX من Stream في Java
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.TeX for Java، وهي مكتبة قوية تعمل على تبسيط مهام معالجة مستندات TeX وتحويلها. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحميل ترخيص TeX من تدفق في Java. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام Aspose.TeX، سيساعدك هذا الدليل التفصيلي خطوة بخطوة على دمج الترخيص في تطبيق Java الخاص بك بسلاسة.
@@ -89,3 +95,9 @@ System.out.println("License set successfully.");
 ### س5: هل تقدمون تراخيص مؤقتة؟
 
  ج5: نعم، يمكن الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

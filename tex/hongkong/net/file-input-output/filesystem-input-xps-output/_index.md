@@ -3,10 +3,16 @@ title: 在 Aspose.TeX for .NET 中使用檔案系統和 XPS 輸出
 linktitle: 在 Aspose.TeX for .NET 中使用檔案系統和 XPS 輸出
 second_title: Aspose.TeX .NET API
 description: 探索 Aspose.TeX for .NET 的強大功能。在這個綜合教程中了解如何輕鬆處理檔案系統並產生 XPS 輸出。
-type: docs
 weight: 10
 url: /zh-hant/net/file-input-output/filesystem-input-xps-output/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.TeX for .NET 中使用檔案系統和 XPS 輸出
+
 ## 介紹
 
 歡迎來到這個關於在 Aspose.TeX for .NET 中使用檔案系統和 XPS 輸出的綜合教學！如果您希望利用 Aspose.TeX 的強大功能透過檔案系統管理輸入和輸出，同時產生 XPS 輸出，那麼您來對地方了。在本逐步指南中，我們將引導您完成整個過程，將每個範例分解為多個步驟，以確保您清楚地理解。
@@ -113,3 +119,9 @@ A1: 是的，可以。 Aspose.TeX 支援多種輸出格式，您可以選擇最�
 ### Q5: 有可用的範例項目嗎？
 
 A5：探索 Aspose.TeX GitHub 儲存庫以取得範例專案和程式碼片段。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

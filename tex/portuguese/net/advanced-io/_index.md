@@ -3,10 +3,16 @@ title: Entrada e saída avançada do Aspose.TeX
 linktitle: Entrada e saída avançada do Aspose.TeX
 second_title: API Aspose.TeX .NET
 description: Descubra o poder do Aspose.TeX para .NET com nossos tutoriais avançados. Aprenda a especificar diretórios de entrada e fluxos mestres, imagens e entrada de terminal em C#.
-type: docs
 weight: 27
 url: /pt/net/advanced-io/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Entrada e saída avançada do Aspose.TeX
+
 ## Introdução
 
 Aspose.TeX for .NET é um divisor de águas na integração perfeita do TeX, fornecendo aos desenvolvedores uma biblioteca robusta para aprimorar o processamento de documentos. Neste artigo, nos aprofundamos em tutoriais avançados com foco na especificação de diretórios de entrada e no domínio de fluxos, imagens e entrada de terminal em C#.
@@ -29,3 +35,9 @@ Concluindo, esses tutoriais servem como porta de entrada para dominar o Aspose.T
 Explore Aspose.TeX for .NET, uma biblioteca robusta para integração perfeita com TeX. Siga nosso guia passo a passo.
 ### [Fluxos mestres, imagens e entrada de terminal em Aspose.TeX para C#](./stream-input-image-output-terminal-input-csharp/)
 Explore o poder do Aspose.TeX para fluxos mestres C#, imagens e entrada de terminal sem esforço. Baixe agora para processamento de documentos perfeito.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
