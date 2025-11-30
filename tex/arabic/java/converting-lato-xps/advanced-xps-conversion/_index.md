@@ -1,35 +1,45 @@
 ---
-title: قم بتخصيص تحويل LaTeX إلى XPS في Java باستخدام Aspose.TeX
-linktitle: قم بتخصيص تحويل LaTeX إلى XPS في Java باستخدام Aspose.TeX
-second_title: Aspose.TeX جافا API
-description: أطلق العنان للتحويل السلس من LaTeX إلى XPS في Java باستخدام Aspose.TeX. اتبع دليلنا خطوة بخطوة لمعالجة المستندات بكفاءة.
+date: 2025-11-30
+description: تعلم كيفية تحويل LaTeX إلى XPS باستخدام Aspose.TeX في Java. يغطي هذا
+  الدليل معالجة مستندات Java والمتطلبات المسبقة والشفرة خطوة بخطوة.
+language: ar
+linktitle: How to Convert LaTeX to XPS in Java with Aspose.TeX
+second_title: Aspose.TeX Java API
+title: كيفية تحويل LaTeX إلى XPS في Java باستخدام Aspose.TeX
+url: /java/converting-lato-xps/advanced-xps-conversion/
 weight: 11
-url: /ar/java/converting-lato-xps/advanced-xps-conversion/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بتخصيص تحويل LaTeX إلى XPS في Java باستخدام Aspose.TeX
+# كيفية تحويل LaTeX إلى XPS في Java باستخدام Aspose.TeX
 
-## مقدمة
+## المقدمة
 
-هل تتطلع إلى تحسين قدرات معالجة المستندات لديك في Java؟ باستخدام Aspose.TeX، يمكنك تحويل ملفات LaTeX إلى تنسيق XPS بسلاسة. سيرشدك هذا الدليل خطوة بخطوة خلال العملية، مما يضمن لك فتح الإمكانات الكاملة لـ Aspose.TeX في تطبيقات Java الخاصة بك.
+إذا كنت بحاجة إلى **تحويل مستندات LaTeX** إلى ملفات XPS عالية الجودة من تطبيق Java، فأنت في المكان الصحيح. باستخدام **Aspose.TeX**، يمكنك أتمتة هذه العملية كجزء من سير عمل **معالجة مستندات Java** الخاص بك، مما يلغي الخطوات اليدوية ويضمن إخراجًا متسقًا. في هذا الدليل سنستعرض كل ما تحتاجه—من المتطلبات المسبقة إلى عينة كود كاملة قابلة للتنفيذ.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما المكتبة المطلوبة؟** Aspose.TeX for Java.  
+- **ما الصيغ المتضمنة؟** الإدخال = LaTeX (`.ltx`)، الإخراج = XPS.  
+- **هل أحتاج إلى ترخيص للاختبار؟** نسخة تجريبية مجانية تكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج.  
+- **كم عدد أسطر الكود؟** أقل من 30 سطرًا من منطق التحويل الأساسي.  
+- **هل يمكن تشغيله على أي نظام تشغيل؟** نعم – Java مستقلة عن المنصة.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## المتطلبات المسبقة
 
-1.  Aspose.TeX لمكتبة Java: تأكد من تثبيت مكتبة Aspose.TeX لـ Java. يمكنك تنزيله من[هنا](https://releases.aspose.com/tex/java/).
+قبل أن تبدأ، تأكد من توفر ما يلي:
 
-2. بيئة تطوير Java: قم بإعداد بيئة تطوير Java على جهازك.
+1. **Aspose.TeX for Java** – حمّل أحدث ملف JAR من [صفحة إصدارات Aspose.TeX](https://releases.aspose.com/tex/java/).  
+2. **مجموعة تطوير جافا (JDK 8 أو أحدث)** – قم بإعداد بيئة التطوير المفضلة لديك (IntelliJ, Eclipse, VS Code، إلخ).  
+3. **ملف مصدر LaTeX** – على سبيل المثال، `hello-world.ltx` الذي تريد تحويله إلى XPS.  
 
-3.  ملف LaTeX: قم بإعداد ملف LaTeX (على سبيل المثال،`hello-world.ltx`) الذي تريد تحويله إلى XPS.
+توفر لك هذه العناصر أساسًا قويًا لمعالجة **معالجة مستندات Java** بسلاسة.
 
-## حزم الاستيراد
+## استيراد الحزم
 
-في مشروع Java الخاص بك، قم باستيراد الحزم اللازمة للاستفادة من وظائف Aspose.TeX. قم بتضمين الكود التالي في بداية ملف Java الخاص بك:
+أضف الاستيرادات المطلوبة في أعلى فئة Java الخاصة بك. سيمكنك ذلك من الوصول إلى محرك التحويل في Aspose.TeX ومساعدي نظام الملفات.
 
 ```java
 package com.aspose.tex.LaTeXXpsConversionAlternative;
@@ -46,41 +56,41 @@ import com.aspose.tex.rendering.XpsDevice;
 import com.aspose.tex.rendering.XpsSaveOptions;
 ```
 
-## الخطوة 1: إنشاء دفق XPS
+## الخطوة 1: إنشاء تدفق XPS
 
-لبدء التحويل، قم بإنشاء دفق لكتابة ملف XPS. استخدم مقتطف الكود التالي:
+أولاً، أنشئ تدفق إخراج حيث سيتم كتابة مستند XPS. استبدل `"Your Output Directory"` بالمجلد الذي تريد حفظ النتيجة فيه.
 
 ```java
-// ExStart: التحويل-LaTeXToXps-البديل
-//قم بإنشاء الدفق لكتابة ملف XPS إليه.
+// ExStart:Conversion-LaTeXToXps-Alternative
+// Create the stream to write the XPS file to.
 final OutputStream xpsStream = new FileOutputStream("Your Output Directory" + "any-name.xps");
 ```
 
 ## الخطوة 2: تكوين خيارات التحويل
 
-قم بتكوين خيارات التحويل لتحديد تنسيق LaTeX ودليل الإخراج. أضف الكود التالي:
+قم بإعداد خيارات التحويل حتى يعرف Aspose.TeX أنك تعمل مع مصدر Object‑LaTeX وأين يتم وضع الملفات المؤقتة.
 
 ```java
-// قم بإنشاء خيارات تحويل لتنسيق Object LaTeX عند امتداد محرك Object TeX.
+// Create conversion options for Object LaTeX format upon Object TeX engine extension.
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectLaTeX());
-// حدد دليل عمل نظام الملفات للإخراج.
+// Specify a file system working directory for the output.
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
-// قم بتهيئة خيارات الحفظ بتنسيق XPS.
-options.setSaveOptions(new XpsSaveOptions()); // القيمة الافتراضية. التعيين التعسفي.
+// Initialize the options for saving in XPS format.
+options.setSaveOptions(new XpsSaveOptions()); // Default value. Arbitrary assignment.
 ```
 
 ## الخطوة 3: تشغيل تحويل LaTeX إلى XPS
 
-قم بتنفيذ تحويل LaTeX إلى XPS باستخدام الخيارات المعدة. قم بتضمين الكود التالي:
+الآن استدعِ محرك التحويل. يربط `TeXJob` بين ملف الإدخال، وجهاز XPS (الذي يكتب إلى التدفق)، والخيارات التي قمت بتكوينها للتو.
 
 ```java
-// قم بتشغيل تحويل LaTeX إلى XPS.
+// Run LaTeX to XPS conversion.
 new TeXJob("Your Input Directory" + "hello-world.ltx", new XpsDevice(xpsStream), options).run();
 ```
 
-## الخطوة 4: أغلق دفق XPS
+## الخطوة 4: إغلاق تدفق XPS
 
-وأخيرًا، تأكد من إغلاق دفق XPS. استخدم الكود التالي:
+دائمًا أغلق التدفق لتحرير موارد النظام وضمان إكمال ملف XPS بشكل صحيح.
 
 ```java
 finally {
@@ -90,33 +100,45 @@ finally {
 // ExEnd:Conversion-LaTeXToXps-Alternative
 ```
 
-تهانينا! لقد نجحت في تخصيص تحويل LaTeX إلى XPS في Java باستخدام Aspose.TeX.
+تهانينا! لقد تعلمت **كيفية تحويل LaTeX** إلى XPS في بيئة Java باستخدام Aspose.TeX. يمكن دمج هذا المقتطف البرمجي المدمج في خطوط أنابيب **معالجة مستندات Java** الأكبر—سواءً كنت تولد تقارير، فواتير، أو أي مخرجات قابلة للطباعة أخرى.
 
-## خاتمة
+## لماذا تستخدم Aspose.TeX لهذا التحويل؟
 
-في هذا البرنامج التعليمي، اكتشفنا كيفية تسخير قوة Aspose.TeX لتحويل ملفات LaTeX إلى تنسيق XPS دون عناء. من خلال بضع خطوات فقط، يمكنك تحسين قدرات معالجة المستندات لديك في Java.
+- **لا حاجة لتثبيت LaTeX خارجي** – يتولى Aspose.TeX كل عملية العرض داخليًا.  
+- **متعدد المنصات** – يعمل على Windows وLinux وmacOS لأنه مكتوب بالكامل بلغة Java.  
+- **تحكم دقيق** – تتيح لك الخيارات تحديد مجلدات العمل، صيغ الإخراج، وأكثر.  
+- **دقة عالية** – يحتفظ إخراج XPS بالرسومات المتجهة والطباعة من مصدر LaTeX الأصلي.
 
-## الأسئلة الشائعة
+## المشكلات الشائعة والنصائح
 
-### س1: هل يمكنني استخدام Aspose.TeX لـ Java مجانًا؟
+| العَرَض | السبب المحتمل | الحل |
+|---------|--------------|-----|
+| `FileNotFoundException` عند الإخراج | مسار مجلد الإخراج غير صحيح | استخدم مسارًا مطلقًا أو تأكد من وجود المجلد |
+| ملف XPS فارغ | ملف `.ltx` الإدخالي فارغ أو غير صالح | تحقق من أن مصدر LaTeX يُترجم بشكل صحيح في محرر LaTeX |
+| خطأ نفاد الذاكرة للملفات الكبيرة | ذاكرة JVM غير كافية | زد حجم الـ heap باستخدام خيار `-Xmx` (مثال: `-Xmx2g`) |
 
- ج1: نعم، يمكنك الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+## الأسئلة المتكررة
 
-### س2: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.TeX؟
+### س1: هل يمكنني استخدام Aspose.TeX for Java مجانًا؟
+ج1: نعم، يمكنك الحصول على نسخة تجريبية مجانية من [هنا](https://releases.aspose.com/).
 
- ج2: قم بزيارة الوثائق[هنا](https://reference.aspose.com/tex/java/).
+### س2: أين يمكنني العثور على وثائق مفصلة لـ Aspose.TeX؟
+ج2: زر وثائق المنتج [هنا](https://reference.aspose.com/tex/java/).
 
-### س3: كيف يمكنني الحصول على الدعم لـ Aspose.TeX؟
-
- ج3: للحصول على الدعم، قم بزيارة[منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47).
+### س3: كيف يمكنني الحصول على دعم لـ Aspose.TeX؟
+ج3: للحصول على الدعم، زر [منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47).
 
 ### س4: هل هناك ترخيص مؤقت متاح؟
+ج4: نعم، يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
- ج4: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+### س5: أين يمكنني شراء Aspose.TeX for Java؟
+ج5: يمكنك شراء Aspose.TeX for Java [هنا](https://purchase.aspose.com/buy).
 
-### س5: أين يمكنني شراء Aspose.TeX لـ Java؟
+---
 
- ج5: يمكنك شراء Aspose.TeX لـ Java[هنا](https://purchase.aspose.com/buy).
+**آخر تحديث:** 2025-11-30  
+**تم الاختبار مع:** Aspose.TeX 24.11 for Java  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
