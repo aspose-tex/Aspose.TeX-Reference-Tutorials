@@ -117,17 +117,15 @@ A4: Yes, you can access a free trial [here](https://releases.aspose.com/).
 ### Q5: How do I purchase Aspose.TeX for Java?
 A5: To buy, visit the purchase page [here](https://purchase.aspose.com/buy).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-11-28  
 **Tested With:** Aspose.TeX for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

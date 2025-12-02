@@ -159,17 +159,15 @@ A: Explore the comprehensive [documentation](https://reference.aspose.com/tex/ja
 
 You now have a complete, end‑to‑end example of how to **convert TeX to PNG**, **handle console input Java**, and **save TeX as PNG** using Aspose.TeX for Java. Integrate these snippets into your own applications to automate document rendering, generate dynamic images, or build interactive TeX consoles.
 
+---
+
+**Last Updated:** 2025-11-28  
+**Tested With:** Aspose.TeX for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-28  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose  
-
----

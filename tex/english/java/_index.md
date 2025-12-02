@@ -92,6 +92,11 @@ Effortlessly master typesetting in Java with Aspose.TeX. Dive into our Custom Te
 Unlock the secrets of typesetting TeX files to XPS in Java effortlessly with Aspose.TeX. Dive into our tutorials for step‑by‑step guidance on seamless document processing.
 ### [Handling ZIP Archives in Aspose.TeX for Java](./zip-archives/)
 Unlock the power of Aspose.TeX for Java with our comprehensive tutorials on handling ZIP archives. Optimize input and output processes seamlessly with guidance.
+---
+
+**Last Updated:** 2025-11-28  
+**Tested With:** Aspose.TeX latest stable release (2025)  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

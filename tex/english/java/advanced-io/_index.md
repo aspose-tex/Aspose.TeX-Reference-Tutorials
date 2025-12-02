@@ -81,13 +81,6 @@ A: Yes, Aspose.TeX handles UTF‑8 encoded TeX files out of the box.
 ## Conclusion
 By mastering how to **generate images from TeX** and leveraging Aspose.TeX’s advanced input and output capabilities, you can build robust Java applications that render complex mathematical content on the fly. Explore the linked sub‑tutorials for detailed code samples, then experiment with custom rendering options to fit your project's needs.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Advanced Input and Output in Aspose.TeX for Java Tutorials
 ### [Specify Required Input Directory in Java](./required-input-directory/)
 Enhance Java TeX processing with Aspose.TeX for Java. Follow our step-by-step guide to specify required input directories seamlessly.
@@ -99,3 +92,10 @@ Learn stream input, image output, and terminal input in Java using Aspose.TeX. A
 **Last Updated:** 2025-11-28  
 **Tested With:** Aspose.TeX for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

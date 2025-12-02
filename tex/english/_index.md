@@ -67,15 +67,15 @@ These are links to some useful resources:
 - [Typesetting TeX Files to XPS in Java](./java/typesetting-tex-to-xps/)
 - [Handling ZIP Archives in Aspose.TeX for Java](./java/zip-archives/)
 
+---
+
+**Last Updated:** 2025-11-28  
+**Tested With:** Aspose.TeX latest stable release (2025)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-28  
-**Tested With:** Aspose.TeX latest stable release (2025)  
-**Author:** Aspose
