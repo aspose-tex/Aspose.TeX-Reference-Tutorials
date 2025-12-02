@@ -75,12 +75,6 @@ LaTeX هي لغة توصيف صُممت للطباعة عالية الجودة،
 ### [تخصيص تحويل LaTeX إلى XPS في Java باستخدام Aspose.TeX](./advanced-xps-conversion/)
 افتح تحويل LaTeX إلى XPS بسلاسة في Java باستخدام Aspose.TeX. اتبع دليلنا خطوة بخطوة لمعالجة المستندات بكفاءة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## الأسئلة المتكررة
 
@@ -104,3 +98,10 @@ LaTeX هي لغة توصيف صُممت للطباعة عالية الجودة،
 **آخر تحديث:** 2025-11-30  
 **تم الاختبار مع:** Aspose.TeX for Java 24.11 (أحدث نسخة وقت الكتابة)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

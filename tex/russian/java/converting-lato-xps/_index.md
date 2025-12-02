@@ -75,13 +75,6 @@ LaTeX — это язык разметки, предназначенный дл�
 ### [Customize LaTeX to XPS Conversion in Java with Aspose.TeX](./advanced-xps-conversion/)
 Откройте безупречную конвертацию LaTeX в XPS в Java, используя Aspose.TeX. Следуйте нашему пошаговому руководству для эффективной обработки документов.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q:** **В: Могу ли я использовать это решение в коммерческом Java‑приложении?**  
@@ -104,3 +97,10 @@ LaTeX — это язык разметки, предназначенный дл�
 **Last Updated:** 2025-11-30  
 **Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

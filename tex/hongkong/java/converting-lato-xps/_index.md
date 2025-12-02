@@ -74,13 +74,6 @@ LaTeX 是一種用於高品質排版的標記語言，而 XPS（XML Paper Specif
 ### [Customize LaTeX to XPS Conversion in Java with Aspose.TeX](./advanced-xps-conversion/)
 使用 Aspose.TeX 在 Java 中解鎖無縫的 LaTeX 轉 XPS 轉換。遵循我們的逐步指南，提升文件處理效率。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在商業 Java 應用程式中使用此解決方案嗎？**  
@@ -103,3 +96,10 @@ A: 使用 `FontSettings` 類別在渲染前指定自訂字型集合。
 **最後更新：** 2025-11-30  
 **測試環境：** Aspose.TeX for Java 24.11（撰寫時的最新版本）  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -74,13 +74,6 @@ LaTeX 是一种用于高质量排版的标记语言，而 XPS（XML Paper Specif
 ### [Customize LaTeX to XPS Conversion in Java with Aspose.TeX](./advanced-xps-conversion/)
 使用 Aspose.TeX 在 Java 中实现无缝的 LaTeX 到 XPS 转换。按照我们的分步指南提升文档处理效率。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **问：我可以在商业 Java 应用中使用此方案吗？**  
@@ -103,3 +96,10 @@ LaTeX 是一种用于高质量排版的标记语言，而 XPS（XML Paper Specif
 **最后更新：** 2025-11-30  
 **测试环境：** Aspose.TeX for Java 24.11（撰写时最新版本）  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

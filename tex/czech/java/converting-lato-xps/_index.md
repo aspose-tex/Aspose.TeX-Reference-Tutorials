@@ -75,13 +75,6 @@ Převádějte LaTeX na XPS snadno v Javě pomocí Aspose.TeX. Postupujte podle n
 ### [Customize LaTeX to XPS Conversion in Java with Aspose.TeX](./advanced-xps-conversion/)
 Odemkněte plynulý převod LaTeX na XPS v Javě pomocí Aspose.TeX. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní zpracování dokumentů.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu tuto řešení použít v komerční aplikaci v Javě?**  
@@ -104,3 +97,10 @@ A: Použijte třídu `FontSettings` k specifikaci vlastní kolekce písem před
 **Poslední aktualizace:** 2025-11-30  
 **Testováno s:** Aspose.TeX for Java 24.11 (nejnovější v době psaní)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
