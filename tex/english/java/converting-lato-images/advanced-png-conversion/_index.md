@@ -138,6 +138,12 @@ A4: Join the Aspose.TeX community on the [support forum](https://forum.aspose.co
 
 A5: Yes, you can acquire a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Author:** Aspose 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

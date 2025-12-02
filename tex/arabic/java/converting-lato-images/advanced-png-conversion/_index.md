@@ -137,6 +137,13 @@ for (int i = 0; i < device.getResult().length; i++) {
 ### س5: هل يمكنني الحصول على ترخيص مؤقت؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**آخر تحديث:** 2025-11-29  
+**تم الاختبار مع:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

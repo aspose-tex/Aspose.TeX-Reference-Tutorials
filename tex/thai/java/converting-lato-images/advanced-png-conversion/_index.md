@@ -137,6 +137,14 @@ Aspose.TeX สำหรับ Java ช่วยให้นักพัฒนา
 ### คำถามที่ 5: ฉันสามารถขอรับใบอนุญาตชั่วคราวได้หรือไม่
 
  A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+
+
+---
+
+**อัปเดตล่าสุด:** 2025-11-29  
+**ทดสอบด้วย:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

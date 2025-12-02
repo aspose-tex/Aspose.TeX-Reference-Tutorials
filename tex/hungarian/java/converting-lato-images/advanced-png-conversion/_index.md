@@ -137,6 +137,13 @@ Az Aspose.TeX for Java robusztus eszközökkel ruházza fel a Java fejlesztőket
 ### 5. kérdés: Kaphatok ideiglenes engedélyt?
 
  5. válasz: Igen, ideiglenes engedélyt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

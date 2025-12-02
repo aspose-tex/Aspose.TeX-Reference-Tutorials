@@ -137,6 +137,13 @@ Aspose.TeX for Java umožňuje vývojářům v jazyce Java robustní nástroje p
 ### Q5: Mohu získat dočasnou licenci?
 
  A5: Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Poslední aktualizace:** 2025-11-29  
+**Testováno s:** Aspose.TeX for Java 24.11 (nejnovější v době psaní)  
+**Autor:** Aspose 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

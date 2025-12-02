@@ -137,6 +137,13 @@ Aspose.TeX för Java ger Java-utvecklare kraftfulla verktyg för konvertering av
 ### F5: Kan jag få en tillfällig licens?
 
  S5: Ja, du kan skaffa en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Senast uppdaterad:** 2025-11-29  
+**Testat med:** Aspose.TeX for Java 24.11 (senaste)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

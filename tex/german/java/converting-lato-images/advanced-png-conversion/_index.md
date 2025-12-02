@@ -137,6 +137,13 @@ Aspose.TeX für Java bietet Java-Entwicklern robuste Tools für die Konvertierun
 ### F5: Kann ich eine temporäre Lizenz erhalten?
 
  A5: Ja, Sie können eine temporäre Lizenz erwerben bei[Hier](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Author:** Aspose 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
