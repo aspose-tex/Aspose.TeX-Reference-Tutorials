@@ -129,15 +129,15 @@ Tanuld meg, hogyan konvertálj LaTeX‑et PNG képekké Java‑ban az Aspose.TeX
 ### [Fedezd fel a fejlett PNG konverziós lehetőségeket az Aspose.TeX for Java‑val](./advanced-png-conversion/)
 Fedezd fel a fejlett PNG konverziót az Aspose.TeX for Java‑val. Átfogó oktatóanyag a LaTeX‑PNG konverzióról.
 
+---
+
+**Utoljára frissítve:** 2025-11-29  
+**Tesztelve a következővel:** Aspose.TeX for Java 24.11 (legújabb)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-11-29  
-**Tesztelve a következővel:** Aspose.TeX for Java 24.11 (legújabb)  
-**Szerző:** Aspose

@@ -137,6 +137,13 @@ Aspose.TeX for Java capacita desenvolvedores Java com ferramentas robustas para 
 ### Q5: Posso obter uma licença temporária?
 
  A5: Sim, você pode adquirir uma licença temporária de[aqui](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Author:** Aspose 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

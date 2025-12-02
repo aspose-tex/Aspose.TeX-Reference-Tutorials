@@ -144,15 +144,13 @@ Bạn đã có một quy trình hoàn chỉnh, sẵn sàng cho môi trường s�
 
 ---
 
+**Cập nhật lần cuối:** 2025-11-29  
+**Kiểm tra với:** Aspose.TeX for Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Cập nhật lần cuối:** 2025-11-29  
-**Kiểm tra với:** Aspose.TeX for Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
-**Tác giả:** Aspose  
-
----

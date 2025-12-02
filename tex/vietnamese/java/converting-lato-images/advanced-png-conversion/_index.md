@@ -137,6 +137,13 @@ Aspose.TeX dành cho Java trao quyền cho các nhà phát triển Java các cô
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời không?
 
  Câu trả lời 5: Có, bạn có thể lấy giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Cập nhật lần cuối:** 2025-11-29  
+**Kiểm tra với:** Aspose.TeX for Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

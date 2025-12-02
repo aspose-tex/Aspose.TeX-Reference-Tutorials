@@ -137,6 +137,13 @@ for (int i = 0; i < device.getResult().length; i++) {
 ### Q5: क्या मैं अस्थायी लाइसेंस प्राप्त कर सकता हूँ?
 
  A5: हां, आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**अंतिम अपडेट:** 2025-11-29  
+**टेस्टेड विथ:** Aspose.TeX for Java 24.11 (लेखन के समय नवीनतम)  
+**लेखक:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

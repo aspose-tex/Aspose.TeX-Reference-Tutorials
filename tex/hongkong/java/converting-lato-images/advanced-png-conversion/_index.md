@@ -137,6 +137,13 @@ Aspose.TeX for Java 為 Java 開發人員提供了 LaTeX 到 PNG 轉換的強大
 ### Q5: 我可以取得臨時許可證嗎？
 
  A5：是的，您可以從以下機構取得臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**最後更新：** 2025-11-29  
+**測試環境：** Aspose.TeX for Java 24.11（撰寫時最新）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

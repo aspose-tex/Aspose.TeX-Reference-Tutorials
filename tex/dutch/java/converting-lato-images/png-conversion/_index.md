@@ -144,15 +144,13 @@ U heeft nu een volledige, productie‑klare workflow om **PNG vanuit LaTeX** te 
 
 ---
 
+**Laatst bijgewerkt:** 2025-11-29  
+**Getest met:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Laatst bijgewerkt:** 2025-11-29  
-**Getest met:** Aspose.TeX for Java 24.11 (latest at time of writing)  
-**Auteur:** Aspose  
-
----

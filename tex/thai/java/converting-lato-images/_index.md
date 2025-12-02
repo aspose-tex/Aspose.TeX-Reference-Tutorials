@@ -123,15 +123,15 @@ A: ใช้โมเดลการสมัครสมาชิกต่อ�
 ### [สำรวจตัวเลือกการแปลง PNG ขั้นสูงกับ Aspose.TeX for Java](./advanced-png-conversion/)
 สำรวจการแปลง PNG ขั้นสูงด้วย Aspose.TeX for Java. บทเรียนที่ครอบคลุมเกี่ยวกับการแปลง LaTeX เป็น PNG.
 
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.TeX for Java 24.11 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.TeX for Java 24.11 (latest)  
-**Author:** Aspose

@@ -137,6 +137,13 @@ Aspose.TeX for Java предоставляет разработчикам Java �
 ### В5: Могу ли я получить временную лицензию?
 
  О5: Да, вы можете приобрести временную лицензию у[здесь](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

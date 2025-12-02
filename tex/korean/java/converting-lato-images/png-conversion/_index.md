@@ -143,15 +143,13 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 
 ---
 
+**마지막 업데이트:** 2025-11-29  
+**테스트 환경:** Aspose.TeX for Java 24.11 (작성 시 최신 버전)  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**마지막 업데이트:** 2025-11-29  
-**테스트 환경:** Aspose.TeX for Java 24.11 (작성 시 최신 버전)  
-**작성자:** Aspose  
-
----

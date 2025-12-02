@@ -145,13 +145,13 @@ Masz teraz kompletny, gotowy do produkcji przepływ pracy do **generowania PNG z
 
 ---
 
+**Ostatnia aktualizacja:** 2025-11-29  
+**Testowano z:** Aspose.TeX for Java 24.11 (najnowsza w momencie pisania)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Ostatnia aktualizacja:** 2025-11-29  
-**Testowano z:** Aspose.TeX for Java 24.11 (najnowsza w momencie pisania)  
-**Autor:** Aspose

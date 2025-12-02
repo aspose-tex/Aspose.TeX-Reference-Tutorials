@@ -151,15 +151,13 @@ Vous disposez maintenant d’un flux de travail complet, prêt pour la productio
 
 ---
 
+**Dernière mise à jour :** 2025-11-29  
+**Testé avec :** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Auteur :** Aspose 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Dernière mise à jour :** 2025-11-29  
-**Testé avec :** Aspose.TeX for Java 24.11 (latest at time of writing)  
-**Auteur :** Aspose  
-
----

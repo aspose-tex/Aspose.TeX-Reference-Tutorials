@@ -144,15 +144,13 @@ Nyní máte kompletní, připravený workflow pro **generování PNG z LaTeX** v
 
 ---
 
+**Poslední aktualizace:** 2025-11-29  
+**Testováno s:** Aspose.TeX for Java 24.11 (nejnovější v době psaní)  
+**Autor:** Aspose 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Poslední aktualizace:** 2025-11-29  
-**Testováno s:** Aspose.TeX for Java 24.11 (nejnovější v době psaní)  
-**Autor:** Aspose  
-
----

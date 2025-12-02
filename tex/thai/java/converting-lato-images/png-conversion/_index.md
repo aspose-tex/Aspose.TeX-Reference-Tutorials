@@ -141,13 +141,15 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 
 ตอนนี้คุณมีขั้นตอนการทำงานที่ครบถ้วนและพร้อมใช้งานในระดับการผลิตเพื่อ **สร้าง PNG จาก LaTeX** ใน Java ด้วย Aspose.TeX โดยการตั้งค่าใบอนุญาต Aspose, กำหนดไดเรกทอรีผลลัพธ์ Java, และเลือก PNG save options, คุณสามารถผสานการเรนเดอร์ LaTeX เข้าไปในระบบที่ใช้ Java ใด ๆ ได้อย่างมั่นใจ
 
+---
+
+**อัปเดตล่าสุด:** 2025-11-29  
+**ทดสอบด้วย:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**อัปเดตล่าสุด:** 2025-11-29  
-**ทดสอบด้วย:** Aspose.TeX for Java 24.11 (latest at time of writing)  
-**ผู้เขียน:** Aspose

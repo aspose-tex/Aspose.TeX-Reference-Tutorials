@@ -130,15 +130,15 @@ A: 采用按开发者或按服务器的订阅模式。提供免费评估许可�
 ### [探索 Aspose.TeX for Java 的高级 PNG 转换选项](./advanced-png-conversion/)
 深入了解 Aspose.TeX for Java 的高级 PNG 转换，一份关于 LaTeX 到 PNG 转换的全面教程。
 
+---
+
+**最后更新：** 2025-11-29  
+**测试环境：** Aspose.TeX for Java 24.11（最新）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-11-29  
-**测试环境：** Aspose.TeX for Java 24.11（最新）  
-**作者：** Aspose

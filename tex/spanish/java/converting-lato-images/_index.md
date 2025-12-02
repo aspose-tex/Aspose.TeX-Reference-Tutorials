@@ -130,15 +130,15 @@ Aprende a convertir LaTeX a imágenes PNG en Java sin esfuerzo usando Aspose.TeX
 ### [Explore Advanced PNG Conversion Options with Aspose.TeX for Java](./advanced-png-conversion/)
 Explora la conversión PNG avanzada con Aspose.TeX for Java. Un tutorial completo sobre la conversión de LaTeX a PNG.
 
+---
+
+**Última actualización:** 2025-11-29  
+**Probado con:** Aspose.TeX for Java 24.11 (latest)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-11-29  
-**Probado con:** Aspose.TeX for Java 24.11 (latest)  
-**Autor:** Aspose

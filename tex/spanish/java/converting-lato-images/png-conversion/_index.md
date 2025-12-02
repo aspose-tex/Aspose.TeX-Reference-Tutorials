@@ -144,15 +144,14 @@ Ahora dispones de un flujo de trabajo completo y listo para producción para **g
 
 ---
 
+**Última actualización:** 2025-11-29  
+**Probado con:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Última actualización:** 2025-11-29  
-**Probado con:** Aspose.TeX for Java 24.11 (latest at time of writing)  
-**Autor:** Aspose  
-
----
+  

@@ -137,6 +137,13 @@ Aspose.TeX for Java, Java geliştiricilerine LaTeX'ten PNG'ye dönüştürmeye y
 ### S5: Geçici lisans alabilir miyim?
 
  C5: Evet, adresinden geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

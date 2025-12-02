@@ -137,6 +137,13 @@ for (int i = 0; i < device.getResult().length; i++) {
 ### Ε5: Μπορώ να αποκτήσω προσωρινή άδεια;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Τελευταία ενημέρωση:** 2025-11-29  
+**Δοκιμάστηκε με:** Aspose.TeX for Java 24.11 (τελευταία έκδοση τη στιγμή της συγγραφής)  
+**Συγγραφέας:** Aspose 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

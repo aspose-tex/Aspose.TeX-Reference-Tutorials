@@ -150,13 +150,13 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 
 ---
 
+**آخر تحديث:** 2025-11-29  
+**تم الاختبار مع:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**آخر تحديث:** 2025-11-29  
-**تم الاختبار مع:** Aspose.TeX for Java 24.11 (latest at time of writing)  
-**المؤلف:** Aspose

@@ -137,6 +137,13 @@ Aspose.TeX for Java는 Java 개발자에게 LaTeX에서 PNG로의 변환을 위�
 ### Q5: 임시 라이센스를 얻을 수 있나요?
 
  A5: 예, 다음에서 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**마지막 업데이트:** 2025-11-29  
+**테스트 환경:** Aspose.TeX for Java 24.11 (작성 시 최신 버전)  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

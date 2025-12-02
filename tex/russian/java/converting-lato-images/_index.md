@@ -128,15 +128,15 @@ A: Лицензирование происходит по модели «per‑d
 ### [Изучите расширенные параметры конвертации PNG с Aspose.TeX for Java](./advanced-png-conversion/)
 Изучите расширенную конвертацию PNG с Aspose.TeX for Java. Полное руководство по конвертации LaTeX в PNG.
 
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.TeX for Java 24.11 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.TeX for Java 24.11 (latest)  
-**Author:** Aspose

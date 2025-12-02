@@ -128,15 +128,15 @@ weight: 22
 ### [استكشاف خيارات تحويل PNG المتقدمة مع Aspose.TeX for Java](./advanced-png-conversion/)
 استكشف تحويل PNG المتقدم مع Aspose.TeX for Java. دليل شامل حول تحويل LaTeX إلى PNG.
 
+---
+
+**آخر تحديث:** 2025-11-29  
+**تم الاختبار مع:** Aspose.TeX for Java 24.11 (latest)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-11-29  
-**تم الاختبار مع:** Aspose.TeX for Java 24.11 (latest)  
-**المؤلف:** Aspose

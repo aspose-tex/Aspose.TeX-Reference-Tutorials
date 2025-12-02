@@ -137,6 +137,13 @@ Aspose.TeX for Java は、LaTeX から PNG への変換のための強力なツ�
 ### Q5: 仮免許は取得できますか？
 
  A5: はい、次から一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**最終更新日:** 2025-11-29  
+**テスト環境:** Aspose.TeX for Java 24.11（執筆時点の最新）  
+**作者:** Aspose 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
