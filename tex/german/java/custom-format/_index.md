@@ -112,6 +112,10 @@ A: Die kompilierte `.fmt`‑Datei ist plattformunabhängig, sodass Sie sie auch 
 **F: Was, wenn ich mehrere Dokumentstile in einer Anwendung unterstützen muss?**  
 A: Erstellen Sie separate Format‑Objekte für jeden Stil und wählen Sie das passende zur Laufzeit basierend auf dem Zweck des Dokuments aus.
 
+## Erstellung benutzerdefinierter TeX‑Formate in Java‑Tutorials
+### [Erstelle benutzerdefinierte TeX‑Formate für konsistentes Satzlayout in Java](./creating-custom-formats/)
+Verbessern Sie die Konsistenz des Satzlayouts in Java mit Aspose.TeX. Erstellen Sie benutzerdefinierte TeX‑Formate mühelos.
+
 ---
 
 **Zuletzt aktualisiert:** 2025-12-03  
@@ -124,7 +128,3 @@ A: Erstellen Sie separate Format‑Objekte für jeden Stil und wählen Sie das p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Erstellung benutzerdefinierter TeX‑Formate in Java‑Tutorials
-### [Erstelle benutzerdefinierte TeX‑Formate für konsistentes Satzlayout in Java](./creating-custom-formats/)
-Verbessern Sie die Konsistenz des Satzlayouts in Java mit Aspose.TeX. Erstellen Sie benutzerdefinierte TeX‑Formate mühelos.

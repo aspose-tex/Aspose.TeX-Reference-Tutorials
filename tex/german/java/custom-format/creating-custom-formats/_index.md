@@ -130,19 +130,6 @@ A: Ja. Aspose.TeX für Java ist plattformübergreifend; stellen Sie lediglich si
 ## Fazit
 Sie haben nun ein vollständiges, produktionsreifes Rezept für **die Erstellung benutzerdefinierter TeX-Formate** mit Aspose.TeX für Java. Durch **Festlegen des TeX‑Eingabeverzeichnisses** und **Festlegen des TeX‑Ausgabeverzeichnisses** erhalten Sie die volle Kontrolle darüber, wo Quelldateien gelesen und wo Ergebnisse geschrieben werden, was zu zuverlässigem, wiederholbarem Satzlayout in all Ihren Java‑Projekten führt.
 
----
-
-**Zuletzt aktualisiert:** 2025-12-03  
-**Getestet mit:** Aspose.TeX for Java 24.11  
-**Autor:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## FAQ
 
 ### Q1: Wo finde ich die Dokumentation für Aspose.TeX für Java?
@@ -159,3 +146,16 @@ A4: Ja, Sie können die kostenlose Testversion [hier](https://releases.aspose.co
 
 ### Q5: Wie kann ich Support für Aspose.TeX für Java erhalten?
 A5: Sie können Support im [Aspose.TeX‑Forum](https://forum.aspose.com/c/tex/47) erhalten.
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-03  
+**Getestet mit:** Aspose.TeX for Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

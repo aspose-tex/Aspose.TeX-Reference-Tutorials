@@ -128,16 +128,6 @@ options.getTerminalOut().getWriter().newLine();
 ## निष्कर्ष
 अब आपके पास Aspose.TeX for Java के साथ **कस्टम TeX फ़ॉर्मैट बनाने** के लिए एक पूर्ण, प्रोडक्शन‑रेडी रेसिपी है। **TeX इनपुट डायरेक्टरी सेट करके** और **TeX आउटपुट डायरेक्टरी सेट करके**, आप यह पूरी तरह नियंत्रित कर सकते हैं कि स्रोत फ़ाइलें कहाँ पढ़ी जाएँ और परिणाम कहाँ लिखे जाएँ, जिससे आपके सभी जावा प्रोजेक्ट्स में विश्वसनीय, दोहराने योग्य टाइपसेटिंग प्राप्त होती है।
 
-**अंतिम अपडेट:** 2025-12-03  
-**परीक्षण किया गया:** Aspose.TeX for Java 24.11  
-**लेखक:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -155,3 +145,16 @@ A4: हाँ, आप फ्री ट्रायल संस्करण [य
 
 ### Q5: Aspose.TeX for Java के लिए सपोर्ट कैसे प्राप्त करूँ?
 A5: आप [Aspose.TeX फ़ोरम](https://forum.aspose.com/c/tex/47) पर सपोर्ट ले सकते हैं।
+
+---
+
+**अंतिम अपडेट:** 2025-12-03  
+**परीक्षण किया गया:** Aspose.TeX for Java 24.11  
+**लेखक:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -111,6 +111,10 @@ A: File `.fmt` yang telah dikompilasi bersifat platform‑agnostik, sehingga dap
 **Q: What if I need to support multiple document styles in one application?**  
 A: Buat objek format terpisah untuk setiap gaya dan pilih yang sesuai pada runtime berdasarkan tujuan dokumen.
 
+## Tutorial Pembuatan Format TeX Kustom di Java
+### [Buat Format TeX Kustom untuk Konsistensi Penyusunan di Java](./creating-custom-formats/)
+Tingkatkan konsistensi penyusunan di Java dengan Aspose.TeX. Buat format TeX kustom dengan mudah.
+
 **Terakhir Diperbarui:** 2025-12-03  
 **Diuji Dengan:** Aspose.TeX 24.12 untuk Java  
 **Penulis:** Aspose  
@@ -121,7 +125,3 @@ A: Buat objek format terpisah untuk setiap gaya dan pilih yang sesuai pada runti
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutorial Pembuatan Format TeX Kustom di Java
-### [Buat Format TeX Kustom untuk Konsistensi Penyusunan di Java](./creating-custom-formats/)
-Tingkatkan konsistensi penyusunan di Java dengan Aspose.TeX. Buat format TeX kustom dengan mudah.

@@ -111,6 +111,11 @@ C: Derlenmiş `.fmt` dosyası platform bağımsızdır; Aspose.TeX for .NET ile 
 **S: Bir uygulamada birden fazla belge stilini desteklemem gerekirse ne yapmalıyım?**  
 C: Her stil için ayrı format nesneleri oluşturun ve belge amacına göre çalışma zamanında uygun olanı seçin.
 
+## Java’da Özel TeX Formatı Oluşturma Eğitimleri
+### [Java’da Tutarlı Tipografi İçin Özel TeX Formatları Oluşturun](./creating-custom-formats/)
+
+---
+
 **Son Güncelleme:** 2025-12-03  
 **Test Edilen Sürüm:** Aspose.TeX 24.12 for Java  
 **Yazar:** Aspose  
@@ -121,6 +126,3 @@ C: Her stil için ayrı format nesneleri oluşturun ve belge amacına göre çal
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Java’da Özel TeX Formatı Oluşturma Eğitimleri
-### [Java’da Tutarlı Tipografi İçin Özel TeX Formatları Oluşturun](./creating-custom-formats/)

@@ -108,6 +108,10 @@ A: The compiled `.fmt` file is platform‑agnostic, so you can load it with Aspo
 **Q: What if I need to support multiple document styles in one application?**  
 A: Create separate format objects for each style and select the appropriate one at runtime based on the document’s purpose.
 
+## Custom TeX Format Creation in Java Tutorials
+### [Create Custom TeX Formats for Consistent Typesetting in Java](./creating-custom-formats/)
+Enhance typesetting consistency in Java with Aspose.TeX. Create custom TeX formats effortlessly.
+
 ---
 
 **Last Updated:** 2025-12-03  
@@ -120,7 +124,3 @@ A: Create separate format objects for each style and select the appropriate one 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Custom TeX Format Creation in Java Tutorials
-### [Create Custom TeX Formats for Consistent Typesetting in Java](./creating-custom-formats/)
-Enhance typesetting consistency in Java with Aspose.TeX. Create custom TeX formats effortlessly.

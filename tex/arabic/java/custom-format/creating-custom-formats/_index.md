@@ -128,19 +128,6 @@ options.getTerminalOut().getWriter().newLine();
 ## الخلاصة
 أصبحت الآن تمتلك وصفة كاملة وجاهزة للإنتاج **لإنشاء صيغ TeX مخصصة** باستخدام Aspose.TeX for Java. من خلال **تحديد مجلد إدخال TeX** و **تحديد مجلد إخراج TeX**، تحصل على تحكم كامل في مكان قراءة ملفات المصدر ومكان كتابة النتائج، مما يؤدي إلى تنسيق موثوق وقابل للتكرار عبر جميع مشاريع Java الخاصة بك.
 
----
-
-**Last Updated:** 2025-12-03  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة الشائعة
 
 ### س1: أين يمكنني العثور على وثائق Aspose.TeX for Java؟
@@ -157,3 +144,16 @@ options.getTerminalOut().getWriter().newLine();
 
 ### س5: كيف يمكنني الحصول على الدعم لـ Aspose.TeX for Java؟
 ج5: يمكنك طلب الدعم في [منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47).
+
+---
+
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.TeX for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

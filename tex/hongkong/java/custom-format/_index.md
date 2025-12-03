@@ -110,6 +110,9 @@ A: 編譯好的 `.fmt` 檔案與平台無關，您同樣可以在 Aspose.TeX for
 **Q: 若一個應用程式需要支援多種文件樣式，該怎麼做？**  
 A: 為每種樣式建立獨立的格式物件，執行時根據文件目的選擇相應的格式。
 
+## Java 中自訂 TeX 格式建立教學
+### [為 Java 建立自訂 TeX 格式以確保排版一致性](./creating-custom-formats/) 使用 Aspose.TeX 提升 Java 排版的一致性，輕鬆建立自訂 TeX 格式。
+
 ---
 
 **最後更新：** 2025-12-03  
@@ -122,6 +125,3 @@ A: 為每種樣式建立獨立的格式物件，執行時根據文件目的選�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Java 中自訂 TeX 格式建立教學
-### [為 Java 建立自訂 TeX 格式以確保排版一致性](./creating-custom-formats/) 使用 Aspose.TeX 提升 Java 排版的一致性，輕鬆建立自訂 TeX 格式。

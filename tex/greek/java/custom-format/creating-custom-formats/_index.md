@@ -128,19 +128,6 @@ A: Ναι. Το Aspose.TeX for Java είναι δια‑πλατφορμικό·
 ## Συμπέρασμα
 Τώρα έχετε μια πλήρη, έτοιμη για παραγωγή συνταγή για **τη δημιουργία προσαρμοσμένων μορφών TeX** με το Aspose.TeX for Java. Με το **ορισμό του καταλόγου εισόδου TeX** και το **ορισμό του καταλόγου εξόδου TeX**, αποκτάτε πλήρη έλεγχο του πού διαβάζονται τα αρχεία προέλευσης και πού γράφονται τα αποτελέσματα, οδηγώντας σε αξιόπιστη, επαναλήψιμη τυπογραφία σε όλα τα έργα Java σας.
 
----
-
-**Last Updated:** 2025-12-03  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 ### Q1: Πού μπορώ να βρω την τεκμηρίωση για το Aspose.TeX for Java;
@@ -157,3 +144,16 @@ A4: Ναι, μπορείτε να αποκτήσετε τη δωρεάν δοκ�
 
 ### Q5: Πώς μπορώ να λάβω υποστήριξη για το Aspose.TeX for Java;
 A5: Μπορείτε να ζητήσετε υποστήριξη στο [φόρουμ Aspose.TeX](https://forum.aspose.com/c/tex/47).
+
+---
+
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.TeX for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

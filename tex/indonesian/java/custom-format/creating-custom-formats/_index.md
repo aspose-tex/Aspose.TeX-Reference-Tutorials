@@ -128,19 +128,6 @@ J: Ya. Aspose.TeX untuk Java bersifat lintas‑platform; pastikan jalur file men
 ## Kesimpulan
 Anda kini memiliki resep lengkap dan siap produksi untuk **membuat format TeX kustom** dengan Aspose.TeX untuk Java. Dengan **mengatur direktori input TeX** dan **mengatur direktori output TeX**, Anda memperoleh kontrol penuh atas tempat file sumber dibaca dan tempat hasil ditulis, menghasilkan penataan yang dapat diandalkan dan dapat diulang di semua proyek Java Anda.
 
----
-
-**Last Updated:** 2025-12-03  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## FAQ
 
 ### Q1: Di mana saya dapat menemukan dokumentasi untuk Aspose.TeX untuk Java?
@@ -157,3 +144,16 @@ A4: Ya, Anda dapat mengakses versi percobaan gratis [di sini](https://releases.a
 
 ### Q5: Bagaimana saya dapat mendapatkan dukungan untuk Aspose.TeX untuk Java?
 A5: Anda dapat mencari dukungan di [forum Aspose.TeX](https://forum.aspose.com/c/tex/47).
+
+---
+
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.TeX for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

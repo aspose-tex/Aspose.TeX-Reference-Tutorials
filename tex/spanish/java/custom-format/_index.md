@@ -111,6 +111,11 @@ R: El archivo `.fmt` compilado es independiente de la plataforma, por lo que tam
 **P: ¿Qué pasa si necesito soportar varios estilos de documento en una sola aplicación?**  
 R: Crea objetos de formato separados para cada estilo y selecciona el apropiado en tiempo de ejecución según el propósito del documento.
 
+
+## Tutoriales de creación de formatos TeX personalizados en Java
+### [Crear formatos TeX personalizados para una tipografía consistente en Java](./creating-custom-formats/)
+Mejora la consistencia tipográfica en Java con Aspose.TeX. Crea formatos TeX personalizados sin esfuerzo.
+
 ---
 
 **Última actualización:** 2025-12-03  
@@ -123,7 +128,3 @@ R: Crea objetos de formato separados para cada estilo y selecciona el apropiado 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutoriales de creación de formatos TeX personalizados en Java
-### [Crear formatos TeX personalizados para una tipografía consistente en Java](./creating-custom-formats/)
-Mejora la consistencia tipográfica en Java con Aspose.TeX. Crea formatos TeX personalizados sin esfuerzo.

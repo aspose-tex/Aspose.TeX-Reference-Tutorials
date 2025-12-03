@@ -129,19 +129,6 @@ options.getTerminalOut().getWriter().newLine();
 ## 结论
 现在，你已经掌握了使用 Aspose.TeX for Java **创建自定义 TeX 格式** 的完整、可投入生产的方案。通过 **设置 TeX 输入目录** 和 **设置 TeX 输出目录**，你可以完全控制源文件的读取位置和结果的写入位置，从而在所有 Java 项目中实现可靠、可重复的排版。
 
----
-
-**最后更新：** 2025-12-03  
-**测试环境：** Aspose.TeX for Java 24.11  
-**作者：** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 ### Q1: 在哪里可以找到 Aspose.TeX for Java 的文档？
@@ -163,3 +150,16 @@ A4: 是的，你可以在 [此处](https://releases.aspose.com/) 获取免费试
 ### Q5: 如何获取 Aspose.TeX for Java 的支持？
 
 A5: 你可以在 [Aspose.TeX 论坛](https://forum.aspose.com/c/tex/47) 寻求帮助。
+
+---
+
+**最后更新：** 2025-12-03  
+**测试环境：** Aspose.TeX for Java 24.11  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

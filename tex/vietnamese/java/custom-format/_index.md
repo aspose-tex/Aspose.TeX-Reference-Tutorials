@@ -111,6 +111,10 @@ A: The compiled `.fmt` file is platform‑agnostic, so you can load it with Aspo
 **Q: Nếu tôi cần hỗ trợ nhiều kiểu tài liệu trong một ứng dụng thì sao?**  
 A: Create separate format objects for each style and select the appropriate one at runtime based on the document’s purpose.
 
+## Hướng dẫn tạo Định dạng TeX tùy chỉnh trong Java
+### [Create Custom TeX Formats for Consistent Typesetting in Java](./creating-custom-formats/)
+Nâng cao tính nhất quán trong dàn trang Java với Aspose.TeX. Tạo các định dạng TeX tùy chỉnh một cách dễ dàng.
+
 ---
 
 **Last Updated:** 2025-12-03  
@@ -123,7 +127,3 @@ A: Create separate format objects for each style and select the appropriate one 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Hướng dẫn tạo Định dạng TeX tùy chỉnh trong Java
-### [Create Custom TeX Formats for Consistent Typesetting in Java](./creating-custom-formats/)
-Nâng cao tính nhất quán trong dàn trang Java với Aspose.TeX. Tạo các định dạng TeX tùy chỉnh một cách dễ dàng.

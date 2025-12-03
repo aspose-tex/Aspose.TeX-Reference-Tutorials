@@ -111,6 +111,10 @@ A: Το μεταγλωττισμένο αρχείο `.fmt` είναι ανεξά
 **Q: Τι κάνω αν χρειαστώ πολλαπλά στυλ εγγράφων σε μία εφαρμογή;**  
 A: Δημιουργήστε ξεχωριστά αντικείμενα μορφής για κάθε στυλ και επιλέξτε το κατάλληλο κατά το χρόνο εκτέλεσης, ανάλογα με τον σκοπό του εγγράφου.
 
+## Προσαρμοσμένα Tutorials Δημιουργίας Μορφής TeX σε Java
+### [Create Custom TeX Formats for Consistent Typesetting in Java](./creating-custom-formats/)
+Βελτιώστε τη συνέπεια τυπογραφίας σε Java με το Aspose.TeX. Δημιουργήστε προσαρμοσμένες μορφές TeX με ευκολία.
+
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-03  
@@ -123,7 +127,3 @@ A: Δημιουργήστε ξεχωριστά αντικείμενα μορφή
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Προσαρμοσμένα Tutorials Δημιουργίας Μορφής TeX σε Java
-### [Create Custom TeX Formats for Consistent Typesetting in Java](./creating-custom-formats/)
-Βελτιώστε τη συνέπεια τυπογραφίας σε Java με το Aspose.TeX. Δημιουργήστε προσαρμοσμένες μορφές TeX με ευκολία.

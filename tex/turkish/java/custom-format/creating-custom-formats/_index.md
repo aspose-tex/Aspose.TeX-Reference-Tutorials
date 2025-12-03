@@ -128,19 +128,6 @@ C: Evet. Aspose.TeX for Java çapraz platformdur; sadece dosya yollarının işl
 ## Sonuç
 Artık **Aspose.TeX for Java** ile **özel TeX formatları oluşturmak** için eksiksiz, üretim‑hazır bir tarifiniz var. **TeX giriş dizinini** ve **TeX çıkış dizinini** ayarlayarak kaynak dosyaların nereden okunacağını ve sonuçların nereye yazılacağını tam kontrol edebilir, tüm Java projelerinizde güvenilir ve tekrarlanabilir tipografi elde edebilirsiniz.
 
----
-
-**Last Updated:** 2025-12-03  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## SSS'ler
 
 ### Q1: Aspose.TeX for Java belgelerine nereden ulaşabilirim?
@@ -162,3 +149,16 @@ A4: Evet, ücretsiz deneme sürümüne [here](https://releases.aspose.com/) adre
 ### Q5: Aspose.TeX for Java için destek nasıl alabilirim?
 
 A5: Destek için [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) sayfasına başvurabilirsiniz.
+
+---
+
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.TeX for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

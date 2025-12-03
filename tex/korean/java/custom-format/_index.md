@@ -110,6 +110,12 @@ A: 컴파일된 `.fmt` 파일은 플랫폼에 구애받지 않으므로 Aspose.T
 **Q: 하나의 애플리케이션에서 여러 문서 스타일을 지원해야 하면 어떻게 하나요?**  
 A: 각 스타일에 대해 별도의 포맷 객체를 만들고, 문서 목적에 따라 런타임에 적절한 포맷을 선택합니다.
 
+## Java에서 맞춤 TeX 포맷 생성 튜토리얼
+### [Java에서 일관된 조판을 위한 맞춤 TeX 포맷 만들기](./creating-custom-formats/)
+Aspose.TeX를 사용하여 Java에서 조판 일관성을 향상시키세요. 맞춤 TeX 포맷을 손쉽게 만들 수 있습니다.
+
+---
+
 **마지막 업데이트:** 2025-12-03  
 **테스트 환경:** Aspose.TeX 24.12 for Java  
 **작성자:** Aspose  
@@ -120,7 +126,3 @@ A: 각 스타일에 대해 별도의 포맷 객체를 만들고, 문서 목적�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Java에서 맞춤 TeX 포맷 생성 튜토리얼
-### [Java에서 일관된 조판을 위한 맞춤 TeX 포맷 만들기](./creating-custom-formats/)
-Aspose.TeX를 사용하여 Java에서 조판 일관성을 향상시키세요. 맞춤 TeX 포맷을 손쉽게 만들 수 있습니다.

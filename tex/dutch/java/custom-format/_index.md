@@ -111,6 +111,12 @@ A: Het gecompileerde `.fmt`‑bestand is platform‑onafhankelijk, dus je kunt h
 **Q: Wat als ik meerdere documentstijlen in één applicatie moet ondersteunen?**  
 A: Maak afzonderlijke formaatobjecten voor elke stijl en selecteer de juiste op runtime op basis van het doel van het document.
 
+## Aangepaste TeX‑formaatcreatie in Java‑tutorials
+### [Maak aangepaste TeX-formaten voor consistente opmaak in Java](./creating-custom-formats/)
+Verbeter de consistentie van opmaak in Java met Aspose.TeX. Maak moeiteloos aangepaste TeX-formaten.
+
+---
+
 **Laatst bijgewerkt:** 2025-12-03  
 **Getest met:** Aspose.TeX 24.12 for Java  
 **Auteur:** Aspose  
@@ -121,7 +127,3 @@ A: Maak afzonderlijke formaatobjecten voor elke stijl en selecteer de juiste op 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Aangepaste TeX‑formaatcreatie in Java‑tutorials
-### [Maak aangepaste TeX-formaten voor consistente opmaak in Java](./creating-custom-formats/)
-Verbeter de consistentie van opmaak in Java met Aspose.TeX. Maak moeiteloos aangepaste TeX-formaten.

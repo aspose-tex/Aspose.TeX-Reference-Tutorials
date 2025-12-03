@@ -130,19 +130,6 @@ options.getTerminalOut().getWriter().newLine();
 ## Kết Luận
 Bạn đã có một công thức hoàn chỉnh, sẵn sàng cho môi trường sản xuất để **tạo định dạng TeX tùy chỉnh** với Aspose.TeX cho Java. Bằng cách **đặt thư mục đầu vào TeX** và **đặt thư mục đầu ra TeX**, bạn có toàn quyền kiểm soát nơi các tệp nguồn được đọc và nơi kết quả được ghi, mang lại quy trình định dạng đáng tin cậy và lặp lại trên tất cả các dự án Java của bạn.
 
----
-
-**Cập nhật lần cuối:** 2025-12-03  
-**Đã kiểm tra với:** Aspose.TeX cho Java 24.11  
-**Tác giả:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## FAQ's
 
 ### Q1: Tôi có thể tìm tài liệu cho Aspose.TeX cho Java ở đâu?
@@ -164,3 +151,16 @@ A4: Có, bạn có thể truy cập phiên bản dùng thử miễn phí [tại 
 ### Q5: Làm sao để nhận hỗ trợ cho Aspose.TeX cho Java?
 
 A5: Bạn có thể tìm kiếm hỗ trợ trên [diễn đàn Aspose.TeX](https://forum.aspose.com/c/tex/47).
+
+---
+
+**Cập nhật lần cuối:** 2025-12-03  
+**Đã kiểm tra với:** Aspose.TeX cho Java 24.11  
+**Tác giả:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

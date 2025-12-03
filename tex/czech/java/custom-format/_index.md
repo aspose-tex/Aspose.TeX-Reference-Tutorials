@@ -111,6 +111,10 @@ A: Zkompilovaný soubor `.fmt` je platformně nezávislý, takže jej můžete n
 **Q: Co když potřebuji v jedné aplikaci podporovat více stylů dokumentů?**  
 A: Vytvořte samostatné objekty formátu pro každý styl a za běhu vyberte ten vhodný podle účelu dokumentu.
 
+## Tutoriály pro tvorbu vlastních TeX formátů v Javě
+### [Create Custom TeX Formats for Consistent Typesetting in Java](./creating-custom-formats/)
+Zvyšte konzistenci sazby v Javě pomocí Aspose.TeX. Vytvářejte vlastní TeX formáty snadno.
+
 ---
 
 **Poslední aktualizace:** 2025-12-03  
@@ -123,7 +127,3 @@ A: Vytvořte samostatné objekty formátu pro každý styl a za běhu vyberte te
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutoriály pro tvorbu vlastních TeX formátů v Javě
-### [Create Custom TeX Formats for Consistent Typesetting in Java](./creating-custom-formats/)
-Zvyšte konzistenci sazby v Javě pomocí Aspose.TeX. Vytvářejte vlastní TeX formáty snadno.

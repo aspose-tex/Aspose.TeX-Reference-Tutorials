@@ -129,19 +129,6 @@ A: Ja. Aspose.TeX voor Java is cross‑platform; zorg er alleen voor dat de best
 ## Conclusie
 Je beschikt nu over een volledige, productie‑klare handleiding voor **het maken van aangepaste TeX‑formaten** met Aspose.TeX voor Java. Door **de TeX‑invoermap** en **de TeX‑uitvoermap** in te stellen, krijg je volledige controle over waar bronbestanden worden gelezen en waar resultaten worden weggeschreven, wat leidt tot betrouwbare, herhaalbare opmaak in al je Java‑projecten.
 
----
-
-**Laatst bijgewerkt:** 2025-12-03  
-**Getest met:** Aspose.TeX voor Java 24.11  
-**Auteur:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## FAQ's
 
 ### Q1: Waar kan ik de documentatie voor Aspose.TeX voor Java vinden?
@@ -163,3 +150,16 @@ A4: Ja, je kunt de gratis proefversie hier vinden [hier](https://releases.aspose
 ### Q5: Hoe kan ik ondersteuning krijgen voor Aspose.TeX voor Java?
 
 A5: Je kunt ondersteuning zoeken op het [Aspose.TeX forum](https://forum.aspose.com/c/tex/47).
+
+---
+
+**Laatst bijgewerkt:** 2025-12-03  
+**Getest met:** Aspose.TeX voor Java 24.11  
+**Auteur:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

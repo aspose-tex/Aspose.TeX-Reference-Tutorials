@@ -127,19 +127,6 @@ A: はい。Aspose.TeX for Java はクロスプラットフォームです。OS 
 ## 結論
 これで、Aspose.TeX for Java を使用した **カスタム TeX フォーマットの作成** に関する完全な本番対応レシピが手に入りました。**TeX 入力ディレクトリ** と **TeX 出力ディレクトリ** を設定することで、ソースファイルの読み取り先と結果の書き込み先を完全に制御でき、すべての Java プロジェクトで信頼性の高い再現可能な組版が実現します。
 
----
-
-**最終更新日:** 2025-12-03  
-**テスト環境:** Aspose.TeX for Java 24.11  
-**作者:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## FAQ
 
 ### Q1: Aspose.TeX for Java のドキュメントはどこで見つけられますか？
@@ -161,3 +148,16 @@ A4: はい、[こちら](https://releases.aspose.com/) から無料トライア�
 ### Q5: Aspose.TeX for Java のサポートはどこで受けられますか？
 
 A5: [Aspose.TeX フォーラム](https://forum.aspose.com/c/tex/47) でサポートを受けられます。
+
+---
+
+**最終更新日:** 2025-12-03  
+**テスト環境:** Aspose.TeX for Java 24.11  
+**作者:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

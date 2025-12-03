@@ -130,19 +130,6 @@ options.getTerminalOut().getWriter().newLine();
 ## Заключение
 Теперь у вас есть полностью готовый, пригодный для продакшн рецепт **создания пользовательских форматов TeX** с помощью Aspose.TeX для Java. Благодаря **установке каталога ввода TeX** и **установке каталога вывода TeX** вы получаете полный контроль над тем, где читаются исходные файлы и куда записываются результаты, что обеспечивает надёжный и воспроизводимый набор текста во всех ваших Java‑проектах.
 
----
-
-**Последнее обновление:** 2025-12-03  
-**Тестировано с:** Aspose.TeX для Java 24.11  
-**Автор:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Вопросы и ответы
 
 ### Вопрос 1: Где можно найти документацию по Aspose.TeX для Java?
@@ -164,3 +151,16 @@ options.getTerminalOut().getWriter().newLine();
 ### Вопрос 5: Как получить поддержку по Aspose.TeX для Java?
 
 Ответ 5: Вы можете обратиться за поддержкой на [форум Aspose.TeX](https://forum.aspose.com/c/tex/47).
+
+---
+
+**Последнее обновление:** 2025-12-03  
+**Тестировано с:** Aspose.TeX для Java 24.11  
+**Автор:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

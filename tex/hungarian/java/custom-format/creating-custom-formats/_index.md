@@ -130,19 +130,6 @@ V: Igen. Az Aspose.TeX for Java platform‑független; csak ügyeljen arra, hogy
 ## Következtetés
 Most már rendelkezik egy teljes, termelés‑kész útmutatóval a **egyedi TeX formátumok létrehozásához** az Aspose.TeX for Java segítségével. A **TeX bemeneti könyvtár** és a **TeX kimeneti könyvtár** beállításával teljes irányítást kap arról, hogy hol olvassa a forrásfájlokat és hová írja az eredményeket, ami megbízható, ismételhető tipográfiát biztosít minden Java projektjében.
 
----
-
-**Last Updated:** 2025-12-03  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran ismételt kérdések
 
 ### Q1: Hol találom az Aspose.TeX for Java dokumentációját?
@@ -159,3 +146,16 @@ A4: Igen, az ingyenes próba verziót [itt](https://releases.aspose.com/) érhet
 
 ### Q5: Hol kaphatok támogatást az Aspose.TeX for Java‑hoz?
 A5: Támogatást kérhet a [Aspose.TeX fórumon](https://forum.aspose.com/c/tex/47).
+
+---
+
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.TeX for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -111,6 +111,12 @@ R : Le fichier `.fmt` compilé est indépendant de la plateforme, vous pouvez 
 **Q : Que faire si je dois prendre en charge plusieurs styles de documents dans une même application ?**  
 R : Créez des objets de format distincts pour chaque style et sélectionnez celui approprié à l’exécution en fonction du but du document.
 
+## Tutoriels de création de formats TeX personnalisés en Java
+### [Créer des formats TeX personnalisés pour une composition cohérente en Java](./creating-custom-formats/)
+Améliorez la cohérence de la composition en Java avec Aspose.TeX. Créez des formats TeX personnalisés sans effort.
+
+---
+
 **Dernière mise à jour :** 2025-12-03  
 **Testé avec :** Aspose.TeX 24.12 for Java  
 **Auteur :** Aspose  
@@ -121,7 +127,3 @@ R : Créez des objets de format distincts pour chaque style et sélectionnez c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutoriels de création de formats TeX personnalisés en Java
-### [Créer des formats TeX personnalisés pour une composition cohérente en Java](./creating-custom-formats/)
-Améliorez la cohérence de la composition en Java avec Aspose.TeX. Créez des formats TeX personnalisés sans effort.

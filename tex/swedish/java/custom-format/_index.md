@@ -111,6 +111,10 @@ A: Den kompilerade `.fmt`‑filen är plattformsoberoende, så du kan ladda den 
 **Q: Vad gör jag om jag behöver stödja flera dokumentstilar i en och samma applikation?**  
 A: Skapa separata formatobjekt för varje stil och välj rätt objekt vid körning baserat på dokumentets syfte.
 
+## Anpassade TeX-formatskapande i Java‑handledningar
+### [Skapa anpassade TeX-format för konsekvent typsättning i Java](./creating-custom-formats/)
+Förbättra typografisk konsistens i Java med Aspose.TeX. Skapa anpassade TeX-format utan ansträngning.
+
 ---
 
 **Senast uppdaterad:** 2025-12-03  
@@ -123,7 +127,3 @@ A: Skapa separata formatobjekt för varje stil och välj rätt objekt vid körni
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Anpassade TeX-formatskapande i Java‑handledningar
-### [Skapa anpassade TeX-format för konsekvent typsättning i Java](./creating-custom-formats/)
-Förbättra typografisk konsistens i Java med Aspose.TeX. Skapa anpassade TeX-format utan ansträngning.

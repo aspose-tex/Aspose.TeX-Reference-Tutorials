@@ -112,6 +112,10 @@ V: A lefordított `.fmt` fájl platform‑független, ezért betölthető az Asp
 **K: Mi a teendő, ha egy alkalmazásban több dokumentumtípusra van szükség?**  
 V: Hozzon létre külön formátumobjektumokat minden stílushoz, és futásidőben válassza ki a megfelelőet a dokumentum célja alapján.
 
+## Egyedi TeX formátum létrehozása Java tutorialok
+### [Egyedi TeX formátumok létrehozása a konzisztens tipográfiához Java-ban](./creating-custom-formats/)
+Növelje a tipográfiai konzisztenciát Java-ban az Aspose.TeX segítségével. Hozzon létre egyedi TeX formátumokat könnyedén.
+
 ---
 
 **Utoljára frissítve:** 2025-12-03  
@@ -124,7 +128,3 @@ V: Hozzon létre külön formátumobjektumokat minden stílushoz, és futásidő
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Egyedi TeX formátum létrehozása Java tutorialok
-### [Egyedi TeX formátumok létrehozása a konzisztens tipográfiához Java-ban](./creating-custom-formats/)
-Növelje a tipográfiai konzisztenciát Java-ban az Aspose.TeX segítségével. Hozzon létre egyedi TeX formátumokat könnyedén.

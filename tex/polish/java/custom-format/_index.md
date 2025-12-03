@@ -112,6 +112,10 @@ O: Skompilowany plik `.fmt` jest niezależny od platformy, więc możesz go wczy
 **P: Co zrobić, jeśli muszę obsługiwać wiele stylów dokumentów w jednej aplikacji?**  
 O: Utwórz osobne obiekty formatu dla każdego stylu i wybieraj odpowiedni w czasie działania, w zależności od przeznaczenia dokumentu.
 
+## Samouczki tworzenia własnych formatów TeX w Javie
+### [Create Custom TeX Formats for Consistent Typesetting in Java](./creating-custom-formats/)
+Ulepsz spójność składania tekstu w Javie przy użyciu Aspose.TeX. Twórz własne formaty TeX bez wysiłku.
+
 ---
 
 **Ostatnia aktualizacja:** 2025-12-03  
@@ -124,7 +128,3 @@ O: Utwórz osobne obiekty formatu dla każdego stylu i wybieraj odpowiedni w cza
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Samouczki tworzenia własnych formatów TeX w Javie
-### [Create Custom TeX Formats for Consistent Typesetting in Java](./creating-custom-formats/)
-Ulepsz spójność składania tekstu w Javie przy użyciu Aspose.TeX. Twórz własne formaty TeX bez wysiłku.
