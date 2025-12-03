@@ -1,6 +1,6 @@
 ---
-title: Step by Step Conversion: LaTeX to XPS Format in Java
-linktitle: Step by Step Conversion: LaTeX to XPS Format in Java
+title: Step by Step Conversionn - LaTeX to XPS Format in Java
+linktitle: Step by Step Conversion - LaTeX to XPS Format in Java
 second_title: Aspose.TeX Java API
 description: Step by step conversion of LaTeX to XPS in Java using Aspose.TeX. Learn java latex rendering with a simple, seamless guide.
 weight: 10
