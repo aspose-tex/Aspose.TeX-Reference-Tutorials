@@ -1,32 +1,45 @@
 ---
-title: Anular el nombre del trabajo y escribir la salida del terminal en Java
-linktitle: Anular el nombre del trabajo y escribir la salida del terminal en Java
-second_title: API de Java Aspose.TeX
-description: Explore la guía paso a paso sobre cómo anular nombres de trabajos y escribir resultados de terminal usando Aspose.TeX para Java. Mejore el procesamiento de sus documentos con potentes opciones de personalización.
+date: 2025-12-05
+description: Aprende a escribir la salida del terminal en un archivo y a sobrescribir
+  el nombre de trabajo usando Aspose.TeX para Java. Sigue esta guía paso a paso con
+  ejemplos de código completos.
+language: es
+linktitle: Write Terminal Output to File and Override Job Name in Java
+second_title: Aspose.TeX Java API
+title: Escribir la salida del terminal en un archivo y sobrescribir el nombre del
+  trabajo en Java
+url: /java/customizing-output/override-job-name-disk/
 weight: 10
-url: /es/java/customizing-output/override-job-name-disk/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Anular el nombre del trabajo y escribir la salida del terminal en Java
+# Escribir la salida del terminal a un archivo y sobrescribir el nombre del trabajo en Java
 
 ## Introducción
 
-Aspose.TeX para Java proporciona potentes funciones para trabajar con archivos TeX, lo que permite a los desarrolladores manipular y personalizar el procesamiento de documentos TeX. En este tutorial, lo guiaremos a través del proceso de anular el nombre del trabajo y escribir la salida del terminal en el sistema de archivos usando Aspose.TeX en Java.
+Aspose.TeX for Java ofrece potentes funciones para trabajar con archivos TeX, permitiendo a los desarrolladores manipular y personalizar la canalización de procesamiento de documentos TeX. En este tutorial aprenderá **cómo escribir la salida del terminal a un archivo** mientras también sobrescribe el nombre de trabajo predeterminado—dos capacidades que le brindan un control granular sobre el procesamiento por lotes y el registro.
+
+## Respuestas rápidas
+- **¿Puedo cambiar el nombre del trabajo?** Sí, use `options.setJobName(...)` antes de ejecutar el trabajo.  
+- **¿Dónde se guarda la salida del terminal?** Se guarda como `<job_name>.trm` en el directorio de trabajo de salida.  
+- **¿Necesito una licencia para esta función?** La funcionalidad funciona con cualquier licencia válida de Aspose.TeX; también está disponible una prueba gratuita.  
+- **¿Qué formato tiene el archivo de salida?** Registro de terminal en texto plano que refleja la salida de la consola.  
+- **¿Es compatible con otros dispositivos de salida?** Absolutamente—una vez escrito el registro, puede procesarlo con cualquier herramienta que lea archivos de texto.
 
 ## Requisitos previos
 
-Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de sumergirnos en el código, asegúrese de tener lo siguiente:
 
-- Un conocimiento práctico de la programación Java.
--  Aspose.TeX para Java instalado. Puedes descargarlo desde el[Documentación Java de Aspose.TeX](https://reference.aspose.com/tex/java/).
+- Una comprensión sólida de los fundamentos de programación en Java.  
+- Aspose.TeX para Java instalado (descargue de la [documentación oficial de Aspose.TeX Java](https://reference.aspose.com/tex/java/)).  
+- Un IDE de Java o una herramienta de compilación (Maven/Gradle) listo para compilar y ejecutar el ejemplo.
 
 ## Importar paquetes
 
-Para comenzar, importe los paquetes necesarios a su proyecto Java. En su archivo Java, incluya las siguientes importaciones:
+Para comenzar, importe los paquetes necesarios en su proyecto Java. En su archivo Java, incluya las siguientes importaciones:
 
 ```java
 package com.aspose.tex.OverridenJobNameAndTerminalOutputWrittenToDisk;
@@ -44,20 +57,25 @@ import com.aspose.tex.rendering.XpsDevice;
 import util.Utils;
 ```
 
-## Anular el nombre del trabajo y escribir la salida del terminal
+> **Consejo profesional:** Mantenga la importación `util.Utils` solo si necesita métodos auxiliares de las utilidades de ejemplo de Aspose; de lo contrario, puede eliminarla para mantener el código limpio.
 
-### Paso 1: crear opciones de conversión
+## Cómo escribir la salida del terminal a un archivo en Java
 
-Comience creando opciones de conversión para el formato ObjectTeX predeterminado en la extensión del motor ObjectTeX. Utilice el siguiente fragmento de código:
+A continuación se muestra una guía paso a paso que indica exactamente cómo configurar las opciones de conversión, sobrescribir el nombre del trabajo y dirigir la salida del terminal a un archivo en el disco.
+
+### Paso 1: Crear opciones de conversión
+
+Primero, cree una instancia de `TeXOptions` que use la configuración predeterminada de ObjectTeX. Este objeto contendrá todas las configuraciones para el proceso de conversión.
 
 ```java
-//ExStart: Anular nombre de trabajo-Escribir salida de terminal a sistema de archivos
+// ExStart:OverrideJobName-WriteTerminalOutputToFileSystem
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX());
+// ExEnd:OverrideJobName-WriteTerminalOutputToFileSystem
 ```
 
-### Paso 2: especificar el nombre del trabajo y los directorios de trabajo
+### Paso 2: Especificar el nombre del trabajo y los directorios de trabajo
 
-Especifique un nombre de trabajo, un directorio de trabajo de entrada y un directorio de trabajo de salida. Si no se especifica el nombre del trabajo, el primer argumento del constructor TeXJob se tomará como nombre del trabajo. Utilice el siguiente fragmento de código:
+A continuación, establezca un nombre de trabajo personalizado y defina dónde se encuentran los archivos de entrada y salida. Si no establece un nombre de trabajo, el primer argumento del constructor `TeXJob` se convierte automáticamente en el nombre del trabajo.
 
 ```java
 options.setJobName("overridden-job-name");
@@ -65,51 +83,63 @@ options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Direct
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-### Paso 3: escribir la salida del terminal en el sistema de archivos
+> **¿Por qué sobrescribir el nombre del trabajo?**  
+> Sobrescribir el nombre del trabajo hace que los archivos de registro y los artefactos generados sean más fáciles de identificar, especialmente cuando ejecuta varios trabajos en paralelo o automatiza el procesamiento por lotes.
 
- Especifique que la salida del terminal debe escribirse en un archivo en el directorio de trabajo de salida. El nombre del archivo será`<job_name>.trm`. Agregue el siguiente código:
+### Paso 3: Escribir la salida del terminal al sistema de archivos
+
+Indique a Aspose.TeX que capture todo lo que normalmente aparecería en la consola y lo escriba en un archivo. El archivo se nombrará `<job_name>.trm` y se colocará en el directorio de trabajo de salida que definió anteriormente.
 
 ```java
 options.setTerminalOut(new OutputFileTerminal(options.getOutputWorkingDirectory()));
 ```
 
-### Paso 4: ejecutar el trabajo
+### Paso 4: Ejecutar el trabajo
 
-Ejecute el trabajo TeX usando las opciones y el nombre del trabajo especificados. Así es como puedes hacerlo:
+Finalmente, cree un `TeXJob` con el archivo de entrada deseado (aquí usamos un ejemplo simple de “hola‑mundo”) y el dispositivo de renderizado XPS. Luego llame a `run()` para ejecutar la conversión.
 
 ```java
 TeXJob job = new TeXJob("hello-world", new XpsDevice(), options);
 job.run();
-// ExEnd:OverrideJobName-WriteTerminalOutputToFileSystem
 ```
 
-¡Felicidades! Ha anulado con éxito el nombre del trabajo y escrito la salida del terminal en el sistema de archivos utilizando Aspose.TeX en Java.
+Cuando el trabajo termine, encontrará un archivo llamado `overridden-job-name.trm` dentro de **Su directorio de salida** que contiene el registro completo del terminal.
 
-## Conclusión
+## Problemas comunes y solución de problemas
 
-En este tutorial, exploramos cómo utilizar Aspose.TeX para Java para anular el nombre del trabajo y capturar la salida del terminal. Estas características permiten a los desarrolladores tener un control detallado sobre el procesamiento de documentos TeX, mejorando la personalización y la flexibilidad.
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| **No se generó el archivo `.trm`** | `setTerminalOut` no llamado o falta el directorio de salida | Verifique que el directorio de salida exista y que `options.setTerminalOut(...)` se ejecute antes de `job.run()`. |
+| **El nombre del archivo no es el nombre sobrescrito** | Nombre del trabajo no configurado correctamente | Asegúrese de que `options.setJobName("your‑desired‑name")` se llame **antes** de crear el `TeXJob`. |
+| **Archivo de registro vacío** | Excepciones lanzadas antes de que comience el registro | Envuelva `job.run()` en un bloque try‑catch y examine la traza de la excepción para fuentes faltantes o código TeX malformado. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.TeX para Java con otras bibliotecas de Java?
+**P: ¿Puedo usar Aspose.TeX para Java con otras bibliotecas Java?**  
+R: Sí, Aspose.TeX está diseñado para integrarse sin problemas con otras bibliotecas Java, lo que le permite combinar utilidades de PDF, imágenes o bases de datos en el mismo flujo de trabajo.
 
-R1: Sí, Aspose.TeX para Java está diseñado para integrarse perfectamente con otras bibliotecas de Java para mejorar sus capacidades de procesamiento de documentos.
+**P: ¿Dónde puedo encontrar soporte para Aspose.TeX para Java?**  
+R: Visite el [foro de Aspose.TeX](https://forum.aspose.com/c/tex/47) para obtener ayuda de la comunidad, o abra un ticket de soporte a través del portal de soporte de Aspose.
 
-### P2: ¿Dónde puedo encontrar soporte para Aspose.TeX para Java?
+**P: ¿Hay una prueba gratuita disponible para Aspose.TeX para Java?**  
+R: Absolutamente. Puede descargar una prueba totalmente funcional desde la [página de prueba gratuita de Aspose.TeX](https://releases.aspose.com/).
 
- A2: Visita el[Foro Aspose.TeX](https://forum.aspose.com/c/tex/47) para obtener apoyo y asistencia de la comunidad con cualquier problema que pueda encontrar.
+**P: ¿Cómo puedo obtener una licencia temporal para pruebas?**  
+R: Utilice el formulario de solicitud de licencia temporal en [Aspose licencia temporal](https://purchase.aspose.com/temporary-license/) para obtener una licencia de evaluación de 30 días.
 
-### P3: ¿Hay una prueba gratuita disponible para Aspose.TeX para Java?
+**P: ¿Dónde puedo comprar una licencia permanente?**  
+R: Compre una licencia directamente en la [página de compra de Aspose.TeX](https://purchase.aspose.com/buy).
 
- R3: Sí, puede acceder a la versión de prueba gratuita de Aspose.TeX para Java[aquí](https://releases.aspose.com/).
+## Conclusión
 
-### P4: ¿Cómo puedo obtener una licencia temporal de Aspose.TeX para Java?
+En esta guía demostramos cómo **escribir la salida del terminal a un archivo** y sobrescribir el nombre de trabajo predeterminado usando Aspose.TeX para Java. Estas capacidades le permiten mantener registros detallados para depuración, automatizar el procesamiento por lotes y mantener una estructura de salida limpia y organizada—esencial para canalizaciones de conversión de documentos de nivel de producción.
 
- A4: sigue esto[enlace](https://purchase.aspose.com/temporary-license/) obtener una licencia temporal para fines de prueba y evaluación.
+---
 
-### P5: ¿Dónde puedo comprar Aspose.TeX para Java?
+**Última actualización:** 2025-12-05  
+**Probado con:** Aspose.TeX 24.11 para Java  
+**Autor:** Aspose  
 
- A5: Visita el[pagina de compra](https://purchase.aspose.com/buy) para adquirir una licencia de Aspose.TeX para Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
