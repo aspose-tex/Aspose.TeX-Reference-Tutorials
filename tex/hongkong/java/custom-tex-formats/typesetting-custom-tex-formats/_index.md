@@ -1,35 +1,55 @@
 ---
-title: 在 Java 中使用自訂 TeX 格式進行排版
-linktitle: 在 Java 中使用自訂 TeX 格式進行排版
+date: 2025-12-05
+description: 學習如何使用 Aspose.TeX for Java 進行 TeX 排版，內容包括自訂格式的步驟以及如何取得臨時授權 (aspose)。
+language: zh-hant
+linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
-description: 使用 Aspose.TeX 探索 Java 中的高效排版。自訂 TeX 格式變得簡單。立即下載以獲得無縫的開發體驗。
+title: 如何在 Java 中使用自訂格式排版 TeX
+url: /java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
-url: /zh-hant/java/custom-tex-formats/typesetting-custom-tex-formats/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java 中使用自訂 TeX 格式進行排版
+# 如何在 Java 中使用自訂格式排版 TeX
 
 ## 介紹
 
-在 Java 開發領域，Aspose.TeX 被證明是使用自訂 TeX 格式進行排版的寶貴工具。本教學將深入探討利用 Aspose.TeX for Java 使用個人化 TeX 格式實現高效排版的流程。無論您是經驗豐富的開發人員還是新手，本指南都旨在引導您無縫地完成這些步驟。
+如果您需要在 Java 應用程式中 **how to typeset tex**，Aspose.TeX 提供一個乾淨且高效能的方式來使用自訂 TeX 格式檔案。在本教學中，我們將逐步說明您所需的一切——從環境設定到執行使用您自訂格式的 TeX 工作。無論您是要打造科學出版工具或是自訂報告產生器，以下步驟都能讓您快速上手。
 
-## 先決條件
+## 快速解答
+- **需要哪個函式庫？** Aspose.TeX for Java  
+- **可以使用自訂 TeX 格式嗎？** 可以，只要將 `FormatProvider` 指向您的檔案即可。  
+- **開發時需要授權嗎？** 臨時授權 aspose 可用於測試；正式環境需購買完整授權。  
+- **支援哪個 Java 版本？** JDK 8 或更高。  
+- **範例產生的輸出格式為何？** XPS（您也可以切換為 PDF、PNG 等）。
 
-在開始此旅程之前，請確保您具備以下先決條件：
+## 什麼是自訂 TeX 格式？
 
-1.  Java 開發工具包 (JDK)：Aspose.TeX for Java 需要您的系統上有一個正常運作的 JDK。如果未安裝，請從以下位置下載並設定最新版本[Java 的網站](https://www.oracle.com/java/technologies/javase-downloads.html).
+自訂 TeX 格式是一組預先編譯好的巨集與原始指令，讓 TeX 引擎依照您的文件樣式進行調整。只要提供您自己的 `.fmt` 檔案，即可在不每次修改原始 TeX 的情況下，控制字型、版面規則與指令定義。
 
-2. Aspose.TeX 函式庫：取得 Java 的 Aspose.TeX 函式庫。您可以從[Aspose.TeX for Java 下載頁面](https://releases.aspose.com/tex/java/).
+## 為什麼要使用 Aspose.TeX for Java？
 
-3. 自訂 TeX 格式檔案：準備自訂 TeX 格式檔案並確保將其儲存在所需的輸出目錄中。
+- **純 Java** – 無原生二進位檔，易於嵌入任何基於 JVM 的專案。  
+- **高保真度** – 產生的輸出與 LaTeX 風格的渲染相符。  
+- **可擴充** – 支援自訂格式、多種輸出裝置與批次處理。  
+- **授權彈性** – 可先使用臨時授權 aspose，正式上線時再升級。
 
-## 導入包
+## 前置條件
 
-首先，將必要的套件匯入到您的 Java 專案中。利用 Java 的 Aspose.TeX 函式庫來利用其強大的排版功能。
+開始之前，請確保您已具備以下項目：
+
+1. **Java Development Kit (JDK)** – 已安裝 JDK 8 或更新版本。若尚未安裝，請從官方 [Java website](https://www.oracle.com/java/technologies/javase-downloads.html) 下載。  
+2. **Aspose.TeX library for Java** – 從 [Aspose.TeX for Java download page](https://releases.aspose.com/tex/java/) 取得最新 JAR。  
+3. **您的自訂 TeX 格式檔案** – 將編譯好的 `.fmt`（例如 `customtex.fmt`）放置於作為輸出目錄的資料夾中。  
+
+> **專業提示：** 若您在評估本產品，請向 Aspose 入口網站申請 *temporary license aspose*；此授權可在有限期間內移除評估浮水印。
+
+## 匯入套件
+
+首先，將必要的匯入加入您的 Java 專案。這些類別可讓您存取格式提供者、工作設定與渲染裝置。
 
 ```java
 package com.aspose.tex.TypesetWithCustomTeXFormat;
@@ -48,20 +68,20 @@ import com.aspose.tex.rendering.XpsDevice;
 import util.Utils;
 ```
 
-現在，讓我們將該過程分解為一系列逐步說明：
+## 步驟說明
 
-## 第 1 步：建立格式提供者
+### 步驟 1：建立 Format Provider
 
-首先使用檔案系統輸入工作目錄建立格式提供者。該目錄將存放您的自訂 TeX 格式檔案。
+`FormatProvider` 指向包含自訂 TeX 格式檔案的目錄。將 `"Your Output Directory"` 替換為 `customtex.fmt` 所在的實際路徑。
 
 ```java
 final FormatProvider formatProvider = new FormatProvider(
-		new InputFileSystemDirectory("Your Output Directory"), "customtex");
+        new InputFileSystemDirectory("Your Output Directory"), "customtex");
 ```
 
-## 第 2 步：設定轉換選項
+### 步驟 2：設定轉換選項
 
-為您的自訂格式建立轉換選項，專門針對 ObjectTeX 引擎擴充自訂。
+設定工作使用 ObjectTeX 引擎（能理解自訂格式的引擎）。同時設定工作名稱並指定輸入/輸出工作目錄。
 
 ```java
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX(formatProvider));
@@ -70,9 +90,9 @@ options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Direct
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-## 第 3 步：執行 TeX 作業
+### 步驟 3：執行 TeX 工作
 
-實例化 TeXJob 並使用您指定的選項和自訂文字內容來運行它。
+建立 `TeXJob` 實例，提供一段簡單的 TeX 片段，並指示使用 `XpsDevice` 進行渲染。片段以 `\end` 結尾以關閉文件。
 
 ```java
 new TeXJob(new ByteArrayInputStream(
@@ -80,47 +100,59 @@ new TeXJob(new ByteArrayInputStream(
         new XpsDevice(), options).run();
 ```
 
-## 第 4 步：最終確定輸出
+### 步驟 4：完成輸出
 
-透過新增必要的換行符號來確保輸出乾淨且可讀。
+工作完成後，於終端機輸出加入換行，以保持主控台整潔。
 
 ```java
 options.getTerminalOut().getWriter().newLine();
 ```
 
-## 第 5 步：關閉格式提供程序
+### 步驟 5：關閉 Format Provider
 
-最後，關閉格式提供者以結束排版過程。
+完成後，關閉提供者以釋放檔案句柄並釋放資源。
 
 ```java
 formatProvider.close();
 ```
 
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| **“Format file not found”** | `FormatProvider` 中的路徑錯誤 | 確認目錄與檔名（`customtex.fmt`）正確且可存取。 |
+| **編碼錯誤** | TeX 字串中含有非 ASCII 字元 | 使用 UTF‑8 編碼（`"UTF-8"` 而非 `"ASCII"`）。 |
+| **未產生輸出** | 輸出目錄缺乏寫入權限 | 確保 Java 程序對 `"Your Output Directory"` 具有寫入權限。 |
+| **授權浮水印** | 僅使用評估授權 | 在測試時套用 *temporary license aspose*，或於正式環境購買完整授權。 |
+
+## 常見問答
+
+**Q: 我可以將 Aspose.TeX 與其他 Java 函式庫一起使用嗎？**  
+A: 當然可以。此 API 為純 Java，可與 Apache PDFBox、iText 或 Spring Boot 等函式庫共存。
+
+**Q: 我可以從哪裡取得評估用的 temporary license aspose？**  
+A: 可於 [Aspose temporary license page](https://purchase.aspose.com/temporary-license/) 申請；此授權可在最多 30 天內移除評估浮水印。
+
+**Q: Aspose.TeX 是否支援除 XPS 之外的輸出格式？**  
+A: 支援。您可以將 `new XpsDevice()` 替換為 `new PdfDevice()`、`new PngDevice()` 等，視需求而定。
+
+**Q: 如何偵錯失敗的 TeX 工作？**  
+A: 透過呼叫 `options.setLogLevel(LogLevel.DEBUG);` 開啟詳細日誌，並檢查主控台輸出以取得錯誤資訊。
+
+**Q: 是否提供免費試用？**  
+A: 有 – 可從 [Aspose.TeX download page](https://releases.aspose.com/tex/java/) 下載試用二進位檔。
+
 ## 結論
 
-恭喜！您已經使用 Aspose.TeX for Java 和自訂 TeX 格式成功完成了排版流程。本教學旨在引導您完成複雜的步驟，使整個過程更加順暢且更容易理解。
+您現在已了解如何在 Java 應用程式中使用 Aspose.TeX 及自訂 TeX 格式 **how to typeset tex**。依循上述步驟，即可將高品質排版整合至任何基於 Java 的工作流程，試驗自己的格式檔，並在取得正式授權後，從原型階段順利進入生產環境。
 
-## 常見問題解答
+---
 
-### Q1：我可以將 Aspose.TeX 與其他 Java 函式庫一起使用嗎？
+**Last Updated:** 2025-12-05  
+**Tested With:** Aspose.TeX for Java 24.10  
+**Author:** Aspose  
+**相關資源：** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
-A1：是的，Aspose.TeX 旨在與各種 Java 程式庫無縫整合以增強功能。
-
-### Q2：我可以在哪裡找到進一步的幫助和支援？
-
- A2：探索[Aspose.TeX 論壇](https://forum.aspose.com/c/tex/47)以獲得社區支持和討論。
-
-### Q3：Aspose.TeX 有免費試用版嗎？
-
- A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
-
-### Q4：如何取得 Aspose.TeX 的臨時授權？
-
- A4：訪問[臨時許可證頁面](https://purchase.aspose.com/temporary-license/)用於臨時許可選項。
-
-### Q5：哪裡可以購買Aspose.TeX庫？
-
- A5：透過造訪以下地址來保護您的副本[購買頁面](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

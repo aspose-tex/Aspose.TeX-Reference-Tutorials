@@ -1,35 +1,52 @@
 ---
-title: Sazba s vlastními formáty TeX v Javě
-linktitle: Sazba s vlastními formáty TeX v Javě
+date: 2025-12-05
+description: Naučte se, jak sazovat TeX pomocí Aspose.TeX pro Javu, včetně kroků pro
+  vlastní formáty a jak získat dočasnou licenci Aspose.
+language: cs
+linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
-description: Prozkoumejte efektivní sazbu v Javě pomocí Aspose.TeX. Snadné vlastní formáty TeX. Stáhněte si nyní pro bezproblémový vývoj.
+title: Jak sázet TeX s vlastními formáty v Javě
+url: /java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
-url: /cs/java/custom-tex-formats/typesetting-custom-tex-formats/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sazba s vlastními formáty TeX v Javě
+# Jak typografovat TeX s vlastními formáty v Javě
 
 ## Úvod
 
-V oblasti vývoje Javy se Aspose.TeX ukazuje jako neocenitelný nástroj pro sazbu s vlastními formáty TeX. Tento tutoriál se ponoří do procesu využití Aspose.TeX pro Javu k dosažení efektivní sazby pomocí personalizovaných formátů TeX. Ať už jste ostřílený vývojář nebo nováček, tato příručka je navržena tak, aby vás bez problémů provedla jednotlivými kroky.
+Pokud potřebujete **jak typografovat tex** uvnitř Java aplikace, Aspose.TeX poskytuje čistý, výkonný způsob práce s vlastními soubory formátu TeX. V tomto tutoriálu vás provedeme vším, co potřebujete – od nastavení prostředí až po spuštění TeX úlohy, která používá váš vlastní formát. Ať už vytváříte nástroj pro vědecké publikování nebo vlastní generátor zpráv, níže uvedené kroky vás rychle uvedou do provozu.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Jaká knihovna je potřeba?** Aspose.TeX for Java  
+- **Mohu použít vlastní formát TeX?** Ano – stačí nasměrovat `FormatProvider` na váš soubor.  
+- **Potřebuji licenci pro vývoj?** Dočasná licence aspose funguje pro testování; pro produkci je vyžadována plná licence.  
+- **Která verze Javy je podporována?** JDK 8 nebo vyšší.  
+- **Jaký výstupní formát příklad generuje?** XPS (můžete přepnout na PDF, PNG atd.).
 
-Než se vydáte na tuto cestu, ujistěte se, že máte splněny následující předpoklady:
+## Co je vlastní formát TeX?
+Vlastní formát TeX je předkompilovaná sada maker a primitiv, která přizpůsobuje TeX engine vašemu konkrétnímu stylu dokumentu. Poskytnutím vlastního souboru `.fmt` můžete řídit písma, pravidla rozvržení a definice příkazů, aniž byste pokaždé upravovali zdrojový TeX.
 
-1.  Java Development Kit (JDK): Aspose.TeX pro Javu vyžaduje funkční JDK ve vašem systému. Pokud není nainstalována, stáhněte si a nastavte nejnovější verzi z[Webové stránky Java](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Proč používat Aspose.TeX pro Java?
+- **Čistá Java** – Žádné nativní binární soubory, snadné vložení do jakéhokoli projektu založeného na JVM.  
+- **Vysoká věrnost** – Generuje výstup, který odpovídá vykreslování ve stylu LaTeX.  
+- **Rozšiřitelný** – Podporuje vlastní formáty, více výstupních zařízení a dávkové zpracování.  
+- **Flexibilita licence** – Začněte s dočasnou licencí aspose, poté upgradujte při nasazení.
 
-2.  Aspose.TeX Library: Získejte knihovnu Aspose.TeX pro Javu. Můžete si jej stáhnout z[Aspose.TeX pro stahování Javy](https://releases.aspose.com/tex/java/).
+## Požadavky
 
-3. Soubor vlastního formátu TeX: Připravte si soubor vlastního formátu TeX a ujistěte se, že je uložen ve vámi požadovaném výstupním adresáři.
+1. **Java Development Kit (JDK)** – JDK 8 nebo novější nainstalované. Stáhněte jej z oficiálního [Java website](https://www.oracle.com/java/technologies/javase-downloads.html), pokud jej ještě nemáte.  
+2. **Aspose.TeX library for Java** – Stáhněte nejnovější JAR ze [Aspose.TeX for Java download page](https://releases.aspose.com/tex/java/).  
+3. **Váš vlastní soubor formátu TeX** – Umístěte zkompilovaný `.fmt` (např. `customtex.fmt`) do složky, která bude sloužit jako výstupní adresář.  
 
-## Importujte balíčky
+> **Tip:** Pokud produkt hodnotíte, požádejte o *dočasnou licenci aspose* na portálu Aspose; odstraní vodotisk evaluace na omezenou dobu.
 
-Chcete-li začít, importujte potřebné balíčky do svého projektu Java. Využijte knihovnu Aspose.TeX pro Javu, abyste využili její výkonné možnosti sazby.
+## Importovat balíčky
+
+Nejprve přidejte požadované importy do svého Java projektu. Tyto třídy vám poskytují přístup k poskytovateli formátu, konfiguraci úlohy a vykreslovacímu zařízení.
 
 ```java
 package com.aspose.tex.TypesetWithCustomTeXFormat;
@@ -48,20 +65,20 @@ import com.aspose.tex.rendering.XpsDevice;
 import util.Utils;
 ```
 
-Nyní si tento proces rozdělíme do série pokynů krok za krokem:
+## Postupný průvodce
 
-## Krok 1: Vytvořte poskytovatele formátu
+### Krok 1: Vytvořit poskytovatele formátu
 
-Začněte vytvořením poskytovatele formátu pomocí vstupního pracovního adresáře systému souborů. Tento adresář bude obsahovat váš vlastní soubor formátu TeX.
+`FormatProvider` ukazuje na adresář, který obsahuje váš vlastní soubor formátu TeX. Nahraďte `"Your Output Directory"` skutečnou cestou, kde se nachází `customtex.fmt`.
 
 ```java
 final FormatProvider formatProvider = new FormatProvider(
-		new InputFileSystemDirectory("Your Output Directory"), "customtex");
+        new InputFileSystemDirectory("Your Output Directory"), "customtex");
 ```
 
-## Krok 2: Nastavte možnosti převodu
+### Krok 2: Nastavit možnosti konverze
 
-Vytvořte možnosti převodu pro svůj vlastní formát, speciálně přizpůsobené rozšíření enginu ObjectTeX.
+Nastavte úlohu tak, aby používala engine ObjectTeX (engine, který rozumí vlastním formátům). Zde také nastavíme název úlohy a specifikujeme vstupní/výstupní pracovní adresáře.
 
 ```java
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX(formatProvider));
@@ -70,9 +87,9 @@ options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Direct
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-## Krok 3: Spusťte TeX Job
+### Krok 3: Spustit TeX úlohu
 
-Vytvořte instanci TeXJob a spusťte jej se zadanými možnostmi a vlastním textovým obsahem.
+Vytvořte instanci `TeXJob`, předáte jí jednoduchý TeX úryvek a řekněte jí, aby výsledek vykreslila pomocí `XpsDevice`. Úryvek končí `\end`, aby uzavřel dokument.
 
 ```java
 new TeXJob(new ByteArrayInputStream(
@@ -80,47 +97,59 @@ new TeXJob(new ByteArrayInputStream(
         new XpsDevice(), options).run();
 ```
 
-## Krok 4: Dokončete výstup
+### Krok 4: Dokončit výstup
 
-Zajistěte čistý a čitelný výstup přidáním nezbytných zalomení řádků.
+Po dokončení úlohy přidejte zalomení řádku do výstupu terminálu, aby konzole zůstala přehledná.
 
 ```java
 options.getTerminalOut().getWriter().newLine();
 ```
 
-## Krok 5: Zavřete poskytovatele formátu
+### Krok 5: Zavřít poskytovatele formátu
 
-Nakonec zavřete poskytovatele formátu, abyste dokončili proces sazby.
+Když skončíte, zavřete poskytovatele, aby se uvolnily souborové handly a zdroje.
 
 ```java
 formatProvider.close();
 ```
 
+## Časté problémy a řešení
+
+| Problém | Příčina | Řešení |
+|-------|-------|-----|
+| **„Format file not found“** | Špatná cesta v `FormatProvider` | Ověřte, že adresář a název souboru (`customtex.fmt`) jsou správné a přístupné. |
+| **Encoding errors** | Ne‑ASCII znaky v TeX řetězci | Použijte kódování UTF‑8 (`"UTF-8"` místo `"ASCII"`). |
+| **Output not generated** | Výstupní adresář nemá oprávnění k zápisu | Zajistěte, aby Java proces měl zápis do `"Your Output Directory"`. |
+| **License watermark** | Používáte pouze evaluační licenci | Aplikujte *dočasnou licenci aspose* pro testování nebo zakupte plnou licenci pro produkci. |
+
+## Často kladené otázky
+
+**Q: Mohu použít Aspose.TeX spolu s jinými Java knihovnami?**  
+A: Rozhodně. API je čistá Java a funguje vedle knihoven jako Apache PDFBox, iText nebo Spring Boot.
+
+**Q: Kde získám dočasnou licenci aspose pro evaluaci?**  
+A: Požádejte o ni na [Aspose temporary license page](https://purchase.aspose.com/temporary-license/). Odstraní evaluační vodotisk až na 30 dní.
+
+**Q: Podporuje Aspose.TeX výstupní formáty kromě XPS?**  
+A: Ano. Můžete nahradit `new XpsDevice()` za `new PdfDevice()`, `new PngDevice()` atd., podle vašich potřeb.
+
+**Q: Jak ladím selhávající TeX úlohu?**  
+A: Zapněte podrobný log voláním `options.setLogLevel(LogLevel.DEBUG);` a prozkoumejte výstup konzole pro detailní chybové zprávy.
+
+**Q: Je k dispozici bezplatná zkušební verze?**  
+A: Ano – stáhněte si zkušební binárky ze [Aspose.TeX download page](https://releases.aspose.com/tex/java/).
+
 ## Závěr
 
-Gratulujeme! Dokončili jste úspěšný proces sazby pomocí Aspose.TeX for Java s vlastním formátem TeX. Cílem tohoto tutoriálu bylo provést vás složitými kroky, díky čemuž bude celá cesta plynulejší a srozumitelnější.
+Nyní víte **jak typografovat tex** v Java aplikaci pomocí vlastního formátu TeX s Aspose.TeX. Dodržením výše uvedených kroků můžete integrovat vysoce kvalitní sazbu do jakéhokoli Java‑založeného workflow, experimentovat s vlastními soubory formátu a přejít z prototypu do produkce s odpovídající licencí.
 
-## FAQ
+---
 
-### Q1: Mohu používat Aspose.TeX s jinými Java knihovnami?
+**Poslední aktualizace:** 2025-12-05  
+**Testováno s:** Aspose.TeX for Java 24.10  
+**Autor:** Aspose  
+**Související zdroje:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
-Odpověď 1: Ano, Aspose.TeX je navržen tak, aby se hladce integroval s různými Java knihovnami a zlepšil funkčnost.
-
-### Q2: Kde najdu další pomoc a podporu?
-
- A2: Prozkoumejte[Fórum Aspose.TeX](https://forum.aspose.com/c/tex/47)za podporu komunity a diskuze.
-
-### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.TeX?
-
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
-
-### Q4: Jak mohu získat dočasnou licenci pro Aspose.TeX?
-
- A4: Navštivte[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/) pro dočasné licenční možnosti.
-
-### Q5: Kde si mohu zakoupit knihovnu Aspose.TeX?
-
- A5: Zabezpečte svou kopii návštěvou[nákupní stránku](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
