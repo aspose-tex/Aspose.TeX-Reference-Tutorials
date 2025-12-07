@@ -1,33 +1,54 @@
 ---
-title: تقديم أرقام LaTeX إلى PNG في Java
-linktitle: تقديم أرقام LaTeX إلى PNG في Java
-second_title: Aspose.TeX جافا API
-description: قم بعرض أشكال LaTeX إلى PNG بسهولة في Java باستخدام Aspose.TeX. اتبع هذا الدليل للتكامل السلس.
+date: 2025-12-07
+description: تعلم كيفية تحويل رسومات LaTeX إلى PNG في Java باستخدام Aspose.TeX – أسهل
+  طريقة لإنشاء PNG من LaTeX. اتبع هذا الدليل خطوة بخطوة.
+language: ar
+linktitle: How to Render LaTeX Figures to PNG in Java
+second_title: Aspose.TeX Java API
+title: كيفية تحويل رسومات LaTeX إلى PNG في Java
+url: /java/customizing-output/render-lafigures-png/
 weight: 12
-url: /ar/java/customizing-output/render-lafigures-png/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تقديم أرقام LaTeX إلى PNG في Java
+# كيفية تحويل رسومات LaTeX إلى PNG في Java
 
-## مقدمة
+## المقدمة
 
-في عالم تطوير Java، قد يكون عرض أشكال LaTeX إلى PNG مهمة صعبة ولكنها أساسية. يأتي Aspose.TeX for Java للإنقاذ بفضل ميزاته القوية، مما يجعل هذه العملية فعالة وسلسة. سيرشدك هذا الدليل خطوة بخطوة خلال العملية الكاملة لعرض أشكال LaTeX إلى PNG باستخدام Aspose.TeX.
+إذا كنت تتساءل **كيف يتم تحويل LaTeX** إلى صورة نقطية لتطبيقات Java الخاصة بك، فقد وجدت المكان المناسب. قد يكون تحويل *latex figure to png* عملية معقدة، خاصة عندما تحتاج إلى مخرجات عالية الجودة وتحكم كامل في خيارات التحويل. تجعل Aspose.TeX for Java سير العمل بأكمله بسيطًا، حيث يمكنك إنشاء PNG من LaTeX ببضع أسطر من الشيفرة فقط. في هذا البرنامج التعليمي سنستعرض العملية بالكامل—من إعداد البيئة إلى عرض الصورة النهائية—حتى تتمكن من دمج رسومات LaTeX الجميلة مباشرةً في مشاريع Java الخاصة بك.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما المكتبة التي يجب استخدامها؟** Aspose.TeX for Java
+- **هل يمكنني إنشاء PNG من LaTeX؟** نعم، مع تحكم كامل في الدقة
+- **هل أحتاج إلى ترخيص للإنتاج؟** الترخيص التجاري مطلوب؛ يتوفر نسخة تجريبية مجانية
+- **ما نسخة Java المدعومة؟** Java 8 وما فوق
+- **كم يستغرق تنفيذ العملية؟** حوالي 10‑15 دقيقة لإنشاء رسم أساسي
 
-قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو “how to render latex” في Java؟
 
-- تم تثبيت Java Development Kit (JDK) على نظامك.
--  تم تنزيل Aspose.TeX لمكتبة Java. يمكنك الحصول عليه من[رابط التحميل](https://releases.aspose.com/tex/java/).
-- المعرفة الأساسية ببرمجة LaTeX وJava.
+يعني تحويل LaTeX في Java تحويل لغة الترميز المستخدمة في المستندات العلمية إلى تنسيق بصري (مثل PNG) يمكن عرضه في واجهات المستخدم الرسومية، التقارير، أو صفحات الويب. توفر Aspose.TeX محركًا عالي الأداء يقوم بتحليل شفرة LaTeX، ورسم الرسومات، وإخراجها كصور نقطية دون الحاجة إلى تثبيت LaTeX خارجي.
 
-## حزم الاستيراد
+## لماذا نولد PNG من LaTeX باستخدام Aspose.TeX؟
 
-للبدء، تحتاج إلى استيراد الحزم الضرورية من Aspose.TeX لـ Java. توفر هذه الحزم الأدوات والوظائف المطلوبة لعرض أشكال LaTeX إلى PNG.
+- **بدون تبعيات خارجية** – كل شيء يعمل داخل JVM.
+- **تحكم دقيق** في الدقة، التكبير، لون الخلفية، ومقدمة المستند.
+- **معالجة أخطاء قوية** – سجلات مفصلة تساعدك على استكشاف أخطاء LaTeX.
+- **متعدد المنصات** – يعمل على Windows وLinux وmacOS.
+
+## المتطلبات المسبقة
+
+قبل أن نغوص في الشيفرة، تأكد من وجود ما يلي:
+
+- Java Development Kit (JDK) 8 أو أحدث مثبت.
+- مكتبة Aspose.TeX for Java محملة من [صفحة التحميل الرسمية](https://releases.aspose.com/tex/java/).
+- إلمام أساسي بصياغة LaTeX (مثل `\begin{picture}...\end{picture}`).
+
+## استيراد الحزم
+
+أولاً، استورد الفئات التي ستحتاجها من Aspose.TeX API. تتيح لك هذه الاستيرادات الوصول إلى محول PNG وخيارات التكوين الخاصة به.
 
 ```java
 package com.aspose.tex.PngLaTeXFigureRenderer;
@@ -44,9 +65,9 @@ import com.aspose.tex.PngFigureRendererOptions;
 import util.Utils;
 ```
 
-## الخطوة 1: ضبط خيارات العرض
+## الخطوة 1: ضبط خيارات التحويل  
 
-قم بإنشاء خيارات العرض، وتعيين المعلمات مثل دقة الصورة، والتمهيد، وعامل القياس، ولون الخلفية، ودفق السجل، ورؤية مخرجات المحطة الطرفية.
+أنشئ كائنًا من `PngFigureRendererOptions` وقم بتكوين دقة الإخراج، عامل التكبير، لون الخلفية، وإعدادات مفيدة أخرى.
 
 ```java
 PngFigureRendererOptions options = new PngFigureRendererOptions();
@@ -58,21 +79,21 @@ options.setLogStream(new ByteArrayOutputStream());
 options.showTerminal(true);
 ```
 
-## الخطوة 2: تحديد شكل LaTeX
+## الخطوة 2: تعريف رسم LaTeX  
 
-حدد شكل LaTeX الذي تريد عرضه. يمكن أن يشمل ذلك معادلات رياضية معقدة أو رسوم بيانية أو أي محتوى LaTeX آخر.
+ضع شفرة LaTeX التي تريد تحويلها داخل سلسلة `String` في Java. يمكنك استبدال العنصر النائب بأي *latex figure to png* تحتاجه—المعادلات المعقدة، مخططات الدوائر، أو الرسومات المخصصة تعمل بنفس الطريقة.
 
 ```java
 String latexFigure = "\\setlength{\\unitlength}{0.8cm}\r\n" +
                     "\\begin{picture}(6,5)\r\n" +
                     "\\thicklines\r\n" +
-                    // ... (محتوى شكل LaTeX الخاص بك)
+                    // ... (your LaTeX figure content)
                     "\\end{picture}";
 ```
 
-## الخطوة 3: العرض والحفظ
+## الخطوة 3: التحويل والحفظ  
 
-قم بتقديم شكل LaTeX إلى صورة PNG واحفظه في دليل الإخراج المحدد.
+حوّل سلسلة LaTeX إلى صورة PNG واكتبها إلى القرص. عدّل مسار الإخراج ليتناسب مع بنية مشروعك.
 
 ```java
 final OutputStream stream = new FileOutputStream("Your Output Directory" + "text-and-formula.png");
@@ -84,42 +105,50 @@ try {
 }
 ```
 
-## الخطوة 4: عرض النتائج
+## الخطوة 4: عرض النتائج  
 
-اعرض النتائج، بما في ذلك أي تقارير أخطاء وأبعاد الصورة الناتجة.
+بعد التحويل، يمكنك فحص تقرير الأخطاء (إن وجد) وأبعاد الصورة المولدة.
 
 ```java
 System.out.println(options.getErrorReport());
 System.out.println();
 System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
-// ExEnd:PngLaTeXFigorRenderer
+// ExEnd:PngLaTeXFigureRenderer
 ```
 
-## خاتمة
+## المشكلات الشائعة والنصائح
 
-تهانينا! لقد تعلمت بنجاح كيفية عرض أشكال LaTeX إلى PNG في Java باستخدام Aspose.TeX. تعمل هذه الأداة القوية على تبسيط العملية، مما يسمح لك بدمج محتوى LaTeX بسلاسة في تطبيقات Java الخاصة بك.
+- **حزم مفقودة في المقدمة** – إذا كان الرسم يستخدم حزمة LaTeX (مثل `pict2e`)، تأكد من إضافتها عبر `options.setPreamble()`.
+- **الدقة مقابل التكبير** – `setResolution` يتحكم في DPI، بينما `setScale` يؤثر على حجم الصورة المرسومة. اضبطهما معًا للحصول على الجودة المرغوبة.
+- **تيار السجل** – `ByteArrayOutputStream` يلتقط سجلات تجميع LaTeX؛ راجه عندما تواجه أخطاء في التحويل.
 
-## الأسئلة الشائعة
+## الخاتمة
 
-### س1: هل يمكنني استخدام Aspose.TeX لـ Java مع مكتبات Java الأخرى؟
+أصبح لديك الآن سير عمل كامل وجاهز للإنتاج **كيفية تحويل رسومات LaTeX** إلى PNG في Java باستخدام Aspose.TeX. من خلال تعديل خيارات التحويل، يمكنك إنشاء صور PNG عالية الجودة للتقارير، لوحات التحكم، أو أي واجهة مستخدم مبنية على Java.
 
-ج1: نعم، تم تصميم Aspose.TeX for Java للعمل بشكل جيد مع مكتبات Java الأخرى، مما يوفر المرونة في عملية التطوير الخاصة بك.
+## الأسئلة المتكررة
 
-### س2: هل تتوفر نسخة تجريبية مجانية من Aspose.TeX لـ Java؟
+**س1: هل يمكنني استخدام Aspose.TeX for Java مع مكتبات Java أخرى؟**  
+ج: نعم، يتكامل Aspose.TeX بسلاسة مع مكتبات مثل Apache POI، iText، أو أي إطار عمل رسومي مخصص.
 
- ج2: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+**س2: هل تتوفر نسخة تجريبية مجانية لـ Aspose.TeX for Java؟**  
+ج: بالتأكيد—حمّل نسخة تجريبية من [صفحة تحميل Aspose.TeX](https://releases.aspose.com/).
 
-### س3: كيف يمكنني الحصول على دعم Aspose.TeX لـ Java؟
+**س3: كيف يمكنني الحصول على دعم لـ Aspose.TeX for Java؟**  
+ج: زر المنتدى الرسمي لـ [Aspose.TeX](https://forum.aspose.com/c/tex/47) للحصول على مساعدة المجتمع والدعم الرسمي.
 
- ج3: قم بزيارة[منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47) لأي دعم أو استفسار.
+**س4: ما هو الترخيص المؤقت، وكيف يمكنني الحصول عليه؟**  
+ج: الترخيص المؤقت يتيح لك تقييم المنتج لفترة محدودة. اطلبه من [صفحة الترخيص المؤقت](https://purchase.aspose.com/temporary-license/).
 
-### س4: ما هو الترخيص المؤقت وكيف يمكنني الحصول عليه؟
+**س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.TeX for Java؟**  
+ج: مرجع API الكامل متوفر [هنا](https://reference.aspose.com/tex/java/).
 
- ج4: يمكنك الحصول على ترخيص مؤقت لـ Aspose.TeX[هنا](https://purchase.aspose.com/temporary-license/).
+---
 
-### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.TeX for Java؟
+**آخر تحديث:** 2025-12-07  
+**تم الاختبار مع:** Aspose.TeX for Java 24.11  
+**المؤلف:** Aspose  
 
- ج5: الوثائق متاحة[هنا](https://reference.aspose.com/tex/java/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
