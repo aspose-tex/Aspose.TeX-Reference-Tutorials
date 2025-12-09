@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: 學習一步一步的 LaTeX 教學，使用 Aspose.TeX 在 Java 中從 LaTeX 產生 PDF。快速、可靠，且易於整合的 Java
   PDF 產生 LaTeX 解決方案。
-language: zh-hant
 linktitle: Step by Step LaTeX to PDF Conversion in Java
 second_title: Aspose.TeX Java API
 title: 一步一步在 Java 中將 LaTeX 轉換為 PDF
-url: /java/converting-lato-pdf/
+url: /zh-hant/java/converting-lato-pdf/
 weight: 20
 ---
 

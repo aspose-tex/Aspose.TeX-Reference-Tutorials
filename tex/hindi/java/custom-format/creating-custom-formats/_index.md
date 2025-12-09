@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.TeX का उपयोग करके जावा में TeX फ़ॉर्मैट बनाना सीखें, TeX इनपुट
   और आउटपुट डायरेक्टरी सेट करें, और सुसंगत टाइपसेटिंग के लिए कस्टम TeX फ़ॉर्मैट बनाएं।
-language: hi
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: जावा में सुसंगत टाइपसेटिंग के लिए TeX फ़ॉर्मेट कैसे बनाएं
-url: /java/custom-format/creating-custom-formats/
+url: /hi/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 

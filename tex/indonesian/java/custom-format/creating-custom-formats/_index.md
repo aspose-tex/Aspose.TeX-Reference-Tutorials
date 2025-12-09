@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Pelajari cara membuat format TeX di Java menggunakan Aspose.TeX, mengatur
   direktori input dan output TeX, serta membuat format TeX khusus untuk penataan huruf
   yang konsisten.
-language: id
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: Cara Membuat Format TeX untuk Penataan Huruf yang Konsisten di Java
-url: /java/custom-format/creating-custom-formats/
+url: /id/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 

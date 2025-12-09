@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: เรียนรู้วิธี **สร้างรูปแบบ tex java** ด้วย Aspose.TeX คู่มือนี้จะแสดงขั้นตอนทีละขั้นตอนในการสร้างรูปแบบ
   TeX ที่กำหนดเองเพื่อการจัดพิมพ์ที่สม่ำเสมอและคุณภาพสูงในโครงการ Java.
-language: th
 linktitle: Custom TeX Format Creation in Java
 second_title: Aspose.TeX Java API
 title: สร้างรูปแบบ TeX ด้วย Java – การสร้างรูปแบบ TeX แบบกำหนดเองด้วย Aspose.TeX
-url: /java/custom-format/
+url: /th/java/custom-format/
 weight: 24
 ---
 

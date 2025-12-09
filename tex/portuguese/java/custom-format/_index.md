@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aprenda a **criar formato tex java** usando Aspose.TeX. Este guia mostra
   passo a passo como criar formatos TeX personalizados para tipografia consistente
   e de alta qualidade em projetos Java.
-language: pt
 linktitle: Custom TeX Format Creation in Java
 second_title: Aspose.TeX Java API
 title: Criar Formato TeX Java – Criação de Formato TeX Personalizado com Aspose.TeX
-url: /java/custom-format/
+url: /pt/java/custom-format/
 weight: 24
 ---
 

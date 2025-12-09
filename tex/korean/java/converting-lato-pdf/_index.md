@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.TeX를 사용하여 Java에서 LaTeX로 PDF를 생성하는 단계별 LaTeX 가이드를 배워보세요. 빠르고 신뢰할
   수 있으며 Java PDF 생성 LaTeX 통합이 쉽습니다.
-language: ko
 linktitle: Step by Step LaTeX to PDF Conversion in Java
 second_title: Aspose.TeX Java API
 title: Java에서 단계별 LaTeX PDF 변환
-url: /java/converting-lato-pdf/
+url: /ko/java/converting-lato-pdf/
 weight: 20
 ---
 

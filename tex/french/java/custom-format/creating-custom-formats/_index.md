@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Apprenez à créer des formats TeX en Java avec Aspose.TeX, à définir les
   répertoires d’entrée et de sortie TeX, et à créer des formats TeX personnalisés
   pour une composition cohérente.
-language: fr
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: Comment créer des formats TeX pour une composition cohérente en Java
-url: /java/custom-format/creating-custom-formats/
+url: /fr/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 

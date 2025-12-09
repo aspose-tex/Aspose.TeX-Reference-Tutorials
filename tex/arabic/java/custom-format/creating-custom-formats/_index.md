@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: تعلم كيفية إنشاء صيغ TeX في Java باستخدام Aspose.TeX، وتعيين مجلدات الإدخال
   والإخراج لـ TeX، وإنشاء صيغ TeX مخصصة لضمان تنسيق ثابت.
-language: ar
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: كيفية إنشاء صيغ TeX لتنسيق ثابت في جافا
-url: /java/custom-format/creating-custom-formats/
+url: /ar/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 

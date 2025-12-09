@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Aspose.TeX का उपयोग करके जावा में LaTeX को XPS में कैसे बदलें, सीखें
   – आसान जावा दस्तावेज़ रूपांतरण के साथ LaTeX दस्तावेज़ों को बदलने के लिए एक पूर्ण
   मार्गदर्शिका।
-language: hi
 linktitle: How to Convert LaTeX to XPS in Java
 second_title: Aspose.TeX Java API
 title: जावा में LaTeX को XPS में कैसे बदलें
-url: /java/converting-lato-xps/
+url: /hi/java/converting-lato-xps/
 weight: 23
 ---
 

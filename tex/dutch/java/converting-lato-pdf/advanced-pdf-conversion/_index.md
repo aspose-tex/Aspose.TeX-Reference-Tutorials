@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Verken geavanceerde LaTeX‑naar‑PDF Java-conversie met Aspose.TeX voor
   Java. Stapsgewijze gids met code, tips en probleemoplossing.
-language: nl
 linktitle: 'Latex to PDF Java: Advanced Conversion Options'
 second_title: Aspose.TeX Java API
 title: 'LaTeX naar PDF Java: Geavanceerde conversie‑opties met Aspose.TeX'
-url: /java/converting-lato-pdf/advanced-pdf-conversion/
+url: /nl/java/converting-lato-pdf/advanced-pdf-conversion/
 weight: 11
 ---
 

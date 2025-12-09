@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Lär dig hur du skapar TeX-format i Java med Aspose.TeX, ställer in TeX‑inmatnings‑
   och utmatningskataloger och skapar anpassade TeX-format för konsekvent typsättning.
-language: sv
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: Hur man skapar TeX-format för konsekvent typsättning i Java
-url: /java/custom-format/creating-custom-formats/
+url: /sv/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 

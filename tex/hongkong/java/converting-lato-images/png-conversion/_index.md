@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: 學習如何在 Java 中使用 Aspose.TeX 從 LaTeX 產生 PNG。逐步指南涵蓋設定 Aspose 授權、Java 以及輸出目錄的
   Java 配置。
-language: zh-hant
 linktitle: Generate PNG from LaTeX in Java
 second_title: Aspose.TeX Java API
 title: 使用 Aspose.TeX 在 Java 中從 LaTeX 產生 PNG
-url: /java/converting-lato-images/png-conversion/
+url: /zh-hant/java/converting-lato-images/png-conversion/
 weight: 10
 ---
 

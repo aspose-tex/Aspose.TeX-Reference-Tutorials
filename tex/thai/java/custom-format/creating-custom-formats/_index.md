@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: เรียนรู้วิธีสร้างรูปแบบ TeX ใน Java ด้วย Aspose.TeX ตั้งค่าไดเรกทอรีอินพุตและเอาต์พุตของ
   TeX และสร้างรูปแบบ TeX ที่กำหนดเองเพื่อการจัดพิมพ์ที่สม่ำเสมอ
-language: th
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: วิธีสร้างรูปแบบ TeX เพื่อการจัดรูปแบบที่สอดคล้องใน Java
-url: /java/custom-format/creating-custom-formats/
+url: /th/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 

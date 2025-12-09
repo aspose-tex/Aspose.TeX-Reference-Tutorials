@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Erfahren Sie, wie Sie LaTeX in Java mit Aspose.TeX in PNG konvertieren
   – ein Schritt‑für‑Schritt‑Leitfaden mit erweiterten Optionen, bewährten Methoden
   und Praxisbeispielen.
-language: de
 linktitle: How to Convert LaTeX to PNG Images in Java
 second_title: Aspose.TeX Java API
 title: Wie man LaTeX in PNG‑Bilder in Java konvertiert
-url: /java/converting-lato-images/
+url: /de/java/converting-lato-images/
 weight: 22
 ---
 

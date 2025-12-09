@@ -3,11 +3,10 @@ date: 2025-12-03
 description: تعلم كيفية **إنشاء تنسيق TeX في Java** باستخدام Aspose.TeX. يوضح لك هذا
   الدليل خطوة بخطوة كيفية بناء تنسيقات TeX مخصصة للحصول على تنضيد ثابت وعالي الجودة
   في مشاريع Java.
-language: ar
 linktitle: Custom TeX Format Creation in Java
 second_title: Aspose.TeX Java API
 title: إنشاء تنسيق TeX بلغة Java – إنشاء تنسيق TeX مخصص باستخدام Aspose.TeX
-url: /java/custom-format/
+url: /ar/java/custom-format/
 weight: 24
 ---
 

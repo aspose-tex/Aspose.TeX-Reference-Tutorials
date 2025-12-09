@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: 探索使用 Aspose.TeX for Java 进行高级 LaTeX 转 PDF 的 Java 转换。分步指南，包含代码、技巧和故障排除。
-language: zh
 linktitle: 'Latex to PDF Java: Advanced Conversion Options'
 second_title: Aspose.TeX Java API
 title: Latex 转 PDF Java：使用 Aspose.TeX 的高级转换选项
-url: /java/converting-lato-pdf/advanced-pdf-conversion/
+url: /zh/java/converting-lato-pdf/advanced-pdf-conversion/
 weight: 11
 ---
 

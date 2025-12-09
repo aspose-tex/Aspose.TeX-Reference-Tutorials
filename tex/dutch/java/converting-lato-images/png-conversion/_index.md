@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Leer hoe je PNG's genereert vanuit LaTeX in Java met Aspose.TeX. Stapsgewijze
   handleiding die het instellen van de Aspose‑licentie in Java en de configuratie
   van de uitvoermap in Java behandelt.
-language: nl
 linktitle: Generate PNG from LaTeX in Java
 second_title: Aspose.TeX Java API
 title: Genereer PNG vanuit LaTeX in Java met Aspose.TeX
-url: /java/converting-lato-images/png-conversion/
+url: /nl/java/converting-lato-images/png-conversion/
 weight: 10
 ---
 

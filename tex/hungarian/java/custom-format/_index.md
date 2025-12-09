@@ -3,12 +3,11 @@ date: 2025-12-03
 description: Tanulja meg, hogyan **hozzon létre tex formátumot Java-ban** az Aspose.TeX
   segítségével. Ez az útmutató lépésről lépésre bemutatja, hogyan építhet egyedi TeX
   formátumokat a konzisztens, magas minőségű tipográfia érdekében Java projektekben.
-language: hu
 linktitle: Custom TeX Format Creation in Java
 second_title: Aspose.TeX Java API
 title: TeX formátum létrehozása Java – Egyedi TeX formátum létrehozása az Aspose.TeX
   segítségével
-url: /java/custom-format/
+url: /hu/java/custom-format/
 weight: 24
 ---
 

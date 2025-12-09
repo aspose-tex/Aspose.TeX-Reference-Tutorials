@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose.TeX を使用して Java で LaTeX を XPS に変換する方法を学びましょう – 簡単な Java ドキュメント変換で
   LaTeX 文書を変換するための完全ガイドです。
-language: ja
 linktitle: How to Convert LaTeX to XPS in Java
 second_title: Aspose.TeX Java API
 title: JavaでLaTeXをXPSに変換する方法
-url: /java/converting-lato-xps/
+url: /ja/java/converting-lato-xps/
 weight: 23
 ---
 

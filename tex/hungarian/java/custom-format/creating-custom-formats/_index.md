@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Ismerje meg, hogyan hozhat létre TeX formátumokat Java-ban az Aspose.TeX
   segítségével, állítsa be a TeX bemeneti és kimeneti könyvtárakat, és készítsen egyedi
   TeX formátumokat a konzisztens tipográfia érdekében.
-language: hu
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: Hogyan készítsünk TeX formátumokat a Java-ban a konzisztens tipográfia érdekében
-url: /java/custom-format/creating-custom-formats/
+url: /hu/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 

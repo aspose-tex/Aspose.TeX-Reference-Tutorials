@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Erfahren Sie, wie Sie TeX-Formate in Java mit Aspose.TeX erstellen, TeX‑Ein‑
   und Ausgabeverzeichnisse festlegen und benutzerdefinierte TeX‑Formate für konsistentes
   Satzlayout erstellen.
-language: de
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: Wie man TeX-Formate für konsistentes Satzlayout in Java erstellt
-url: /java/custom-format/creating-custom-formats/
+url: /de/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 

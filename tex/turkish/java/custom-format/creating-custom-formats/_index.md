@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aspose.TeX kullanarak Java’da TeX formatları oluşturmayı, TeX giriş ve
   çıkış dizinlerini ayarlamayı ve tutarlı tipografi için özel TeX formatları yaratmayı
   öğrenin.
-language: tr
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: Java'da Tutarlı Tipografi İçin TeX Formatları Nasıl Oluşturulur
-url: /java/custom-format/creating-custom-formats/
+url: /tr/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 

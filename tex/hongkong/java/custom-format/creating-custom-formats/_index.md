@@ -1,11 +1,10 @@
 ---
 date: 2025-12-03
 description: 學習如何在 Java 中使用 Aspose.TeX 建立 TeX 格式，設定 TeX 輸入與輸出目錄，並建立自訂 TeX 格式以確保排版一致性。
-language: zh-hant
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: 如何在 Java 中建立 TeX 格式以實現一致的排版
-url: /java/custom-format/creating-custom-formats/
+url: /zh-hant/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 

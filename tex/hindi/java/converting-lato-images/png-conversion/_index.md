@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Aspose.TeX का उपयोग करके जावा में LaTeX से PNG कैसे बनाएं, सीखें। Aspose
   लाइसेंस सेट करना, जावा आउटपुट डायरेक्टरी और जावा कॉन्फ़िगरेशन को कवर करने वाला चरण‑दर‑चरण
   गाइड।
-language: hi
 linktitle: Generate PNG from LaTeX in Java
 second_title: Aspose.TeX Java API
 title: Aspose.TeX के साथ जावा में LaTeX से PNG उत्पन्न करें
-url: /java/converting-lato-images/png-conversion/
+url: /hi/java/converting-lato-images/png-conversion/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Dowiedz się, jak tworzyć formaty TeX w Javie przy użyciu Aspose.TeX,
   ustawiać katalogi wejściowe i wyjściowe TeX oraz tworzyć własne formaty TeX dla
   spójnego składu.
-language: pl
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: Jak tworzyć formaty TeX dla spójnego składania w Javie
-url: /java/custom-format/creating-custom-formats/
+url: /pl/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 

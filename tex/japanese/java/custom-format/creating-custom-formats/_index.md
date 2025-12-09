@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.TeX を使用して Java で TeX フォーマットを作成する方法、TeX の入力ディレクトリと出力ディレクトリを設定する方法、そして一貫した組版のためにカスタム
   TeX フォーマットを作成する方法を学びましょう。
-language: ja
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: Javaで一貫した組版のためのTeXフォーマットの作り方
-url: /java/custom-format/creating-custom-formats/
+url: /ja/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 

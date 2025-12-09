@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Leer hoe je **tex format java** maakt met Aspose.TeX. Deze gids laat
   je stap‑voor‑stap zien hoe je aangepaste TeX‑formaten bouwt voor consistente, hoogwaardige
   typesetting in Java‑projecten.
-language: nl
 linktitle: Custom TeX Format Creation in Java
 second_title: Aspose.TeX Java API
 title: TeX-indeling maken in Java – Aangepaste TeX-indeling maken met Aspose.TeX
-url: /java/custom-format/
+url: /nl/java/custom-format/
 weight: 24
 ---
 

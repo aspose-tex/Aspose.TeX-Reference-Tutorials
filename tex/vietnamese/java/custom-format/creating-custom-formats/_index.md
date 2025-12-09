@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Tìm hiểu cách tạo định dạng TeX trong Java bằng Aspose.TeX, thiết lập
   thư mục đầu vào và đầu ra TeX, và tạo các định dạng TeX tùy chỉnh để đảm bảo việc
   dàn trang nhất quán.
-language: vi
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 title: Cách tạo định dạng TeX để dàn chữ nhất quán trong Java
-url: /java/custom-format/creating-custom-formats/
+url: /vi/java/custom-format/creating-custom-formats/
 weight: 10
 ---
 
