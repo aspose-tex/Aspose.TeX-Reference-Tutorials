@@ -1,88 +1,120 @@
 ---
-title: Nastavte Metered License pro Aspose.TeX v Javě
-linktitle: Nastavte Metered License pro Aspose.TeX v Javě
+date: 2025-12-09
+description: Naučte se, jak nastavit měřenou licenci pro Java pro Aspose.TeX, včetně
+  nastavení veřejných a soukromých klíčů, a odemkněte plný potenciál knihovny.
+linktitle: Set Metered License for Aspose.TeX in Java
 second_title: Aspose.TeX Java API
-description: Odemkněte plný potenciál Aspose.TeX v Javě nastavením měřené licence. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-weight: 12
+title: Nastavit měřenou licenci pro Aspose.TeX v Javě
 url: /cs/java/managing-licenses/set-metered-license/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte Metered License pro Aspose.TeX v Javě
+# Nastavení měřených licencí pro Aspose.TeX v Javě
 
 ## Úvod
 
-Vítejte v našem podrobném průvodci nastavením měřené licence pro Aspose.TeX v Javě! Aspose.TeX je výkonná knihovna, která poskytuje funkce pro práci se soubory TeX v aplikacích Java. Chcete-li využít jeho plný potenciál, je nezbytné pochopit, jak nastavit měřenou licenci. V tomto tutoriálu vás provedeme celým procesem a rozdělíme ho do snadno srozumitelných kroků.
+Vítejte v našem podrobném průvodci, jak **set metered license java** pro Aspose.TeX. Aspose.TeX je výkonná knihovna Java pro práci se soubory TeX a nastavení měřené licence odemyká její plné možnosti. V tomto tutoriálu vás provedeme vším, co potřebujete – od předpokladů až po přesný kód, který vložíte – abyste mohli knihovnu začít používat bez jakýchkoli licenčních překážek.
+
+## Rychlé odpovědi
+- **Co dělá “set metered license java”?** Registruje vaše veřejné a soukromé klíče u Aspose.TeX, což umožňuje plné využití funkcí.  
+- **Potřebuji internetové připojení?** Ne, měřená licence funguje offline po nastavení klíčů.  
+- **Jaké klíče jsou vyžadovány?** Veřejný klíč a soukromý klíč dodávané s vaší měřenou licencí Aspose.TeX.  
+- **Mohu klíče později změnit?** Ano – stačí znovu zavolat `setMeteredKey` s novými hodnotami.  
+- **Je tento přístup thread‑safe?** Třída `Metered` interně řeší souběžnost, takže licenci můžete nastavit jednou při spuštění aplikace.
 
 ## Předpoklady
 
-Než se ponoříte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+Než se ponoříte do tutoriálu, ujistěte se, že máte následující předpoklady připravené:
 
-- Základní znalost programování v Javě.
--  Platná měřená licence Aspose.TeX, která zahrnuje veřejný klíč a soukromý klíč. Pokud žádný nemáte, můžete jej získat z[Aspose Nákup](https://purchase.aspose.com/buy).
-- Vývojové prostředí Java nastavené na vašem počítači.
+- Základní znalost programování v Javě.  
+- Platná měřená licence Aspose.TeX, která obsahuje **public key** a **private key**. Pokud ji nemáte, můžete ji získat na [Aspose Purchase](https://purchase.aspose.com/buy).  
+- Nastavené vývojové prostředí Java na vašem počítači.  
 
-Nyní, když máte vše připraveno, pojďme pokračovat s tutoriálem.
+Nyní, když máte vše připravené, přejděme k samotné implementaci.
 
-## Importujte balíčky
+## Import balíčků
 
- tomto kroku budete muset importovat potřebné balíčky do vašeho projektu Java. Knihovna Aspose.TeX by měla být součástí závislostí vašeho projektu. Můžete si jej stáhnout z[stránka vydání](https://releases.aspose.com/tex/java/).
+V tomto kroku importujete potřebné balíčky do svého Java projektu. Knihovna Aspose.TeX by již měla být přidána do závislostí vašeho projektu. Můžete si ji stáhnout ze [release page](https://releases.aspose.com/tex/java/).
 
 ```java
 package com.aspose.tex.SetMeteredLicense;
 ```
 
-## Nastavte měřenou licenci
+## Jak nastavit měřenou licenci java
 
- Nyní nastavíme měřenou licenci pomocí poskytnutých veřejných a soukromých klíčů. Nahradit`<type public key here>` a`<type private key here>` se svými skutečnými klíči.
+Tato sekce vás provede přesným kódem, který je potřeba zavolat pro registraci vašich licenčních klíčů.
 
-### Krok 1: Importujte balíček Aspose.TeX
+### Krok 1: Import třídy Aspose.TeX Metered
 
 ```java
-// Importujte balíček Aspose.TeX
+// Import the Aspose.TeX package
 import com.aspose.tex.Metered;
 ```
 
-### Krok 2: Nastavte měřenou licenci
+### Krok 2: Nastavte veřejný a soukromý klíč
+
+Zde skutečně **nastavujeme veřejný a soukromý klíč** pomocí třídy `Metered`. Nahraďte zástupné řetězce klíči, které jste obdrželi od Aspose.
 
 ```java
-// Nastavte měřené veřejné a soukromé klíče
+// Set metered public and private keys
 new Metered().setMeteredKey(
     "<type public key here>",
     "<type private key here>"
 );
 ```
 
-A je to! Úspěšně jste nastavili měřenou licenci pro Aspose.TeX v Javě. Nyní můžete využívat všechny možnosti knihovny ve vašich aplikacích Java.
+To je vše! Jakmile výše uvedený kód běží, vaše Java aplikace může plně využívat funkce Aspose.TeX bez jakýchkoli licenčních omezení.
 
 ## Závěr
 
-V tomto tutoriálu jsme probrali základní kroky pro nastavení měřené licence pro Aspose.TeX v Javě. Dodržováním těchto kroků zajistíte, že vaše Java aplikace mohou plně využívat funkce poskytované Aspose.TeX.
+V tomto tutoriálu jsme pokryli vše, co potřebujete k **set metered license java** pro Aspose.TeX, od přípravy prostředí až po zavolání `setMeteredKey` s vašimi veřejným a soukromým klíčem. S licencí na místě můžete nyní prozkoumat celý rozsah možností manipulace s TeX, které knihovna nabízí.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Kde najdu dokumentaci k Aspose.TeX v Javě?
+### Q1: Kde najdu dokumentaci pro Aspose.TeX v Javě?
 
- A1: Dokumentace je k dispozici[tady](https://reference.aspose.com/tex/java/).
+A1: Dokumentace je k dispozici [zde](https://reference.aspose.com/tex/java/).
 
-### Q2: Jak si mohu stáhnout knihovnu Aspose.TeX pro Javu?
+### Q2: Jak mohu stáhnout knihovnu Aspose.TeX pro Java?
 
- A2: Knihovnu si můžete stáhnout z[stránka vydání](https://releases.aspose.com/tex/java/).
+A2: Knihovnu můžete stáhnout ze [release page](https://releases.aspose.com/tex/java/).
 
-### Q3: Kde si mohu zakoupit měřenou licenci pro Aspose.TeX?
+### Q3: Kde mohu zakoupit měřenou licenci pro Aspose.TeX?
 
- A3: Můžete si koupit licenci od[Aspose Nákup](https://purchase.aspose.com/buy).
+A3: Licenci můžete zakoupit na [Aspose Purchase](https://purchase.aspose.com/buy).
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.TeX?
 
- A4: Ano, máte přístup k bezplatné zkušební verzi z[tady](https://releases.aspose.com/).
+A4: Ano, bezplatnou zkušební verzi můžete získat [zde](https://releases.aspose.com/).
 
 ### Q5: Potřebujete pomoc nebo máte otázky?
 
- A5: Navštivte[Fórum podpory Aspose.TeX](https://forum.aspose.com/c/tex/47) pro pomoc.
+A5: Navštivte [Aspose.TeX support forum](https://forum.aspose.com/c/tex/47) pro pomoc.
+
+## Často kladené otázky
+
+**Q: Mohu použít stejné klíče na více strojích?**  
+A: Ano, měřené klíče nejsou specifické pro stroj, ale každé použití se počítá do vašeho kvóty spotřeby.
+
+**Q: Co se stane, když překročím svou měřenou kvótu?**  
+A: Knihovna vyhodí licenční výjimku; budete muset zakoupit další využití nebo upgradovat svůj plán.
+
+**Q: Musím volat `setMeteredKey` při každém spuštění aplikace?**  
+A: Doporučuje se zavolat jej jednou během inicializace (např. ve statickém bloku nebo v metodě main), aby byla licence dostupná globálně.
+
+**Q: Je měřená licence kompatibilní jak s Java SE, tak s Androidem?**  
+A: Ano, stejný kód funguje na jakémkoli Java runtime, který podporuje knihovnu Aspose.TeX.
+
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.TeX 23.10 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

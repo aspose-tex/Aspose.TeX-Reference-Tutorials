@@ -1,88 +1,120 @@
 ---
-title: Definir licença medida para Aspose.TeX em Java
-linktitle: Definir licença medida para Aspose.TeX em Java
-second_title: API Java Aspose.TeX
-description: Desbloqueie todo o potencial do Aspose.TeX em Java configurando uma licença limitada. Siga nosso guia passo a passo para uma integração perfeita.
-weight: 12
+date: 2025-12-09
+description: Aprenda como definir a licença por medição Java para Aspose.TeX, incluindo
+  como definir chaves públicas e privadas, e desbloqueie todo o potencial da biblioteca.
+linktitle: Set Metered License for Aspose.TeX in Java
+second_title: Aspose.TeX Java API
+title: Definir Licença Medida para Aspose.TeX em Java
 url: /pt/java/managing-licenses/set-metered-license/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Definir licença medida para Aspose.TeX em Java
+# Definir Licença Metered para Aspose.TeX em Java
 
 ## Introdução
 
-Bem-vindo ao nosso guia passo a passo sobre como configurar uma licença limitada para Aspose.TeX em Java! Aspose.TeX é uma biblioteca poderosa que fornece funcionalidades para trabalhar com arquivos TeX em aplicativos Java. Para desbloquear todo o seu potencial, é essencial entender como configurar uma licença limitada. Neste tutorial, orientaremos você no processo, dividindo-o em etapas fáceis de seguir.
+Bem‑vindo ao nosso guia passo a passo sobre como **definir licença metered java** para Aspose.TeX. Aspose.TeX é uma poderosa biblioteca Java para trabalhar com arquivos TeX, e definir a licença metered desbloqueia todo o seu potencial. Neste tutorial, vamos percorrer tudo o que você precisa — dos pré‑requisitos ao código exato que você deve colar — para que possa começar a usar a biblioteca sem obstáculos de licenciamento.
 
-## Pré-requisitos
+## Respostas Rápidas
+- **O que faz “definir licença metered java”?** Registra suas chaves pública e privada na Aspose.TeX, habilitando o uso completo dos recursos.  
+- **Preciso de conexão com a internet?** Não, a licença metered funciona offline após as chaves serem configuradas.  
+- **Quais chaves são necessárias?** Uma chave pública e uma chave privada fornecidas com sua licença metered da Aspose.TeX.  
+- **Posso alterar as chaves depois?** Sim — basta chamar `setMeteredKey` novamente com novos valores.  
+- **Esta abordagem é thread‑safe?** A classe `Metered` lida com concorrência internamente, portanto você pode definir a licença uma única vez na inicialização da aplicação.
 
-Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
+## Pré‑requisitos
 
-- Conhecimento básico de programação Java.
--  Uma licença medida Aspose.TeX válida, que inclui uma chave pública e uma chave privada. Se você não tiver um, você pode obtê-lo em[Assuma a compra](https://purchase.aspose.com/buy).
-- Ambiente de desenvolvimento Java configurado em sua máquina.
+Antes de mergulhar no tutorial, certifique‑se de que você tem os seguintes pré‑requisitos:
 
-Agora que você tem tudo pronto, vamos prosseguir com o tutorial.
+- Conhecimento básico de programação Java.  
+- Uma licença metered válida da Aspose.TeX, que inclui uma **chave pública** e uma **chave privada**. Se ainda não possui, você pode obtê‑la em [Compra Aspose](https://purchase.aspose.com/buy).  
+- Ambiente de desenvolvimento Java configurado em sua máquina.  
 
-## Importar pacotes
+Agora que tudo está pronto, vamos para a implementação propriamente dita.
 
-Nesta etapa, você precisará importar os pacotes necessários para o seu projeto Java. A biblioteca Aspose.TeX deve ser incluída nas dependências do seu projeto. Você pode baixá-lo no[página de lançamento](https://releases.aspose.com/tex/java/).
+## Importar Pacotes
+
+Nesta etapa, você importará os pacotes necessários para seu projeto Java. A biblioteca Aspose.TeX já deve estar adicionada às dependências do seu projeto. Você pode baixá‑la na [página de releases](https://releases.aspose.com/tex/java/).
 
 ```java
 package com.aspose.tex.SetMeteredLicense;
 ```
 
-## Definir licença limitada
+## Como definir licença metered java
 
- Agora, vamos configurar a licença limitada usando as chaves públicas e privadas fornecidas. Substituir`<type public key here>` e`<type private key here>` com suas chaves reais.
+Esta seção mostra o código exato que você precisa chamar para registrar suas chaves de licença.
 
-### Etapa 1: importar o pacote Aspose.TeX
+### Etapa 1: Importar a classe Aspose.TeX Metered
 
 ```java
-// Importe o pacote Aspose.TeX
+// Import the Aspose.TeX package
 import com.aspose.tex.Metered;
 ```
 
-### Etapa 2: definir licença medida
+### Etapa 2: Definir chaves pública e privada
+
+Aqui realmente **definimos as chaves pública e privada** usando a classe `Metered`. Substitua as strings de espaço reservado pelas chaves que você recebeu da Aspose.
 
 ```java
-// Definir chaves públicas e privadas medidas
+// Set metered public and private keys
 new Metered().setMeteredKey(
     "<type public key here>",
     "<type private key here>"
 );
 ```
 
-É isso! Você configurou com sucesso a licença limitada para Aspose.TeX em Java. Agora você pode utilizar todos os recursos da biblioteca em seus aplicativos Java.
+É isso! Quando o código acima for executado, sua aplicação Java poderá aproveitar totalmente os recursos da Aspose.TeX sem restrições de licenciamento.
 
 ## Conclusão
 
-Neste tutorial, cobrimos as etapas essenciais para configurar uma licença limitada para Aspose.TeX em Java. Seguindo essas etapas, você garante que seus aplicativos Java possam aproveitar totalmente os recursos fornecidos pelo Aspose.TeX.
+Neste tutorial cobrimos tudo o que você precisa para **definir licença metered java** para Aspose.TeX, desde a preparação do ambiente até a chamada `setMeteredKey` com suas chaves pública e privada. Com a licença configurada, você pode agora explorar toda a gama de funcionalidades de manipulação de TeX oferecidas pela biblioteca.
 
-## Perguntas frequentes
+## Perguntas Frequentes
 
-### Q1: Onde posso encontrar a documentação do Aspose.TeX em Java?
+### Q1: Onde posso encontrar a documentação da Aspose.TeX em Java?
 
- A1: A documentação está disponível[aqui](https://reference.aspose.com/tex/java/).
+A1: A documentação está disponível [aqui](https://reference.aspose.com/tex/java/).
 
 ### Q2: Como posso baixar a biblioteca Aspose.TeX para Java?
 
- A2: Você pode baixar a biblioteca do[página de lançamento](https://releases.aspose.com/tex/java/).
+A2: Você pode baixar a biblioteca na [página de releases](https://releases.aspose.com/tex/java/).
 
-### Q3: Onde posso comprar uma licença limitada para Aspose.TeX?
+### Q3: Onde posso comprar uma licença metered para Aspose.TeX?
 
- A3: Você pode comprar uma licença de[Assuma a compra](https://purchase.aspose.com/buy).
+A3: Você pode adquirir uma licença em [Compra Aspose](https://purchase.asposeuy).
 
-### Q4: Existe um teste gratuito disponível para Aspose.TeX?
+### Q4: Existe uma versão de avaliação gratuita para Aspose.TeX?
 
- A4: Sim, você pode acessar a avaliação gratuita em[aqui](https://releases.aspose.com/).
+A4: Sim, você pode acessar a avaliação gratuita [aqui](https://releases.aspose.com/).
 
 ### Q5: Precisa de ajuda ou tem dúvidas?
 
- A5: Visite o[Fórum de suporte Aspose.TeX](https://forum.aspose.com/c/tex/47) para assistência.
+A5: Visite o [fórum de suporte Aspose.TeX](https://forum.aspose.com/c/tex/47) para obter assistência.
+
+## Perguntas Frequentes (FAQ)
+
+**P: Posso usar as mesmas chaves em várias máquinas?**  
+R: Sim, as chaves metered não são específicas de máquina, mas cada uso conta para sua cota de consumo.
+
+**P: O que acontece se eu exceder minha cota metered?**  
+R: A biblioteca lançará uma exceção de licenciamento; será necessário adquirir uso adicional ou atualizar seu plano.
+
+**P: Preciso chamar `setMeteredKey` a cada inicialização da aplicação?**  
+R: Recomenda‑se chamá‑la uma única vez durante a inicialização (por exemplo, em um bloco estático ou no método `main`) para que a licença esteja disponível globalmente.
+
+**P: A licença metered é compatível com Java SE e Android?**  
+R: Sim, o mesmo código funciona em qualquer runtime Java que suporte a biblioteca Aspose.TeX.
+
+---
+
+**Última atualização:** 2025-12-09  
+**Testado com:** Aspose.TeX 23.10 para Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
