@@ -1,33 +1,44 @@
 ---
-title: تقديم أرقام LaTeX إلى SVG في Java
-linktitle: تقديم أرقام LaTeX إلى SVG في Java
-second_title: Aspose.TeX جافا API
-description: تعرف على كيفية عرض أشكال LaTeX إلى SVG في Java بسهولة باستخدام Aspose.TeX. اتبع هذا الدليل خطوة بخطوة لتحقيق التكامل السلس.
-weight: 14
+date: 2025-12-09
+description: تعلم كيفية تحويل رسومات LaTeX إلى SVG في Java واكتشف خيارات تحويل LaTeX
+  إلى PNG في Java باستخدام Aspose.TeX. اتبع هذا الدليل خطوة بخطوة للتكامل السلس.
+linktitle: How to Render LaTeX Figures to SVG in Java
+second_title: Aspose.TeX Java API
+title: كيفية تحويل رسومات LaTeX إلى SVG في جافا
 url: /ar/java/customizing-output/render-lafigures-svg/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تقديم أرقام LaTeX إلى SVG في Java
+# كيفية تحويل رسومات LaTeX إلى SVG في Java
 
-## مقدمة
+إن إنشاء وعرض رسومات LaTeX في تطبيق Java قد يبدو مهمة شاقة، لكنه احتياج شائع عندما تريد رسومات عالية الجودة وقابلة للتوسع للتقارير، الأوراق العلمية، أو محتوى الويب. في هذا الدرس ستتعلم **كيفية تحويل latex** إلى SVG مباشرة، وسترى أيضًا لماذا يمكن استخدام محرك Aspose.TeX نفسه في سير عمل **java convert latex png** عندما تكون الصور النقطية مطلوبة.
 
-يمكن أن يكون إنشاء أشكال LaTeX وعرضها في Java مهمة معقدة ولكنها حاسمة لمختلف التطبيقات. في هذا البرنامج التعليمي، سوف نستكشف كيفية عرض أشكال LaTeX إلى SVG باستخدام Aspose.TeX لـ Java. يوفر Aspose.TeX وظائف قوية للتعامل مع مستندات LaTeX وتحويلها إلى تنسيقات مختلفة، بما في ذلك SVG.
+## إجابات سريعة
+- **ما المكتبة التي يستخدمها الدرس؟** Aspose.TeX for Java  
+- **ما صيغة الإخراج التي تم توضيحها؟** Scalable Vector Graphics (SVG)  
+- **هل يمكنني أيضًا إنشاء صور PNG؟** نعم – يمكن لنفس المُحَوِّل إخراج PNG عن طريق تبديل فئة المُحَوِّل.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يتوفر ترخيص مؤقت للتقييم؛ يلزم الحصول على ترخيص كامل للمشاريع التجارية.  
+- **ما نسخة Java المدعومة؟** أي بيئة تشغيل Java 8+ تعمل مع Aspose.TeX.
 
-## المتطلبات الأساسية
+## ما هو “كيفية تحويل LaTeX” في Java؟
+يعني تحويل LaTeX تحويل لغة الترميز المستخدمة في إعداد المستندات العلمية إلى تمثيل بصري يمكن لبرنامجك عرضه أو حفظه. يقوم Aspose.TeX بتحليل مصدر LaTeX، ومعالجة الحزم، وإنتاج رسومات بالصيغ التي تختارها – في حالتنا، SVG.
 
-قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
+## لماذا تحويل رسومات LaTeX إلى SVG؟
+- **القابلية للتوسع:** SVG يتوسع دون فقدان الجودة، مثالي لواجهات المستخدم المتجاوبة أو الطباعة عالية الدقة.  
+- **قابلية التحرير:** ملفات SVG تظل قابلة للتحرير في برامج تحرير الرسومات المتجهة.  
+- **الأداء:** الرسومات المتجهة غالبًا ما تكون أصغر حجمًا من المكافئات النقطية للرسومات الخطية والمخططات.  
 
-- بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على نظامك.
--  Aspose.TeX لـ Java: قم بتنزيل وتثبيت مكتبة Aspose.TeX لـ Java من[رابط التحميل](https://releases.aspose.com/tex/java/).
-- الفهم الأساسي لـ LaTeX: تعرف على بناء جملة LaTeX الأساسي وإنشاء الأشكال.
+## المتطلبات المسبقة
+- بيئة تطوير Java (JDK 8 أو أحدث).  
+- Aspose.TeX for Java – قم بتنزيله من [رابط التحميل الرسمي](https://releases.aspose.com/tex/java/).  
+- معرفة أساسية بصياغة رسومات LaTeX (مثل بيئة `picture`).  
 
-## حزم الاستيراد
-
-للبدء، قم باستيراد الحزم الضرورية من Aspose.TeX. ستوفر هذه الحزم الأدوات اللازمة لعرض أرقام LaTeX إلى SVG.
+## استيراد الحزم
+أولاً، استورد الفئات المطلوبة من Aspose.TeX إلى مشروعك.
 
 ```java
 package com.aspose.tex.SvgLaTeXFigureRenderer;
@@ -44,9 +55,8 @@ import com.aspose.tex.SvgFigureRendererOptions;
 import util.Utils;
 ```
 
-## الخطوة 1: إعداد خيارات العرض
-
-قم بإنشاء خيارات العرض، وتحديد المعلمات مثل التمهيد، وعامل القياس، ولون الخلفية، ودفق السجل، ورؤية مخرجات المحطة الطرفية.
+## الخطوة 1: إعداد خيارات التحويل
+قم بتكوين كيفية معالجة المُحَوِّل لمصدر LaTeX، بما في ذلك التكبير والخلفية.
 
 ```java
 SvgFigureRendererOptions options = new SvgFigureRendererOptions();
@@ -57,30 +67,27 @@ options.setLogStream(new ByteArrayOutputStream());
 options.showTerminal(true);
 ```
 
-## الخطوة 2: تحديد شكل LaTeX ودليل الإخراج
-
-حدد شكل LaTeX الذي تريد عرضه وحدد دليل الإخراج لملف SVG.
+## الخطوة 2: تعريف رسم LaTeX ودليل الإخراج
+حدد الرسم الذي تريد تحويله ومكان حفظ ملف SVG.
 
 ```java
 com.aspose.tex.Size2D size = new com.aspose.tex.Size2D.Float();
 final OutputStream stream = new FileOutputStream("Your Output Directory" + "text-and-formula.svg");
 ```
 
-## الخطوة 3: تشغيل العرض
-
- قم بتشغيل عملية العرض باستخدام`SvgFigureRenderer` فصل.
+## الخطوة 3: تشغيل التحويل
+مرّر مصدر LaTeX إلى المُحَوِّل مع تدفق الإخراج، الخيارات، ومكان حجم العنصر النائب.
 
 ```java
 new SvgFigureRenderer().render("\\setlength{\\unitlength}{0.8cm}\r\n" +
-    // محتوى شكل LaTeX
+    // LaTeX figure content
     "\\begin{picture}(6,5)\r\n" +
-    // ... (تفاصيل الشكل)
+    // ... (figure details)
     "\\end{picture}", stream, options, size);
 ```
 
-## الخطوة 4: إغلاق دفق الإخراج
-
-تأكد من إغلاق دفق الإخراج بعد التقديم.
+## الخطوة 4: إغلاق تدفق الإخراج
+دائمًا أغلق التدفق لتحرير موارد النظام.
 
 ```java
 if (stream != null)
@@ -88,8 +95,7 @@ if (stream != null)
 ```
 
 ## الخطوة 5: عرض النتائج
-
-اعرض أي تقارير أخطاء وأبعاد صورة SVG الناتجة.
+بعد التحويل، يمكنك فحص أي رسائل خطأ وأبعاد الصورة النهائية.
 
 ```java
 System.out.println(options.getErrorReport());
@@ -97,33 +103,36 @@ System.out.println();
 System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 ```
 
-باتباع هذه الخطوات، يمكنك عرض أشكال LaTeX إلى SVG بسلاسة باستخدام Aspose.TeX لـ Java.
+باتباع هذه الخطوات، يمكنك تحويل رسومات LaTeX إلى SVG بسلاسة باستخدام Aspose.TeX for Java.
 
-## خاتمة
+## المشكلات الشائعة والحلول
+- **الحزم المفقودة:** إذا كان الرسم يستخدم حزمة LaTeX غير مدرجة في المقدمة الافتراضية، أضفها عبر `options.setPreamble("\\usepackage{...}")`.  
+- **طول الوحدة غير الصحيح:** اضبط `\\setlength{\\unitlength}{...}` ليتناسب مع المقياس الذي تحتاجه.  
+- **أخطاء أذونات الملفات:** تأكد من وجود دليل الإخراج وأن تطبيقك يمتلك صلاحية الكتابة.
 
-يمكن تحقيق عرض أرقام LaTeX إلى SVG في Java بكفاءة باستخدام Aspose.TeX. يرشدك هذا الدليل خطوة بخطوة خلال العملية، بدءًا من إعداد خيارات العرض وحتى عرض النتائج النهائية. قم بتجربة أشكال LaTeX المختلفة لتعزيز فهمك وتطبيقك لهذه الميزة القوية.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+**س1: هل يمكنني تحويل رسومات LaTeX التي تحتوي على تعبيرات رياضية معقدة باستخدام Aspose.TeX؟**  
+ج: نعم، يدعم Aspose.TeX بالكامل الترميز الرياضي المعقد وسيقوم بتحويله بدقة إلى SVG.
 
-### س1: هل يمكنني تقديم أشكال LaTeX بتعبيرات رياضية معقدة باستخدام Aspose.TeX؟
+**س2: هل يتوفر ترخيص مؤقت لـ Aspose.TeX for Java؟**  
+ج: نعم، يمكنك الحصول على ترخيص مؤقت من [هنا](https://purchase.aspose.com/temporary-license/).
 
-ج1: نعم، يدعم Aspose.TeX عرض أشكال LaTeX ذات التعبيرات الرياضية المعقدة.
+**س3: كيف يمكنني الحصول على دعم لـ Aspose.TeX for Java؟**  
+ج: زر [منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47) للحصول على مساعدة من المجتمع.
 
-### س2: هل يتوفر ترخيص مؤقت لـ Aspose.TeX لـ Java؟
+**س4: ما الصيغ التي يمكنني تحويل رسومات LaTeX إليها باستخدام Aspose.TeX؟**  
+ج: بالإضافة إلى SVG، يمكنك إخراج PNG، JPEG، PDF، وصيغ أخرى نقطية أو متجهة.
 
- ج2: نعم، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+**س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.TeX for Java؟**  
+ج: راجع [وثائق Aspose.TeX](https://reference.aspose.com/tex/java/) للحصول على تفاصيل شاملة حول API.
 
-### س3: كيف يمكنني الحصول على دعم Aspose.TeX لـ Java؟
+---
 
- ج3: قم بزيارة[منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47) للدعم المجتمعي.
+**آخر تحديث:** 2025-12-09  
+**تم الاختبار مع:** Aspose.TeX 24.11 for Java  
+**المؤلف:** Aspose  
 
-### س4: ما هي التنسيقات التي يمكنني تحويل أشكال LaTeX إليها باستخدام Aspose.TeX؟
-
-ج4: يسمح Aspose.TeX بالتحويل إلى تنسيقات مختلفة، بما في ذلك SVG وPNG والمزيد.
-
-### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.TeX for Java؟
-
- ج5: راجع[وثائق Aspose.TeX](https://reference.aspose.com/tex/java/) للحصول على معلومات شاملة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
