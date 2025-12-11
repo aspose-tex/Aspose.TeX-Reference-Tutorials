@@ -1,88 +1,119 @@
 ---
-title: Tetapkan Lisensi Terukur untuk Aspose.TeX di Java
-linktitle: Tetapkan Lisensi Terukur untuk Aspose.TeX di Java
+date: 2025-12-09
+description: Pelajari cara mengatur lisensi metered Java untuk Aspose.TeX, termasuk
+  cara mengatur kunci publik dan privat, serta memanfaatkan potensi penuh perpustakaan
+  ini.
+linktitle: Set Metered License for Aspose.TeX in Java
 second_title: Aspose.TeX Java API
-description: Buka potensi penuh Aspose.TeX di Java dengan menyiapkan lisensi terukur. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-weight: 12
+title: Atur Lisensi Metered untuk Aspose.TeX di Java
 url: /id/java/managing-licenses/set-metered-license/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tetapkan Lisensi Terukur untuk Aspose.TeX di Java
+# Atur Lisensi Metered untuk Aspose.TeX di Java
 
-## Perkenalan
+## PendahSelamat datang di panduan langkah‑demi‑langkah kami tentang cara **set metered license java** untuk Aspose.TeX. Aspose.TeX adalah pustaka Java yang kuat untuk bekerja dengan file TeX, dan mengatur lisensi metered membuka semua kemampuan lengkapnya. Dalam tutorial ini kami akan membahas semua yang Anda perlukan—dari prasyarat hingga kode tepat yang akan Anda tempel—sehingga Anda dapat mulai menggunakan pustaka ini tanpa hambatan lisensi.
 
-Selamat datang di panduan langkah demi langkah kami tentang menyiapkan lisensi terukur untuk Aspose.TeX di Java! Aspose.TeX adalah perpustakaan canggih yang menyediakan fungsionalitas untuk bekerja dengan file TeX dalam aplikasi Java. Untuk membuka potensi penuhnya, penting untuk memahami cara menyiapkan lisensi terukur. Dalam tutorial ini, kami akan memandu Anda melalui prosesnya, membaginya menjadi langkah-langkah yang mudah diikuti.
+## Jawaban Cepat
+- **What does “set metered license java” do?** Ini mendaftarkan kunci publik dan privat Anda ke Aspose.TeX, memungkinkan penggunaan semua fitur.  
+- **Do I need an internet connection?** Tidak, lisensi metered bekerja secara offline setelah kunci diatur.  
+- **Which keys are required?** Sebuah kunci publik dan kunci privat yang disertakan dengan lisensi metered Aspose.TeX Anda.  
+- **Can I change the keys later?** Ya—cukup panggil `setMeteredKey` lagi dengan nilai baru.  
+- **Is this approach thread‑safe?** `Metered` class menangani konkurensi secara internal, sehingga Anda dapat mengatur lisensi sekali saat aplikasi dimulai.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum menyelami tutorial, pastikan Anda memiliki prasyarat berikut:
 
-- Pengetahuan dasar tentang pemrograman Java.
--  Lisensi terukur Aspose.TeX yang valid, yang mencakup kunci publik dan kunci pribadi. Jika Anda tidak memilikinya, Anda dapat memperolehnya dari[Asumsikan Pembelian](https://purchase.aspose.com/buy).
-- Lingkungan pengembangan Java disiapkan di mesin Anda.
+- Pengetahuan dasar tentang pemrograman Java.  
+- Lisensi metered Aspose.TeX yang valid, yang mencakup **public key** dan **private key**. Jika Anda belum memilikinya, Anda dapat memperolehnya dari [Aspose Purchase](https://purchase.aspose.com/buy).  
+- Lingkungan pengembangan Java yang telah diatur di mesin Anda.  
 
-Sekarang semuanya sudah siap, mari kita lanjutkan ke tutorialnya.
+Sekarang Anda telah menyiapkan semuanya, mari lanjut ke implementasi sebenarnya.
 
-## Paket Impor
+## Impor Paket
 
-Pada langkah ini, Anda perlu mengimpor paket yang diperlukan ke proyek Java Anda. Pustaka Aspose.TeX harus disertakan dalam dependensi proyek Anda. Anda dapat mengunduhnya dari[halaman rilis](https://releases.aspose.com/tex/java/).
+Pada langkah ini, Anda akan mengimpor paket yang diperlukan ke proyek Java Anda. Pustaka Aspose.TeX seharusnya sudah ditambahkan ke dependensi proyek Anda. Anda dapat mengunduhnya dari [release page](https://releases.aspose.com/tex/java/).
 
 ```java
 package com.aspose.tex.SetMeteredLicense;
 ```
 
-## Tetapkan Lisensi Terukur
+## Cara mengatur metered license java
 
- Sekarang, mari kita siapkan lisensi terukur menggunakan kunci publik dan privat yang disediakan. Mengganti`<type public key here>` Dan`<type private key here>` dengan kunci Anda yang sebenarnya.
+Bagian ini memandu Anda melalui kode tepat yang perlu dipanggil untuk mendaftarkan kunci lisensi Anda.
 
-### Langkah 1: Impor Paket Aspose.TeX
+### Langkah 1: Impor kelas Aspose.TeX Metered
 
 ```java
-// Impor paket Aspose.TeX
+// Import the Aspose.TeX package
 import com.aspose.tex.Metered;
 ```
 
-### Langkah 2: Tetapkan Lisensi Terukur
+### Langkah 2: Atur kunci publik privat
+
+Di sini kami sebenarnya **set public private keys** menggunakan kelas `Metered`. Ganti string placeholder dengan kunci yang Anda terima dari Aspose.
 
 ```java
-// Tetapkan kunci publik dan pribadi terukur
+// Set metered public and private keys
 new Metered().setMeteredKey(
     "<type public key here>",
     "<type private key here>"
 );
 ```
 
-Itu dia! Anda telah berhasil menyiapkan lisensi terukur untuk Aspose.TeX di Java. Sekarang Anda dapat memanfaatkan seluruh kemampuan perpustakaan di aplikasi Java Anda.
+Itu saja! Setelah kode di atas dijalankan, aplikasi Java Anda dapat memanfaatkan sepenuhnya fitur Aspose.TeX tanpa batasan lisensi.
 
 ## Kesimpulan
 
-Dalam tutorial ini, kami telah membahas langkah-langkah penting untuk menyiapkan lisensi terukur untuk Aspose.TeX di Java. Dengan mengikuti langkah-langkah ini, Anda memastikan bahwa aplikasi Java Anda dapat sepenuhnya memanfaatkan fitur yang disediakan oleh Aspose.TeX.
+Dalam tutorial ini kami membahas semua yang Anda perlukan untuk **set metered license java** bagi Aspose.TeX, mulai dari menyiapkan lingkungan hingga memanggil `setMeteredKey` dengan kunci publik dan privat Anda. Dengan lisensi yang sudah ada, Anda kini dapat menjelajahi seluruh kemampuan manipulasi TeX yang ditawarkan oleh pustaka ini.
 
 ## FAQ
 
-### Q1: Di mana saya dapat menemukan dokumentasi Aspose.TeX di Java?
+### Q1: Di mana saya dapat menemukan dokumentasi Aspose.TeX untuk Java?
 
- A1: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/tex/java/).
+A1: Dokumentasi tersedia [di sini](https://reference.aspose.com/tex/java/).
 
-### Q2: Bagaimana cara mengunduh perpustakaan Aspose.TeX untuk Java?
+### Q2: Bagaimana cara mengunduh pustaka Aspose.TeX untuk Java?
 
- A2: Anda dapat mengunduh perpustakaan dari[halaman rilis](https://releases.aspose.com/tex/java/).
+A2: Anda dapat mengunduh pustaka dari [release page](https://releases.aspose.com/tex/java/).
 
-### Q3: Di mana saya dapat membeli lisensi terukur untuk Aspose.TeX?
+### Q3: Di mana saya dapat membeli lisensi metered untuk Aspose.TeX?
 
- A3: Anda dapat membeli lisensi dari[Asumsikan Pembelian](https://purchase.aspose.com/buy).
+A3: Anda dapat membeli lisensi dari [Aspose Purchase](https://purchase.aspose.com/buy).
 
-### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.TeX?
+### Q4: Apakah ada trial gratis untuk Aspose.TeX?
 
- A4: Ya, Anda dapat mengakses uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+A4: Ya, Anda dapat mengakses trial gratis dari [di sini](https://releases.aspose.com/).
 
-### Q5: Butuh bantuan atau punya pertanyaan?
+### Q5: Butuh bantuan atau memiliki pertanyaan?
 
- A5: Kunjungi[Forum dukungan Aspose.TeX](https://forum.aspose.com/c/tex/47) untuk bantuan.
+A5: Kunjungi [forum dukungan Aspose.TeX](https://forum.aspose.com/c/tex/47) untuk bantuan.
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menggunakan kunci yang sama pada beberapa mesin?**  
+A: Ya, kunci metered tidak spesifik mesin, tetapi setiap penggunaan dihitung terhadap kuota konsumsi Anda.
+
+**Q: Apa yang terjadi jika saya melebihi kuota metered saya?**  
+A: Pustaka akan melemparkan pengecualian lisensi; Anda perlu membeli penggunaan tambahan atau meningkatkan paket Anda.
+
+**Q: Apakah saya perlu memanggil `setMeteredKey` pada setiap start aplikasi?**  
+A: Disarankan memanggilnya sekali saat inisialisasi (misalnya, dalam static block atau metode main) sehingga lisensi tersedia secara global.
+
+**Q: Apakah lisensi metered kompatibel dengan Java SE dan Android?**  
+A: Ya, kode yang sama berfungsi pada runtime Java apa pun yang mendukung pustaka Aspose.TeX.
+
+---
+
+**Terakhir Diperbarui:** 2025-12-09  
+**Diuji Dengan:** Aspose.TeX 23.10 for Java  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

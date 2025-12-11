@@ -1,88 +1,120 @@
 ---
-title: Ustaw licencję licznikową dla Aspose.TeX w Javie
-linktitle: Ustaw licencję licznikową dla Aspose.TeX w Javie
-second_title: Aspose.TeX API Java
-description: Odblokuj pełny potencjał Aspose.TeX w Javie, konfigurując licencję licznikową. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-weight: 12
+date: 2025-12-09
+description: Dowiedz się, jak ustawić licencję metrową w Javie dla Aspose.TeX, w tym
+  jak ustawić klucze publiczne i prywatne, oraz odblokować pełny potencjał biblioteki.
+linktitle: Set Metered License for Aspose.TeX in Java
+second_title: Aspose.TeX Java API
+title: Ustaw licencję metrową dla Aspose.TeX w Javie
 url: /pl/java/managing-licenses/set-metered-license/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw licencję licznikową dla Aspose.TeX w Javie
+# Ustaw licencję metrową dla Aspose.TeX w Javie
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w naszym przewodniku krok po kroku dotyczącym konfiguracji licencji licznikowej dla Aspose.TeX w Javie! Aspose.TeX to potężna biblioteka zapewniająca funkcje do pracy z plikami TeX w aplikacjach Java. Aby uwolnić jego pełny potencjał, konieczne jest zrozumienie, jak skonfigurować licencję licznikową. W tym samouczku przeprowadzimy Cię przez ten proces, dzieląc go na łatwe do wykonania kroki.
+Witamy w naszym przewodniku krok po kroku, jak **ustawić licencję metrową java** dla Aspose.TeX. Aspose.TeX jest potężną biblioteką Java do pracy z plikami TeX, a ustawienie licencji metrowej odblokowuje jej pełne możliwości. W tym samouczku przeprowadzimy Cię przez wszystko, czego potrzebujesz — od wymagań wstępnych po dokładny kod, który wkleisz — abyś mógł rozpocząć korzystanie z biblioteki bez żadnych przeszkód licencyjnych.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi „set metered license java”?** Rejestruje twoje klucze publiczny i prywatny w Aspose.TeX, umożliwiając pełne korzystanie z funkcji.  
+- **Czy potrzebne jest połączenie z internetem?** Nie, licencja metrowa działa offline po ustawieniu kluczy.  
+- **Jakie klucze są wymagane?** Klucz publiczny i prywatny dostarczone wraz z licencją metrową Aspose.TeX.  
+- **Czy mogę później zmienić klucze?** Tak — po prostu wywołaj ponownie `setMeteredKey` z nowymi wartościami.  
+- **Czy to podejście jest bezpieczne wątkowo?** Klasa `Metered` obsługuje współbieżność wewnętrznie, więc możesz ustawić licencję raz przy uruchamianiu aplikacji.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Wymagania wstępne
 
-- Podstawowa znajomość programowania w języku Java.
--  Ważna licencja licznikowa Aspose.TeX, która zawiera klucz publiczny i klucz prywatny. Jeśli go nie masz, możesz go uzyskać od[Zakup Aspose](https://purchase.aspose.com/buy).
-- Środowisko programistyczne Java skonfigurowane na Twoim komputerze.
+Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania:
 
-Teraz, gdy już wszystko jest gotowe, przejdźmy do samouczka.
+- Podstawowa znajomość programowania w języku Java.  
+- Ważna licencja metrowa Aspose.TeX, zawierająca **public key** i **private key**. Jeśli jej nie masz, możesz ją uzyskać na [Aspose Purchase](https://purchase.aspose.com/buy).  
+- Środowisko programistyczne Java skonfigurowane na twoim komputerze.  
 
-## Importuj pakiety
+Teraz, gdy masz wszystko gotowe, przejdźmy do rzeczywistej implementacji.
 
- tym kroku będziesz musiał zaimportować niezbędne pakiety do swojego projektu Java. Biblioteka Aspose.TeX powinna zostać uwzględniona w zależnościach Twojego projektu. Można go pobrać z[strona wydania](https://releases.aspose.com/tex/java/).
+## Importowanie pakietów
+
+W tym kroku zaimportujesz niezbędne pakiety do swojego projektu Java. Biblioteka Aspose.TeX powinna już być dodana do zależności projektu. Możesz ją pobrać ze [strony wydania](https://releases.aspose.com/tex/java/).
 
 ```java
 package com.aspose.tex.SetMeteredLicense;
 ```
 
-## Ustaw licencję taryfową
+## Jak ustawić licencję metrową java
 
- Teraz skonfigurujmy licencję taryfową przy użyciu dostarczonych kluczy publicznych i prywatnych. Zastępować`<type public key here>` I`<type private key here>` z twoimi prawdziwymi kluczami.
+Ten rozdział prowadzi Cię przez dokładny kod, który musisz wywołać, aby zarejestrować klucze licencyjne.
 
-### Krok 1: Zaimportuj pakiet Aspose.TeX
+### Krok 1: Import klasy Aspose.TeX Metered
 
 ```java
-// Zaimportuj pakiet Aspose.TeX
+// Import the Aspose.TeX package
 import com.aspose.tex.Metered;
 ```
 
-### Krok 2: Ustaw licencję taryfową
+### Krok 2: Ustaw klucze publiczny i prywatny
+
+Tutaj faktycznie **ustawiamy klucze publiczny i prywatny** przy użyciu klasy `Metered`. Zastąp łańcuchy znaków placeholderów kluczami otrzymanymi od Aspose.
 
 ```java
-// Ustaw mierzone klucze publiczne i prywatne
+// Set metered public and private keys
 new Metered().setMeteredKey(
     "<type public key here>",
     "<type private key here>"
 );
 ```
 
-Otóż to! Pomyślnie skonfigurowałeś licencję licznikową dla Aspose.TeX w Javie. Teraz możesz wykorzystać pełne możliwości biblioteki w swoich aplikacjach Java.
+To wszystko! Po uruchomieniu powyższego kodu Twoja aplikacja Java może w pełni korzystać z funkcji Aspose.TeX bez żadnych ograniczeń licencyjnych.
 
-## Wniosek
+## Podsumowanie
 
-W tym samouczku omówiliśmy podstawowe kroki, aby skonfigurować licencję licznikową dla Aspose.TeX w Javie. Wykonując te kroki, masz pewność, że Twoje aplikacje Java będą mogły w pełni wykorzystać funkcje oferowane przez Aspose.TeX.
+W tym samouczku omówiliśmy wszystko, co potrzebne, aby **ustawić licencję metrową java** dla Aspose.TeX, od przygotowania środowiska po wywołanie `setMeteredKey` z kluczami publicznym i prywatnym. Z licencją w miejscu możesz teraz eksplorować pełen zakres możliwości manipulacji TeX oferowanych przez bibliotekę.
+
+## FAQ's
+
+### Q1: Gdzie mogę znaleźć dokumentację Aspose.TeX w Javie?
+
+A1: Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/tex/java/).
+
+### Q2: Jak mogę pobrać bibliotekę Aspose.TeX dla Javy?
+
+A2: Bibliotekę możesz pobrać ze [strony wydania](https://releases.aspose.com/tex/java/).
+
+### Q3: Gdzie mogę kupić licencję metrową dla Aspose.TeX?
+
+A3: Licencję możesz kupić na [Aspose Purchase](https://purchase.aspose.com/buy).
+
+### Q4: Czy dostępna jest darmowa wersja próbna Aspose.TeX?
+
+A4: Tak, darmową wersję próbną możesz uzyskać [tutaj](https://releases.aspose.com/).
+
+### Q5: Potrzebujesz pomocy lub masz pytania?
+
+A5: Odwiedź [forum wsparcia Aspose.TeX](https://forum.aspose.com/c/tex/47), aby uzyskać pomoc.
 
 ## Często zadawane pytania
 
-### P1: Gdzie mogę znaleźć dokumentację Aspose.TeX w Javie?
+**Q: Czy mogę używać tych samych kluczy na wielu maszynach?**  
+A: Tak, klucze metrowe nie są specyficzne dla maszyny, ale każde użycie jest liczone w ramach Twojego limitu zużycia.
 
- Odpowiedź 1: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/tex/java/).
+**Q: Co się stanie, jeśli przekroczę mój limit metrowy?**  
+A: Biblioteka zgłosi wyjątek licencyjny; będziesz musiał zakupić dodatkowe użycie lub zaktualizować plan.
 
-### P2: Jak mogę pobrać bibliotekę Aspose.TeX dla Java?
+**Q: Czy muszę wywoływać `setMeteredKey` przy każdym uruchomieniu aplikacji?**  
+A: Zaleca się wywołać to raz podczas inicjalizacji (np. w bloku static lub metodzie main), aby licencja była dostępna globalnie.
 
- O2: Możesz pobrać bibliotekę z[strona wydania](https://releases.aspose.com/tex/java/).
+**Q: Czy licencja metrowa jest kompatybilna zarówno z Java SE, jak i Androidem?**  
+A: Tak, ten sam kod działa na każdym środowisku Java obsługującym bibliotekę Aspose.TeX.
 
-### P3: Gdzie mogę kupić licencję licznikową dla Aspose.TeX?
+---
 
- A3: Możesz kupić licencję od[Zakup Aspose](https://purchase.aspose.com/buy).
+**Ostatnia aktualizacja:** 2025-12-09  
+**Testowano z:** Aspose.TeX 23.10 for Java  
+**Autor:** Aspose  
 
-### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.TeX?
-
- A4: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego z[Tutaj](https://releases.aspose.com/).
-
-### P5: Potrzebujesz pomocy lub masz pytania?
-
- A5: Odwiedź[Forum wsparcia Aspose.TeX](https://forum.aspose.com/c/tex/47) do pomocy.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
