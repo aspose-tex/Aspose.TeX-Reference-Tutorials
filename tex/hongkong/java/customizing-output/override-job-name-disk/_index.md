@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 學習如何使用 Aspose.TeX for Java 將終端機輸出寫入檔案並覆寫作業名稱。請跟隨本逐步指南，內含完整程式碼範例。
-language: zh-hant
 linktitle: Write Terminal Output to File and Override Job Name in Java
 second_title: Aspose.TeX Java API
 title: 將終端機輸出寫入檔案並覆寫 Java 中的作業名稱
-url: /java/customizing-output/override-job-name-disk/
+url: /zh-hant/java/customizing-output/override-job-name-disk/
 weight: 10
 ---
 

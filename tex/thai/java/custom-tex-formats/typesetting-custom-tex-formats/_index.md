@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีการจัดรูปแบบ TeX ด้วย Aspose.TeX สำหรับ Java รวมถึงขั้นตอนการสร้างรูปแบบกำหนดเองและวิธีการขอรับใบอนุญาตชั่วคราวของ
   Aspose.
-language: th
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
 title: วิธีจัดรูปแบบ TeX ด้วยรูปแบบกำหนดเองใน Java
-url: /java/custom-tex-formats/typesetting-custom-tex-formats/
+url: /th/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
 
@@ -125,6 +124,8 @@ formatProvider.close();
 | **Output not generated** | ไดเรกทอรีผลลัพธ์ไม่มีสิทธิ์เขียน | ตรวจสอบให้กระบวนการ Java มีสิทธิ์เขียนใน `"Your Output Directory"` |
 | **License watermark** | ใช้ไลเซนส์ประเมินเท่านั้น | ใช้ *temporary license aspose* สำหรับการทดสอบหรือซื้อไลเซนส์เต็มสำหรับการใช้งานจริง |
 
+**Related Resources:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
+
 ## คำถามที่พบบ่อย
 
 **Q: ฉันสามารถใช้ Aspose.TeX ร่วมกับไลบรารี Java อื่น ๆ ได้หรือไม่?**  
@@ -151,7 +152,6 @@ A: มี – ดาวน์โหลดไบนารีรุ่นทดล
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.TeX for Java 24.10  
 **Author:** Aspose  
-**Related Resources:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

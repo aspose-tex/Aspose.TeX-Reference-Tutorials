@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan állíthat be TeX-et az Aspose.TeX for Java használatával,
   beleértve az egyéni formátumok lépéseit és azt, hogyan szerezhet be egy ideiglenes
   Aspose licencet.
-language: hu
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
 title: Hogyan állítsunk elő TeX-et egyedi formátumokkal Java-ban
-url: /java/custom-tex-formats/typesetting-custom-tex-formats/
+url: /hu/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
 
@@ -127,6 +126,8 @@ formatProvider.close();
 | **Kimenet nem generálódik** | A kimeneti könyvtárnak nincs írás jogosultsága | Győződjön meg róla, hogy a Java folyamatnak írási joga van a `" Output Directory"`-hez. |
 | **Licenc vízjel** | Csak a kiértékelési licenc használata | Alkalmazzon egy *temporary license aspose*-t teszteléshez, vagy vásároljon teljes licencet a termeléshez. |
 
+**Related Resources:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
+
 ## Gyakran ismételt kérdések
 
 **Q: Használhatom az Aspose.TeX-et más Java könyvtárakkal együtt?**  
@@ -153,7 +154,6 @@ Most már tudja, hogyan **how to typeset tex**-et végezzen egy Java alkalmazás
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.TeX for Java 24.10  
 **Author:** Aspose  
-**Related Resources:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

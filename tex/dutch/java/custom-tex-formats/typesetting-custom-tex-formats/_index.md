@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Leer hoe u TeX kunt opmaken met Aspose.TeX voor Java, inclusief stappen
   voor aangepaste formaten en hoe u een tijdelijke Aspose-licentie kunt verkrijgen.
-language: nl
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
 title: Hoe TeX te typesetten met aangepaste formaten in Java
-url: /java/custom-tex-formats/typesetting-custom-tex-formats/
+url: /nl/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
 
@@ -124,6 +123,8 @@ formatProvider.close();
 | **Output not generated** | Uitvoermap heeft geen schrijfrechten | Zorg ervoor dat het Java‑proces schrijfrechten heeft voor `"Your Output Directory"`. |
 | **License watermark** | Alleen de evaluatielicentie gebruiken | Pas een *temporary license aspose* toe voor testen of koop een volledige licentie voor productie. |
 
+**Gerelateerde bronnen:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
+
 ## Veelgestelde vragen
 
 **V: Kan ik Aspose.TeX samen met andere Java‑bibliotheken gebruiken?**  
@@ -150,7 +151,6 @@ Je weet nu **hoe je TeX moet opmaken** in een Java‑applicatie met een aangepas
 **Laatst bijgewerkt:** 2025-12-05  
 **Getest met:** Aspose.TeX for Java 24.10  
 **Auteur:** Aspose  
-**Gerelateerde bronnen:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

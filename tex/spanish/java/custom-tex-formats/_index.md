@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aprende cómo convertir Java LaTeX a PDF con Aspose.TeX. Esta guía muestra
   cómo formatear TeX y cómo componer documentos Java de manera eficiente. ¡Descárgalo
   ahora!
-language: es
 linktitle: 'Java latex to pdf: Working with Custom TeX Formats'
 second_title: Aspose.TeX Java API
 title: 'Java latex a PDF: trabajando con formatos TeX personalizados'
-url: /java/custom-tex-formats/
+url: /es/java/custom-tex-formats/
 weight: 29
 ---
 
@@ -81,13 +80,6 @@ Estos pasos le permiten convertir estructuras de datos complejas—tablas, gráf
 
 Explore la composición tipográfica eficiente en Java con Aspose.TeX. Formatos TeX personalizados facilitados. Descargue ahora para una experiencia de desarrollo sin interrupciones.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **P: ¿Puedo usar Aspose.TeX en una aplicación Java comercial?**  
@@ -110,3 +102,10 @@ R: El renderizado escala linealmente; un documento de 200 páginas típicament
 **Última actualización:** 2025-12-05  
 **Probado con:** Aspose.TeX for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

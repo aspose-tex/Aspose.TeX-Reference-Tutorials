@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.TeX for Java kullanarak TeX nasıl dizayn edilir, özel formatlar
   için adımları ve geçici bir Aspose lisansı nasıl alınır öğrenin.
-language: tr
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
 title: Java'da Özel Formatlarla TeX Nasıl Dizgi Yapılır
-url: /java/custom-tex-formats/typesetting-custom-tex-formats/
+url: /tr/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
 
@@ -124,6 +123,8 @@ formatProvider.close();
 | **Output not generated** | Çıktı dizininde yazma izni yok | Java sürecinin `"Your Output Directory"` klasörüne yazma izni olduğundan emin olun. |
 | **License watermark** | Sadece değerlendirme lisansı kullanılıyor | Test için *temporary license aspose* uygulayın veya üretim için tam lisans satın alın. |
 
+**İlgili Kaynaklar:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Ücretsiz Deneme İndir](https://releases.aspose.com/tex/java/)
+
 ## Sık Sorulan Sorular
 
 **S: Aspose.TeX'i diğer Java kütüphaneleriyle birlikte kullanabilir miyim?**  
@@ -150,7 +151,6 @@ Artık Aspose.TeX ile Java uygulamanızda özel bir TeX formatı kullanarak **ho
 **Son Güncelleme:** 2025-12-05  
 **Test Edilen Versiyon:** Aspose.TeX for Java 24.10  
 **Yazar:** Aspose  
-**İlgili Kaynaklar:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Ücretsiz Deneme İndir](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

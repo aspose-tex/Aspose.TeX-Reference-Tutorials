@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Tìm hiểu cách dàn trang TeX bằng Aspose.TeX cho Java, bao gồm các bước
   tạo định dạng tùy chỉnh và cách lấy giấy phép tạm thời của Aspose.
-language: vi
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
 title: Cách Đánh Máy TeX với Định Dạng Tùy Chỉnh trong Java
-url: /java/custom-tex-formats/typesetting-custom-tex-formats/
+url: /vi/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
 
@@ -122,6 +121,8 @@ formatProvider.close();
 | **Output not generated** | Thư mục đầu ra thiếu quyền ghi | Đảm bảo quá trình Java có quyền ghi vào `"Your Output Directory"`. |
 | **License watermark** | Chỉ sử dụng giấy phép đánh giá | Áp dụng *temporary license aspose* để thử nghiệm hoặc mua giấy phép đầy đủ cho môi trường sản xuất. |
 
+**Tài nguyên liên quan:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
+
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng Aspose.TeX cùng với các thư viện Java khác không?**  
@@ -148,7 +149,6 @@ Bạn đã biết **cách đánh dấu tex** trong một ứng dụng Java bằn
 **Cập nhật lần cuối:** 2025-12-05  
 **Đã kiểm tra với:** Aspose.TeX for Java 24.10  
 **Tác giả:** Aspose  
-**Tài nguyên liên quan:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

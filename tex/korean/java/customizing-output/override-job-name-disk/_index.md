@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.TeX for Java를 사용하여 터미널 출력을 파일에 기록하고 작업 이름을 재정의하는 방법을 배웁니다. 전체
   코드 예제가 포함된 단계별 가이드를 따라 보세요.
-language: ko
 linktitle: Write Terminal Output to File and Override Job Name in Java
 second_title: Aspose.TeX Java API
 title: 터미널 출력을 파일에 쓰고 Java에서 작업 이름을 재정의하기
-url: /java/customizing-output/override-job-name-disk/
+url: /ko/java/customizing-output/override-job-name-disk/
 weight: 10
 ---
 

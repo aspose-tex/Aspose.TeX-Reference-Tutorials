@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعرّف على كيفية كتابة مخرجات الطرفية إلى ملف وتجاوز اسم المهمة باستخدام
   Aspose.TeX للغة Java. اتبع هذا الدليل خطوة بخطوة مع أمثلة شفرة كاملة.
-language: ar
 linktitle: Write Terminal Output to File and Override Job Name in Java
 second_title: Aspose.TeX Java API
 title: كتابة مخرجات الطرفية إلى ملف وتجاوز اسم المهمة في جافا
-url: /java/customizing-output/override-job-name-disk/
+url: /ar/java/customizing-output/override-job-name-disk/
 weight: 10
 ---
 

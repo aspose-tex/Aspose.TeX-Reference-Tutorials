@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.TeX for Java kullanarak terminal çıktısını dosyaya yazmayı ve
   bir iş adını geçersiz kılmayı öğrenin. Tam kod örnekleriyle adım adım bu kılavuzu
   izleyin.
-language: tr
 linktitle: Write Terminal Output to File and Override Job Name in Java
 second_title: Aspose.TeX Java API
 title: Terminal Çıktısını Dosyaya Yaz ve Java'da İş Adını Geçersiz Kıl
-url: /java/customizing-output/override-job-name-disk/
+url: /tr/java/customizing-output/override-job-name-disk/
 weight: 10
 ---
 

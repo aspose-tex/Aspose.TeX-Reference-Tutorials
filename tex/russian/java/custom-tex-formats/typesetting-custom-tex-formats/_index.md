@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Узнайте, как вёрстать TeX с помощью Aspose.TeX для Java, включая шаги
   по созданию пользовательских форматов и получению временной лицензии Aspose.
-language: ru
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
 title: Как набрать TeX с пользовательскими форматами в Java
-url: /java/custom-tex-formats/typesetting-custom-tex-formats/
+url: /ru/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
 
@@ -145,12 +144,13 @@ formatProvider.close();
 
 Теперь вы знаете **как набрать tex** в Java‑приложении, используя пользовательский формат TeX с помощью Aspose.TeX. Следуя приведённым шагам, вы сможете интегрировать высококачественную наборку в любой Java‑ориентированный рабочий процесс, экспериментировать со своими файлами форматов и перейти от прототипа к продакшн‑версии с правильной лицензией.
 
+**Связанные ресурсы:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Скачать бесплатную пробную версию](https://releases.aspose.com/tex/java/)
+
 ---
 
 **Последнее обновление:** 2025-12-05  
 **Тестировано с:** Aspose.TeX for Java 24.10  
 **Автор:** Aspose  
-**Связанные ресурсы:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Скачать бесплатную пробную версию](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

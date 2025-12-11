@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se, jak převést Java LaTeX do PDF pomocí Aspose.TeX. Tento průvodce
   ukazuje, jak formátovat TeX a jak efektivně sazdit Java dokumenty. Stáhněte si ho
   nyní!
-language: cs
 linktitle: 'Java latex to pdf: Working with Custom TeX Formats'
 second_title: Aspose.TeX Java API
 title: 'Java LaTeX do PDF: Práce s vlastními formáty TeX'
-url: /java/custom-tex-formats/
+url: /cs/java/custom-tex-formats/
 weight: 29
 ---
 
@@ -75,13 +74,6 @@ Tyto kroky vám umožní převést složité datové struktury — tabulky, graf
 ### [Sazba s vlastními formáty TeX v Javě](./typesetting-custom-tex-formats/)
 Prozkoumejte efektivní sazbu v Javě s Aspose.TeX. Vlastní formáty TeX snadno. Stáhněte nyní pro plynulý vývojový zážitek.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.TeX v komerční Java aplikaci?**  
@@ -105,4 +97,9 @@ A: Vykreslování se škáluje lineárně; 200‑stránkový dokument se typicky
 **Tested With:** Aspose.TeX for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

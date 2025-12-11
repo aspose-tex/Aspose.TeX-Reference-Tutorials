@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tìm hiểu cách ghi đầu ra của terminal vào tệp và ghi đè tên công việc
   bằng Aspose.TeX cho Java. Hãy làm theo hướng dẫn từng bước này kèm theo các ví dụ
   mã đầy đủ.
-language: vi
 linktitle: Write Terminal Output to File and Override Job Name in Java
 second_title: Aspose.TeX Java API
 title: Ghi đầu ra terminal vào tệp và ghi đè tên công việc trong Java
-url: /java/customizing-output/override-job-name-disk/
+url: /vi/java/customizing-output/override-job-name-disk/
 weight: 10
 ---
 

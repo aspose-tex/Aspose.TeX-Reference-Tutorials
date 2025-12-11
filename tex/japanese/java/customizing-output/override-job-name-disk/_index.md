@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: Aspose.TeX for Java を使用して、ターミナル出力をファイルに書き込む方法とジョブ名を上書きする方法を学びましょう。完全なコード例付きのステップバイステップガイドに従ってください。
-language: ja
 linktitle: Write Terminal Output to File and Override Job Name in Java
 second_title: Aspose.TeX Java API
 title: ターミナル出力をファイルに書き込み、Javaでジョブ名を上書きする
-url: /java/customizing-output/override-job-name-disk/
+url: /ja/java/customizing-output/override-job-name-disk/
 weight: 10
 ---
 

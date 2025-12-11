@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se, jak zapisovat výstup terminálu do souboru a přepsat název
   úlohy pomocí Aspose.TeX pro Javu. Postupujte podle tohoto krok‑za‑krokem průvodce
   s kompletními ukázkami kódu.
-language: cs
 linktitle: Write Terminal Output to File and Override Job Name in Java
 second_title: Aspose.TeX Java API
 title: Zapsat výstup terminálu do souboru a přepsat název úlohy v Javě
-url: /java/customizing-output/override-job-name-disk/
+url: /cs/java/customizing-output/override-job-name-disk/
 weight: 10
 ---
 

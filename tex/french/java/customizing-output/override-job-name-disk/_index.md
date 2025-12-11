@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Apprenez à écrire la sortie du terminal dans un fichier et à remplacer
   le nom d’un travail en utilisant Aspose.TeX pour Java. Suivez ce guide étape par
   étape avec des exemples de code complets.
-language: fr
 linktitle: Write Terminal Output to File and Override Job Name in Java
 second_title: Aspose.TeX Java API
 title: Écrire la sortie du terminal dans un fichier et remplacer le nom de la tâche
   en Java
-url: /java/customizing-output/override-job-name-disk/
+url: /fr/java/customizing-output/override-job-name-disk/
 weight: 10
 ---
 

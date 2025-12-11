@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να μετατρέψετε Java LaTeX σε PDF με το Aspose.TeX. Αυτός ο
   οδηγός δείχνει πώς να μορφοποιήσετε το TeX και πώς να τυπώσετε έγγραφα Java αποδοτικά.
   Κατεβάστε το τώρα!
-language: el
-linktitle: 'Java latex to pdf: Working with Custom TeX Formats'
+linktitle: 'Java latex to pdf - Working with Custom TeX Formats'
 second_title: Aspose.TeX Java API
-title: 'Java latex σε pdf: Εργασία με προσαρμοσμένες μορφές TeX'
-url: /java/custom-tex-formats/
+title: 'Java latex σε pdf - Εργασία με προσαρμοσμένες μορφές TeX'
+url: /el/java/custom-tex-formats/
 weight: 29
 ---
 
@@ -75,13 +74,6 @@ weight: 29
 ### [Typesetting with Custom TeX Formats in Java](./typesetting-custom-tex-formats/)
 Εξερευνήστε αποδοτική τυπογραφία σε Java με το Aspose.TeX. Οι προσαρμοσμένες μορφές TeX γίνονται εύκολες. Κατεβάστε τώρα για μια απρόσκοπτη εμπειρία ανάπτυξης.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να χρησιμοποιήσω το Aspose.TeX σε εμπορική εφαρμογή Java;**  
@@ -104,3 +96,10 @@ weight: 29
 **Τελευταία Ενημέρωση:** 2025-12-05  
 **Δοκιμή Με:** Aspose.TeX for Java 24.12  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

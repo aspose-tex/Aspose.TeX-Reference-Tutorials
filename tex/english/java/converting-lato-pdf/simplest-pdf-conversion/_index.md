@@ -1,8 +1,8 @@
 ---
-title: Java LaTeX PDF Conversion: Efficiently Convert to PDF
-linktitle: Java LaTeX PDF Conversion: Efficiently Convert to PDF
+title: Java LaTeX PDF Conversion - Efficiently Convert to PDF
+linktitle: Java LaTeX PDF Conversion - Efficiently Convert to PDF
 second_title: Aspose.TeX Java API
-description: Learn how to perform java latex pdf conversion efficiently using Aspose.TeX for Java. Follow our step‑by‑step guide to integrate seamless LaTeX‑to‑PDF conversion into your Java applications.
+description: Learn how to perform java latex pdf conversion efficiently using Aspose.TeX for Java. Follow our step-by-step guide to integrate seamless LaTeX‑to‑PDF conversion into your Java applications.
 weight: 10
 url: /java/converting-lato-pdf/simplest-pdf-conversion/
 date: 2025-12-05
@@ -130,17 +130,15 @@ In this tutorial we covered everything you need to perform **java latex pdf conv
 
 Ready to explore more? Check out the Aspose.TeX documentation for advanced topics like custom macros, multi‑page documents, and PDF post‑processing.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

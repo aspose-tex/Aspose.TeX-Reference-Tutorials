@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية تنسيق TeX باستخدام Aspose.TeX للغة Java، بما في ذلك خطوات
   التنسيقات المخصصة وكيفية الحصول على ترخيص مؤقت من Aspose.
-language: ar
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
 title: كيفية تنضيد TeX باستخدام صيغ مخصصة في Java
-url: /java/custom-tex-formats/typesetting-custom-tex-formats/
+url: /ar/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
 
@@ -126,6 +125,9 @@ formatProvider.close();
 | **Output not generated** | دليل الإخراج يفتقر إلى صلاحية الكتابة | تأكد من أن عملية Java لديها صلاحية كتابة على `"Your Output Directory"`. |
 | **License watermark** | استخدام ترخيص التقييم فقط | طبق *ترخيصًا مؤقتًا aspose* للاختبار أو اشترِ ترخيصًا كاملاً للإنتاج. |
 
+
+**الموارد ذات الصلة:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
+
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.TeX مع مكتبات Java أخرى؟**  
@@ -152,7 +154,6 @@ formatProvider.close();
 **آخر تحديث:** 2025-12-05  
 **تم الاختبار مع:** Aspose.TeX for Java 24.10  
 **المؤلف:** Aspose  
-**الموارد ذات الصلة:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -122,6 +122,8 @@ formatProvider.close();
 | **Output not generated** | Output directory missing write permission | Ensure the Java process has write access to `"Your Output Directory"`. |
 | **License watermark** | Using only the evaluation license | Apply a *temporary license aspose* for testing or purchase a full license for production. |
 
+**Related Resources:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
+
 ## Frequently Asked Questions
 
 **Q: Can I use Aspose.TeX together with other Java libraries?**  
@@ -148,7 +150,6 @@ You now know **how to typeset tex** in a Java application using a custom TeX for
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.TeX for Java 24.10  
 **Author:** Aspose  
-**Related Resources:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

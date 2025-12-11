@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.TeX for Java का उपयोग करके टर्मिनल आउटपुट को फ़ाइल में लिखना और
   जॉब नाम को ओवरराइड करना सीखें। पूर्ण कोड उदाहरणों के साथ इस चरण‑दर‑चरण गाइड का पालन
   करें।
-language: hi
 linktitle: Write Terminal Output to File and Override Job Name in Java
 second_title: Aspose.TeX Java API
 title: टर्मिनल आउटपुट को फ़ाइल में लिखें और जावा में जॉब नाम को ओवरराइड करें
-url: /java/customizing-output/override-job-name-disk/
+url: /hi/java/customizing-output/override-job-name-disk/
 weight: 10
 ---
 

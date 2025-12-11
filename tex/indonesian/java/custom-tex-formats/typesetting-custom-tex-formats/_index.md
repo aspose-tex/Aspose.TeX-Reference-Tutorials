@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Pelajari cara menyusun TeX menggunakan Aspose.TeX untuk Java, termasuk
   langkah-langkah untuk format khusus dan cara memperoleh lisensi sementara Aspose.
-language: id
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
 title: Cara Menyusun TeX dengan Format Kustom di Java
-url: /java/custom-tex-formats/typesetting-custom-tex-formats/
+url: /id/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
 
@@ -124,6 +123,8 @@ formatProvider.close();
 | **Output not generated** | Direktori output tidak memiliki izin menulis | Pastikan proses Java memiliki akses tulis ke `"Your Output Directory"`. |
 | **License watermark** | Menggunakan hanya lisensi evaluasi | Terapkan *temporary license aspose* untuk pengujian atau beli lisensi penuh untuk produksi. |
 
+**Related Resources:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
+
 ## Pertanyaan yang Sering Diajukan
 
 **T: Dapatkah saya menggunakan Aspose.TeX bersama perpustakaan Java lain?**  
@@ -150,7 +151,6 @@ Anda kini mengetahui **cara menyusun tex** dalam aplikasi Java menggunakan forma
 **Last Updated:** 2025-12-05  
 **Tested With:** Aspose.TeX for Java 24.10  
 **Author:** Aspose  
-**Related Resources:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

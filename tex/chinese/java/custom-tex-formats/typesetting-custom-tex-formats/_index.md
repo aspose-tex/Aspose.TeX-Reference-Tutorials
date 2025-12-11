@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 学习如何使用 Aspose.TeX for Java 排版 TeX，包括自定义格式的步骤以及如何获取 Aspose 的临时许可证。
-language: zh
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
 title: 如何在 Java 中使用自定义格式排版 TeX
-url: /java/custom-tex-formats/typesetting-custom-tex-formats/
+url: /zh/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
 
@@ -123,6 +122,8 @@ formatProvider.close();
 | **Output not generated** | 输出目录缺少写入权限 | 确保 Java 进程对 `"Your Output Directory"` 具有写入权限。 |
 | **License watermark** | 仅使用评估许可证 | 为测试应用 *temporary license aspose*，或购买完整许可证用于生产。 |
 
+**相关资源：** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
+
 ## 常见问答
 
 **Q: 我可以将 Aspose.TeX 与其他 Java 库一起使用吗？**  
@@ -149,7 +150,6 @@ A: 提供——可从 [Aspose.TeX download page](https://releases.aspose.com/tex
 **最后更新：** 2025-12-05  
 **测试环境：** Aspose.TeX for Java 24.10  
 **作者：** Aspose  
-**相关资源：** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

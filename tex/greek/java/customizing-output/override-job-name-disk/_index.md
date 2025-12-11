@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Μάθετε πώς να γράφετε την έξοδο του τερματικού σε αρχείο και να αντικαθιστάτε
   το όνομα εργασίας χρησιμοποιώντας το Aspose.TeX για Java. Ακολουθήστε αυτόν τον
   βήμα‑βήμα οδηγό με πλήρη παραδείγματα κώδικα.
-language: el
 linktitle: Write Terminal Output to File and Override Job Name in Java
 second_title: Aspose.TeX Java API
 title: Καταγραφή εξόδου τερματικού σε αρχείο και αντικατάσταση ονόματος εργασίας σε
   Java
-url: /java/customizing-output/override-job-name-disk/
+url: /el/java/customizing-output/override-job-name-disk/
 weight: 10
 ---
 

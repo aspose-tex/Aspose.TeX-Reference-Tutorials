@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: Aspose.TeX for Java を使用して TeX を組版する方法を学び、カスタムフォーマットの手順や一時ライセンスの取得方法についても説明します。
-language: ja
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
 title: Javaでカスタムフォーマットを使用してTeXを組版する方法
-url: /java/custom-tex-formats/typesetting-custom-tex-formats/
+url: /ja/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
 
@@ -125,6 +124,8 @@ formatProvider.close();
 | **Output not generated** | 出力ディレクトリに書き込み権限がない | Javaプロセスが `"Your Output Directory"` に書き込み権限を持っていることを確認してください。 |
 | **License watermark** | 評価ライセンスのみ使用している | テスト用に *temporary license aspose* を適用するか、本番用にフルライセンスを購入してください。 |
 
+**関連リソース:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
+
 ## よくある質問
 
 **Q: Aspose.TeX を他の Java ライブラリと併用できますか？**  
@@ -151,7 +152,6 @@ A: はい – [Aspose.TeX download page](https://releases.aspose.com/tex/java/) 
 **最終更新日:** 2025-12-05  
 **テスト環境:** Aspose.TeX for Java 24.10  
 **作成者:** Aspose  
-**関連リソース:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

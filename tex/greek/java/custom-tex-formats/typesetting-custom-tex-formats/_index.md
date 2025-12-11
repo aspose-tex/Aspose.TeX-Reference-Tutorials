@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να μορφοποιείτε TeX χρησιμοποιώντας το Aspose.TeX για Java,
   συμπεριλαμβανομένων των βημάτων για προσαρμοσμένες μορφές και του πώς να αποκτήσετε
   προσωρινή άδεια Aspose.
-language: el
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
 title: Πώς να μορφοποιήσετε το TeX με προσαρμοσμένες μορφές σε Java
-url: /java/custom-tex-formats/typesetting-custom-tex-formats/
+url: /el/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
 
@@ -125,6 +124,9 @@ formatProvider.close();
 | **Δεν δημιουργείται έξοδος** | Έλλειψη δικαιωμάτων εγγραφής στον κατάλογο εξόδου | Βεβαιωθείτε ότι η διαδικασία Java έχει δικαίωμα εγγραφής στο `"Your Output Directory"`. |
 | **Υδατογράφημα άδειας** | Χρήση μόνο της αξιολογητικής άδειας | Εφαρμόστε μια *προσωρινή άδεια aspose* για δοκιμές ή αγοράστε πλήρη άδεια για παραγωγή. |
 
+**Σχετικοί πόροι:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Κατεβάστε Δωρεάν Δοκιμή](https://releases.aspose.com/tex/java/)
+
+
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να χρησιμοποιήσω το Aspose.TeX μαζί με άλλες βιβλιοθήκες Java;**  
@@ -151,7 +153,6 @@ formatProvider.close();
 **Τελευταία ενημέρωση:** 2025-12-05  
 **Δοκιμάστηκε με:** Aspose.TeX for Java 24.10  
 **Συγγραφέας:** Aspose  
-**Σχετικοί πόροι:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Κατεβάστε Δωρεάν Δοκιμή](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

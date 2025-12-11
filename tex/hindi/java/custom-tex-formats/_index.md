@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.TeX के साथ जावा लैटेक्स को पीडीएफ में कैसे बदलें, सीखें। यह गाइड
   दिखाता है कि TeX को कैसे फॉर्मेट करें और जावा दस्तावेज़ों को प्रभावी ढंग से टाइपसेट
   कैसे करें। अभी डाउनलोड करें!
-language: hi
 linktitle: 'Java latex to pdf: Working with Custom TeX Formats'
 second_title: Aspose.TeX Java API
 title: 'जावा लेटेक्स से पीडीएफ: कस्टम टेX फ़ॉर्मेट्स के साथ काम करना'
-url: /java/custom-tex-formats/
+url: /hi/java/custom-tex-formats/
 weight: 29
 ---
 
@@ -75,13 +74,6 @@ Java को LaTeX के साथ टाइपसेट करने के ल
 ### [Typesetting with Custom TeX Formats in Java](./typesetting-custom-tex-formats/)
 Java में Aspose.TeX के साथ प्रभावी टाइपसेटिंग का अन्वेषण करें। कस्टम TeX फ़ॉर्मैट्स को आसान बनाया गया है। अब डाउनलोड करें एक सहज विकास अनुभव के लिए।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं Aspose.TeX को एक व्यावसायिक Java एप्लिकेशन में उपयोग कर सकता हूँ?**  
@@ -99,6 +91,15 @@ A: हाँ। फ़ॉन्ट फ़ाइलों को अपने प
 **Q: बड़े दस्तावेज़ों के लिए मैं किस प्रदर्शन की उम्मीद कर सकता हूँ?**  
 A: रेंडरिंग रैखिक रूप से स्केल करती है; एक 200‑पृष्ठीय दस्तावेज़ आमतौर पर आधुनिक CPU पर 5 सेकंड से कम समय में परिवर्तित हो जाता है।
 
+---
+
 **अंतिम अपडेट:** 2025-12-05  
 **परीक्षण किया गया:** Aspose.TeX for Java 24.12  
 **लेखक:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

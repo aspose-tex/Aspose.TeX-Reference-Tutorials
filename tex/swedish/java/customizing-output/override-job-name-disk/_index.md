@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Lär dig hur du skriver terminalutdata till en fil och åsidosätter ett
   jobbnamn med Aspose.TeX för Java. Följ den här steg‑för‑steg‑guiden med kompletta
   kodexempel.
-language: sv
 linktitle: Write Terminal Output to File and Override Job Name in Java
 second_title: Aspose.TeX Java API
 title: Skriv terminalutdata till fil och överskriv jobbnamn i Java
-url: /java/customizing-output/override-job-name-disk/
+url: /sv/java/customizing-output/override-job-name-disk/
 weight: 10
 ---
 

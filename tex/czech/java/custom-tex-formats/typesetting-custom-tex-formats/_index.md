@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Naučte se, jak sazovat TeX pomocí Aspose.TeX pro Javu, včetně kroků pro
   vlastní formáty a jak získat dočasnou licenci Aspose.
-language: cs
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
 title: Jak sázet TeX s vlastními formáty v Javě
-url: /java/custom-tex-formats/typesetting-custom-tex-formats/
+url: /cs/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
 
@@ -122,6 +121,8 @@ formatProvider.close();
 | **Output not generated** | Výstupní adresář nemá oprávnění k zápisu | Zajistěte, aby Java proces měl zápis do `"Your Output Directory"`. |
 | **License watermark** | Používáte pouze evaluační licenci | Aplikujte *dočasnou licenci aspose* pro testování nebo zakupte plnou licenci pro produkci. |
 
+**Související zdroje:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
+
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.TeX spolu s jinými Java knihovnami?**  
@@ -148,7 +149,6 @@ Nyní víte **jak typografovat tex** v Java aplikaci pomocí vlastního formátu
 **Poslední aktualizace:** 2025-12-05  
 **Testováno s:** Aspose.TeX for Java 24.10  
 **Autor:** Aspose  
-**Související zdroje:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,13 +72,6 @@ These steps let you convert complex data structures—tables, charts, or mathema
 ### [Typesetting with Custom TeX Formats in Java](./typesetting-custom-tex-formats/)
 Explore efficient typesetting in Java with Aspose.TeX. Custom TeX formats made easy. Download now for a seamless development experience.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I use Aspose.TeX in a commercial Java application?**  
@@ -102,4 +95,9 @@ A: Rendering scales linearly; a 200‑page document typically converts in under 
 **Tested With:** Aspose.TeX for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
