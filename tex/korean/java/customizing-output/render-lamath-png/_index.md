@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.TeX를 사용하여 Java에서 LaTeX 방정식을 PNG로 변환하는 방법을 배웁니다. 코드 샘플, 팁 및 문제
   해결이 포함된 단계별 가이드.
-language: ko
 linktitle: Convert LaTeX Equation to PNG in Java
 second_title: Aspose.TeX Java API
 title: Java와 Aspose.TeX를 사용하여 LaTeX 방정식을 PNG로 변환
-url: /java/customizing-output/render-lamath-png/
+url: /ko/java/customizing-output/render-lamath-png/
 weight: 13
 ---
 
@@ -143,15 +142,15 @@ A: [Aspose.TeX 포럼](https://forum.aspose.com/c/tex/47)을 방문해 질문하
 
 이제 Aspose.TeX를 사용해 Java에서 **LaTeX 방정식을 PNG로 변환**하는 방법을 배웠습니다. 렌더링 옵션을 조정하면 해상도, 색상 및 스케일링을 제어하여 모든 시각적 요구 사항에 맞출 수 있습니다. 이 코드 조각을 더 큰 보고 도구, 웹 서비스 또는 교육 소프트웨어에 자유롭게 통합하십시오.
 
+---
+
+**마지막 업데이트:** 2025-12-07  
+**테스트 환경:** Aspose.TeX 24.11 for Java  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-07  
-**테스트 환경:** Aspose.TeX 24.11 for Java  
-**작성자:** Aspose

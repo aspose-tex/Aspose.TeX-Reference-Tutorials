@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: تعلم كيفية تحويل معادلة LaTeX إلى PNG في Java باستخدام Aspose.TeX. دليل
   خطوة بخطوة مع عينات من الشيفرة، نصائح، وحلول المشكلات.
-language: ar
 linktitle: Convert LaTeX Equation to PNG in Java
 second_title: Aspose.TeX Java API
 title: تحويل معادلة LaTeX إلى PNG في Java باستخدام Aspose.TeX
-url: /java/customizing-output/render-lamath-png/
+url: /ar/java/customizing-output/render-lamath-png/
 weight: 13
 ---
 
@@ -143,15 +142,15 @@ System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 
 لقد تعلمت الآن كيفية **تحويل معادلة LaTeX إلى PNG** في Java باستخدام Aspose.TeX. من خلال تعديل خيارات العرض يمكنك التحكم في الدقة، الألوان، والتم scaling لتلبية أي متطلبات بصرية. لا تتردد في دمج هذا المقتطف في أدوات تقارير أكبر، خدمات ويب، أو برامج تعليمية.
 
+---
+
+**آخر تحديث:** 2025-12-07  
+**تم الاختبار مع:** Aspose.TeX 24.11 for Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-07  
-**تم الاختبار مع:** Aspose.TeX 24.11 for Java  
-**المؤلف:** Aspose

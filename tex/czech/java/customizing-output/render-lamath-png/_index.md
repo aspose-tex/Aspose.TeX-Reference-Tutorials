@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Naučte se, jak převést LaTeXovou rovnici na PNG v Javě pomocí Aspose.TeX.
   Podrobný návod krok za krokem s ukázkami kódu, tipy a řešením problémů.
-language: cs
 linktitle: Convert LaTeX Equation to PNG in Java
 second_title: Aspose.TeX Java API
 title: Převod rovnice LaTeX na PNG v Javě s Aspose.TeX
-url: /java/customizing-output/render-lamath-png/
+url: /cs/java/customizing-output/render-lamath-png/
 weight: 13
 ---
 
@@ -143,15 +142,15 @@ Odpověď: Navštivte [Aspose.TeX fórum](https://forum.aspose.com/c/tex/47), kd
 
 Nyní jste se naučili, jak **převést LaTeX rovnici na PNG** v Javě pomocí Aspose.TeX. Úpravou možností vykreslování můžete řídit rozlišení, barvy a měřítko tak, aby vyhovovaly jakémukoli vizuálnímu požadavku. Klidně tento úryvek integrujte do větších nástrojů pro reportování, webových služeb nebo vzdělávacího softwaru.
 
+---
+
+**Poslední aktualizace:** 2025-12-07  
+**Testováno s:** Aspose.TeX 24.11 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-07  
-**Testováno s:** Aspose.TeX 24.11 for Java  
-**Autor:** Aspose

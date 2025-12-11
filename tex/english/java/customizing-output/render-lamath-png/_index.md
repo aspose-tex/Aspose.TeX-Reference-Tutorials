@@ -141,15 +141,15 @@ A: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) to ask questi
 
 You’ve now learned how to **convert a LaTeX equation to PNG** in Java using Aspose.TeX. By tweaking the rendering options you can control resolution, colors, and scaling to fit any visual requirement. Feel free to integrate this snippet into larger reporting tools, web services, or educational software.
 
+---
+
+**Last Updated:** 2025-12-07  
+**Tested With:** Aspose.TeX 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-07  
-**Tested With:** Aspose.TeX 24.11 for Java  
-**Author:** Aspose

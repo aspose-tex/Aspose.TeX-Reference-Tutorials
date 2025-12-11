@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Erfahren Sie, wie Sie LaTeX‑Gleichungen in Java mit Aspose.TeX in PNG
   konvertieren. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen, Tipps und Fehlersuche.
-language: de
 linktitle: Convert LaTeX Equation to PNG in Java
 second_title: Aspose.TeX Java API
 title: LaTeX‑Gleichung in PNG in Java mit Aspose.TeX konvertieren
-url: /java/customizing-output/render-lamath-png/
+url: /de/java/customizing-output/render-lamath-png/
 weight: 13
 ---
 
@@ -143,15 +142,15 @@ A: Besuchen Sie das [Aspose.TeX‑Forum](https://forum.aspose.com/c/tex/47), um 
 
 Sie haben nun gelernt, **eine LaTeX‑Gleichung in PNG** in Java mit Aspose.TeX zu konvertieren. Durch Anpassen der Rendering‑Optionen können Sie Auflösung, Farben und Skalierung steuern, um jede visuelle Anforderung zu erfüllen. Integrieren Sie dieses Snippet gern in größere Reporting‑Tools, Web‑Services oder Bildungssoftware.
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-07  
+**Getestet mit:** Aspose.TeX 24.11 für Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-07  
-**Getestet mit:** Aspose.TeX 24.11 für Java  
-**Autor:** Aspose

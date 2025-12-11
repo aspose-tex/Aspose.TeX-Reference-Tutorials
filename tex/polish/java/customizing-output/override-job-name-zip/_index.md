@@ -3,13 +3,12 @@ date: 2025-12-07
 description: Dowiedz się, jak konwertować TeX na PDF, nadpisywać nazwy zadań i zapisywać
   wyjście terminala do pliku ZIP przy użyciu Aspose.TeX dla Javy. Przewodnik krok
   po kroku dla programistów Java.
-language: pl
 linktitle: Convert TeX to PDF, Override Job Name and Write Terminal Output to ZIP
   in Java
 second_title: Aspose.TeX Java API
 title: Konwertuj TeX na PDF, nadpisz nazwę zadania i zapisz wyjście terminala do pliku
   ZIP w Javie
-url: /java/customizing-output/override-job-name-zip/
+url: /pl/java/customizing-output/override-job-name-zip/
 weight: 11
 ---
 

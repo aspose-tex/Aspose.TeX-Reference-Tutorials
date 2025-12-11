@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aprende a renderizar figuras LaTeX a PNG en Java usando Aspose.TeX, la
   forma más fácil de generar PNG a partir de LaTeX. Sigue esta guía paso a paso.
-language: es
 linktitle: How to Render LaTeX Figures to PNG in Java
 second_title: Aspose.TeX Java API
 title: Cómo renderizar figuras LaTeX a PNG en Java
-url: /java/customizing-output/render-lafigures-png/
+url: /es/java/customizing-output/render-lafigures-png/
 weight: 12
 ---
 

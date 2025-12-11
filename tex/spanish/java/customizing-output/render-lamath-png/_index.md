@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aprende a convertir ecuaciones LaTeX a PNG en Java usando Aspose.TeX.
   Guía paso a paso con ejemplos de código, consejos y solución de problemas.
-language: es
 linktitle: Convert LaTeX Equation to PNG in Java
 second_title: Aspose.TeX Java API
 title: Convertir ecuación LaTeX a PNG en Java con Aspose.TeX
-url: /java/customizing-output/render-lamath-png/
+url: /es/java/customizing-output/render-lamath-png/
 weight: 13
 ---
 
@@ -143,15 +142,15 @@ R: Visita el [foro de Aspose.TeX](https://forum.aspose.com/c/tex/47) para hacer 
 
 Ahora sabes cómo **convertir una ecuación LaTeX a PNG** en Java usando Aspose.TeX. Ajustando las opciones de renderizado puedes controlar resolución, colores y escalado para cumplir cualquier requisito visual. Siéntete libre de integrar este fragmento en herramientas de generación de informes más grandes, servicios web o software educativo.
 
+---
+
+**Última actualización:** 2025-12-07  
+**Probado con:** Aspose.TeX 24.11 para Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-07  
-**Probado con:** Aspose.TeX 24.11 para Java  
-**Autor:** Aspose

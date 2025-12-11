@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.TeX kullanarak Java'da LaTeX denklemini PNG'ye nasıl dönüştüreceğinizi
   öğrenin. Kod örnekleri, ipuçları ve sorun giderme ile adım adım rehber.
-language: tr
 linktitle: Convert LaTeX Equation to PNG in Java
 second_title: Aspose.TeX Java API
 title: Aspose.TeX ile Java’da LaTeX Denklemini PNG’ye Dönüştür
-url: /java/customizing-output/render-lamath-png/
+url: /tr/java/customizing-output/render-lamath-png/
 weight: 13
 ---
 
@@ -143,15 +142,15 @@ C: Sorular sormak, örnek paylaşmak ve topluluk ile Aspose mühendislerinden de
 
 Artık Java'da Aspose.TeX kullanarak **LaTeX denklemini PNG'ye dönüştürmeyi** öğrendiniz. Render seçeneklerini ayarlayarak çözünürlük, renk ve ölçeklendirmeyi istediğiniz görsel gereksinime göre kontrol edebilirsiniz. Bu kod parçacığını daha büyük raporlama araçlarına, web servislerine veya eğitim yazılımlarına entegre etmekten çekinmeyin.
 
+---
+
+**Son Güncelleme:** 2025-12-07  
+**Test Edilen Versiyon:** Aspose.TeX 24.11 for Java  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-07  
-**Test Edilen Versiyon:** Aspose.TeX 24.11 for Java  
-**Yazar:** Aspose

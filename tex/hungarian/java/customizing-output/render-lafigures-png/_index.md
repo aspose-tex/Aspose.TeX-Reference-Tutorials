@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Ismerje meg, hogyan lehet LaTeX ábrákat PNG formátumba renderelni Java-ban
   az Aspose.TeX segítségével – a legegyszerűbb mód a PNG generálására LaTeX-ből. Kövesse
   ezt a lépésről‑lépésre útmutatót.
-language: hu
 linktitle: How to Render LaTeX Figures to PNG in Java
 second_title: Aspose.TeX Java API
 title: Hogyan rendereljünk LaTeX ábrákat PNG formátumba Java-ban
-url: /java/customizing-output/render-lafigures-png/
+url: /hu/java/customizing-output/render-lafigures-png/
 weight: 12
 ---
 

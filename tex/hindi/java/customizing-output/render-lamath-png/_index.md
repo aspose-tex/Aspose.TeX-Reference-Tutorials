@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: LaTeX समीकरण को Java में Aspose.TeX का उपयोग करके PNG में कैसे बदलें,
   सीखें। कोड नमूनों, सुझावों और समस्या निवारण के साथ चरण-दर-चरण मार्गदर्शिका।
-language: hi
 linktitle: Convert LaTeX Equation to PNG in Java
 second_title: Aspose.TeX Java API
 title: Aspose.TeX के साथ जावा में LaTeX समीकरण को PNG में बदलें
-url: /java/customizing-output/render-lamath-png/
+url: /hi/java/customizing-output/render-lamath-png/
 weight: 13
 ---
 
@@ -143,15 +142,15 @@ System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 
 आपने अब जावा में Aspose.TeX का उपयोग करके **LaTeX समीकरण को PNG में परिवर्तित** करना सीख लिया है। रेंडरिंग विकल्पों को समायोजित करके आप रिज़ॉल्यूशन, रंग, और स्केलिंग को किसी भी दृश्य आवश्यकता के अनुसार नियंत्रित कर सकते हैं। इस स्निपेट को बड़े रिपोर्टिंग टूल, वेब सर्विसेज, या शैक्षिक सॉफ़्टवेयर में एकीकृत करने में संकोच न करें।
 
+---
+
+**अंतिम अपडेट:** 2025-12-07  
+**टेस्टेड विथ:** Aspose.TeX 24.11 for Java  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-07  
-**टेस्टेड विथ:** Aspose.TeX 24.11 for Java  
-**लेखक:** Aspose

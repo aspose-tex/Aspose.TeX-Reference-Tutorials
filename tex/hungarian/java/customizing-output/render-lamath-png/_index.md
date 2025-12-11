@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Tanulja meg, hogyan konvertálhat LaTeX egyenletet PNG formátumba Java-ban
   az Aspose.TeX segítségével. Lépésről‑lépésre útmutató kódrészletekkel, tippekkel
   és hibaelhárítással.
-language: hu
 linktitle: Convert LaTeX Equation to PNG in Java
 second_title: Aspose.TeX Java API
 title: LaTeX egyenlet konvertálása PNG-re Java-ban az Aspose.TeX használatával
-url: /java/customizing-output/render-lamath-png/
+url: /hu/java/customizing-output/render-lamath-png/
 weight: 13
 ---
 
@@ -144,15 +143,15 @@ V: Látogasd meg az [Aspose.TeX fórumot](https://forum.aspose.com/c/tex/47), ah
 
 Most már megtanultad, hogyan **konvertálj LaTeX egyenletet PNG‑re** Java‑ban az Aspose.TeX segítségével. A renderelési beállítások finomhangolásával szabályozhatod a felbontást, színeket és méretezést, hogy bármilyen vizuális igényt kielégítsen. Nyugodtan integráld ezt a kódrészletet nagyobb jelentéskészítő eszközökbe, webszolgáltatásokba vagy oktatási szoftverekbe.
 
+---
+
+**Utoljára frissítve:** 2025-12-07  
+**Tesztelve:** Aspose.TeX 24.11 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-12-07  
-**Tesztelve:** Aspose.TeX 24.11 for Java  
-**Szerző:** Aspose
