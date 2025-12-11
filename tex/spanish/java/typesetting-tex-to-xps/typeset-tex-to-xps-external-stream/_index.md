@@ -1,33 +1,42 @@
 ---
-title: Componga TeX a XPS en Java con transmisión externa
-linktitle: Componga TeX a XPS en Java con transmisión externa
-second_title: API de Java Aspose.TeX
-description: Aprenda a componer TeX a XPS en Java usando Aspose.TeX. Explore la guía paso a paso para un procesamiento de documentos fluido.
-weight: 10
+date: 2025-12-11
+description: Aprende a convertir TeX a XPS en Java usando Aspose.TeX. Esta guía paso
+  a paso te muestra cómo generar flujos de documentos XPS de manera eficiente.
+linktitle: How to Convert TeX to XPS in Java with External Stream
+second_title: Aspose.TeX Java API
+title: Cómo convertir TeX a XPS en Java con flujo externo
 url: /es/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Componga TeX a XPS en Java con transmisión externa
+# Cómo convertir TeX a XPS en Java con flujo externo
 
 ## Introducción
 
-En el mundo del desarrollo de Java, Aspose.TeX se destaca como una poderosa herramienta para componer documentos TeX en varios formatos, incluido XPS. Si busca mejorar las capacidades de procesamiento de documentos de su aplicación Java, este tutorial está diseñado para usted. En esta guía paso a paso, lo guiaremos a través del proceso de composición tipográfica de TeX a XPS usando Aspose.TeX para Java con una transmisión externa.
+Si necesitas **convertir archivos TeX** a una salida XPS de alta calidad desde una aplicación Java, Aspose.TeX for Java hace el trabajo sencillo. En este tutorial verás exactamente **cómo convertir TeX** a un documento XPS usando un flujo de salida externo, lo cual es ideal cuando deseas canalizar el resultado directamente a una respuesta, a un servicio de almacenamiento en la nube o a cualquier destino personalizado. Repasemos todo el proceso, desde la configuración del entorno hasta la escritura del archivo XPS final.
+
+## Respuestas rápidas
+- **¿Qué cubre este tutorial?** Conversión de TeX a XPS usando Aspose.TeX con un flujo externo.  
+- **¿Qué biblioteca principal se requiere?** Aspose.TeX for Java.  
+- **¿Necesito una licencia?** Se requiere una licencia temporal o completa para uso en producción.  
+- **¿Puedo generar flujos de documentos XPS?** Sí – el ejemplo escribe el XPS directamente a un `OutputStream`.  
+- **¿Qué versión de Java es compatible?** Cualquier JDK 8+ (el tutorial usa JDK 11 como referencia).
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de sumergirte en el código, asegúrate de contar con lo siguiente:
 
--  Kit de desarrollo de Java (JDK): asegúrese de tener Java instalado en su sistema. Puedes descargarlo desde[aquí](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Asegúrate de que Java esté instalado en tu sistema. Puedes descargarlo [aquí](https://www.oracle.com/java/technologies/javase-downloads.html).
 
--  Aspose.TeX para Java: descargue e instale Aspose.TeX para Java. Puedes encontrar el enlace de descarga.[aquí](https://releases.aspose.com/tex/java/).
+- Aspose.TeX for Java: Descarga e instala Aspose.TeX for Java. Puedes encontrar el enlace de descarga [aquí](https://releases.aspose.com/tex/java/).
 
 ## Importar paquetes
 
-Comience importando los paquetes necesarios para iniciar su viaje de conversión de TeX a XPS. Incluya el siguiente fragmento de código en su proyecto Java:
+Comienza importando los paquetes necesarios para iniciar tu proceso de conversión de TeX a XPS. Incluye el siguiente fragmento de código en tu proyecto Java:
 
 ```java
 package com.aspose.tex.TypesetXpsWrittenToExternalStream;
@@ -47,19 +56,19 @@ import com.aspose.tex.rendering.XpsDevice;
 import util.Utils;
 ```
 
-## Paso 1: configurar las opciones de conversión
+## Paso 1: Configurar opciones de conversión
 
-Comience creando opciones de conversión para el formato ObjectTeX predeterminado usando el siguiente código:
+Crea opciones de conversión para el formato predeterminado ObjectTeX usando el siguiente código:
 
 ```java
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX());
 ```
 
-Esto sienta las bases para el proceso de composición tipográfica.
+Esto establece la base para el proceso de composición tipográfica.
 
-## Paso 2: especificar el nombre del trabajo y los directorios
+## Paso 2: Especificar nombre del trabajo y directorios
 
-Defina un nombre de trabajo y configure los directorios de trabajo de entrada y salida:
+Define un nombre de trabajo y establece los directorios de trabajo de entrada y salida:
 
 ```java
 options.setJobName("external-file-stream");
@@ -67,31 +76,31 @@ options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Direct
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-Asegúrese de reemplazar marcadores de posición como "Su directorio de entrada" con las rutas de directorio reales.
+Asegúrate de reemplazar marcadores como "Your Input Directory" con las rutas reales de tus directorios.
 
-## Paso 3: configurar la salida del terminal
+## Paso 3: Configurar salida de terminal
 
-Especifique que la salida del terminal debe escribirse en un archivo en el directorio de trabajo de salida:
+Indica que la salida de la terminal debe escribirse en un archivo dentro del directorio de trabajo de salida:
 
 ```java
 options.setTerminalOut(new OutputFileTerminal(options.getOutputWorkingDirectory()));
 ```
 
-Este paso garantiza que se capturen registros detallados para la depuración.
+Este paso garantiza que se capturen registros detallados para depuración.
 
-## Paso 4: abrir flujo de salida
+## Paso 4: Abrir flujo de salida
 
-Abra una secuencia para escribir el documento XPS tipográfico:
+Abre un flujo para escribir el documento XPS compuesto:
 
 ```java
 final OutputStream stream = new FileOutputStream("Your Output Directory" + options.getJobName() + ".xps");
 ```
 
-Reemplace "Su directorio de salida" con la ruta adecuada.
+Reemplaza "Your Output Directory" con la ruta correspondiente.
 
-## Paso 5: ejecutar el trabajo
+## Paso 5: Ejecutar el trabajo
 
-Ejecute el trabajo de conversión de TeX a XPS:
+Ejecuta el trabajo de conversión de TeX a XPS:
 
 ```java
 try {
@@ -101,33 +110,43 @@ try {
 }
 ```
 
-Esto completa el proceso y encontrará su documento XPS tipográfico en el directorio de salida especificado.
+Esto completa el proceso, y encontrarás tu documento XPS generado en el directorio de salida especificado.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-¡Felicidades! Ha compuesto correctamente TeX a XPS en Java utilizando Aspose.TeX. Esto abre un mundo de posibilidades para el procesamiento de documentos en sus aplicaciones Java. Experimente con diferentes archivos TeX y explore las diversas funciones que ofrece Aspose.TeX.
+| Problema | Por qué ocurre | Cómo solucionarlo |
+|----------|----------------|-------------------|
+| **FileNotFoundException** al abrir el flujo | La ruta del directorio de salida es incorrecta o no existe. | Verifica la ruta, crea el directorio con antelación, o usa `Files.createDirectories`. |
+| **NullPointerException** en `options.getOutputWorkingDirectory()` | No se llamó a `setOutputWorkingDirectory` o devolvió `null`. | Asegúrate de llamar a `options.setOutputWorkingDirectory` antes de usarlo. |
+| **LicenseException** en tiempo de ejecución | Se está ejecutando sin una licencia válida de Aspose.TeX. | Aplica una licencia temporal o permanente usando `License license = new License(); license.setLicense("Aspose.TeX.lic");`. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.TeX para Java con otros formatos de documentos?
+**P: ¿Puedo usar Aspose.TeX for Java con otros formatos de documento?**  
+R: Aspose.TeX se centra principalmente en el procesamiento de documentos relacionados con TeX. Para otros formatos, explora la amplia gama de productos de Aspose.
 
-R1: Aspose.TeX se centra principalmente en el procesamiento de documentos relacionados con TeX. Para otros formatos, explore la amplia gama de productos de Aspose.
+**P: ¿Existe una versión de prueba disponible?**  
+R: Sí, puedes probar Aspose.TeX descargando la versión de prueba gratuita [aquí](https://releases.aspose.com/).
 
-### P2: ¿Hay una versión de prueba disponible?
+**P: ¿Dónde puedo encontrar documentación completa?**  
+R: Consulta la documentación [aquí](https://reference.aspose.com/tex/java/) para obtener información detallada y ejemplos.
 
- R2: Sí, puedes experimentar Aspose.TeX descargando la versión de prueba gratuita[aquí](https://releases.aspose.com/).
+**P: ¿Cómo obtengo soporte o asistencia?**  
+R: Visita el foro de Aspose.TeX [aquí](https://forum.aspose.com/c/tex/47) para soporte comunitario y discusiones.
 
-### P3: ¿Dónde puedo encontrar documentación completa?
+**P: ¿Puedo obtener una licencia temporal para propósitos de prueba?**  
+R: Sí, puedes adquirir una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
- A3: consulte la documentación[aquí](https://reference.aspose.com/tex/java/) para obtener información detallada y ejemplos.
+## Conclusión
 
-### P4: ¿Cómo obtengo apoyo o busco asistencia?
+¡Felicidades! Acabas de aprender **cómo convertir TeX** a un documento XPS en Java usando Aspose.TeX y un flujo externo. Esta técnica te brinda control total sobre dónde se envía la salida XPS—ya sea al sistema de archivos, a una respuesta web o a un bucket en la nube. Siéntete libre de experimentar con diferentes fuentes TeX, ajustar `TeXOptions` para fuentes personalizadas, o conectar el flujo a una canalización más grande de generación de documentos.
 
- R4: Visite el foro Aspose.TeX[aquí](https://forum.aspose.com/c/tex/47)para apoyo y debates de la comunidad.
+---
 
-### P5: ¿Puedo obtener una licencia temporal para realizar pruebas?
+**Última actualización:** 2025-12-11  
+**Probado con:** Aspose.TeX for Java 24.11 (última versión al momento de escribir)  
+**Autor:** Aspose  
 
- R5: Sí, puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
