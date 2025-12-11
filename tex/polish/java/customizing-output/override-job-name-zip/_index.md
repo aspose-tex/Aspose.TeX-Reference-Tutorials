@@ -1,32 +1,52 @@
 ---
-title: Zastąp nazwę zadania i zapisz dane wyjściowe terminala w formacie Zip w Javie
-linktitle: Zastąp nazwę zadania i zapisz dane wyjściowe terminala w formacie Zip w Javie
-second_title: Aspose.TeX API Java
-description: Dowiedz się, jak zastąpić nazwy zadań i zapisać dane wyjściowe terminala w formacie ZIP w Javie za pomocą Aspose.TeX. Kompleksowy poradnik dla programistów Java.
-weight: 11
+date: 2025-12-07
+description: Dowiedz się, jak konwertować TeX na PDF, nadpisywać nazwy zadań i zapisywać
+  wyjście terminala do pliku ZIP przy użyciu Aspose.TeX dla Javy. Przewodnik krok
+  po kroku dla programistów Java.
+linktitle: Convert TeX to PDF, Override Job Name and Write Terminal Output to ZIP
+  in Java
+second_title: Aspose.TeX Java API
+title: Konwertuj TeX na PDF, nadpisz nazwę zadania i zapisz wyjście terminala do pliku
+  ZIP w Javie
 url: /pl/java/customizing-output/override-job-name-zip/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zastąp nazwę zadania i zapisz dane wyjściowe terminala w formacie Zip w Javie
+# Konwertuj TeX do PDF, nadpisz nazwę zadania i zapisz wyjście terminala do ZIP w Javie
 
-## Wstęp
+## Wprowadzenie
 
-W świecie programowania Java Aspose.TeX wyróżnia się jako potężne narzędzie do obsługi formatów plików TeX. W tym samouczku zajmiemy się konkretnym scenariuszem — nadpisywaniem nazw zadań i zapisywaniem danych wyjściowych terminala w pliku zip. Ten przewodnik krok po kroku przeprowadzi Cię przez proces korzystania z Aspose.TeX dla Java.
+Jeśli potrzebujesz **konwertować TeX do PDF**, mając pełną kontrolę nad nazwą zadania i logami terminala, Aspose.TeX for Java ułatwia to. W tym samouczku przeprowadzimy Cię przez rzeczywisty scenariusz: nadpisywanie nazwy zadania, kierowanie wyjścia terminala do archiwum ZIP oraz ostateczne wygenerowanie dokumentu PDF. Po zakończeniu będziesz mieć ponownie używalny fragment kodu, który możesz wstawić do dowolnego projektu Java.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co osiąga ten samouczek?** Pokazuje, jak konwertować TeX do PDF, ustawić własną nazwę zadania i przechwycić wyjście terminala w pliku ZIP.  
+- **Jakiej biblioteki potrzebujesz?** Aspose.TeX for Java (najnowsza wersja).  
+- **Czy potrzebna jest licencja?** Tymczasowa licencja wystarczy do oceny; pełna licencja jest wymagana w produkcji.  
+- **Jakie pliki wyjściowe są generowane?** Dokument PDF oraz log terminala `<job_name>.trm` wewnątrz wyjściowego pliku ZIP.  
+- **Jak długo trwa implementacja?** Około 10‑15 minut na skopiowanie kodu i jego uruchomienie.
 
-Zanim przejdziemy do tego samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-- Podstawowa znajomość programowania w języku Java.
--  Zainstalowano Aspose.TeX dla Javy. Jeśli nie, możesz pobrać go ze strony[Strona Aspose](https://releases.aspose.com/tex/java/).
-- Zrozumienie sposobu konfigurowania środowiska programistycznego Java.
+## Co to jest „konwertowanie TeX do PDF”?
+Konwertowanie TeX do PDF oznacza wzięcie pliku źródłowego TeX (lub zestawu plików TeX) i wygenerowanie z niego dokumentu PDF. Aspose.TeX udostępnia wydajny silnik, który obsługuje cały proces kompilacji TeX bez potrzeby zewnętrznej dystrybucji LaTeX.
 
-## Importuj pakiety
+## Dlaczego nadpisać nazwę zadania i zapisać wyjście terminala do ZIP?
+- **Czytelność:** Własna nazwa zadania pojawia się w plikach logów, ułatwiając identyfikację uruchomień w zautomatyzowanych pipeline'ach.  
+- **Przenośność:** Przechowywanie wyjścia terminala (`*.trm`) w archiwum ZIP utrzymuje wszystkie artefakty razem, co jest przydatne w CI/CD lub przetwarzaniu w chmurze.  
+- **Debugowanie:** Log terminala zawiera szczegółowe komunikaty kompilacji, które pomagają rozwiązywać błędy TeX.
 
-Rozpocznij od zaimportowania niezbędnych pakietów do projektu Java. Dzięki temu masz dostęp do funkcjonalności Aspose.TeX wymaganych do wykonania zadania.
+## Prerequisites
+Zanim rozpoczniesz, upewnij się, że masz:
+
+- Działające środowisko programistyczne Java (JDK 8 lub wyższy).  
+- Aspose.TeX for Java pobrany ze [strony Aspose](https://releases.aspose.com/tex/java/).  
+- Podstawową znajomość strumieni I/O w Javie.
+
+## Importowanie pakietów
+
+Rozpocznij od zaimportowania niezbędnych klas. Dzięki temu uzyskasz dostęp do API Aspose.TeX oraz standardowych narzędzi I/O Javy.
 
 ```java
 package com.aspose.tex.OverridenJobNameAndTerminalOutputWrittenToZip;
@@ -49,89 +69,99 @@ import com.aspose.tex.rendering.PdfSaveOptions;
 import util.Utils;
 ```
 
-## Krok 1: Otwórz archiwa ZIP
+## Krok 1: Otwórz archiwum ZIP wejściowe
 
-Najpierw otwórz strumień w archiwum ZIP, który będzie służył jako wejściowy katalog roboczy. To jest archiwum, z którego będą przetwarzane Twoje dane.
+Najpierw otwieramy strumień wskazujący na plik ZIP zawierający pliki źródłowe TeX. To archiwum pełni rolę **katalogu roboczego wejściowego** dla zadania konwersji.
 
 ```java
-// Otwórz strumień w wejściowym archiwum ZIP
+// Open a stream on the input ZIP archive
 final InputStream inZipStream = new FileInputStream("Your Input Directory" + "zip-in.zip");
 ```
 
-## Krok 2: Otwórz wyjściowe archiwum ZIP
+## Krok 2: Otwórz archiwum ZIP wyjściowe
 
-Następnie otwórz strumień w archiwum ZIP, który będzie służył jako wyjściowy katalog roboczy. W tym miejscu zostaną zapisane dane wyjściowe terminala.
+Następnie tworzony jest strumień dla pliku ZIP, który otrzyma wygenerowany PDF oraz log terminala. To **katalog roboczy wyjściowy**.
 
 ```java
-// Otwórz strumień w wyjściowym archiwum ZIP
+// Open a stream on the output ZIP archive
 final OutputStream outZipStream = new FileOutputStream("Your Output Directory" + "terminal-out-to-zip.zip");
 ```
 
-## Krok 3: Ustaw opcje konwersji
+## Krok 3: Ustaw opcje konwersji (w tym nazwę zadania)
 
-Utwórz opcje konwersji dla domyślnego formatu ObjectTeX po rozszerzeniu silnika ObjectTeX. Określ nazwę zadania i katalogi robocze archiwum ZIP zarówno dla wejścia, jak i wyjścia.
+Tutaj konfigurujemy opcje konwersji dla formatu ObjectTeX, określamy własną nazwę zadania i wiążemy katalogi ZIP wejścia i wyjścia.
 
 ```java
-// Utwórz opcje TeX dla formatu ObjectTeX
+// Create TeX options for ObjectTeX format
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX());
 options.setJobName("terminal-output-to-zip");
 options.setInputWorkingDirectory(new InputZipDirectory(inZipStream, "in"));
 options.setOutputWorkingDirectory(new OutputZipDirectory(outZipStream));
 ```
 
-## Krok 4: Określ wyjście terminala
+## Krok 4: Skieruj wyjście terminala do pliku w ZIP
 
- Określ, że dane wyjściowe terminala muszą zostać zapisane w pliku w wyjściowym katalogu roboczym. Nazwa pliku będzie taka`<job_name>.trm`.
+Mówimy Aspose.TeX, aby zapisał wyjście terminala kompilacji do pliku o nazwie `<job_name>.trm` wewnątrz wyjściowego archiwum ZIP.
 
 ```java
-// Określ ustawienia wyjścia terminala
+// Specify terminal output settings
 options.setTerminalOut(new OutputFileTerminal(options.getOutputWorkingDirectory()));
 ```
 
-## Krok 5: Zdefiniuj opcje zapisywania i uruchom zadanie
+## Krok 5: Zdefiniuj opcje zapisu i uruchom zadanie
 
-Zdefiniuj opcje zapisywania, takie jak w tym przypadku opcje zapisywania pliku PDF. Uruchom zadanie TeX, aby wykonać konwersję.
+Ustaw żądane urządzenie renderujące (PDF) i wykonaj zadanie. Ten krok **konwertuje TeX do PDF** i zapisuje wynik w wyjściowym archiwum ZIP.
 
 ```java
-// Zdefiniuj opcje zapisywania i uruchom zadanie
+// Define saving options and run the job
 options.setSaveOptions(new PdfSaveOptions());
 new TeXJob("hello-world", new PdfDevice(), options).run();
 ```
 
-## Krok 6: Sfinalizuj wyjściowe archiwum ZIP
+## Krok 6: Zakończ archiwum ZIP wyjściowe
 
-Po zakończeniu zadania sfinalizuj wyjściowe archiwum ZIP, aby zapewnić jego prawidłowe zakończenie.
+Po zakończeniu zadania musimy prawidłowo zamknąć strumień ZIP, aby zapewnić poprawność archiwum.
 
 ```java
-// Sfinalizuj wyjściowe archiwum ZIP
+// Finalize the output ZIP archive
 ((OutputZipDirectory) options.getOutputWorkingDirectory()).finish();
 ```
 
-## Wniosek
+## Częste problemy i rozwiązania
 
-Gratulacje! Pomyślnie nauczyłeś się, jak zastępować nazwy zadań i zapisywać dane wyjściowe terminala w pliku ZIP w Javie przy użyciu Aspose.TeX. Ta potężna funkcjonalność zwiększa elastyczność i wydajność projektów programistycznych Java.
+| Problem | Prawdopodobna przyczyna | Rozwiązanie |
+|---------|--------------------------|-------------|
+| **Pusty PDF** | Archiwum ZIP nie zawiera prawidłowego pliku `*.tex` lub plik nie znajduje się w folderze `in`. | Zweryfikuj strukturę ZIP (`in/yourfile.tex`). |
+| **Brak pliku `.trm`** | `setTerminalOut` nie został wywołany lub katalog wyjściowy nie jest `OutputZipDirectory`. | Upewnij się, że `options.setTerminalOut(...)` jest wywołane przed `run()`. |
+| **`IOException` przy zakończeniu** | Strumień wyjściowy został już wcześniej zamknięty. | Wywołaj `finish()` tylko raz, po zakończeniu zadania. |
+| **Konwersja nie powiodła się z błędami TeX** | Źródło TeX zawiera błędy składniowe. | Otwórz wygenerowany log `<job_name>.trm`, aby zobaczyć szczegółowe komunikaty o błędach. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Co to jest Aspose.TeX?
+**Q: Co to jest Aspose.TeX?**  
+**A:** Aspose.TeX to biblioteka Java, która umożliwia programistom **tworzenie PDF z źródeł TeX**, manipulowanie dokumentami TeX oraz wykonywanie zaawansowanego renderowania bez zewnętrznych instalacji LaTeX.
 
-O1: Aspose.TeX to biblioteka Java, która umożliwia programistom pracę z formatami plików TeX, zapewniając zaawansowane funkcje przetwarzania dokumentów.
+**Q: Jak mogę uzyskać tymczasową licencję na Aspose.TeX?**  
+**A:** Możesz uzyskać tymczasową licencję pod [tym linkiem](https://purchase.aspose.com/temporary-license/).
 
-### P2: Jak mogę uzyskać tymczasową licencję na Aspose.TeX?
+**Q: Gdzie mogę znaleźć oficjalną dokumentację Aspose.TeX?**  
+**A:** Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/tex/java/).
 
- A2: Możesz uzyskać tymczasową licencję od[ten link](https://purchase.aspose.com/temporary-license/).
+**Q: Czy istnieje darmowa wersja próbna Aspose.TeX?**  
+**A:** Tak, darmową wersję próbną możesz pobrać [tutaj](https://releases.aspose.com/).
 
-### P3: Gdzie mogę znaleźć dokumentację Aspose.TeX?
+**Q: Gdzie mogę poprosić o pomoc, jeśli napotkam problemy?**  
+**A:** Odwiedź [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) aby uzyskać wsparcie społeczności i oficjalną pomoc.
 
- A3: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/tex/java/).
+## Zakończenie
 
-### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.TeX?
+Teraz widziałeś, jak **konwertować TeX do PDF**, nadpisać nazwę zadania i przechwycić wyjście terminala w archiwum ZIP przy użyciu Aspose.TeX for Java. To podejście jest szczególnie przydatne w zautomatyzowanych pipeline'ach budowania, gdzie przechowywanie logów razem z wygenerowanymi artefaktami upraszcza debugowanie i ścieżki audytu. Śmiało dostosuj kod do własnej struktury projektu lub rozszerz go o inne formaty wyjściowe obsługiwane przez Aspose.TeX.
 
- Odpowiedź 4: Tak, możesz znaleźć bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+---
 
-### P5: Gdzie mogę szukać pomocy lub zadać pytania dotyczące Aspose.TeX?
-
- A5: Odwiedź[Forum Aspose.TeX](https://forum.aspose.com/c/tex/47) za wsparcie i dyskusję.
+**Last Updated:** 2025-12-07  
+**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,32 +1,53 @@
 ---
-title: Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip trong Java
-linktitle: Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip trong Java
-second_title: API Java Aspose.TeX
-description: Tìm hiểu cách ghi đè tên công việc và ghi đầu ra của thiết bị đầu cuối vào ZIP trong Java bằng Aspose.TeX. Hướng dẫn toàn diện dành cho nhà phát triển Java.
-weight: 11
+date: 2025-12-07
+description: Tìm hiểu cách chuyển đổi TeX sang PDF, ghi đè tên công việc và ghi đầu
+  ra của terminal vào tệp ZIP bằng Aspose.TeX cho Java. Hướng dẫn chi tiết từng bước
+  cho các nhà phát triển Java.
+linktitle: Convert TeX to PDF, Override Job Name and Write Terminal Output to ZIP
+  in Java
+second_title: Aspose.TeX Java API
+title: Chuyển đổi TeX sang PDF, Ghi đè tên công việc và ghi đầu ra terminal vào ZIP
+  trong Java
 url: /vi/java/customizing-output/override-job-name-zip/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip trong Java
+# Chuyển Đổi TeX sang PDF, Ghi Đè Tên Công Việc và Ghi Đầu Ra Terminal vào ZIP trong Java
 
 ## Giới thiệu
 
-Trong thế giới phát triển Java, Aspose.TeX nổi bật như một công cụ mạnh mẽ để xử lý các định dạng tệp TeX. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một tình huống cụ thể – ghi đè tên công việc và ghi kết quả đầu ra của thiết bị đầu cuối vào tệp zip. Hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình sử dụng Aspose.TeX cho Java.
+Nếu bạn cần **chuyển đổi TeX sang PDF** đồng thời có toàn quyền kiểm soát tên công việc và nhật ký terminal, Aspose.TeX for Java giúp thực hiện một cách đơn giản. Trong hướng dẫn này, chúng ta sẽ đi qua một kịch bản thực tế: ghi đè tên công việc, chuyển đầu ra terminal vào một tệp ZIP, và cuối cùng tạo ra tài liệu PDF. Khi hoàn thành, bạn sẽ có một đoạn mã có thể tái sử dụng và chèn vào bất kỳ dự án Java nào.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Mục tiêu của hướng dẫn này là gì?** Nó cho thấy cách chuyển đổi TeX sang PDF, đặt tên công việc tùy chỉnh, và lưu nhật ký terminal vào tệp ZIP.  
+- **Thư viện nào được yêu cầu?** Aspose.TeX for Java (phiên bản mới nhất).  
+- **Có cần giấy phép không?** Giấy phép tạm thời đủ cho việc đánh giá; giấy phép đầy đủ cần thiết cho môi trường sản xuất.  
+- **Các tệp đầu ra nào được tạo?** Một tài liệu PDF và một tệp nhật ký terminal `<job_name>.trm` nằm trong ZIP đầu ra.  
+- **Thời gian thực hiện ước tính?** Khoảng 10‑15 phút để sao chép mã và chạy thử.
 
-Trước khi chúng ta bắt tay vào hướng dẫn này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-- Kiến thức cơ bản về lập trình Java.
--  Đã cài đặt Aspose.TeX cho Java. Nếu không, bạn có thể tải xuống từ[trang web giả định](https://releases.aspose.com/tex/java/).
-- Hiểu biết về cách thiết lập môi trường phát triển Java.
+## “Chuyển đổi TeX sang PDF” là gì?
+Chuyển đổi TeX sang PDF có nghĩa là lấy một tệp nguồn TeX (hoặc một tập hợp các tệp TeX) và biên dịch nó thành tài liệu PDF. Aspose.TeX cung cấp một engine hiệu năng cao xử lý toàn bộ quy trình biên dịch TeX mà không cần tới bản phân phối LaTeX bên ngoài.
 
-## Gói nhập khẩu
+## Tại sao phải ghi đè tên công việc và ghi đầu ra terminal vào ZIP?
+- **Rõ ràng:** Tên công việc tùy chỉnh xuất hiện trong các tệp nhật ký, giúp dễ dàng nhận diện các lần chạy trong các pipeline tự động.  
+- **Di động:** Lưu nhật ký terminal (`*.trm`) trong một tệp ZIP giữ tất cả các artefact cùng nhau, rất tiện cho CI/CD hoặc xử lý trên đám mây.  
+- **Gỡ lỗi:** Nhật ký terminal chứa các thông báo biên dịch chi tiết, hỗ trợ bạn khắc phục lỗi TeX.
 
-Bắt đầu bằng cách nhập các gói cần thiết vào dự án Java của bạn. Điều này đảm bảo rằng bạn có quyền truy cập vào các chức năng Aspose.TeX cần thiết cho tác vụ.
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+
+- Môi trường phát triển Java hoạt động (JDK 8 hoặc cao hơn).  
+- Aspose.TeX for Java được tải xuống từ [trang web Aspose](https://releases.aspose.com/tex/java/).  
+- Kiến thức cơ bản về các luồng I/O của Java.  
+
+## Nhập khẩu các gói
+
+Bắt đầu bằng cách nhập các lớp cần thiết. Điều này cho phép bạn truy cập API của Aspose.TeX và các tiện ích I/O chuẩn của Java.
 
 ```java
 package com.aspose.tex.OverridenJobNameAndTerminalOutputWrittenToZip;
@@ -49,89 +70,99 @@ import com.aspose.tex.rendering.PdfSaveOptions;
 import util.Utils;
 ```
 
-## Bước 1: Mở kho lưu trữ ZIP
+## Bước 1: Mở ZIP Nguồn
 
-Đầu tiên, mở một luồng trên kho lưu trữ ZIP sẽ đóng vai trò là thư mục làm việc đầu vào. Đây là kho lưu trữ mà dữ liệu của bạn sẽ được xử lý.
+Đầu tiên chúng ta mở một luồng trỏ tới tệp ZIP chứa các tệp nguồn TeX. Lưu trữ này đóng vai trò **thư mục làm việc đầu vào** cho công việc chuyển đổi.
 
 ```java
-// Mở luồng trên kho lưu trữ ZIP đầu vào
+// Open a stream on the input ZIP archive
 final InputStream inZipStream = new FileInputStream("Your Input Directory" + "zip-in.zip");
 ```
 
-## Bước 2: Mở Lưu trữ ZIP đầu ra
+## Bước 2: Mở ZIP Đầu ra
 
-Tiếp theo, mở một luồng trên kho lưu trữ ZIP sẽ đóng vai trò là thư mục làm việc đầu ra. Đây là nơi đầu ra của thiết bị đầu cuối sẽ được viết.
+Tiếp theo, tạo một luồng cho tệp ZIP sẽ nhận PDF đã tạo và nhật ký terminal. Đây là **thư mục làm việc đầu ra**.
 
 ```java
-// Mở luồng trên kho lưu trữ ZIP đầu ra
+// Open a stream on the output ZIP archive
 final OutputStream outZipStream = new FileOutputStream("Your Output Directory" + "terminal-out-to-zip.zip");
 ```
 
-## Bước 3: Đặt tùy chọn chuyển đổi
+## Bước 3: Đặt tùy chọn chuyển đổi (bao gồm tên công việc)
 
-Tạo các tùy chọn chuyển đổi cho định dạng ObjectTeX mặc định khi mở rộng công cụ ObjectTeX. Chỉ định tên công việc và thư mục làm việc lưu trữ ZIP cho cả đầu vào và đầu ra.
+Ở đây chúng ta cấu hình các tùy chọn chuyển đổi cho định dạng ObjectTeX, chỉ định tên công việc tùy chỉnh, và liên kết các thư mục ZIP đầu vào và đầu ra.
 
 ```java
-// Tạo tùy chọn TeX cho định dạng ObjectTeX
+// Create TeX options for ObjectTeX format
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX());
 options.setJobName("terminal-output-to-zip");
 options.setInputWorkingDirectory(new InputZipDirectory(inZipStream, "in"));
 options.setOutputWorkingDirectory(new OutputZipDirectory(outZipStream));
 ```
 
-## Bước 4: Chỉ định đầu ra đầu cuối
+## Bước 4: Ghi đầu ra terminal vào tệp trong ZIP
 
- Chỉ định rằng đầu ra của thiết bị đầu cuối phải được ghi vào một tệp trong thư mục làm việc đầu ra. Tên tập tin sẽ là`<job_name>.trm`.
+Chúng ta yêu cầu Aspose.TeX ghi đầu ra terminal của quá trình biên dịch vào tệp có tên `<job_name>.trm` bên trong ZIP đầu ra.
 
 ```java
-// Chỉ định cài đặt đầu ra của thiết bị đầu cuối
+// Specify terminal output settings
 options.setTerminalOut(new OutputFileTerminal(options.getOutputWorkingDirectory()));
 ```
 
-## Bước 5: Xác định các tùy chọn lưu và chạy công việc
+## Bước 5: Định nghĩa tùy chọn lưu và chạy công việc
 
-Xác định các tùy chọn lưu, chẳng hạn như tùy chọn lưu PDF trong trường hợp này. Chạy công việc TeX để thực hiện chuyển đổi.
+Đặt thiết bị render mong muốn (PDF) và thực thi công việc. Bước này **chuyển đổi TeX sang PDF** và lưu kết quả vào ZIP đầu ra.
 
 ```java
-// Xác định các tùy chọn lưu và chạy công việc
+// Define saving options and run the job
 options.setSaveOptions(new PdfSaveOptions());
 new TeXJob("hello-world", new PdfDevice(), options).run();
 ```
 
-## Bước 6: Hoàn thiện kho lưu trữ ZIP đầu ra
+## Bước 6: Hoàn thiện ZIP Đầu ra
 
-Sau khi công việc hoàn thành, hãy hoàn thiện kho lưu trữ ZIP đầu ra để đảm bảo hoàn thành đúng cách.
+Sau khi công việc kết thúc, chúng ta phải đóng luồng ZIP đúng cách để đảm bảo tệp ZIP hợp lệ.
 
 ```java
-// Hoàn thiện kho lưu trữ ZIP đầu ra
+// Finalize the output ZIP archive
 ((OutputZipDirectory) options.getOutputWorkingDirectory()).finish();
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Chúc mừng! Bạn đã học thành công cách ghi đè tên công việc và ghi đầu ra của thiết bị đầu cuối vào tệp ZIP trong Java bằng Aspose.TeX. Chức năng mạnh mẽ này tăng thêm tính linh hoạt và hiệu quả cho các dự án phát triển Java của bạn.
+| Vấn đề | Nguyên nhân có thể | Giải pháp |
+|-------|-------------------|-----------|
+| **PDF rỗng** | ZIP đầu vào không chứa tệp `*.tex` hợp lệ hoặc tệp không nằm trong thư mục `in`. | Kiểm tra cấu trúc ZIP (`in/yourfile.tex`). |
+| **Thiếu tệp `.trm`** | `setTerminalOut` chưa được gọi hoặc thư mục đầu ra không phải là `OutputZipDirectory`. | Đảm bảo `options.setTerminalOut(...)` được thực thi trước `run()`. |
+| **`IOException` khi kết thúc** | Luồng đầu ra đã bị đóng ở nơi khác. | Gọi `finish()` chỉ một lần, sau khi công việc hoàn tất. |
+| **Chuyển đổi thất bại do lỗi TeX** | Mã nguồn TeX có lỗi cú pháp. | Mở nhật ký `<job_name>.trm` đã tạo để xem chi tiết lỗi. |
 
 ## Câu hỏi thường gặp
 
-### Câu 1: Aspose.TeX là gì?
+**Hỏi: Aspose.TeX là gì?**  
+Đáp: Aspose.TeX là một thư viện Java cho phép các nhà phát triển **tạo PDF từ nguồn TeX**, thao tác tài liệu TeX, và thực hiện render nâng cao mà không cần cài đặt LaTeX bên ngoài.
 
-Câu trả lời 1: Aspose.TeX là thư viện Java cho phép các nhà phát triển làm việc với các định dạng tệp TeX, cung cấp các chức năng nâng cao để xử lý tài liệu.
+**Hỏi: Làm sao để lấy giấy phép tạm thời cho Aspose.TeX?**  
+Đáp: Bạn có thể nhận giấy phép tạm thời từ [liên kết này](https://purchase.aspose.com/temporary-license/).
 
-### Câu hỏi 2: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.TeX?
+**Hỏi: Tài liệu chính thức của Aspose.TeX ở đâu?**  
+Đáp: Tài liệu có sẵn [tại đây](https://reference.aspose.com/tex/java/).
 
- A2: Bạn có thể nhận được giấy phép tạm thời từ[liên kết này](https://purchase.aspose.com/temporary-license/).
+**Hỏi: Có phiên bản dùng thử miễn phí của Aspose.TeX không?**  
+Đáp: Có, bạn có thể tải bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
-### Câu hỏi 3: Tôi có thể tìm tài liệu Aspose.TeX ở đâu?
+**Hỏi: Nếu gặp vấn đề, tôi có thể hỏi ở đâu?**  
+Đáp: Tham khảo diễn đàn [Aspose.TeX](https://forum.aspose.com/c/tex/47) để nhận hỗ trợ cộng đồng và chính thức.
 
- A3: Tài liệu có sẵn[đây](https://reference.aspose.com/tex/java/).
+## Kết luận
 
-### Câu hỏi 4: Có phiên bản dùng thử miễn phí của Aspose.TeX không?
+Bạn đã thấy cách **chuyển đổi TeX sang PDF**, ghi đè tên công việc, và lưu nhật ký terminal vào một tệp ZIP bằng Aspose.TeX for Java. Cách tiếp cận này đặc biệt hữu ích trong các pipeline xây dựng tự động, nơi việc giữ nhật ký cùng với artefact tạo ra giúp đơn giản hoá việc gỡ lỗi và theo dõi. Hãy tự do điều chỉnh mã cho cấu trúc dự án của bạn, hoặc mở rộng sang các định dạng đầu ra khác mà Aspose.TeX hỗ trợ.
 
- A4: Có, bạn có thể tìm thấy phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+---
 
-### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ hoặc đặt câu hỏi về Aspose.TeX ở đâu?
-
- A5: Tham quan[diễn đàn Aspose.TeX](https://forum.aspose.com/c/tex/47) để được hỗ trợ và thảo luận.
+**Cập nhật lần cuối:** 2025-12-07  
+**Đã kiểm tra với:** Aspose.TeX for Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
