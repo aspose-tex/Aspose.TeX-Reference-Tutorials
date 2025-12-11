@@ -63,19 +63,6 @@ Başlamak için hazırsanız? [Öğreticiyi şimdi keşfedin](./typeset-tex-to-x
 
 Aspose.TeX kullanarak Java'da TeX'i XPS'e nasıl dizgi (typeset) edeceğinizi öğrenin. Sorunsuz belge işleme için adım adım rehberliği keşfedin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java (latest release)  
-**Author:** Aspose  
-
 ## Sıkça Sorulan Sorular
 
 **Q: Bu dönüşümü bir web uygulamasında kullanabilir miyim?**  
@@ -92,3 +79,16 @@ A: Çıktıyı akış olarak alıp parçalar halinde işleyerek bellek kullanım
 
 **Q: XPS çıktısını (ör. DPI, renk uzayı) özelleştirebilir miyim?**  
 A: Evet. API, dönüşüm adımından önce render ayarlarını ayarlama seçenekleri sunar.
+
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java (latest release)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -63,19 +63,6 @@ weight: 30
 
 了解如何使用 Aspose.TeX 在 Java 中將 TeX 排版為 XPS。探索逐步指引，實現無縫的文件處理。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java (latest release)  
-**Author:** Aspose  
-
 ## 常見問題
 
 **Q: 我可以在 Web 應用程式中使用此轉換嗎？**  
@@ -94,3 +81,15 @@ A: 將輸出串流並分塊處理，以降低記憶體使用；Aspose.TeX 已針
 A: 可以。API 提供在轉換步驟前調整渲染設定的選項。
 
 ---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java (latest release)  
+**Author:** Aspose  
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

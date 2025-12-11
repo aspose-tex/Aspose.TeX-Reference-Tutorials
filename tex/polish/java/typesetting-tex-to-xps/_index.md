@@ -64,19 +64,6 @@ Gotowy, aby rozpocząć? [Zobacz samouczek teraz](./typeset-tex-to-xps-external-
 
 Dowiedz się, jak składać TeX do XPS w Javie przy użyciu Aspose.TeX. Poznaj wskazówki krok po kroku dla płynnego przetwarzania dokumentów.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java (latest release)  
-**Author:** Aspose  
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę używać tej konwersji w aplikacji webowej?**  
@@ -93,3 +80,16 @@ A: Strumieniuj wyjście i przetwarzaj je w fragmentach, aby utrzymać niskie zu�
 
 **Q: Czy mogę dostosować wyjście XPS (np. DPI, przestrzeń kolorów)?**  
 A: Tak. API udostępnia opcje regulacji ustawień renderowania przed krokiem konwersji.
+
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java (latest release)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

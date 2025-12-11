@@ -60,19 +60,6 @@ weight: 30
 ### [จัดรูป TeX ไปเป็น XPS ใน Java ด้วยสตรีมภายนอก](./typeset-tex-to-xps-external-stream/)
 เรียนรู้วิธีจัดรูป TeX ไปเป็น XPS ใน Java ด้วย Aspose.TeX สำรวจคำแนะนำทีละขั้นตอนสำหรับการประมวลผลเอกสารที่ราบรื่น
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java (latest release)  
-**Author:** Aspose  
-
 ## คำถามที่พบบ่อย
 
 **Q: สามารถใช้การแปลงนี้ในเว็บแอปพลิเคชันได้หรือไม่?**  
@@ -91,3 +78,14 @@ A: สตรีมผลลัพธ์และประมวลผลเป�
 A: ได้ API มีตัวเลือกให้ปรับการตั้งค่าเรนเดอร์ก่อนขั้นตอนการแปลง
 
 ---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java (latest release)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

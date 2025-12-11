@@ -62,18 +62,6 @@ weight: 30
 ### [تنضيد TeX إلى XPS في Java باستخدام تدفق خارجي](./typeset-tex-to-xps-external-stream/)
 تعلم كيفية تنضيد TeX إلى XPS في Java باستخدام Aspose.TeX. استكشف إرشادات خطوة‑بخطوة لمعالجة مستندات سلسة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java (latest release)  
-**Author:** Aspose  
 
 ## الأسئلة المتكررة
 
@@ -91,3 +79,16 @@ A: قم ببث الإخراج ومعالجته على دفعات للحفاظ ع
 
 **Q: هل يمكنني تخصيص ناتج XPS (مثل DPI، مساحة اللون)؟**  
 A: نعم. توفر API خيارات لضبط إعدادات التصيير قبل خطوة التحويل.
+
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java (latest release)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

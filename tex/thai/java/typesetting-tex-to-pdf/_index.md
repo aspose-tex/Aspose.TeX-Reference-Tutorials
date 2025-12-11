@@ -91,15 +91,15 @@ Java PDF conversion หมายถึงกระบวนการนำเน
 ### [จัดรูป TeX เป็น PDF ใน Java ด้วย External Stream](./typeset-tex-to-pdf-external-stream/)
 เรียนรู้วิธีจัดรูป TeX เป็น PDF ใน Java ด้วยการใช้ external streams ร่วมกับ Aspose.TeX ปฏิบัติตามคู่มือแบบขั้นตอนของเราเพื่อการผสานที่ราบรื่น.
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-11  
+**ทดสอบด้วย:** Aspose.TeX for Java 24.11  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-11  
-**ทดสอบด้วย:** Aspose.TeX for Java 24.11  
-**ผู้เขียน:** Aspose

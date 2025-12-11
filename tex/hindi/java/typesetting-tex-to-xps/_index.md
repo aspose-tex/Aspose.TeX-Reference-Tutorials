@@ -60,19 +60,6 @@ weight: 30
 ### [बाहरी स्ट्रीम के साथ जावा में TeX को XPS में टाइपसेट करें](./typeset-tex-to-xps-external-stream/)
 Aspose.TeX का उपयोग करके जावा में TeX को XPS में टाइपसेट करना सीखें। सहज दस्तावेज़ प्रोसेसिंग के लिए चरण‑दर‑चरण मार्गदर्शन का अन्वेषण करें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम:** 2025-12-11  
-**परीक्षण किया गया:** Aspose.TeX for Java (latest release)  
-**लेखक:** Aspose  
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्र: क्या मैं इस रूपांतरण को वेब एप्लिकेशन में उपयोग कर सकता हूँ?**  
@@ -89,3 +76,16 @@ Aspose.TeX का उपयोग करके जावा में TeX को
 
 **प्र: क्या मैं XPS आउटपुट को अनुकूलित कर सकता हूँ (जैसे DPI, कलर स्पेस)?**  
 उ: हाँ। API रूपांतरण चरण से पहले रेंडरिंग सेटिंग्स को समायोजित करने के विकल्प प्रदान करता है।
+
+---
+
+**अंतिम:** 2025-12-11  
+**परीक्षण किया गया:** Aspose.TeX for Java (latest release)  
+**लेखक:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

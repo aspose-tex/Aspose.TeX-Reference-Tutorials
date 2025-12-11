@@ -60,19 +60,6 @@ Jste připraveni začít? [Prozkoumejte tutoriál nyní](./typeset-tex-to-xps-ex
 ### [Sazba TeX do XPS v Javě s externím streamem](./typeset-tex-to-xps-external-stream/)
 Naučte se, jak v Javě pomocí Aspose.TeX sazbu TeX do XPS. Prozkoumejte krok‑za‑krokem návod pro bezproblémové zpracování dokumentů.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-11  
-**Testováno s:** Aspose.TeX for Java (nejnovější verze)  
-**Autor:** Aspose  
-
 ## Často kladené otázky
 
 **Q:** Mohu tuto konverzi použít ve webové aplikaci?  
@@ -91,3 +78,14 @@ Naučte se, jak v Javě pomocí Aspose.TeX sazbu TeX do XPS. Prozkoumejte krok�
 **A:** Ano. API poskytuje možnosti nastavení renderování před samotným konverzním krokem.
 
 ---
+
+**Poslední aktualizace:** 2025-12-11  
+**Testováno s:** Aspose.TeX for Java (nejnovější verze)  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

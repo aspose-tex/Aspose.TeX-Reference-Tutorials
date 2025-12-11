@@ -91,15 +91,15 @@ Gratulacje! Dotarłeś do końca naszego samouczka **java pdf conversion**. Uzbr
 ### [Składanie TeX do PDF w Javie przy użyciu zewnętrznego strumienia](./typeset-tex-to-pdf-external-stream/)
 Dowiedz się, jak składać TeX do PDF w Javie przy użyciu zewnętrznych strumieni z Aspose.TeX. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynną integrację.
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose

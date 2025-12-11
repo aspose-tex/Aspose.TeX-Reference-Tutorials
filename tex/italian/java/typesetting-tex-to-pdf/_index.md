@@ -92,15 +92,15 @@ Congratulazioni! Hai raggiunto la fine del nostro tutorial **java pdf conversion
 ### [Impaginare TeX in PDF in Java con Stream Esterno](./typeset-tex-to-pdf-external-stream/)
 Scopri come impaginare TeX in PDF in Java usando stream esterni con Aspose.TeX. Segui la nostra guida passo‑passo per un'integrazione senza soluzione di continuità.
 
+---
+
+**Ultimo aggiornamento:** 2025-12-11  
+**Testato con:** Aspose.TeX for Java 24.11  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-11  
-**Testato con:** Aspose.TeX for Java 24.11  
-**Autore:** Aspose

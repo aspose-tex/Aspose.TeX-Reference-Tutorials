@@ -90,15 +90,15 @@ Java PDF conversion 是指將內容（無論是純文字、LaTeX/TeX 等標記�
 ### [使用外部串流在 Java 中排版 TeX 為 PDF](./typeset-tex-to-pdf-external-stream/)
 了解如何使用 Aspose.TeX 透過外部串流在 Java 中將 TeX 排版為 PDF。遵循我們的逐步指南，即可順利整合。
 
+---
+
+**最後更新：** 2025-12-11  
+**測試環境：** Aspose.TeX for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-11  
-**測試環境：** Aspose.TeX for Java 24.11  
-**作者：** Aspose

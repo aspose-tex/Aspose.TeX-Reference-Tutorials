@@ -60,19 +60,6 @@ Java에서 TeX를 XPS로 타입셋팅할 때 외부 스트림을 사용하는 �
 ### [External Stream을 이용한 Java에서 TeX를 XPS로 타입셋팅](./typeset-tex-to-xps-external-stream/)
 Aspose.TeX를 사용해 Java에서 TeX를 XPS로 타입셋팅하는 방법을 배웁니다. 원활한 문서 처리를 위한 단계별 가이드를 확인하세요.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-11  
-**테스트 환경:** Aspose.TeX for Java (최신 릴리스)  
-**작성자:** Aspose  
-
 ## 자주 묻는 질문
 
 **Q:** 이 변환을 웹 애플리케이션에서 사용할 수 있나요?  
@@ -89,3 +76,16 @@ Aspose.TeX를 사용해 Java에서 TeX를 XPS로 타입셋팅하는 방법을 �
 
 **Q:** XPS 출력(DPI, 색 공간 등)을 커스터마이징할 수 있나요?  
 **A:** 예. 변환 단계 전에 렌더링 설정을 조정할 수 있는 API 옵션을 제공합니다.
+
+---
+
+**마지막 업데이트:** 2025-12-11  
+**테스트 환경:** Aspose.TeX for Java (최신 릴리스)  
+**작성자:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -91,17 +91,15 @@ Herzlichen Glückwunsch! Sie haben das **java pdf conversion**‑Tutorial erfolg
 ### [TeX zu PDF in Java mit externem Stream](./typeset-tex-to-pdf-external-stream/)
 Erfahren Sie, wie Sie TeX zu PDF in Java mithilfe externer Streams und Aspose.TeX setzen. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für eine nahtlose Integration.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-11  
 **Getestet mit:** Aspose.TeX für Java 24.11  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -92,15 +92,15 @@ Selamat! Anda telah menyelesaikan tutorial **java pdf conversion** kami. Dengan 
 ### [Menyusun TeX menjadi PDF di Java dengan Stream Eksternal](./typeset-tex-to-pdf-external-stream/)
 Pelajari cara menyusun TeX menjadi PDF di Java menggunakan stream eksternal dengan Aspose.TeX. Ikuti panduan langkah‑demi‑langkah kami untuk integrasi yang mulus.
 
+---
+
+**Terakhir Diperbarui:** 2025-12-11  
+**Diuji Dengan:** Aspose.TeX for Java 24.11  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-11  
-**Diuji Dengan:** Aspose.TeX for Java 24.11  
-**Penulis:** Aspose

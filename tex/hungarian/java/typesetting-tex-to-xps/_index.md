@@ -60,19 +60,6 @@ Készen állsz a kezdésre? [Fedezd fel az útmutatót most](./typeset-tex-to-xp
 ### [TeX tipográfia XPS-re Java-ban külső stream használatával](./typeset-tex-to-xps-external-stream/)
 Ismerd meg, hogyan tipográfizálj TeX-et XPS-re Java-ban az Aspose.TeX segítségével. Fedezd fel a lépésről‑lépésre útmutatót a zökkenőmentes dokumentumfeldolgozáshoz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java (latest release)  
-**Author:** Aspose  
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom ezt a konverziót webalkalmazásban?**  
@@ -89,3 +76,16 @@ A: Streameld a kimenetet, és darabokban dolgozd fel, hogy alacsony maradjon a m
 
 **Q: Testreszabhatom az XPS kimenetet (pl. DPI, színterület)?**  
 A: Igen. Az API lehetőséget biztosít a renderelési beállítások módosítására a konverziós lépés előtt.
+
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java (latest release)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

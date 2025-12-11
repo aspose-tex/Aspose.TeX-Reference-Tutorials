@@ -63,19 +63,6 @@ Ready to get started? [Explore the tutorial now](./typeset-tex-to-xps-external-s
 ### [Typeset TeX to XPS in Java with External Stream](./typeset-tex-to-xps-external-stream/)
 了解如何使用 Aspose.TeX 在 Java 中将 TeX 排版为 XPS。探索逐步指导，实现无缝的文档处理。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java (latest release)  
-**Author:** Aspose  
-
 ## 常见问题
 
 **Q: 我可以在 Web 应用中使用此转换吗？**  
@@ -94,3 +81,14 @@ A: 通过流式输出并分块处理，以保持低内存占用；Aspose.TeX 已
 A: 可以。API 提供在转换步骤前调整渲染设置的选项。
 
 ---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java (latest release)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

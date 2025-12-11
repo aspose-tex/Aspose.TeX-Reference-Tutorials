@@ -65,19 +65,6 @@ Ya seas un desarrollador Java que busca mejorar las capacidades de procesamiento
 
 Aprende cómo componer TeX a XPS en Java usando Aspose.TeX. Explora una guía paso a paso para un procesamiento de documentos sin interrupciones.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java (latest release)  
-**Author:** Aspose  
-
 ## Preguntas frecuentes
 
 **P: ¿Puedo usar esta conversión en una aplicación web?**  
@@ -96,3 +83,14 @@ R: Transmite la salida y procésala en fragmentos para mantener bajo el uso de m
 R: Sí. La API ofrece opciones para ajustar la configuración de renderizado antes del paso de conversión.
 
 ---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java (latest release)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

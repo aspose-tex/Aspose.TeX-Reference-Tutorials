@@ -88,13 +88,6 @@ Zjistěte, jak snadno vykreslit LaTeX obrázky do SVG v Javě pomocí Aspose.TeX
 ### [Vykreslení LaTeX matematiky do SVG v Javě](./render-lamath-svg/)
 Naučte se vykreslovat LaTeX matematické rovnice do SVG v Javě pomocí Aspose.TeX. Sledujte náš krok‑za‑krokem průvodce pro přesné a vizuálně atraktivní výsledky.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.TeX k převodu LaTeX do SVG ve webové aplikaci?**  
@@ -117,3 +110,10 @@ A: Aspose.TeX podporuje Java 8 a novější verze.
 **Last Updated:** 2025-12-11  
 **Tested With:** Aspose.TeX for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

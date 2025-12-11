@@ -86,13 +86,6 @@ Aspose.TeX for Java 的关键功能之一是能够 **覆盖作业名称** 并 **
 ### [在 Java 中将 LaTeX 数学渲染为 SVG](./render-lamath-svg/)
 学习使用 Aspose.TeX 在 Java 中将 LaTeX 数学公式渲染为 SVG。遵循我们的逐步指南，获得准确且视觉上令人满意的结果。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **问：我可以在 Web 应用中使用 Aspose.TeX 将 LaTeX 转换为 SVG 吗？**  
@@ -115,3 +108,10 @@ Aspose.TeX for Java 的关键功能之一是能够 **覆盖作业名称** 并 **
 **最后更新：** 2025-12-11  
 **测试环境：** Aspose.TeX for Java 24.11  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

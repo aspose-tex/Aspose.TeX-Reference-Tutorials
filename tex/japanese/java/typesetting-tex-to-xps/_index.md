@@ -61,19 +61,6 @@ Java で TeX を XPS に組版する際に外部ストリームを使用する�
 ### [外部ストリームで Java の TeX を XPS に組版](./typeset-tex-to-xps-external-stream/)
 Aspose.TeX を使用して Java で TeX を XPS に組版する方法を学びます。シームレスなドキュメント処理のためのステップバイステップガイダンスをご確認ください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java (latest release)  
-**Author:** Aspose  
-
 ## よくある質問
 
 **Q: この変換をウェブアプリケーションで使用できますか？**  
@@ -90,3 +77,16 @@ A: 出力をストリームし、チャンク単位で処理することでメ�
 
 **Q: XPS 出力（例：DPI、カラースペース）をカスタマイズできますか？**  
 A: はい。API では変換前にレンダリング設定を調整するオプションが提供されています。
+
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java (latest release)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

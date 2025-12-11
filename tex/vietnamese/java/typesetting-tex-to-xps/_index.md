@@ -61,19 +61,6 @@ Ready to get started? [Explore the tutorial now](./typeset-tex-to-xps-external-s
 ### [Typeset TeX to XPS in Java with External Stream](./typeset-tex-to-xps-external-stream/)
 Tìm hiểu cách dàn trang TeX sang XPS trong Java bằng Aspose.TeX. Khám phá hướng dẫn từng bước để xử lý tài liệu liền mạch.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java (latest release)  
-**Author:** Aspose  
-
 ## Frequently Asked Questions
 
 **Q: Can I use this conversion in a web application?**  
@@ -90,3 +77,16 @@ A: Stream đầu ra và xử lý theo từng khối để giữ mức sử dụn
 
 **Q: Can I customize the XPS output (e.g., DPI, color space)?**  
 A: Có. API cung cấp các tùy chọn để điều chỉnh cài đặt render trước bước chuyển đổi.
+
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java (latest release)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

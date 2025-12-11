@@ -87,13 +87,6 @@ Aspose.TeX का उपयोग करके Java में LaTeX फ़िग
 ### [Java में LaTeX गणित को SVG में रेंडर करें](./render-lamath-svg/)
 Aspose.TeX के साथ Java में LaTeX गणित समीकरणों को SVG में रेंडर करना सीखें। सटीक और दृश्य रूप से आकर्षक परिणामों के लिए हमारे चरण‑बद्ध गाइड का पालन करें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं Aspose.TeX का उपयोग करके वेब एप्लिकेशन में LaTeX को SVG में बदल सकता हूँ?**  
@@ -116,3 +109,10 @@ A: Aspose.TeX Java 8 और उसके बाद के संस्करण�
 **Last Updated:** 2025-12-11  
 **Tested With:** Aspose.TeX for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

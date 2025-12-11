@@ -92,15 +92,15 @@ Grattis! Du har nått slutet på vår **java pdf conversion**‑handledning. Bev
 
 Lär dig hur du formaterar TeX till PDF i Java med externa strömmar med Aspose.TeX. Följ vår steg‑för‑steg‑guide för sömlös integration.
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose

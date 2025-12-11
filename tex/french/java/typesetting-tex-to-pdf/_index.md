@@ -93,15 +93,15 @@ Félicitations ! Vous avez atteint la fin de notre tutoriel **java pdf convers
 ### [Mise en forme de TeX en PDF avec Java et flux externe](./typeset-tex-to-pdf-external-stream/)
 Apprenez à mettre en forme TeX en PDF avec Java en utilisant des flux externes avec Aspose.TeX. Suivez notre guide pas à pas pour une intégration fluide.
 
+---
+
+**Dernière mise à jour :** 2025-12-11  
+**Testé avec :** Aspose.TeX for Java 24.11  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-11  
-**Testé avec :** Aspose.TeX for Java 24.11  
-**Auteur :** Aspose

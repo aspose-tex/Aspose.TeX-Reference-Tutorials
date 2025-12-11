@@ -95,13 +95,6 @@ weight: 26
 
 Узнайте, как рендерить математические уравнения LaTeX в SVG на Java с помощью Aspose.TeX. Следуйте нашему пошаговому руководству для получения точных и визуально привлекательных результатов.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Могу ли я использовать Aspose.TeX для конвертации LaTeX в SVG в веб‑приложении?**  
@@ -124,3 +117,10 @@ A: Aspose.TeX поддерживает Java 8 и более поздние в�
 **Последнее обновление:** 2025-12-11  
 **Тестировано с:** Aspose.TeX for Java 24.11  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

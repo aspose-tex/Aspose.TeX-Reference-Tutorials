@@ -95,13 +95,6 @@ Dowiedz się, jak bez wysiłku renderować figury LaTeX do SVG w Javie przy uży
 
 Dowiedz się, jak renderować równania matematyczne LaTeX do SVG w Javie przy użyciu Aspose.TeX. Skorzystaj z naszego przewodnika krok po kroku, aby uzyskać dokładne i atrakcyjne wizualnie wyniki.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę używać Aspose.TeX do konwersji LaTeX do SVG w aplikacji webowej?**  
@@ -124,3 +117,10 @@ A: Aspose.TeX obsługuje Javę 8 i nowsze wersje.
 **Ostatnia aktualizacja:** 2025-12-11  
 **Testowano z:** Aspose.TeX for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

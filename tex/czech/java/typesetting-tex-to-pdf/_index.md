@@ -91,15 +91,15 @@ Gratulujeme! Dospěli jste na konec našeho tutoriálu **java pdf conversion**. 
 ### [Sazba TeX do PDF v Javě s externím streamem](./typeset-tex-to-pdf-external-stream/)
 Naučte se, jak sazbu TeX do PDF v Javě pomocí externích streamů s Aspose.TeX. Postupujte podle našeho krok‑za‑krokem průvodce pro bezproblémovou integraci.
 
+---
+
+**Poslední aktualizace:** 2025-12-11  
+**Testováno s:** Aspose.TeX for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-11  
-**Testováno s:** Aspose.TeX for Java 24.11  
-**Autor:** Aspose

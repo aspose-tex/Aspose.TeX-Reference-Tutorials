@@ -93,15 +93,15 @@ Java PDF conversion — это процесс получения контент�
 
 Узнайте, как набирать TeX в PDF на Java с использованием внешних потоков и Aspose.TeX. Следуйте нашему пошаговому руководству для бесшовной интеграции.
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose

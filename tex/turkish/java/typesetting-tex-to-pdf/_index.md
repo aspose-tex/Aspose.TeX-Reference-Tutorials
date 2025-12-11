@@ -91,15 +91,15 @@ Tebrikler! **java pdf conversion** öğreticimizin sonuna geldiniz. Aspose.TeX f
 ### [Harici Akış ile Java'da TeX'i PDF'e Dökümleme](./typeset-tex-to-pdf-external-stream/)
 Harici akışları Aspose.TeX ile kullanarak Java'da TeX'i PDF'e nasıl dökümleyeceğinizi öğrenin. Sorunsuz entegrasyon için adım adım rehberimizi izleyin.
 
+---
+
+**Son Güncelleme:** 2025-12-11  
+**Test Edilen Versiyon:** Aspose.TeX for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-11  
-**Test Edilen Versiyon:** Aspose.TeX for Java 24.11  
-**Yazar:** Aspose

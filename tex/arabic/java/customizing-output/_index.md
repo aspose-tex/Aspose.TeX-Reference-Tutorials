@@ -86,13 +86,6 @@ weight: 26
 ### [تحويل معادلات LaTeX الرياضية إلى SVG في Java](./render-lamath-svg/)
 تعلم كيفية تحويل معادلات LaTeX الرياضية إلى SVG في Java باستخدام Aspose.TeX. اتبع دليلنا خطوة بخطوة للحصول على نتائج دقيقة وجذابة بصريًا.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.TeX لتحويل LaTeX إلى SVG في تطبيق ويب؟**  
@@ -115,3 +108,10 @@ weight: 26
 **آخر تحديث:** 2025-12-11  
 **تم الاختبار مع:** Aspose.TeX للـ Java 24.11  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

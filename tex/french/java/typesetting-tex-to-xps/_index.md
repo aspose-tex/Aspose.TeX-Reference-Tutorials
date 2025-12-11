@@ -61,19 +61,6 @@ Ready to get started? [Explore the tutorial now](./typeset-tex-to-xps-external-s
 ### [Typeset TeX to XPS in Java with External Stream](./typeset-tex-to-xps-external-stream/)
 Learn how to typeset TeX to XPS in Java using Aspose.TeX. Explore step‑by‑step guidance for seamless document processing.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java (latest release)  
-**Author:** Aspose  
-
 ## Frequently Asked Questions
 
 **Q: Can I use this conversion in a web application?**  
@@ -92,3 +79,14 @@ A: Stream the output and process it in chunks to keep memory usage low; Aspose.T
 A: Yes. The API provides options to adjust rendering settings before the conversion step.
 
 ---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java (latest release)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

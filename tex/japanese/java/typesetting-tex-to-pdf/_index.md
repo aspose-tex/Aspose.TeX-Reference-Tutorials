@@ -91,17 +91,15 @@ TeX コンテンツはファイル、文字列、任意の `InputStream` から�
 ### [Typeset TeX to PDF in Java with External Stream](./typeset-tex-to-pdf-external-stream/)
 Aspose.TeX を使用した外部ストリームによる Java での TeX から PDF への組版方法を学びます。シームレスな統合のためのステップバイステップガイドをご確認ください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-11  
 **Tested With:** Aspose.TeX for Java 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

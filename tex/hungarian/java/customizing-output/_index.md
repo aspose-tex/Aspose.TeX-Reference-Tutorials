@@ -88,13 +88,6 @@ Tanuld meg, hogyan rendereld könnyedén a LaTeX ábrákat SVG‑be Java‑ban a
 ### [LaTeX matematikai képletek renderelése SVG‑be Java‑ban](./render-lamath-svg/)
 Tanuld meg, hogyan rendereld a LaTeX matematikai egyenleteket SVG‑be Java‑ban az Aspose.TeX‑szel. Kövesd lépésről‑lépésre útmutatónkat a pontos és vizuálisan vonzó eredményekért.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom az Aspose.TeX‑et a LaTeX SVG‑re konvertálásához webalkalmazásban?**  
@@ -117,3 +110,10 @@ A: Az Aspose.TeX támogatja a Java 8‑at és az azt követő verziókat.
 **Legutóbb frissítve:** 2025-12-11  
 **Tesztelve:** Aspose.TeX for Java 24.11  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

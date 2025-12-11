@@ -90,15 +90,15 @@ Java PDF conversion 指的是使用 Java 代码将内容——无论是纯文本
 ### [在 Java 中使用外部流排版 TeX 为 PDF](./typeset-tex-to-pdf-external-stream/)
 了解如何使用 Aspose.TeX 通过外部流在 Java 中排版 TeX 为 PDF。遵循我们的步骤指南，实现无缝集成。
 
+---
+
+**最后更新：** 2025-12-11  
+**测试环境：** Aspose.TeX for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-11  
-**测试环境：** Aspose.TeX for Java 24.11  
-**作者：** Aspose

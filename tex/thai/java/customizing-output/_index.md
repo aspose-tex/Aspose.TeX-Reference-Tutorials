@@ -88,13 +88,6 @@ weight: 26
 ### [เรนเดอร์คณิตศาสตร์ LaTeX เป็น SVG ใน Java](./render-lamath-svg/)
 เรียนรู้การเรนเดอร์สมการคณิตศาสตร์ LaTeX เป็น SVG ใน Java ด้วย Aspose.TeX ทำตามคำแนะนำแบบขั้นตอนของเราเพื่อผลลัพธ์ที่แม่นยำและสวยงาม
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
 **Q: สามารถใช้ Aspose.TeX เพื่อแปลง LaTeX เป็น SVG ในแอปพลิเคชันเว็บได้หรือไม่?**  
@@ -117,3 +110,10 @@ A: Aspose.TeX รองรับ Java 8 ขึ้นไป
 **อัปเดตล่าสุด:** 2025-12-11  
 **ทดสอบด้วย:** Aspose.TeX for Java 24.11  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

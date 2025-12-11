@@ -63,19 +63,6 @@ Pronto per iniziare? [Esplora il tutorial ora](./typeset-tex-to-xps-external-str
 
 Scopri come formattare TeX in XPS in Java usando Aspose.TeX. Esplora una guida passo passo per un'elaborazione documenti senza interruzioni.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java (latest release)  
-**Author:** Aspose  
-
 ## Domande frequenti
 
 **Q: Posso usare questa conversione in un'applicazione web?**  
@@ -94,3 +81,14 @@ A: Trasmetti lo stream dell'output e processalo a blocchi per mantenere basso l'
 A: Sì. L'API fornisce opzioni per regolare le impostazioni di rendering prima del passaggio di conversione.
 
 ---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java (latest release)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

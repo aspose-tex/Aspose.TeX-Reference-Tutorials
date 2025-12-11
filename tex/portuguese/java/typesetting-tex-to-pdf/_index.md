@@ -92,15 +92,15 @@ Parabéns! Você chegou ao final do nosso tutorial de **java pdf conversion**. A
 ### [Tipografe TeX para PDF em Java com Stream Externo](./typeset-tex-to-pdf-external-stream/)
 Aprenda como tipografar TeX para PDF em Java usando streams externos com Aspose.TeX. Siga nosso guia passo a passo para integração perfeita.
 
+---
+
+**Última Atualização:** 2025-12-11  
+**Testado com:** Aspose.TeX for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2025-12-11  
-**Testado com:** Aspose.TeX for Java 24.11  
-**Autor:** Aspose

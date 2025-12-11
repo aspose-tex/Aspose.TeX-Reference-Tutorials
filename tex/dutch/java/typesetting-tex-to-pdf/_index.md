@@ -91,15 +91,15 @@ Gefeliciteerd! Je hebt het einde van onze **java pdf conversion** tutorial berei
 ### [TeX opmaken naar PDF in Java met externe stream](./typeset-tex-to-pdf-external-stream/)
 Leer hoe je TeX naar PDF kunt opmaken in Java met behulp van externe streams en Aspose.TeX. Volg onze stap‑voor‑stap‑gids voor naadloze integratie.
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose

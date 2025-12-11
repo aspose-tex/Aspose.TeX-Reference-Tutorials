@@ -91,17 +91,15 @@ weight: 28
 ### [Typeset TeX to PDF in Java with External Stream](./typeset-tex-to-pdf-external-stream/)
 Learn how to typeset TeX to PDF in Java using external streams with Aspose.TeX. Follow our step‑by‑step guide for seamless integration.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-11  
 **Tested With:** Aspose.TeX for Java 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

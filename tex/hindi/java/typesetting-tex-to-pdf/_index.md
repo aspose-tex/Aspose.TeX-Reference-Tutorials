@@ -89,15 +89,15 @@ Maven/Gradle डिपेंडेंसी (या JAR डाउनलोड) �
 ### [जावा में बाहरी स्ट्रीम के साथ TeX को PDF में टाइपसेट करें](./typeset-tex-to-pdf-external-stream/)
 Aspose.TeX के साथ बाहरी स्ट्रीम्स का उपयोग करके जावा में TeX को PDF में टाइपसेट करना सीखें। सहज इंटीग्रेशन के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose

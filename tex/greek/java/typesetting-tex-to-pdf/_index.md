@@ -92,15 +92,15 @@ weight: 28
 ### [Στοίχιση TeX σε PDF με Java και Εξωτερική Ροή](./typeset-tex-to-pdf-external-stream/)
 Μάθετε πώς να στοιχίζετε TeX σε PDF με Java χρησιμοποιώντας εξωτερικές ροές με το Aspose.TeX. Ακολουθήστε τον οδηγό βήμα‑βήμα για αδιάλειπτη ενσωμάτωση.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-11  
+**Δοκιμή Με:** Aspose.TeX for Java 24.11  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-11  
-**Δοκιμή Με:** Aspose.TeX for Java 24.11  
-**Συγγραφέας:** Aspose

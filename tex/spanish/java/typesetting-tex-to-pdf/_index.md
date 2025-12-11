@@ -91,15 +91,15 @@ Una vez que el stream se cierra, puedes devolver los bytes del PDF a un cliente,
 ### [Componer TeX a PDF en Java con Stream externo](./typeset-tex-to-pdf-external-stream/)
 Aprende cómo componer TeX a PDF en Java usando streams externos con Aspose.TeX. Sigue nuestra guía paso a paso para una integración sin fisuras.
 
+---
+
+**Última actualización:** 2025-12-11  
+**Probado con:** Aspose.TeX for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-11  
-**Probado con:** Aspose.TeX for Java 24.11  
-**Autor:** Aspose

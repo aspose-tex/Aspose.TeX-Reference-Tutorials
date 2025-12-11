@@ -87,13 +87,6 @@ Erfahren Sie, wie Sie mühelos LaTeX‑Abbildungen zu SVG in Java mit Aspose.TeX
 ### [LaTeX‑Mathe nach SVG in Java rendern](./render-lamath-svg/)
 Erfahren Sie, wie Sie LaTeX‑Mathe‑Formeln zu SVG in Java mit Aspose.TeX rendern. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für genaue und optisch ansprechende Ergebnisse.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Kann ich Aspose.TeX verwenden, um LaTeX in einer Web‑Anwendung zu SVG zu konvertieren?**  
@@ -116,3 +109,10 @@ A: Aspose.TeX unterstützt Java 8 und neuere Versionen.
 **Last Updated:** 2025-12-11  
 **Tested With:** Aspose.TeX for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

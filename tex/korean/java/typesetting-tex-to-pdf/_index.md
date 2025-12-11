@@ -91,15 +91,15 @@ Maven/Gradle 의존성을 추가하거나 JAR 파일을 다운로드하고 필�
 ### [Typeset TeX to PDF in Java with External Stream](./typeset-tex-to-pdf-external-stream/)
 Aspose.TeX를 사용한 외부 스트림 기반 Java에서 TeX를 PDF로 조판하는 방법을 배우세요. 원활한 통합을 위한 단계별 가이드를 제공합니다.
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.TeX for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose

@@ -61,19 +61,6 @@ weight: 30
 ### [Τυποποίηση TeX σε XPS σε Java με External Stream](./typeset-tex-to-xps-external-stream/)
 Μάθετε πώς να τυποποιήσετε TeX σε XPS σε Java χρησιμοποιώντας το Aspose.TeX. Εξερευνήστε καθοδήγηση βήμα‑βήμα για απρόσκοπτη επεξεργασία εγγράφων.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-11  
-**Δοκιμή Με:** Aspose.TeX for Java (τελευταία έκδοση)  
-**Συγγραφέας:** Aspose  
-
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να χρησιμοποιήσω αυτή τη μετατροπή σε web application;**  
@@ -92,3 +79,14 @@ weight: 30
 Α: Ναι. Το API παρέχει επιλογές για ρύθμιση των παραμέτρων απόδοσης πριν το βήμα μετατροπής.
 
 ---
+
+**Τελευταία Ενημέρωση:** 2025-12-11  
+**Δοκιμή Με:** Aspose.TeX for Java (τελευταία έκδοση)  
+**Συγγραφέας:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
