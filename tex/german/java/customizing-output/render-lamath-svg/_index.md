@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Erfahren Sie, wie Sie LaTeX‑Mathegleichungen rendern und LaTeX in SVG
   in Java mit Aspose.TeX konvertieren. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung,
   um SVG aus LaTeX schnell und zuverlässig zu erzeugen.
-language: de
 linktitle: How to Render LaTeX Math to SVG in Java
 second_title: Aspose.TeX Java API
 title: Wie man LaTeX‑Mathematik in Java zu SVG rendert
-url: /java/customizing-output/render-lamath-svg/
+url: /de/java/customizing-output/render-lamath-svg/
 weight: 15
 ---
 

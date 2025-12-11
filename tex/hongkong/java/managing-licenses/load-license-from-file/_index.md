@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 學習 Aspose.TeX 的 Java 授權管理。本指南說明如何從檔案載入授權以及如何在 Java 中設定授權。
-language: zh-hant
 linktitle: 'Java License Management: Load TeX License from File'
 second_title: Aspose.TeX Java API
 title: Java 授權管理：從檔案載入 TeX 授權
-url: /java/managing-licenses/load-license-from-file/
+url: /zh-hant/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
@@ -126,17 +125,15 @@ A4：是的，您可在此取得臨時授權 [here](https://purchase.aspose.com/
 
 A5：文件可在此取得 [here](https://reference.aspose.com/tex/java/)。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-12-08  
 **測試環境：** Aspose.TeX for Java 24.12（最新）  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

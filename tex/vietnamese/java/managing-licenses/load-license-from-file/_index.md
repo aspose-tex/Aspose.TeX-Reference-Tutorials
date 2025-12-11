@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Học quản lý giấy phép Java với Aspose.TeX. Hướng dẫn này chỉ cách tải
   giấy phép từ tệp và cách thiết lập giấy phép trong Java.
-language: vi
 linktitle: 'Java License Management: Load TeX License from File'
 second_title: Aspose.TeX Java API
 title: 'Quản lý giấy phép Java: Tải giấy phép TeX từ tệp'
-url: /java/managing-licenses/load-license-from-file/
+url: /vi/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
@@ -125,17 +124,15 @@ A4: Có, bạn có thể nhận giấy phép tạm thời [tại đây](https://
 
 A5: Tài liệu có sẵn [tại đây](https://reference.aspose.com/tex/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-08  
 **Kiểm thử với:** Aspose.TeX for Java 24.12 (mới nhất)  
 **Tác giả:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

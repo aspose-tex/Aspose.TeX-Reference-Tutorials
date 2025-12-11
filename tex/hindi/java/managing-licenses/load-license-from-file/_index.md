@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.TeX के साथ जावा लाइसेंस प्रबंधन सीखें। यह गाइड दिखाता है कि फ़ाइल
   से लाइसेंस कैसे लोड करें और जावा में लाइसेंस कैसे सेट करें।
-language: hi
 linktitle: 'Java License Management: Load TeX License from File'
 second_title: Aspose.TeX Java API
 title: 'जावा लाइसेंस प्रबंधन: फ़ाइल से टेक्स लाइसेंस लोड करें'
-url: /java/managing-licenses/load-license-from-file/
+url: /hi/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
@@ -125,15 +124,15 @@ A4: हाँ, आप एक अस्थायी लाइसेंस [here](
 
 A5: दस्तावेज़ीकरण [here](https://reference.aspose.com/tex/java/) पर उपलब्ध है।
 
+---
+
+**अंतिम अपडेट:** 2025-12-08  
+**परीक्षण किया गया:** Aspose for Java 24.12 (latest)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-08  
-**परीक्षण किया गया:** Aspose for Java 24.12 (latest)  
-**लेखक:** Aspose

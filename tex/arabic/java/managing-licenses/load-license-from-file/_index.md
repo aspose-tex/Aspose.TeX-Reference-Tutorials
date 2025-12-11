@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: تعرّف على إدارة تراخيص جافا باستخدام Aspose.TeX. يوضح هذا الدليل كيفية
   تحميل الترخيص من ملف وكيفية تعيين الترخيص في جافا.
-language: ar
 linktitle: 'Java License Management: Load TeX License from File'
 second_title: Aspose.TeX Java API
 title: 'إدارة تراخيص جافا: تحميل ترخيص TeX من ملف'
-url: /java/managing-licenses/load-license-from-file/
+url: /ar/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
@@ -125,17 +124,15 @@ System.out.println("License set successfully.");
 
 ج5: الوثائق متاحة [هنا](https://reference.aspose.com/tex/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-08  
 **تم الاختبار مع:** Aspose.TeX for Java 24.12 (latest)  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

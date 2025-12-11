@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: เรียนรู้การจัดการใบอนุญาต Java ด้วย Aspose.TeX คู่มือนี้แสดงวิธีโหลดใบอนุญาตจากไฟล์และวิธีตั้งค่าใบอนุญาตใน
   Java.
-language: th
 linktitle: 'Java License Management: Load TeX License from File'
 second_title: Aspose.TeX Java API
 title: 'การจัดการใบอนุญาต Java: โหลดใบอนุญาต TeX จากไฟล์'
-url: /java/managing-licenses/load-license-from-file/
+url: /th/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
@@ -125,17 +124,15 @@ A4: มี, คุณสามารถขอใบอนุญาตชั่�
 
 A5: เอกสารอ้างอิงพร้อมใช้งานได้ [ที่นี่](https://reference.aspose.com/tex/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2025-12-08  
 **ทดสอบด้วย:** Aspose.TeX for Java 24.12 (latest)  
 **ผู้เขียน:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 学习使用 Aspose.TeX 进行 Java 许可证管理。本指南展示了如何从文件加载许可证以及如何在 Java 中设置许可证。
-language: zh
 linktitle: 'Java License Management: Load TeX License from File'
 second_title: Aspose.TeX Java API
 title: Java 许可证管理：从文件加载 TeX 许可证
-url: /java/managing-licenses/load-license-from-file/
+url: /zh/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
@@ -124,17 +123,15 @@ A4: 是的，您可以在[此处](https://purchase.aspose.com/temporary-license/
 
 A5: 文档可在[此处](https://reference.aspose.com/tex/java/)查看。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-08  
 **测试环境：** Aspose.TeX for Java 24.12（最新）  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

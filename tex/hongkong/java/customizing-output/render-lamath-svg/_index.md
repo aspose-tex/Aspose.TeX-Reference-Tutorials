@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: 學習如何在 Java 中使用 Aspose.TeX 渲染 LaTeX 數學方程式並將 LaTeX 轉換為 SVG。遵循此一步一步的指南，快速且可靠地從
   LaTeX 產生 SVG。
-language: zh-hant
 linktitle: How to Render LaTeX Math to SVG in Java
 second_title: Aspose.TeX Java API
 title: 如何在 Java 中將 LaTeX 數學公式渲染為 SVG
-url: /java/customizing-output/render-lamath-svg/
+url: /zh-hant/java/customizing-output/render-lamath-svg/
 weight: 15
 ---
 

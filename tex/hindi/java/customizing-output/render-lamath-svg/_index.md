@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aspose.TeX का उपयोग करके जावा में LaTeX गणित समीकरणों को रेंडर करना और
   LaTeX को SVG में बदलना सीखें। LaTeX से SVG को तेज़ और विश्वसनीय रूप से उत्पन्न करने
   के लिए इस चरण‑दर‑चरण गाइड का पालन करें।
-language: hi
 linktitle: How to Render LaTeX Math to SVG in Java
 second_title: Aspose.TeX Java API
 title: जावा में LaTeX गणित को SVG में रेंडर करने का तरीका
-url: /java/customizing-output/render-lamath-svg/
+url: /hi/java/customizing-output/render-lamath-svg/
 weight: 15
 ---
 

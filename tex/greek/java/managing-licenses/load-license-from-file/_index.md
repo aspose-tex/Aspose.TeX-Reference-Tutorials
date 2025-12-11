@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Μάθετε τη διαχείριση αδειών Java με το Aspose.TeX. Αυτός ο οδηγός δείχνει
   πώς να φορτώσετε την άδεια από αρχείο και πώς να ορίσετε την άδεια στη Java.
-language: el
 linktitle: 'Java License Management: Load TeX License from File'
 second_title: Aspose.TeX Java API
 title: 'Διαχείριση Άδειας Java: Φόρτωση Άδειας TeX από Αρχείο'
-url: /java/managing-licenses/load-license-from-file/
+url: /el/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
@@ -125,15 +124,15 @@ A4: Ναι, μπορείτε να αποκτήσετε μια προσωρινή
 
 A5: Η τεκμηρίωση είναι διαθέσιμη [εδώ](https://reference.aspose.com/tex/java/).
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.TeX for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.TeX for Java 24.12 (latest)  
-**Author:** Aspose

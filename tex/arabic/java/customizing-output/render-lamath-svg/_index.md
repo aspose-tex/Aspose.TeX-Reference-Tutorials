@@ -3,11 +3,10 @@ date: 2025-12-08
 description: تعلم كيفية عرض معادلات الرياضيات بصيغة LaTeX وتحويل LaTeX إلى SVG في
   جافا باستخدام Aspose.TeX. اتبع هذا الدليل خطوة بخطوة لتوليد SVG من LaTeX بسرعة وبشكل
   موثوق.
-language: ar
 linktitle: How to Render LaTeX Math to SVG in Java
 second_title: Aspose.TeX Java API
 title: كيفية تحويل رياضيات LaTeX إلى SVG في Java
-url: /java/customizing-output/render-lamath-svg/
+url: /ar/java/customizing-output/render-lamath-svg/
 weight: 15
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: Aspose.TeXでJavaのライセンス管理を学びましょう。このガイドでは、ファイルからライセンスを読み込む方法と、Javaでライセンスを設定する方法を示します。
-language: ja
 linktitle: 'Java License Management: Load TeX License from File'
 second_title: Aspose.TeX Java API
 title: Java ライセンス管理：ファイルから TeX ライセンスを読み込む
-url: /java/managing-licenses/load-license-from-file/
+url: /ja/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
@@ -126,17 +125,15 @@ A4: はい、一時ライセンスは [here](https://purchase.aspose.com/tempora
 
 A5: ドキュメントは [here](https://reference.aspose.com/tex/java/) にあります。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-08  
 **Tested With:** Aspose.TeX for Java 24.12 (latest)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

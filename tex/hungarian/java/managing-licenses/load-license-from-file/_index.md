@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Ismerje meg a Java licenckezelést az Aspose.TeX segítségével. Ez az útmutató
   bemutatja, hogyan töltsön be licencet fájlból, és hogyan állítsa be a licencet Java-ban.
-language: hu
 linktitle: 'Java License Management: Load TeX License from File'
 second_title: Aspose.TeX Java API
 title: 'Java licenckezelés: TeX licenc betöltése fájlból'
-url: /java/managing-licenses/load-license-from-file/
+url: /hu/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
@@ -125,17 +124,15 @@ A4: Igen, ideiglenes licencet szerezhetsz [itt](https://purchase.aspose.com/temp
 
 A5: A dokumentáció elérhető [itt](https://reference.aspose.com/tex/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Legutóbb frissítve:** 2025-12-08  
 **Tesztelt verzió:** Aspose.TeX for Java 24.12 (legújabb)  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
