@@ -48,13 +48,6 @@ weight: 25
 ### [إعداد ترخيص مقاس لـ Aspose.TeX في Java](./set-metered-license/)
 افتح الإمكانات الكاملة لـ Aspose.TeX في Java من خلال إعداد ترخيص مقاس. اتبع دليلنا خطوة بخطوة لتحقيق دمج سلس.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني التحويل من ترخيص قائم على ملف إلى ترخيص مقاس دون إعادة نشر التطبيق؟**  
@@ -77,3 +70,10 @@ A: بالتأكيد. ملف الترخيص غير معتمد على المنصة
 **آخر تحديث:** 2025-12-09  
 **تم الاختبار مع:** Aspose.TeX للـ Java 23.12  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

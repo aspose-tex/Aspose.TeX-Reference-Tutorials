@@ -48,13 +48,6 @@ Fedezd fel az Aspose.TeX for Java erejét lépésről lépésre útmutatónkkal 
 ### [Mérő licenc beállítása az Aspose.TeX számára Java-ban](./set-metered-license/)
 Szabadítsd fel az Aspose.TeX teljes potenciálját Java-ban egy mérő licenc beállításával. Kövesd lépésről lépésre útmutatónkat a zökkenőmentes integrációhoz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Át tudok váltani fájl‑alapú licencről mérő licencre az alkalmazás újra‑telepítése nélkül?**  
@@ -77,3 +70,10 @@ A: Természetesen. A licencfájl platform‑független, amíg a fájlútvonal he
 **Last Updated:** 2025-12-09  
 **Tested With:** Aspose.TeX for Java 23.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

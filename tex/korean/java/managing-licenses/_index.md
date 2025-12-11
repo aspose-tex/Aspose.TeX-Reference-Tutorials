@@ -48,13 +48,6 @@ Aspose.TeX for Java의 강력함을 단계별 가이드를 통해 스트림에�
 ### [Java에서 Aspose.TeX에 대한 Metered 라이선스 설정](./set-metered-license/)
 Metered 라이선스를 설정하여 Java에서 Aspose.TeX의 전체 잠재력을 발휘하세요. 원활한 통합을 위한 단계별 가이드를 따라 주세요.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: 파일 기반 라이선스에서 Metered 라이선스로 애플리케이션을 재배포하지 않고 전환할 수 있나요?**  
@@ -77,3 +70,10 @@ A: 물론 가능합니다. 파일 경로가 올바르고 접근 가능하기만 
 **마지막 업데이트:** 2025-12-09  
 **테스트 환경:** Aspose.TeX for Java 23.12  
 **작성자:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

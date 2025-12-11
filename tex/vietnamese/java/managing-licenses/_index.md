@@ -48,13 +48,6 @@ Khám phá sức mạnh của Aspose.TeX cho Java với hướng dẫn từng b�
 ### [Thiết lập giấy phép tính theo mức cho Aspose.TeX trong Java](./set-metered-license/)
 Mở khóa toàn bộ tiềm năng của Aspose.TeX trong Java bằng cách thiết lập giấy phép tính theo mức. Thực hiện theo hướng dẫn từng bước của chúng tôi để tích hợp suôn sẻ.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể chuyển từ giấy phép dựa trên tệp sang giấy phép tính theo mức mà không cần triển khai lại ứng dụng không?**  
@@ -77,3 +70,10 @@ A: Hoàn toàn có thể. Tệp giấy phép không phụ thuộc vào nền t�
 **Cập nhật lần cuối:** 2025-12-09  
 **Kiểm tra với:** Aspose.TeX cho Java 23.12  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

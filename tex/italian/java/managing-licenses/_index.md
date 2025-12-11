@@ -51,13 +51,6 @@ Esplora la potenza di Aspose.TeX per Java con la nostra guida passo‑passo sul 
 ### [Imposta licenza a consumo per Aspose.TeX in Java](./set-metered-license/)
 Sblocca tutto il potenziale di Aspose.TeX in Java impostando una licenza a consumo. Segui la nostra guida passo‑passo per un'integrazione senza problemi.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande frequenti
 
 **Q: Posso passare da una licenza basata su file a una licenza a consumo senza ridistribuire l'applicazione?**  
@@ -80,3 +73,10 @@ A: Assolutamente. Il file di licenza è indipendente dalla piattaforma, purché 
 **Last Updated:** 2025-12-09  
 **Tested With:** Aspose.TeX for Java 23.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

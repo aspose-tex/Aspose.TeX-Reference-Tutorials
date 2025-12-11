@@ -49,13 +49,6 @@ weight: 25
 ### [为 Aspose.TeX 设置计量许可证（Java）](./set-metered-license/)
 通过设置计量许可证，释放 Aspose.TeX 在 Java 中的全部潜能。遵循我们的逐步指南，实现无缝集成。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 我可以在不重新部署应用程序的情况下，将基于文件的许可证切换为计量许可证吗？**  
@@ -78,3 +71,10 @@ A: 当然可以。只要文件路径正确且可访问，许可证文件与平�
 **最后更新：** 2025-12-09  
 **测试环境：** Aspose.TeX for Java 23.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

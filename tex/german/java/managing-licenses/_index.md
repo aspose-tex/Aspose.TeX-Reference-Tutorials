@@ -49,13 +49,6 @@ Entdecken Sie die Leistungsfähigkeit von Aspose.TeX für Java mit unserem Schri
 ### [Nutzungsbasierte Lizenz für Aspose.TeX in Java festlegen](./set-metered-license/)
 Entfesseln Sie das volle Potenzial von Aspose.TeX in Java, indem Sie eine nutzungsbasierte Lizenz einrichten. Folgen Sie unserem Schritt‑für‑Schritt‑Leitfaden für eine nahtlose Integration.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich von einer dateibasierten Lizenz zu einer nutzungsbasierten Lizenz wechseln, ohne die Anwendung neu bereitzustellen?**  
@@ -78,3 +71,10 @@ A: Ja. Die Lizenzdatei ist plattformunabhängig, solange der Dateipfad korrekt u
 **Zuletzt aktualisiert:** 2025-12-09  
 **Getestet mit:** Aspose.TeX for Java 23.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -48,13 +48,6 @@ weight: 25
 ### [Set Metered License for Aspose.TeX in Java](./set-metered-license/)
 Αποκτήστε το πλήρες δυναμικό του Aspose.TeX σε Java ρυθμίζοντας μια άδεια μετρητή. Ακολουθήστε τον βήμα‑προς‑βήμα οδηγό μας για αβίαστη ενσωμάτωση.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να μεταβώ από άδεια βασισμένη σε αρχείο σε άδεια μετρητή χωρίς να επανααναπτύξω την εφαρμογή;**  
@@ -77,3 +70,10 @@ A: Απόλυτα. Το αρχείο άδειας είναι ανεξάρτητ�
 **Τελευταία Ενημέρωση:** 2025-12-09  
 **Δοκιμή Με:** Aspose.TeX for Java 23.12  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

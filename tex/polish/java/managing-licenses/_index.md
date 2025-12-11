@@ -51,13 +51,6 @@ Poznaj moc Aspose.TeX for Java dzięki naszemu przewodnikowi krok po kroku dotyc
 ### [Ustawienie licencji rozliczanej dla Aspose.TeX w Javie](./set-metered-license/)
 Odblokuj pełny potencjał Aspose.TeX w Javie, konfigurując licencję rozliczaną. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić płynną integrację.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę przełączyć licencję opartą na pliku na licencję rozliczaną bez ponownego wdrażania aplikacji?**  
@@ -80,3 +73,10 @@ A: Oczywiście. Plik licencji jest niezależny od platformy, o ile ścieżka do 
 **Ostatnia aktualizacja:** 2025-12-09  
 **Testowano z:** Aspose.TeX for Java 23.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

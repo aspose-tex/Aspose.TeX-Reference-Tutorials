@@ -48,13 +48,6 @@ weight: 25
 ### [ตั้งค่าใบอนุญาตแบบเมตริกสำหรับ Aspose.TeX ใน Java](./set-metered-license/)
 ปลดล็อกศักยภาพเต็มของ Aspose.TeX ใน Java ด้วยการตั้งค่าใบอนุญาตแบบเมตริก ทำตามคู่มือแบบขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
 **Q: ฉันสามารถสลับจากใบอนุญาตแบบไฟล์ไปเป็นใบอนุญาตแบบเมตริกโดยไม่ต้องปรับใช้แอปพลิเคชันใหม่ได้หรือไม่?**  
@@ -77,3 +70,10 @@ A: แน่นอน. ไฟล์ใบอนุญาตเป็นแบบ
 **อัปเดตล่าสุด:** 2025-12-09  
 **ทดสอบกับ:** Aspose.TeX for Java 23.12  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

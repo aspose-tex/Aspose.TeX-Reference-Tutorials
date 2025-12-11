@@ -49,13 +49,6 @@ Explore o poder do Aspose.TeX para Java com nosso guia passo a passo sobre como 
 ### [Definir Licença por Medição para Aspose.TeX em Java](./set-metered-license/)
 Desbloqueie todo o potencial do Aspose.TeX em Java configurando uma licença por medição. Siga nosso guia passo a passo para uma integração perfeita.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q: Posso mudar de uma licença baseada em arquivo para uma licença por medição sem redeploy da aplicação?**  
@@ -78,3 +71,10 @@ A: Absolutamente. O arquivo de licença é independente de plataforma, desde que
 **Última Atualização:** 2025-12-09  
 **Testado com:** Aspose.TeX for Java 23.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

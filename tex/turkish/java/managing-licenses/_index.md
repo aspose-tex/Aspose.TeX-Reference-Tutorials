@@ -48,13 +48,6 @@ Aspose.TeX for Java'ın gücünü, akışlardan TeX lisanslarını yükleme üze
 ### [Set Metered License for Aspose.TeX in Java](./set-metered-license/)
 Java'da Aspose.TeX'in tam potansiyelini ortaya çıkarmak için metered lisans kurun. Sorunsuz entegrasyon için adım adım rehberimizi izleyin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sık Sorulan Sorular
 
 **S: Dosya tabanlı bir lisansı, uygulamayı yeniden dağıtmadan metered lisansa geçirebilir miyim?**  
@@ -77,3 +70,10 @@ C: Kesinlikle. Lisans dosyası, dosya yolu doğru ve erişilebilir olduğu süre
 **Son Güncelleme:** 2025-12-09  
 **Test Edildiği Versiyon:** Aspose.TeX for Java 23.12  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

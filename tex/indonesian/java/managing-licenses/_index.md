@@ -51,13 +51,6 @@ Jelajahi kekuatan Aspose.TeX untuk Java dengan panduan langkah demi langkah kami
 ### [Mengatur Lisensi Metered untuk Aspose.TeX di Java](./set-metered-license/)
 Buka potensi penuh Aspose.TeX di Java dengan mengatur lisensi metered. Ikuti panduan langkah demi langkah kami untuk integrasi yang mulus.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya beralih dari lisensi berbasis file ke lisensi metered tanpa menyebarkan ulang aplikasi?**  
@@ -80,3 +73,10 @@ A: Tentu saja. File lisensi bersifat platform‑agnostic selama jalur file benar
 **Terakhir Diperbarui:** 2025-12-09  
 **Diuji Dengan:** Aspose.TeX for Java 23.12  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

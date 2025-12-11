@@ -50,13 +50,6 @@ Aspose.TeX for Java のパワーを、ストリームから TeX ライセンス�
 ### [Java で Aspose.TeX のメーターベース ライセンスを設定する](./set-metered-license/)
 Java で Aspose.TeX のフルポテンシャルを引き出すために、メーターベース ライセンスを設定しましょう。シームレスな統合のために、ステップバイステップ ガイドに従ってください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## よくある質問
 
 **Q: ファイルベースのライセンスからメーターベースのライセンスへ、アプリケーションを再デプロイせずに切り替えることはできますか？**  
@@ -79,3 +72,10 @@ A: もちろんです。ファイルパスが正しくアクセス可能であ�
 **最終更新日:** 2025-12-09  
 **テスト対象:** Aspose.TeX for Java 23.12  
 **作成者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

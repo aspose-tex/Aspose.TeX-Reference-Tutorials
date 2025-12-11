@@ -49,13 +49,6 @@ weight: 25
 ### [在 Java 中設定 Aspose.TeX 計量授權](./set-metered-license/)
 透過設定計量授權，解鎖 Aspose.TeX 在 Java 中的全部潛能。遵循我們的逐步指南，實現無縫整合。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在不重新部署應用程式的情況下，將檔案式授權切換為計量授權嗎？**  
@@ -78,3 +71,10 @@ A: 當然可以。只要檔案路徑正確且可存取，授權檔案即與平�
 **最後更新：** 2025-12-09  
 **測試環境：** Aspose.TeX for Java 23.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
