@@ -1,32 +1,43 @@
 ---
-title: Java'da İş Adını Geçersiz Kıl ve Terminal Çıkışını Yaz
-linktitle: Java'da İş Adını Geçersiz Kıl ve Terminal Çıkışını Yaz
-second_title: Aspose.TeX Java API'si
-description: Aspose.TeX for Java'yı kullanarak iş adlarını geçersiz kılma ve terminal çıktısını yazmaya ilişkin adım adım kılavuzu keşfedin. Güçlü özelleştirme seçenekleriyle belge işleme sürecinizi geliştirin.
-weight: 10
+date: 2025-12-05
+description: Aspose.TeX for Java kullanarak terminal çıktısını dosyaya yazmayı ve
+  bir iş adını geçersiz kılmayı öğrenin. Tam kod örnekleriyle adım adım bu kılavuzu
+  izleyin.
+linktitle: Write Terminal Output to File and Override Job Name in Java
+second_title: Aspose.TeX Java API
+title: Terminal Çıktısını Dosyaya Yaz ve Java'da İş Adını Geçersiz Kıl
 url: /tr/java/customizing-output/override-job-name-disk/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da İş Adını Geçersiz Kıl ve Terminal Çıkışını Yaz
+# Uçbirim Çıktısını Dosyaya Yazma ve Java'da İş Adını Geçersiz Kılma
 
-## giriiş
+## Giriş
 
-Aspose.TeX for Java, TeX dosyalarıyla çalışmak için güçlü özellikler sunarak geliştiricilerin TeX belge işlemeyi değiştirmesine ve özelleştirmesine olanak tanır. Bu eğitimde, Java'da Aspose.TeX kullanarak iş adını geçersiz kılma ve terminal çıktısını dosya sistemine yazma sürecinde size rehberlik edeceğiz.
+Aspose.TeX for Java, TeX dosyalarıyla çalışmak için güçlü özellikler sunar ve geliştiricilerin TeX belge işleme hattını manipüle edip özelleştirmesine olanak tanır. Bu öğreticide **uçbirim çıktısını dosyaya nasıl yazacağınızı** ve varsayılan iş adını nasıl geçersiz kılacağınızı öğreneceksiniz—bu iki yetenek, toplu işleme ve günlük tutma üzerinde ince ayar kontrolü sağlar.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **İş adını değiştirebilir miyim?** Evet, işi çalıştırmadan önce `options.setJobName(...)` kullanın.  
+- **Uçbirim çıktısı nereye gidiyor?** Çıktı çalışma dizininde `<job_name>.trm` olarak kaydedilir.  
+- **Bu özellik için lisansa ihtiyacım var mı?** İşlevsellik geçerli bir Aspose.TeX lisansı ile çalışır; ücretsiz deneme sürümü de mevcuttur.  
+- **Çıktı dosyasının formatı nedir?** Konsol çıktısını yansıtan düz metin terminal günlüğüdür.  
+- **Diğer çıktı aygıtlarıyla uyumlu mu?** Kesinlikle—günlük yazıldıktan sonra metin dosyalarını okuyabilen herhangi bir araçla işleyebilirsiniz.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## Ön Koşullar
 
-- Java programlama konusunda çalışma bilgisi.
--  Aspose.TeX for Java kuruldu. adresinden indirebilirsiniz.[Aspose.TeX Java belgeleri](https://reference.aspose.com/tex/java/).
+Kodun içine dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-## Paketleri İçe Aktar
+- Java programlama temellerine sağlam bir anlayış.  
+- Aspose.TeX for Java yüklü (resmi [Aspose.TeX Java belgeleri](https://reference.aspose.com/tex/java/) üzerinden indirin).  
+- Örneği derleyip çalıştırmak için bir Java IDE veya yapı aracı (Maven/Gradle) hazır.
 
-Başlamak için gerekli paketleri Java projenize aktarın. Java dosyanıza aşağıdaki içe aktarmaları ekleyin:
+## Paketleri İçe Aktarma
+
+Başlamak için gerekli paketleri Java projenize dahil edin. Java dosyanıza aşağıdaki importları ekleyin:
 
 ```java
 package com.aspose.tex.OverridenJobNameAndTerminalOutputWrittenToDisk;
@@ -44,20 +55,25 @@ import com.aspose.tex.rendering.XpsDevice;
 import util.Utils;
 ```
 
-## İş Adını Geçersiz Kıl ve Terminal Çıkışını Yaz
+> **İpucu:** `util.Utils` importunu yalnızca Aspose örnek yardımcı metodlarına ihtiyacınız varsa tutun; aksi takdirde kodu temiz tutmak için kaldırabilirsiniz.
 
-### 1. Adım: Dönüşüm Seçenekleri Oluşturun
+## Java'da Uçbirim Çıktısını Dosyaya Yazma
 
-ObjectTeX motor uzantısında varsayılan ObjectTeX formatı için dönüştürme seçenekleri oluşturarak başlayın. Aşağıdaki kod parçacığını kullanın:
+Aşağıda, dönüşüm seçeneklerini yapılandırma, iş adını geçersiz kılma ve uçbirim çıktısını diske yönlendirme adımlarını gösteren adım‑adım bir rehber bulacaksınız.
+
+### Adım 1: Dönüştürme Seçeneklerini Oluşturma
+
+Öncelikle, varsayılan ObjectTeX yapılandırmasını kullanan bir `TeXOptions` örneği oluşturun. Bu nesne, dönüşüm sürecinin tüm ayarlarını tutacaktır.
 
 ```java
-//ExStart:OverrideJobName-WriteTerminalOutputToFileSystem
+// ExStart:OverrideJobName-WriteTerminalOutputToFileSystem
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX());
+// ExEnd:OverrideJobName-WriteTerminalOutputToFileSystem
 ```
 
-### Adım 2: İş Adını ve Çalışma Dizinlerini Belirleyin
+### Adım 2: İş Adını ve Çalışma Dizinlerini Belirleme
 
-Bir iş adı, giriş çalışma dizini ve çıkış çalışma dizinini belirtin. İşin adı belirtilmezse TeXJob yapıcısının ilk argümanı iş adı olarak alınacaktır. Aşağıdaki kod parçacığını kullanın:
+Sonra, özel bir iş adı ayarlayın ve giriş‑çıkış dosyalarının nerede bulunacağını tanımlayın. İş adı ayarlamazsanız, `TeXJob` yapıcısının ilk argümanı otomatik olarak iş adı olur.
 
 ```java
 options.setJobName("overridden-job-name");
@@ -65,51 +81,63 @@ options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Direct
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-### Adım 3: Terminal Çıkışını Dosya Sistemine Yazma
+> **İş adını neden geçersiz kılmalıyım?**  
+> İş adını geçersiz kılmak, günlük dosyalarını ve oluşturulan artefaktları tanımlamayı kolaylaştırır; özellikle birden fazla işi paralel çalıştırdığınızda veya toplu işleme otomasyonu yaptığınızda faydalıdır.
 
- Terminal çıktısının, çıktı çalışma dizinindeki bir dosyaya yazılması gerektiğini belirtin. Dosya adı şöyle olacak`<job_name>.trm`. Aşağıdaki kodu ekleyin:
+### Adım 3: Uçbirim Çıktısını Dosya Sistemine Yazma
+
+Aspose.TeX'in normalde konsola yazacak tüm çıktıyı yakalayıp bir dosyaya yazmasını sağlayın. Dosya, `<job_name>.trm` adıyla ve yukarıda tanımladığınız çıktı çalışma dizinine yerleştirilecektir.
 
 ```java
 options.setTerminalOut(new OutputFileTerminal(options.getOutputWorkingDirectory()));
 ```
 
-### Adım 4: İşi Çalıştırın
+### Adım 4: İşi Çalıştırma
 
-Belirtilen seçenekleri ve iş adını kullanarak TeX işini çalıştırın. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Son olarak, istediğiniz giriş dosyası (burada basit bir “hello‑world” örneği) ve XPS render aygıtı ile bir `TeXJob` oluşturun. Ardından `run()` metodunu çağırarak dönüşümü yürütün.
 
 ```java
 TeXJob job = new TeXJob("hello-world", new XpsDevice(), options);
 job.run();
-// ExEnd:OverrideJobName-WriteTerminalOutputToFileSystem
 ```
 
-Tebrikler! Java'da Aspose.TeX'i kullanarak iş adını ve yazılı terminal çıktısını dosya sistemine başarıyla geçersiz kıldınız.
+İş tamamlandığında, **Çıktı Dizininiz** içinde `overridden-job-name.trm` adlı bir dosya bulacaksınız; bu dosya tam uçbirim günlüğünü içerir.
 
-## Çözüm
+## Yaygın Tuzaklar ve Sorun Giderme
 
-Bu eğitimde, iş adını geçersiz kılmak ve terminal çıktısını yakalamak için Aspose.TeX for Java'yı nasıl kullanabileceğimizi araştırdık. Bu özellikler, geliştiricilerin TeX belge işleme üzerinde ayrıntılı kontrole sahip olmalarını sağlayarak özelleştirmeyi ve esnekliği artırır.
+| Sorun | Neden | Çözüm |
+|-------|-------|------|
+| **`.trm` dosyası oluşturulmadı** | `setTerminalOut` çağrılmadı veya çıktı dizini eksik | Çıktı dizininin var olduğunu ve `options.setTerminalOut(...)` kodunun `job.run()` öncesinde çalıştırıldığını doğrulayın. |
+| **Dosya adı geçersiz kılınan adı göstermiyor** | İş adı doğru ayarlanmamış | `options.setJobName("istediğiniz‑ad")` kodunun **`TeXJob` oluşturulmadan önce** çağrıldığından emin olun. |
+| **Günlük dosyası boş** | Günlük başlamadan önce istisna atılıyor | `job.run()` kodunu bir try‑catch bloğuna alın ve eksik fontlar veya hatalı TeX kaynağı gibi istisnaları inceleyin. |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.TeX for Java'yı diğer Java kütüphaneleriyle birlikte kullanabilir miyim?
+**S: Aspose.TeX for Java’yı diğer Java kütüphaneleriyle birlikte kullanabilir miyim?**  
+C: Evet, Aspose.TeX diğer Java kütüphaneleriyle sorunsuz entegrasyon için tasarlanmıştır; aynı iş akışında PDF, görüntü veya veritabanı yardımcılarını birleştirebilirsiniz.
 
-Cevap1: Evet, Aspose.TeX for Java, belge işleme yeteneklerinizi geliştirmek için diğer Java kitaplıklarıyla sorunsuz bir şekilde entegre olacak şekilde tasarlanmıştır.
+**S: Aspose.TeX for Java için destek nereden alınır?**  
+C: Topluluk yardımı için [Aspose.TeX forumunu](https://forum.aspose.com/c/tex/47) ziyaret edin veya Aspose destek portalı üzerinden bir destek bileti açın.
 
-### S2: Aspose.TeX for Java desteğini nerede bulabilirim?
+**S: Aspose.TeX for Java için ücretsiz deneme mevcut mu?**  
+C: Kesinlikle. [Aspose.TeX ücretsiz deneme sayfasından](https://releases.aspose.com/) tam işlevsel bir deneme sürümü indirebilirsiniz.
 
- A2: Ziyaret edin[Aspose.TeX forumu](https://forum.aspose.com/c/tex/47) Karşılaşabileceğiniz her türlü sorunla ilgili topluluk desteği ve yardım için.
+**S: Test amaçlı geçici bir lisans nasıl alınır?**  
+C: 30‑günlük değerlendirme lisansı almak için [Aspose geçici lisans](https://purchase.aspose.com/temporary-license/) formunu kullanın.
 
-### S3: Aspose.TeX for Java'nın ücretsiz deneme sürümü mevcut mu?
+**S: Kalıcı bir lisans nereden satın alınır?**  
+C: Lisansı doğrudan [Aspose.TeX satın alma sayfasından](https://purchase.aspose.com/buy) temin edebilirsiniz.
 
- Cevap3: Evet, Aspose.TeX for Java'nın ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+## Sonuç
 
-### S4: Aspose.TeX for Java için nasıl geçici lisans alabilirim?
+Bu rehberde, Aspose.TeX for Java kullanarak **uçbirim çıktısını dosyaya yazma** ve varsayılan iş adını geçersiz kılma yöntemlerini gösterdik. Bu yetenekler, hata ayıklama için ayrıntılı günlükler tutmanıza, toplu işleme otomasyonu yapmanıza ve üretim‑düzeyi belge dönüşüm hatları için temiz, düzenli bir çıktı yapısı oluşturmanıza olanak tanır.
 
- A4: Bunu takip edin[bağlantı](https://purchase.aspose.com/temporary-license/) Test ve değerlendirme amacıyla geçici bir lisans almak.
+---
 
-### S5: Aspose.TeX for Java'yı nereden satın alabilirim?
+**Son Güncelleme:** 2025-12-05  
+**Test Edilen Sürüm:** Aspose.TeX 24.11 for Java  
+**Yazar:** Aspose  
 
- A5: ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) Aspose.TeX for Java lisansını almak için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

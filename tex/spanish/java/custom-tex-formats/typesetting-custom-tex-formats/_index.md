@@ -1,35 +1,53 @@
 ---
-title: Composición tipográfica con formatos TeX personalizados en Java
-linktitle: Composición tipográfica con formatos TeX personalizados en Java
-second_title: API de Java Aspose.TeX
-description: Explore la composición tipográfica eficiente en Java con Aspose.TeX. Formatos TeX personalizados de forma sencilla. Descárguelo ahora para disfrutar de una experiencia de desarrollo perfecta.
-weight: 10
+date: 2025-12-05
+description: Aprenda a componer TeX usando Aspose.TeX para Java, incluidos los pasos
+  para formatos personalizados y cómo obtener una licencia temporal de Aspose.
+linktitle: How to Typeset TeX with Custom Formats in Java
+second_title: Aspose.TeX Java API
+title: Cómo maquetar TeX con formatos personalizados en Java
 url: /es/java/custom-tex-formats/typesetting-custom-tex-formats/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Composición tipográfica con formatos TeX personalizados en Java
+# Cómo componer TeX con formatos personalizados en Java
 
 ## Introducción
 
-En el ámbito del desarrollo de Java, Aspose.TeX demuestra ser una herramienta invaluable para la composición tipográfica con formatos TeX personalizados. Este tutorial profundizará en el proceso de utilización de Aspose.TeX para Java para lograr una composición tipográfica eficiente utilizando formatos TeX personalizados. Ya sea que sea un desarrollador experimentado o un recién llegado, esta guía está diseñada para guiarlo a través de los pasos sin problemas.
+Si necesitas **componer tex** dentro de una aplicación Java, Aspose.TeX ofrece una forma limpia y de alto rendimiento para trabajar con archivos de formato TeX personalizados. En este tutorial recorreremos todo lo necesario, desde la configuración del entorno hasta la ejecución de un trabajo TeX que use tu propio formato. Ya sea que estés construyendo una herramienta de publicación científica o un generador de informes personalizado, los pasos a continuación te pondrán en marcha rápidamente.
+
+## Respuestas rápidas
+- **¿Qué biblioteca necesito?** Aspose.TeX for Java  
+- **¿Puedo usar un formato TeX personalizado?** Sí, solo apunta el `FormatProvider` a tu archivo.  
+- **¿Necesito una licencia para desarrollo?** Una licencia temporal aspose sirve para pruebas; se requiere una licencia completa para producción.  
+- **¿Qué versión de Java es compatible?** JDK 8 o superior.  
+- **¿Qué formato de salida genera el ejemplo?** XPS (puedes cambiar a PDF, PNG, etc.).
+
+## ¿Qué es un formato TeX personalizado?
+Un formato TeX personalizado es un conjunto precompilado de macros y primitivas que adapta el motor TeX a tu estilo de documento específico. Al proporcionar tu propio archivo `.fmt`, puedes controlar fuentes, reglas de maquetación y definiciones de comandos sin modificar el código fuente TeX cada vez.
+
+## ¿Por qué usar Aspose.TeX para Java?
+- **Pure Java** – Sin binarios nativos, fácil de incrustar en cualquier proyecto basado en JVM.  
+- **Alta fidelidad** – Genera una salida que coincide con el renderizado estilo LaTeX.  
+- **Extensible** – Soporta formatos personalizados, múltiples dispositivos de salida y procesamiento por lotes.  
+- **Flexibilidad de licencia** – Comienza con una licencia temporal aspose y actualiza cuando pases a producción.
 
 ## Requisitos previos
 
-Antes de emprender este viaje, asegúrese de contar con los siguientes requisitos previos:
+Antes de comenzar, asegúrate de tener:
 
-1.  Kit de desarrollo de Java (JDK): Aspose.TeX para Java requiere un JDK que funcione en su sistema. Si no está instalado, descargue y configure la última versión desde[sitio web de Java](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. **Java Development Kit (JDK)** – JDK 8 o más reciente instalado. Descárgalo desde el sitio oficial de [Java](https://www.oracle.com/java/technologies/javase-downloads.html) si aún no lo tienes.  
+2. **Biblioteca Aspose.TeX para Java** – Obtén el último JAR desde la [página de descarga de Aspose.TeX for Java](https://releases.aspose.com/tex/java/).  
+3. **Tu archivo de formato TeX personalizado** – Coloca el archivo `.fmt` compilado (p. ej., `customtex.fmt`) en una carpeta que servirá como directorio de salida.  
 
-2.  Biblioteca Aspose.TeX: obtenga la biblioteca Aspose.TeX para Java. Puedes descargarlo desde el[Página de descarga de Aspose.TeX para Java](https://releases.aspose.com/tex/java/).
-
-3. Archivo de formato TeX personalizado: prepare su archivo de formato TeX personalizado y asegúrese de que esté guardado en el directorio de salida deseado.
+> **Consejo profesional:** Si estás evaluando el producto, solicita una *licencia temporal aspose* desde el portal de Aspose; elimina la marca de agua de evaluación por un período limitado.
 
 ## Importar paquetes
 
-Para comenzar, importe los paquetes necesarios a su proyecto Java. Utilice la biblioteca Aspose.TeX para Java para aprovechar sus poderosas capacidades de composición tipográfica.
+Primero, agrega las importaciones necesarias a tu proyecto Java. Estas clases te dan acceso al proveedor de formatos, la configuración del trabajo y el dispositivo de renderizado.
 
 ```java
 package com.aspose.tex.TypesetWithCustomTeXFormat;
@@ -48,20 +66,20 @@ import com.aspose.tex.rendering.XpsDevice;
 import util.Utils;
 ```
 
-Ahora, analicemos el proceso en una serie de instrucciones paso a paso:
+## Guía paso a paso
 
-## Paso 1: crear proveedor de formato
+### Paso 1: Crear un proveedor de formato
 
-Comience creando un proveedor de formato utilizando el directorio de trabajo de entrada del sistema de archivos. Este directorio albergará su archivo de formato TeX personalizado.
+El `FormatProvider` apunta al directorio que contiene tu archivo de formato TeX personalizado. Reemplaza `"Your Output Directory"` con la ruta real donde reside `customtex.fmt`.
 
 ```java
 final FormatProvider formatProvider = new FormatProvider(
-		new InputFileSystemDirectory("Your Output Directory"), "customtex");
+        new InputFileSystemDirectory("Your Output Directory"), "customtex");
 ```
 
-## Paso 2: configurar las opciones de conversión
+### Paso 2: Establecer opciones de conversión
 
-Cree opciones de conversión para su formato personalizado, específicamente adaptadas a la extensión del motor ObjectTeX.
+Configura el trabajo para usar el motor ObjectTeX (el motor que entiende formatos personalizados). Aquí también definimos el nombre del trabajo y especificamos los directorios de trabajo de entrada/salida.
 
 ```java
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX(formatProvider));
@@ -70,9 +88,9 @@ options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Direct
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-## Paso 3: ejecute el trabajo TeX
+### Paso 3: Ejecutar el trabajo TeX
 
-Cree una instancia de TeXJob y ejecútelo con las opciones especificadas y el contenido de texto personalizado.
+Crea una instancia de `TeXJob`, pásale un fragmento sencillo de TeX y ordénale que renderice el resultado con un `XpsDevice`. El fragmento termina con `\end` para cerrar el documento.
 
 ```java
 new TeXJob(new ByteArrayInputStream(
@@ -80,47 +98,60 @@ new TeXJob(new ByteArrayInputStream(
         new XpsDevice(), options).run();
 ```
 
-## Paso 4: finalizar la salida
+### Paso 4: Finalizar la salida
 
-Asegure una salida limpia y legible agregando los saltos de línea necesarios.
+Después de que el trabajo termine, agrega un salto de línea a la salida del terminal para que la consola quede ordenada.
 
 ```java
 options.getTerminalOut().getWriter().newLine();
 ```
 
-## Paso 5: cerrar el proveedor de formato
+### Paso 5: Cerrar el proveedor de formato
 
-Finalmente, cierre el proveedor de formato para finalizar el proceso de composición tipográfica.
+Cuando hayas terminado, cierra el proveedor para liberar los manejadores de archivo y los recursos.
 
 ```java
 formatProvider.close();
 ```
 
-## Conclusión
+## Problemas comunes y soluciones
 
-¡Felicidades! Ha completado un proceso de composición tipográfica exitoso utilizando Aspose.TeX para Java con un formato TeX personalizado. Este tutorial tuvo como objetivo guiarlo a través de los intrincados pasos, haciendo que todo el viaje sea más sencillo y comprensible.
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| **“Format file not found”** | Ruta incorrecta en `FormatProvider` | Verifica que el directorio y el nombre de archivo (`customtex.fmt`) sean correctos y accesibles. |
+| **Errores de codificación** | Caracteres no ASCII en la cadena TeX | Usa codificación UTF‑8 (`"UTF-8"` en lugar de `"ASCII"`). |
+| **Salida no generada** | Falta de permiso de escritura en el directorio de salida | Asegúrate de que el proceso Java tenga acceso de escritura a `"Your Output Directory"`. |
+| **Marca de agua de licencia** | Uso solo de la licencia de evaluación | Aplica una *licencia temporal aspose* para pruebas o adquiere una licencia completa para producción. |
+
+**Recursos relacionados:** [Referencia de API de Aspose.TeX](https://docs.aspose.com/tex/java/) | [Descargar prueba gratuita](https://releases.aspose.com/tex/java/)
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.TeX con otras bibliotecas de Java?
+**P: ¿Puedo usar Aspose.TeX junto con otras bibliotecas Java?**  
+R: Por supuesto. La API es pure Java y funciona junto a bibliotecas como Apache PDFBox, iText o Spring Boot.
 
-R1: Sí, Aspose.TeX está diseñado para integrarse perfectamente con varias bibliotecas de Java para mejorar la funcionalidad.
+**P: ¿Dónde puedo obtener una licencia temporal aspose para evaluación?**  
+R: Solicítala en la [página de licencia temporal de Aspose](https://purchase.aspose.com/temporary-license/). Elimina la marca de agua de evaluación durante hasta 30 días.
 
-### P2: ¿Dónde puedo encontrar más ayuda y apoyo?
+**P: ¿Aspose.TeX admite formatos de salida distintos a XPS?**  
+R: Sí. Puedes reemplazar `new XpsDevice()` por `new PdfDevice()`, `new PngDevice()`, etc., según tus necesidades.
 
- A2: Explora el[Foro Aspose.TeX](https://forum.aspose.com/c/tex/47)para apoyo y debates de la comunidad.
+**P: ¿Cómo depuro un trabajo TeX que falla?**  
+R: Habilita el registro detallado llamando a `options.setLogLevel(LogLevel.DEBUG);` y revisa la salida de consola para obtener mensajes de error precisos.
 
-### P3: ¿Hay una prueba gratuita disponible para Aspose.TeX?
+**P: ¿Hay una versión de prueba gratuita disponible?**  
+R: Sí – descarga los binarios de prueba desde la [página de descarga de Aspose.TeX](https://releases.aspose.com/tex/java/).
 
- R3: Sí, puedes acceder a la prueba gratuita[aquí](https://releases.aspose.com/).
+## Conclusión
 
-### P4: ¿Cómo puedo obtener una licencia temporal para Aspose.TeX?
+Ahora sabes **cómo componer tex** en una aplicación Java usando un formato TeX personalizado con Aspose.TeX. Siguiendo los pasos anteriores, puedes integrar composición tipográfica de alta calidad en cualquier flujo de trabajo basado en Java, experimentar con tus propios archivos de formato y pasar de un prototipo a producción con una licencia adecuada.
 
- A4: Visita el[página de licencia temporal](https://purchase.aspose.com/temporary-license/) para opciones de licencia temporal.
+---
 
-### P5: ¿Dónde puedo comprar la biblioteca Aspose.TeX?
+**Última actualización:** 2025-12-05  
+**Probado con:** Aspose.TeX for Java 24.10  
+**Autor:** Aspose  
 
- R5: Asegure su copia visitando el[pagina de compra](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

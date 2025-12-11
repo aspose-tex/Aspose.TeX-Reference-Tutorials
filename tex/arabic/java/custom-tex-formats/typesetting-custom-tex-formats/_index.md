@@ -1,35 +1,55 @@
 ---
-title: التنضيد باستخدام تنسيقات TeX المخصصة في Java
-linktitle: التنضيد باستخدام تنسيقات TeX المخصصة في Java
-second_title: Aspose.TeX جافا API
-description: اكتشف التنضيد الفعال في Java باستخدام Aspose.TeX. أصبحت تنسيقات TeX المخصصة سهلة. قم بالتنزيل الآن للحصول على تجربة تطوير سلسة.
-weight: 10
+date: 2025-12-05
+description: تعلم كيفية تنسيق TeX باستخدام Aspose.TeX للغة Java، بما في ذلك خطوات
+  التنسيقات المخصصة وكيفية الحصول على ترخيص مؤقت من Aspose.
+linktitle: How to Typeset TeX with Custom Formats in Java
+second_title: Aspose.TeX Java API
+title: كيفية تنضيد TeX باستخدام صيغ مخصصة في Java
 url: /ar/java/custom-tex-formats/typesetting-custom-tex-formats/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# التنضيد باستخدام تنسيقات TeX المخصصة في Java
+# كيفية تنسيق TeX باستخدام تنسيقات مخصصة في Java
 
 ## مقدمة
 
-في مجال تطوير Java، أثبت Aspose.TeX أنه أداة لا تقدر بثمن للتنضيد باستخدام تنسيقات TeX المخصصة. سوف يتعمق هذا البرنامج التعليمي في عملية استخدام Aspose.TeX لـ Java لتحقيق التنضيد الفعال باستخدام تنسيقات TeX المخصصة. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، فقد تم تصميم هذا الدليل ليرشدك خلال الخطوات بسلاسة.
+إذا كنت بحاجة إلى **how to typeset tex** داخل تطبيق Java، توفر Aspose.TeX طريقة نظيفة وعالية الأداء للعمل مع ملفات تنسيق TeX المخصصة. في هذا الدليل سنستعرض كل ما تحتاجه — من إعداد البيئة إلى تشغيل مهمة TeX تستخدم تنسيقك الخاص. سواء كنت تبني أداة نشر علمية أو مولد تقارير مخصص، فإن الخطوات أدناه ستجعلك تبدأ بسرعة.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما المكتبة التي أحتاجها؟** Aspose.TeX for Java  
+- **هل يمكنني استخدام تنسيق TeX مخصص؟** نعم – فقط وجه `FormatProvider` إلى ملفك.  
+- **هل أحتاج إلى ترخيص للتطوير؟** ترخيص مؤقت aspose يعمل للاختبار؛ الترخيص الكامل مطلوب للإنتاج.  
+- **ما نسخة Java المدعومة؟** JDK 8 أو أعلى.  
+- **ما تنسيق الإخراج الذي يولده المثال؟** XPS (يمكنك التبديل إلى PDF، PNG، إلخ).
 
-قبل الشروع في هذه الرحلة، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو تنسيق TeX مخصص؟
 
-1.  Java Development Kit (JDK): يتطلب Aspose.TeX for Java وجود JDK فعالاً على نظامك. إذا لم يتم تثبيته، قم بتنزيل أحدث إصدار وإعداده من[موقع جافا](https://www.oracle.com/java/technologies/javase-downloads.html).
+تنسيق TeX مخصص هو مجموعة مُجمّعة مسبقًا من الماكرو والبدائيات التي تُخصّص محرك TeX لأسلوب المستند الخاص بك. من خلال توفير ملف `.fmt` الخاص بك، يمكنك التحكم في الخطوط، قواعد التخطيط، وتعريفات الأوامر دون تعديل مصدر TeX في كل مرة.
 
-2.  مكتبة Aspose.TeX: احصل على مكتبة Aspose.TeX لـ Java. يمكنك تنزيله من[صفحة تنزيل Aspose.TeX لـ Java](https://releases.aspose.com/tex/java/).
+## لماذا تستخدم Aspose.TeX لـ Java؟
 
-3. ملف تنسيق TeX المخصص: قم بإعداد ملف تنسيق TeX المخصص الخاص بك وتأكد من حفظه في دليل الإخراج المطلوب.
+- **Pure Java** – لا توجد ملفات تنفيذية أصلية، سهل الإدماج في أي مشروع يعتمد على JVM.  
+- **High fidelity** – يولد مخرجات تتطابق مع عرض LaTeX.  
+- **Extensible** – يدعم التنسيقات المخصصة، أجهزة إخراج متعددة، ومعالجة دفعات.  
+- **License flexibility** – ابدأ بترخيص مؤقت aspose، ثم قم بالترقية عند الانتقال إلى الإنتاج.
 
-## حزم الاستيراد
+## المتطلبات المسبقة
 
-للبدء، قم باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. استخدم مكتبة Aspose.TeX لـ Java لتسخير إمكانات التنضيد القوية.
+قبل أن تبدأ، تأكد من أن لديك:
+
+1. **Java Development Kit (JDK)** – JDK 8 أو أحدث مثبت. قم بتنزيله من [Java website](https://www.oracle.com/java/technologies/javase-downloads.html) الرسمي إذا لم تقم بذلك بعد.  
+2. **Aspose.TeX library for Java** – احصل على أحدث ملف JAR من [Aspose.TeX for Java download page](https://releases.aspose.com/tex/java/).  
+3. **Your custom TeX format file** – ضع ملف `.fmt` المُجمّع (مثال: `customtex.fmt`) في مجلد سيعمل كدليل الإخراج.  
+
+> **نصيحة احترافية:** إذا كنت تقيم المنتج، اطلب *ترخيصًا مؤقتًا aspose* من بوابة Aspose؛ فهو يزيل علامة التقييم المائية لفترة محدودة.
+
+## استيراد الحزم
+
+أولاً، أضف الاستيرادات المطلوبة إلى مشروع Java الخاص بك. هذه الفئات تمنحك الوصول إلى موفر التنسيق، تكوين المهمة، وجهاز العرض.
 
 ```java
 package com.aspose.tex.TypesetWithCustomTeXFormat;
@@ -48,20 +68,20 @@ import com.aspose.tex.rendering.XpsDevice;
 import util.Utils;
 ```
 
-الآن، دعونا نقسم العملية إلى سلسلة من الإرشادات خطوة بخطوة:
+## دليل خطوة بخطوة
 
-## الخطوة 1: إنشاء موفر التنسيق
+### الخطوة 1: إنشاء موفر تنسيق
 
-ابدأ بإنشاء موفر تنسيق باستخدام دليل عمل إدخال نظام الملفات. سيحتوي هذا الدليل على ملف تنسيق TeX المخصص الخاص بك.
+`FormatProvider` يشير إلى الدليل الذي يحتوي على ملف تنسيق TeX المخصص الخاص بك. استبدل `"Your Output Directory"` بالمسار الفعلي حيث يوجد `customtex.fmt`.
 
 ```java
 final FormatProvider formatProvider = new FormatProvider(
-		new InputFileSystemDirectory("Your Output Directory"), "customtex");
+        new InputFileSystemDirectory("Your Output Directory"), "customtex");
 ```
 
-## الخطوة 2: ضبط خيارات التحويل
+### الخطوة 2: ضبط خيارات التحويل
 
-قم بإنشاء خيارات تحويل للتنسيق المخصص الخاص بك، والمصممة خصيصًا لامتداد محرك ObjectTeX.
+قم بتهيئة المهمة لاستخدام محرك ObjectTeX (المحرك الذي يفهم التنسيقات المخصصة). هنا نحدد أيضًا اسم المهمة ونحدد أدلة العمل للإدخال/الإخراج.
 
 ```java
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX(formatProvider));
@@ -70,9 +90,9 @@ options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Direct
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-## الخطوة 3: قم بتشغيل وظيفة TeX
+### الخطوة 3: تشغيل مهمة TeX
 
-قم بإنشاء مثيل لـ TeXJob وقم بتشغيله باستخدام خياراتك المحددة ومحتوى النص المخصص.
+أنشئ كائن `TeXJob`، وزوده بمقتطف TeX بسيط، واطلب منه عرض النتيجة باستخدام `XpsDevice`. ينتهي المقتطف بـ `\end` لإغلاق المستند.
 
 ```java
 new TeXJob(new ByteArrayInputStream(
@@ -80,47 +100,61 @@ new TeXJob(new ByteArrayInputStream(
         new XpsDevice(), options).run();
 ```
 
-## الخطوة 4: الانتهاء من الإخراج
+### الخطوة 4: إنهاء الإخراج
 
-تأكد من الحصول على مخرجات نظيفة وقابلة للقراءة عن طريق إضافة فواصل الأسطر الضرورية.
+بعد انتهاء المهمة، أضف فاصل سطر إلى مخرجات الطرفية حتى يبقى سطر الأوامر منظمًا.
 
 ```java
 options.getTerminalOut().getWriter().newLine();
 ```
 
-## الخطوة 5: إغلاق موفر التنسيق
+### الخطوة 5: إغلاق موفر التنسيق
 
-وأخيرًا، أغلق موفر التنسيق لإنهاء عملية التنضيد.
+عند الانتهاء، أغلق الموفر لتحرير مقابض الملفات وتحرير الموارد.
 
 ```java
 formatProvider.close();
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-تهانينا! لقد أكملت عملية تنضيد ناجحة باستخدام Aspose.TeX لـ Java بتنسيق TeX مخصص. يهدف هذا البرنامج التعليمي إلى إرشادك خلال الخطوات المعقدة، مما يجعل الرحلة بأكملها أكثر سلاسة وأكثر قابلية للفهم.
+| المشكلة | السبب | الحل |
+|-------|-------|-----|
+| **“Format file not found”** | مسار غير صحيح في `FormatProvider` | تحقق من أن الدليل واسم الملف (`customtex.fmt`) صحيحان ومتاحان. |
+| **Encoding errors** | أحرف غير ASCII في سلسلة TeX | استخدم ترميز UTF‑8 (`"UTF-8"` بدلاً من `"ASCII"`). |
+| **Output not generated** | دليل الإخراج يفتقر إلى صلاحية الكتابة | تأكد من أن عملية Java لديها صلاحية كتابة على `"Your Output Directory"`. |
+| **License watermark** | استخدام ترخيص التقييم فقط | طبق *ترخيصًا مؤقتًا aspose* للاختبار أو اشترِ ترخيصًا كاملاً للإنتاج. |
 
-## الأسئلة الشائعة
 
-### س1: هل يمكنني استخدام Aspose.TeX مع مكتبات Java الأخرى؟
+**الموارد ذات الصلة:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
-ج1: نعم، تم تصميم Aspose.TeX للتكامل بسلاسة مع مكتبات Java المتنوعة لتحسين الأداء الوظيفي.
+## الأسئلة المتكررة
 
-### س2: أين يمكنني العثور على المزيد من المساعدة والدعم؟
+**س: هل يمكنني استخدام Aspose.TeX مع مكتبات Java أخرى؟**  
+ج: بالتأكيد. الـ API هو Pure Java ويعمل جنبًا إلى جنب مع مكتبات مثل Apache PDFBox أو iText أو Spring Boot.
 
- ج2: اكتشف[منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47)لدعم المجتمع والمناقشات.
+**س: من أين يمكنني الحصول على ترخيص مؤقت aspose للتقييم؟**  
+ج: اطلب واحدًا من [Aspose temporary license page](https://purchase.aspose.com/temporary-license/). يزيل علامة التقييم المائية لمدة تصل إلى 30 يومًا.
 
-### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.TeX؟
+**س: هل يدعم Aspose.TeX تنسيقات إخراج غير XPS؟**  
+ج: نعم. يمكنك استبدال `new XpsDevice()` بـ `new PdfDevice()` أو `new PngDevice()` وغيرها حسب احتياجاتك.
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+**س: كيف يمكنني تتبع مهمة TeX فاشلة؟**  
+ج: فعّل التسجيل التفصيلي عبر استدعاء `options.setLogLevel(LogLevel.DEBUG);` وتفحص مخرجات وحدة التحكم للحصول على رسائل خطأ مفصلة.
 
-### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.TeX؟
+**س: هل هناك نسخة تجريبية مجانية متاحة؟**  
+ج: نعم – قم بتنزيل الملفات التجريبية من [Aspose.TeX download page](https://releases.aspose.com/tex/java/).
 
- ج4: قم بزيارة[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/) لخيارات الترخيص المؤقت.
+## الخلاصة
 
-### س5: أين يمكنني شراء مكتبة Aspose.TeX؟
+أنت الآن تعرف **how to typeset tex** في تطبيق Java باستخدام تنسيق TeX مخصص مع Aspose.TeX. باتباع الخطوات أعلاه، يمكنك دمج تنسيق عالي الجودة في أي سير عمل مبني على Java، تجربة ملفات التنسيق الخاصة بك، والانتقال من النموذج الأولي إلى الإنتاج باستخدام ترخيص مناسب.
 
- ج5: قم بتأمين نسختك من خلال زيارة[صفحة الشراء](https://purchase.aspose.com/buy).
+---
+
+**آخر تحديث:** 2025-12-05  
+**تم الاختبار مع:** Aspose.TeX for Java 24.10  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

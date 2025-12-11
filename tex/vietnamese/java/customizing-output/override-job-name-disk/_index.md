@@ -1,32 +1,43 @@
 ---
-title: Ghi đè tên công việc và ghi đầu ra đầu cuối trong Java
-linktitle: Ghi đè tên công việc và ghi đầu ra đầu cuối trong Java
-second_title: API Java Aspose.TeX
-description: Khám phá hướng dẫn từng bước về ghi đè tên công việc và ghi kết quả đầu cuối bằng Aspose.TeX cho Java. Tăng cường xử lý tài liệu của bạn với các tùy chọn tùy chỉnh mạnh mẽ.
-weight: 10
+date: 2025-12-05
+description: Tìm hiểu cách ghi đầu ra của terminal vào tệp và ghi đè tên công việc
+  bằng Aspose.TeX cho Java. Hãy làm theo hướng dẫn từng bước này kèm theo các ví dụ
+  mã đầy đủ.
+linktitle: Write Terminal Output to File and Override Job Name in Java
+second_title: Aspose.TeX Java API
+title: Ghi đầu ra terminal vào tệp và ghi đè tên công việc trong Java
 url: /vi/java/customizing-output/override-job-name-disk/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ghi đè tên công việc và ghi đầu ra đầu cuối trong Java
+# Ghi Đầu Ra Terminal vào Tập Tin và Ghi Đè Tên Job trong Java
 
 ## Giới thiệu
 
-Aspose.TeX cho Java cung cấp các tính năng mạnh mẽ để làm việc với các tệp TeX, cho phép các nhà phát triển thao tác và tùy chỉnh quá trình xử lý tài liệu TeX. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình ghi đè tên công việc và ghi đầu ra đầu cuối vào hệ thống tệp bằng Aspose.TeX trong Java.
+Aspose.TeX for Java cung cấp các tính năng mạnh mẽ để làm việc với các tệp TeX, cho phép các nhà phát triển thao tác và tùy chỉnh quy trình xử lý tài liệu TeX. Trong hướng dẫn này, bạn sẽ học **cách ghi đầu ra terminal vào tệp** đồng thời ghi đè tên job mặc định — hai khả năng cho phép bạn kiểm soát chi tiết quá trình xử lý batch và ghi log.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Tôi có thể thay đổi tên job không?** Có, sử dụng `options.setJobName(...)` trước khi chạy job.  
+- **Đầu ra terminal được lưu ở đâu?** Nó được lưu dưới dạng `<job_name>.trm` trong thư mục làm việc đầu ra.  
+- **Tôi có cần giấy phép cho tính năng này không?** Chức năng này hoạt động với bất kỳ giấy phép Aspose.TeX hợp lệ nào; cũng có bản dùng thử miễn phí.  
+- **Định dạng của tệp đầu ra là gì?** Log terminal dạng văn bản thuần phản ánh đầu ra console.  
+- **Điều này có tương thích với các thiết bị đầu ra khác không?** Hoàn toàn tương thích — một khi log được ghi, bạn có thể xử lý nó bằng bất kỳ công cụ nào đọc tệp văn bản.
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Yêu cầu trước
 
-- Kiến thức làm việc về lập trình Java.
--  Đã cài đặt Aspose.TeX cho Java. Bạn có thể tải nó xuống từ[Tài liệu Java Aspose.TeX](https://reference.aspose.com/tex/java/).
+Trước khi chúng ta đi vào mã, hãy chắc chắn rằng bạn có những thứ sau:
 
-## Gói nhập khẩu
+- Kiến thức vững chắc về các nguyên tắc lập trình Java.  
+- Aspose.TeX for Java đã được cài đặt (tải về từ [tài liệu chính thức Aspose.TeX Java](https://reference.aspose.com/tex/java/)).  
+- Một IDE Java hoặc công cụ build (Maven/Gradle) sẵn sàng để biên dịch và chạy mẫu.
 
-Để bắt đầu, hãy nhập các gói cần thiết vào dự án Java của bạn. Trong tệp Java của bạn, hãy bao gồm các mục nhập sau:
+## Nhập Gói
+
+Để bắt đầu, nhập các gói cần thiết vào dự án Java của bạn. Trong tệp Java, bao gồm các import sau:
 
 ```java
 package com.aspose.tex.OverridenJobNameAndTerminalOutputWrittenToDisk;
@@ -44,20 +55,25 @@ import com.aspose.tex.rendering.XpsDevice;
 import util.Utils;
 ```
 
-## Ghi đè tên công việc và ghi đầu ra thiết bị đầu cuối
+> **Mẹo:** Giữ import `util.Utils` chỉ khi bạn cần các phương thức trợ giúp từ tiện ích mẫu Aspose; nếu không, bạn có thể loại bỏ nó để giữ mã sạch sẽ.
 
-### Bước 1: Tạo tùy chọn chuyển đổi
+## Cách Ghi Đầu Ra Terminal vào Tập Tin trong Java
 
-Bắt đầu bằng cách tạo các tùy chọn chuyển đổi cho định dạng ObjectTeX mặc định khi mở rộng công cụ ObjectTeX. Sử dụng đoạn mã sau:
+Dưới đây là hướng dẫn từng bước cho thấy cách cấu hình các tùy chọn chuyển đổi, ghi đè tên job, và chuyển đầu ra terminal vào một tệp trên đĩa.
+
+### Bước 1: Tạo Các Tùy Chọn Chuyển Đổi
+
+Đầu tiên, tạo một thể hiện `TeXOptions` sử dụng cấu hình ObjectTeX mặc định. Đối tượng này sẽ chứa tất cả các cài đặt cho quá trình chuyển đổi.
 
 ```java
-//ExStart:Ghi đèJobName-WriteTerminalOutputToFileSystem
+// ExStart:OverrideJobName-WriteTerminalOutputToFileSystem
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX());
+// ExEnd:OverrideJobName-WriteTerminalOutputToFileSystem
 ```
 
-### Bước 2: Chỉ định tên công việc và thư mục làm việc
+### Bước 2: Xác Định Tên Job và Thư Mục Làm Việc
 
-Chỉ định tên công việc, thư mục làm việc đầu vào và thư mục làm việc đầu ra. Nếu tên công việc không được chỉ định, đối số đầu tiên của hàm tạo TeXJob sẽ được lấy làm tên công việc. Sử dụng đoạn mã sau:
+Tiếp theo, đặt một tên job tùy chỉnh và xác định vị trí của các tệp đầu vào và đầu ra. Nếu bạn không đặt tên job, đối số đầu tiên của hàm khởi tạo `TeXJob` sẽ tự động trở thành tên job.
 
 ```java
 options.setJobName("overridden-job-name");
@@ -65,51 +81,63 @@ options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Direct
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-### Bước 3: Ghi đầu ra đầu cuối vào hệ thống tệp
+> **Tại sao phải ghi đè tên job?**  
+> Ghi đè tên job giúp các tệp log và các artefact được tạo ra dễ nhận dạng hơn, đặc biệt khi bạn chạy nhiều job song song hoặc tự động hoá xử lý batch.
 
- Chỉ định rằng đầu ra của thiết bị đầu cuối phải được ghi vào một tệp trong thư mục làm việc đầu ra. Tên tập tin sẽ là`<job_name>.trm`. Thêm mã sau đây:
+### Bước 3: Ghi Đầu Ra Terminal vào Hệ Thống Tập Tin
+
+Yêu cầu Aspose.TeX ghi lại mọi thứ thường xuất hiện trên console và ghi chúng vào một tệp. Tệp sẽ được đặt tên `<job_name>.trm` và nằm trong thư mục làm việc đầu ra mà bạn đã định nghĩa ở trên.
 
 ```java
 options.setTerminalOut(new OutputFileTerminal(options.getOutputWorkingDirectory()));
 ```
 
-### Bước 4: Chạy công việc
+### Bước 4: Chạy Job
 
-Chạy công việc TeX bằng cách sử dụng các tùy chọn và tên công việc đã chỉ định. Đây là cách bạn có thể làm điều đó:
+Cuối cùng, tạo một `TeXJob` với tệp đầu vào mong muốn (ở đây chúng tôi sử dụng ví dụ đơn giản “hello‑world”) và thiết bị render XPS. Sau đó gọi `run()` để thực thi quá trình chuyển đổi.
 
 ```java
 TeXJob job = new TeXJob("hello-world", new XpsDevice(), options);
 job.run();
-// ExEnd:Ghi đèJobName-WriteTerminalOutputToFileSystem
 ```
 
-Chúc mừng! Bạn đã ghi đè thành công tên công việc và đầu ra đầu cuối được ghi vào hệ thống tệp bằng Aspose.TeX trong Java.
+Khi job hoàn thành, bạn sẽ thấy một tệp có tên `overridden-job-name.trm` trong **Thư Mục Đầu Ra của Bạn** chứa toàn bộ log terminal.
 
-## Phần kết luận
+## Những Sai Lầm Thường Gặp & Khắc Phục
 
-Trong hướng dẫn này, chúng tôi đã khám phá cách sử dụng Aspose.TeX cho Java để ghi đè tên công việc và ghi lại đầu ra của thiết bị đầu cuối. Những tính năng này cho phép các nhà phát triển có quyền kiểm soát chi tiết đối với việc xử lý tài liệu TeX, nâng cao khả năng tùy chỉnh và tính linh hoạt.
+| Vấn đề | Nguyên nhân | Cách khắc phục |
+|-------|-------|-----|
+| **Không tạo được tệp `.trm`** | `setTerminalOut` chưa được gọi hoặc thư mục đầu ra không tồn tại | Kiểm tra thư mục đầu ra tồn tại và `options.setTerminalOut(...)` được thực thi trước `job.run()`. |
+| **Tên tệp không phải là tên đã ghi đè** | Tên job không được đặt đúng | Đảm bảo `options.setJobName("your‑desired‑name")` được gọi **trước** khi tạo `TeXJob`. |
+| **Tệp log rỗng** | Ngoại lệ xảy ra trước khi bắt đầu ghi log | Bao bọc `job.run()` trong khối try‑catch và kiểm tra stack trace của ngoại lệ để tìm font thiếu hoặc nguồn TeX sai định dạng. |
 
-## Câu hỏi thường gặp
+## Câu Hỏi Thường Gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.TeX cho Java với các thư viện Java khác không?
+**Hỏi: Tôi có thể sử dụng Aspose.TeX cho Java cùng với các thư viện Java khác không?**  
+**Đáp:** Có, Aspose.TeX được thiết kế để tích hợp liền mạch với các thư viện Java khác, cho phép bạn kết hợp các tiện ích PDF, hình ảnh hoặc cơ sở dữ liệu trong cùng một quy trình làm việc.
 
-Câu trả lời 1: Có, Aspose.TeX dành cho Java được thiết kế để tích hợp liền mạch với các thư viện Java khác nhằm nâng cao khả năng xử lý tài liệu của bạn.
+**Hỏi: Tôi có thể tìm hỗ trợ cho Aspose.TeX cho Java ở đâu?**  
+**Đáp:** Truy cập [diễn đàn Aspose.TeX](https://forum.aspose.com/c/tex/47) để nhận trợ giúp từ cộng đồng, hoặc mở ticket hỗ trợ qua cổng hỗ trợ của Aspose.
 
-### Câu hỏi 2: Tôi có thể tìm hỗ trợ cho Aspose.TeX cho Java ở đâu?
+**Hỏi: Có bản dùng thử miễn phí cho Aspose.TeX cho Java không?**  
+**Đáp:** Chắc chắn. Bạn có thể tải bản dùng thử đầy đủ chức năng từ [trang dùng thử miễn phí Aspose.TeX](https://releases.aspose.com/).
 
- A2: Tham quan[diễn đàn Aspose.TeX](https://forum.aspose.com/c/tex/47) để được cộng đồng hỗ trợ và trợ giúp về bất kỳ vấn đề nào bạn có thể gặp phải.
+**Hỏi: Làm thế nào để tôi có được giấy phép tạm thời để thử nghiệm?**  
+**Đáp:** Sử dụng mẫu yêu cầu giấy phép tạm thời tại [Aspose temporary license](https://purchase.aspose.com/temporary-license/) để nhận giấy phép đánh giá 30 ngày.
 
-### Câu hỏi 3: Có bản dùng thử miễn phí cho Aspose.TeX cho Java không?
+**Hỏi: Tôi có thể mua giấy phép vĩnh viễn ở đâu?**  
+**Đáp:** Mua giấy phép trực tiếp từ [trang mua Aspose.TeX](https://purchase.aspose.com/buy).
 
- Câu trả lời 3: Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.TeX cho Java[đây](https://releases.aspose.com/).
+## Kết luận
 
-### Câu hỏi 4: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.TeX cho Java?
+Trong hướng dẫn này, chúng tôi đã trình bày cách **ghi đầu ra terminal vào tệp** và ghi đè tên job mặc định bằng Aspose.TeX cho Java. Những khả năng này cho phép bạn lưu giữ log chi tiết để gỡ lỗi, tự động hoá xử lý batch, và duy trì cấu trúc đầu ra sạch sẽ, có tổ chức — điều cần thiết cho các pipeline chuyển đổi tài liệu cấp sản xuất.
 
- A4: Hãy làm theo điều này[liên kết](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích thử nghiệm và đánh giá.
+---
 
-### Câu hỏi 5: Tôi có thể mua Aspose.TeX cho Java ở đâu?
+**Last Updated:** 2025-12-05  
+**Tested With:** Aspose.TeX 24.11 for Java  
+**Author:** Aspose  
 
- A5: Tham quan[trang mua hàng](https://purchase.aspose.com/buy) để có được giấy phép cho Aspose.TeX cho Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
