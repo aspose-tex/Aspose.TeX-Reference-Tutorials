@@ -65,13 +65,6 @@ Maneje archivos LaTeX en Java sin esfuerzo con Aspose.TeX. Descargue ahora para 
 ### [Procesar Archivos de Entrada LaTeX desde Archivos Zip en Java](./zip-archive-input/)
 Descubra una guía sin problemas para procesar archivos LaTeX desde archivos zip en Java usando Aspose.TeX. Impulse sus capacidades de procesamiento de documentos sin esfuerzo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas Frecuentes
 
 **Q: ¿Puedo usar Aspose.TeX para generar PDF desde LaTeX en una aplicación web?**  
@@ -95,4 +88,9 @@ A: Aspose.TeX soporta Java 8 y posteriores, incluyendo Java 11, 17 y versiones L
 **Probado con:** Aspose.TeX última versión (lanzamiento 2025)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -65,13 +65,6 @@ Kezelet könnyedén a LaTeX fájlokat Java-ban az Aspose.TeX-szel. Töltse le mo
 ### [LaTeX bemeneti fájlok feldolgozása ZIP archívumokból Java-ban](./zip-archive-input/)
 Fedezzen fel egy zökkenőmentes útmutatót a LaTeX fájlok zip archívumokból történő feldolgozásához Java-ban az Aspose.TeX használatával. Növelje dokumentumfeldolgozási képességeit könnyedén.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **K: Használhatom az Aspose.TeX-et PDF generálására LaTeX-ből webalkalmazásban?**  
@@ -94,3 +87,10 @@ V: Az Aspose.TeX támogatja a Java 8 és újabb verziókat, beleértve a Java 11
 **Last Updated:** 2025-12-12  
 **Tested With:** Aspose.TeX latest version (2025 release)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -64,13 +64,6 @@ LaTeX، نظام تنضيد معروف بدقته في تنسيق المستند
 ### [معالجة ملفات مدخلات LaTeX من أرشيفات Zip في Java](./zip-archive-input/)
 اكتشف دليلًا سلسًا لمعالجة ملفات LaTeX من أرشيفات zip في Java باستخدام Aspose.TeX. عزّز قدرات معالجة المستندات بسهولة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.TeX لإنشاء PDF من LaTeX في تطبيق ويب؟**  
@@ -93,3 +86,10 @@ LaTeX، نظام تنضيد معروف بدقته في تنسيق المستند
 **آخر تحديث:** 2025-12-12  
 **تم الاختبار مع:** أحدث نسخة من Aspose.TeX (إصدار 2025)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

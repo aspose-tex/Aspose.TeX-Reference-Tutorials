@@ -65,13 +65,6 @@ LaTeX, система наборов, известная своей точнос
 ### [Обработка файлов ввода LaTeX из ZIP‑архивов в Java](./zip-archive-input/)
 Откройте для себя бесшовное руководство по обработке файлов LaTeX из ZIP‑архивов в Java с использованием Aspose.TeX. Легко улучшите возможности обработки документов.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **В:** Могу ли я использовать Aspose.TeX для генерации PDF из LaTeX в веб‑приложении?  
@@ -94,3 +87,10 @@ LaTeX, система наборов, известная своей точнос
 **Последнее обновление:** 2025-12-12  
 **Тестировано с:** последняя версия Aspose.TeX (выпуск 2025)  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
