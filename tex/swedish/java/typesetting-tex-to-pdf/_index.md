@@ -10,8 +10,8 @@ weight: 28
 ---
 
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatera TeX-filer till PDF i Java
 
@@ -103,4 +103,4 @@ Lär dig hur du formaterar TeX till PDF i Java med externa strömmar med Aspose.
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
