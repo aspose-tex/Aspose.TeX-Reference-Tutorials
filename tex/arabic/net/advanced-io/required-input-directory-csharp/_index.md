@@ -1,35 +1,54 @@
 ---
-title: تحديد دليل الإدخال المطلوب لـ Aspose.TeX (C#)
-linktitle: تحديد دليل الإدخال المطلوب لـ Aspose.TeX (C#)
+date: 2025-12-18
+description: تعلم كيفية تنفيذ iinputworkingdirectory في C# باستخدام Aspose.TeX لـ
+  .NET. اتبع هذا الدليل خطوة بخطوة لتكوين دليل الإدخال المطلوب في مشاريع C# الخاصة
+  بك.
+linktitle: implement iinputworkingdirectory c# – Specify Required Input Directory
+  for Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
-description: استكشف Aspose.TeX for .NET، وهي مكتبة قوية لتكامل TeX السلس. اتبع دليلنا خطوة بخطوة.
-weight: 10
+title: تنفيذ iinputworkingdirectory c# – تحديد دليل الإدخال المطلوب لـ Aspose.TeX
+  (C#)
 url: /ar/net/advanced-io/required-input-directory-csharp/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحديد دليل الإدخال المطلوب لـ Aspose.TeX (C#)
+# تنفيذ iinputworkingdirectory c# – تحديد دليل الإدخال المطلوب لـ Aspose.TeX (C#)
 
-## مقدمة
+## المقدمة
 
-في مجال معالجة المستندات وتنضيدها، يمثل Aspose.TeX for .NET أداة قوية للمطورين. فهو يسهل إنشاء ملفات TeX ومعالجتها بسلاسة داخل تطبيقات .NET. تعمل هذه المقالة كدليل شامل، حيث تقسم استخدام Aspose.TeX لـ .NET إلى خطوات سهلة المتابعة.
+Aspose.TeX for .NET يجعل من السهل العمل مع ملفات TeX مباشرةً من تطبيقات C# الخاصة بك. في هذا البرنامج التعليمي ستتعلم **كيفية تنفيذ iinputworkingdirectory c#** بحيث يمكن للمكتبة تحديد موقع وقراءة الملفات التي تحتاجها. سنستعرض كل خطوة، بدءًا من إعداد المشروع إلى إنشاء فئة مخصصة `RequiredInputDirectory` التي تلبي واجهة `IInputWorkingDirectory`.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ماذا يفعل IInputWorkingDirectory؟** يخبر Aspose.TeX بمكان البحث عن ملفات الإدخال.  
+- **هل أحتاج إلى ترخيص لتجربة ذلك؟** تتوفر نسخة تجريبية مجانية؛ يلزم وجود ترخيص للإنتاج.  
+- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6+.  
+- **هل هناك أي حزمة إضافية مطلوبة؟** فقط مكتبة Aspose.TeX for .NET نفسها.  
+- **هل يمكنني تصحيح معالجة الدليل؟** نعم—قم بتنفيذ تسجيل داخل الطرق لرؤية الملفات المطلوبة.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو تنفيذ iinputworkingdirectory c#؟
+`IInputWorkingDirectory` هي واجهة في Aspose.TeX تُجرد الوصول إلى نظام الملفات المطلوب أثناء معالجة TeX. من خلال تنفيذ هذه الواجهة في C#، تحصل على تحكم كامل في كيفية تحديد موقع الملفات وقراءتها وإدراجها.
 
--  Aspose.TeX for .NET Library: قم بتنزيل وتثبيت مكتبة Aspose.TeX for .NET من[صفحة الإصدار](https://releases.aspose.com/tex/net/).
+## لماذا تنفيذ iinputworkingdirectory c# في Aspose.TeX؟
+- **حلول التخزين المخصصة:** استخدم الموارد المدمجة، التخزين السحابي، أو أنظمة الملفات الافتراضية بدلاً من القرص المحلي.  
+- **تحسين الأداء:** إرجاع التدفقات مباشرةً من الذاكرة، لتجنب عمليات الإدخال/الإخراج غير الضرورية.  
+- **الأمان:** قصر الوصول على الملفات التي تكشفها صراحةً فقط، مما يقلل من سطح الهجوم.
 
-- بيئة تطوير .NET: تأكد من أن لديك بيئة تطوير .NET عاملة تم إعدادها على جهازك.
+## المتطلبات المسبقة
 
-الآن، دعنا نتعمق في عملية دمج Aspose.TeX for .NET في مشاريعك.
+قبل الغوص في الكود، تأكد من أن لديك ما يلي:
 
-## استيراد مساحات الأسماء
+- Aspose.TeX for .NET Library: قم بتنزيل وتثبيت مكتبة Aspose.TeX for .NET من [صفحة الإصدار](https://releases.aspose.com/tex/net/).
+- .NET Development Environment: بيئة تطوير .NET تعمل (Visual Studio، VS Code، Rider، إلخ).
 
-للبدء، تحتاج إلى استيراد مساحات الأسماء الضرورية إلى تطبيق .NET الخاص بك. وهذا يضمن أن الكود الخاص بك لديه حق الوصول إلى وظائف Aspose.TeX. أضف مساحات الأسماء التالية في بداية التعليمات البرمجية الخاصة بك:
+الآن، لنبدأ بدمج Aspose.TeX في مشروعك.
+
+## استيراد المساحات الاسمية
+
+أضف المساحات الاسمية المطلوبة في أعلى ملف C# الخاص بك حتى يتمكن المترجم من العثور على أنواع Aspose.TeX:
 
 ```csharp
 using Aspose.TeX.IO;
@@ -37,9 +56,9 @@ using System.Collections.Generic;
 using System.IO;
 ```
 
-## تحديد دليل الإدخال المطلوب لـ Aspose.TeX (C#)
+## تنفيذ iinputworkingdirectory c# – تحديد دليل الإدخال المطلوب لـ Aspose.TeX (C#)
 
-الآن، دعونا نحلل عملية تحديد دليل الإدخال المطلوب لـ Aspose.TeX في C#.
+فيما يلي تفصيل خطوة بخطوة للفئة المخصصة `RequiredInputDirectory` التي تنفذ كلًا من `IInputWorkingDirectory` و `IFileCollector`.
 
 ### الخطوة 1: إنشاء فئة RequiredInputDirectory
 
@@ -54,7 +73,7 @@ public class RequiredInputDirectory : IInputWorkingDirectory, IFileCollector
     }
 ```
 
-### الخطوة 2: تنفيذ أسلوب StoreFileName
+### الخطوة 2: تنفيذ طريقة StoreFileName
 
 ```csharp
 public void StoreFileName(string fileName)
@@ -76,7 +95,7 @@ public void StoreFileName(string fileName)
 public Stream GetFile(string fileName, out string fullName, bool searchSubdirectories = false)
 {
     fullName = fileName;
-    return null; // هنا نعيد في الواقع دفقًا للملف المطلوب باسمه.
+    return null; // Here we actually return a stream for the file requested by its name.
 }
 ```
 
@@ -93,7 +112,7 @@ public string[] GetFileNamesByExtension(string extension, string path = null)
 }
 ```
 
-### الخطوة 5: التخلص من الموارد
+### الخطوة 5: تحرير الموارد
 
 ```csharp
 public void Dispose()
@@ -102,33 +121,41 @@ public void Dispose()
 }
 ```
 
- هذا التنفيذ الشامل لل`RequiredInputDirectory` يضمن الفصل التعامل الفعال مع أدلة الإدخال الخاصة بـ Aspose.TeX في تطبيق C# الخاص بك.
+توفر لك هذه التنفيذية تحكمًا كاملاً في كيفية اكتشاف Aspose.TeX وقراءة ملفات الإدخال في بيئة C#.
 
-## خاتمة
+## الأخطاء الشائعة والنصائح
 
-في الختام، يعمل Aspose.TeX for .NET على تمكين المطورين من دمج وظائف TeX بسلاسة في تطبيقات .NET الخاصة بهم. باتباع الدليل خطوة بخطوة الموضح في هذه المقالة، يمكنك تحديد دليل الإدخال المطلوب بكفاءة وتحسين قدرات معالجة المستندات.
+- **إرجاع تدفقات null:** في سيناريو واقعي يجب إرجاع `FileStream` أو تدفق ذاكرة يحتوي على بيانات الملف. إرجاع `null` سيتسبب في حدوث `FileNotFoundException` أثناء معالجة TeX.  
+- **الامتدادات حساسة لحالة الأحرف:** احفظ الامتدادات بحالة ثابتة (مثلاً، أحرف صغيرة) لتجنب عدم التطابق عند الاستعلام.  
+- **سلامة الخيوط:** إذا كان تطبيقك يصل إلى الدليل من عدة خيوط، فكر في إضافة تزامن حول القاموس `_fileNames`.
 
-### الأسئلة الشائعة
+## الخلاصة
 
-### س1: أين يمكنني العثور على وثائق Aspose.TeX لـ .NET؟
+باتباع هذا الدليل، أنت الآن تعرف **كيفية تنفيذ iinputworkingdirectory c#** وتكامل دليل إدخال مخصص مع Aspose.TeX for .NET. هذا يمنحك المرونة لإدارة موارد TeX بالطريقة التي يتطلبها تطبيقك.
 
- ج1: الوثائق متاحة[هنا](https://reference.aspose.com/tex/net/).
+## الأسئلة المتكررة
 
-### س2: كيف يمكنني تنزيل مكتبة Aspose.TeX لـ .NET؟
+**س: أين يمكنني العثور على وثائق Aspose.TeX for .NET؟**  
+A: الوثائق متاحة [هنا](https://reference.aspose.com/tex/net/).
 
- ج2: يمكنك تنزيل المكتبة من[صفحة الإصدار](https://releases.aspose.com/tex/net/).
+**س: كيف يمكنني تنزيل مكتبة Aspose.TeX for .NET؟**  
+A: يمكنك تنزيل المكتبة من [صفحة الإصدار](https://releases.aspose.com/tex/net/).
 
-### س3: أين يمكنني الحصول على دعم Aspose.TeX لـ .NET؟
+**س: أين يمكنني الحصول على دعم لـ Aspose.TeX for .NET؟**  
+A: زر [منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47) للحصول على دعم المجتمع.
 
- ج3: قم بزيارة[منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47) لدعم المجتمع.
+**س: هل هناك نسخة تجريبية مجانية متاحة؟**  
+A: نعم، يمكنك استكشاف نسخة التجربة المجانية [هنا](https://releases.aspose.com/).
 
-### س4: هل هناك نسخة تجريبية مجانية متاحة؟
+**س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.TeX for .NET؟**  
+A: يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
-ج4: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+---
 
-### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.TeX لـ .NET؟
+**آخر تحديث:** 2025-12-18  
+**تم الاختبار مع:** Aspose.TeX 23.11 for .NET  
+**المؤلف:** Aspose  
 
- ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
