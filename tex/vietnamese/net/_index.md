@@ -1,93 +1,136 @@
 ---
-title: Hướng dẫn toàn diện và ví dụ về Aspose.TeX cho .NET
-linktitle: Hướng dẫn Aspose.TeX cho .NET
-weight: 10
+date: 2025-12-18
+description: Tìm hiểu cách tạo PDF từ TeX bằng Aspose.TeX cho .NET. Khám phá định
+  dạng nâng cao, chuyển đổi LaTeX sang PDF, PNG, SVG, XPS và hướng dẫn cấp phép.
+linktitle: Aspose.TeX for .NET Tutorials
+title: Tạo PDF từ TeX với Aspose.TeX cho .NET – Hướng dẫn toàn diện
 url: /vi/net/
-description: Làm chủ thiết kế LaTeX một cách dễ dàng bằng Aspose.TeX for .NET. Tải xuống để tích hợp liền mạch và khám phá định dạng nâng cao, xử lý tệp, cấp phép, v.v.
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hướng dẫn toàn diện và ví dụ về Aspose.TeX cho .NET
-
+# Tạo PDF từ TeX với Aspose.TeX cho .NET
 
 ## Giới thiệu
 
-Nếu bạn mong muốn nâng cao kỹ năng phát triển .NET của mình với Aspose.TeX, thì bạn đã đến đúng nơi. Chúng tôi cung cấp một kho tàng các hướng dẫn và ví dụ hướng dẫn bạn những điểm phức tạp của Aspose.TeX dành cho .NET. Từ định dạng nâng cao đến chuyển đổi LaTeX liền mạch và xử lý tệp hiệu quả, chúng tôi đều hỗ trợ bạn.
+Nếu bạn muốn **tạo PDF từ TeX** trong các dự án .NET, bạn đã đến đúng nơi. Trang này tập hợp một kho tàng các hướng dẫn và ví dụ về Aspose.TeX giúp bạn nắm bắt mọi thứ từ định dạng TeX nâng cao đến chuyển đổi LaTeX liền mạch, xử lý tệp, cấp phép và hơn thế nữa. Dù bạn đang xây dựng một công cụ báo cáo, một nền tảng xuất bản học thuật, hay một quy trình tài liệu tùy chỉnh, những hướng dẫn này sẽ giúp bạn biến TeX thô thành các PDF hoàn thiện nhanh chóng và đáng tin cậy.
 
-## Định dạng TeX dễ dàng với Aspose.TeX
- Khám phá thế giới định dạng và tùy chỉnh TeX nâng cao với Aspose.TeX cho .NET. Dễ dàng tạo ra các thiết kế LaTeX tuyệt đẹp bằng cách tải xuống bộ công cụ của chúng tôi. Tích hợp liền mạch nó vào các dự án .NET của bạn và nắm vững nghệ thuật định dạng TeX nâng cao. Đi sâu vào[Định dạng và tùy chỉnh TeX nâng cao](./advanced-formatting-and-customization/) Hiện nay.
+## Câu trả lời nhanh
+- **Aspose.TeX làm gì?** Nó chuyển đổi các tệp nguồn TeX/LaTeX thành PDF, PNG, SVG, XPS và các định dạng khác trực tiếp từ .NET.  
+- **Có thể tạo PDF từ TeX chỉ bằng một dòng lệnh không?** Có – một vài lời gọi API là đủ để tạo ra các PDF chất lượng cao.  
+- **Có cần giấy phép cho môi trường sản xuất không?** Giấy phép Aspose.TeX hợp lệ sẽ mở khóa đầy đủ tính năng và loại bỏ watermark đánh giá.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7+.  
+- **Có thể xuất ra SVG không?** Hoàn toàn có thể – Aspose.TeX có thể render LaTeX thành SVG cho đồ họa có thể mở rộng.
 
-## Chuyển đổi LaTeX dễ dàng
-Khám phá sức mạnh của Aspose.TeX dành cho .NET trong việc chuyển đổi LaTeX sang PDF, PNG, SVG và XPS. Các hướng dẫn của chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo tích hợp dễ dàng để có đầu ra PDF chất lượng cao, tùy chỉnh. Khám phá[Chuyển đổi LaTeX sang PDF, PNG, SVG và XPS](./latex-conversion/) để giải phóng tiềm năng của Aspose.TeX.
+## “tạo PDF từ TeX” là gì?
+Tạo PDF từ TeX có nghĩa là lấy một tệp nguồn LaTeX (hoặc các lệnh TeX thô) và chuyển đổi nó thành một tài liệu PDF cuối cùng. Aspose.TeX cho .NET xử lý toàn bộ quy trình biên dịch nội bộ, vì vậy bạn không cần cài đặt bộ LaTeX bên ngoài.
 
-## Làm chủ đầu vào và đầu ra tập tin
- Khám phá toàn bộ tiềm năng của Aspose.TeX cho .NET bằng hướng dẫn của chúng tôi về đầu vào và đầu ra tệp. Xử lý hệ thống tập tin chính, đầu vào ZIP và đầu ra XPS một cách dễ dàng. Khám phá[Nhập và xuất tệp với Aspose.TeX](./file-input-output/) để khai thác sức mạnh thực sự của Aspose.TeX trong các dự án của bạn.
+## Tại sao nên tạo PDF từ TeX với Aspose.TeX?
+- **Không phụ thuộc bên ngoài** – thư viện tích hợp sẵn engine TeX.  
+- **Kiểm soát toàn diện** – tùy chỉnh phông chữ, kích thước trang và các tùy chọn render bằng mã.  
+- **Đầu ra đa định dạng** – ngoài PDF, bạn còn có thể tạo PNG, SVG và XPS bằng cùng một API.  
+- **Giấy phép doanh nghiệp** – hỗ trợ đáng tin cậy và cập nhật thường xuyên.
 
-## Giấy phép được giải phóng
- Nắm quyền chỉ huy Aspose.TeX .NET bằng cách học cách quản lý giấy phép và nâng cao khả năng xử lý tài liệu. Hướng dẫn của chúng tôi mở ra cánh cửa cho những khả năng vô hạn. Khám phá[Quản lý giấy phép Aspose.TeX](./licensing/) để có những hiểu biết toàn diện về việc khai thác toàn bộ tiềm năng của Aspose.TeX.
+## Cách tạo PDF từ TeX với Aspose.TeX cho .NET
+Dưới đây là lộ trình ngắn gọn dẫn bạn tới các hướng dẫn chi tiết cho từng bước. Nhấp vào các liên kết phù hợp với nhu cầu của bạn, và bạn sẽ có một giải pháp hoạt động trong vài phút.
 
-## Kiểm soát đầu ra công việc TeX một cách chính xác
- Tăng cường quản lý tệp TeX với Aspose.TeX cho .NET. Tìm hiểu cách ghi đè tên công việc và nắm bắt đầu ra của thiết bị đầu cuối một cách dễ dàng bằng C#. Đi sâu vào[Kiểm soát đầu ra công việc Aspose.TeX](./job-output/)để có hướng dẫn từng bước và thông tin chuyên sâu của chuyên gia.
+### Định dạng TeX dễ dàng với Aspose.TeX
+Khám phá thế giới định dạng TeX nâng cao và tùy chỉnh với Aspose.TeX cho .NET. Tạo các thiết kế LaTeX ấn tượng một cách dễ dàng bằng cách tải bộ công cụ của chúng tôi. Tích hợp liền mạch vào dự án .NET và làm chủ nghệ thuật định dạng TeX nâng cao. Đọc ngay [Advanced TeX Formatting and Customization](./advanced-formatting-and-customization/) .
 
-## Kết xuất các số liệu LaTeX một cách liền mạch
- Khám phá sức mạnh của Aspose.TeX dành cho .NET trong việc hiển thị các số liệu LaTeX một cách liền mạch. Hướng dẫn từng bước, ví dụ về mã và nhiều nội dung khác của chúng tôi để hiển thị PNG và SVG trong C# đang chờ bạn trong[Kết xuất các số liệu LaTeX với Aspose.TeX](./render-latex-figures/).
+### Chuyển đổi LaTeX một cách đơn giản
+Khám phá sức mạnh của Aspose.TeX cho .NET trong việc chuyển đổi LaTeX sang PDF, PNG, SVG và XPS. Các hướng dẫn của chúng tôi sẽ dẫn bạn qua quy trình, đảm bảo tích hợp dễ dàng cho đầu ra PDF tùy chỉnh, chất lượng cao. Khám phá [LaTeX Conversion to PDF, PNG, SVG, and XPS](./latex-conversion/) để khai thác tiềm năng của Aspose.TeX.
 
-## Nắm vững nghệ thuật kết xuất toán học LaTeX
- Khám phá nghệ thuật hiển thị toán học LaTeX sang PNG một cách dễ dàng với Aspose.TeX. Nắm vững quy trình bằng cách sử dụng hướng dẫn của chúng tôi trong C#, đảm bảo tích hợp để có kết quả bóng bẩy.[Kết xuất toán LaTeX với Aspose.TeX](./render-latex-math/) là cánh cổng đưa bạn đến sự hoàn hảo về mặt toán học trong .NET.
+### Quản lý nhập và xuất tệp
+Mở khóa tiềm năng đầy đủ của Aspose.TeX cho .NET với các hướng dẫn về nhập và xuất tệp. Thành thạo xử lý hệ thống tệp, nhập ZIP và xuất XPS một cách dễ dàng. Khám phá [File Input and Output with Aspose.TeX](./file-input-output/) để tận dụng sức mạnh thực sự của Aspose.TeX trong dự án của bạn.
 
-## Kỹ thuật đầu vào và đầu ra nâng cao
- Khám phá sức mạnh của Aspose.TeX dành cho .NET với các hướng dẫn nâng cao của chúng tôi. Tìm hiểu cách chỉ định thư mục đầu vào và luồng chính, hình ảnh và đầu vào đầu cuối trong C# một cách dễ dàng. Khám phá[Đầu vào và đầu ra Aspose.TeX nâng cao](./advanced-io/) để có được những hiểu biết sâu sắc ở cấp độ chuyên gia.
+### Giải phóng giấy phép
+Nắm bắt Aspose.TeX .NET bằng cách học cách quản lý giấy phép và nâng cao xử lý tài liệu. Các hướng dẫn của chúng tôi mở ra cánh cửa tới vô vàn khả năng. Khám phá [Manage Aspose.TeX Licenses](./licensing/) để có cái nhìn toàn diện về việc mở khóa toàn bộ tiềm năng của Aspose.TeX.
 
-## Sắp chữ TeX sang PDF
- Khai phá sức mạnh của Aspose.TeX cho .NET với hướng dẫn toàn diện của chúng tôi về cách sắp chữ TeX thành PDF. Nâng cao kỹ năng phát triển .NET của bạn bằng khả năng tích hợp liền mạch. Khám phá[Làm việc với đầu ra PDF](./pdf-output/)để bắt tay vào hành trình xử lý tài liệu chính xác.
+### Kiểm soát đầu ra công việc TeX một cách chính xác
+Nâng cao quản lý tệp TeX với Aspose.TeX cho .NET. Học cách ghi đè tên công việc và bắt đầu đầu ra terminal một cách dễ dàng bằng C#. Đọc [Control Aspose.TeX Job Output](./job-output/) để có các hướng dẫn chi tiết và lời khuyên chuyên môn.
 
-## Chuyển đổi TeX sang XPS được làm sáng tỏ
- Chuyển đổi TeX sang XPS dễ dàng với Aspose.TeX trong .NET. Hướng dẫn của chúng tôi đảm bảo tích hợp liền mạch. Khám phá[Làm việc với đầu ra XPS](./xps-output/) để biết thông tin chuyên sâu của chuyên gia về cách sắp chữ TeX sang XPS.
+### Render hình ảnh LaTeX một cách liền mạch
+Khám phá sức mạnh của Aspose.TeX cho .NET trong việc render hình ảnh LaTeX một cách liền mạch. Các hướng dẫn từng bước, ví dụ mã và hơn thế nữa cho việc render PNG và SVG trong C# đang chờ bạn tại [Render LaTeX Figures with Aspose.TeX](./render-latex-figures/) .
 
-## Độ chính xác toán học với SVG
- Khám phá nghệ thuật hiển thị các phương trình toán học LaTeX dưới dạng SVG trong .NET với Aspose.TeX. Giải phóng độ chính xác với các tùy chọn tùy chỉnh để đạt được sự hoàn hảo về mặt toán học.[Kết xuất toán học với SVG](./svg-math-rendering/) là hướng dẫn của bạn để hoàn thiện biểu thức toán học.
+### Thành thạo render toán học LaTeX
+Khám phá nghệ thuật render toán học LaTeX sang PNG một cách dễ dàng với Aspose.TeX. Thành thạo quy trình bằng hướng dẫn C# của chúng tôi, đảm bảo tích hợp cho kết quả hoàn hảo. [Render LaTeX Math with Aspose.TeX](./render-latex-math/) là cánh cửa tới sự hoàn hảo toán học trong .NET.
 
-## Các định dạng TeX tùy chỉnh được phát hành
- Mở khóa khả năng làm chủ việc tạo tài liệu bằng Aspose.TeX cho .NET. Tìm hiểu cách tạo các định dạng TeX tùy chỉnh một cách dễ dàng trong hướng dẫn toàn diện này.[Định dạng TeX tùy chỉnh](./custom-tex-formats/) mở ra cánh cửa cho những khả năng vô hạn trong việc tạo tài liệu.
+### Kỹ thuật nhập và xuất nâng cao
+Khám phá sức mạnh của Aspose.TeX cho .NET với các hướng dẫn nâng cao. Học cách chỉ định thư mục nhập và làm chủ streams, hình ảnh, và nhập terminal trong C# một cách dễ dàng. Khám phá [Advanced Aspose.TeX Input and Output](./advanced-io/) để có những hiểu biết cấp chuyên gia.
 
-## Khai thác sức mạnh của đầu vào và đầu ra tệp Zip
- Mở khóa tiềm năng của Aspose.TeX cho .NET với Hướng dẫn nhập và xuất tệp Zip của chúng tôi. Khám phá khả năng xử lý tệp ZIP, xử lý tài liệu cho ứng dụng của bạn.[Đầu vào và đầu ra tệp Zip](./zip-file-io/)các hướng dẫn đang chờ bạn để có trải nghiệm liền mạch trong việc xử lý tệp ZIP và xử lý tài liệu.
+### Đánh máy TeX thành PDF
+Mở khóa sức mạnh của Aspose.TeX cho .NET với hướng dẫn toàn diện về đánh máy TeX thành PDF. Nâng cao kỹ năng phát triển .NET của bạn với tích hợp liền mạch. Khám phá [Working with PDF Output](./pdf-output/) để bắt đầu hành trình xử lý tài liệu chính xác.
 
-Khám phá những hướng dẫn này và bắt đầu hành trình làm chủ Aspose.TeX cho .NET. Nâng cao kỹ năng phát triển của bạn và mở khóa khả năng vô hạn trong việc xử lý và định dạng tài liệu. Chúc mừng mã hóa!
+### Chuyển đổi TeX sang XPS một cách rõ ràng
+Chuyển đổi TeX sang XPS một cách dễ dàng với Aspose.TeX trong .NET. Hướng dẫn của chúng tôi đảm bảo tích hợp liền mạch. Khám phá [Working with XPS Output](./xps-output/) để có những hiểu biết chuyên sâu về đánh máy TeX sang XPS.
+
+### Độ chính xác toán học với SVG
+Khám phá nghệ thuật render công thức LaTeX dưới dạng SVG trong .NET với Aspose.TeX. Giải phóng độ chính xác với các tùy chọn tùy chỉnh cho sự hoàn hảo toán học. [Math Rendering with SVG](./svg-math-rendering/) là hướng dẫn của bạn tới sự hoàn hảo biểu thức toán học.
+
+### Định dạng TeX tùy chỉnh
+Mở khóa khả năng tạo tài liệu với Aspose.TeX cho .NET. Học cách tạo các định dạng TeX tùy chỉnh một cách dễ dàng trong hướng dẫn toàn diện này. [Custom TeX Formats](./custom-tex-formats/) mở ra cánh cửa tới vô vàn khả năng trong việc tạo tài liệu.
+
+### Tận dụng sức mạnh của nhập và xuất tệp Zip
+Mở khóa tiềm năng của Aspose.TeX cho .NET với các hướng dẫn nhập và xuất tệp Zip. Khám phá xử lý tệp ZIP, xử lý tài liệu cho ứng dụng của bạn. Các hướng dẫn [Zip File Input and Output](./zip-file-io/) đang chờ bạn để có trải nghiệm liền mạch trong việc xử lý tệp ZIP và tài liệu.
+
+Khám phá các hướng dẫn này, và bắt đầu hành trình làm chủ Aspose.TeX cho .NET. Nâng cao kỹ năng phát triển và mở khóa vô vàn khả năng trong xử lý và định dạng tài liệu. Chúc bạn lập trình vui!
 
 ## Hướng dẫn Aspose.TeX cho .NET
-### [Định dạng và tùy chỉnh TeX nâng cao](./advanced-formatting-and-customization/)
-Dễ dàng tạo ra các thiết kế LaTeX tuyệt đẹp với Aspose.TeX cho .NET. Tải xuống ngay bây giờ để tích hợp liền mạch vào các dự án .NET của bạn và làm chủ định dạng TeX nâng cao.
-### [Chuyển đổi LaTeX sang PDF, PNG, SVG và XPS](./latex-conversion/)
-Chuyển đổi LaTeX sang PDF, PNG, SVG và XPS liền mạch trong .NET với Aspose.TeX. Tích hợp dễ dàng cho đầu ra PDF chất lượng cao, tùy chỉnh.
-### [Nhập và xuất tệp với Aspose.TeX](./file-input-output/)
-Khai phá tiềm năng của Aspose.TeX cho .NET bằng các hướng dẫn về đầu vào và đầu ra tệp. Xử lý hệ thống tập tin chính, đầu vào ZIP và đầu ra XPS một cách dễ dàng.
-### [Quản lý giấy phép Aspose.TeX](./licensing/)
-Khai thác toàn bộ tiềm năng của Aspose.TeX .NET bằng các hướng dẫn này. Tìm hiểu cách quản lý giấy phép, nâng cao khả năng xử lý tài liệu và khám phá những khả năng vô hạn.
-### [Kiểm soát đầu ra công việc Aspose.TeX](./job-output/)
-Tăng cường quản lý tệp TeX với Aspose.TeX cho .NET. Tìm hiểu cách ghi đè tên công việc và nắm bắt đầu ra của thiết bị đầu cuối một cách dễ dàng bằng cách sử dụng C# với hướng dẫn từng bước của chúng tôi.
-### [Kết xuất các số liệu LaTeX với Aspose.TeX](./render-latex-figures/)
-Khám phá sức mạnh của Aspose.TeX dành cho .NET trong việc hiển thị các số liệu LaTeX một cách liền mạch. Hướng dẫn từng bước, ví dụ về mã, v.v. để hiển thị PNG và SVG trong C#.
-### [Kết xuất toán LaTeX với Aspose.TeX](./render-latex-math/)
-Khám phá nghệ thuật hiển thị toán học LaTeX sang PNG một cách dễ dàng với Aspose.TeX. Nắm vững quy trình bằng cách sử dụng hướng dẫn của chúng tôi trong C#, đảm bảo tích hợp để có kết quả bóng bẩy.
-### [Đầu vào và đầu ra Aspose.TeX nâng cao](./advanced-io/)
-Khám phá sức mạnh của Aspose.TeX dành cho .NET với các hướng dẫn nâng cao của chúng tôi. Tìm hiểu cách chỉ định thư mục đầu vào và luồng chính, hình ảnh và đầu vào đầu cuối trong C# một cách dễ dàng.
-### [Làm việc với đầu ra PDF](./pdf-output/)
-Khai phá sức mạnh của Aspose.TeX cho .NET với hướng dẫn toàn diện của chúng tôi về cách sắp chữ TeX thành PDF. Nâng cao kỹ năng phát triển .NET của bạn bằng khả năng tích hợp liền mạch.
-### [Làm việc với đầu ra XPS](./xps-output/)
-Chuyển đổi TeX sang XPS dễ dàng với Aspose.TeX trong .NET. Hướng dẫn của chúng tôi đảm bảo tích hợp liền mạch. Khám phá hướng dẫn Sắp chữ TeX sang XPS để có được thông tin chi tiết chuyên sâu.
-### [Kết xuất toán học với SVG](./svg-math-rendering/)
-Khám phá nghệ thuật hiển thị các phương trình toán học LaTeX dưới dạng SVG trong .NET với Aspose.TeX. Giải phóng độ chính xác với các tùy chọn tùy chỉnh để đạt được sự hoàn hảo về mặt toán học.
-### [Định dạng TeX tùy chỉnh](./custom-tex-formats/)
-Mở khóa khả năng làm chủ việc tạo tài liệu bằng Aspose.TeX cho .NET. Tìm hiểu cách tạo các định dạng TeX tùy chỉnh một cách dễ dàng trong hướng dẫn toàn diện này.
-### [Đầu vào và đầu ra tệp Zip](./zip-file-io/)
-Mở khóa tiềm năng của Aspose.TeX cho .NET với Hướng dẫn nhập và xuất tệp Zip của chúng tôi. Khám phá khả năng xử lý tệp ZIP, xử lý tài liệu cho ứng dụng của bạn.
+### [Advanced TeX Formatting and Customization](./advanced-formatting-and-customization/)
+Tạo các thiết kế LaTeX ấn tượng một cách dễ dàng với Aspose.TeX cho .NET. Tải ngay để tích hợp liền mạch vào dự án .NET và làm chủ định dạng TeX nâng cao.
+### [LaTeX Conversion to PDF, PNG, SVG, and XPS](./latex-conversion/)
+Chuyển đổi LaTeX sang PDF, PNG, SVG và XPS trong .NET với Aspose.TeX. Tích hợp dễ dàng cho đầu ra PDF tùy chỉnh, chất lượng cao.
+### [File Input and Output with Aspose.TeX](./file-input-output/)
+Mở khóa tiềm năng của Aspose.TeX cho .NET với các hướng dẫn về nhập và xuất tệp. Thành thạo xử lý hệ thống tệp, nhập ZIP và xuất XPS một cách dễ dàng.
+### [Manage Aspose.TeX Licenses](./licensing/)
+Mở khóa toàn bộ tiềm năng của Aspose.TeX .NET với các hướng dẫn này. Học cách quản lý giấy phép, nâng cao xử lý tài liệu và khám phá vô vàn khả năng.
+### [Control Aspose.TeX Job Output](./job-output/)
+Nâng cao quản lý tệp TeX với Aspose.TeX cho .NET. Học cách ghi đè tên công việc và bắt đầu đầu ra terminal một cách dễ dàng bằng C# qua các hướng dẫn chi tiết.
+### [Render LaTeX Figures with Aspose.TeX](./render-latex-figures/)
+Khám phá sức mạnh của Aspose.TeX cho .NET trong việc render hình ảnh LaTeX một cách liền mạch. Các hướng dẫn từng bước, ví dụ mã và hơn thế nữa cho việc render PNG và SVG trong C#.
+### [Render LaTeX Math with Aspose.TeX](./render-latex-math/)
+Khám phá nghệ thuật render toán học LaTeX sang PNG một cách dễ dàng với Aspose.TeX. Thành thạo quy trình bằng hướng dẫn C# của chúng tôi, đảm bảo tích hợp cho kết quả hoàn hảo.
+### [Advanced Aspose.TeX Input and Output](./advanced-io/)
+Khám phá sức mạnh của Aspose.TeX cho .NET với các hướng dẫn nâng cao. Học cách chỉ định thư mục nhập và làm chủ streams, hình ảnh, và nhập terminal trong C# một cách dễ dàng.
+### [Working with PDF Output](./pdf-output/)
+Mở khóa sức mạnh của Aspose.TeX cho .NET với hướng dẫn toàn diện về đánh máy TeX thành PDF. Nâng cao kỹ năng phát triển .NET của bạn với tích hợp liền mạch.
+### [Working with XPS Output](./xps-output/)
+Chuyển đổi TeX sang XPS một cách dễ dàng với Aspose.TeX trong .NET. Hướng dẫn của chúng tôi đảm bảo tích hợp liền mạch. Khám phá hướng dẫn Typesetting TeX to XPS để có những hiểu biết chuyên sâu.
+### [Math Rendering with SVG](./svg-math-rendering/)
+Khám phá nghệ thuật render công thức LaTeX dưới dạng SVG trong .NET với Aspose.TeX. Giải phóng độ chính xác với các tùy chọn tùy chỉnh cho sự hoàn hảo toán học.
+### [Custom TeX Formats](./custom-tex-formats/)
+Mở khóa khả năng tạo tài liệu với Aspose.TeX cho .NET. Học cách tạo các định dạng TeX tùy chỉnh một cách dễ dàng trong hướng dẫn toàn diện này.
+### [Zip File Input and Output](./zip-file-io/)
+Mở khóa tiềm năng của Aspose.TeX cho .NET với các hướng dẫn nhập và xuất tệp Zip. Khám phá xử lý tệp ZIP, xử lý tài liệu cho ứng dụng của bạn.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Câu hỏi thường gặp
+
+**Q: Làm sao để tạo PDF từ TeX mà không cài đặt bộ LaTeX cục bộ?**  
+A: Aspose.TeX tích hợp engine TeX, vì vậy bạn có thể gọi API trực tiếp từ mã .NET và nhận PDF ngay lập tức.
+
+**Q: Làm thế nào để chuyển đổi LaTeX PDF sang các định dạng khác như SVG?**  
+A: Sử dụng cùng API Aspose.TeX với phương thức `Save` thích hợp (ví dụ, `Save("output.svg", SaveOptions.CreateSvgSaveOptions())`). Điều này được đề cập trong các hướng dẫn “latex conversion to svg”.
+
+**Q: Tôi có thể render công thức LaTeX thành PNG cho ảnh thu nhỏ web không?**  
+A: Có – hướng dẫn “render latex png” chỉ ra cách gọi `Save("eq.png", SaveOptions.CreatePngSaveOptions())` để có ảnh PNG độ phân giải cao.
+
+**Q: Có cần giấy phép riêng cho mỗi định dạng đầu ra không?**  
+A: Không. Một giấy phép Aspose.TeX duy nhất bao gồm tất cả các định dạng đầu ra được hỗ trợ (PDF, PNG, SVG, XPS, v.v.).
+
+**Q: Những khó khăn thường gặp khi tạo PDF từ TeX là gì?**  
+A: Thiếu phông chữ, gói không được hỗ trợ, hoặc đường dẫn tệp không đúng. Hướng dẫn “how to convert latex pdf” bao gồm các mẹo khắc phục cho những vấn đề này.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-18  
+**Đã kiểm tra với:** Aspose.TeX cho .NET 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose

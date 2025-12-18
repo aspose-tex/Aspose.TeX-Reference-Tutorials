@@ -1,93 +1,136 @@
 ---
-title: .NET용 Aspose.TeX의 종합 튜토리얼 및 예제
-linktitle: .NET 튜토리얼용 Aspose.TeX
-weight: 10
+date: 2025-12-18
+description: Aspose.TeX for .NET을 사용하여 TeX에서 PDF를 생성하는 방법을 배우세요. 고급 서식, LaTeX를 PDF,
+  PNG, SVG, XPS로 변환하는 방법 및 라이선스 가이드를 살펴보세요.
+linktitle: Aspose.TeX for .NET Tutorials
+title: Aspose.TeX for .NET으로 TeX에서 PDF 생성 – 종합 튜토리얼
 url: /ko/net/
-description: .NET용 Aspose.TeX를 사용하여 쉽게 LaTeX 디자인을 마스터하세요. 원활한 통합을 위해 다운로드하고 고급 형식 지정, 파일 처리, 라이선스 등을 살펴보세요.
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET용 Aspose.TeX의 종합 튜토리얼 및 예제
-
+# Aspose.TeX for .NET를 사용하여 TeX에서 PDF 생성
 
 ## 소개
 
-Aspose.TeX로 .NET 개발 기술을 향상시키고 싶다면 제대로 찾아오셨습니다. 우리는 .NET용 Aspose.TeX의 복잡성을 안내하는 귀중한 튜토리얼과 예제를 제공합니다. 고급 서식 지정부터 원활한 LaTeX 변환 및 효율적인 파일 처리에 이르기까지 모든 것을 다룹니다.
+.NET 프로젝트에서 **TeX에서 PDF를 생성**하고 싶다면, 바로 여기입니다. 이 허브에는 고급 TeX 서식부터 원활한 LaTeX 변환, 파일 처리, 라이선스 관리 등 모든 것을 단계별로 안내하는 Aspose.TeX 튜토리얼과 예제가 가득합니다. 보고서 엔진, 학술 출판 도구, 맞춤형 문서 워크플로우를 구축하든, 이 가이드를 통해 원시 TeX를 빠르고 안정적으로 고품질 PDF로 변환할 수 있습니다.
 
-## Aspose.TeX를 사용한 손쉬운 TeX 포맷
- .NET용 Aspose.TeX를 사용하여 고급 TeX 형식화 및 사용자 정의의 세계를 탐험해보세요. 툴킷을 다운로드하여 멋진 LaTeX 디자인을 손쉽게 제작해 보세요. 이를 .NET 프로젝트에 원활하게 통합하고 고급 TeX 형식 지정 기술을 마스터하세요. 로 뛰어 들어라[고급 TeX 형식화 및 사용자 정의](./advanced-formatting-and-customization/) 지금.
+## 빠른 답변
+- **Aspose.TeX는 무엇을 하나요?** TeX/LaTeX 소스 파일을 .NET에서 직접 PDF, PNG, SVG, XPS 등 다양한 형식으로 변환합니다.  
+- **한 줄 코드로 TeX에서 PDF를 생성할 수 있나요?** 네 – 몇 번의 API 호출만으로 고품질 PDF를 만들 수 있습니다.  
+- **프로덕션에 라이선스가 필요합니까?** 유효한 Aspose.TeX 라이선스를 적용하면 모든 기능이 활성화되고 평가용 워터마크가 제거됩니다.  
+- **지원되는 .NET 버전은 무엇인가요?** .NET Framework 4.5 이상, .NET Core 3.1 이상, .NET 5/6/7 이상.  
+- **SVG 출력이 가능한가요?** 물론입니다 – Aspose.TeX는 LaTeX을 SVG로 렌더링하여 확장 가능한 그래픽을 제공합니다.
 
-## LaTeX 변환이 쉬워졌습니다
-LaTeX를 PDF, PNG, SVG 및 XPS로 변환하는 데 있어 .NET용 Aspose.TeX의 강력한 기능을 알아보세요. 당사의 튜토리얼은 프로세스를 안내하여 맞춤형 고품질 PDF 출력을 위한 간편한 통합을 보장합니다. 탐구하다[PDF, PNG, SVG 및 XPS로 LaTeX 변환](./latex-conversion/) Aspose.TeX의 잠재력을 최대한 발휘합니다.
+## “TeX에서 PDF 생성”이란?
+TeX에서 PDF를 생성한다는 것은 LaTeX 소스 파일(또는 순수 TeX 명령)을 최종 PDF 문서로 변환하는 것을 의미합니다. Aspose.TeX for .NET은 외부 LaTeX 배포판 없이 내부에서 전체 컴파일 파이프라인을 처리합니다.
 
-## 파일 입력 및 출력 숙달
- 파일 입력 및 출력에 대한 튜토리얼을 통해 .NET용 Aspose.TeX의 잠재력을 최대한 활용해 보세요. 마스터 파일 시스템 처리, ZIP 입력 및 XPS 출력을 쉽게 수행할 수 있습니다. 탐구하다[Aspose.TeX를 사용한 파일 입력 및 출력](./file-input-output/) 귀하의 프로젝트에서 Aspose.TeX의 진정한 힘을 활용하세요.
+## 왜 Aspose.TeX로 TeX에서 PDF를 생성해야 할까요?
+- **외부 의존성 없음** – 라이브러리 자체에 TeX 엔진이 포함되어 있습니다.  
+- **완전한 제어** – 폰트, 페이지 크기, 렌더링 옵션을 프로그래밍 방식으로 맞춤 설정할 수 있습니다.  
+- **다중 형식 출력** – PDF 외에도 동일한 API로 PNG, SVG, XPS 등을 생성할 수 있습니다.  
+- **엔터프라이즈 수준 라이선스** – 안정적인 지원과 정기적인 업데이트를 제공합니다.
 
-## 라이선스 해제
- 라이선스 관리 및 문서 처리 향상 방법을 학습하여 Aspose.TeX .NET을 제어하세요. 우리의 튜토리얼은 무한한 가능성의 문을 열어줍니다. 탐구하다[Aspose.TeX 라이선스 관리](./licensing/) Aspose.TeX의 잠재력을 최대한 활용하는 데 대한 포괄적인 통찰력을 얻으려면
+## Aspose.TeX for .NET으로 TeX에서 PDF를 생성하는 방법
+아래 로드맵은 각 단계별 상세 튜토리얼로 연결됩니다. 상황에 맞는 링크를 따라가면 몇 분 안에 동작하는 솔루션을 만들 수 있습니다.
 
-## TeX 작업 출력을 정밀하게 제어
- .NET용 Aspose.TeX를 사용하여 TeX 파일 관리를 강화하세요. C#을 사용하여 작업 이름을 재정의하고 터미널 출력을 쉽게 캡처하는 방법을 알아보세요. 로 뛰어 들어라[Aspose.TeX 작업 출력 제어](./job-output/)단계별 가이드와 전문가의 통찰력을 얻으세요.
+### Aspose.TeX로 손쉬운 TeX 서식 지정
+고급 TeX 서식 및 커스터마이징 세계를 탐험해 보세요. Aspose.TeX for .NET을 다운로드하고 .NET 프로젝트에 손쉽게 통합하여 뛰어난 LaTeX 디자인을 만들 수 있습니다. 지금 바로 [고급 TeX 서식 및 커스터마이징](./advanced-formatting-and-customization/)을 확인하세요.
 
-## LaTeX 그림을 원활하게 렌더링
- LaTeX 수치를 원활하게 렌더링하는 데 있어 .NET용 Aspose.TeX의 강력한 기능을 살펴보세요. C#의 PNG 및 SVG 렌더링에 대한 단계별 가이드, 코드 예제 등이 여러분을 기다립니다.[Aspose.TeX를 사용하여 LaTeX 그림 렌더링](./render-latex-figures/).
+### LaTeX 변환을 간편하게
+Aspose.TeX for .NET을 사용해 LaTeX을 PDF, PNG, SVG, XPS 등으로 변환하는 방법을 알아보세요. 튜토리얼을 따라하면 맞춤형 고품질 PDF 출력을 손쉽게 구현할 수 있습니다. [LaTeX을 PDF, PNG, SVG, XPS로 변환](./latex-conversion/)에서 잠재력을 확인하세요.
 
-## LaTeX 수학 렌더링 기술을 마스터하세요
- Aspose.TeX를 사용하여 LaTeX 수학을 PNG로 손쉽게 렌더링하는 기술을 알아보세요. C# 가이드를 사용하여 프로세스를 마스터하여 세련된 결과를 위한 통합을 보장하세요.[Aspose.TeX를 사용하여 LaTeX Math 렌더링](./render-latex-math/) .NET의 수학적 완벽성을 향한 관문입니다.
+### 파일 입출력 마스터하기
+Aspose.TeX for .NET의 파일 입출력 튜토리얼을 통해 파일 시스템 처리, ZIP 입력, XPS 출력 등을 손쉽게 마스터하세요. [Aspose.TeX 파일 입출력](./file-input-output/)에서 진정한 힘을 활용해 보세요.
 
-## 고급 입력 및 출력 기술
- 고급 튜토리얼을 통해 .NET용 Aspose.TeX의 강력한 기능을 알아보세요. C#에서 입력 디렉터리와 마스터 스트림, 이미지, 터미널 입력을 쉽게 지정하는 방법을 알아보세요. 탐구하다[고급 Aspose.TeX 입력 및 출력](./advanced-io/) 전문가 수준의 통찰력을 위해.
+### 라이선스 활용하기
+Aspose.TeX .NET 라이선스를 관리하고 문서 처리 기능을 강화하는 방법을 배워보세요. 튜토리얼을 통해 무한한 가능성의 문을 열 수 있습니다. [Aspose.TeX 라이선스 관리](./licensing/)를 확인하세요.
 
-## TeX를 PDF로 조판하기
- TeX를 PDF로 조판하는 방법에 대한 포괄적인 튜토리얼을 통해 .NET용 Aspose.TeX의 강력한 기능을 활용해 보세요. 원활한 통합으로 .NET 개발 기술을 향상시키세요. 탐구하다[PDF 출력 작업](./pdf-output/)정밀한 문서 처리의 여정을 시작합니다.
+### TeX 작업 출력 정밀 제어
+Aspose.TeX for .NET으로 TeX 파일 관리를 향상시키세요. 작업 이름을 재정의하고 터미널 출력을 C#으로 손쉽게 캡처하는 방법을 배웁니다. [Aspose.TeX 작업 출력 제어](./job-output/)에서 단계별 가이드를 확인하세요.
 
-## TeX에서 XPS로의 변환에 대한 이해
- .NET의 Aspose.TeX를 사용하여 TeX를 XPS로 손쉽게 변환하세요. 우리 가이드는 원활한 통합을 보장합니다. 탐구하다[XPS 출력 작업](./xps-output/) TeX를 XPS로 조판하는 방법에 대한 전문가의 통찰력을 얻으세요.
+### LaTeX 그림을 매끄럽게 렌더링
+Aspose.TeX for .NET을 사용해 LaTeX 그림을 매끄럽게 렌더링하는 방법을 탐구하세요. PNG와 SVG 렌더링을 위한 단계별 가이드와 코드 예제가 포함된 [LaTeX 그림 렌더링](./render-latex-figures/)을 확인하세요.
 
-## SVG를 통한 수학적 정확성
- Aspose.TeX를 사용하여 .NET에서 LaTeX 수학 방정식을 SVG로 렌더링하는 기술을 알아보세요. 수학적 완벽성을 위한 맞춤형 옵션으로 정밀도를 극대화하세요.[SVG를 사용한 수학 렌더링](./svg-math-rendering/) 수학적 표현의 완벽함을 위한 가이드입니다.
+### LaTeX 수식 렌더링 마스터하기
+Aspose.TeX으로 LaTeX 수식을 PNG로 손쉽게 렌더링하는 방법을 배워보세요. C# 가이드를 통해 통합된 결과물을 얻을 수 있습니다. [LaTeX 수식 렌더링](./render-latex-math/)에서 수학적 완성도를 경험하세요.
 
-## 사용자 정의 TeX 형식 출시
- .NET용 Aspose.TeX를 사용하여 문서 생성 기술을 활용하세요. 이 포괄적인 튜토리얼에서 손쉽게 사용자 정의 TeX 형식을 만드는 방법을 알아보세요.[사용자 정의 TeX 형식](./custom-tex-formats/) 문서 작성에 있어 무한한 가능성의 문을 열어드립니다.
+### 고급 입출력 기술
+Aspose.TeX for .NET의 고급 튜토리얼을 통해 입력 디렉터리 지정, 스트림, 이미지, 터미널 입력 등을 C#으로 손쉽게 마스터하세요. [고급 Aspose.TeX 입출력](./advanced-io/)에서 전문가 수준 인사이트를 얻으세요.
 
-## Zip 파일 입력 및 출력의 강력한 기능 활용
- Zip 파일 입력 및 출력 튜토리얼을 통해 .NET용 Aspose.TeX의 잠재력을 활용해 보세요. 귀하의 애플리케이션에 대한 ZIP 파일 처리, 문서 처리를 살펴보세요.[Zip 파일 입력 및 출력](./zip-file-io/)튜토리얼은 ZIP 파일 처리 및 문서 처리에 대한 원활한 경험을 기다립니다.
+### TeX를 PDF로 조판하기
+Aspose.TeX for .NET을 활용한 TeX → PDF 조판 종합 튜토리얼을 통해 .NET 개발 역량을 강화하세요. [PDF 출력 작업](./pdf-output/)에서 정밀 문서 처리를 시작하세요.
 
-이 튜토리얼을 살펴보고 .NET용 Aspose.TeX를 마스터하는 여정을 시작하세요. 개발 기술을 향상하고 문서 처리 및 형식화에 있어 무한한 가능성을 열어보세요. 즐거운 코딩하세요!
+### TeX를 XPS로 변환하기
+Aspose.TeX을 이용해 TeX를 XPS로 손쉽게 변환하는 방법을 확인하세요. 통합이 원활한 가이드를 제공합니다. [XPS 출력 작업](./xps-output/)에서 TeX → XPS 조판 노하우를 배우세요.
 
-## .NET 튜토리얼용 Aspose.TeX
-### [고급 TeX 형식화 및 사용자 정의](./advanced-formatting-and-customization/)
-.NET용 Aspose.TeX를 사용하여 멋진 LaTeX 디자인을 손쉽게 제작하세요. 지금 다운로드하여 .NET 프로젝트에 원활하게 통합하고 고급 TeX 형식을 마스터하세요.
-### [PDF, PNG, SVG 및 XPS로 LaTeX 변환](./latex-conversion/)
-Aspose.TeX를 사용하여 .NET에서 LaTeX를 PDF, PNG, SVG 및 XPS로 원활하게 변환합니다. 맞춤형 고품질 PDF 출력을 위한 간편한 통합입니다.
-### [Aspose.TeX를 사용한 파일 입력 및 출력](./file-input-output/)
-파일 입력 및 출력에 대한 튜토리얼을 통해 .NET용 Aspose.TeX의 잠재력을 활용해 보세요. 마스터 파일 시스템 처리, ZIP 입력 및 XPS 출력을 쉽게 수행할 수 있습니다.
+### SVG로 수학식 정밀 렌더링
+Aspose.TeX으로 .NET에서 LaTeX 수식 방정식을 SVG로 렌더링하는 기술을 익히세요. 맞춤 옵션을 통해 수학적 정밀도를 구현합니다. [SVG 수학 렌더링](./svg-math-rendering/)을 참고하세요.
+
+### 맞춤형 TeX 포맷 만들기
+Aspose.TeX for .NET으로 문서 생성 마스터하기. 맞춤형 TeX 포맷을 손쉽게 만드는 종합 튜토리얼을 확인하세요. [맞춤형 TeX 포맷](./custom-tex-formats/)에서 무한한 가능성을 열어보세요.
+
+### ZIP 파일 입출력 활용하기
+Aspose.TeX for .NET의 ZIP 파일 입출력 튜토리얼을 통해 ZIP 파일 처리와 문서 프로세싱을 손쉽게 구현하세요. [ZIP 파일 입출력](./zip-file-io/)에서 원활한 경험을 얻으세요.
+
+이 튜토리얼들을 탐색하며 Aspose.TeX for .NET을 마스터하는 여정을 시작하세요. 개발 역량을 높이고 문서 처리와 서식 지정에서 무한한 가능성을 열어보세요. 즐거운 코딩 되시길!
+
+## Aspose.TeX for .NET 튜토리얼
+### [고급 TeX 서식 및 커스터마이징](./advanced-formatting-and-customization/)
+Aspose.TeX for .NET으로 멋진 LaTeX 디자인을 손쉽게 제작하세요. 지금 다운로드하여 .NET 프로젝트에 원활히 통합하고 고급 TeX 서식을 마스터하세요.
+### [LaTeX을 PDF, PNG, SVG, XPS로 변환](./latex-conversion/)
+.NET에서 Aspose.TeX을 사용해 LaTeX을 PDF, PNG, SVG, XPS로 원활히 변환합니다. 맞춤형 고품질 PDF 출력을 위한 손쉬운 통합을 제공합니다.
+### [Aspose.TeX 파일 입출력](./file-input-output/)
+Aspose.TeX for .NET의 파일 입출력 튜토리얼로 파일 시스템 처리, ZIP 입력, XPS 출력을 손쉽게 마스터하세요.
 ### [Aspose.TeX 라이선스 관리](./licensing/)
-이 튜토리얼을 통해 Aspose.TeX .NET의 잠재력을 최대한 활용해 보세요. 라이센스를 관리하고, 문서 처리를 강화하고, 무한한 가능성을 탐색하는 방법을 알아보세요.
+Aspose.TeX .NET의 전체 기능을 활용하려면 라이선스를 관리하고 문서 처리를 강화하는 방법을 배워보세요.
 ### [Aspose.TeX 작업 출력 제어](./job-output/)
-.NET용 Aspose.TeX를 사용하여 TeX 파일 관리를 강화하세요. 단계별 가이드를 통해 C#을 사용하여 작업 이름을 재정의하고 터미널 출력을 손쉽게 캡처하는 방법을 알아보세요.
-### [Aspose.TeX를 사용하여 LaTeX 그림 렌더링](./render-latex-figures/)
-LaTeX 그림을 원활하게 렌더링하는 데 있어 .NET용 Aspose.TeX의 강력한 기능을 알아보세요. C#의 PNG 및 SVG 렌더링에 대한 단계별 가이드, 코드 예제 등입니다.
-### [Aspose.TeX를 사용하여 LaTeX Math 렌더링](./render-latex-math/)
-Aspose.TeX를 사용하여 LaTeX 수학을 PNG로 손쉽게 렌더링하는 기술을 알아보세요. C# 가이드를 사용하여 프로세스를 마스터하여 세련된 결과를 위한 통합을 보장하세요.
-### [고급 Aspose.TeX 입력 및 출력](./advanced-io/)
-고급 튜토리얼을 통해 .NET용 Aspose.TeX의 강력한 기능을 알아보세요. C#에서 입력 디렉터리와 마스터 스트림, 이미지, 터미널 입력을 쉽게 지정하는 방법을 알아보세요.
+Aspose.TeX for .NET으로 TeX 파일 관리를 향상시키고 작업 이름을 재정의하며 C#으로 터미널 출력을 캡처하는 방법을 단계별로 안내합니다.
+### [LaTeX 그림 렌더링](./render-latex-figures/)
+Aspose.TeX for .NET을 사용해 LaTeX 그림을 매끄럽게 렌더링하는 방법을 알아보세요. PNG와 SVG 렌더링을 위한 단계별 가이드와 코드 예제가 포함되어 있습니다.
+### [LaTeX 수식 렌더링](./render-latex-math/)
+Aspose.TeX으로 LaTeX 수식을 PNG로 손쉽게 렌더링하는 방법을 배워보세요. C# 가이드를 통해 통합된 결과물을 얻을 수 있습니다.
+### [고급 Aspose.TeX 입출력](./advanced-io/)
+Aspose.TeX for .NET의 고급 튜토리얼로 입력 디렉터리 지정, 스트림, 이미지, 터미널 입력 등을 C#으로 손쉽게 마스터하세요.
 ### [PDF 출력 작업](./pdf-output/)
-TeX를 PDF로 조판하는 방법에 대한 포괄적인 튜토리얼을 통해 .NET용 Aspose.TeX의 강력한 기능을 활용해 보세요. 원활한 통합으로 .NET 개발 기술을 향상시키세요.
+Aspose.TeX for .NET을 활용한 TeX → PDF 조판 종합 튜토리얼로 .NET 개발 역량을 강화하고 원활히 통합하세요.
 ### [XPS 출력 작업](./xps-output/)
-.NET의 Aspose.TeX를 사용하여 TeX를 XPS로 손쉽게 변환하세요. 우리 가이드는 원활한 통합을 보장합니다. 전문가의 통찰력을 얻으려면 TeX를 XPS로 조판하는 튜토리얼을 살펴보세요.
-### [SVG를 사용한 수학 렌더링](./svg-math-rendering/)
-Aspose.TeX를 사용하여 .NET에서 LaTeX 수학 방정식을 SVG로 렌더링하는 기술을 알아보세요. 수학적 완벽성을 위한 맞춤형 옵션으로 정밀도를 극대화하세요.
-### [사용자 정의 TeX 형식](./custom-tex-formats/)
-.NET용 Aspose.TeX를 사용하여 문서 생성 기술을 활용하세요. 이 포괄적인 튜토리얼에서 손쉽게 사용자 정의 TeX 형식을 만드는 방법을 알아보세요.
-### [Zip 파일 입력 및 출력](./zip-file-io/)
-Zip 파일 입력 및 출력 튜토리얼을 통해 .NET용 Aspose.TeX의 잠재력을 활용해 보세요. 귀하의 애플리케이션에 대한 ZIP 파일 처리, 문서 처리를 살펴보세요.
+Aspose.TeX을 이용해 TeX를 XPS로 변환하는 방법을 확인하고 통합이 원활한 가이드를 활용하세요.
+### [SVG 수학 렌더링](./svg-math-rendering/)
+Aspose.TeX으로 .NET에서 LaTeX 수식 방정식을 SVG로 렌더링하는 기술을 익히고 맞춤 옵션으로 수학적 정밀도를 구현하세요.
+### [맞춤형 TeX 포맷](./custom-tex-formats/)
+Aspose.TeX for .NET으로 문서 생성 마스터하기. 맞춤형 TeX 포맷을 손쉽게 만드는 종합 튜토리얼을 확인하세요.
+### [ZIP 파일 입출력](./zip-file-io/)
+Aspose.TeX for .NET의 ZIP 파일 입출력 튜토리얼로 ZIP 파일 처리와 문서 프로세싱을 원활히 구현하세요.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## 자주 묻는 질문
+
+**Q: 로컬 LaTeX 배포판을 설치하지 않고 TeX에서 PDF를 생성하려면 어떻게 하나요?**  
+A: Aspose.TeX는 TeX 엔진을 내장하고 있으므로 .NET 코드에서 API를 직접 호출하면 즉시 PDF를 얻을 수 있습니다.
+
+**Q: LaTeX PDF를 SVG와 같은 다른 형식으로 변환하려면?**  
+A: 동일한 Aspose.TeX API와 적절한 `Save` 메서드(예: `Save("output.svg", SaveOptions.CreateSvgSaveOptions())`)를 사용하면 됩니다. 이는 “latex conversion to svg” 튜토리얼에 포함되어 있습니다.
+
+**Q: 웹 썸네일용으로 LaTeX 수식을 PNG로 렌더링할 수 있나요?**  
+A: 네 – “render latex png” 가이드에서 `Save("eq.png", SaveOptions.CreatePngSaveOptions())`를 호출해 고해상도 PNG 이미지를 얻는 방법을 보여줍니다.
+
+**Q: 각 출력 형식마다 별도의 라이선스가 필요합니까?**  
+A: 아닙니다. 하나의 Aspose.TeX 라이선스로 PDF, PNG, SVG, XPS 등 모든 지원 형식을 사용할 수 있습니다.
+
+**Q: TeX에서 PDF를 생성할 때 흔히 발생하는 문제는 무엇인가요?**  
+A: 폰트 누락, 지원되지 않는 패키지, 잘못된 파일 경로 등이 있습니다. “how to convert latex pdf” 튜토리얼에 이러한 문제에 대한 해결 팁이 포함되어 있습니다.
+
+---
+
+**마지막 업데이트:** 2025-12-18  
+**테스트 환경:** Aspose.TeX for .NET 24.12 (작성 시 최신 버전)  
+**작성자:** Aspose
