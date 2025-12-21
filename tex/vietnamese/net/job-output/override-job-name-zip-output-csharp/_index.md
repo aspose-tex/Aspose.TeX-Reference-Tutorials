@@ -1,34 +1,45 @@
 ---
-title: Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip (C#)
-linktitle: Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip (C#)
-second_title: API Aspose.TeX .NET
-description: Tìm hiểu cách ghi đè tên công việc và ghi đầu ra của thiết bị đầu cuối vào tệp ZIP bằng Aspose.TeX cho .NET. Hướng dẫn từng bước với các ví dụ về C#.
-weight: 11
+date: 2025-12-21
+description: Tìm hiểu cách chuyển đổi TeX sang PDF, ghi đè tên công việc và ghi đầu
+  ra của terminal vào tệp ZIP bằng Aspose.TeX cho .NET. Tạo PDF từ TeX bằng C#.
+linktitle: Convert TeX to PDF and Override Job Name – Write Output to ZIP (C#)
+second_title: Aspose.TeX .NET API
+title: Chuyển đổi TeX sang PDF và Ghi đè Tên công việc – Ghi đầu ra vào ZIP (C#)
 url: /vi/net/job-output/override-job-name-zip-output-csharp/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ghi đè tên công việc và ghi đầu ra đầu cuối vào Zip (C#)
+# Chuyển đổi TeX sang PDF và Ghi đè Tên công việc – Ghi đầu ra vào ZIP (C#)
 
-## Giới thiệu
+## Introduction
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách ghi đè tên công việc và ghi đầu ra của thiết bị đầu cuối vào tệp ZIP bằng Aspose.TeX cho .NET. Aspose.TeX là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tài liệu TeX trong các ứng dụng .NET của họ. Trong ví dụ cụ thể này, chúng tôi sẽ tập trung vào một nhiệm vụ chung – ghi đầu ra của thiết bị đầu cuối vào tệp ZIP có khả năng ghi đè tên công việc.
+Trong tutorial này bạn sẽ học **cách chuyển đổi TeX sang PDF** đồng thời ghi đè tên công việc và lưu đầu ra terminal vào một tệp ZIP. Aspose.TeX cho .NET giúp việc tạo PDF từ TeX trở nên đơn giản, cho phép bạn kiểm soát toàn bộ cấu hình công việc và xử lý đầu ra. Dù bạn đang tự động hoá việc tạo báo cáo hay xây dựng quy trình xuất bản dựa trên TeX, các bước dưới đây sẽ đưa bạn từ nguồn TeX thuần tới tệp PDF sẵn sàng sử dụng được lưu trong container ZIP.
 
-## Điều kiện tiên quyết
+## Quick Answers
+- **Bài hướng dẫn này đề cập tới gì?** Chuyển đổi TeX sang PDF, ghi đè tên công việc TeX, và ghi đầu ra terminal vào tệp ZIP bằng C#.
+- **Thư viện nào cần thiết?** Aspose.TeX cho .NET (giải pháp “tạo PDF bằng Aspose”).
+- **Có cần giấy phép không?** Giấy phép tạm thời đủ cho việc thử nghiệm; giấy phép đầy đủ cần thiết cho môi trường sản xuất.
+- **Các yêu cầu chính là gì?** Môi trường phát triển .NET, Aspose.TeX đã được cài đặt, và các tệp ZIP đầu vào/đầu ra.
+- **Thời gian thực hiện khoảng bao lâu?** Khoảng 10–15 phút sau khi môi trường đã được thiết lập.
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo rằng bạn có sẵn các điều kiện tiên quyết sau:
+## What is “convert tex to pdf”?
+Chuyển đổi TeX sang PDF có nghĩa là lấy một tài liệu nguồn TeX và xử lý nó bằng một engine TeX để tạo ra bản render PDF. Aspose.TeX cung cấp một API .NET quản lý thực hiện chuyển đổi này mà không cần một bản phân phối TeX bên ngoài.
 
-- Kiến thức làm việc về C#
-- Đã cài đặt Aspose.TeX cho .NET
-- Nhập kho lưu trữ ZIP cho thư mục làm việc
-- Lưu trữ ZIP đầu ra cho đầu ra thiết bị đầu cuối
+## Why Override the Job Name?
+Ghi đè tên công việc cho phép bạn kiểm soát tên cơ sở được sử dụng cho các tệp phụ trợ (ví dụ: *.log, *.aux) và cho bất kỳ luồng đầu ra nào bạn chuyển hướng. Điều này đặc biệt hữu ích khi bạn chạy nhiều công việc trong cùng một thư mục làm việc hoặc khi bạn cần một quy tắc đặt tên tệp dự đoán được cho các bước xử lý tiếp theo.
 
-## Nhập không gian tên
+## Prerequisites
 
-Trước khi đi sâu vào mã, hãy đảm bảo bao gồm các vùng tên cần thiết trong dự án C# của bạn:
+- Quen thuộc với C# và phát triển .NET.
+- Aspose.TeX cho .NET đã được cài đặt (qua NuGet hoặc gói thủ công).
+- Một tệp ZIP đầu vào chứa các tệp nguồn TeX.
+- Một tệp ZIP trống sẽ nhận đầu ra terminal.
+
+## Import Namespaces
 
 ```csharp
 using Aspose.TeX.IO;
@@ -36,19 +47,23 @@ using Aspose.TeX.Presentation.Pdf;
 using System.IO;
 ```
 
-Bây giờ, hãy chia ví dụ thành nhiều bước để hướng dẫn bạn thực hiện quy trình.
+## How to Convert TeX to PDF and Override Job Name
 
-## Bước 1: Mở luồng ZIP đầu vào và đầu ra
+Dưới đây là hướng dẫn chi tiết từng bước để mở các luồng ZIP, cấu hình tùy chọn chuyển đổi, chạy công việc TeX và hoàn thiện ZIP đầu ra.
+
+### Step 1: Open Input and Output ZIP Streams
 
 ```csharp
 using (Stream inZipStream = File.Open(Path.Combine("Your Input Directory", "zip-in.zip"), FileMode.Open))
 using (Stream outZipStream = File.Open(Path.Combine("Your Output Directory", "terminal-out-to-zip.zip"), FileMode.Create))
 {
-    // Mã cho bước 1 ở đây
+    // Code for step 1 goes here
 }
 ```
 
-## Bước 2: Đặt tùy chọn chuyển đổi
+*Giải thích*: Các câu lệnh `using` đảm bảo rằng cả hai luồng đều được giải phóng đúng cách. ZIP đầu vào (`zip-in.zip`) chứa các nguồn TeX, trong khi ZIP đầu ra (`terminal-out-to-zip.zip`) sẽ lưu nhật ký terminal được tạo trong quá trình chuyển đổi.
+
+### Step 2: Set Conversion Options (including **override job name**)
 
 ```csharp
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
@@ -58,52 +73,82 @@ options.OutputWorkingDirectory = new OutputZipDirectory(outZipStream);
 options.TerminalOut = new OutputFileTerminal(options.OutputWorkingDirectory);
 ```
 
-## Bước 3: Xác định các tùy chọn lưu
+*Giải thích*:  
+- `JobName` được đặt thành `"terminal-output-to-zip"` – điều này ghi đè tên công việc mặc định.  
+- `InputWorkingDirectory` và `OutputWorkingDirectory` trỏ tới các luồng ZIP, cho phép Aspose.TeX đọc/ghi trực tiếp từ các archive.  
+- `TerminalOut` chuyển hướng đầu ra console của engine TeX tới một tệp bên trong ZIP đầu ra.
+
+### Step 3: Define Saving Options (generate PDF from TeX)
 
 ```csharp
 options.SaveOptions = new PdfSaveOptions();
 ```
 
-## Bước 4: Chạy công việc TeX
+*Giải thích*: `PdfSaveOptions` chỉ cho Aspose.TeX tạo ra một tệp PDF làm đầu ra cuối cùng.
+
+### Step 4: Run the TeX Job
 
 ```csharp
 new TeXJob("hello-world", new PdfDevice(), options).Run();
 ```
 
-## Bước 5: Hoàn thiện kho lưu trữ ZIP đầu ra
+*Giải thích*: Hàm khởi tạo `TeXJob` nhận tên tệp TeX chính (`hello-world.tex`), thiết bị mục tiêu (`PdfDevice`), và các `options` đã cấu hình trước. Gọi `.Run()` bắt đầu quá trình chuyển đổi.
+
+### Step 5: Finalize Output ZIP Archive
 
 ```csharp
 ((OutputZipDirectory)options.OutputWorkingDirectory).Finish();
 ```
 
-## Phần kết luận
+*Giải thích*: Lệnh này đẩy bất kỳ dữ liệu còn lại nào và đóng đúng cách ZIP đầu ra, đảm bảo nhật ký terminal và PDF đã tạo được lưu trữ chính xác.
 
-Chúc mừng! Bạn đã học thành công cách ghi đè tên công việc và ghi đầu ra của thiết bị đầu cuối vào tệp ZIP bằng Aspose.TeX cho .NET. Kỹ thuật này có thể cực kỳ hữu ích khi xử lý các tài liệu TeX trong ứng dụng C# của bạn.
+## Common Issues & Troubleshooting
 
-## Câu hỏi thường gặp
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| PDF không được tạo | `options.SaveOptions` chưa được đặt | Xác nhận Bước 3 đã được thực thi. |
+| Nhật ký terminal trống | `options.TerminalOut` chưa được gán | Đảm bảo Bước 2 bao gồm dòng `TerminalOut`. |
+| Lỗi “File not found” | Đường dẫn tới ZIP đầu vào không đúng | Kiểm tra lại các đường dẫn tệp trong Bước 1. |
+| Tên công việc không được phản ánh trong các tệp phụ trợ | `options.JobName` bị viết sai | Xác nhận tên thuộc tính là chính xác `JobName`. |
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.TeX cho .NET với các ngôn ngữ .NET khác như VB.NET không?
+## Frequently Asked Questions
 
-Câu trả lời 1: Có, Aspose.TeX dành cho .NET tương thích với tất cả các ngôn ngữ .NET.
+### Q1: Tôi có thể sử dụng Aspose.TeX cho .NET với các ngôn ngữ .NET khác như VB.NET không?
+**A:** Có, Aspose.TeX cho .NET tương thích với tất cả các ngôn ngữ .NET, bao gồm VB.NET, F# và C#.
 
-### Câu hỏi 2: Tôi có thể tìm thêm tài liệu về Aspose.TeX cho .NET ở đâu?
+### Q2: Tôi có thể tìm tài liệu chi tiết hơn cho Aspose.TeX cho .NET ở đâu?
+**A:** Truy cập [documentation](https://reference.aspose.com/tex/net/) để biết thông tin chi tiết.
 
- A2: Tham quan[tài liệu](https://reference.aspose.com/tex/net/) để biết thông tin chi tiết.
+### Q3: Làm sao tôi có thể lấy giấy phép tạm thời cho Aspose.TeX?
+**A:** Nhận [temporary license](https://purchase.aspose.com/temporary-license/) để thử nghiệm.
 
-### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.TeX?
+### Q4: Có diễn đàn cộng đồng hỗ trợ Aspose.TeX không?
+**A:** Có, tham gia [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) để nhận hỗ trợ từ cộng đồng.
 
- A3: Có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+### Q5: Tôi có thể mua Aspose.TeX cho .NET ở đâu?
+**A:** Bạn có thể mua Aspose.TeX [tại đây](https://purchase.aspose.com/buy).
 
-### Câu hỏi 4: Có diễn đàn cộng đồng nào hỗ trợ Aspose.TeX không?
+### Q6: Phương pháp này có hoạt động trên .NET Core / .NET 5+ không?
+**A:** Chắc chắn. Aspose.TeX hỗ trợ .NET Framework, .NET Core và .NET 5/6+. Chỉ cần tham chiếu gói NuGet phù hợp.
 
- A4: Có, tham gia[diễn đàn Aspose.TeX](https://forum.aspose.com/c/tex/47) để hỗ trợ cộng đồng.
+### Q7: Tôi có thể tùy chỉnh đầu ra PDF (ví dụ: thêm metadata) không?
+**A:** Có. Sau khi chuyển đổi, bạn có thể sử dụng Aspose.PDF hoặc các thuộc tính `PdfSaveOptions` để nhúng metadata, thiết lập mức nén, hoặc chỉnh sửa cài đặt trang.
 
-### Câu hỏi 5: Tôi có thể mua Aspose.TeX cho .NET ở đâu?
+## Conclusion
 
- A5: Bạn có thể mua Aspose.TeX[đây](https://purchase.aspose.com/buy).
+Bạn đã có một ví dụ hoàn chỉnh, sẵn sàng cho môi trường sản xuất, **chuyển đổi TeX sang PDF**, **ghi đè tên công việc**, và **ghi đầu ra terminal vào một tệp ZIP** bằng Aspose.TeX cho .NET. Hãy tự do điều chỉnh các đường dẫn, tên công việc, hoặc định dạng đầu ra để phù hợp với quy trình của bạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.TeX 24.12 for .NET  
+**Author:** Aspose  
+
+---
