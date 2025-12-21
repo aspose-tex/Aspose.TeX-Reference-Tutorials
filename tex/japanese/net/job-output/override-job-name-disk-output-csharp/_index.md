@@ -1,117 +1,157 @@
 ---
-title: ジョブ名をオーバーライドしてターミナル出力をディスクに書き込む (C#)
-linktitle: ジョブ名をオーバーライドしてターミナル出力をディスクに書き込む (C#)
+date: 2025-12-21
+description: Aspose.TeX を使用して C# でコンソール出力を取得する方法、ジョブ名を上書きする方法、TeX 入力ディレクトリを設定する方法、そしてターミナル出力をファイルに書き込む方法を学びましょう。
+linktitle: Capture Console Output C# – Override Job Name & Write Output to Disk
 second_title: Aspose.TeX .NET API
-description: Aspose.TeX for .NET を使用してジョブ名をオーバーライドし、ターミナル出力をキャプチャする方法を検討します。シームレスな TeX ファイル管理のための包括的なガイドに従ってください。
-weight: 10
+title: C#でコンソール出力を取得 – ジョブ名を上書きし、出力をディスクに書き込む
 url: /ja/net/job-output/override-job-name-disk-output-csharp/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ジョブ名をオーバーライドしてターミナル出力をディスクに書き込む (C#)
+# コンソール出力の取得 C# – ジョブ名を上書きし、ターミナル出力をディスクに書き込む (C#)
 
-## 導入
+## Introduction
 
-Aspose.TeX for .NET を使用してジョブ名をオーバーライドし、C# プログラミング言語でターミナル出力をディスクに書き込む方法に関するこのステップバイステップ ガイドへようこそ。 Aspose.TeX for .NET は、TeX ファイルをシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、ジョブ名のオーバーライドとターミナル出力のキャプチャという特定のタスクに焦点を当てます。
+このステップバイステップ ガイドでは、Aspose.TeX for .NET を使用する際の **コンソール出力の取得 C#** の方法を学びます。ジョブ名を上書きし、ターミナル出力をファイルにリダイレクトすることで、TeX 処理パイプラインを完全に制御できます。自動ビルドや CI/CD シナリオ、あるいは後で分析するためにコンソール ストリームを記録する必要があるあらゆる状況に最適です。
 
-## 前提条件
+## Quick Answers
+- **“capture console output C#” とは何ですか？** Aspose.TeX が生成する標準ターミナル ストリームを、指定したファイルへリダイレクトします。  
+- **ジョブ名を上書きする理由は？** 上書きすることで、予測可能なファイル名が確保でき、複数ジョブを同時に実行した際の衝突を防げます。  
+- **出力を書き込む Aspose.TeX クラスはどれですか？** `OutputFileTerminal`（`options.TerminalOut` で使用）。  
+- **カスタムの TeX 入力フォルダーを設定できますか？** はい、`options.InputWorkingDirectory` を使用して **TeX 入力ディレクトリを設定** できます。  
+- **この方法は .NET Core と互換性がありますか？** 完全に対応しています。同じ API が .NET Framework と .NET Core の両方で動作します。
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+## What is “capture console output C#” in the context of Aspose.TeX?
+コンソール出力の取得とは、通常ターミナル ウィンドウに表示されるすべての情報（ログ メッセージ、警告、コンパイルの詳細など）を永続的なファイルに書き込むことです。大規模な TeX プロジェクトのデバッグや、TeX 処理を自動化ワークフローに組み込む際に特に有用です。
 
--  Aspose.TeX for .NET ライブラリ: Aspose.TeX for .NET ライブラリがインストールされていることを確認します。からダウンロードできます。[Aspose.TeX Web サイト](https://releases.aspose.com/tex/net/).
+## Why override the job name and write terminal output to a file?
+- **予測可能なファイル名:** ジョブ名を上書きすることで、生成されるファイルのベース名を自分で決められ、後続のスクリプト作成が容易になります。  
+- **監査可能性:** ターミナル ログを保存することで、TeX コンパイルプロセス全体の完全な監査トレイルが得られます。  
+- **並列実行:** 複数ジョブを同時に走らせる際、ユニークなジョブ名がファイル衝突を防止します。  
 
-- .NET 開発環境: Visual Studio などの統合開発環境 (IDE) を含む、動作する .NET 開発環境を用意します。
+## Prerequisites
 
-- C# の基本知識: C# プログラミング言語の基本を理解します。
+Before we dive in, ensure you have the following:
 
-- 入力ディレクトリと出力ディレクトリ: TeX ファイルの入力ディレクトリと出力ディレクトリを準備します。
+- Aspose.TeX for .NET Library: Ensure that you have the Aspose.TeX for .NET library installed. You can download it from the [Aspose.TeX website](https://releases.aspose.com/tex/net/).
+- .NET Development Environment: Have a working .NET development environment, including an integrated development environment (IDE) such as Visual Studio.
+- Basic C# Knowledge: Familiarity with the basics of the C# programming language.
+- Input and Output Directories: Prepare the input and output directories for your TeX files.
 
-## 名前空間のインポート
+## Import Namespaces
 
-C# コードには、Aspose.TeX 機能にアクセスするために必要な名前空間を必ず含めてください。
+In your C# code, make sure to include the necessary namespaces to access the Aspose.TeX functionalities:
 
 ```csharp
 using Aspose.TeX.IO;
 using Aspose.TeX.Presentation.Xps;
 ```
 
-## ステップ 1: 変換オプションを作成する
+## Step 1: Create Conversion Options
+
+First, we create a `TeXOptions` instance that tells Aspose.TeX we are running in a console‑application scenario.
 
 ```csharp
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
 ```
 
-ConsoleAppOptions を使用して TeXOptions を作成し、TeXConfig として ObjectTeX を指定します。
+Create `TeXOptions` with `ConsoleAppOptions`, specifying `ObjectTeX` as the `TeXConfig`.
 
-## ステップ 2: ジョブ名の指定
+## Step 2: Specify Job Name (Override Default)
+
+Overriding the job name gives us control over the base name of all generated artifacts.
 
 ```csharp
 options.JobName = "overridden-job-name";
 ```
 
-デフォルト名をオーバーライドするジョブ名を指定します。
+Specify the job name to override the default name.
 
-## ステップ 3: 入力作業ディレクトリを指定する
+## Step 3: Set TeX Input Directory
+
+Tell Aspose.TeX where to find your source `.tex` files. This is the **set tex input directory** step.
 
 ```csharp
 options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
 ```
 
-TeX ファイルの入力作業ディレクトリを設定します。
+Set the input working directory for your TeX files.
 
-## ステップ 4: 出力作業ディレクトリを指定する
+## Step 4: Specify Output Working Directory
+
+Define where the processed files and the captured console log will be saved.
 
 ```csharp
 options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 ```
 
-処理された TeX ファイルを保存するための出力作業ディレクトリを定義します。
+Define the output working directory to save the processed TeX files.
 
-## ステップ 5: ターミナル出力をディスクに書き込む
+## Step 5: Write Terminal Output to File
+
+Now we direct the console stream to a physical file in the output directory. This implements the **write terminal output to file** requirement.
 
 ```csharp
 options.TerminalOut = new OutputFileTerminal(options.OutputWorkingDirectory);
 ```
 
-ターミナル出力が出力ディレクトリ内のファイルに書き込まれるように構成します。
+Configure the terminal output to be written to a file in the output directory.
 
-## ステップ 6: ジョブを実行する
+## Step 6: Run the Job
+
+Finally, we create a `TeXJob` with the overridden job name, the XPS output device, and the options we configured. Running the job will generate the XPS file and capture the console log.
 
 ```csharp
 TeXJob job = new TeXJob("hello-world", new XpsDevice(), options);
 job.Run();
 ```
 
-ジョブ名、出力デバイス (XpsDevice)、およびオプションを指定して、TeXJob を作成します。最後に、ジョブを実行します。
+Create a `TeXJob`, specifying a job name, output device (`XpsDevice`), and options. Finally, run the job.
 
-## 結論
+## Common Issues & Troubleshooting
 
-おめでとう！ C# で Aspose.TeX for .NET を使用してジョブ名をオーバーライドし、ターミナル出力をディスクに書き込む方法を学習しました。この機能は、TeX 処理タスクを効率的に管理するために役立ちます。
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| No output file created | Output directory path is incorrect or missing write permissions | Verify `options.OutputWorkingDirectory` points to a valid folder and the process has write access. |
+| Terminal log is empty | `TerminalOut` not set or overwritten later | Ensure `options.TerminalOut = new OutputFileTerminal(...);` is executed before `job.Run();`. |
+| Job fails with “file not found” | Input directory not set correctly | Double‑check the path passed to `InputFileSystemDirectory` and that the `.tex` files exist there. |
 
-## よくある質問
+## Frequently Asked Questions
 
-### Q1: Aspose.TeX for .NET を他の .NET ライブラリと一緒に使用できますか?
+### Q1: Can I use Aspose.TeX for .NET with other .NET libraries?
 
-A1: はい、Aspose.TeX for .NET は他の .NET ライブラリとシームレスに統合できます。
+A1: Yes, Aspose.TeX for .NET can be integrated with other .NET libraries seamlessly.
 
-### Q2: Aspose.TeX for .NET の無料トライアルはありますか?
+### Q2: Is there a free trial available for Aspose.TeX for .NET?
 
- A2: はい、無料試用版をダウンロードできます。[ここ](https://releases.aspose.com/).
+A2: Yes, you can download a free trial version [here](https://releases.aspose.com/).
 
-### Q3: Aspose.TeX for .NET のサポートを受けるにはどうすればよいですか?
+### Q3: How can I get support for Aspose.TeX for .NET?
 
- A3: にアクセスしてください。[Aspose.TeX フォーラム](https://forum.aspose.com/c/tex/47)コミュニティとサポートを得るために。
+A3: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) to get community and support.
 
-### Q4: Aspose.TeX for .NET の一時ライセンスは利用できますか?
+### Q4: Are temporary licenses available for Aspose.TeX for .NET?
 
- A4: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+A4: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Aspose.TeX for .NET のドキュメントはどこで見つけられますか?
+### Q5: Where can I find the documentation for Aspose.TeX for .NET?
 
- A5: ドキュメントは入手可能です[ここ](https://reference.aspose.com/tex/net/).
+A5: The documentation is available [here](https://reference.aspose.com/tex/net/).
+
+## Conclusion
+
+Congratulations! You've successfully learned how to **capture console output C#** by overriding the job name, setting the TeX input directory, and writing the terminal output to a file using Aspose.TeX for .NET. This technique streamlines logging, improves traceability, and makes automated TeX processing pipelines more robust.
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.TeX 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

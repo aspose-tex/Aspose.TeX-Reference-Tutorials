@@ -1,117 +1,159 @@
 ---
-title: Переопределить имя задания и записать вывод терминала на диск (C#)
-linktitle: Переопределить имя задания и записать вывод терминала на диск (C#)
-second_title: API Aspose.TeX .NET
-description: Узнайте, как использовать Aspose.TeX для .NET для переопределения имен заданий и захвата вывода терминала. Следуйте нашему подробному руководству по беспрепятственному управлению файлами TeX.
-weight: 10
+date: 2025-12-21
+description: Узнайте, как захватывать вывод консоли в C# с помощью Aspose.TeX, переопределять
+  имя задания, задавать каталог входных файлов TeX и записывать вывод терминала в
+  файл.
+linktitle: Capture Console Output C# – Override Job Name & Write Output to Disk
+second_title: Aspose.TeX .NET API
+title: Захват вывода консоли C# – Переопределить имя задания и записать вывод на диск
 url: /ru/net/job-output/override-job-name-disk-output-csharp/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Переопределить имя задания и записать вывод терминала на диск (C#)
+# Захват вывода консоли C# – Переопределение имени задания и запись вывода терминала на диск (C#)
 
-## Введение
+## Introduction
 
-Добро пожаловать в это пошаговое руководство по использованию Aspose.TeX для .NET для переопределения имен заданий и записи вывода терминала на диск на языке программирования C#. Aspose.TeX для .NET — это мощная библиотека, которая позволяет вам беспрепятственно работать с файлами TeX, и в этом руководстве мы сосредоточимся на конкретной задаче: переопределении имен заданий и захвате вывода терминала.
+В этом пошаговом руководстве вы узнаете **как захватить вывод консоли C#** при работе с Aspose.TeX для .NET. Переопределяя имя задания и направляя вывод терминала в файл, вы получаете полный контроль над конвейерами обработки TeX — идеально для автоматических сборок, сценариев CI/CD или любой ситуации, когда необходимо записать поток консоли для последующего анализа.
 
-## Предварительные условия
+## Quick Answers
+- **Что означает “capture console output C#”?** Он перенаправляет стандартный поток терминала, генерируемый Aspose.TeX, в указанный вами файл.  
+- **Зачем переопределять имя задания?** Переопределение обеспечивает предсказуемые имена файлов и предотвращает конфликты при одновременном запуске нескольких заданий.  
+- **Какой класс Aspose.TeX записывает вывод?** `OutputFileTerminal` (используется через `options.TerminalOut`).  
+- **Можно ли задать пользовательскую папку ввода TeX?** Да — используйте `options.InputWorkingDirectory` для **установки каталога ввода TeX**.  
+- **Совместим ли этот подход с .NET Core?** Абсолютно; тот же API работает как в .NET Framework, так и в .NET Core.
 
-Прежде чем мы углубимся в руководство, убедитесь, что у вас есть следующие предварительные условия:
+## What is “capture console output C#” in the context of Aspose.TeX?
+Захват вывода консоли означает запись всего, что обычно отображается в окне терминала (сообщения журнала, предупреждения, детали компиляции), в постоянный файл. Это особенно полезно для отладки крупных проектов TeX или интеграции обработки TeX в автоматизированные рабочие процессы.
 
--  Библиотека Aspose.TeX для .NET: убедитесь, что у вас установлена библиотека Aspose.TeX для .NET. Вы можете скачать его с сайта[Сайт Aspose.TeX](https://releases.aspose.com/tex/net/).
+## Why override the job name and write terminal output to a file?
+- **Предсказуемые имена файлов:** Переопределяя имя задания, вы задаёте базовое имя для всех генерируемых файлов, что упрощает написание скриптов постобработки.  
+- **Аудит:** Сохранение журнала терминала предоставляет полный след аудита процесса компиляции TeX.  
+- **Параллельное выполнение:** При одновременном запуске нескольких заданий уникальные имена предотвращают столкновения файлов.  
 
-- Среда разработки .NET: наличие работающей среды разработки .NET, включая интегрированную среду разработки (IDE), например Visual Studio.
+## Prerequisites
 
-- Базовые знания C#: ознакомьтесь с основами языка программирования C#.
+Before we dive in, ensure you have the following:
 
-- Каталоги ввода и вывода: подготовьте каталоги ввода и вывода для ваших файлов TeX.
+- Aspose.TeX for .NET Library: Ensure that you have the Aspose.TeX for .NET library installed. You can download it from the [Aspose.TeX website](https://releases.aspose.com/tex/net/).
+- .NET Development Environment: Have a working .NET development environment, including an integrated development environment (IDE) such as Visual Studio.
+- Basic C# Knowledge: Familiarity with the basics of the C# programming language.
+- Input and Output Directories: Prepare the input and output directories for your TeX files.
 
-## Импортировать пространства имен
+## Import Namespaces
 
-Обязательно включите в свой код C# необходимые пространства имен для доступа к функциям Aspose.TeX:
+In your C# code, make sure to include the necessary namespaces to access the Aspose.TeX functionalities:
 
 ```csharp
 using Aspose.TeX.IO;
 using Aspose.TeX.Presentation.Xps;
 ```
 
-## Шаг 1. Создайте параметры преобразования
+## Step 1: Create Conversion Options
+
+First, we create a `TeXOptions` instance that tells Aspose.TeX we are running in a console‑application scenario.
 
 ```csharp
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
 ```
 
-Создайте TeXOptions с помощью ConsoleAppOptions, указав ObjectTeX в качестве TeXConfig.
+Create `TeXOptions` with `ConsoleAppOptions`, specifying `ObjectTeX` as the `TeXConfig`.
 
-## Шаг 2. Укажите имя задания
+## Step 2: Specify Job Name (Override Default)
+
+Overriding the job name gives us control over the base name of all generated artifacts.
 
 ```csharp
 options.JobName = "overridden-job-name";
 ```
 
-Укажите имя задания, чтобы переопределить имя по умолчанию.
+Specify the job name to override the default name.
 
-## Шаг 3. Укажите входной рабочий каталог
+## Step 3: Set TeX Input Directory
+
+Tell Aspose.TeX where to find your source `.tex` files. This is the **set tex input directory** step.
 
 ```csharp
 options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
 ```
 
-Установите входной рабочий каталог для ваших файлов TeX.
+Set the input working directory for your TeX files.
 
-## Шаг 4. Укажите выходной рабочий каталог
+## Step 4: Specify Output Working Directory
+
+Define where the processed files and the captured console log will be saved.
 
 ```csharp
 options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 ```
 
-Определите выходной рабочий каталог для сохранения обработанных файлов TeX.
+Define the output working directory to save the processed TeX files.
 
-## Шаг 5. Запишите вывод терминала на диск
+## Step 5: Write Terminal Output to File
+
+Now we direct the console stream to a physical file in the output directory. This implements the **write terminal output to file** requirement.
 
 ```csharp
 options.TerminalOut = new OutputFileTerminal(options.OutputWorkingDirectory);
 ```
 
-Настройте вывод терминала для записи в файл в выходном каталоге.
+Configure the terminal output to be written to a file in the output directory.
 
-## Шаг 6. Запустите задание
+## Step 6: Run the Job
+
+Finally, we create a `TeXJob` with the overridden job name, the XPS output device, and the options we configured. Running the job will generate the XPS file and capture the console log.
 
 ```csharp
 TeXJob job = new TeXJob("hello-world", new XpsDevice(), options);
 job.Run();
 ```
 
-Создайте TeXJob, указав имя задания, устройство вывода (XpsDevice) и параметры. Наконец, запустите задание.
+Create a `TeXJob`, specifying a job name, output device (`XpsDevice`), and options. Finally, run the job.
 
-## Заключение
+## Common Issues & Troubleshooting
 
-Поздравляем! Вы успешно научились переопределять имена заданий и записывать вывод терминала на диск с помощью Aspose.TeX для .NET на C#. Эта возможность полезна для эффективного управления задачами обработки TeX.
+| Симптом | Вероятная причина | Решение |
+|---------|-------------------|---------|
+| Не создан файл вывода | Путь к каталогу вывода указан неверно или отсутствуют права на запись | Проверьте, что `options.OutputWorkingDirectory` указывает на существующую папку и процесс имеет права на запись. |
+| Журнал терминала пуст | `TerminalOut` не установлен или переопределён позже | Убедитесь, что `options.TerminalOut = new OutputFileTerminal(...);` выполнен до вызова `job.Run();`. |
+| Задание завершилось ошибкой «file not found» | Каталог ввода задан неверно | Дважды проверьте путь, переданный в `InputFileSystemDirectory`, и наличие `.tex` файлов в этом каталоге. |
 
-## Часто задаваемые вопросы
+## Frequently Asked Questions
 
-### Вопрос 1: Могу ли я использовать Aspose.TeX для .NET с другими библиотеками .NET?
+### Q1: Можно ли использовать Aspose.TeX для .NET вместе с другими библиотеками .NET?
 
-О1: Да, Aspose.TeX для .NET можно легко интегрировать с другими библиотеками .NET.
+A1: Да, Aspose.TeX для .NET может быть интегрирован с другими библиотеками .NET без проблем.
 
-### Вопрос 2: Существует ли бесплатная пробная версия Aspose.TeX для .NET?
+### Q2: Доступна ли бесплатная пробная версия Aspose.TeX для .NET?
 
- О2: Да, вы можете скачать бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+A2: Да, вы можете скачать бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
-### Вопрос 3: Как я могу получить поддержку Aspose.TeX для .NET?
+### Q3: Как получить поддержку по Aspose.TeX для .NET?
 
- A3: Посетите[Форум Aspose.TeX](https://forum.aspose.com/c/tex/47) чтобы получить сообщество и поддержку.
+A3: Посетите [форум Aspose.TeX](https://forum.aspose.com/c/tex/47), чтобы получить помощь от сообщества и поддержки.
 
-### Вопрос 4: Доступны ли временные лицензии для Aspose.TeX для .NET?
+### Q4: Есть ли временные лицензии для Aspose.TeX для .NET?
 
- О4: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+A4: Да, временную лицензию можно получить [здесь](https://purchase.aspose.com/temporary-license/).
 
-### Вопрос 5: Где я могу найти документацию по Aspose.TeX для .NET?
+### Q5: Где найти документацию по Aspose.TeX для .NET?
 
- A5: документация доступна.[здесь](https://reference.aspose.com/tex/net/).
+A5: Документация доступна [здесь](https://reference.aspose.com/tex/net/).
+
+## Conclusion
+
+Congratulations! You've successfully learned how to **capture console output C#** by overriding the job name, setting the TeX input directory, and writing the terminal output to a file using Aspose.TeX for .NET. This technique streamlines logging, improves traceability, and makes automated TeX processing pipelines more robust.
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.TeX 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

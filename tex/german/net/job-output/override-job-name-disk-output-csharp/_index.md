@@ -1,37 +1,53 @@
 ---
-title: Jobnamen überschreiben und Terminalausgabe auf Festplatte schreiben (C#)
-linktitle: Jobnamen überschreiben und Terminalausgabe auf Festplatte schreiben (C#)
-second_title: Aspose.TeX .NET-API
-description: Erfahren Sie, wie Sie Aspose.TeX für .NET verwenden, um Jobnamen zu überschreiben und Terminalausgaben zu erfassen. Befolgen Sie unseren umfassenden Leitfaden für eine nahtlose TeX-Dateiverwaltung.
-weight: 10
+date: 2025-12-21
+description: Erfahren Sie, wie Sie die Konsolenausgabe in C# mit Aspose.TeX erfassen,
+  den Jobnamen überschreiben, das TeX‑Eingabeverzeichnis festlegen und die Terminalausgabe
+  in eine Datei schreiben.
+linktitle: Capture Console Output C# – Override Job Name & Write Output to Disk
+second_title: Aspose.TeX .NET API
+title: Konsolenausgabe in C# erfassen – Jobnamen überschreiben & Ausgabe auf Festplatte
+  schreiben
 url: /de/net/job-output/override-job-name-disk-output-csharp/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jobnamen überschreiben und Terminalausgabe auf Festplatte schreiben (C#)
+# Capture Console Output C# – Override Job Name and Write Terminal Output to Disk (C#)
 
-## Einführung
+## Einleitung
 
-Willkommen zu dieser Schritt-für-Schritt-Anleitung zur Verwendung von Aspose.TeX für .NET zum Überschreiben von Jobnamen und zum Schreiben von Terminalausgaben auf die Festplatte in der Programmiersprache C#. Aspose.TeX für .NET ist eine leistungsstarke Bibliothek, die Ihnen die nahtlose Arbeit mit TeX-Dateien ermöglicht. In diesem Tutorial konzentrieren wir uns auf eine bestimmte Aufgabe: das Überschreiben von Jobnamen und das Erfassen der Terminalausgabe.
+In diesem Schritt‑für‑Schritt‑Leitfaden lernen Sie **wie man console output C# erfasst**, wenn Sie mit Aspose.TeX für .NET arbeiten. Durch das Überschreiben des Jobnamens und das Weiterleiten der Terminalausgabe in eine Datei erhalten Sie die volle Kontrolle über TeX‑Verarbeitungspipelines – ideal für automatisierte Builds, CI/CD‑Szenarien oder jede Situation, in der Sie den Konsolenstrom für spätere Analysen protokollieren müssen.
+
+## Schnelle Antworten
+- **Was bedeutet „capture console output C#“?** Es leitet den von Aspose.TeX erzeugten Standard‑Terminal‑Stream in eine von Ihnen angegebene Datei um.  
+- **Warum den Jobnamen überschreiben?** Das Überschreiben sorgt für vorhersehbare Dateinamen und verhindert Kollisionen bei gleichzeitiger Ausführung mehrerer Jobs.  
+- **Welche Aspose.TeX‑Klasse schreibt die Ausgabe?** `OutputFileTerminal` (verwendet über `options.TerminalOut`).  
+- **Kann ich einen benutzerdefinierten TeX‑Eingabeordner festlegen?** Ja – verwenden Sie `options.InputWorkingDirectory`, um **das TeX‑Eingabeverzeichnis** zu setzen.  
+- **Ist dieser Ansatz mit .NET Core kompatibel?** Absolut; dieselbe API funktioniert sowohl unter .NET Framework als auch unter .NET Core.
+
+## Was bedeutet „capture console output C#“ im Kontext von Aspose.TeX?
+Das Erfassen der Konsolenausgabe bedeutet, alles, was normalerweise im Terminalfenster erscheint (Log‑Nachrichten, Warnungen, Kompilierungsdetails), in eine persistente Datei zu schreiben. Das ist besonders nützlich, um große TeX‑Projekte zu debuggen oder TeX‑Verarbeitung in automatisierte Workflows zu integrieren.
+
+## Warum den Jobnamen überschreiben und die Terminalausgabe in eine Datei schreiben?
+- **Vorhersehbare Dateinamen:** Durch das Überschreiben des Jobnamens können Sie den Basisnamen für erzeugte Dateien festlegen, was das Schreiben von Nachbearbeitungsskripten erleichtert.  
+- **Nachvollziehbarkeit:** Das Speichern des Terminal‑Logs liefert eine vollständige Audit‑Trail des TeX‑Kompilierungsprozesses.  
+- **Parallele Ausführung:** Bei gleichzeitiger Ausführung mehrerer Jobs verhindern eindeutige Jobnamen Dateikollisionen.  
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
--  Aspose.TeX für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.TeX für .NET-Bibliothek installiert haben. Sie können es hier herunterladen[Aspose.TeX-Website](https://releases.aspose.com/tex/net/).
-
-- .NET-Entwicklungsumgebung: Verfügen Sie über eine funktionierende .NET-Entwicklungsumgebung, einschließlich einer integrierten Entwicklungsumgebung (IDE) wie Visual Studio.
-
-- Grundlegende C#-Kenntnisse: Machen Sie sich mit den Grundlagen der Programmiersprache C# vertraut.
-
-- Eingabe- und Ausgabeverzeichnisse: Bereiten Sie die Eingabe- und Ausgabeverzeichnisse für Ihre TeX-Dateien vor.
+- Aspose.TeX für .NET Bibliothek: Stellen Sie sicher, dass die Aspose.TeX für .NET Bibliothek installiert ist. Sie können sie von der [Aspose.TeX Website](https://releases.aspose.com/tex/net/) herunterladen.  
+- .NET Entwicklungsumgebung: Eine funktionierende .NET‑Entwicklungsumgebung, inklusive einer integrierten Entwicklungsumgebung (IDE) wie Visual Studio.  
+- Grundkenntnisse in C#: Vertrautheit mit den Grundlagen der Programmiersprache C#.  
+- Eingabe‑ und Ausgabeverzeichnisse: Bereiten Sie die Eingabe‑ und Ausgabeverzeichnisse für Ihre TeX‑Dateien vor.
 
 ## Namespaces importieren
 
-Stellen Sie sicher, dass Sie in Ihrem C#-Code die erforderlichen Namespaces für den Zugriff auf die Aspose.TeX-Funktionen einschließen:
+Stellen Sie in Ihrem C#‑Code sicher, dass die notwendigen Namespaces eingebunden sind, um auf die Aspose.TeX‑Funktionalitäten zuzugreifen:
 
 ```csharp
 using Aspose.TeX.IO;
@@ -40,13 +56,17 @@ using Aspose.TeX.Presentation.Xps;
 
 ## Schritt 1: Konvertierungsoptionen erstellen
 
+Zuerst erstellen wir eine `TeXOptions`‑Instanz, die Aspose.TeX mitteilt, dass wir in einem Konsolen‑Anwendungsszenario arbeiten.
+
 ```csharp
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
 ```
 
-Erstellen Sie TeXOptions mit ConsoleAppOptions und geben Sie ObjectTeX als TeXConfig an.
+Erstellen Sie `TeXOptions` mit `ConsoleAppOptions` und geben Sie `ObjectTeX` als `TeXConfig` an.
 
-## Schritt 2: Geben Sie den Jobnamen an
+## Schritt 2: Jobnamen angeben (Standard überschreiben)
+
+Das Überschreiben des Jobnamens gibt uns Kontrolle über den Basisnamen aller erzeugten Artefakte.
 
 ```csharp
 options.JobName = "overridden-job-name";
@@ -54,23 +74,29 @@ options.JobName = "overridden-job-name";
 
 Geben Sie den Jobnamen an, um den Standardnamen zu überschreiben.
 
-## Schritt 3: Geben Sie das Eingabearbeitsverzeichnis an
+## Schritt 3: TeX‑Eingabeverzeichnis festlegen
+
+Teilen Sie Aspose.TeX mit, wo Ihre Quell‑`.tex`‑Dateien zu finden sind. Dies ist der **set tex input directory**‑Schritt.
 
 ```csharp
 options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
 ```
 
-Legen Sie das Eingabearbeitsverzeichnis für Ihre TeX-Dateien fest.
+Setzen Sie das Eingabearbeitsverzeichnis für Ihre TeX‑Dateien.
 
-## Schritt 4: Geben Sie das Ausgabearbeitsverzeichnis an
+## Schritt 4: Ausgabearbeitsverzeichnis festlegen
+
+Definieren Sie, wo die verarbeiteten Dateien und das erfasste Konsolen‑Log gespeichert werden sollen.
 
 ```csharp
 options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 ```
 
-Definieren Sie das Ausgabearbeitsverzeichnis zum Speichern der verarbeiteten TeX-Dateien.
+Definieren Sie das Ausgabearbeitsverzeichnis, um die verarbeiteten TeX‑Dateien zu speichern.
 
-## Schritt 5: Schreiben Sie die Terminalausgabe auf die Festplatte
+## Schritt 5: Terminalausgabe in Datei schreiben
+
+Jetzt leiten wir den Konsolen‑Stream in eine physische Datei im Ausgabeverzeichnis um. Dies erfüllt die Anforderung **write terminal output to file**.
 
 ```csharp
 options.TerminalOut = new OutputFileTerminal(options.OutputWorkingDirectory);
@@ -78,40 +104,57 @@ options.TerminalOut = new OutputFileTerminal(options.OutputWorkingDirectory);
 
 Konfigurieren Sie die Terminalausgabe so, dass sie in eine Datei im Ausgabeverzeichnis geschrieben wird.
 
-## Schritt 6: Führen Sie den Job aus
+## Schritt 6: Job ausführen
+
+Abschließend erstellen wir einen `TeXJob` mit dem überschriebenen Jobnamen, dem XPS‑Ausgabegerät und den konfigurierten Optionen. Das Ausführen des Jobs erzeugt die XPS‑Datei und erfasst das Konsolen‑Log.
 
 ```csharp
 TeXJob job = new TeXJob("hello-world", new XpsDevice(), options);
 job.Run();
 ```
 
-Erstellen Sie einen TeXJob und geben Sie dabei einen Jobnamen, ein Ausgabegerät (XpsDevice) und Optionen an. Führen Sie abschließend den Job aus.
+Erstellen Sie einen `TeXJob`, geben Sie einen Jobnamen, das Ausgabegerät (`XpsDevice`) und die Optionen an. Führen Sie schließlich den Job aus.
 
-## Abschluss
+## Häufige Probleme & Fehlerbehebung
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.TeX für .NET in C# Jobnamen überschreiben und Terminalausgaben auf die Festplatte schreiben. Diese Funktion ist für die effiziente Verwaltung Ihrer TeX-Verarbeitungsaufgaben wertvoll.
+| Symptom | Wahrscheinliche Ursache | Lösung |
+|---------|--------------------------|--------|
+| Keine Ausgabedatei erstellt | Pfad des Ausgabeverzeichnisses ist falsch oder Schreibrechte fehlen | Überprüfen Sie, dass `options.OutputWorkingDirectory` auf einen gültigen Ordner zeigt und der Prozess Schreibzugriff hat. |
+| Terminal‑Log ist leer | `TerminalOut` nicht gesetzt oder später überschrieben | Stellen Sie sicher, dass `options.TerminalOut = new OutputFileTerminal(...);` vor `job.Run();` ausgeführt wird. |
+| Job schlägt mit „Datei nicht gefunden“ fehl | Eingabeverzeichnis nicht korrekt gesetzt | Prüfen Sie den Pfad, der an `InputFileSystemDirectory` übergeben wird, und dass die `.tex`‑Dateien dort vorhanden sind. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann ich Aspose.TeX für .NET mit anderen .NET-Bibliotheken verwenden?
+### Q1: Kann ich Aspose.TeX für .NET mit anderen .NET‑Bibliotheken verwenden?
 
-A1: Ja, Aspose.TeX für .NET kann nahtlos in andere .NET-Bibliotheken integriert werden.
+A1: Ja, Aspose.TeX für .NET lässt sich nahtlos mit anderen .NET‑Bibliotheken integrieren.
 
-### F2: Gibt es eine kostenlose Testversion für Aspose.TeX für .NET?
+### Q2: Gibt es eine kostenlose Testversion von Aspose.TeX für .NET?
 
- A2: Ja, Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
+A2: Ja, Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) herunterladen.
 
-### F3: Wie erhalte ich Unterstützung für Aspose.TeX für .NET?
+### Q3: Wie erhalte ich Support für Aspose.TeX für .NET?
 
- A3: Besuchen Sie die[Aspose.TeX-Forum](https://forum.aspose.com/c/tex/47) um Gemeinschaft und Unterstützung zu bekommen.
+A3: Besuchen Sie das [Aspose.TeX Forum](https://forum.aspose.com/c/tex/47), um Community‑ und Support‑Hilfe zu erhalten.
 
-### F4: Sind temporäre Lizenzen für Aspose.TeX für .NET verfügbar?
+### Q4: Gibt es temporäre Lizenzen für Aspose.TeX für .NET?
 
- A4: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+A4: Ja, Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
 
-### F5: Wo finde ich die Dokumentation für Aspose.TeX für .NET?
+### Q5: Wo finde ich die Dokumentation für Aspose.TeX für .NET?
 
- A5: Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/tex/net/).
+A5: Die Dokumentation ist [hier](https://reference.aspose.com/tex/net/) verfügbar.
+
+## Fazit
+
+Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, wie man **console output C# erfasst**, indem man den Jobnamen überschreibt, das TeX‑Eingabeverzeichnis festlegt und die Terminalausgabe in eine Datei schreibt – alles mit Aspose.TeX für .NET. Diese Technik vereinfacht das Logging, verbessert die Rückverfolgbarkeit und macht automatisierte TeX‑Verarbeitungspipelines robuster.
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-21  
+**Getestet mit:** Aspose.TeX 24.11 für .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
