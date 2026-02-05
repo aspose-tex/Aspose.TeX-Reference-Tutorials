@@ -1,11 +1,11 @@
 ---
-date: 2025-11-29
-description: Java'da Aspose.TeX kullanarak LaTeX'ten PNG oluşturmayı öğrenin. Aspose
-  lisansını ayarlama, Java yapılandırması ve çıktı dizini ayarlarını kapsayan adım
-  adım rehber.
+date: 2026-02-05
+description: Aspose.TeX ile Java’da lisansı nasıl ayarlayacağınızı ve LaTeX’ten PNG
+  oluşturacağınızı öğrenin. Bu adım‑adım kılavuz, Aspose lisansının ayarlanması, çıktı
+  dizininin yapılandırılması ve PNG çözünürlüğünün değiştirilmesini kapsar.
 linktitle: Generate PNG from LaTeX in Java
 second_title: Aspose.TeX Java API
-title: Java'da Aspose.TeX ile LaTeX'ten PNG Oluşturma
+title: Lisansı Nasıl Ayarlayacağınız ve LaTeX'ten PNG Oluşturma (Java)
 url: /tr/java/converting-lato-images/png-conversion/
 weight: 10
 ---
@@ -14,37 +14,53 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Aspose.TeX ile LaTeX'ten PNG Oluşturma
+# Java’da Aspose.TeX ile LaTeX’ten PNG Oluşturma
 
 ## Giriş
 
-Java uygulaması içinde **LaTeX'ten PNG oluşturmanız** gerekiyorsa, Aspose.TeX işi zahmetsiz hâle getirir. Bu öğreticide, kütüphaneyi lisanslamaktan çıktı dizini Java'yı yapılandırmaya kadar ihtiyacınız olan her şeyi adım adım göstereceğiz—böylece LaTeX kaynak dosyalarını sadece birkaç satır kodla yüksek kaliteli PNG görüntülerine dönüştürebilirsiniz.
+Bir Java uygulaması içinde **LaTeX’ten PNG oluşturmanız** gerekiyorsa, Aspose.TeX işi zahmetsiz hâle getirir. Bu öğreticide, **Aspose.TeX lisansının nasıl ayarlanacağı**ndan çıktı dizini Java’nın nasıl yapılandırılacağına ve görüntü kalitesinin nasıl ayarlanacağına kadar ihtiyacınız olan her şeyi adım adım ele alacağız; böylece LaTeX kaynak dosyalarını sadece birkaç satır kodla yüksek kaliteli PNG görüntülerine dönüştürebileceksiniz.
 
 ## Hızlı Yanıtlar
-- **Java'da LaTeX'i PNG'ye dönüştüren kütüphane hangisidir?** Aspose.TeX for Java.  
-- **Lisans gerekir mi?** Evet – dönüşümleri çalıştırmadan önce *set Aspose license Java* yapmanız gerekir.  
-- **Gerekli Java sürümü nedir?** JDK 1.8 veya üzeri.  
+- **Java’da LaTeX’i PNG’ye dönüştüren kütüphane hangisidir?** Aspose.TeX for Java.  
+- **Lisans gerekli mi?** Evet – dönüşüm işlemlerine başlamadan önce *Aspose lisansını Java’da ayarlamalısınız*.  
+- **Hangi Java sürümü gereklidir?** JDK 1.8 veya üzeri.  
 - **Başka bir görüntü formatı seçebilir miyim?** Kesinlikle – JPEG, BMP ve TIFF de desteklenir.  
-- **PNG dosyaları nerede kaydedilir?** Dönüştürme seçeneklerinde bir *output directory Java* tanımlarsınız.
+- **PNG dosyaları nerede kaydedilir?** Çıktı dizini Java’yı *conversion options* içinde tanımlarsınız.
 
-## “LaTeX'ten PNG oluşturma” nedir?
-LaTeX'ten PNG oluşturmak, bir `.ltx` (veya `.tex`) kaynak dosyasını alıp raster görüntü (PNG) olarak render etmek anlamına gelir. Bu, denklemleri, formülleri veya tüm belgeleri web sayfalarına, raporlara veya LaTeX'i doğrudan render edemeyen herhangi bir kullanıcı arayüzüne gömmek için faydalıdır.
+## Aspose.TeX (Java) için Lisans Nasıl Ayarlanır
 
-## Bu görev için neden Aspose.TeX kullanmalı?
+Lisansı ayarlamak, tam işlevselliği açan ve değerlendirme filigranlarını kaldıran ilk adımdır. `Utils.setLicense()` çağrısı, Aspose’tan aldığınız `.lic` dosyasını yükler. Lisans dosyasını sınıf yolunda bir yere (örneğin `src/main/resources` içinde) koyun ve herhangi bir dönüşüm işlemine başlamadan önce bu metodu çağırın.
+
+> **İpucu:** Lisans dosyasını taşırsanız, `Utils.setLicense()` içindeki yolu ona göre güncelleyin; aksi takdirde çalışma zamanında lisans hatası alırsınız.
+
+## “LaTeX’ten PNG oluşturma” nedir?
+
+LaTeX’ten PNG oluşturma, bir `.ltx` (veya `.tex`) kaynak dosyasını raster bir görüntü (PNG) olarak render etmektir. Bu, denklemleri, formülleri veya tüm belgeleri web sayfalarına, raporlara veya LaTeX’i doğrudan render edemeyen herhangi bir UI’ye gömmek için kullanışlıdır.
+
+## Bu görev için Aspose.TeX neden tercih edilmeli?
+
 - **Sıfır dış bağımlılık** – yerel bir TeX kurulumuna gerek yok.  
 - **Render üzerinde tam kontrol** – DPI, renk derinliği ve görüntü formatı yapılandırılabilir.  
-- **Çapraz platform** – Java destekleyen herhangi bir işletim sisteminde çalışır.  
-- **Kurumsal hazır** – sağlam lisanslama ve destek içerir.
+- **Çapraz platform** – Java’yı destekleyen her işletim sisteminde çalışır.  
+- **Kurumsal düzeyde** – sağlam lisanslama ve destek içerir.
+
+## PNG Çözünürlüğünü Değiştir (İsteğe Bağlı)
+
+Varsayılan çözünürlük kalite gereksinimlerinizi karşılamıyorsa, `PngSaveOptions` üzerinden ayarlayabilirsiniz. Örneğin, `setResolution(300)` kullanmak, baskı‑hazır grafikler için ideal 300 DPI çıkış sağlar.
+
+## Çıktı Klasörünü Ayarla (output directory java)
+
+Oluşturulan dosyaları istediğiniz klasöre yönlendirebilirsiniz. Bu, `setOutputWorkingDirectory` metodu ile kontrol edilir. Klasörün var olduğundan ve Java sürecinin yazma iznine sahip olduğundan emin olun.
 
 ## Önkoşullar
 
-- **Aspose.TeX for Java** – [Aspose.TeX Java Documentation](https://reference.aspose.com/tex/java/) adresinden indirin.  
+- **Aspose.TeX for Java** – [Aspose.TeX Java Belgeleri](https://reference.aspose.com/tex/java/) adresinden indirin.  
 - **Java Development Kit (JDK) 1.8+** – `java -version` komutunun 1.8 veya daha yeni bir sürüm gösterdiğinden emin olun.  
-- **Geçerli bir Aspose.TeX lisansı** – etkinleştirmek için `set Aspose license Java` metodunu kullanacaksınız.
+- **Geçerli bir Aspose.TeX lisansı** – lisansı etkinleştirmek için `set Aspose license Java` metodunu kullanacaksınız.
 
-## Paketleri İçe Aktarma
+## Paketleri İçe Aktar
 
-Java projenizde, gerekli Aspose.TeX sınıflarını içe aktararak başlayın. Bu importlar, render motoruna, yapılandırma nesnelerine ve dosya sistemi yardımcılarına erişim sağlar.
+Java projenizde gerekli Aspose.TeX sınıflarını içe aktararak başlayın. Bu importlar, render motoruna, yapılandırma nesnelerine ve dosya‑sistemi yardımcılarına erişim sağlar.
 
 ```java
 package com.aspose.tex.LaTeXPngConversionSimplest;
@@ -64,41 +80,41 @@ import com.aspose.tex.rendering.TiffSaveOptions;
 import util.Utils;
 ```
 
-### Adım 1: Aspose Lisansını Ayarlama (set Aspose license Java)
+### Adım 1: Aspose Lisansını Ayarla (set Aspose license Java)
 
-Herhangi bir dönüşüm gerçekleşmeden önce lisansınızı kaydetmelisiniz. Bu adım, değerlendirme filigranlarını önler ve tam işlevselliği açar.
+Herhangi bir dönüşüm gerçekleşmeden önce lisansınızı kaydetmelisiniz. Bu adım değerlendirme filigranlarını önler ve tam işlevselliği açar.
 
 ```java
 Utils.setLicense();
 ```
 
-### Adım 2: Dönüştürme Seçeneklerini Oluşturma
+### Adım 2: Dönüşüm Seçeneklerini Oluştur
 
-TeX motorunu *Object LaTeX* formatı ile çalışacak şekilde yapılandırıyoruz. Bu seçenek, Aspose.TeX'e kaynak dosyayı nasıl yorumlayacağını söyler.
+TeX motorunu *Object LaTeX* formatı ile çalışacak şekilde yapılandırıyoruz. Bu seçenek, Aspose.TeX’in kaynak dosyayı nasıl yorumlayacağını belirler.
 
 ```java
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectLaTeX());
 ```
 
-### Adım 3: Çıktı Dizini Belirleme (output directory Java)
+### Adım 3: Çıktı Dizini Belirle (output directory Java)
 
-Aspose.TeX'e oluşturulan PNG dosyalarının nereye yazılacağını söyleyin. Yer tutucuyu tercih ettiğiniz mutlak ya da göreli yol ile değiştirin.
+Aspose.TeX’in oluşturduğu PNG dosyalarını nereye yazacağını belirtin. Yer tutucuyu tercih ettiğiniz mutlak ya da göreli yol ile değiştirin.
 
 ```java
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-### Adım 4: PNG Kaydetme Seçeneklerini Başlatma
+### Adım 4: PNG Kaydetme Seçeneklerini Başlat
 
-Hedef görüntü formatı olarak PNG'yi seçin. Gerekirse `PngSaveOptions` aracılığıyla çözünürlük, anti‑aliasing ve renk derinliğini daha da ayarlayabilirsiniz.
+Hedef görüntü formatı olarak PNG’yi seçin. Gerekirse `PngSaveOptions` üzerinden çözünürlük, anti‑aliasing ve renk derinliğini daha da ayarlayabilirsiniz.
 
 ```java
 options.setSaveOptions(new PngSaveOptions());
 ```
 
-### Adım 5: LaTeX‑to‑PNG Dönüşümünü Çalıştırma
+### Adım 5: LaTeX‑to‑PNG Dönüşümünü Çalıştır
 
-Son olarak, işi `.ltx` kaynak dosyanıza yönlendirin, raster çıktıyı işleyen bir `ImageDevice` ekleyin ve işi yürütün.
+Son olarak, işi `.ltx` kaynak dosyanıza yönlendirin, raster çıktıyı yöneten bir `ImageDevice` ekleyin ve işi yürütün.
 
 ```java
 new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), options).run();
@@ -106,46 +122,46 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 
 ## Yaygın Sorunlar ve Çözümleri
 
-| Sorun | Muhtemel Neden | Çözüm |
-|-------|----------------|-------|
-| **PNG dosyaları görünmüyor** | Çıktı dizini yolu yanlış veya yazma izinleri eksik. | `OutputFileSystemDirectory`'e geçirilen yolu doğrulayın ve Java işleminin o klasöre yazabildiğinden emin olun. |
+| Problem | Muhtemel Neden | Çözüm |
+|---------|----------------|-------|
+| **PNG dosyaları görünmüyor** | Çıktı dizini yolu hatalı veya yazma izni yok. | `OutputFileSystemDirectory` içine verilen yolu doğrulayın ve Java sürecinin klasöre yazma izni olduğundan emin olun. |
 | **Lisans hatası** | `Utils.setLicense()` çağrılmadı veya lisans dosyası bulunamadı. | Lisans dosyasını sınıf yolunun erişebileceği bir konuma koyun ve metodun uygulamasını tekrar kontrol edin. |
-| **Düşük çözünürlüklü görüntüler** | Varsayılan DPI çok düşük. | `PngSaveOptions` bir örnek oluşturun ve `options.setSaveOptions()`'a geçmeden önce `setResolution(300)` ayarlayın. |
+| **Düşük çözünürlüklü görüntüler** | Varsayılan DPI çok düşük. | `PngSaveOptions` örneği oluşturup `setResolution(300)` çağrısını `options.setSaveOptions()` öncesinde yapın. |
 
 ## Sık Sorulan Sorular
 
-### Q1: Aspose.TeX en son Java sürümleriyle uyumlu mu?
-**A:** Evet. Kütüphane JDK 1.8 ve sonraki tüm sürümlerle, Java 11, 17 ve 21 dahil çalışır.
+### S1: Aspose.TeX en yeni Java sürümleriyle uyumlu mu?
+**C:** Evet. Kütüphane JDK 1.8 ve sonraki sürümler, Java 11, 17 ve 21 dahil olmak üzere çalışır.
 
-### Q2: Çıktı görüntü çözünürlüğünü özelleştirebilir miyim?
-**A:** Kesinlikle. `PngSaveOptions` nesnesinin `setResolution(int dpi)` metodunu kalite gereksinimlerinize göre ayarlayın.
+### S2: Çıktı görüntü çözünürlüğünü özelleştirebilir miyim?
+**C:** Kesinlikle. `PngSaveOptions` nesnesinin `setResolution(int dpi)` metodunu ihtiyacınıza göre ayarlayın.
 
-### Q3: PNG dışında başka çıktı formatları destekleniyor mu?
-**A:** Evet. Aspose.TeX ayrıca JPEG, BMP ve TIFF'i destekler. `new PngSaveOptions()` ifadesini ilgili kaydetme seçeneği sınıfı ile değiştirin.
+### S3: PNG dışındaki başka çıktı formatları destekleniyor mu?
+**C:** Evet. Aspose.TeX ayrıca JPEG, BMP ve TIFF’i destekler. `new PngSaveOptions()` ifadesini ilgili kaydetme‑seçeneği sınıfı ile değiştirin.
 
-### Q4: Aspose.TeX için topluluk desteğini nerede bulabilirim?
-**A:** Tartışmalar, örnekler ve sorun giderme yardımı için [Aspose.TeX Forum](https://forum.aspose.com/c/tex/47) adresini ziyaret edin.
+### S4: Aspose.TeX için topluluk desteği nereden bulunur?
+**C:** Tartışmalar, örnekler ve sorun giderme yardımı için [Aspose.TeX Forum](https://forum.aspose.com/c/tex/47) adresini ziyaret edin.
 
-### Q5: Test amaçlı geçici bir lisans nasıl alabilirim?
-**A:** [Aspose.Trial](https://purchase.aspose.com/temporary-license/) üzerinden deneme lisansı talep edebilirsiniz.
+### S5: Test amaçlı geçici bir lisans nasıl alınır?
+**C:** [Aspose.Trial](https://purchase.aspose.com/temporary-license/) üzerinden deneme lisansı talep edebilirsiniz.
 
-**Ekstra Soru & Cevap**
+**Ek Soru‑Cevap**
 
-**S:** PNG'nin arka plan rengini programlı olarak nasıl değiştiririm?  
-**A:** `PngSaveOptions.setBackgroundColor(java.awt.Color)` metodunu `TeXOptions` nesnesine atamadan önce kullanın.
+**S: PNG’nin arka plan rengini programatik olarak nasıl değiştiririm?**  
+**C:** `PngSaveOptions.setBackgroundColor(java.awt.Color)` metodunu `TeXOptions` nesnesine atamadan önce kullanın.
 
-**S:** Bir çalıştırmada birden fazla LaTeX dosyasını dönüştürmek mümkün mü?  
-**A:** Evet. Dosya listeniz üzerinde döngü kurarak her dosya için yeni bir `TeXJob` oluşturabilir, aynı `options` örneğini yeniden kullanabilirsiniz.
+**S: Tek bir çalıştırmada birden fazla LaTeX dosyasını dönüştürmek mümkün mü?**  
+**C:** Evet. Dosya listeniz üzerinde döngü kurup her dosya için yeni bir `TeXJob` oluşturabilir, aynı `options` örneğini yeniden kullanabilirsiniz.
 
 ## Sonuç
 
-Artık Aspose.TeX kullanarak Java'da **LaTeX'ten PNG oluşturmak** için eksiksiz, üretime hazır bir iş akışına sahipsiniz. Aspose lisansını ayarlayarak, çıktı dizini Java'yı yapılandırarak ve PNG kaydetme seçeneklerini seçerek, LaTeX render'ını herhangi bir Java tabanlı sisteme güvenle entegre edebilirsiniz.
+Artık Aspose.TeX kullanarak Java’da **LaTeX’ten PNG oluşturma** için eksiksiz, üretim‑hazır bir iş akışına sahipsiniz. Aspose lisansını ayarlayarak, çıktı dizini Java’yı yapılandırarak ve PNG kaydetme seçeneklerini (veya çözünürlüğü) seçerek, LaTeX render’ını herhangi bir Java‑tabanlı sisteme güvenle entegre edebilirsiniz.
 
 ---
 
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
-**Author:** Aspose
+**Son Güncelleme:** 2026-02-05  
+**Test Edilen Sürüm:** Aspose.TeX for Java 24.11 (yazım anındaki en yeni)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

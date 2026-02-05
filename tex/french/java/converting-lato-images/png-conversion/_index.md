@@ -1,11 +1,12 @@
 ---
-date: 2025-11-29
-description: Apprenez à générer des PNG à partir de LaTeX en Java avec Aspose.TeX.
-  Guide étape par étape couvrant la configuration de la licence Aspose en Java et
-  le répertoire de sortie Java.
+date: 2026-02-05
+description: Apprenez comment définir la licence et générer des PNG à partir de LaTeX
+  en Java avec Aspose.TeX. Ce guide étape par étape couvre la configuration de la
+  licence Aspose, la configuration du répertoire de sortie et la modification de la
+  résolution PNG.
 linktitle: Generate PNG from LaTeX in Java
 second_title: Aspose.TeX Java API
-title: Générer un PNG à partir de LaTeX en Java avec Aspose.TeX
+title: Comment définir la licence et générer un PNG à partir de LaTeX (Java)
 url: /fr/java/converting-lato-images/png-conversion/
 weight: 10
 ---
@@ -14,11 +15,11 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Générer des PNG à partir de LaTeX en Java avec Aspose.TeX
+# Générer PNG à partir de LaTeX en Java avec Aspose.TeX
 
 ## Introduction
 
-Si vous devez **générer des PNG à partir de LaTeX** dans une application Java, Aspose.TeX rend la tâche facile. Dans ce tutoriel, nous passerons en revue tout ce dont vous avez besoin — de la licence de la bibliothèque à la configuration du répertoire de sortie Java — afin que vous puissiez convertir des fichiers source LaTeX en images PNG de haute qualité en quelques lignes de code seulement.
+Si vous devez **générer PNG à partir de LaTeX** dans une application Java, Aspose.TeX rend la tâche simple. Dans ce tutoriel, nous passerons en revue tout ce dont vous avez besoin — **comment définir la licence** pour Aspose.TeX, configurer le répertoire de sortie Java et ajuster la qualité de l’image — afin que vous puissiez convertir des fichiers source LaTeX en images PNG de haute qualité en quelques lignes de code.
 
 ## Réponses rapides
 - **Quelle bibliothèque convertit LaTeX en PNG en Java ?** Aspose.TeX for Java.  
@@ -27,21 +28,35 @@ Si vous devez **générer des PNG à partir de LaTeX** dans une application Java
 - **Puis-je choisir un autre format d’image ?** Absolument – JPEG, BMP et TIFF sont également pris en charge.  
 - **Où les fichiers PNG sont‑ils enregistrés ?** Vous définissez un *output directory Java* dans les options de conversion.
 
-## Qu’est‑ce que « générer PNG à partir de LaTeX » ?
+## Comment définir la licence pour Aspose.TeX (Java)
 
-Générer des PNG à partir de LaTeX signifie prendre un fichier source `.ltx` (ou `.tex`) et le rendre sous forme d’image raster (PNG). Cela est utile pour intégrer des équations, formules ou documents entiers dans des pages web, rapports ou toute interface qui ne peut pas rendre LaTeX directement.
+Définir la licence est la première étape qui débloque toutes les fonctionnalités et supprime les filigranes d’évaluation. L’appel `Utils.setLicense()` charge le fichier `.lic` que vous avez obtenu auprès d’Aspose. Placez le fichier de licence quelque part sur le classpath (par exemple, dans `src/main/resources`) et appelez la méthode avant que tout travail de conversion ne commence.
+
+> **Astuce :** Si vous déplacez le fichier de licence, mettez à jour le chemin dans `Utils.setLicense()` en conséquence ; sinon vous verrez une erreur de licence à l’exécution.
+
+## Qu’est‑ce que « generate PNG from LaTeX » ?
+
+Générer PNG à partir de LaTeX signifie prendre un fichier source `.ltx` (ou `.tex`) et le rendre sous forme d’image raster (PNG). Ceci est utile pour intégrer des équations, formules ou documents entiers dans des pages web, rapports ou toute interface qui ne peut pas rendre LaTeX directement.
 
 ## Pourquoi utiliser Aspose.TeX pour cette tâche ?
 
-- **Aucune dépendance externe** – pas besoin d’une installation TeX locale.  
+- **Aucune dépendance externe** – aucune installation locale de TeX n’est nécessaire.  
 - **Contrôle total du rendu** – DPI, profondeur de couleur et format d’image sont configurables.  
 - **Multi‑plateforme** – fonctionne sur tout OS supportant Java.  
 - **Prêt pour l’entreprise** – inclut une licence robuste et un support.
 
+## Modifier la résolution PNG (Optionnel)
+
+Si la résolution par défaut ne répond pas à vos exigences de qualité, vous pouvez l’ajuster via `PngSaveOptions`. Par exemple, définir `setResolution(300)` vous donnera une sortie de 300 DPI, idéale pour les graphiques prêts à l’impression.
+
+## Définir le dossier de sortie (output directory java)
+
+Vous pouvez diriger les fichiers générés vers n’importe quel dossier. Cela est contrôlé avec la méthode `setOutputWorkingDirectory`. Assurez‑vous que le dossier existe et que le processus Java possède les permissions d’écriture.
+
 ## Prérequis
 
-- **Aspose.TeX for Java** – téléchargez depuis la [Documentation Aspose.TeX Java](https://reference.aspose.com/tex/java/).  
-- **Java Development Kit (JDK) 1.8+** – assurez‑vous que `java -version` renvoie 1.8 ou une version plus récente.  
+- **Aspose.TeX for Java** – téléchargez depuis la [Aspose.TeX Java Documentation](https://reference.aspose.com/tex/java/).  
+- **Java Development Kit (JDK) 1.8+** – assurez‑vous que `java -version` indique 1.8 ou une version plus récente.  
 - **Une licence Aspose.TeX valide** – vous utiliserez la méthode `set Aspose license Java` pour l’activer.
 
 ## Importer les packages
@@ -68,7 +83,7 @@ import util.Utils;
 
 ### Étape 1 : Définir la licence Aspose (set Aspose license Java)
 
-Avant que toute conversion ne puisse s’exécuter, vous devez enregistrer votre licence. Cette étape empêche les filigranes d’évaluation et débloque toutes les fonctionnalités.
+Avant que toute conversion ne puisse s’effectuer, vous devez enregistrer votre licence. Cette étape empêche les filigranes d’évaluation et débloque toutes les fonctionnalités.
 
 ```java
 Utils.setLicense();
@@ -110,11 +125,11 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 
 | Problème | Cause probable | Solution |
 |----------|----------------|----------|
-| **Aucun fichier PNG n’apparaît** | Le chemin du répertoire de sortie est incorrect ou les permissions d’écriture sont manquantes. | Vérifiez le chemin passé à `OutputFileSystemDirectory` et assurez‑vous que le processus Java peut écrire dans ce dossier. |
-| **Erreur de licence** | `Utils.setLicense()` n’est pas appelé ou le fichier de licence est introuvable. | Placez le fichier de licence à un emplacement accessible par le classpath et revérifiez l’implémentation de la méthode. |
-| **Images à basse résolution** | Le DPI par défaut est trop bas. | Créez une instance `PngSaveOptions` et définissez `setResolution(300)` avant de la passer à `options.setSaveOptions()`. |
+| **Aucun fichier PNG n’apparaît** | Le chemin du répertoire de sortie est incorrect ou les permissions d’écriture manquent. | Vérifiez le chemin passé à `OutputFileSystemDirectory` et assurez‑vous que le processus Java peut écrire dans ce dossier. |
+| **Erreur de licence** | `Utils.setLicense()` non appelé ou fichier de licence introuvable. | Placez le fichier de licence à un emplacement accessible via le classpath et revérifiez l’implémentation de la méthode. |
+| **Images à basse résolution** | Le DPI par défaut est trop faible. | Créez une instance de `PngSaveOptions` et définissez `setResolution(300)` avant de la passer à `options.setSaveOptions()`. |
 
-## FAQ – Questions fréquentes
+## Questions fréquentes
 
 ### Q1 : Aspose.TeX est‑il compatible avec les dernières versions de Java ?
 
@@ -128,9 +143,9 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 
 **R :** Oui. Aspose.TeX prend également en charge JPEG, BMP et TIFF. Remplacez `new PngSaveOptions()` par la classe d’option d’enregistrement correspondante.
 
-### Q4 : Où puis‑je trouver du support communautaire pour Aspose.TeX ?
+### Q4 : Où puis‑je trouver le support communautaire pour Aspose.TeX ?
 
-**R :** Visitez le [Forum Aspose.TeX](https://forum.aspose.com/c/tex/47) pour des discussions, exemples et aide au dépannage.
+**R :** Consultez le [Aspose.TeX Forum](https://forum.aspose.com/c/tex/47) pour des discussions, des exemples et de l’aide au dépannage.
 
 ### Q5 : Comment obtenir une licence temporaire à des fins de test ?
 
@@ -138,21 +153,21 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 
 **Questions supplémentaires**
 
-**Q : Comment changer programmatique la couleur de fond du PNG ?**  
+**Q : Comment changer programmétiquement la couleur de fond du PNG ?**  
 **R :** Utilisez `PngSaveOptions.setBackgroundColor(java.awt.Color)` avant d’assigner les options à l’objet `TeXOptions`.
 
 **Q : Est‑il possible de convertir plusieurs fichiers LaTeX en une seule exécution ?**  
-**R :** Oui. Parcourez votre liste de fichiers et créez une nouvelle instance `TeXJob` pour chaque fichier, en réutilisant la même instance `options`.
+**R :** Oui. Parcourez votre liste de fichiers et créez une nouvelle instance de `TeXJob` pour chaque fichier, en réutilisant la même instance `options`.
 
 ## Conclusion
 
-Vous disposez maintenant d’un flux de travail complet, prêt pour la production, afin de **générer des PNG à partir de LaTeX** en Java avec Aspose.TeX. En définissant la licence Aspose, en configurant le répertoire de sortie Java et en sélectionnant les options d’enregistrement PNG, vous pouvez intégrer le rendu LaTeX dans n’importe quel système basé sur Java en toute confiance.
+Vous disposez maintenant d’un flux de travail complet et prêt pour la production afin de **générer PNG à partir de LaTeX** en Java avec Aspose.TeX. En définissant la licence Aspose, en configurant le répertoire de sortie Java et en sélectionnant les options d’enregistrement PNG (ou en ajustant la résolution), vous pouvez intégrer le rendu LaTeX dans n’importe quel système basé sur Java en toute confiance.
 
 ---
 
-**Dernière mise à jour :** 2025-11-29  
-**Testé avec :** Aspose.TeX for Java 24.11 (latest at time of writing)  
-**Auteur :** Aspose 
+**Dernière mise à jour :** 2026-02-05  
+**Testé avec :** Aspose.TeX for Java 24.11 (dernière version au moment de la rédaction)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

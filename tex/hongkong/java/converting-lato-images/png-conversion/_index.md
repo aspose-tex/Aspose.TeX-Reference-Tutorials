@@ -1,10 +1,10 @@
 ---
-date: 2025-11-29
-description: 學習如何在 Java 中使用 Aspose.TeX 從 LaTeX 產生 PNG。逐步指南涵蓋設定 Aspose 授權、Java 以及輸出目錄的
-  Java 配置。
+date: 2026-02-05
+description: 學習如何在 Java 中使用 Aspose.TeX 設定授權並從 LaTeX 產生 PNG。本逐步指南涵蓋設定 Aspose 授權、配置輸出目錄以及更改
+  PNG 解析度。
 linktitle: Generate PNG from LaTeX in Java
 second_title: Aspose.TeX Java API
-title: 使用 Aspose.TeX 在 Java 中從 LaTeX 產生 PNG
+title: 如何設定授權並從 LaTeX 產生 PNG（Java）
 url: /zh-hant/java/converting-lato-images/png-conversion/
 weight: 10
 ---
@@ -13,37 +13,53 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.TeX 在 Java 中產生 LaTeX PNG
+# 在 Java 中使用 Aspose.TeX 產生 LaTeX PNG 圖片
 
-## 介紹
+## 簡介
 
-如果您需要在 Java 應用程式內 **從 LaTeX 產生 PNG**，Aspose.TeX 能讓這項工作變得毫不費力。在本教學中，我們將一步步說明從取得授權到設定輸出目錄 Java 的全部流程，讓您只需幾行程式碼即可將 LaTeX 原始檔轉換為高品質 PNG 圖片。
+如果您需要在 Java 應用程式中 **產生 LaTeX PNG**，Aspose.TeX 能讓這項工作變得輕鬆無痛。本教學將一步步說明您需要的所有操作——從 **如何設定 Aspose 授權** 到配置 Java 輸出目錄以及微調影像品質——讓您只需幾行程式碼即可將 LaTeX 原始檔轉換為高品質 PNG 圖片。
 
-## 快速回答
-- **哪個函式庫可以在 Java 中將 LaTeX 轉換為 PNG？** Aspose.TeX for Java。  
-- **需要授權嗎？** 需要 – 必須在執行轉換前 *set Aspose license Java*。  
+## 快速解答
+- **哪個函式庫可在 Java 中將 LaTeX 轉換為 PNG？** Aspose.TeX for Java。  
+- **我需要授權嗎？** 是 – 必須在執行轉換前 *set Aspose license Java*。  
 - **需要哪個 Java 版本？** JDK 1.8 或更新版本。  
-- **可以選擇其他影像格式嗎？** 當然可以 – 亦支援 JPEG、BMP 與 TIFF。  
-- **PNG 檔案會儲存在哪裡？** 您可以在轉換選項中定義 *output directory Java*。
+- **我可以選擇其他影像格式嗎？** 當然可以 – JPEG、BMP 與 TIFF 也皆支援。  
+- **PNG 檔案儲存在哪裡？** 您可在轉換選項中自行定義 *output directory Java*。
 
-## 什麼是「generate PNG from LaTeX」？
-從 LaTeX 產生 PNG 指的是將 `.ltx`（或 `.tex`）原始檔渲染成點陣圖（PNG）。此方式適用於在網頁、報告或任何無法直接渲染 LaTeX 的 UI 中嵌入方程式、公式或整份文件。
+## 如何設定 Aspose.TeX 授權 (Java)
+
+設定授權是解鎖完整功能並移除評估浮水印的第一步。`Utils.setLicense()` 會載入您從 Aspose 取得的 `.lic` 檔案。請將授權檔放置於 classpath 中的任意位置（例如 `src/main/resources`），並在任何轉換工作開始前呼叫此方法。
+
+> **專業提示：** 若您搬移了授權檔，請同步更新 `Utils.setLicense()` 內的路徑；否則執行時會出現授權錯誤。
+
+## 什麼是「產生 LaTeX PNG」？
+
+產生 LaTeX PNG 指的是將 `.ltx`（或 `.tex`）原始檔渲染成點陣圖（PNG）。此方式適合在網頁、報告或任何無法直接渲染 LaTeX 的 UI 中嵌入公式、方程式或整篇文件。
 
 ## 為什麼選擇 Aspose.TeX 來完成此任務？
-- **零外部相依性** – 不需要本機 TeX 安裝。  
-- **完整渲染控制** – DPI、色彩深度與影像格式皆可自行設定。  
+
+- **零外部相依性** – 無需本機 TeX 安裝。  
+- **完整的渲染控制** – DPI、色深與影像格式皆可設定。  
 - **跨平台** – 可在任何支援 Java 的作業系統上執行。  
-- **企業級** – 包含完善的授權機制與技術支援。
+- **企業級** – 包含完整授權與支援服務。
+
+## 變更 PNG 解析度（可選）
+
+若預設解析度未達到您的品質需求，可透過 `PngSaveOptions` 調整。例如，設定 `setResolution(300)` 即可產生 300 DPI 的輸出，適合列印品質的圖形。
+
+## 設定輸出資料夾（output directory java）
+
+您可以將產生的檔案寫入任意資料夾。此行為由 `setOutputWorkingDirectory` 方法控制，請確保資料夾已存在且 Java 行程具備寫入權限。
 
 ## 前置條件
 
 - **Aspose.TeX for Java** – 從 [Aspose.TeX Java Documentation](https://reference.aspose.com/tex/java/) 下載。  
 - **Java Development Kit (JDK) 1.8+** – 確認 `java -version` 顯示 1.8 或更新版本。  
-- **有效的 Aspose.TeX 授權** – 您將使用 `set Aspose license Java` 方法來啟用。
+- **有效的 Aspose.TeX 授權** – 您將使用 `set Aspose license Java` 方法來啟用它。
 
 ## 匯入套件
 
-在 Java 專案中，先匯入必要的 Aspose.TeX 類別。這些匯入讓您可以存取渲染引擎、設定物件與檔案系統輔助工具。
+在您的 Java 專案中，先匯入必要的 Aspose.TeX 類別。這些匯入讓您可以存取渲染引擎、設定物件與檔案系統輔助工具。
 
 ```java
 package com.aspose.tex.LaTeXPngConversionSimplest;
@@ -63,9 +79,9 @@ import com.aspose.tex.rendering.TiffSaveOptions;
 import util.Utils;
 ```
 
-### 步驟 1：設定 Aspose 授權（set Aspose license Java）
+### 步驟 1：設定 Aspose 授權 (set Aspose license Java)
 
-在執行任何轉換之前，必須先註冊授權。此步驟可防止評估水印並解鎖全部功能。
+在任何轉換發生之前，必須先註冊授權。此步驟可防止評估浮水印並解鎖完整功能。
 
 ```java
 Utils.setLicense();
@@ -79,9 +95,9 @@ Utils.setLicense();
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectLaTeX());
 ```
 
-### 步驟 3：指定輸出目錄（output directory Java）
+### 步驟 3：指定輸出目錄 (output directory Java)
 
-告訴 Aspose.TeX 要將產生的 PNG 檔寫入哪裡。將佔位符替換為您偏好的絕對或相對路徑。
+告訴 Aspose.TeX 將產生的 PNG 檔寫入哪裡。請將佔位符替換為您偏好的絕對或相對路徑。
 
 ```java
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
@@ -89,13 +105,13 @@ options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Dir
 
 ### 步驟 4：初始化 PNG 儲存選項
 
-選擇 PNG 作為目標影像格式。若有需要，您亦可透過 `PngSaveOptions` 進一步調整解析度、抗鋸齒與色彩深度。
+選擇 PNG 作為目標影像格式。若有需要，您亦可透過 `PngSaveOptions` 進一步調整解析度、抗鋸齒與色深。
 
 ```java
 options.setSaveOptions(new PngSaveOptions());
 ```
 
-### 步驟 5：執行 LaTeX‑to‑PNG 轉換
+### 步驟 5：執行 LaTeX → PNG 轉換
 
 最後，將工作指向您的 `.ltx` 原始檔，附加一個 `ImageDevice`（負責點陣輸出），然後執行工作。
 
@@ -107,14 +123,14 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 
 | 問題 | 可能原因 | 解決方案 |
 |------|----------|----------|
-| **找不到 PNG 檔** | 輸出目錄路徑不正確或缺少寫入權限。 | 檢查傳遞給 `OutputFileSystemDirectory` 的路徑，並確認 Java 行程有寫入該資料夾的權限。 |
-| **授權錯誤** | 未呼叫 `Utils.setLicense()` 或找不到授權檔。 | 將授權檔放置於 classpath 可存取的位置，並再次確認方法實作。 |
+| **找不到 PNG 檔案** | 輸出目錄路徑不正確或缺乏寫入權限。 | 核對傳遞給 `OutputFileSystemDirectory` 的路徑，並確保 Java 行程能寫入該資料夾。 |
+| **授權錯誤** | 未呼叫 `Utils.setLicense()` 或找不到授權檔。 | 將授權檔放在 classpath 可達的位置，並再次確認方法實作。 |
 | **影像解析度過低** | 預設 DPI 太低。 | 建立 `PngSaveOptions` 實例，於傳入 `options.setSaveOptions()` 前呼叫 `setResolution(300)`。 |
 
 ## 常見問答
 
 ### Q1：Aspose.TeX 是否相容最新的 Java 版本？
-**A：** 是的。此函式庫支援 JDK 1.8 以及之後的所有版本，包括 Java 11、17 與 21。
+**A：** 是。此函式庫支援 JDK 1.8 以及之後的所有版本，包括 Java 11、17 與 21。
 
 ### Q2：我可以自訂輸出影像的解析度嗎？
 **A：** 當然可以。調整 `PngSaveOptions` 物件的 `setResolution(int dpi)` 方法即可符合您的品質需求。
@@ -123,27 +139,27 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 **A：** 支援。Aspose.TeX 亦可輸出 JPEG、BMP 與 TIFF。只要將 `new PngSaveOptions()` 換成對應的儲存選項類別即可。
 
 ### Q4：在哪裡可以取得 Aspose.TeX 的社群支援？
-**A：** 前往 [Aspose.TeX Forum](https://forum.aspose.com/c/tex/47) 參與討論、範例分享與問題排除。
+**A：** 前往 [Aspose.TeX Forum](https://forum.aspose.com/c/tex/47) 參與討論、查看範例與求助。
 
 ### Q5：如何取得測試用的臨時授權？
-**A：** 您可從 [Aspose.Trial](https://purchase.aspose.com/temporary-license/) 申請試用授權。
+**A：** 可於 [Aspose.Trial](https://purchase.aspose.com/temporary-license/) 申請試用授權。
 
 **其他問答**
 
-**Q：如何程式化變更 PNG 的背景顏色？**  
-**A：** 在將選項指派給 `TeXOptions` 之前，呼叫 `PngSaveOptions.setBackgroundColor(java.awt.Color)`。
+**Q：如何以程式方式變更 PNG 的背景顏色？**  
+**A：** 在將選項指派給 `TeXOptions` 物件前，呼叫 `PngSaveOptions.setBackgroundColor(java.awt.Color)`。
 
 **Q：能否一次轉換多個 LaTeX 檔案？**  
 **A：** 可以。遍歷檔案清單，為每個檔案建立新的 `TeXJob`，並重複使用相同的 `options` 實例。
 
 ## 結論
 
-現在您已掌握使用 Aspose.TeX 在 Java 中 **產生 LaTeX PNG** 的完整、可投入生產環境的工作流程。只要設定 Aspose 授權、配置 output directory Java，並選擇 PNG 儲存選項，即可自信地將 LaTeX 渲染整合至任何基於 Java 的系統。
+現在您已掌握完整且可投入生產環境的工作流程，能在 Java 中使用 Aspose.TeX **產生 LaTeX PNG**。只要設定 Aspose 授權、配置 Java 輸出目錄，並選擇 PNG 儲存選項（或調整解析度），即可自信地將 LaTeX 渲染整合至任何基於 Java 的系統。
 
 ---
 
-**最後更新：** 2025-11-29  
-**測試環境：** Aspose.TeX for Java 24.11（撰寫時最新）  
+**最後更新：** 2026-02-05  
+**測試環境：** Aspose.TeX for Java 24.11（撰寫時最新版本）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

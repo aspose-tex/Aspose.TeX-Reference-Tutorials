@@ -1,9 +1,9 @@
 ---
-title: Generate PNG from LaTeX in Java with Aspose.TeX
+title: How to Set License and Generate PNG from LaTeX (Java)
 linktitle: Generate PNG from LaTeX in Java
 second_title: Aspose.TeX Java API
-description: Learn how to generate PNG from LaTeX in Java using Aspose.TeX. Step‑by‑step guide covering set Aspose license Java and output directory Java configuration.
-date: 2025-11-29
+description: Learn how to set license and generate PNG from LaTeX in Java with Aspose.TeX. This step‑by‑step guide covers setting the Aspose license, configuring the output directory, and changing PNG resolution.
+date: 2026-02-05
 weight: 10
 url: /java/converting-lato-images/png-conversion/
 ---
@@ -16,7 +16,7 @@ url: /java/converting-lato-images/png-conversion/
 
 ## Introduction
 
-If you need to **generate PNG from LaTeX** inside a Java application, Aspose.TeX makes the job painless. In this tutorial we’ll walk through everything you need—from licensing the library to configuring the output directory Java—so you can convert LaTeX source files into high‑quality PNG images in just a few lines of code.
+If you need to **generate PNG from LaTeX** inside a Java application, Aspose.TeX makes the job painless. In this tutorial we’ll walk through everything you need—from **how to set license** for Aspose.TeX to configuring the output directory Java and tweaking image quality—so you can convert LaTeX source files into high‑quality PNG images in just a few lines of code.
 
 ## Quick Answers
 - **Which library converts LaTeX to PNG in Java?** Aspose.TeX for Java.  
@@ -25,14 +25,30 @@ If you need to **generate PNG from LaTeX** inside a Java application, Aspose.TeX
 - **Can I choose another image format?** Absolutely – JPEG, BMP, and TIFF are also supported.  
 - **Where are the PNG files saved?** You define an *output directory Java* in the conversion options.
 
+## How to Set License for Aspose.TeX (Java)
+
+Setting the license is the first step that unlocks full functionality and removes evaluation watermarks. The `Utils.setLicense()` call loads the `.lic` file you obtained from Aspose. Place the license file somewhere on the classpath (for example, in `src/main/resources`) and call the method before any conversion work begins.
+
+> **Pro tip:** If you move the license file, update the path inside `Utils.setLicense()` accordingly; otherwise you’ll see a licensing error at runtime.
+
 ## What is “generate PNG from LaTeX”?
+
 Generating PNG from LaTeX means taking a `.ltx` (or `.tex`) source file and rendering it as a raster image (PNG). This is useful for embedding equations, formulas, or whole documents into web pages, reports, or any UI that cannot render LaTeX directly.
 
 ## Why use Aspose.TeX for this task?
+
 - **Zero external dependencies** – no need for a local TeX installation.  
 - **Full control over rendering** – DPI, color depth, and image format are configurable.  
 - **Cross‑platform** – works on any OS that supports Java.  
 - **Enterprise‑ready** – includes robust licensing and support.
+
+## Change PNG Resolution (Optional)
+
+If the default resolution doesn’t meet your quality requirements, you can adjust it via `PngSaveOptions`. For example, setting `setResolution(300)` will give you 300 DPI output, which is ideal for print‑ready graphics.
+
+## Set Output Folder (output directory java)
+
+You can direct the generated files to any folder you like. This is controlled with the `setOutputWorkingDirectory` method. Make sure the folder exists and the Java process has write permissions.
 
 ## Prerequisites
 
@@ -137,13 +153,13 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 
 ## Conclusion
 
-You now have a complete, production‑ready workflow to **generate PNG from LaTeX** in Java using Aspose.TeX. By setting the Aspose license, configuring the output directory Java, and selecting PNG save options, you can integrate LaTeX rendering into any Java‑based system with confidence.
+You now have a complete, production‑ready workflow to **generate PNG from LaTeX** in Java using Aspose.TeX. By setting the Aspose license, configuring the output directory Java, and selecting PNG save options (or adjusting resolution), you can integrate LaTeX rendering into any Java‑based system with confidence.
 
 ---
 
-**Last Updated:** 2025-11-29  
+**Last Updated:** 2026-02-05  
 **Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
-**Author:** Aspose 
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -151,4 +167,3 @@ You now have a complete, production‑ready workflow to **generate PNG from LaTe
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
- 
