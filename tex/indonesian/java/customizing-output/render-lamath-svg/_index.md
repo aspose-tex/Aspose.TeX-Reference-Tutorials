@@ -1,13 +1,12 @@
 ---
-date: 2025-12-08
-description: Pelajari cara merender persamaan matematika LaTeX dan mengonversi LaTeX
-  ke SVG dalam Java menggunakan Aspose.TeX. Ikuti panduan langkah demi langkah ini
-  untuk menghasilkan SVG dari LaTeX dengan cepat dan andal.
-language: id
-linktitle: How to Render LaTeX Math to SVG in Java
+date: 2026-02-15
+description: Pelajari cara merender LaTeX ke SVG menggunakan Aspose.TeX untuk Java.
+  Panduan langkah demi langkah ini menunjukkan cara menghasilkan SVG dari LaTeX dengan
+  cepat dan andal.
+linktitle: How to Render LaTeX to SVG in Java
 second_title: Aspose.TeX Java API
-title: Cara Merender Matematika LaTeX ke SVG di Java
-url: /java/customizing-output/render-lamath-svg/
+title: Cara Merender LaTeX ke SVG di Java
+url: /id/java/customizing-output/render-lamath-svg/
 weight: 15
 ---
 
@@ -15,39 +14,48 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Merender Matematika LaTeX ke SVG di Java
+# Cara Merender LaTeX ke SVG di Java
 
-## Introduction
+## Pendahuluan
 
-Jika Anda perlu **mengonversi LaTeX ke SVG** untuk halaman web, dokumentasi, atau laporan ilmiah, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menunjukkan **cara merender persamaan latex** ke file SVG berkualitas tinggi menggunakan Aspose.TeX Java API. Baik Anda membangun aplikasi desktop, layanan sisi‑server, atau alat pengajaran, langkah‑langkah di bawah ini akan memungkinkan Anda **menghasilkan SVG dari LaTeX** dengan hanya beberapa baris kode.
+Jika Anda perlu **render latex to svg** untuk halaman web, dokumentasi, atau laporan ilmiah, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan memandu Anda melalui proses mengonversi persamaan matematika LaTeX menjadi file SVG yang tajam dan dapat diskalakan menggunakan Aspose.TeX Java API. Baik Anda membangun aplikasi desktop, layanan sisi‑server, atau alat pengajaran interaktif, langkah‑langkah di bawah ini memungkinkan Anda **generate SVG from LaTeX** dengan hanya beberapa baris kode Java.
 
-## Quick Answers
-- **Perpustakaan apa yang diperlukan?** Aspose.TeX for Java.
-- **Bisakah saya mengekspor persamaan LaTeX sebagai SVG?** Ya – API merender langsung ke SVG.
-- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi sementara dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk penggunaan komersial.
-- **Versi Java apa yang didukung?** Java 8 atau lebih tinggi.
+## Jawaban Cepat
+- **Library apa yang diperlukan?** Aspose.TeX for Java.  
+- **Bisakah saya mengekspor persamaan LaTeX sebagai SVG?** Ya – API merender langsung ke SVG.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi sementara berfungsi untuk pengujian; lisensi penuh diperlukan untuk penggunaan komersial.  
+- **Versi Java apa yang didukung?** Java 8 atau lebih tinggi.  
 - **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk pengaturan dasar.
 
-## What is “how to render latex” in Java?
+## Apa itu **render latex to svg** di Java?
 
-Merender LaTeX berarti mengambil string TeX/LaTeX (misalnya sebuah formula matematika) dan mengubahnya menjadi representasi visual. Dengan Aspose.TeX Anda dapat mengeluarkan representasi tersebut sebagai gambar vektor SVG, yang dapat diskalakan tanpa kehilangan kualitas dan bekerja sempurna di browser.
+Merender LaTeX berarti mengambil string TeX/LaTeX (misalnya sebuah formula matematika) dan mengubahnya menjadi representasi visual. Dengan Aspose.TeX Anda dapat **export latex equation svg** dengan mengeluarkan representasi tersebut sebagai gambar vektor SVG, yang dapat diskalakan tanpa kehilangan kualitas dan bekerja sempurna di peramban.
 
-## Why generate SVG from LaTeX?
+## Mengapa menghasilkan SVG dari LaTeX?
 
-- **Skalabel** – SVG dapat diskalakan pada resolusi layar apa pun.
-- **Ringan** – Grafik vektor biasanya lebih kecil daripada gambar raster.
-- **Dapat diedit** – Anda dapat mengubah warna atau lebar garis langsung di file SVG.
-- **Lintas‑platform** – SVG bekerja di HTML, PDF, dan banyak format lainnya.
+- **Scalable** – SVG dapat diskalakan pada resolusi layar apa pun.  
+- **Lightweight** – Grafik vektor biasanya lebih kecil daripada gambar raster.  
+- **Editable** – Anda dapat mengubah warna atau lebar garis langsung di file SVG.  
+- **Cross‑platform** – SVG bekerja di HTML, PDF, dan banyak format lainnya.  
 
-## Prerequisites
+## Kasus Penggunaan Umum
+
+| Skenario | Mengapa SVG? |
+|----------|--------------|
+| **Buku teks daring** | Formula resolusi tinggi yang tampak tajam pada layar retina. |
+| **Dasbor ilmiah** | Diagram dinamis yang perlu diubah ukurannya secara langsung. |
+| **Laporan siap cetak** | Output vektor memastikan tidak ada pikselasi saat dicetak dalam ukuran besar. |
+| **Aplikasi web interaktif** | SVG dapat di‑styling dengan CSS atau dianimasikan dengan JavaScript. |
+
+## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki:
 
-- Pemahaman dasar tentang pemrograman Java.
-- Lingkungan pengembangan Java (JDK 8+ dan IDE seperti IntelliJ IDEA atau Eclipse).
-- **Aspose.TeX for Java** yang diunduh dan ditambahkan ke classpath proyek Anda. Anda dapat mendapatkannya dari halaman unduhan resmi [di sini](https://releases.aspose.com/tex/java/).
+- Pemahaman dasar tentang pemrograman Java.  
+- Lingkungan pengembangan Java (JDK 8+ dan IDE seperti IntelliJ IDEA atau Eclipse).  
+- **Aspose.TeX for Java** diunduh dan ditambahkan ke classpath proyek Anda. Anda dapat mendapatkannya dari halaman unduhan resmi **[here](https://releases.aspose.com/tex/java/)**.
 
-## Import Packages
+## Impor Paket
 
 Pertama, impor kelas‑kelas yang diperlukan. Pertahankan blok ini persis seperti yang ditampilkan – ia menyediakan mesin rendering, opsi, dan utilitas I/O.
 
@@ -67,11 +75,11 @@ import com.aspose.tex.SvgMathRendererOptions;
 import util.Utils;
 ```
 
-## Step‑by‑Step Guide
+## Panduan Langkah‑per‑Langkah
 
-### Step 1: Create Rendering Options  
+### Langkah 1: Buat Opsi Rendering  
 
-Siapkan lingkungan yang memberi tahu renderer cara memperlakukan input LaTeX. Di sinilah Anda **menyesuaikan warna, skala, dan preamble** (paket-paket yang Anda perlukan untuk simbol matematika lanjutan).
+Siapkan lingkungan yang memberi tahu renderer cara memperlakukan input LaTeX. Di sinilah Anda **menyesuaikan warna, skala, dan preamble** (paket‑paket yang Anda perlukan untuk simbol matematika lanjutan).
 
 ```java
 MathRendererOptions options = new SvgMathRendererOptions();
@@ -83,22 +91,22 @@ options.setLogStream(new ByteArrayOutputStream());
 options.showTerminal(true);
 ```
 
-> **Tip pro:** Tingkatkan nilai `scale` untuk output resolusi lebih tinggi, terutama jika Anda berencana mencetak SVG.
+> **Pro tip:** Tingkatkan nilai `scale` untuk output resolusi lebih tinggi, terutama jika Anda berencana mencetak SVG.
 
-### Step 2: Define Output Dimensions and Create an Output Stream  
+### Langkah 2: Tentukan Dimensi Output dan Buat Stream Output  
 
-Meskipun SVG berbasis vektor, Aspose.TeX tetap memerlukan kontainer ukuran. Kemudian kami membuka aliran ke file tempat SVG akan disimpan.
+Meskipun SVG berbasis vektor, Aspose.TeX tetap memerlukan kontainer ukuran. Kemudian kami membuka stream ke file tempat SVG akan disimpan.
 
 ```java
 com.aspose.tex.Size2D size = new com.aspose.tex.Size2D.Float();
 final OutputStream stream = new FileOutputStream("Your Output Directory" + "math-formula.svg");
 ```
 
-> **Mengapa ini penting:** Menyediakan objek `Size2D` memungkinkan renderer menghitung kotak pembatas tepat dari persamaan, yang berguna ketika Anda nanti menyematkan SVG ke dalam tata letak.
+> **Mengapa ini penting:** Menyediakan objek `Size2D` memungkinkan renderer menghitung kotak pembatas persamaan secara tepat, yang berguna ketika Anda nanti menyematkan SVG ke dalam tata letak.
 
-### Step 3: Run the Rendering Process  
+### Langkah 3: Jalankan Proses Rendering  
 
-Berikan string LaTeX Anda, aliran output, opsi, dan objek ukuran ke renderer. Ini adalah inti dari fungsionalitas **export latex equation svg**.
+Berikan string LaTeX Anda, output stream, opsi, dan objek ukuran ke renderer. Ini adalah inti dari fungsi **export latex equation svg**.
 
 ```java
 new SvgMathRenderer().render("\\begin{equation*}\r\n" +
@@ -106,9 +114,9 @@ new SvgMathRenderer().render("\\begin{equation*}\r\n" +
     "\\end{equation*}", stream, options, size);
 ```
 
-> **Jebakan umum:** Lupa menambahkan backslash ganda (`\\`) dalam string LaTeX akan menyebabkan kesalahan sintaks. Selalu escape mereka dalam string Java.
+> **Kesalahan umum:** Lupa menambahkan backslash ganda (`\\`) dalam string LaTeX akan menyebabkan kesalahan sintaks. Selalu escape mereka dalam string Java.
 
-### Step 4: Display Results and Debug Information  
+### Langkah 4: Tampilkan Hasil dan Informasi Debug  
 
 Setelah rendering, Anda dapat memeriksa pesan kesalahan apa pun dan dimensi akhir SVG.
 
@@ -120,39 +128,39 @@ System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 
 Jika laporan kesalahan kosong, SVG Anda berhasil dihasilkan dan Anda akan menemukan `math‑formula.svg` di direktori yang ditentukan.
 
-## Common Issues & Solutions
+## Masalah Umum & Solusi
 
 | Masalah | Penyebab | Solusi |
-|-------|-------|-----|
+|---------|----------|--------|
 | **File SVG kosong** | `size` tidak diinisialisasi dengan benar | Pastikan `Size2D` dibuat dengan `new Size2D.Float()` sebelum rendering. |
-| **Simbol hilang** | Paket LaTeX yang diperlukan tidak dimuat | Tambahkan paket yang dibutuhkan ke `preamble` (mis., `\\usepackage{bm}` untuk matematika tebal). |
-| **Warna tidak tepat** | `setTextColor` atau `setBackgroundColor` tidak diatur | Verifikasi Anda mengatur kedua warna sebelum rendering; SVG mewarisi nilai tersebut. |
-| **Pengecualian lisensi** | Menjalankan tanpa lisensi yang valid di produksi | Terapkan lisensi sementara untuk pengujian atau beli lisensi penuh untuk penyebaran. |
+| **Simbol hilang** | Paket LaTeX yang diperlukan tidak dimuat | Tambahkan paket yang diperlukan ke `preamble` (misalnya `\\usepackage{bm}` untuk matematika tebal). |
+| **Warna tidak tepat** | `setTextColor` atau `setBackgroundColor` tidak diatur | Pastikan Anda mengatur kedua warna sebelum rendering; SVG mewarisi nilai‑nilai ini. |
+| **Pengecualian lisensi** | Menjalankan tanpa lisensi yang valid di produksi | Terapkan lisensi sementara untuk pengujian atau beli lisensi penuh untuk penerapan. |
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**T: Apakah Aspose.TeX kompatibel dengan perpustakaan Java lainnya?**  
-J: Ya. Aspose.TeX bekerja bersama perpustakaan seperti Apache PDFBox, iText, atau toolkit pemrosesan gambar apa pun.
+**Q: Apakah Aspose.TeX kompatibel dengan pustaka Java lainnya?**  
+A: Ya. Aspose.TeX bekerja bersama pustaka seperti Apache PDFBox, iText, atau toolkit pemrosesan gambar apa pun.
 
-**T: Bisakah saya menyesuaikan tampilan persamaan yang dirender?**  
-J: Tentu saja. Gunakan opsi rendering untuk mengubah warna teks, latar belakang,ala, dan bahkan menambahkan makro LaTeX khusus melalui preamble.
+**Q: Bisakah saya menyesuaikan tampilan persamaan yang dirender?**  
+A: Tentu saja. Gunakan opsi rendering untuk mengubah warna teks, latar belakang, skala, dan bahkan menambahkan makro LaTeX khusus melalui preamble.
 
-**T: Di mana saya dapat menemukan dukungan komunitas?**  
-J: Forum komunitas Aspose.TeX tersedia di [Aspose.TeX Forum](https://forum.aspose.com/c/tex/47).
+**Q: Di mana saya dapat menemukan dukungan komunitas?**  
+A: Forum komunitas Aspose.TeX tersedia di **[Aspose.TeX Forum](https://forum.aspose.com/c/tex/47)**.
 
-**T: Bagaimana cara mendapatkan lisensi sementara untuk pengujian?**  
-J: Kunjungi halaman lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/) dan ikuti petunjuknya.
+**Q: Bagaimana cara mendapatkan lisensi sementara untuk pengujian?**  
+A: Kunjungi halaman lisensi sementara **[here](https://purchase.aspose.com/temporary-license/)** dan ikuti instruksinya.
 
-**T: Di mana dokumentasi API lengkap?**  
-J: Materi referensi detail dihosting di [Aspose.TeX Java Documentation](https://reference.aspose.com/tex/java/).
+**Q: Di mana dokumentasi API lengkap?**  
+A: Materi referensi detail dihosting di **[Aspose.TeX Java Documentation](https://reference.aspose.com/tex/java/)**.
 
-## Conclusion
+## Kesimpulan
 
-Anda kini memiliki alur kerja lengkap, siap produksi untuk **mengonversi LaTeX ke SVG** menggunakan Aspose.TeX untuk Java. Dengan menyesuaikan opsi rendering Anda dapat menyesuaikan output agar sesuai dengan gaya visual apa pun, dan file SVG yang dihasilkan akan ditampilkan dengan tajam di perangkat apa pun. Jangan ragu untuk menjelajahi fitur tambahan seperti merender ke PNG atau PDF, atau mengintegrasikan SVG ke dalam aplikasi web.
+Anda kini memiliki alur kerja lengkap yang siap produksi untuk **convert LaTeX to SVG** menggunakan Aspose.TeX untuk Java. Dengan menyesuaikan opsi rendering, Anda dapat menyesuaikan output agar cocok dengan gaya visual apa pun, dan file SVG yang dihasilkan akan ditampilkan dengan tajam di perangkat apa pun. Jangan ragu untuk menjelajahi fitur tambahan seperti merender ke PNG atau PDF, atau mengintegrasikan SVG ke dalam aplikasi web.
 
 ---
 
-**Last Updated:** 2025-12-08  
+**Last Updated:** 2026-02-15  
 **Tested With:** Aspose.TeX for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
