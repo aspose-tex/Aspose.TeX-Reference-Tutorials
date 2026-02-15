@@ -1,11 +1,11 @@
 ---
-date: 2025-12-09
-description: Pelajari cara merender gambar LaTeX ke SVG di Java dan temukan opsi konversi
-  LaTeX ke PNG menggunakan Aspose.TeX. Ikuti panduan langkah demi langkah ini untuk
-  integrasi yang mulus.
+date: 2026-02-15
+description: Pelajari cara merender LaTeX ke SVG dan juga mengonversi LaTeX ke PNG
+  menggunakan Aspose.TeX untuk Java. Panduan langkah demi langkah ini menunjukkan
+  cara menghasilkan SVG dari LaTeX dalam aplikasi Java.
 linktitle: How to Render LaTeX Figures to SVG in Java
 second_title: Aspose.TeX Java API
-title: Cara Merender Gambar LaTeX ke SVG di Java
+title: Cara merender LaTeX ke SVG di Java dengan Aspose.TeX
 url: /id/java/customizing-output/render-lafigures-svg/
 weight: 14
 ---
@@ -14,32 +14,35 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Merender Gambar LaTeX ke SVG di Java
+# Cara merender latex ke svg di Java dengan Aspose.TeX
 
-Membuat dan merender gambar LaTeX dalam aplikasi Java dapat terasa menantang, tetapi ini adalah kebutuhan umum ketika Anda menginginkan grafik berkualitas tinggi dan dapat diskalakan untuk laporan, makalah ilmiah, atau konten web. Pada tutorial ini Anda akan belajar **cara merender latex** gambar langsung ke SVG, dan Anda juga akan melihat mengapa mesin Aspose.TeX yang sama dapat digunakan untuk alur kerja **java convert latex png** ketika gambar raster diperlukan.
+Membuat dan merender gambar LaTeX dalam aplikasi Java dapat terasa menakutkan, tetapi **render latex to svg** lebih mudah daripada yang Anda kira. Baik Anda memerlukan grafik yang dapat diskalakan untuk laporan ilmiah, dasbor web, atau PDF yang dapat dicetak, mengonversi LaTeX langsung ke SVG memberi Anda gambar yang tajam dan tidak bergantung pada resolusi. Dalam tutorial ini Anda juga akan melihat bagaimana mesin yang sama dapat **convert latex to png** ketika output raster diperlukan.
 
 ## Jawaban Cepat
 - **Perpustakaan apa yang digunakan tutorial ini?** Aspose.TeX untuk Java  
 - **Format output apa yang ditunjukkan?** Scalable Vector Graphics (SVG)  
 - **Apakah saya juga dapat menghasilkan gambar PNG?** Ya – renderer yang sama dapat menghasilkan PNG dengan mengganti kelas renderer.  
 - **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi sementara tersedia untuk evaluasi; lisensi penuh diperlukan untuk proyek komersial.  
-- **Versi Java apa yang didukung?** Semua runtime Java 8+ dapat bekerja dengan Aspose.TeX.
+- **Versi Java apa yang didukung?** Semua runtime Java 8+ dapat bekerja dengan Aspose.TeX.  
 
-## Apa itu “cara merender latex” di Java?
+## Apa itu “render latex to svg” di Java?
 Merender LaTeX berarti mengonversi bahasa markup yang digunakan untuk penataan ilmiah menjadi representasi visual yang dapat ditampilkan atau disimpan oleh program Anda. Aspose.TeX mem-parsing sumber LaTeX, memproses paket-paket, dan menghasilkan grafik dalam format yang Anda pilih – dalam kasus kami, SVG.
 
 ## Mengapa merender gambar LaTeX ke SVG?
 - **Skalabilitas:** SVG dapat diskalakan tanpa kehilangan kualitas, sempurna untuk UI responsif atau cetakan resolusi tinggi.  
-- **Dapat diedit:** File SVG tetap dapat diedit di editor grafis vektor.  
+- **Kemudahan edit:** File SVG tetap dapat diedit di editor grafis vektor.  
 - **Kinerja:** Grafik vektor seringkali lebih kecil daripada setara raster untuk gambar garis dan diagram.  
+
+## Kapan Anda **convert latex to png** sebaliknya?
+Format raster seperti PNG berguna ketika Anda memerlukan gambar bitmap untuk lingkungan yang tidak mendukung SVG (misalnya, beberapa alat pelaporan lama) atau ketika Anda ingin menyematkan gambar dalam format yang hanya menerima gambar raster. Mesin Aspose.TeX yang sama dapat beralih output dengan satu perubahan kelas.
 
 ## Prasyarat
 - Lingkungan pengembangan Java (JDK 8 atau lebih baru).  
 - Aspose.TeX untuk Java – unduh dari [tautan unduhan resmi](https://releases.aspose.com/tex/java/).  
 - Familiaritas dasar dengan sintaks gambar LaTeX (misalnya, lingkungan `picture`).  
 
-## Impor Paket
-Pertama, bawa kelas Aspose.TeX yang diperlukan ke dalam proyek Anda.
+## Import Packages
+Pertama, masukkan kelas Aspose.TeX yang diperlukan ke dalam proyek Anda.
 
 ```java
 package com.aspose.tex.SvgLaTeXFigureRenderer;
@@ -96,7 +99,7 @@ if (stream != null)
 ```
 
 ## Langkah 5: Tampilkan Hasil
-Setelah rendering, Anda dapat memeriksa pesan error apa pun dan dimensi gambar akhir.
+Setelah rendering, Anda dapat memeriksa pesan kesalahan apa pun dan dimensi gambar akhir.
 
 ```java
 System.out.println(options.getErrorReport());
@@ -104,7 +107,7 @@ System.out.println();
 System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 ```
 
-Dengan mengikuti langkahkah ini, Anda dapat dengan mulus merender gambar LaTeX ke SVG menggunakan Aspose.TeX untuk Java.
+Dengan mengikuti langkah‑langkah ini, Anda dapat dengan mulus **render latex to svg** menggunakan Aspose.TeX untuk Java, dan Anda juga memiliki fleksibilitas untuk **convert latex to png** bila diperlukan.
 
 ## Masalah Umum dan Solusinya
 - **Paket yang hilang:** Jika gambar Anda menggunakan paket LaTeX yang tidak termasuk dalam preamble default, tambahkan melalui `options.setPreamble("\\usepackage{...}")`.  
@@ -113,24 +116,24 @@ Dengan mengikuti langkahkah ini, Anda dapat dengan mulus merender gambar LaTeX k
 
 ## Pertanyaan yang Sering Diajukan
 
-**T1: Bisakah saya merender gambar LaTeX dengan ekspresi matematis kompleks menggunakan Aspose.TeX?**  
+**T: Apakah saya dapat merender gambar LaTeX dengan ekspresi matematika kompleks menggunakan Aspose.TeX?**  
 J: Ya, Aspose.TeX sepenuhnya mendukung markup matematika yang rumit dan akan merendernya secara akurat ke SVG.
 
-**T2: Apakah lisensi sementara tersedia untuk Aspose.TeX untuk Java?**  
+**T: Apakah lisensi sementara tersedia untuk Aspose.TeX untuk Java?**  
 J: Ya, Anda dapat memperoleh lisensi sementara dari [sini](https://purchase.aspose.com/temporary-license/).
 
-**T3: Bagaimana cara mendapatkan dukungan untuk Aspose.TeX untuk Java?**  
+**T: Bagaimana cara mendapatkan dukungan untuk Aspose.TeX untuk Java?**  
 J: Kunjungi [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) untuk bantuan berbasis komunitas.
 
-**T4: Format apa saja yang dapat saya konversi dari gambar LaTeX menggunakan Aspose.TeX?**  
+**T: Format apa saja yang dapat saya konversi gambar LaTeX menggunakan Aspose.TeX?**  
 J: Selain SVG, Anda dapat menghasilkan PNG, JPEG, PDF, dan format raster atau vektor lainnya.
 
-**T5: Di mana saya dapat menemukan dokumentasi detail untuk Aspose.TeX untuk Java?**  
+**T: Di mana saya dapat menemukan dokumentasi detail untuk Aspose.TeX untuk Java?**  
 J: Lihat [dokumentasi Aspose.TeX](https://reference.aspose.com/tex/java/) untuk detail API yang komprehensif.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-09  
+**Terakhir Diperbarui:** 2026-02-15  
 **Diuji Dengan:** Aspose.TeX 24.11 untuk Java  
 **Penulis:** Aspose  
 

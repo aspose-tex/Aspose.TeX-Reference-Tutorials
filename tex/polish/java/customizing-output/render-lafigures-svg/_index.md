@@ -1,11 +1,11 @@
 ---
-date: 2025-12-09
-description: Dowiedz się, jak renderować figury LaTeX do SVG w Javie i odkryj opcje
-  konwersji LaTeX do PNG w Javie przy użyciu Aspose.TeX. Postępuj zgodnie z tym przewodnikiem
-  krok po kroku, aby uzyskać płynną integrację.
+date: 2026-02-15
+description: Naucz się renderować LaTeX do SVG oraz konwertować LaTeX na PNG przy
+  użyciu Aspose.TeX dla Javy. Ten przewodnik krok po kroku pokazuje, jak generować
+  SVG z LaTeX w aplikacji Java.
 linktitle: How to Render LaTeX Figures to SVG in Java
 second_title: Aspose.TeX Java API
-title: Jak renderować figury LaTeX do SVG w Javie
+title: Jak renderować LaTeX do SVG w Javie z Aspose.TeX
 url: /pl/java/customizing-output/render-lafigures-svg/
 weight: 14
 ---
@@ -14,29 +14,32 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak renderować figury LaTeX do SVG w Javie
+# Jak renderować latex do svg w Javie z Aspose.TeX
 
-Tworzenie i renderowanie figur LaTeX w aplikacji Java może wydawać się trudne, ale jest to powszechna potrzeba, gdy potrzebujesz wysokiej jakości, skalowalnej grafiki do raportów, prac naukowych lub treści internetowych. W tym samouczku nauczysz się **jak renderować latex** figur bezpośrednio do SVG, oraz zobaczysz, dlaczego ten sam silnik Aspose.TeX może być użyty w przepływie pracy **java convert latex png**, gdy wymagane są obrazy rastrowe.
+Tworzenie i renderowanie rysunków LaTeX w aplikacji Java może wydawać się trudne, ale **render latex to svg** jest prostsze niż się wydaje. Niezależnie od tego, czy potrzebujesz skalowalnej grafiki do raportów naukowych, pulpitów internetowych czy drukowanych PDF‑ów, konwersja LaTeX bezpośrednio do SVG zapewnia wyraźne, niezależne od rozdzielczości obrazy. W tym samouczku zobaczysz również, jak ten sam silnik może **convert latex to png**, gdy wymagane jest wyjście rastrowe.
 
 ## Szybkie odpowiedzi
 - **Jakiej biblioteki używa samouczek?** Aspose.TeX for Java  
 - **Jaki format wyjściowy jest demonstrowany?** Scalable Vector Graphics (SVG)  
-- **Czy mogę także generować obrazy PNG?** Tak – ten sam renderer może wyjść PNG po zmianie klasy renderera.  
+- **Czy mogę również generować obrazy PNG?** Tak – ten sam renderer może wyjść PNG po zmianie klasy renderera.  
 - **Czy potrzebna jest licencja do użytku produkcyjnego?** Dostępna jest tymczasowa licencja do oceny; pełna licencja jest wymagana dla projektów komercyjnych.  
-- **Jaką wersję Javy obsługuje?** Każde środowisko uruchomieniowe Java 8+ działa z Aspose.TeX.
+- **Jaką wersję Javy obsługuje?** Każde środowisko uruchomieniowe Java 8+ działa z Aspose.TeX.  
 
-## Co to jest „how to render latex” w Javie?
-Renderowanie LaTeX oznacza konwersję języka znaczników używanego do typografii naukowej na wizualną reprezentację, którą Twój program może wyświetlić lub zapisać. Aspose.TeX analizuje źródło LaTeX, przetwarza pakiety i generuje grafikę w wybranym formacie – w naszym przypadku SVG.
+## Co to jest „render latex to svg” w Javie?
+Renderowanie LaTeX oznacza konwersję języka znaczników używanego do naukowego składu tekstu na reprezentację wizualną, którą Twój program może wyświetlić lub zapisać. Aspose.TeX analizuje źródło LaTeX, przetwarza pakiety i generuje grafikę w wybranym formacie – w naszym przypadku SVG.
 
-## Dlaczego renderować figury LaTeX do SVG?
-- **Skalowalność:** SVG skaluje się bez utraty jakości, idealny dla responsywnego interfejsu użytkownika lub wydruków wysokiej rozdzielczości.  
+## Dlaczego renderować rysunki LaTeX do SVG?
+- **Skalowalność:** SVG skaluje się bez utraty jakości, idealny dla responsywnych interfejsów UI lub wydruków wysokiej rozdzielczości.  
 - **Edytowalność:** Pliki SVG pozostają edytowalne w edytorach grafiki wektorowej.  
 - **Wydajność:** Grafika wektorowa jest często mniejsza niż odpowiedniki rastrowe w przypadku rysunków liniowych i diagramów.  
+
+## Kiedy zamiast tego **convert latex to png**?
+Formaty rastrowe, takie jak PNG, są przydatne, gdy potrzebujesz obrazu bitmapowego dla środowisk, które nie obsługują SVG (np. niektóre starsze narzędzia raportujące) lub gdy chcesz osadzić rysunek w formacie akceptującym wyłącznie obrazy rastrowe. Ten sam silnik Aspose.TeX może przełączyć wyjście jedną zmianą klasy.
 
 ## Wymagania wstępne
 - Środowisko programistyczne Java (JDK 8 lub nowszy).  
 - Aspose.TeX for Java – pobierz go z oficjalnego [download link](https://releases.aspose.com/tex/java/).  
-- Podstawowa znajomość składni figur LaTeX (np. środowisko `picture`).  
+- Podstawowa znajomość składni rysunków LaTeX (np. środowisko `picture`).  
 
 ## Importowanie pakietów
 Najpierw wprowadź wymagane klasy Aspose.TeX do swojego projektu.
@@ -68,8 +71,8 @@ options.setLogStream(new ByteArrayOutputStream());
 options.showTerminal(true);
 ```
 
-## Krok 2: Definicja figury LaTeX i katalogu wyjściowego
-Określ figurę, którą chcesz renderować oraz miejsce, w którym zostanie zapisany plik SVG.
+## Krok 2: Definicja rysunku LaTeX i katalogu wyjściowego
+Określ rysunek, który chcesz wyrenderować, oraz miejsce, w którym zostanie zapisany plik SVG.
 
 ```java
 com.aspose.tex.Size2D size = new com.aspose.tex.Size2D.Float();
@@ -104,33 +107,33 @@ System.out.println();
 System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 ```
 
-Postępując zgodnie z tymi krokami, możesz płynnie renderować figury LaTeX do SVG przy użyciu Aspose.TeX for Java.
+Postępując zgodnie z tymi krokami, możesz płynnie **render latex to svg** przy użyciu Aspose.TeX dla Javy, a także masz elastyczność **convert latex to png**, gdy zajdzie taka potrzeba.
 
 ## Typowe problemy i rozwiązania
-- **Brakujące pakiety:** Jeśli Twoja figura używa pakietu LaTeX, który nie jest zawarty w domyślnym preambule, dodaj go za pomocą `options.setPreamble("\\usepackage{...}")`.  
-- **Nieprawidłowa długość jednostki:** Dostosuj `\\setlength{\\unitlength}{...}`, aby odpowiadała potrzebnej skali.  
-- **Błędy uprawnień do plików:** Upewnij się, że katalog wyjściowy istnieje i Twoja aplikacja ma uprawnienia do zapisu.  
+- **Brakujące pakiety:** Jeśli Twój rysunek używa pakietu LaTeX, który nie jest zawarty w domyślnym preambule, dodaj go za pomocą `options.setPreamble("\\usepackage{...}")`.  
+- **Nieprawidłowa długość jednostki:** Dostosuj `\\setlength{\\unitlength}{...}`, aby pasowała do potrzebnej skali.  
+- **Błędy uprawnień do pliku:** Upewnij się, że katalog wyjściowy istnieje i Twoja aplikacja ma uprawnienia do zapisu.  
 
 ## Najczęściej zadawane pytania
 
-**Q1: Czy mogę renderować figury LaTeX z złożonymi wyrażeniami matematycznymi przy użyciu Aspose.TeX?**  
-A: Tak, Aspose.TeX w pełni obsługuje skomplikowane znaczniki matematyczne i dokładnie renderuje je do SVG.
+**Q: Czy mogę renderować rysunki LaTeX z złożonymi wyrażeniami matematycznymi przy użyciu Aspose.TeX?**  
+A: Tak, Aspose.TeX w pełni obsługuje skomplikowane znaczniki matematyczne i wyrenderuje je dokładnie do SVG.
 
-**Q2: Czy dostępna jest tymczasowa licencja dla Aspose.TeX for Java?**  
+**Q: Czy dostępna jest tymczasowa licencja dla Aspose.TeX dla Javy?**  
 A: Tak, tymczasową licencję można uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-**Q3: Jak mogę uzyskać wsparcie dla Aspose.TeX for Java?**  
+**Q: Jak mogę uzyskać wsparcie dla Aspose.TeX dla Javy?**  
 A: Odwiedź [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) w celu uzyskania pomocy od społeczności.
 
-**Q4: Na jakie formaty mogę konwertować figury LaTeX przy użyciu Aspose.TeX?**  
-A: Oprócz SVG możesz wyjść w formatach PNG, JPEG, PDF i innych formatach rastrowych lub wektorowych.
+**Q: Na jakie formaty mogę konwertować rysunki LaTeX przy użyciu Aspose.TeX?**  
+A: Oprócz SVG, możesz wyjść PNG, JPEG, PDF oraz inne formaty rastrowe lub wektorowe.
 
-**Q5: Gdzie mogę znaleźć szczegółową dokumentację Aspose.TeX for Java?**  
+**Q: Gdzie mogę znaleźć szczegółową dokumentację Aspose.TeX dla Javy?**  
 A: Zapoznaj się z [dokumentacją Aspose.TeX](https://reference.aspose.com/tex/java/), aby uzyskać pełne informacje o API.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-09  
+**Ostatnia aktualizacja:** 2026-02-15  
 **Testowano z:** Aspose.TeX 24.11 for Java  
 **Autor:** Aspose  
 
