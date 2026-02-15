@@ -4,7 +4,7 @@ linktitle: Convert TeX to PDF, Override Job Name and Write Terminal Output to ZI
 second_title: Aspose.TeX Java API
 description: Learn how to convert TeX to PDF, override job names and write terminal output to a ZIP file using Aspose.TeX for Java. Step‑by‑step guide for Java developers.
 weight: 11
-date: 2025-12-07
+date: 2026-02-15
 url: /java/customizing-output/override-job-name-zip/
 ---
 
@@ -32,6 +32,14 @@ Converting TeX to PDF means taking a TeX source file (or a collection of TeX fil
 - **Clarity:** A custom job name appears in log files, making it easier to identify runs in automated pipelines.  
 - **Portability:** Storing the terminal output (`*.trm`) inside a ZIP keeps all artifacts together, which is handy for CI/CD or cloud‑based processing.  
 - **Debugging:** The terminal log contains detailed compilation messages that help you troubleshoot TeX errors.
+
+## Why this matters
+When you generate PDF from TeX in a production environment, you often need to keep the build artifacts organized. Overriding the job name lets you tag each run with a meaningful identifier (for example, a build number). Packing the terminal log into the same ZIP as the PDF gives you a single, portable package that can be archived or sent to downstream services without losing context.
+
+## Common use cases
+- **Automated report generation** – a nightly job creates PDFs from TeX templates and stores logs for audit purposes.  
+- **CI/CD pipelines** – developers can view the exact compilation messages when a build fails, without digging into separate log files.  
+- **Cloud‑based document services** – a web service receives a ZIP of TeX sources, processes them, and returns a ZIP containing the PDF and its compilation log.
 
 ## Prerequisites
 
@@ -124,6 +132,13 @@ After the job finishes, we must close the ZIP stream properly to ensure the arch
 ((OutputZipDirectory) options.getOutputWorkingDirectory()).finish();
 ```
 
+## Tips and best practices
+
+- **Reuse streams**: If you process many TeX jobs in a row, keep the input and output streams open and only change the `JobName` between runs.  
+- **Log inspection**: Open the `<job_name>.trm` file with any text editor to see warnings or errors that the TeX compiler emitted.  
+- **Performance**: For large documents, consider increasing the JVM heap size (`-Xmx2g`) to avoid `OutOfMemoryError` during PDF rendering.  
+- **Security**: When handling untrusted TeX sources, run the conversion in a sandboxed environment to mitigate potential malicious macros.
+
 ## Common Issues and Solutions
 
 | Issue | Likely Cause | Fix |
@@ -156,7 +171,7 @@ You’ve now seen how to **convert TeX to PDF**, override the job name, and capt
 
 ---
 
-**Last Updated:** 2025-12-07  
+**Last Updated:** 2026-02-15  
 **Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 
