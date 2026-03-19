@@ -1,6 +1,6 @@
 ---
-title: How to Write Output: Control Aspose.TeX Job Output
-linktitle: How to Write Output: Control Aspose.TeX Job Output
+title: How to Write Output - Control Aspose.TeX Job Output
+linktitle: How to Write Output - Control Aspose.TeX Job Output
 second_title: Aspose.TeX .NET API
 description: Learn how to write output and capture terminal output with Aspose.TeX for .NET, overriding job names and managing TeX files efficiently.
 weight: 24

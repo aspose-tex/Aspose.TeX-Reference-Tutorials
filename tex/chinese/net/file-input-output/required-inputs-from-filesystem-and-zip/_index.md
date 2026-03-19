@@ -135,29 +135,11 @@ A: 只要所需的宏包在 `RequiredInputDirectory` 中可用，自定义命令
 - 将 LaTeX 项目打包为 ZIP，测试基于 ZIP 的工作流。  
 - 将 PNG 输出与 PDF 生成结合，实现多格式报告。
 
-祝编码愉快！
+---
 
-## FAQ's
-
-### Q1: 可以使用 Aspose.TeX 处理其他文档格式吗？
-
-A1: Aspose.TeX 主要聚焦于 TeX 和 LaTeX 文档处理。若需处理其他格式，请参考针对特定需求的其他 Aspose 产品。
-
-### Q2: 在哪里可以找到更多文档？
-
-A2: 详细文档请访问 [Aspose.TeX for .NET Documentation](https://reference.aspose.com/tex/net/)。
-
-### Q3: 如果遇到问题，如何获取支持？
-
-A3: 前往 [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) 获取社区帮助，或考虑使用 [temporary license](https://purchase.aspose.com/temporary-license/) 获得优先支持。
-
-### Q4: 有免费试用吗？
-
-A4: 有，您可以在 [Aspose.TeX Releases](https://releases.aspose.com/) 下载免费试用版。
-
-### Q5: 哪里可以购买 Aspose.TeX for .NET？
-
-A5: 请前往 [purchase page](https://purchase.aspose.com/buy) 进行购买。
+**最后更新：** 2025-12-20  
+**测试环境：** Aspose.TeX 24.11 for .NET  
+**作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -165,9 +147,3 @@ A5: 请前往 [purchase page](https://purchase.aspose.com/buy) 进行购买。
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-20  
-**测试环境：** Aspose.TeX 24.11 for .NET  
-**作者：** Aspose
