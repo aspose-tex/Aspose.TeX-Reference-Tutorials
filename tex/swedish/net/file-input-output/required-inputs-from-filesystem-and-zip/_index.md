@@ -137,29 +137,11 @@ Känn dig fri att utforska nästa steg:
 - Packa ditt LaTeX‑projekt i en ZIP och testa arbetsflödet baserat på ZIP.  
 - Kombinera PNG‑utdata med PDF‑generering för flermodala rapporter.
 
-Lycka till med kodningen!
+---
 
-## Vanliga frågor
-
-### Q1: Kan jag använda Aspose.TeX för andra dokumentformat?
-
-A1: Aspose.TeX fokuserar främst på TeX‑ och LaTeX‑dokumentbehandling. För andra format, utforska andra Aspose‑produkter som är anpassade för specifika behov.
-
-### Q2: Var kan jag hitta ytterligare dokumentation?
-
-A2: Detaljerad dokumentation finns på [Aspose.TeX for .NET Documentation](https://reference.aspose.com/tex/net/).
-
-### Q3: Hur får jag support om jag stöter på problem?
-
-A3: Besök [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) för community‑support eller överväg en [temporary license](https://purchase.aspose.com/temporary-license/) för prioriterad hjälp.
-
-### Q4: Finns det gratis provalternativ?
-
-A4: Ja, du kan få åtkomst till en gratis provversion på [Aspose.TeX Releases](https://releases.aspose.com/).
-
-### Q5: Var kan jag köpa Aspose.TeX för .NET?
-
-A5: Du kan köpa Aspose.TeX för .NET från [purchase page](https://purchase.aspose.com/buy).
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.TeX 24.11 for .NET  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -167,9 +149,3 @@ A5: Du kan köpa Aspose.TeX för .NET från [purchase page](https://purchase.asp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose

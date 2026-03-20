@@ -22,34 +22,34 @@ weight: 11
 
 Dans ce tutoriel complet, vous apprendrez **comment convertir TeX en PNG** avec Aspose.TeX pour C#. Que vous ayez besoin de **générer une image à partir de TeX** pour des rapports, des aperçus web ou des pipelines de documents automatisés, ce guide vous montre comment gérer les flux, les images et capturer l'entrée du terminal — le tout dans un exemple simple et facile à suivre.
 
-## Quick Answers
-- **Que fait Aspose.TeX ?** Il analyse le code source TeX et le rend dans divers formats, dont le PNG.  
-- **Puis‑je convertir TeX en PNG sans écrire de fichiers sur le disque ?** Oui – vous pouvez fournir le TeX via un `MemoryStream` et capturer directement les octets PNG.  
-- **Quelles versions de .NET sont prises en charge ?** Toutes les versions modernes de .NET (Framework 4.6+, .NET Core 3.1+, .NET 5/6).  
-- **Ai‑je besoin d’une licence pour une utilisation en production ?** Une licence commerciale est requise pour la production ; un essai gratuit est disponible.  
-- **Quelle résolution d’image puis‑je définir ?** La propriété `PngSaveOptions.Resolution` vous permet de spécifier le DPI (par ex., 300 dpi).
+## Réponses rapides
+- **Que fait Aspose.TeX?** Il analyse le code source TeX et le rend dans divers formats, dont le PNG.
+- **Puis‑je convertir TeX en PNG sans écrire de fichiers sur le disque?** Oui – vous pouvez fournir le TeX via un `MemoryStream` et capturer directement les octets PNG.
+- **Quelles versions de .NET sont prises en charge ?** Toutes les versions modernes de .NET (Framework4.6+, .NETCore3.1+, .NET5/6).
+- **Ai‑je besoin d’une licence pour une utilisation en production?** Une licence commerciale est requise pour la production; un essai gratuit est disponible.
+- **Quelle résolution d'image puis‑je définir?** La propriété `PngSaveOptions.Resolution` vous permet de spécifier le DPI (par ex., 300dpi).
 
-## What is “convert tex to png”?
+## Qu'est-ce que « convertir du tex en png » ?
 
-Convertir TeX en PNG consiste à prendre une chaîne de balisage TeX (le langage utilisé pour les documents scientifiques) et à la rendre sous forme d’image raster. Cela est utile lorsque vous souhaitez intégrer des formules mathématiques ou des pages TeX complètes dans des pages web, des applications mobiles ou tout environnement qui ne peut pas rendre TeX nativement.
+Convertir TeX en PNG consiste à prendre une chaîne de balisage TeX (le langage utilisé pour les documents scientifiques) et à la rendre sous forme d'image raster. Cela est utile lorsque vous souhaitez intégrer des formules mathématiques ou des pages TeX complètes dans des pages web, des applications mobiles ou tout environnement qui ne peut pas rendre TeX nativement.
 
-## Why generate image from TeX with Aspose.TeX?
+## Pourquoi générer une image depuis TeX avec Aspose.TeX ?
 
-- **Aucune dépendance externe** – Aspose.TeX est une bibliothèque pure‑.NET, vous n’avez donc pas besoin d’une distribution TeX sur le serveur.  
-- **API adaptée aux flux** – Fonctionne directement avec `MemoryStream`, ce qui la rend idéale pour les services cloud et les micro‑services.  
-- **Contrôle fin** – Vous pouvez définir la résolution de l’image, les répertoires de sortie, et même capturer l’entrée interactive du terminal.  
+- **Aucune dépendance externe** – Aspose.TeX est une bibliothèque pure‑.NET, vous n'avez donc pas besoin d'une distribution TeX sur le serveur.
+- **API adaptée aux flux** – Fonctionne directement avec `MemoryStream`, ce qui la rend idéale pour les services cloud et les micro‑services.
+- **Contrôle fin** – Vous pouvez définir la résolution de l'image, les répertoires de sortie, et même capturer l'entrée interactive du terminal.
 
-## Prerequisites
+## Prérequis
 
-Avant de plonger dans le code, assurez‑vous d’avoir :
+Avant de Sous-marin dans le code, assurez-vous d’avoir :
 
-- Des connaissances de base en C#.  
-- Aspose.TeX pour .NET installé – vous pouvez le télécharger **[ici](https://releases.aspose.com/tex/net/)**.  
-- Un environnement de développement C# (Visual Studio, VS Code, Rider, etc.).  
+- Des connaissances de base en C#.
+- Aspose.TeX pour .NET installé – vous pouvez le télécharger **[ici](https://releases.aspose.com/tex/net/)**.
+- Un environnement de développement C# (Visual Studio, VSCode, Rider, etc.).
 
-## Import Namespaces
+## Importer des espaces de noms
 
-Add the required `using` statements at the top of your C# file so you can access Aspose.TeX classes:
+Ajoutez les instructions « using » requises en haut de votre fichier C# afin de pouvoir accéder aux classes Aspose.TeX :
 
 ```csharp
 using Aspose.TeX.IO;
@@ -58,9 +58,9 @@ using System.IO;
 using System.Text;
 ```
 
-## Step 1: Set Up Conversion Options
+## Étape 1 : Configurer les options de conversion
 
-Configure the conversion pipeline. Here we tell Aspose.TeX to treat the application as a console app, specify input/output folders, route terminal I/O, and request PNG output at 300 dpi.
+Configurez le pipeline de conversion. Ici, nous indiquons à Aspose.TeX de traiter l'application comme une application console, de spécifier les dossiers d'entrée/sortie, de router les E/S du terminal et de demander une sortie PNG à 300 dpi.
 
 ```csharp
 // ExStart:TakeMainInputFromStream-AuxFromFileSystem-TakeTerminalInputFromConsole-AlternativeImagesStorage
@@ -73,9 +73,9 @@ options.TerminalOut = new OutputConsoleTerminal();
 options.SaveOptions = new PngSaveOptions() { Resolution = 300 };
 ```
 
-## Step 2: Create Image Device and Run the Job
+## Étape 2 : Créer un périphérique d’image et exécuter la tâche
 
-The `ImageDevice` captures the rendered PNG data. We feed a simple TeX snippet via a `MemoryStream`, run the job, and let Aspose.TeX do the heavy lifting.
+Le périphérique `ImageDevice` capture les données PNG rendues. Nous fournissons un simple extrait de code TeX via un `MemoryStream`, exécutons la tâche et laissons Aspose.TeX se charger du reste.
 
 ```csharp
 ImageDevice device = new ImageDevice();
@@ -85,13 +85,13 @@ TeXJob job = new TeXJob(new MemoryStream(Encoding.ASCII.GetBytes(
 job.Run();
 ```
 
-## Step 3: Provide Input in the Console
+## Étape 3 : Saisie dans la console
 
-When the console prompts, type **ABC**, press **Enter**, then type **\end** and press **Enter** again. This demonstrates how terminal input can be captured while the TeX engine is running.
+Lorsque la console vous y invite, saisissez **ABC**, appuyez sur **Entrée**, puis saisissez **\end** et appuyez de nouveau sur **Entrée**. Ceci illustre comment capturer des données saisies dans le terminal pendant l’exécution du moteur TeX.
 
-## Step 4: Fine‑Tune Output
+## Étape 4 : Optimisation de la sortie
 
-After the job finishes, you can write a line break to the console and retrieve the raw PNG bytes from the device. The `result` array holds one PNG image per page.
+Une fois la tâche terminée, vous pouvez insérer un saut de ligne dans la console et récupérer les octets PNG bruts depuis le périphérique. Le tableau `result` contient une image PNG par page.
 
 ```csharp
 options.TerminalOut.Writer.WriteLine();
@@ -99,46 +99,46 @@ byte[][] result = device.Result;
 // ExEnd:TakeMainInputFromStream-AuxFromFileSystem-TakeTerminalInputFromConsole-AlternativeImagesStorage
 ```
 
-You can now save `result[0]` to a file, send it over a network, or embed it directly into a UI component.
+Vous pouvez désormais enregistrer « result[0] » dans un fichier, l'envoyer sur un réseau ou l'intégrer directement dans un composant d'interface utilisateur.
 
-## Common Issues and Solutions
+## Problèmes courants et solutions
 
-| Problème | Pourquoi cela se produit | Solution |
-|----------|--------------------------|----------|
-| **Pas de sortie PNG** | `SaveOptions` non défini ou résolution à zéro. | Assurez‑vous que `options.SaveOptions = new PngSaveOptions() { Resolution = 300 };` |
+| Problème | Pourquoi cela se produit | Solutions |
+|--------------|----------------|---------------|
+| **Pas de sortie PNG** | `SaveOptions` non défini ou résolution à zéro. | Assurez-vous que `options.SaveOptions = new PngSaveOptions() { Résolution = 300 };` |
 | **La console se bloque** | L’entrée TeX ne reçoit jamais `\end`. | Terminez toujours le flux TeX avec `\end` (ou `\stop`). |
-| **Taille d’image incorrecte** | DPI par défaut est 96. | Augmentez `Resolution` dans `PngSaveOptions`. |
+| **Taille d'image incorrecte** | Le DPI par défaut est 96. | Augmentez `Resolution` dans `PngSaveOptions`. |
 | **Chemins du système de fichiers introuvables** | Chaînes de répertoire de travail incorrectes. | Utilisez des chemins absolus ou vérifiez que les répertoires existent avant l’exécution. |
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
-### Q1: Can I use Aspose.TeX for .NET in a non‑console application?
+### Q1 : Puis-je utiliser Aspose.TeX pour .NET dans une application non-console ?
 
-**R1:** Absolument ! Aspose.TeX fonctionne dans les applications de bureau, web et orientées services. Il suffit de remplacer les terminaux console par des flux personnalisés ou des contrôles UI.
+**R1 :** Absolument ! Aspose.TeX fonctionne dans les applications de bureau, web et orientées services. Il suffit de remplacer les terminaux console par des flux personnalisés ou des contrôles UI.
 
-### Q2: How can I customize the output image resolution?
+### Q2 : Comment puis-je personnaliser la résolution de l'image de sortie ?
 
-**R2:** Dans l’exemple, la résolution est définie via `PngSaveOptions.Resolution`. Modifiez la valeur entière (par ex., `Resolution = 600`) pour obtenir des PNG de meilleure qualité.
+**R2:** Dans l'exemple, la résolution est définie via `PngSaveOptions.Resolution`. Modifiez la valeur entière (par ex., `Resolution = 600`) pour obtenir des PNG de meilleure qualité.
 
-### Q3: Is there a trial version available?
+### Q3 : Existe-t-il une version d'essai disponible ?
 
 **R3:** Oui, vous pouvez explorer Aspose.TeX avec un essai gratuit disponible **[ici](https://releases.aspose.com/)**.
 
-### Q4: Where can I find additional support and assistance?
+### Q4 : Où puis-je trouver une assistance et une assistance supplémentaires ?
 
 **R4:** Consultez le forum Aspose.TeX **[ici](https://forum.aspose.com/c/tex/47)** pour le support communautaire et les discussions.
 
-### Q5: How can I obtain a temporary license for Aspose.TeX?
+### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.TeX ?
 
-**R5:** Vous pouvez obtenir une licence temporaire **[ici](https://purchase.aspose.com/temporary-license/)**.
+**R5:** Vous pouvez une licence temporaire **[ici](https://purchase.aspose.com/temporary-license/)**.
 
 ## Conclusion
 
-Vous avez maintenant vu comment **convertir TeX en PNG** en utilisant Aspose.TeX pour C#. En configurant les flux, en créant un `ImageDevice` et en gérant l’entrée du terminal, vous pouvez générer des images haute résolution à partir de n’importe quelle source TeX — idéal pour les rapports, les aperçus web ou les pipelines automatisés. Explorez davantage en expérimentant différents extraits TeX, en ajustant le DPI, ou en intégrant le tableau d’octets dans votre propre interface.
+Vous avez maintenant vu comment **convertir TeX en PNG** en utilisant Aspose.TeX pour C#. En configurant les flux, en créant un `ImageDevice` et en gérant l’entrée du terminal, vous pouvez générer des images haute résolution à partir de n’importe quelle source TeX — idéal pour les rapports, les aperçus web ou les pipelines automatisés. Explorez davantage en expérimentant différents extraits de TeX, en ajustant le DPI, ou en intégrant le tableau d'octets dans votre propre interface.
 
-**Dernière mise à jour :** 2025-12-20  
-**Testé avec :** Aspose.TeX 24.11 for .NET  
-**Auteur :** Aspose  
+**Dernière mise à jour:** 2025-12-20
+**Testé avec:** Aspose.TeX 24.11 pour .NET
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -18,36 +18,36 @@ weight: 11
 
 # Mengonversi TeX ke PNG – Menguasai Stream, Gambar, & Input Terminal di Aspose.TeX untuk C#
 
-## Introduction
+## Perkenalan
 
-Dalam tutorial komprehensif ini Anda akan mempelajari **cara mengonversi TeX ke PNG** dengan Aspose.TeX untuk C#. Baik Anda perlu **menghasilkan gambar dari TeX** untuk laporan, pratinjau web, atau pipeline dokumen otomatis, panduan ini akan membawa Anda melalui penanganan stream, pengelolaan gambar, dan penangkapan input terminal—semua dalam satu contoh yang mudah diikuti.
+Dalam tutorial komprehensif ini Anda akan mempelajari **cara mengonversi TeX ke PNG** dengan Aspose.TeX untuk C#. Baik Anda perlu **menghasilkan gambar dari TeX** untuk laporan, penyimpanan web, atau pipeline dokumen otomatis, panduan ini akan membawa Anda penanganan melalui stream, pengelolaan gambar, dan penangkapan input terminal—semua dalam satu contoh yang mudah diikuti.
 
-## Quick Answers
-- **Apa yang dilakukan Aspose.TeX?** Ia mem-parsing sumber TeX dan merendernya ke berbagai format, termasuk PNG.  
-- **Bisakah saya mengonversi TeX ke PNG tanpa menulis file ke disk?** Ya – Anda dapat memberi TeX melalui `MemoryStream` dan menangkap byte PNG secara langsung.  
-- **Versi .NET apa yang didukung?** Semua versi .NET modern (Framework 4.6+, .NET Core 3.1+, .NET 5/6).  
-- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi komersial diperlukan untuk produksi; versi percobaan gratis tersedia.  
-- **Resolusi gambar apa yang dapat saya atur?** Properti `PngSaveOptions.Resolution` memungkinkan Anda menentukan DPI (misalnya, 300 dpi).
+## Jawaban Cepat
+- **Apa yang dilakukan Aspose.TeX?** Ia mem-parsing sumber TeX dan merendernya ke berbagai format, termasuk PNG.
+- ** mendorong saya mengonversi TeX ke PNG tanpa menulis file ke disk?** Ya – Anda dapat memberi TeX melalui `MemoryStream` dan menangkap byte PNG secara langsung.
+- **Versi .NET apa yang didukung?** Semua versi .NET modern (Framework4.6+, .NETCore3.1+, .NET5/6).
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi komersial diperlukan untuk produksi; versi percobaan gratis tersedia.
+- **Resolusi gambar apa yang dapat saya atur?** Properti `PngSaveOptions.Resolution` memungkinkan Anda menentukan DPI (misalnya, 300dpi).
 
-## What is “convert tex to png”?
+## Apa itu “konversi teks ke png”?
 
 Mengonversi TeX ke PNG berarti mengambil string markup TeX (bahasa yang digunakan untuk dokumen ilmiah) dan merendernya sebagai gambar raster. Ini berguna ketika Anda ingin menyematkan rumus matematika atau halaman TeX lengkap ke dalam halaman web, aplikasi seluler, atau lingkungan apa pun yang tidak dapat merender TeX secara native.
 
-## Why generate image from TeX with Aspose.TeX?
+## Mengapa menghasilkan gambar dari TeX dengan Aspose.TeX?
 
-- **Tanpa ketergantungan eksternal** – Aspose.TeX adalah pustaka .NET murni, jadi Anda tidak memerlukan distribusi TeX di server.  
-- **API yang ramah stream** – Bekerja langsung dengan `MemoryStream`, menjadikannya ideal untuk layanan cloud dan mikro‑service.  
-- **Kontrol detail** – Anda dapat mengatur resolusi gambar, direktori output, bahkan menangkap input terminal interaktif.  
+- **Tanpa kemandirian eksternal** – Aspose.TeX adalah pustaka .NET murni, jadi Anda tidak memerlukan distribusi TeX di server.
+- **API yang ramah stream** – Bekerja langsung dengan `MemoryStream`, menjadikannya ideal untuk layanan cloud dan mikro‑service.
+- **Kontrol detail** – Anda dapat mengatur resolusi gambar, output direktori, bahkan menangkap input terminal interaktif.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum kita masuk ke kode, pastikan Anda memiliki:
 
-- Pengetahuan dasar C#.  
-- Aspose.TeX untuk .NET terpasang – Anda dapat mengunduhnya **[di sini](https://releases.aspose.com/tex/net/)**.  
-- Lingkungan pengembangan C# (Visual Studio, VS Code, Rider, dll.).  
+- Pengetahuan dasar C#.
+- Aspose.TeX untuk .NET terpasang – Anda dapat mengunduhnya **[di sini](https://releases.aspose.com/tex/net/)**.
+- Lingkungan pengembangan C# (Visual Studio, VSCode, Rider, dll.).
 
-## Import Namespaces
+## Impor Namespace
 
 Tambahkan pernyataan `using` yang diperlukan di bagian atas file C# Anda sehingga Anda dapat mengakses kelas Aspose.TeX:
 
@@ -58,7 +58,7 @@ using System.IO;
 using System.Text;
 ```
 
-## Step 1: Set Up Conversion Options
+## Langkah 1: Atur Opsi Konversi
 
 Konfigurasikan pipeline konversi. Di sini kami memberi tahu Aspose.TeX untuk memperlakukan aplikasi sebagai aplikasi konsol, menentukan folder input/output, mengarahkan I/O terminal, dan meminta output PNG dengan 300 dpi.
 
@@ -73,7 +73,7 @@ options.TerminalOut = new OutputConsoleTerminal();
 options.SaveOptions = new PngSaveOptions() { Resolution = 300 };
 ```
 
-## Step 2: Create Image Device and Run the Job
+## Langkah 2: Buat Perangkat Gambar dan Jalankan Pekerjaan
 
 `ImageDevice` menangkap data PNG yang dirender. Kami memberi cuplikan TeX sederhana melalui `MemoryStream`, menjalankan job, dan membiarkan Aspose.TeX melakukan pekerjaan berat.
 
@@ -85,11 +85,11 @@ TeXJob job = new TeXJob(new MemoryStream(Encoding.ASCII.GetBytes(
 job.Run();
 ```
 
-## Step 3: Provide Input in the Console
+## Langkah 3: Berikan Input di Konsol
 
 Saat konsol meminta input, ketik **ABC**, tekan **Enter**, lalu ketik **\end** dan tekan **Enter** lagi. Ini menunjukkan bagaimana input terminal dapat ditangkap saat mesin TeX sedang berjalan.
 
-## Step 4: Fine‑Tune Output
+## Langkah 4: Sempurnakan Output
 
 Setelah job selesai, Anda dapat menulis baris baru ke konsol dan mengambil byte PNG mentah dari device. Array `result` berisi satu gambar PNG per halaman.
 
@@ -101,46 +101,46 @@ byte[][] result = device.Result;
 
 Anda kini dapat menyimpan `result[0]` ke file, mengirimnya melalui jaringan, atau menyematkannya langsung ke komponen UI.
 
-## Common Issues and Solutions
+## Masalah Umum dan Solusinya
 
-| Issue | Why it Happens | Fix |
+| Edisi | Mengapa Itu Terjadi | Perbaiki |
 |-------|----------------|-----|
-| **No PNG output** | `SaveOptions` tidak diset atau resolusi bernilai nol. | Pastikan `options.SaveOptions = new PngSaveOptions() { Resolution = 300 };` |
-| **Console hangs** | Input TeX tidak pernah menerima `\end`. | Selalu akhiri stream TeX dengan `\end` (atau `\stop`). |
-| **Incorrect image size** | DPI default adalah 96. | Tingkatkan `Resolution` pada `PngSaveOptions`. |
-| **File‑system paths not found** | String direktori kerja salah. | Gunakan path absolut atau verifikasi direktori ada sebelum menjalankan. |
+| **Tidak ada keluaran PNG** | `SaveOptions` tidak diset atau resolusi bernilai nol. | Pastikan `options.SaveOptions = new PngSaveOptions() { Resolusi = 300 };` |
+| **Konsol hang** | Input TeX tidak pernah menerima `\end`. | Selalu akhiri streaming TeX dengan `\end` (atau `\stop`). |
+| **Ukuran gambar salah** | DPI bawaannya adalah 96. | Tingkatkan `Resolusi` pada `PngSaveOptions`. |
+| **Jalur sistem file tidak ditemukan** | String direktori kerja salah. | Gunakan path absolut atau verifikasi direktori ada sebelum menjalankan. |
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Can I use Aspose.TeX for .NET in a non‑console application?
+### Q1: Bisakah saya menggunakan Aspose.TeX untuk .NET di aplikasi non-konsol?
 
 A1: Tentu saja! Aspose.TeX berfungsi di aplikasi desktop, web, dan layanan. Anda cukup mengganti terminal konsol dengan stream atau kontrol UI khusus.
 
-### Q2: How can I customize the output image resolution?
+### Q2: Bagaimana cara menyesuaikan resolusi gambar keluaran?
 
 A2: Pada contoh, resolusi diatur melalui `PngSaveOptions.Resolution`. Ubah nilai integer (misalnya, `Resolution = 600`) untuk mendapatkan PNG dengan kualitas lebih tinggi.
 
-### Q3: Is there a trial version available?
+### Q3: Apakah tersedia versi uji coba?
 
 A3: Ya, Anda dapat menjelajahi Aspose.TeX dengan versi percobaan gratis **[di sini](https://releases.aspose.com/)**.
 
-### Q4: Where can I find additional support and assistance?
+### Q4: Di mana saya dapat menemukan dukungan dan bantuan tambahan?
 
 A4: Kunjungi forum Aspose.TeX **[di sini](https://forum.aspose.com/c/tex/47)** untuk dukungan komunitas dan diskusi.
 
-### Q5: How can I obtain a temporary license for Aspose.TeX?
+### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.TeX?
 
 A5: Anda dapat memperoleh lisensi sementara **[di sini](https://purchase.aspose.com/temporary-license/)**.
 
-## Conclusion
+## Kesimpulan
 
-Anda kini telah melihat cara **mengonversi TeX ke PNG** menggunakan Aspose.TeX untuk C#. Dengan mengonfigurasi stream, menyiapkan `ImageDevice`, dan menangani input terminal, Anda dapat menghasilkan gambar beresolusi tinggi dari sumber TeX apa pun—sempurna untuk laporan, pratinjau web, atau pipeline otomatis. Jelajahi lebih lanjut dengan bereksperimen pada cuplikan TeX berbeda, menyesuaikan DPI, atau mengintegrasikan array byte ke UI Anda sendiri.
+Anda kini telah melihat cara **mengonversi TeX ke PNG** menggunakan Aspose.TeX untuk C#. Dengan mengonfigurasi stream, menyiapkan `ImageDevice`, dan menangani terminal input, Anda dapat menghasilkan gambar beresolusi tinggi dari sumber TeX apa pun—sempurna untuk laporan, espresso web, atau pipeline otomatis. Penjelajahan lebih lanjut dengan bereksperimen pada cuplikan TeX berbeda, menyesuaikan DPI, atau mengintegrasikan array byte ke UI Anda sendiri.
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2025-12-20
+**Diuji Dengan:** Aspose.TeX 24.11 untuk .NET
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

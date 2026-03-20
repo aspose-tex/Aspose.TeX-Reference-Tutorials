@@ -137,29 +137,11 @@ Hãy khám phá các bước tiếp theo:
 - Đóng gói dự án LaTeX của bạn thành một ZIP và kiểm tra quy trình làm việc dựa trên ZIP.  
 - Kết hợp đầu ra PNG với việc tạo PDF để có báo cáo đa định dạng.
 
-Chúc bạn lập trình vui vẻ!
+---
 
-## FAQ's
-
-### Q1: Tôi có thể dùng Aspose.TeX cho các định dạng tài liệu khác không?
-
-A1: Aspose.TeX chủ yếu tập trung vào xử lý tài liệu TeX và LaTeX. Đối với các định dạng khác, hãy khám phá các sản phẩm Aspose khác phù hợp với nhu cầu cụ thể.
-
-### Q2: Tôi có thể tìm tài liệu bổ sung ở đâu?
-
-A2: Tài liệu chi tiết có sẵn tại [Aspose.TeX for .NET Documentation](https://reference.aspose.com/tex/net/).
-
-### Q3: Làm sao tôi có thể nhận hỗ trợ nếu gặp vấn đề?
-
-A3: Truy cập [diễn đàn Aspose.TeX](https://forum.aspose.com/c/tex/47) để nhận hỗ trợ cộng đồng hoặc cân nhắc mua [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để được hỗ trợ ưu tiên.
-
-### Q4: Có tùy chọn dùng thử miễn phí không?
-
-A4: Có, bạn có thể tải phiên bản dùng thử miễn phí tại [Aspose.TeX Releases](https://releases.aspose.com/).
-
-### Q5: Tôi có thể mua Aspose.TeX cho .NET ở đâu?
-
-A5: Bạn có thể mua Aspose.TeX cho .NET từ [trang mua hàng](https://purchase.aspose.com/buy).
+**Cập nhật lần cuối:** 2025-12-20  
+**Đã kiểm tra với:** Aspose.TeX 24.11 cho .NET  
+**Tác giả:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -167,9 +149,3 @@ A5: Bạn có thể mua Aspose.TeX cho .NET từ [trang mua hàng](https://purch
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-20  
-**Đã kiểm tra với:** Aspose.TeX 24.11 cho .NET  
-**Tác giả:** Aspose

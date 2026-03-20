@@ -137,37 +137,6 @@ Sinta‑se à vontade para explorar os próximos passos:
 - Empacote seu projeto LaTeX em um ZIP e teste o fluxo de trabalho baseado em ZIP.  
 - Combine a saída PNG com geração de PDF para relatórios multi‑formato.
 
-Boa codificação!
-
-## Perguntas Frequentes
-
-### Q1: Posso usar o Aspose.TeX para outros formatos de documento?
-
-R1: O Aspose.TeX foca principalmente no processamento de documentos TeX e LaTeX. Para outros formatos, explore outros produtos Aspose voltados para necessidades específicas.
-
-### Q2: Onde encontro documentação adicional?
-
-R2: Documentação detalhada está disponível em [Aspose.TeX for .NET Documentation](https://reference.aspose.com/tex/net/).
-
-### Q3: Como obtenho suporte se encontrar problemas?
-
-R3: Visite o [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) para suporte da comunidade ou considere uma [licença temporária](https://purchase.aspose.com/temporary-license/) para assistência prioritária.
-
-### Q4: Existem opções de teste gratuito?
-
-R4: Sim, você pode acessar uma versão de teste gratuito em [Aspose.TeX Releases](https://releases.aspose.com/).
-
-### Q5: Onde posso comprar o Aspose.TeX para .NET?
-
-R5: Você pode adquirir o Aspose.TeX para .NET na [página de compra](https://purchase.aspose.com/buy).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2025-12-20  
@@ -175,3 +144,10 @@ R5: Você pode adquirir o Aspose.TeX para .NET na [página de compra](https://pu
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

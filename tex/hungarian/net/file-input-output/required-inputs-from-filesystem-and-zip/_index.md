@@ -136,29 +136,11 @@ Fedezze fel a következő lépéseket:
 - Csomagolja LaTeX projektjét ZIP‑be, és tesztelje a ZIP‑alapú munkafolyamatot.  
 - Kombinálja a PNG kimenetet PDF generálással a többformátumú jelentésekhez.
 
-Jó kódolást!
+---
 
-## GyIK
-
-### Q1: Használhatom az Aspose.TeX‑et más dokumentumformátumokhoz?
-
-A1: Az Aspose.TeX elsősorban a TeX és LaTeX dokumentumfeldolgozásra fókuszál. Más formátumokhoz tekintse meg a specifikus igényekhez tervezett egyéb Aspose termékeket.
-
-### Q2: Hol találok további dokumentációt?
-
-A2: Részletes dokumentáció elérhető a [Aspose.TeX for .NET Documentation](https://reference.aspose.com/tex/net/) oldalon.
-
-### Q3: Hogyan kaphatok támogatást, ha problémáim merülnek fel?
-
-A3: Látogassa meg az [Aspose.TeX fórumot](https://forum.aspose.com/c/tex/47) a közösségi támogatásért, vagy fontolja meg egy [ideiglenes licenc](https://purchase.aspose.com/temporary-license/) igénylését a prioritásos segítségért.
-
-### Q4: Van ingyenes próba lehetőség?
-
-A4: Igen, ingyenes próba verziót érhet el a [Aspose.TeX Releases](https://releases.aspose.com/) oldalon.
-
-### Q5: Hol vásárolhatom meg az Aspose.TeX for .NET‑et?
-
-A5: Az Aspose.TeX for .NET megvásárolható a [purchase page](https://purchase.aspose.com/buy) oldalon.
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.TeX 24.11 for .NET  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -166,9 +148,3 @@ A5: Az Aspose.TeX for .NET megvásárolható a [purchase page](https://purchase.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose

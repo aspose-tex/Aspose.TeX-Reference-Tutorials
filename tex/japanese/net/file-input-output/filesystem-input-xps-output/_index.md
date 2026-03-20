@@ -13,33 +13,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create TeX Job XPS Output with Filesystems – Aspose.TeX for .NET
+# ファイルシステムを使用したTeXジョブのXPS出力の作成 – Aspose.TeX for .NET
 
-## Introduction
+## はじめに
 
 ようこそ！このチュートリアルでは、**TeX ジョブの XPS 出力を作成**し、ファイルシステムの入力と出力を使用して Aspose.TeX for .NET で処理する方法を学びます。バッチプロセッサ、Web サービス、デスクトップユーティリティのいずれを構築する場合でも、以下の手順に従ってエンジンの設定、ファイルの指定、元の LaTeX ソースと同一のレイアウトを持つ XPS ドキュメントの生成が行えます。
 
 プロセスは明確な番号付きステップに分割し、各コード行の「なぜ」を解説し、すぐに活用できる実践的なヒントを提供します。
 
-## Quick Answers
-- **What does “create tex job xps” mean?** It refers to configuring an Aspose.TeX job that reads TeX files and writes the result as an XPS document.  
-- **Do I need a license?** A temporary license is available for testing; a full license is required for production.  
-- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Can I change the output format?** Yes – replace `XpsDevice` with another device (PDF, PNG, etc.).  
-- **Is console output required?** No – you can use a memory terminal for silent execution.
+## よくある質問
+- **「create tex job xps」とはどういう意味ですか？** これは、TeXファイルを読み込み、結果をXPSドキュメントとして出力するAspose.TeXジョブを設定することを意味します。
+- **ライセンスは必要ですか？** テスト用には一時ライセンスが利用可能です。本番環境ではフルライセンスが必要です。
+- **サポートされている.NETバージョンは？** .NET Framework 4.5以降、.NET Core 3.1以降、.NET 5/6/7。
+- **出力形式を変更できますか？** はい。`XpsDevice`を別のデバイス（PDF、PNGなど）に置き換えてください。
+- **コンソール出力は必要ですか？** いいえ。メモリターミナルを使用してサイレント実行できます。
 
-## What is “create tex job xps”?
+## 「create tex job xps」とは？
 
 TeX ジョブで XPS を出力するということは、Aspose.TeX エンジンを初期化し、ソースファイルの読み取り先を指定し、レンダリングされたページを XPS パッケージに書き込むことを意味します。XPS（XML Paper Specification）は、タイポグラフィとベクターグラフィックを保持する固定レイアウト形式で、印刷やさらに別の形式への変換に最適です。
 
-## Why use Aspose.TeX for XPS output?
+## XPS出力にAspose.TeXを使用する理由**高精度:** LaTeXレイアウトをXPSで正確に再現します。
 
-- **High fidelity:** The engine reproduces LaTeX layout accurately in XPS.  
-- **No external dependencies:** Pure .NET library, no need for native LaTeX installations.  
-- **Flexible I/O:** Works with filesystem directories, memory streams, or custom providers.  
-- **Scalable:** Suitable for single‑file conversions or bulk processing pipelines.
+**外部依存関係なし:** 純粋な.NETライブラリなので、LaTeXのネイティブインストールは不要です。
+**柔軟なI/O:** ファイルシステムディレクトリ、メモリストリーム、カスタムプロバイダに対応しています。
+**スケーラブル:** 単一ファイルの変換から一括処理パイプラインまで対応します。
 
-## Prerequisites
+## 前提条件
 
 作業を始める前に、以下を用意してください。
 
@@ -48,7 +47,7 @@ TeX ジョブで XPS を出力するということは、Aspose.TeX エンジン
 - **Input & output folders** – マシン上に 2 つのディレクトリを作成します（例: `C:\TeX\Input` と `C:\TeX\Output`）。  
 - **License (optional for testing)** – テスト用の一時ライセンスは Aspose ポータルから取得できます。
 
-## Import Namespaces
+## 名前空間のインポート
 
 まず、ファイルシステムヘルパーと XPS デバイスにアクセスできるよう、必要な名前空間をインポートします。
 
@@ -59,7 +58,7 @@ using Aspose.TeX.Presentation.Xps;
 
 これらの名前空間は `InputFileSystemDirectory`、`OutputFileSystemDirectory`、`XpsDevice` を公開し、**create tex job xps** ワークフローに不可欠です。
 
-## Step 1: Create Conversion Options
+## ステップ1：変換オプションの作成
 
 エンジンに ObjectTeX 設定（ほとんどの LaTeX ソースのデフォルト）を使用させるため、`TeXOptions` オブジェクトを作成します。
 
@@ -67,9 +66,9 @@ using Aspose.TeX.Presentation.Xps;
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
 ```
 
-> **Pro tip:** `ConsoleAppOptions` はコンソール向けアプリケーションに適したデフォルトを設定しますが、必要に応じて後からオプションをカスタマイズできます。
+> **ヒント:** `ConsoleAppOptions` はコンソール向けアプリケーションに適したデフォルトを設定しますが、必要に応じて後からオプションをカスタマイズできます。
 
-## Step 2: Specify Input and Output Directories
+## ステップ2：入力ディレクトリと出力ディレクトリの指定
 
 先ほど作成したフォルダーをエンジンに指示します。プレースホルダー文字列は実際のパスに置き換えてください。
 
@@ -80,7 +79,7 @@ options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Dire
 
 これで TeX ジョブは `.tex` ファイルの所在と生成された XPS ファイルの出力先を認識します。
 
-## Step 3: Choose an Output Terminal
+## ステップ3：出力端末を選択する
 
 ターミナルはステータスメッセージの出力先を制御します。デバッグのためにコンソールを使用しますが、サイレント実行が必要な場合はメモリターミナルに切り替えられます。
 
@@ -88,9 +87,9 @@ options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Dire
 options.TerminalOut = new OutputConsoleTerminal(); // Default value. Arbitrary assignment.
 ```
 
-> **Why this matters:** コンソールターミナルを使用すると、コンパイル時の警告やエラーが即座に確認でき、トラブルシューティングが迅速になります。
+> **なぜこれが重要なのか：** コンソールターミナルを使用すると、コンパイル時の警告やエラーが即座に確認でき、トラブルシューティングが迅速になります。
 
-## Step 4: Run the TeX Job
+## ステップ4：TeXジョブを実行する
 
 `TeXJob` インスタンスを作成し、フレンドリーネームを付け、`XpsDevice` を添付して実行します。
 
@@ -101,7 +100,7 @@ job.Run();
 
 `Run()` が完了すると、出力ディレクトリに `hello-world.xps` ファイルが生成されます。
 
-## Step 5: Fine‑Tune the Console Output
+## ステップ5：コンソール出力を微調整する
 
 ジョブ完了後に空行を追加すると、バッチで複数ジョブを実行した際にコンソールログが見やすくなります。
 
@@ -109,40 +108,51 @@ job.Run();
 options.TerminalOut.Writer.WriteLine();
 ```
 
-## Common Issues and Solutions
+## よくある問題と解決策
 
-| Issue | Cause | Fix |
+| 問題 | 原因 | 解決策 |
+
 |-------|-------|-----|
-| **XPS file is empty** | Output directory path is incorrect or not writable. | Verify the path passed to `OutputFileSystemDirectory` and ensure the process has write permissions. |
-| **Compilation errors** | LaTeX source uses packages not bundled with ObjectTeX. | Switch to a full TeX engine configuration (`TeXConfig.FullTeX()`) or add missing package files to the input directory. |
-| **Console hangs** | Terminal waiting for input due to interactive prompts. | Use `OutputMemoryTerminal` to suppress interactive prompts in automated scripts. |
 
-## Frequently Asked Questions
+| **XPS ファイルが空です** | 出力ディレクトリのパスが間違っているか、書き込み権限がありません。| `OutputFileSystemDirectory` に渡されたパスを確認し、プロセスに書き込み権限があることを確認してください。|
 
-**Q1: Can I use a different output format instead of XPS?**  
-A1: Yes, Aspose.TeX supports PDF, PNG, SVG, and other formats. Replace `new XpsDevice()` with the appropriate device class (e.g., `new PdfDevice()`).  
+| **コンパイルエラー** | LaTeX ソースが ObjectTeX にバンドルされていないパッケージを使用しています。| 完全な TeX エンジン構成 (`TeXConfig.FullTeX()`) に切り替えるか、不足しているパッケージファイルを入力ディレクトリに追加してください。|
 
-**Q2: Is a temporary license available for testing purposes?**  
-A2: Yes, you can obtain a temporary license for testing from [this link](https://purchase.aspose.com/temporary-license/).  
+| **コンソールがハングアップします** | 対話型プロンプトのためにターミナルが入力待ち状態になっています。| 自動化スクリプトで対話型プロンプトを抑制するには、`OutputMemoryTerminal` を使用してください。|
 
-**Q3: Where can I find additional documentation?**  
-A3: Refer to the [Aspose.TeX for .NET documentation](https://reference.aspose.com/tex/net/) for detailed information.  
 
-**Q4: How can I get community support or ask questions?**  
-A4: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support and discussions.  
+## よくある質問
 
-**Q5: Are there any sample projects available?**  
-A5: Explore the Aspose.TeX GitHub repository for sample projects and code snippets.
+**Q1:​​ XPS以外の出力形式を使用できますか？** 
 
-## Conclusion
+A1: はい、Aspose.TeXはPDF、PNG、SVGなどの形式をサポートしています。`new XpsDevice()`を適切なデバイスクラス（例：`new PdfDevice()`）に置き換えてください。
+
+**Q2: テスト目的で一時ライセンスを取得できますか？** 
+
+A2: はい、[こちらのリンク](https://purchase.aspose.com/temporary-license/)からテスト用の一時ライセンスを取得できます。
+
+**Q3: 追加のドキュメントはどこで入手できますか？** 
+
+A3: 詳細については、[Aspose.TeX for .NETのドキュメント](https://reference.aspose.com/tex/net/)を参照してください。
+
+
+**Q4：コミュニティサポートを受けたり、質問したりするにはどうすればよいですか？** 
+
+A4：コミュニティサポートやディスカッションについては、[Aspose.TeX フォーラム](https://forum.aspose.com/c/tex/47)をご覧ください。
+
+**Q5：サンプルプロジェクトはありますか？** 
+
+A5：サンプルプロジェクトやコードスニペットについては、Aspose.TeX の GitHub リポジトリをご覧ください。
+
+## まとめ
 
 上記の手順に従うことで、Aspose.TeX for .NET を使用して **create tex job xps** を実現し、入力・出力フォルダーを管理し、開発・本番シナリオの両方に適したプロセスを微調整できるようになりました。その他の出力デバイスを試したり、ロジックを大規模ワークフローに統合したり、バッチ変換を自動化したりしてみてください。
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.TeX 24.11 for .NET (latest at time of writing)  
-**Author:** Aspose  
+**最終更新日:** 2025年12月20日
+**テスト環境:** Aspose.TeX 24.11 for .NET (執筆時点での最新版)
+**作成者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

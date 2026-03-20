@@ -19,21 +19,21 @@ weight: 11
 
 ## Introduzione
 
-Benvenuti a questo tutorial pratico su **come convertire LaTeX in PNG** con Aspose.TeX per .NET. Che tu stia creando un generatore di report, un renderer di equazioni online o una pipeline di documentazione automatizzata, la possibilità di **salvare LaTeX come PNG** ti offre un formato immagine leggero e adatto al web. Nei prossimi minuti vedremo tutto ciò di cui hai bisogno—dalla configurazione della directory di output alla gestione sia di cartelle del filesystem che di archivi ZIP come sorgenti di input.
+Benvenuti a questo tutorial pratico su **come convertire LaTeX in PNG** con Aspose.TeX per .NET. Che tu stia creando un generatore di report, un renderer di equazioni online o una pipeline di documentazione automatizzata, la possibilità di **salvare LaTeX come PNG** ti offre un formato immagine leggero e adatto al web. Nei prossimi minuti vedremo tutto ciò di cui hai bisogno: dalla configurazione della directory di output alla gestione sia delle cartelle del filesystem che degli archivi ZIP come sorgenti di input.
 
-## Risposte Rapide
-- **Cosa fa Aspose.TeX?** Elabora file TeX/LaTeX e li rende in immagini, PDF o altri formati.  
-- **Posso convertire LaTeX in PNG con una singola chiamata?** Sì—usa `TeXJob` con `PngSaveOptions`.  
-- **Ho bisogno di una licenza per lo sviluppo?** Una licenza temporanea funziona per i test; è necessaria una licenza completa per la produzione.  
-- **Quali versioni di .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+##Risposte Rapide
+- **Cosa fa Aspose.TeX?** Elabora file TeX/LaTeX e li rende in immagini, PDF o altri formati.
+- **Posso convertire LaTeX in PNG con una singola chiamata?** Sì—usa `TeXJob` con `PngSaveOptions`.
+- **Ho bisogno di una licenza per lo sviluppo?** Una licenza temporanea funziona per i test; è necessaria una licenza completa per la produzione.
+- **Quali versioni di .NET sono supportate?** .NET Framework4.5+, .NET Core3.1+, .NET5/6+.
 - **Come specifico dove salvare i file PNG?** Imposta `options.OutputWorkingDirectory` sulla cartella desiderata.
 
 ## Prerequisiti
 
-- **Libreria Aspose.TeX per .NET** – scaricala dalla [pagina di download di Aspose.TeX per .NET](https://releases.aspose.com/tex/net/).  
-- **Conoscenza di base di TeX/LaTeX** – comprendere la struttura del documento e i pacchetti richiesti.  
-- **Ambiente di sviluppo .NET** – Visual Studio, VS Code o qualsiasi IDE che supporti C#.  
-- **File di input** – un file sorgente `.tex` e tutti i pacchetti di supporto (font, file di stile, ecc.).  
+- **Libreria Aspose.TeX per .NET** – scaricala dalla [pagina di download di Aspose.TeX per .NET](https://releases.aspose.com/tex/net/).
+- **Conoscenza di base di TeX/LaTeX** – comprendere la struttura del documento e i pacchetti richiesti.
+- **Ambiente di sviluppo .NET** – Visual Studio, VS Code o qualsiasi IDE che supporti C#.
+- **File di input** – un file sorgente `.tex` e tutti i pacchetti di supporto (font, file di stile, ecc.).
 
 Ora che siamo pronti, importiamo gli spazi dei nomi di cui avrai bisogno.
 
@@ -135,29 +135,11 @@ Sentiti libero di esplorare i prossimi passi:
 - Impacchetta il tuo progetto LaTeX in un ZIP e testa il flusso di lavoro basato su ZIP.  
 - Combina l'output PNG con la generazione di PDF per report multi‑formato.
 
-Buon coding!
+---
 
-## FAQ
-
-### Q1: Posso usare Aspose.TeX per altri formati di documento?
-
-A1: Aspose.TeX si concentra principalmente sull'elaborazione di documenti TeX e LaTeX. Per altri formati, esplora altri prodotti Aspose pensati per esigenze specifiche.
-
-### Q2: Dove posso trovare documentazione aggiuntiva?
-
-A2: Documentazione dettagliata è disponibile su [Aspose.TeX for .NET Documentation](https://reference.aspose.com/tex/net/).
-
-### Q3: Come posso ottenere supporto se incontro problemi?
-
-A3: Visita il [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) per supporto della community o considera una [licenza temporanea](https://purchase.aspose.com/temporary-license/) per assistenza prioritaria.
-
-### Q4: Ci sono opzioni di prova gratuite?
-
-A4: Sì, puoi accedere a una versione di prova gratuita su [Aspose.TeX Releases](https://releases.aspose.com/).
-
-### Q5: Dove posso acquistare Aspose.TeX per .NET?
-
-A5: Puoi acquistare Aspose.TeX per .NET dalla [pagina di acquisto](https://purchase.aspose.com/buy).
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.TeX 24.11 for .NET  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -165,9 +147,3 @@ A5: Puoi acquistare Aspose.TeX per .NET dalla [pagina di acquisto](https://purch
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose

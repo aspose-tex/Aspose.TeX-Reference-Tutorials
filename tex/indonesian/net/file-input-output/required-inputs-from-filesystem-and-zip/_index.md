@@ -15,33 +15,33 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konversi LaTeX ke PNG – Bekerja dengan Input Sistem Berkas & ZIP di Aspose.TeX untuk .NET
+# Konversi LaTeX ke PNG – Bekerja dengan Sistem Input Berkas & ZIP di Aspose.TeX untuk .NET
 
-## Introduction
+## Perkenalan
 
-Selamat datang di tutorial praktis ini tentang **cara mengonversi LaTeX ke PNG** dengan Aspose.TeX untuk .NET. Baik Anda sedang membangun generator laporan, renderer persamaan daring, atau pipeline dokumentasi otomatis, kemampuan untuk **menyimpan LaTeX sebagai PNG** memberi Anda format gambar yang ringan dan ramah web. Dalam beberapa menit ke depan kami akan membahas semua yang Anda perlukan—dari mengonfigurasi direktori output hingga menangani folder sistem berkas biasa dan arsip ZIP sebagai sumber input.
+Selamat datang di tutorial praktis ini tentang **cara mengubah LaTeX ke PNG** dengan Aspose.TeX ke .NET. Baik Anda sedang membuat laporan generator, penyaji persamaan bold, atau dokumentasi pipeline otomatis, kemampuan untuk **menyimpan LaTeX sebagai PNG** memberi Anda format gambar yang ringan dan ramah web. Dalam beberapa menit ke depan kami akan membahas semua yang Anda perlukan—dari mengonfigurasi output direktori hingga menangani folder sistem file biasa dan arsip ZIP sebagai sumber input.
 
-## Quick Answers
-- **What does Aspose.TeX do?** Ia memproses file TeX/LaTeX dan merendernya ke gambar, PDF, atau format lain.  
-- **Can I convert LaTeX to PNG in a single call?** Ya—gunakan `TeXJob` dengan `PngSaveOptions`.  
-- **Do I need a license for development?** Lisensi sementara cukup untuk pengujian; lisensi penuh diperlukan untuk produksi.  
-- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **How do I specify where the PNG files go?** Atur `options.OutputWorkingDirectory` ke folder yang Anda inginkan.
+## Jawaban Cepat
+- **Apa yang dilakukan Aspose.TeX?** Ia memproses file TeX/LaTeX dan merendernya ke gambar, PDF, atau format lain.
+- **Dapatkah saya mengonversi LaTeX ke PNG dalam satu panggilan?** Ya—gunakan `TeXJob` dengan `PngSaveOptions`.
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Lisensi sementara cukup untuk pengujian; lisensi penuh diperlukan untuk produksi.
+- **Versi .NET manakah yang didukung?** .NET Framework4.5+, .NET Core3.1+, .NET5/6+.
+- **Bagaimana cara menentukan ke mana file PNG akan disimpan?** Atur `options.OutputWorkingDirectory` ke folder yang Anda inginkan.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki hal‑hal berikut:
 
-- **Aspose.TeX for .NET Library** – unduh dari [Aspose.TeX for .NET download page](https://releases.aspose.com/tex/net/).  
-- **Basic Knowledge of TeX/LaTeX** – pahami struktur dokumen dan paket yang diperlukan.  
-- **.NET Development Environment** – Visual Studio, VS Code, atau IDE apa pun yang mendukung C#.  
-- **Input Files** – file sumber `.tex` dan paket pendukung apa pun (font, file style, dll.).
+- **Aspose.TeX untuk .NET Library** – unduh dari [halaman unduh Aspose.TeX untuk .NET](https://releases.aspose.com/tex/net/).
+- **Pengetahuan Dasar TeX/LaTeX** – memahami struktur dokumen dan paket yang diperlukan.
+- **.NET Development Environment** – Visual Studio, VS Code, atau IDE apa pun yang mendukung C#.
+- **Input Files** – file sumber `.tex` dan paket pendukung apa pun (font, gaya file, dll.).
 
 Sekarang setelah semuanya siap, mari impor namespace yang Anda perlukan.
 
-## Import Namespaces
+## Impor Namespace
 
-Di proyek .NET Anda, mulailah dengan mengimpor namespace yang diperlukan untuk mengakses fungsionalitas Aspose.TeX:
+Di proyek .NET Anda, dimulai dengan mengimpor namespace yang diperlukan untuk mengakses fungsionalitas Aspose.TeX:
 
 ```csharp
 using Aspose.TeX.IO;
@@ -49,9 +49,9 @@ using Aspose.TeX.Presentation.Image;
 using System.IO;
 ```
 
-## Work with Filesystem & ZIP Inputs
+## Bekerja dengan Sistem File & Input ZIP
 
-### Step 1: Create Conversion Options (Configure Output Directory)
+### Langkah 1: Buat Opsi Konversi (Konfigurasi Direktori Output)
 
 Pertama, buat opsi konversi untuk format Object LaTeX. Di sinilah Anda **mengonfigurasi direktori output** untuk file PNG yang dihasilkan:
 
@@ -62,9 +62,8 @@ options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Dire
 // ExEnd:Conversion-RequiredInput-FileSystem
 ```
 
-> **Pro tip:** Gunakan path absolut atau path relatif terhadap direktori basis aplikasi Anda untuk menghindari error “directory not found”.
-
-### Step 2: Specify Required Input Directory
+> **Tips Pro:** Gunakan path absolut atau path relatif terhadap direktori basis aplikasi Anda untuk menghindari error “directory not found”.
+### Langkah 2: Tentukan Direktori Input yang Diperlukan
 
 Selanjutnya, beri tahu Aspose.TeX di mana mencari paket LaTeX tambahan. Direktori input dapat berada di mana saja pada sistem berkas atau di dalam arsip ZIP:
 
@@ -74,9 +73,9 @@ options.RequiredInputDirectory = new InputFileSystemDirectory(Path.Combine("Your
 // ExEnd:Specify-Required-Input-Directory
 ```
 
-> **Why this matters:** LaTeX sering bergantung pada file `.sty` eksternal. Menunjuk ke folder yang tepat memastikan konversi berjalan lancar.
+> **Mengapa ini penting:** LaTeX sering bergantung pada file `.sty` eksternal. Menunjuk ke folder yang tepat memastikan konversi berjalan lancar.
 
-### Step 3: Initialize Save Options (Save LaTeX as PNG)
+### Langkah 3: Inisialisasi Opsi Penyimpanan (Simpan LaTeX sebagai PNG)
 
 Sekarang atur opsi penyimpanan ke PNG. Ini memberi tahu engine untuk merender setiap halaman dokumen LaTeX sebagai gambar PNG:
 
@@ -86,7 +85,7 @@ options.SaveOptions = new PngSaveOptions();
 // ExEnd:Initialize-Save-Options
 ```
 
-### Step 4: Run LaTeX to PNG Conversion
+### Langkah 4: Jalankan Konversi LaTeX ke PNG
 
 Akhirnya, jalankan konversi. Kelas `TeXJob` mengikat semuanya—file input, perangkat render, dan opsi yang baru saja Anda konfigurasikan:
 
@@ -96,70 +95,54 @@ new TeXJob(Path.Combine("Your Input Directory", "required-input-fs.tex"), new Im
 // ExEnd:Run-LaTeX-to-PNG-Conversion
 ```
 
-> **What you’ll see:** Serangkaian file PNG yang ditulis ke folder yang Anda tentukan di `OutputWorkingDirectory`. Setiap file sesuai dengan halaman atau gambar dalam sumber LaTeX asli.
+> **Apa yang akan Anda lihat:** Serangkaian file PNG yang ditulis ke folder yang Anda temukan di `OutputWorkingDirectory`. Setiap file sesuai dengan halaman atau gambar dalam sumber LaTeX asli.
 
-## Why Use Filesystem or ZIP Inputs?
+## Mengapa Menggunakan Sistem File atau Input ZIP?
 
-- **Filesystem**: Ideal untuk lingkungan pengembangan di mana Anda memiliki akses langsung ke file sumber dan paket.  
+- **Sistem file**: Ideal untuk lingkungan pengembangan di mana Anda memiliki akses langsung ke sumber file dan paket.
 - **ZIP**: Sempurna untuk layanan berbasis cloud atau ketika Anda perlu mengirimkan proyek lengkap (sumber + dependensi) sebagai satu arsip.
 
-Memilih metode input yang tepat menjaga pipeline build Anda tetap bersih dan mengurangi kemungkinan sumber daya yang terlewat.
+Memilih metode input yang tepat menjaga pembangunan saluran pipa Anda tetap bersih dan mengurangi kemungkinan sumber daya yang terlewat.
 
-## Common Issues & Solutions
+## Masalah & Solusi Umum
 
-| Issue | Cause | Fix |
+| Edisi | Penyebab | Perbaiki |
 |-------|-------|-----|
-| **“File not found” for a `.sty` file** | `RequiredInputDirectory` mengarah ke folder yang salah | Verifikasi path dan pastikan semua file paket disertakan |
-| **Blank PNG output** | Font yang hilang atau kompilasi LaTeX tidak lengkap | Instal font yang diperlukan di server atau sertakan dalam ZIP input |
-| **Performance slowdown** | Banyak gambar beresolusi tinggi | Kurangi DPI PNG melalui `PngSaveOptions` (misalnya, `options.SaveOptions.Dpi = 150`) |
+| **“File tidak ditemukan” untuk file `.sty`** | `RequiredInputDirectory` mengarahkan ke folder yang salah | Jalur verifikasi dan pastikan semua file paket disertakan |
+| **Keluaran PNG kosong** | Font yang hilang atau kompilasi LaTeX tidak lengkap | Instal font yang diperlukan di server atau sertakan dalam ZIP input |
+| **Perlambatan kinerja** | Banyak gambar beresolusi tinggi | Kurangi DPI PNG melalui `PngSaveOptions` (misalnya, `options.SaveOptions.Dpi = 150`) |
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: Can I use Aspose.TeX for other image formats?**  
+**T: Dapatkah saya menggunakan Aspose.TeX untuk format gambar lainnya?**
 A: Ya, selain PNG Anda dapat merender ke JPEG, BMP, atau TIFF dengan mengganti `PngSaveOptions` dengan kelas opsi penyimpanan yang sesuai.
 
-**Q: Is it possible to convert LaTeX directly from a memory stream?**  
-A: Tentu saja. Gunakan `InputMemoryDirectory` alih‑alih `InputFileSystemDirectory` dan berikan byte array dari file `.tex` Anda.
+**T: Apakah mungkin mengonversi LaTeX langsung dari aliran memori?**
+J: Tentu saja. Gunakan `InputMemoryDirectory` alih-alih `InputFileSystemDirectory` dan berikan byte array dari file `.tex` Anda.
 
-**Q: How do I handle multi‑page LaTeX documents?**  
-A: Setiap halaman disimpan sebagai file PNG terpisah (misalnya, `output_0.png`, `output_1.png`). Iterasi file‑file tersebut untuk diproses lebih lanjut.
+**T: Bagaimana cara menangani dokumen LaTeX multihalaman?**
+A: Setiap halaman disimpan sebagai file PNG terpisah (misalnya, `output_0.png`, `output_1.png`). Iterasi file‑file tersebut untuk memproses lebih lanjut.
 
-**Q: Does Aspose.TeX support custom LaTeX commands?**  
+**T: Apakah Aspose.TeX mendukung perintah LaTeX khusus?**
 A: Perintah khusus didukung selama paket yang diperlukan tersedia di `RequiredInputDirectory`.
 
-## Conclusion
+## Kesimpulan
 
-Anda kini telah mempelajari cara **mengonversi LaTeX ke PNG**, **menyimpan LaTeX sebagai PNG**, dan **mengonfigurasi direktori output** sambil menangani input baik dari sistem berkas maupun ZIP. Teknik ini memungkinkan Anda menyematkan gambar matematika berkualitas tinggi ke halaman web, aplikasi seluler, atau solusi berbasis .NET apa pun tanpa harus khawatir tentang instalasi LaTeX eksternal.
+Anda kini telah mempelajari cara **mengonversi LaTeX ke PNG**, **menyimpan LaTeX menjadi PNG**, dan **mengonfigurasi output direktori** sambil menangani input baik dari sistem berkas maupun ZIP. Teknik ini memungkinkan Anda menyematkan gambar matematika berkualitas tinggi ke halaman web, aplikasi seluler, atau solusi berbasis .NET apa pun tanpa harus khawatir tentang instalasi LaTeX eksternal.
 
 Silakan jelajahi langkah selanjutnya:
 
-- Bereksperimen dengan pengaturan DPI yang berbeda untuk gambar beresolusi lebih tinggi.  
-- Kemasi proyek LaTeX Anda ke dalam ZIP dan uji alur kerja berbasis ZIP.  
-- Gabungkan output PNG dengan pembuatan PDF untuk laporan multi‑format.
+- Bereksperimen dengan pengaturan DPI yang berbeda untuk gambar beresolusi lebih tinggi.
+- Kemasi proyek LaTeX Anda ke dalam ZIP dan uji alur kerja berbasis ZIP.
+- Gabungkan output PNG dengan pembuatan PDF untuk laporan multi-format.
 
-Happy coding!
+---
 
-## FAQ's
+**Terakhir Diperbarui:** 20-12-2025
+**Diuji Dengan:** Aspose.TeX 24.11 untuk .NET
+**Penulis:** Beranggapan  
 
-### Q1: Can I use Aspose.TeX for other document formats?
-
-A1: Aspose.TeX terutama fokus pada pemrosesan dokumen TeX dan LaTeX. Untuk format lain, jelajahi produk Aspose lainnya yang disesuaikan untuk kebutuhan spesifik.
-
-### Q2: Where can I find additional documentation?
-
-A2: Dokumentasi lengkap tersedia di [Aspose.TeX for .NET Documentation](https://reference.aspose.com/tex/net/).
-
-### Q3: How do I get support if I encounter issues?
-
-A3: Kunjungi [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) untuk dukungan komunitas atau pertimbangkan [temporary license](https://purchase.aspose.com/temporary-license/) untuk bantuan prioritas.
-
-### Q4: Are there free trial options?
-
-A4: Ya, Anda dapat mengakses versi percobaan gratis di [Aspose.TeX Releases](https://releases.aspose.com/).
-
-### Q5: Where can I purchase Aspose.TeX for .NET?
-
-A5: Anda dapat membeli Aspose.TeX untuk .NET dari [purchase page](https://purchase.aspose.com/buy).
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -167,11 +150,3 @@ A5: Anda dapat membeli Aspose.TeX untuk .NET dari [purchase page](https://purcha
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose  
-
----
