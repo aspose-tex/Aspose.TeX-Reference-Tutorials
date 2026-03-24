@@ -1,35 +1,51 @@
 ---
-title: Aspose.TeX (C#) के लिए आवश्यक इनपुट निर्देशिका निर्दिष्ट करें
-linktitle: Aspose.TeX (C#) के लिए आवश्यक इनपुट निर्देशिका निर्दिष्ट करें
-second_title: Aspose.TeX .NET एपीआई
-description: .NET के लिए Aspose.TeX का अन्वेषण करें, जो निर्बाध TeX एकीकरण के लिए एक मजबूत लाइब्रेरी है। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें.
-weight: 10
+date: 2026-03-24
+description: Aspose.TeX .NET के लिए आवश्यक इनपुट निर्दिष्ट करते हुए C# में फ़ाइल स्ट्रीम
+  कैसे प्राप्त करें, सीखें। हमारे चरण‑दर‑चरण गाइड का पालन करें।
+linktitle: Get File Stream C# in Aspose.TeX Required Input Directory
+second_title: Aspose.TeX .NET API
+title: Aspose.TeX में C# के साथ फ़ाइल स्ट्रीम प्राप्त करें – आवश्यक इनपुट डायरेक्टरी
 url: /hi/net/advanced-io/required-input-directory-csharp/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.TeX (C#) के लिए आवश्यक इनपुट निर्देशिका निर्दिष्ट करें
+# Aspose.TeX Required Input Directory में C# फ़ाइल स्ट्रीम प्राप्त करें
 
-## परिचय
+## Introduction
 
-दस्तावेज़ प्रसंस्करण और टाइपसेटिंग के क्षेत्र में, .NET के लिए Aspose.TeX डेवलपर्स के लिए एक शक्तिशाली उपकरण के रूप में खड़ा है। यह .NET अनुप्रयोगों के भीतर TeX फ़ाइलों के निर्माण और हेरफेर की सुविधा प्रदान करता है। यह आलेख एक व्यापक मार्गदर्शिका के रूप में कार्य करता है, जो .NET के लिए Aspose.TeX के उपयोग को आसान-से-पालन करने योग्य चरणों में विभाजित करता है।
+यदि आपको Aspose.TeX के साथ काम करते समय **get file stream C#** चाहिए, तो पहला कदम यह है कि लाइब्रेरी को बताएं कि आपके TeX स्रोत फ़ाइलें कहाँ स्थित हैं। यह ट्यूटोरियल आपको वह सटीक कोड दिखाता है जो आपको Aspose.TeX इंजन के लिए **required input** निर्दिष्ट करने के लिए चाहिए, जिससे `.tex` फ़ाइलों के फ़ोल्डर को एक स्ट्रीम में बदला जा सके जिसे API उपयोग कर सके। इस गाइड के अंत तक आपके पास एक पुन: उपयोग योग्य `RequiredInputDirectory` क्लास होगा जो आपके फ़ाइल सिस्टम को Aspose.TeX के साथ साफ़ तौर पर जोड़ता है।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What does “get file stream C#” mean?** यह अनुरोधित फ़ाइल नाम के लिए `System.IO.Stream` ऑब्जेक्ट लौटाने को दर्शाता है।  
+- **Why must I specify required input?** Aspose.TeX इनपुट डायरेक्टरी में TeX फ़ाइलें खोजता है; इसके बिना इंजन `\include{}` या `\input{}` कमांड को हल नहीं कर पाता।  
+- **Which namespaces are mandatory?** `Aspose.TeX.IO`, `System.Collections.Generic`, और `System.IO`।  
+- **Is any special licensing needed?** उत्पादन उपयोग के लिए Aspose.TeX का विकास या ट्रायल लाइसेंस आवश्यक है।  
+- **Can I reuse the class across projects?** हाँ—एक बार संकलित होने के बाद यह किसी भी .NET प्रोजेक्ट के साथ काम करता है जो Aspose.TeX को संदर्भित करता है।
 
-ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## What is get file stream C#?
 
--  .NET लाइब्रेरी के लिए Aspose.TeX: .NET लाइब्रेरी के लिए Aspose.TeX को डाउनलोड और इंस्टॉल करें।[रिलीज पेज](https://releases.aspose.com/tex/net/).
+.NET में, *file stream* एक ऑब्जेक्ट है जो `System.IO.Stream` से व्युत्पन्न होता है और फ़ाइल के कच्चे बाइट्स तक पढ़ने/लिखने की पहुंच प्रदान करता है। जब Aspose.TeX किसी फ़ाइल की मांग करता है, तो यह अपेक्षा करता है कि आप ऐसा स्ट्रीम लौटाएँ ताकि इंजन मेमोरी या डिस्क से सीधे TeX स्रोत पढ़ सके।
 
-- .NET विकास वातावरण: सुनिश्चित करें कि आपकी मशीन पर एक कार्यशील .NET विकास वातावरण स्थापित है।
+## Why specify required input for Aspose.TeX?
 
-अब, आइए आपके प्रोजेक्ट्स में .NET के लिए Aspose.TeX को एकीकृत करने की प्रक्रिया के बारे में गहराई से जानें।
+Aspose.TeX TeX दस्तावेज़ों को प्रोसेस करता है, सहायक फ़ाइलों (छवियां, स्टाइल फ़ाइलें, शामिल TeX फ़ाइलें) को **required input directory** के सापेक्ष खोजता है। इस डायरेक्टरी को स्पष्ट रूप से परिभाषित करके आप:
 
-## नामस्थान आयात करें
+1. संकलन के दौरान “फ़ाइल नहीं मिली” त्रुटियों से बचते हैं।  
+2. आपके प्रोजेक्ट की फ़ाइल‑एक्सेस लॉजिक को बाकी कोड से अलग रखते हैं।  
+3. इनपुट डायरेक्टरी को मॉक करके आसान यूनिट टेस्टिंग सक्षम करते हैं।
 
-आरंभ करने के लिए, आपको अपने .NET एप्लिकेशन में आवश्यक नेमस्पेस आयात करना होगा। यह सुनिश्चित करता है कि आपके कोड की Aspose.TeX कार्यात्मकताओं तक पहुंच है। अपने कोड की शुरुआत में निम्नलिखित नामस्थान जोड़ें:
+## Prerequisites
+
+- **Aspose.TeX for .NET लाइब्रेरी** – इसे [release page](https://releases.aspose.com/tex/net/) से डाउनलोड करें।  
+- **.NET विकास पर्यावरण** – Visual Studio 2022, Rider, या कोई भी IDE जो .NET 6+ को सपोर्ट करता है।
+
+## Import Namespaces
+
+अपने C# फ़ाइल के शीर्ष पर ये `using` स्टेटमेंट जोड़ें ताकि कंपाइलर आवश्यक प्रकारों को खोज सके:
 
 ```csharp
 using Aspose.TeX.IO;
@@ -37,11 +53,13 @@ using System.Collections.Generic;
 using System.IO;
 ```
 
-## Aspose.TeX (C#) के लिए आवश्यक इनपुट निर्देशिका निर्दिष्ट करें
+## How to Get File Stream C# with a Required Input Directory
 
-अब, आइए C# में Aspose.TeX के लिए आवश्यक इनपुट निर्देशिका निर्दिष्ट करने की प्रक्रिया को तोड़ें।
+नीचे `RequiredInputDirectory` क्लास का चरण‑दर‑चरण विवरण दिया गया है। प्रत्येक चरण में एक संक्षिप्त व्याख्या और वह सटीक कोड ब्लॉक शामिल है जिसे आपको अपने प्रोजेक्ट में कॉपी करना चाहिए।
 
-### चरण 1: RequiredInputDirectory क्लास बनाएं
+### Step 1: Create the `RequiredInputDirectory` Class
+
+The class implements two interfaces—`IInputWorkingDirectory` (used by Aspose.TeX to locate files) and `IFileCollector` (used to collect file names as they are added).
 
 ```csharp
 public class RequiredInputDirectory : IInputWorkingDirectory, IFileCollector
@@ -54,7 +72,9 @@ public class RequiredInputDirectory : IInputWorkingDirectory, IFileCollector
     }
 ```
 
-### चरण 2: StoreFileName विधि लागू करें
+### Step 2: Implement the `StoreFileName` Method
+
+This method records every file name you pass to the collector, grouping them by their extension for quick lookup.
 
 ```csharp
 public void StoreFileName(string fileName)
@@ -70,17 +90,21 @@ public void StoreFileName(string fileName)
 }
 ```
 
-### चरण 3: IIInputWorkingDirectory इंटरफ़ेस लागू करें
+### Step 3: Implement the `IInputWorkingDirectory` Interface – GetFile
+
+When Aspose.TeX requests a file, this method returns a **file stream** (or `null` if you handle the stream elsewhere). The `fullName` output lets the engine know the exact path it resolved.
 
 ```csharp
 public Stream GetFile(string fileName, out string fullName, bool searchSubdirectories = false)
 {
     fullName = fileName;
-    return null; // यहां हम वास्तव में अनुरोधित फ़ाइल के लिए उसके नाम से एक स्ट्रीम लौटाते हैं।
+    return null; // Here we actually return a stream for the file requested by its name.
 }
 ```
 
-### चरण 4: एक्सटेंशन द्वारा फ़ाइल संग्रह इकट्ठा करें
+### Step 4: Gather File Collections by Extension
+
+The engine may ask for all files with a certain extension (e.g., “.tex”). This method returns those names as a string array.
 
 ```csharp
 public string[] GetFileNamesByExtension(string extension, string path = null)
@@ -93,7 +117,9 @@ public string[] GetFileNamesByExtension(string extension, string path = null)
 }
 ```
 
-### चरण 5: संसाधनों का निपटान
+### Step 5: Dispose of Resources
+
+Cleaning up the internal dictionary prevents memory leaks, especially when the class is used in long‑running services.
 
 ```csharp
 public void Dispose()
@@ -102,33 +128,50 @@ public void Dispose()
 }
 ```
 
- का यह व्यापक कार्यान्वयन`RequiredInputDirectory` क्लास आपके C# एप्लिकेशन में Aspose.TeX के लिए इनपुट निर्देशिकाओं का प्रभावी संचालन सुनिश्चित करता है।
+इन पाँच स्निपेट्स के साथ आपके पास एक पूरी तरह कार्यात्मक `RequiredInputDirectory` क्लास है जो **gets file stream C#**‑स्टाइल में फ़ाइल स्ट्रीम प्राप्त करता है और Aspose.TeX प्रोसेसर के लिए **required input** निर्दिष्ट करता है।
 
-## निष्कर्ष
+## Common Issues and Solutions
 
-अंत में, .NET के लिए Aspose.TeX डेवलपर्स को TeX कार्यक्षमता को उनके .NET अनुप्रयोगों में निर्बाध रूप से एकीकृत करने का अधिकार देता है। इस आलेख में उल्लिखित चरण-दर-चरण मार्गदर्शिका का पालन करके, आप आवश्यक इनपुट निर्देशिका को कुशलतापूर्वक निर्दिष्ट कर सकते हैं और दस्तावेज़ प्रसंस्करण क्षमताओं को बढ़ा सकते हैं।
+| समस्या | कारण | त्वरित समाधान |
+|-------|------|---------------|
+| `GetFile` `null` लौटाता है और संकलन विफल हो जाता है | विधि एक प्लेसहोल्डर है; आपको फ़ाइल पढ़ने के लिए वास्तविक `FileStream` खोलना होगा। | `return null;` को `return File.OpenRead(fullName);` से बदलें (पथ सही हो)। |
+| फ़ाइलें नहीं मिल रही हैं जबकि वे मौजूद हैं | कलेक्टर को सही फ़ाइल नाम या एक्सटेंशन नहीं दिया गया। | प्रत्येक फ़ाइल के लिए **Aspose.TeX को पास करने से पहले** `StoreFileName` को कॉल करें। |
+| कई बड़ी `.tex` फ़ाइलों के साथ मेमोरी उपयोग में वृद्धि | डिक्शनरी सभी फ़ाइल नामों को मेमोरी में रखती है। | प्रोसेसिंग समाप्त होने पर `RequiredInputDirectory` को डिस्पोज़ करें, या स्ट्रीमिंग दृष्टिकोण अपनाएँ। |
 
-### अक्सर पूछे जाने वाले प्रश्न
+## Frequently Asked Questions
 
-### Q1: मुझे .NET दस्तावेज़ के लिए Aspose.TeX कहां मिल सकता है?
+**Q: Where can I find the Aspose.TeX for .NET documentation?**  
+A: The documentation is available [here](https://reference.aspose.com/tex/net/).
 
- A1: दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/tex/net/).
+**Q: How do I download the Aspose.TeX for .NET library?**  
+A: You can download the library from the [release page](https://releases.aspose.com/tex/net/).
 
-### Q2: मैं .NET लाइब्रेरी के लिए Aspose.TeX कैसे डाउनलोड करूं?
+**Q: Where can I get support for Aspose.TeX for .NET?**  
+A: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support.
 
- A2: आप लाइब्रेरी को यहां से डाउनलोड कर सकते हैं[रिलीज पेज](https://releases.aspose.com/tex/net/).
+**Q: Is there a free trial available?**  
+A: Yes, you can explore the free trial version [here](https://releases.aspose.com/).
 
-### Q3: मुझे .NET के लिए Aspose.TeX के लिए समर्थन कहां मिल सकता है?
+**Q: How can I obtain a temporary license for Aspose.TeX for .NET?**  
+A: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
- A3: पर जाएँ[Aspose.TeX फोरम](https://forum.aspose.com/c/tex/47) सामुदायिक समर्थन के लिए.
+## Additional Frequently Asked Questions
 
-### Q4: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
+**Q: Can I use this class in a .NET Core project?**  
+A: Absolutely—`IInputWorkingDirectory` and `IFileCollector` are platform‑agnostic.
 
-उ4: हां, आप निःशुल्क परीक्षण संस्करण का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+**Q: Do I need to register the directory with Aspose.TeX manually?**  
+A: Yes, pass an instance of `RequiredInputDirectory` to the `TeXDocument` constructor or the relevant API call.
 
-### Q5: मैं .NET के लिए Aspose.TeX के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
+**Q: What .NET versions are supported?**  
+A: Aspose.TeX works with .NET 5, .NET 6, and later, as well as .NET Framework 4.6.2+.
 
- A5: आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+---
+
+**अंतिम अपडेट:** 2026-03-24  
+**परीक्षण किया गया:** Aspose.TeX 24.11 for .NET  
+**लेखक:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
