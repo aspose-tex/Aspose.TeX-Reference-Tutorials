@@ -1,10 +1,10 @@
 ---
-date: 2025-12-20
-description: Leer hoe u TeX‑job XPS‑output maakt met Aspose.TeX voor .NET, bestandsinvoer/-uitvoer
+date: 2026-03-26
+description: Leer hoe je XPS maakt vanuit TeX met Aspose.TeX voor .NET, bestandsinvoer/-uitvoer
   beheert en hoogwaardige XPS‑documenten genereert.
-linktitle: Create TeX Job XPS Output with Filesystems – Aspose.TeX for .NET
+linktitle: Create XPS from TeX with Filesystems – Aspose.TeX for .NET
 second_title: Aspose.TeX .NET API
-title: Maak TeX-taak XPS-uitvoer met bestandssystemen – Aspose.TeX voor .NET
+title: XPS maken vanuit TeX met bestandssystemen – Aspose.TeX voor .NET
 url: /nl/net/file-input-output/filesystem-input-xps-output/
 weight: 10
 ---
@@ -13,134 +13,146 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maak TeX Job XPS‑uitvoer met bestandssystemen – Aspose.TeX voor .NET
+# XPS maken vanuit TeX met bestandsystemen – Aspose.TeX voor .NET
 
-## Inleiding
+## Introduction
 
-Welkom! In deze tutorial leer je **hoe je TeX job XPS‑uitvoer maakt** terwijl je werkt met invoer en uitvoer via bestandssystemen met Aspose.TeX voor .NET. Of je nu een batchprocessor, een webservice of een desktophulpmiddel bouwt, de onderstaande stappen begeleiden je bij het configureren van de engine, het aanwijzen van je bestanden, en het produceren van XPS‑documenten die er precies uitzien als de oorspronkelijke LaTeX‑bron.
+Welcome! In this tutorial you’ll learn **how to create XPS from TeX** while working with filesystem input and output using Aspose.TeX for .NET. Whether you’re building a batch processor, a web service, or a desktop utility, the steps below will guide you through configuring the engine, pointing it at your files, and producing XPS documents that look exactly like the original LaTeX source.
 
-We splitsen het proces op in duidelijke, genummerde stappen, leggen het “waarom” achter elke code‑regel uit, en geven je praktische tips die je meteen kunt toepassen.
+We’ll break the process into clear, numbered steps, explain the “why” behind each line of code, and give you practical tips you can apply right away.
 
-## Snelle antwoorden
-- **Wat betekent “create tex job xps”?** Het verwijst naar het configureren van een Aspose.TeX‑job die TeX‑bestanden leest en het resultaat schrijft als een XPS‑document.  
-- **Heb ik een licentie nodig?** Een tijdelijke licentie is beschikbaar voor testen; een volledige licentie is vereist voor productie.  
-- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Kan ik het uitvoerformaat wijzigen?** Ja – vervang `XpsDevice` door een ander apparaat (PDF, PNG, enz.).  
-- **Is console‑output vereist?** Nee – je kunt een geheugen‑terminal gebruiken voor stille uitvoering.
+## Quick Answers
+- **What does “create XPS from TeX” mean?** It refers to configuring an Aspose.TeX job that reads TeX files and writes the result as an XPS document.  
+- **Do I need a license?** A temporary license is available for testing; a full license is required for production.  
+- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Can I change the output format?** Yes – replace `XpsDevice` with another device (PDF, PNG, etc.).  
+- **Is console output required?** No – you can use a memory terminal for silent execution.
 
-## Wat is “create tex job xps”?
+## How to create XPS from TeX using Aspose.TeX
 
-Een TeX‑job die XPS uitvoert maken betekent het initialiseren van de Aspose.TeX‑engine, aangeven waar de bronbestanden gelezen moeten worden, en de gerenderde pagina’s naar een XPS‑pakket sturen. XPS (XML Paper Specification) is een vast‑layoutformaat dat typografie en vector‑graphics behoudt, waardoor het ideaal is voor afdrukken of verdere conversie.
+Creating a TeX job that outputs XPS means initializing the Aspose.TeX engine, telling it where to read source files, and directing the rendered pages into an XPS package. XPS (XML Paper Specification) is a fixed‑layout format that preserves typography and vector graphics, making it ideal for printing or further conversion.
 
-## Waarom Aspose.TeX gebruiken voor XPS‑uitvoer?
+## What is “create tex job xps”?
 
-- **Hoge getrouwheid:** De engine reproduceert LaTeX‑lay-out nauwkeurig in XPS.  
-- **Geen externe afhankelijkheden:** Pure .NET‑bibliotheek, geen native LaTeX‑installaties nodig.  
-- **Flexibele I/O:** Werkt met bestandssysteem‑mappen, geheugen‑streams of aangepaste providers.  
-- **Schaalbaar:** Geschikt voor enkel‑bestand conversies of bulk‑verwerkingspijplijnen.
+Creating a TeX job that outputs XPS means initializing the Aspose.TeX engine, telling it where to read source files, and directing the rendered pages into an XPS package. XPS (XML Paper Specification) is a fixed‑layout format that preserves typography and vector graphics, making it ideal for printing or further conversion.
 
-## Voorvereisten
+## Why use Aspose.TeX for XPS output?
 
-Voordat we beginnen, zorg dat je het volgende hebt:
+- **High fidelity:** The engine reproduces LaTeX layout accurately in XPS.  
+- **No external dependencies:** Pure .NET library, no need for native LaTeX installations.  
+- **Flexible I/O:** Works with filesystem directories, memory streams, or custom providers.  
+- **Scalable:** Suitable for single‑file conversions or bulk processing pipelines.
 
-- **Aspose.TeX for .NET** – download de nieuwste versie van de [Aspose‑website](https://releases.aspose.com/tex/net/).  
-- **.NET‑ontwikkelomgeving** – Visual Studio, Rider, of VS Code met de .NET SDK.  
-- **Invoer‑ en uitvoermappen** – maak twee mappen op je computer (bijv. `C:\TeX\Input` en `C:\TeX\Output`).  
-- **Licentie (optioneel voor testen)** – je kunt een tijdelijke licentie verkrijgen via het Aspose‑portaal.
+## Prerequisites
 
-## Namespaces importeren
+Before we dive in, ensure you have the following:
 
-Breng eerst de benodigde namespaces in scope zodat je toegang hebt tot bestandssysteem‑helpers en het XPS‑apparaat.
+- **Aspose.TeX for .NET** – download the latest version from the [Aspose website](https://releases.aspose.com/tex/net/).  
+- **.NET development environment** – Visual Studio, Rider, or VS Code with the .NET SDK.  
+- **Input & output folders** – create two directories on your machine (e.g., `C:\TeX\Input` and `C:\TeX\Output`).  
+- **License (optional for testing)** – you can obtain a temporary license from the Aspose portal.
+
+## Import Namespaces
+
+First, bring the required namespaces into scope so you can access filesystem helpers and the XPS device.
 
 ```csharp
 using Aspose.TeX.IO;
 using Aspose.TeX.Presentation.Xps;
 ```
 
-Deze namespaces bieden `InputFileSystemDirectory`, `OutputFileSystemDirectory` en `XpsDevice`, die essentieel zijn voor de **create tex job xps**‑workflow.
+These namespaces expose `InputFileSystemDirectory`, `OutputFileSystemDirectory`, and `XpsDevice`, which are essential for the **create XPS from TeX** workflow.
 
-## Stap 1: Conversie‑opties maken
+## Step 1: Create Conversion Options
 
-We beginnen met het bouwen van een `TeXOptions`‑object dat de engine vertelt de ObjectTeX‑configuratie te gebruiken (de standaard voor de meeste LaTeX‑bronnen).
+We start by building a `TeXOptions` object that tells the engine to use the ObjectTeX configuration (the default for most LaTeX sources).
 
 ```csharp
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
 ```
 
-> **Pro tip:** `ConsoleAppOptions` stelt verstandige standaardwaarden in voor console‑achtige applicaties, maar je kunt de opties later aanpassen indien nodig.
+> **Pro tip:** `ConsoleAppOptions` sets sensible defaults for console‑style applications, but you can customize the options later if needed.
 
-## Stap 2: Invoer‑ en uitvoermappen opgeven
+## Step 2: Specify Input and Output Directories
 
-Wijs de engine op de mappen die je eerder hebt voorbereid. Vervang de tijdelijke tekenreeks door de werkelijke paden op je computer.
+Point the engine at the folders you prepared earlier. Replace the placeholder strings with the actual paths on your machine.
 
 ```csharp
 options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
 options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 ```
 
-Nu weet de TeX‑job waar `.tex`‑bestanden te vinden zijn en waar de gegenereerde XPS‑bestanden geplaatst moeten worden.
+Now the TeX job knows where to find `.tex` files and where to drop the generated XPS files.
 
-## Stap 3: Een uitvoer‑terminal kiezen
+## Step 3: Choose an Output Terminal
 
-De terminal bepaalt waar statusberichten worden geschreven. Voor snelle debugging blijven we bij de console, maar je kunt overschakelen naar een geheugen‑terminal voor stille runs.
+The terminal controls where status messages are written. For quick debugging we’ll stick with the console, but you can switch to a memory terminal for silent runs.
 
 ```csharp
 options.TerminalOut = new OutputConsoleTerminal(); // Default value. Arbitrary assignment.
 ```
 
-> **Waarom dit belangrijk is:** Het gebruik van een console‑terminal geeft je directe feedback over compilatie‑waarschuwingen of -fouten, wat het oplossen van problemen versnelt.
+> **Why this matters:** Using a console terminal gives you immediate feedback about compilation warnings or errors, which speeds up troubleshooting.
 
-## Stap 4: De TeX‑job uitvoeren
+## Step 4: Run the TeX Job
 
-Maak een `TeXJob`‑instantie, geef deze een herkenbare naam, koppel het `XpsDevice`, en voer het uit.
+Create a `TeXJob` instance, give it a friendly name, attach the `XpsDevice`, and execute it.
 
 ```csharp
 TeXJob job = new TeXJob("hello-world", new XpsDevice(), options);
 job.Run();
 ```
 
-Wanneer `Run()` voltooid is, vind je een `hello-world.xps`‑bestand in de uitvoermap.
+When `Run()` completes, you’ll find an `hello-world.xps` file in the output directory.
 
-## Stap 5: De console‑output verfijnen
+## Step 5: Fine‑Tune the Console Output
 
-Het toevoegen van een lege regel na afloop van de job maakt het console‑logboek makkelijker leesbaar, vooral wanneer je meerdere jobs in een batch uitvoert.
+Adding a blank line after the job finishes makes the console log easier to read, especially when you run multiple jobs in a batch.
 
 ```csharp
 options.TerminalOut.Writer.WriteLine();
 ```
 
-## Veelvoorkomende problemen en oplossingen
+## Common Use Cases
+
+| Scenario | Why XPS? | How the snippet helps |
+|----------|----------|-----------------------|
+| **Batch conversion of academic papers** | Preserve exact layout for archival printing. | The filesystem‑based approach lets you point at a folder of `.tex` files and output a matching set of XPS files. |
+| **Web service that renders LaTeX on‑the‑fly** | XPS can be streamed directly to browsers that support it. | By swapping `XpsDevice` with a memory stream you can return the document without touching the disk. |
+| **Desktop publishing tool** | Need a fixed‑layout preview before PDF conversion. | The same job can be chained to a PDF device later for final distribution. |
+
+## Common Issues and Solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
-| **XPS‑bestand is leeg** | Pad van de uitvoermap is onjuist of niet schrijfbaar. | Controleer het pad dat aan `OutputFileSystemDirectory` is doorgegeven en zorg dat het proces schrijfrechten heeft. |
-| **Compilatiefouten** | LaTeX‑bron gebruikt pakketten die niet zijn meegeleverd met ObjectTeX. | Schakel over naar een volledige TeX‑engineconfiguratie (`TeXConfig.FullTeX()`) of voeg ontbrekende pakketbestanden toe aan de invoermap. |
-| **Console blijft hangen** | Terminal wacht op invoer vanwege interactieve prompts. | Gebruik `OutputMemoryTerminal` om interactieve prompts te onderdrukken in geautomatiseerde scripts. |
+| **XPS file is empty** | Output directory path is incorrect or not writable. | Verify the path passed to `OutputFileSystemDirectory` and ensure the process has write permissions. |
+| **Compilation errors** | LaTeX source uses packages not bundled with ObjectTeX. | Switch to a full TeX engine configuration (`TeXConfig.FullTeX()`) or add missing package files to the input directory. |
+| **Console hangs** | Terminal waiting for input due to interactive prompts. | Use `OutputMemoryTerminal` to suppress interactive prompts in automated scripts. |
 
-## Veelgestelde vragen
+## Frequently Asked Questions
 
-**Q1: Kan ik een ander uitvoerformaat gebruiken in plaats van XPS?**  
-A1: Ja, Aspose.TeX ondersteunt PDF, PNG, SVG en andere formaten. Vervang `new XpsDevice()` door de juiste apparaatklasse (bijv. `new PdfDevice()`).
+**Q1: Can I use a different output format instead of XPS?**  
+A1: Yes, Aspose.TeX supports PDF, PNG, SVG, and other formats. Replace `new XpsDevice()` with the appropriate device class (e.g., `new PdfDevice()`).
 
-**Q2: Is er een tijdelijke licentie beschikbaar voor testdoeleinden?**  
-A2: Ja, je kunt een tijdelijke licentie voor testen verkrijgen via [deze link](https://purchase.aspose.com/temporary-license/).
+**Q2: Is a temporary license available for testing purposes?**  
+A2: Yes, you can obtain a temporary license for testing from [this link](https://purchase.aspose.com/temporary-license/).
 
-**Q3: Waar kan ik extra documentatie vinden?**  
-A3: Raadpleeg de [Aspose.TeX for .NET‑documentatie](https://reference.aspose.com/tex/net/) voor gedetailleerde informatie.
+**Q3: Where can I find additional documentation?**  
+A3: Refer to the [Aspose.TeX for .NET documentation](https://reference.aspose.com/tex/net/) for detailed information.
 
-**Q4: Hoe kan ik community‑ondersteuning krijgen of vragen stellen?**  
-A4: Bezoek het [Aspose.TeX‑forum](https://forum.aspose.com/c/tex/47) voor community‑ondersteuning en discussies.
+**Q4: How can I get community support or ask questions?**  
+A4: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support and discussions.
 
-**Q5: Zijn er voorbeeldprojecten beschikbaar?**  
-A5: Verken de Aspose.TeX‑GitHub‑repository voor voorbeeldprojecten en code‑fragmenten.
+**Q5: Are there any sample projects available?**  
+A5: Explore the Aspose.TeX GitHub repository for sample projects and code snippets.
 
-## Conclusie
+## Conclusion
 
-Door de bovenstaande stappen te volgen, weet je nu hoe je **TeX job XPS‑uitvoer maakt** met Aspose.TeX voor .NET, je invoer‑ en uitvoermappen beheert, en het proces verfijnt voor zowel ontwikkelings‑ als productiescenario's. Voel je vrij om te experimenteren met andere uitvoerapparaten, deze logica in grotere workflows te integreren, of batch‑conversies te automatiseren.
+By following the steps above, you now know how to **create XPS from TeX** using Aspose.TeX for .NET, manage your input and output folders, and fine‑tune the process for both development and production scenarios. Feel free to experiment with other output devices, integrate this logic into larger workflows, or automate batch conversions.
 
 ---
 
-**Last Updated:** 2025-12-20  
+**Last Updated:** 2026-03-26  
 **Tested With:** Aspose.TeX 24.11 for .NET (latest at time of writing)  
 **Author:** Aspose  
 
