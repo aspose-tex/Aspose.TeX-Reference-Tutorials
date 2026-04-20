@@ -1,10 +1,10 @@
 ---
-date: 2025-12-05
-description: เรียนรู้วิธีการจัดรูปแบบ TeX ด้วย Aspose.TeX สำหรับ Java รวมถึงขั้นตอนการสร้างรูปแบบกำหนดเองและวิธีการขอรับใบอนุญาตชั่วคราวของ
-  Aspose.
+date: 2026-02-10
+description: เรียนรู้วิธีสร้างรูปแบบ tex แบบกำหนดเองและวิธีพิมพ์ tex ด้วย Java โดยใช้ Aspose.TeX for Java
+  รวมถึงการตั้งค่าแบบขั้นตอนต่อขั้นตอน การจัดการรูปแบบกำหนดเอง และการรับใบอนุญาตชั่วคราว.
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
-title: วิธีจัดรูปแบบ TeX ด้วยรูปแบบกำหนดเองใน Java
+title: วิธีสร้างรูปแบบ TeX ที่กำหนดเองและจัดพิมพ์ TeX ใน Java
 url: /th/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
@@ -13,42 +13,41 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีการจัดรูป TeX ด้วยรูปแบบกำหนดเองใน Java
+# วิธีสร้างรูปแบบ TeX แบบกำหนดเองและจัดรูปแบบ TeX ใน Java
 
-## บทนำ
+## Introduction
 
-หากคุณต้องการ **how to typeset tex** ภายในแอปพลิเคชัน Java, Aspose.TeX ให้วิธีที่สะอาดและมีประสิทธิภาพสูงในการทำงานกับไฟล์รูปแบบ TeX กำหนดเอง ในบทแนะนำนี้เราจะพาคุณผ่านทุกขั้นตอนที่ต้องการ—ตั้งแต่การตั้งค่าสภาพแวดล้อมจนถึงการรันงาน TeX ที่ใช้รูปแบบของคุณเอง ไม่ว่าคุณจะกำลังสร้างเครื่องมือการเผยแพร่ทางวิทยาศาสตร์หรือเครื่องมือสร้างรายงานแบบกำหนดเอง ขั้นตอนต่อไปนี้จะช่วยให้คุณเริ่มต้นได้อย่างรวดเร็ว
+หากคุณต้องการ **สร้างรูปแบบ tex แบบกำหนดเอง** และจัดรูปแบบ TeX ภายในแอปพลิเคชัน Java, Aspose.TeX ให้วิธีที่สะอาดและมีประสิทธิภาพสูงในการทำงานกับไฟล์รูปแบบ TeX แบบกำหนดเอง ในบทแนะนำนี้เราจะพาคุณผ่านทุกอย่างที่ต้องการ — ตั้งแต่การตั้งค่าสภาพแวดล้อมจนถึงการรันงาน TeX ที่ใช้รูปแบบของคุณเอง ไม่ว่าคุณจะกำลังสร้างเครื่องมือการเผยแพร่ทางวิทยาศาสตร์หรือเครื่องมือสร้างรายงานแบบกำหนดเอง ขั้นตอนต่อไปนี้จะช่วยให้คุณเริ่มต้นได้อย่างรวดเร็ว
 
-## คำตอบสั้น
+## Quick Answers
+- **What library do I need?** Aspose.TeX for Java  
+- **Can I use a custom TeX format?** Yes – just point the `FormatProvider` to your file.  
+- **Do I need a license for development?** A temporary license aspose works for testing; a full license is required for production.  
+- **Which Java version is supported?** JDK 8 or higher.  
+- **What output format does the example generate?** XPS (you can switch to PDF, PNG, etc.).
 
-- **คุณต้องการไลบรารีอะไร?** Aspose.TeX for Java  
-- **ฉันสามารถใช้รูปแบบ TeX กำหนดเองได้หรือไม่?** ใช่ – เพียงชี้ `FormatProvider` ไปยังไฟล์ของคุณ  
-- **ฉันต้องการไลเซนส์สำหรับการพัฒนาหรือไม่?** ไลเซนส์ชั่วคราว aspose ใช้สำหรับการทดสอบ; จำเป็นต้องมีไลเซนส์เต็มสำหรับการใช้งานจริง  
-- **เวอร์ชัน Java ที่รองรับคืออะไร?** JDK 8 หรือสูงกว่า  
-- **รูปแบบผลลัพธ์ที่ตัวอย่างสร้างคืออะไร?** XPS (คุณสามารถเปลี่ยนเป็น PDF, PNG ฯลฯ ได้)
+## What is a Custom TeX Format?
+รูปแบบ TeX แบบกำหนดเองคือชุดแมโครและ primitive ที่คอมไพล์ล่วงหน้าซึ่งทำให้เครื่องยนต์ TeX ปรับให้เข้ากับสไตล์เอกสารของคุณโดยเฉพาะ โดยการให้ไฟล์ `.fmt` ของคุณเอง คุณสามารถควบคุมแบบอักษร, กฎการจัดหน้า, และการกำหนดคำสั่งได้โดยไม่ต้องแก้ไขไฟล์ TeX ต้นฉบับทุกครั้ง
 
-## รูปแบบ TeX กำหนดเองคืออะไร?
+## Why Use Aspose.TeX for Java?
+- **Pure Java** – No native binaries, easy to embed in any JVM‑based project.  
+- **High fidelity** – Generates output that matches LaTeX‑style rendering.  
+- **Extensible** – Supports custom formats, multiple output devices, and batch processing.  
+- **License flexibility** – Start with a temporary license aspose, then upgrade when you go live.
 
-รูปแบบ TeX กำหนดเองคือชุดแมโครและ primitive ที่คอมไพล์ล่วงหน้าเพื่อปรับแต่งเอนจิน TeX ให้สอดคล้องกับสไตล์เอกสารของคุณโดยเฉพาะ การจัดหาไฟล์ `.fmt` ของคุณเองทำให้คุณควบคุมฟอนต์, กฎการจัดหน้า, และการกำหนดคำสั่งได้โดยไม่ต้องแก้ไขโค้ด TeX ต้นฉบับทุกครั้ง
+## Prerequisites
 
-## ทำไมต้องใช้ Aspose.TeX สำหรับ Java?
+Before you begin, make sure you have:
 
-- **Pure Java** – ไม่มีไบนารีเนทีฟ, ฝังง่ายในโครงการที่ใช้ JVM ใดก็ได้  
-- **High fidelity** – สร้างผลลัพธ์ที่ตรงกับการแสดงผลสไตล์ LaTeX  
-- **Extensible** – รองรับรูปแบบกำหนดเอง, อุปกรณ์ผลลัพธ์หลายประเภท, และการประมวลผลเป็นชุด  
-- **License flexibility** – เริ่มต้นด้วยไลเซนส์ชั่วคราว aspose, แล้วอัปเกรดเมื่อเปิดใช้งานจริง  
+1. **Java Development Kit (JDK)** – JDK 8 or newer installed. Download it from the official [Java website](https://www.oracle.com/java/technologies/javase-downloads.html) if you haven’t already.  
+2. **Aspose.TeX library for Java** – Grab the latest JAR from the [Aspose.TeX for Java download page](https://releases.aspose.com/tex/java/).  
+3. **Your custom TeX format file** – Place the compiled `.fmt` (e.g., `customtex.fmt`) in a folder that will serve as the output directory.  
 
-## ข้อกำหนดเบื้องต้น
+> **Pro tip:** If you’re evaluating the product, request a *temporary license aspose* from the Aspose portal; it removes the evaluation watermark for a limited period.
 
-1. **Java Development Kit (JDK)** – JDK 8 หรือใหม่กว่า ติดตั้งแล้ว ดาวน์โหลดจากเว็บไซต์อย่างเป็นทางการ [Java website](https://www.oracle.com/java/technologies/javase-downloads.html) หากยังไม่ได้  
-2. **Aspose.TeX library for Java** – ดาวน์โหลด JAR ล่าสุดจาก [Aspose.TeX for Java download page](https://releases.aspose.com/tex/java/)  
-3. **ไฟล์รูปแบบ TeX กำหนดเองของคุณ** – วางไฟล์ `.fmt` ที่คอมไพล์แล้ว (เช่น `customtex.fmt`) ในโฟลเดอร์ที่จะเป็นไดเรกทอรีผลลัพธ์  
+## Import Packages
 
-> **เคล็ดลับ:** หากคุณกำลังประเมินผลิตภัณฑ์, ขอ *temporary license aspose* จากพอร์ทัลของ Aspose; จะลบลายน้ำการประเมินออกในช่วงเวลาจำกัด
-
-## นำเข้าแพ็กเกจ
-
-ก่อนอื่นให้เพิ่มการนำเข้าที่จำเป็นลงในโครงการ Java ของคุณ คลาสเหล่านี้ให้คุณเข้าถึง FormatProvider, การกำหนดค่างาน, และอุปกรณ์การเรนเดอร์
+First, add the required imports to your Java project. These classes give you access to the format provider, job configuration, and rendering device.
 
 ```java
 package com.aspose.tex.TypesetWithCustomTeXFormat;
@@ -67,20 +66,20 @@ import com.aspose.tex.rendering.XpsDevice;
 import util.Utils;
 ```
 
-## คู่มือขั้นตอนต่อขั้นตอน
+## Step‑by‑Step Guide
 
-### ขั้นตอนที่ 1: สร้าง Format Provider
+### Step 1: Create a Format Provider
 
-`FormatProvider` ชี้ไปยังไดเรกทอรีที่มีไฟล์รูปแบบ TeX กำหนดเองของคุณ แทนที่ `"Your Output Directory"` ด้วยพาธจริงที่ไฟล์ `customtex.fmt` อยู่
+The `FormatProvider` points to the directory that contains your custom TeX format file. Replace `"Your Output Directory"` with the actual path where `customtex.fmt` resides.
 
 ```java
 final FormatProvider formatProvider = new FormatProvider(
         new InputFileSystemDirectory("Your Output Directory"), "customtex");
 ```
 
-### ขั้นตอนที่ 2: ตั้งค่าตัวเลือกการแปลง
+### Step 2: Set Conversion Options
 
-กำหนดค่างานให้ใช้เอนจิน ObjectTeX (เอนจินที่เข้าใจรูปแบบกำหนดเอง) ที่นี่เรายังตั้งชื่องานและระบุไดเรกทอรีทำงานสำหรับอินพุต/เอาต์พุตด้วย
+Configure the job to use the ObjectTeX engine (the engine that understands custom formats). Here we also set the job name and specify input/output working directories.
 
 ```java
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX(formatProvider));
@@ -89,9 +88,9 @@ options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Direct
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-### ขั้นตอนที่ 3: รันงาน TeX
+### Step 3: Run the TeX Job
 
-สร้างอินสแตนซ์ `TeXJob`, ป้อนสคริปต์ TeX ง่าย ๆ ให้มัน, แล้วบอกให้เรนเดอร์ผลลัพธ์ด้วย `XpsDevice` สคริปต์จะจบด้วย `\end` เพื่อปิดเอกสาร
+Create a `TeXJob` instance, feed it a simple TeX snippet, and tell it to render the result with an `XpsDevice`. The snippet ends with `\end` to close the document.
 
 ```java
 new TeXJob(new ByteArrayInputStream(
@@ -99,57 +98,66 @@ new TeXJob(new ByteArrayInputStream(
         new XpsDevice(), options).run();
 ```
 
-### ขั้นตอนที่ 4: สรุปผลลัพธ์
+### Step 4: Finalize Output
 
-หลังจากงานเสร็จสิ้น ให้เพิ่มการขึ้นบรรทัดใหม่ในเอาต์พุตของเทอร์มินัลเพื่อให้คอนโซลดูเป็นระเบียบ
+After the job finishes, add a line break to the terminal output so the console remains tidy.
 
 ```java
 options.getTerminalOut().getWriter().newLine();
 ```
 
-### ขั้นตอนที่ 5: ปิด Format Provider
+### Step 5: Close the Format Provider
 
-เมื่อทำงานเสร็จแล้ว ปิด provider เพื่อปล่อยไฟล์แฮนด์เดิลและคืนทรัพยากร
+When you’re done, close the provider to release file handles and free resources.
 
 ```java
 formatProvider.close();
 ```
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+## Common Use Cases
+
+- **Automated scientific paper generation** – Use a pre‑compiled format that embeds journal‑specific macros.  
+- **Dynamic report creation** – Generate invoices or certificates on‑the‑fly without rebuilding LaTeX sources each time.  
+- **Batch processing of large document collections** – Load a custom format once and reuse it for hundreds of files, dramatically reducing processing time.
+
+## Common Issues and Solutions
 
 | ปัญหา | สาเหตุ | วิธีแก้ |
-|-------|-------|--------|
-| **“Format file not found”** | พาธผิดใน `FormatProvider` | ตรวจสอบว่าไดเรกทอรีและชื่อไฟล์ (`customtex.fmt`) ถูกต้องและเข้าถึงได้ |
-| **Encoding errors** | ตัวอักษรที่ไม่ใช่ ASCII ในสตริง TeX | ใช้การเข้ารหัส UTF‑8 (`"UTF-8"` แทน `"ASCII"`) |
-| **Output not generated** | ไดเรกทอรีผลลัพธ์ไม่มีสิทธิ์เขียน | ตรวจสอบให้กระบวนการ Java มีสิทธิ์เขียนใน `"Your Output Directory"` |
-| **License watermark** | ใช้ไลเซนส์ประเมินเท่านั้น | ใช้ *temporary license aspose* สำหรับการทดสอบหรือซื้อไลเซนส์เต็มสำหรับการใช้งานจริง |
+|-------|-------|-----|
+| **“Format file not found”** | Wrong path in `FormatProvider` | Verify the directory and filename (`customtex.fmt`) are correct and accessible. |
+| **Encoding errors** | Non‑ASCII characters in the TeX string | Use UTF‑8 encoding (`"UTF-8"` instead of `"ASCII"`). |
+| **Output not generated** | Output directory missing write permission | Ensure the Java process has write access to `"Your Output Directory"`. |
+| **License watermark** | Using only the evaluation license | Apply a *temporary license aspose* for testing or purchase a full license for production. |
 
 **Related Resources:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
-**Q: ฉันสามารถใช้ Aspose.TeX ร่วมกับไลบรารี Java อื่น ๆ ได้หรือไม่?**  
-A: แน่นอน. API เป็น Pure Java ทำงานร่วมกับไลบรารีเช่น Apache PDFBox, iText, หรือ Spring Boot ได้อย่างไม่มีปัญหา  
+**Q: Can I use Aspose.TeX together with other Java libraries?**  
+A: Absolutely. The API is pure Java and works alongside libraries such as Apache PDFBox, iText, or Spring Boot.
 
-**Q: ฉันจะหาลิขสิทธิ์ชั่วคราว aspose สำหรับการประเมินได้จากที่ไหน?**  
-A: ขอได้จาก [Aspose temporary license page](https://purchase.aspose.com/temporary-license/) ซึ่งจะลบลายน้ำการประเมินออกได้สูงสุด 30 วัน  
+**Q: Where can I get a temporary license aspose for evaluation?**  
+A: Request one from the [Aspose temporary license page](https://purchase.aspose.com/temporary-license/). It removes the evaluation watermark for up to 30 days.
 
-**Q: Aspose.TeX รองรับรูปแบบผลลัพธ์อื่นนอกจาก XPS หรือไม่?**  
-A: รองรับ. คุณสามารถเปลี่ยน `new XpsDevice()` เป็น `new PdfDevice()`, `new PngDevice()` ฯลฯ ตามความต้องการของคุณ  
+**Q: Does Aspose.TeX support output formats other than XPS?**  
+A: Yes. You can replace `new XpsDevice()` with `new PdfDevice()`, `new PngDevice()`, etc., depending on your needs.
 
-**Q: ฉันจะดีบักงาน TeX ที่ล้มเหลวอย่างไร?**  
-A: เปิดการบันทึกแบบละเอียดโดยเรียก `options.setLogLevel(LogLevel.DEBUG);` แล้วตรวจสอบเอาต์พุตของคอนโซลเพื่อดูข้อความข้อผิดพลาดโดยละเอียด  
+**Q: How do I debug a failing TeX job?**  
+A: Enable verbose logging by calling `options.setLogLevel(LogLevel.DEBUG);` and inspect the console output for detailed error messages.
 
-**Q: มีรุ่นทดลองใช้ฟรีหรือไม่?**  
-A: มี – ดาวน์โหลดไบนารีรุ่นทดลองจาก [Aspose.TeX download page](https://releases.aspose.com/tex/java/)  
+**Q: Is there a free trial available?**  
+A: Yes – download the trial binaries from the [Aspose.TeX download page](https://releases.aspose.com/tex/java/).
 
-## สรุป
+**Q: Can I create multiple custom formats in the same application?**  
+A: Yes. Instantiate a separate `FormatProvider` for each `.fmt` file and pass the appropriate provider to `TeXConfig.objectTeX()`.
 
-คุณได้เรียนรู้ **how to typeset tex** ในแอปพลิเคชัน Java ด้วยรูปแบบ TeX กำหนดเองโดยใช้ Aspose.TeX แล้ว ด้วยการทำตามขั้นตอนข้างต้น คุณสามารถผสานการจัดรูปแบบคุณภาพสูงเข้าไปในเวิร์กโฟลว์ Java ใด ๆ ทดลองใช้ไฟล์รูปแบบของคุณเอง และย้ายจากต้นแบบสู่การผลิตด้วยไลเซนส์ที่เหมาะสม  
+## Conclusion
+
+You now know **how to create custom tex format** and **how to typeset tex java** in a Java application using Aspose.TeX. By following the steps above, you can integrate high‑quality typesetting into any Java‑based workflow, experiment with your own format files, and move from prototype to production with a proper license.
 
 ---
 
-**Last Updated:** 2025-12-05  
+**Last Updated:** 2026-02-10  
 **Tested With:** Aspose.TeX for Java 24.10  
 **Author:** Aspose  
 

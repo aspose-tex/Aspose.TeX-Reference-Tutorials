@@ -1,10 +1,11 @@
 ---
-date: 2025-12-05
-description: Aspose.TeX for Java kullanarak TeX nasıl dizayn edilir, özel formatlar
-  için adımları ve geçici bir Aspose lisansı nasıl alınır öğrenin.
+date: 2026-02-10
+description: Aspose.TeX for Java kullanarak özel tex formatı oluşturmayı ve tex java’yı
+  nasıl biçimlendireceğinizi öğrenin; adım adım kurulum, özel format işleme ve geçici
+  lisans edinmeyi içeren.
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
-title: Java'da Özel Formatlarla TeX Nasıl Dizgi Yapılır
+title: Java'da Özel TeX Formatı Oluşturma ve TeX'i Biçimlendirme
 url: /tr/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
@@ -13,41 +14,39 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Özel Formatlarla TeX Nasıl Tipografi Edilir
+# Java'da Özel TeX Formatı Oluşturma ve TeX'i Türlemek
 
-## Giriş
+## Introduction
 
-Bir Java uygulaması içinde **how to typeset tex** yapmanız gerekiyorsa, Aspose.TeX özel TeX format dosyalarıyla çalışmak için temiz ve yüksek performanslı bir yol sunar. Bu öğreticide ortamı kurmaktan kendi formatınızı kullanan bir TeX işini çalıştırmaya kadar ihtiyacınız olan her şeyi adım adım göstereceğiz. Bilimsel yayın aracı ya da özel rapor oluşturucu geliştiriyor olun, aşağıdaki adımlar sizi hızlıca çalışır duruma getirecek.
+Eğer bir Java uygulaması içinde **özel tex formatı oluşturmak** ve TeX'i türlemek istiyorsanız, Aspose.TeX, özel TeX format dosyalarıyla çalışmak için temiz ve yüksek performanslı bir yol sunar. Bu öğreticide, ortamı kurmaktan kendi formatınızı kullanan bir TeX işini çalıştırmaya kadar ihtiyacınız olan her şeyi adım adım göstereceğiz. Bilimsel yayınlama aracı ya da özel rapor oluşturucu geliştiriyor olun, aşağıdaki adımlar sizi hızlı bir şekilde çalışır duruma getirecek.
 
-## Hızlı Yanıtlar
+## Quick Answers
 - **Hangi kütüphane gerekiyor?** Aspose.TeX for Java  
-- **Özel bir TeX formatı kullanabilir miyim?** Evet – `FormatProvider`'ı dosyanıza yönlendirin.  
-- **Geliştirme için lisansa ihtiyacım var mı?** Test için geçici bir license aspose yeterli; üretim için tam lisans gerekir.  
+- **Özel bir TeX formatı kullanabilir miyim?** Evet – sadece `FormatProvider`'ı dosyanıza yönlendirin.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için geçici bir aspose lisansı yeterli; üretim için tam lisans gerekir.  
 - **Hangi Java sürümü destekleniyor?** JDK 8 ve üzeri.  
-- **Örnek hangi çıktı formatını üretiyor?** XPS (PDF, PNG vb. formatlara geçiş yapabilirsiniz).
+- **Örnekte hangi çıktı formatı üretiliyor?** XPS (PDF, PNG vb. formatlara geçebilirsiniz).
 
-## Özel TeX Formatı Nedir?
-Özel bir TeX formatı, TeX motorunu belirli belge stilinize göre özelleştiren önceden derlenmiş makrolar ve ilkelere sahip bir pakettir. Kendi `.fmt` dosyanızı sağlayarak, her seferinde kaynak TeX'i değiştirmeden yazı tiplerini, düzen kurallarını ve komut tanımlarını kontrol edebilirsiniz.
+## What is a Custom TeX Format?
+Özel bir TeX formatı, TeX motorunu belirli belge stilinize göre uyarlayan önceden derlenmiş makrolar ve ilkelere sahip bir settir. Kendi `.fmt` dosyanızı sağlayarak, her seferinde kaynak TeX'i değiştirmeden yazı tiplerini, düzen kurallarını ve komut tanımlarını kontrol edebilirsiniz.
 
-## Neden Aspose.TeX for Java?
-- **Saf Java** – Yerel ikili dosyalar yok, herhangi bir JVM‑tabanlı projeye kolayca entegre edilebilir.  
+## Why Use Aspose.TeX for Java?
+- **Saf Java** – Yerel ikili dosyalar yok, herhangi bir JVM tabanlı projeye kolayca gömülebilir.  
 - **Yüksek doğruluk** – LaTeX‑stilinde render ile eşleşen çıktı üretir.  
 - **Genişletilebilir** – Özel formatları, birden çok çıktı cihazını ve toplu işleme destekler.  
-- **Lisans esnekliği** – Önce geçici bir license aspose ile başlayın, canlıya geçince yükseltin.
+- **Lisans esnekliği** – Önce geçici bir aspose lisansı ile başlayın, yayına alırken yükseltin.
 
-## Önkoşullar
+## Prerequisites
 
-Başlamadan önce şunların kurulu olduğundan emin olun:
+1. **Java Development Kit (JDK)** – JDK 8 veya daha yeni bir sürüm kurulu. Henüz kurmadıysanız resmi [Java web sitesinden](https://www.oracle.com/java/technologies/javase-downloads.html) indirin.  
+2. **Aspose.TeX library for Java** – En son JAR dosyasını [Aspose.TeX for Java indirme sayfasından](https://releases.aspose.com/tex/java/) alın.  
+3. **Your custom TeX format file** – Derlenmiş `.fmt` dosyasını (ör. `customtex.fmt`) çıktı dizini olarak kullanılacak bir klasöre koyun.  
 
-1. **Java Development Kit (JDK)** – JDK 8 ve üzeri kurulu olmalı. Henüz kurmadıysanız resmi [Java web sitesinden](https://www.oracle.com/java/technologies/javase-downloads.html) indirin.  
-2. **Aspose.TeX kütüphanesi for Java** – En yeni JAR dosyasını [Aspose.TeX for Java indirme sayfasından](https://releases.aspose.com/tex/java/) alın.  
-3. **Özel TeX format dosyanız** – Derlenmiş `.fmt` (ör. `customtex.fmt`) dosyasını çıktı klasörü olarak kullanacağınız bir klasöre koyun.  
+> **Pro tip:** Ürünü değerlendiriyorsanız, Aspose portalından *geçici bir aspose lisansı* talep edin; bu, değerlendirme filigranını sınırlı bir süre için kaldırır.
 
-> **İpucu:** Ürünü değerlendiriyorsanız, Aspose portalından bir *temporary license aspose* isteyin; bu, sınırlı bir süre için değerlendirme filigranını kaldırır.
+## Import Packages
 
-## Paketleri İçe Aktarma
-
-İlk olarak Java projenize gerekli importları ekleyin. Bu sınıflar format sağlayıcı, iş yapılandırması ve render cihazına erişim sağlar.
+First, add the required imports to your Java project. These classes give you access to the format provider, job configuration, and rendering device.
 
 ```java
 package com.aspose.tex.TypesetWithCustomTeXFormat;
@@ -66,20 +65,20 @@ import com.aspose.tex.rendering.XpsDevice;
 import util.Utils;
 ```
 
-## Adım‑Adım Kılavuz
+## Step‑by‑Step Guide
 
-### Adım 1: Format Sağlayıcı Oluşturma
+### Step 1: Create a Format Provider
 
-`FormatProvider`, özel TeX format dosyanızın bulunduğu dizine işaret eder. `"Your Output Directory"` ifadesini `customtex.fmt` dosyanızın gerçek yolu ile değiştirin.
+`FormatProvider`, özel TeX format dosyanızı içeren dizini gösterir. `"Your Output Directory"` ifadesini `customtex.fmt` dosyanızın bulunduğu gerçek yol ile değiştirin.
 
 ```java
 final FormatProvider formatProvider = new FormatProvider(
         new InputFileSystemDirectory("Your Output Directory"), "customtex");
 ```
 
-### Adım 2: Dönüştürme Seçeneklerini Ayarlama
+### Step 2: Set Conversion Options
 
-İşi ObjectTeX motorunu (özel formatları anlayan motor) kullanacak şekilde yapılandırın. Burada ayrıca iş adını ve giriş/çıkış çalışma dizinlerini belirliyoruz.
+İşi, özel formatları anlayan ObjectTeX motorunu kullanacak şekilde yapılandırın. Burada ayrıca iş adını ayarlıyor ve giriş/çıkış çalışma dizinlerini belirtiyoruz.
 
 ```java
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX(formatProvider));
@@ -88,9 +87,9 @@ options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Direct
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-### Adım 3: TeX İşini Çalıştırma
+### Step 3: Run the TeX Job
 
-Bir `TeXJob` örneği oluşturun, basit bir TeX snippet'ı verin ve sonucu bir `XpsDevice` ile render etmesini söyleyin. Snippet, belgeyi kapatmak için `\end` ile sonlanır.
+Bir `TeXJob` örneği oluşturun, ona basit bir TeX kod parçası verin ve sonucu bir `XpsDevice` ile render etmesini söyleyin. Kod parçası belgeyi kapatmak için `\end` ile sonlanır.
 
 ```java
 new TeXJob(new ByteArrayInputStream(
@@ -98,59 +97,68 @@ new TeXJob(new ByteArrayInputStream(
         new XpsDevice(), options).run();
 ```
 
-### Adım 4: Çıktıyı Tamamlama
+### Step 4: Finalize Output
 
-İş bittiğinde, terminal çıktısına bir satır sonu ekleyerek konsolun düzenli kalmasını sağlayın.
+İş tamamlandıktan sonra, terminal çıktısına bir satır sonu ekleyerek konsolun düzenli kalmasını sağlayın.
 
 ```java
 options.getTerminalOut().getWriter().newLine();
 ```
 
-### Adım 5: Format Sağlayıcıyı Kapatma
+### Step 5: Close the Format Provider
 
-İşiniz bittiğinde, sağlayıcıyı kapatarak dosya tutamaçlarını serbest bırakın ve kaynakları temizleyin.
+İşiniz bittiğinde, dosya tanıtıcılarını serbest bırakmak ve kaynakları temizlemek için sağlayıcıyı kapatın.
 
 ```java
 formatProvider.close();
 ```
 
-## Yaygın Sorunlar ve Çözümleri
+## Common Use Cases
+
+- **Otomatik bilimsel makale üretimi** – Dergiye özgü makroları içeren önceden derlenmiş bir format kullanın.  
+- **Dinamik rapor oluşturma** – LaTeX kaynaklarını her seferinde yeniden derlemeden faturalar veya sertifikalar anında oluşturun.  
+- **Büyük belge koleksiyonlarının toplu işlenmesi** – Özel bir formatı bir kez yükleyip yüzlerce dosyada yeniden kullanın, işlem süresini büyük ölçüde azaltır.
+
+## Common Issues and Solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
-| **“Format file not found”** | `FormatProvider` içinde yanlış yol | Dizin ve dosya adının (`customtex.fmt`) doğru ve erişilebilir olduğunu doğrulayın. |
-| **Encoding errors** | TeX dizesinde ASCII olmayan karakterler | UTF‑8 kodlamasını kullanın (`"UTF-8"` yerine `"ASCII"`). |
-| **Output not generated** | Çıktı dizininde yazma izni yok | Java sürecinin `"Your Output Directory"` klasörüne yazma izni olduğundan emin olun. |
-| **License watermark** | Sadece değerlendirme lisansı kullanılıyor | Test için *temporary license aspose* uygulayın veya üretim için tam lisans satın alın. |
+| **“Format dosyası bulunamadı”** | `FormatProvider` içinde yanlış yol | Dizin ve dosya adının (`customtex.fmt`) doğru ve erişilebilir olduğunu doğrulayın. |
+| **Kodlama hataları** | TeX dizesindeki ASCII dışı karakterler | `UTF-8` kodlamasını (`"ASCII"` yerine) kullanın. |
+| **Çıktı oluşturulmadı** | Çıktı dizininde yazma izni yok | Java sürecinin `"Your Output Directory"` dizinine yazma izni olduğundan emin olun. |
+| **Lisans filigranı** | Sadece değerlendirme lisansı kullanılıyor | Test için *geçici bir aspose lisansı* uygulayın veya üretim için tam lisans satın alın. |
 
-**İlgili Kaynaklar:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Ücretsiz Deneme İndir](https://releases.aspose.com/tex/java/)
+**Related Resources:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
-## Sık Sorulan Sorular
+## Frequently Asked Questions
 
-**S: Aspose.TeX'i diğer Java kütüphaneleriyle birlikte kullanabilir miyim?**  
-C: Kesinlikle. API saf Java olduğundan Apache PDFBox, iText veya Spring Boot gibi kütüphanelerle sorunsuz çalışır.
+**Q: Aspose.TeX'i diğer Java kütüphaneleriyle birlikte kullanabilir miyim?**  
+A: Kesinlikle. API saf Java'dır ve Apache PDFBox, iText veya Spring Boot gibi kütüphanelerle birlikte çalışır.
 
-**S: Değerlendirme için geçici bir license aspose nasıl alınır?**  
-C: [Aspose geçici lisans sayfasından](https://purchase.aspose.com/temporary-license/) bir tane isteyin. Bu, değerlendirme filigranını 30 güne kadar kaldırır.
+**Q: Değerlendirme için geçici bir aspose lisansı nereden alınır?**  
+A: [Aspose geçici lisans sayfasından](https://purchase.aspose.com/temporary-license/) bir tane isteyin. Bu, değerlendirme filigranını 30 güne kadar kaldırır.
 
-**S: Aspose.TeX XPS dışındaki çıktı formatlarını destekliyor mu?**  
-C: Evet. İhtiyacınıza göre `new XpsDevice()` yerine `new PdfDevice()`, `new PngDevice()` vb. kullanabilirsiniz.
+**Q: Aspose.TeX XPS dışındaki çıktı formatlarını destekliyor mu?**  
+A: Evet. İhtiyacınıza göre `new XpsDevice()` ifadesini `new PdfDevice()`, `new PngDevice()` vb. ile değiştirebilirsiniz.
 
-**S: Başarısız bir TeX işini nasıl debug ederim?**  
-C: `options.setLogLevel(LogLevel.DEBUG);` çağrısıyla ayrıntılı loglamayı etkinleştirin ve konsol çıktısını inceleyin.
+**Q: Başarısız bir TeX işini nasıl hata ayıklayabilirim?**  
+A: `options.setLogLevel(LogLevel.DEBUG);` çağrısı yaparak ayrıntılı günlüklemeyi etkinleştirin ve konsol çıktısını inceleyerek hata mesajlarını detaylı şekilde görebilirsiniz.
 
-**S: Ücretsiz deneme sürümü mevcut mu?**  
-C: Evet – [Aspose.TeX indirme sayfasından](https://releases.aspose.com/tex/java/) deneme ikili dosyalarını indirebilirsiniz.
+**Q: Ücretsiz deneme sürümü mevcut mu?**  
+A: Evet – deneme ikili dosyalarını [Aspose.TeX indirme sayfasından](https://releases.aspose.com/tex/java/) indirebilirsiniz.
 
-## Sonuç
+**Q: Aynı uygulamada birden fazla özel format oluşturabilir miyim?**  
+A: Evet. Her `.fmt` dosyası için ayrı bir `FormatProvider` örneği oluşturup uygun sağlayıcıyı `TeXConfig.objectTeX()` metoduna geçirebilirsiniz.
 
-Artık Aspose.TeX ile Java uygulamanızda özel bir TeX formatı kullanarak **how to typeset tex** yapabildiğinizi biliyorsunuz. Yukarıdaki adımları izleyerek yüksek kaliteli tipografi işlemlerini herhangi bir Java‑tabanlı iş akışına entegre edebilir, kendi format dosyalarınızla deney yapabilir ve prototip aşamasından üretime geçerken uygun lisansla devam edebilirsiniz.
+## Conclusion
+
+Artık **özel tex formatı nasıl oluşturulur** ve **java içinde tex nasıl türlenir** konularını Aspose.TeX kullanarak bir Java uygulamasında yapabildiğinizi biliyorsunuz. Yukarıdaki adımları izleyerek yüksek kaliteli tipografi işlemlerini herhangi bir Java‑tabanlı iş akışına entegre edebilir, kendi format dosyalarınızla deneyler yapabilir ve uygun bir lisansla prototip aşamasından üretime geçebilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2025-12-05  
-**Test Edilen Versiyon:** Aspose.TeX for Java 24.10  
-**Yazar:** Aspose  
+**Last Updated:** 2026-02-10  
+**Tested With:** Aspose.TeX for Java 24.10  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
