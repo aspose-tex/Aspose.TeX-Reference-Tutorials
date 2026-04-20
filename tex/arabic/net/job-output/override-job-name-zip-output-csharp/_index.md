@@ -138,15 +138,15 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 
 أصبح لديك الآن مثال كامل وجاهز للإنتاج يقوم **بتحويل TeX إلى PDF**، **بتجاوز اسم المهمة**، و**بكتابة مخرجات الطرفية في أرشيف ZIP** باستخدام Aspose.TeX for .NET. لا تتردد في تعديل المسارات أو اسم المهمة أو تنسيق الإخراج ليتناسب مع سير عملك.
 
+---
+
+**آخر تحديث:** 2025-12-21  
+**تم الاختبار مع:** Aspose.TeX 24.12 for .NET  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-21  
-**تم الاختبار مع:** Aspose.TeX 24.12 for .NET  
-**المؤلف:** Aspose

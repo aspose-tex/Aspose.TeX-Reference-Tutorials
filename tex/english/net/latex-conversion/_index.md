@@ -59,13 +59,6 @@ Effortlessly convert LaTeX to SVG in .NET with Aspose.TeX. Streamline your docum
 ### [LaTeX to XPS in .NET - Easy Conversion with Aspose.TeX](./to-xps/)
 Effortlessly convert LaTeX to XPS in .NET with Aspise.TeX. High‑quality, customizable, and efficient.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: How do I **convert latex to pdf** using Aspose.TeX?**  
@@ -88,3 +81,10 @@ A: Absolutely. Use `Save("output.svg")` or the `SvgSaveOptions` class to fine‑
 **Last Updated:** 2025-12-21  
 **Tested With:** Aspose.TeX for .NET (latest release)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

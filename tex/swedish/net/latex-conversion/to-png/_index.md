@@ -110,28 +110,6 @@ I den här handledningen har vi gått igenom de viktigaste stegen för att söml
 
 ## Vanliga frågor
 
-### Q1: Kan jag konvertera LaTeX‑dokument till andra bildformat?
-
-A1: Ja, du kan. Aspose.TeX stöder olika utdataformat som JPEG, TIFF och BMP. Justera helt enkelt alternativen därefter.
-
-### Q2: Var kan jag hitta dokumentationen för Aspose.TeX för .NET?
-
-A2: Dokumentationen finns [here](https://reference.aspose.com/tex/net/).
-
-### Q3: Finns det en gratis provversion?
-
-A3: Ja, du kan utforska en gratis provversion [here](https://releases.aspose.com/).
-
-### Q4: Hur kan jag få support för Aspose.TeX för .NET?
-
-A4: Besök vårt supportforum [here](https://forum.aspose.com/c/tex/47) för hjälp.
-
-### Q5: Var kan jag köpa Aspose.TeX för .NET?
-
-A5: Du kan köpa produkten [here](https://purchase.aspose.com/buy).
-
-## Vanliga frågor
-
 **Q: Kan jag använda den genererade PNG‑filen i en webbapplikation?**  
 A: Absolut. När PNG‑filen är sparad kan du leverera den via en MVC‑controller, bädda in den i Razor‑vyer eller returnera den från en API‑endpoint.
 

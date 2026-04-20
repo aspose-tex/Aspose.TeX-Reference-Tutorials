@@ -109,28 +109,6 @@ Dan itu saja! Anda telah berhasil mengonversi dokumen LaTeX ke PNG menggunakan A
 
 Dalam tutorial ini, kami telah membahas langkah-langkah penting untuk mengintegrasikan Aspose.TeX untuk .NET ke dalam aplikasi Anda guna mengonversi LaTeX ke PNG. Tingkatkan kemampuan pemrosesan dokumen Anda dengan alat yang kuat ini.
 
-## FAQ
-
-### Q1: Bisakah saya mengonversi dokumen LaTeX ke format gambar lain?
-
-A1: Ya, Anda dapat. Aspose.TeX mendukung berbagai format output seperti JPEG, TIFF, dan BMP. Cukup sesuaikan opsi yang sesuai.
-
-### Q2: Di mana saya dapat menemukan dokumentasi untuk Aspose.TeX untuk .NET?
-
-A2: Dokumentasinya tersedia [di sini](https://reference.aspose.com/tex/net/).
-
-### Q3: Apakah tersedia trial gratis?
-
-A3: Ya, Anda dapat menjelajahi trial gratis [di sini](https://releases.aspose.com/).
-
-### Q4: Bagaimana saya dapat mendapatkan dukungan untuk Aspose.TeX untuk .NET?
-
-A4: Kunjungi forum dukungan kami [di sini](https://forum.aspose.com/c/tex/47) untuk bantuan.
-
-### Q5: Di mana saya dapat membeli Aspose.TeX untuk .NET?
-
-A:5 Anda dapat membeli produk [di sini](https://purchase.aspose.com/buy).
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan PNG yang dihasilkan dalam aplikasi web?**  

@@ -108,28 +108,6 @@ Ve işte bu kadar! Aspose.TeX for .NET kullanarak bir LaTeX belgesini başarıyl
 
 Bu öğreticide, LaTeX'i PNG'ye dönüştürmek için Aspose.TeX for .NET'i uygulamalarınıza sorunsuz bir şekilde entegre etmenin temel adımlarını ele aldık. Bu güçlü araçla belge işleme yeteneklerinizi artırın.
 
-## SSS
-
-### S1: LaTeX belgelerini diğer görüntü formatlarına dönüştürebilir miyim?
-
-C1: Evet, dönüştürebilirsiniz. Aspose.TeX JPEG, TIFF ve BMP gibi çeşitli çıktı formatlarını destekler. İlgili seçenekleri buna göre ayarlamanız yeterlidir.
-
-### S2: Aspose.TeX for .NET dokümantasyonunu nereden bulabilirim?
-
-C2: Dokümantasyon [burada](https://reference.aspose.com/tex/net/) mevcuttur.
-
-### S3: Ücretsiz bir deneme sürümü var mı?
-
-C3: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
-
-### S4: Aspose.TeX for .NET için destek nasıl alabilirim?
-
-C4: Yardım için destek forumumuz [burada](https://forum.aspose.com/c/tex/47) bulunuyor.
-
-### S5: Aspose.TeX for .NET'i nereden satın alabilirim?
-
-C5: Ürünü [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
-
 ## Sık Sorulan Sorular
 
 **S: Oluşturulan PNG'yi bir web uygulamasında kullanabilir miyim?**  

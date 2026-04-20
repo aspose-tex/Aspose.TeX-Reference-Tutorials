@@ -64,13 +64,6 @@ weight: 21
 ### [LaTeX в XPS в .NET — простая конвертация с Aspose.TeX](./to-xps/)
 Легко конвертируйте LaTeX в XPS в .NET с Aspose.TeX. Высокое качество, настраиваемость и эффективность.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Как я могу **convert latex to pdf** с помощью Aspose.TeX?**  
@@ -93,3 +86,10 @@ A: Абсолютно. Используйте `Save("output.svg")` или кла
 **Последнее обновление:** 2025-12-21  
 **Тестировано с:** Aspose.TeX for .NET (latest release)  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -139,13 +139,6 @@ Ja. Na conversie kun je Aspose.PDF of de `PdfSaveOptions`-eigenschappen gebruike
 
 Je hebt nu een volledig, productie-klaar voorbeeld dat **TeX naar PDF converteert**, **de jobnaam overschrijft**, en **terminaloutput in een ZIP-archief schrijft** met Aspose.TeX voor .NET. Voel je vrij de paden, jobnaam of output-formaat aan te passen aan je eigen workflow.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-21  
@@ -153,3 +146,10 @@ Je hebt nu een volledig, productie-klaar voorbeeld dat **TeX naar PDF converteer
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

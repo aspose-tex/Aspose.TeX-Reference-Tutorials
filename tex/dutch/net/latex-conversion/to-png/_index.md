@@ -131,23 +131,6 @@ A4: Bezoek ons supportforum [hier](https://forum.aspose.com/c/tex/47) voor assis
 
 A5: Je kunt het product kopen [hier](https://purchase.aspose.com/buy).
 
-## Veelgestelde vragen
-
-**Q: Kan ik de gegenereerde PNG gebruiken in een webapplicatie?**  
-A: Absoluut. Zodra de PNG is opgeslagen, kun je deze via een MVC‑controller serveren, insluiten in Razor‑views, of teruggeven vanuit een API‑endpoint.
-
-**Q: Ondersteunt de conversie Unicode‑tekens?**  
-A: Ja. Aspose.TeX ondersteunt Unicode volledig, waardoor je meertalige vergelijkingen en tekst kunt renderen.
-
-**Q: Wat als ik afbeeldingen met een hogere resolutie nodig heb?**  
-A: Pas de DPI‑instelling aan in `PngSaveOptions` (bijv. `options.SaveOptions.DpiX = 300;`).
-
-**Q: Is het mogelijk om meerdere LaTeX‑bestanden in batch te converteren?**  
-A: Je kunt over een collectie bestands‑paden itereren en `new TeXJob(...).Run()` voor elk item aanroepen.
-
-**Q: Werkt de bibliotheek op Linux/macOS?**  
-A: De .NET‑Core‑versie van Aspose.TeX draait cross‑platform zonder aanpassing.
-
 **Last Updated:** 2025-12-21  
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  

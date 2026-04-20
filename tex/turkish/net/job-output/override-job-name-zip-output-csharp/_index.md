@@ -139,15 +139,15 @@ Yes. After conversion, you can use Aspose.PDF or the `PdfSaveOptions` properties
 
 Artık Aspose.TeX for .NET kullanarak **TeX'i PDF'e dönüştüren**, **iş adını geçersiz kılan** ve **terminal çıktısını bir ZIP arşivine yazan** eksiksiz, üretime hazır bir örneğe sahipsiniz. Kendi iş akışınıza uyacak şekilde yolları, iş adını veya çıktı formatını özgürce uyarlayabilirsiniz.
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.TeX 24.12 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.TeX 24.12 for .NET  
-**Author:** Aspose

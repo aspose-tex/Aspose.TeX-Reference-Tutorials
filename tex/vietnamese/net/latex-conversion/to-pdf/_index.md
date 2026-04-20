@@ -16,38 +16,38 @@ weight: 10
 
 # latex to pdf .net – 2 Phương pháp dễ dàng với Aspose.TeX
 
-## Introduction
+## Giới thiệu
 
-Bạn là một nhà phát triển .NET đang muốn **chuyển đổi tài liệu LaTeX sang PDF**, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ trình bày hai cách đơn giản để thực hiện việc chuyển đổi *latex to pdf .net* bằng thư viện **Aspose.TeX**. Bạn sẽ thấy tại sao cách tiếp cận này nhanh, đáng tin cậy và có thể tùy chỉnh hoàn toàn cho bất kỳ đầu ra PDF nào bạn cần.
+Bạn là một nhà phát triển .NET đang mong muốn **chuyển đổi tài liệu LaTeX sang PDF**, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ trình bày hai cách đơn giản để thực hiện việc chuyển đổi *latex sang pdf .net* bằng thư viện **Aspose.TeX**. Bạn sẽ thấy cách tiếp cận này nhanh chóng, đáng tin cậy và có thể tùy chỉnh hoàn toàn cho bất kỳ đầu ra PDF nào bạn cần.
 
-## Quick Answers
-- **Aspose.TeX làm gì?** Nó phân tích nguồn LaTeX và tạo ra các tệp PDF chất lượng cao trong .NET.  
-- **Thời gian thực hiện là bao lâu?** Thông thường dưới 10 phút cho một chuyển đổi cơ bản.  
-- **Tôi có cần giấy phép không?** Cần một giấy phép tạm thời cho việc sử dụng thương mại; một bản dùng thử miễn phí có sẵn.  
-- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, và .NET 5/6+.  
+## Trả lời nhanh
+- **Aspose.TeX làm gì?** Nó phân tích nguồn LaTeX và tạo chất lượng cao của các tệp PDF trong .NET.
+- **Thời gian thực hiện là bao lâu?** Thông thường dưới 10 phút cho một chuyển đổi cơ bản.
+- **Tôi có cần giấy phép không?** Cần một giấy phép tạm thời cho việc sử dụng thương mại; đã có sẵn một bản dùng thử miễn phí.
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework4.5+, .NET Core3.1+, và .NET5/6+.
 - **Tôi có thể tùy chỉnh bố cục PDF không?** Có – sử dụng `TeXOptions` và `PdfSaveOptions` để kiểm soát chi tiết.
 
-## What is latex to pdf .net?
+## Latex sang pdf .net là gì?
 
-Chuyển đổi LaTeX sang PDF trong một ứng dụng .NET có nghĩa là bạn có thể tạo ra các tài liệu chuyên nghiệp (báo cáo, hoá đơn, bài báo học thuật) ngay lập tức mà không cần rời khỏi môi trường mã nguồn. Aspose.TeX thực hiện công việc nặng, chuyển các tệp `.ltx` thành các PDF hoàn thiện.
+Chuyển đổi LaTeX sang PDF trong một ứng dụng .NET có nghĩa là bạn có thể tạo ra các tài liệu chuyên nghiệp (báo cáo, hóa đơn, bài báo học thuật) ngay lập tức mà không cần phải rời khỏi môi trường nguồn mã hóa. Aspose.TeX thực hiện công việc nặng, chuyển các tệp `.ltx` thành các tệp PDF hoàn thiện.
 
-## Why use Aspose.TeX for this conversion?
+## Tại sao nên sử dụng Aspose.TeX cho chuyển đổi này?
 
-- **Không phụ thuộc vào bên ngoài** – không cần cài đặt bộ phân phối LaTeX trên máy chủ.  
-- **Tích hợp đầy đủ .NET** – làm việc với các đối tượng và luồng C# quen thuộc.  
-- **Đầu ra có thể tùy chỉnh** – kiểm soát kích thước trang, phông chữ và nén PDF.  
-- **Đa nền tảng** – chạy trên Windows, Linux và macOS với .NET Core/5+.
+- **Không phụ thuộc vào bên ngoài** – không cần cài đặt LaTeX phân phối trên máy chủ.
+- **Tích hợp đầy đủ .NET** – làm việc với các đối tượng và thuộc tính quen thuộc C# luồng.
+- **Đầu ra có thể tùy chỉnh** – kiểm soát kích thước trang, chữ chữ và nén PDF.
+- **Da nền** – chạy trên Windows, Linux và macOS với .NET Core/5+.
 
-## Prerequisites
+## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những thứ sau:
 
-1. **Aspose.TeX for .NET** – tải xuống tại [here](https://releases.aspose.com/tex/net/).  
-2. **Một tệp nguồn LaTeX** – ví dụ, một tệp `hello-world.ltx` đơn giản mà bạn muốn chuyển đổi.
+1. **Aspose.TeX for .NET** – tải xuống tại [tại đây](https://releases.aspose.com/tex/net/).
+2. **Một nguồn tệp LaTeX** – ví dụ, một tệp `hello-world.ltx` đơn giản mà bạn muốn chuyển đổi.
 
-## Import Namespaces
+## Nhập không gian tên
 
-Trong dự án .NET của bạn, thêm các không gian tên cần thiết:
+Trong dự án .NET của bạn, hãy bổ sung thêm các tên không gian cần thiết:
 
 ```csharp
 using Aspose.TeX.IO;
@@ -55,7 +55,7 @@ using Aspose.TeX.Presentation.Pdf;
 using System.IO;
 ```
 
-## Step 1: Set Up Conversion Options
+## Bước 1: Thiết lập tùy chọn chuyển đổi
 
 ```csharp
 // ExStart:Conversion-LaTeXToPdf-Simplest
@@ -71,27 +71,27 @@ options.SaveOptions = new PdfSaveOptions();
 *Giải thích:*  
 Ở đây chúng tôi cấu hình `TeXOptions` để thông báo cho Aspose.TeX rằng chúng ta đang thực hiện chuyển đổi kiểu console (`ConsoleAppOptions`). `OutputWorkingDirectory` xác định nơi PDF được tạo sẽ được lưu, và `PdfSaveOptions` cho phép bạn điều chỉnh các cài đặt đặc thù của PDF sau này (nén, chất lượng hình ảnh, v.v.).
 
-## Step 2: Run LaTeX to PDF Conversion
+## Bước 2: Chạy chuyển đổi LaTeX sang PDF
 
 ```csharp
 // Run LaTeX to PDF conversion.
 new TeXJob(Path.Combine("Your Input Directory", "hello-world.ltx"), new PdfDevice(), options).Run();
 ```
 
-*Giải thích:*  
-`TeXJob` kết hợp tệp LaTeX đầu vào, `PdfDevice` (đóng vai trò render PDF), và các tùy chọn chúng ta đã định nghĩa. Gọi `.Run()` thực hiện chuyển đổi trong một bước duy nhất.
+*Giải thích thích:*
+`TeXJob` kết hợp đầu vào tệp LaTeX hợp nhất, `PdfDevice` (đóng vai trò kết xuất PDF) và các tùy chọn mà chúng tôi đã xác định. Gọi `.Run()` thực hiện chuyển đổi trong một bước duy nhất.
 
-> **Mẹo:** Điều chỉnh các đường dẫn tệp để trỏ tới thư mục dự án thực tế của bạn, hoặc sử dụng các đối tượng `MemoryStream` nếu bạn muốn xử lý trong bộ nhớ.
+> **Mẹo:** Điều chỉnh tệp đường dẫn để trỏ tới thực tế dự án thư mục của bạn hoặc sử dụng các đối tượng `MemoryStream` nếu bạn muốn xử lý trong bộ nhớ.
 
-## Common Issues and Solutions
+## Các vấn đề thường gặp và giải pháp
 
 | Vấn đề | Nguyên nhân | Giải pháp |
-|-------|------------|----------|
-| **Missing fonts** | Tệp LaTeX tham chiếu các phông chữ chưa được cài đặt trên máy chủ | Cài đặt các phông chữ cần thiết hoặc nhúng chúng bằng `PdfSaveOptions.EmbeddedFonts` |
-| **Large PDF size** | Hình ảnh độ phân giải cao hoặc luồng chưa nén | Bật nén trong `PdfSaveOptions.CompressionLevel` |
-| **Conversion fails with errors** | Cú pháp LaTeX không hợp lệ | Kiểm tra tệp `.ltx` bằng trình soạn thảo LaTeX trước khi chạy job |
+|-------|-------------||----------|
+| **Thiếu phông chữ** | Tệp LaTeX tham chiếu các phông chữ chưa được cài đặt trên máy chủ | Cài đặt các phông chữ cần thiết hoặc nhúng chúng bằng `PdfSaveOptions.EmbeddedFonts` |
+| **Kích thước PDF lớn** | Cao độ phân giải hình ảnh hoặc luồng chưa nén | Kích hoạt nén trong `PdfSaveOptions.CompressionLevel` |
+| **Chuyển đổi không thành công và có lỗi** | Cú pháp LaTeX không hợp lệ | Kiểm tra tệp `.ltx` bằng trình chỉnh sửa LaTeX trước khi chạy công việc |
 
-## FAQ's
+## Câu hỏi thường gặp
 
 ### Q1: Tôi có thể tùy chỉnh cài đặt PDF đầu ra không?
 

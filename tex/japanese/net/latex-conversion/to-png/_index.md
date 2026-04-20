@@ -108,28 +108,6 @@ new TeXJob(Path.Combine("Your Input Directory", "hello-world.ltx"), new ImageDev
 
 このチュートリアルでは、Aspose.TeX for .NET をアプリケーションにシームレスに統合し、LaTeX を PNG に変換するための重要な手順を解説しました。この強力なツールで文書処理機能を強化しましょう。
 
-## FAQ
-
-### Q1: LaTeX 文書を他の画像形式に変換できますか？
-
-A1: はい、可能です。Aspose.TeX は JPEG、TIFF、BMP などさまざまな出力形式をサポートしています。オプションを適切に調整してください。
-
-### Q2: Aspose.TeX for .NET のドキュメントはどこで見つけられますか？
-
-A2: ドキュメントは [here](https://reference.aspose.com/tex/net/) で入手できます。
-
-### Q3: 無料トライアルは利用できますか？
-
-A3: はい、無料トライアルは [here](https://releases.aspose.com/) からお試しいただけます。
-
-### Q4: Aspose.TeX for .NET のサポートはどこで受けられますか？
-
-A4: サポートフォーラムは [here](https://forum.aspose.com/c/tex/47) でご利用ください。
-
-### Q5: Aspose.TeX for .NET はどこで購入できますか？
-
-A:5 製品は [here](https://purchase.aspose.com/buy) から購入できます。
-
 ## よくある質問
 
 **Q: 生成した PNG を Web アプリケーションで使用できますか？**  

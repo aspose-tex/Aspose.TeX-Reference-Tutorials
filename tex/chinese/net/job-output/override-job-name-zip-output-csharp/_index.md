@@ -145,13 +145,6 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 
 您现在拥有一个完整的、可投入生产的示例，**将 TeX 转换为 PDF**、**覆盖作业名称**，并 **将终端输出写入 ZIP 存档**，全部使用 Aspose.TeX for .NET 实现。欢迎根据自己的工作流调整路径、作业名称或输出格式。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-21  
@@ -159,3 +152,10 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

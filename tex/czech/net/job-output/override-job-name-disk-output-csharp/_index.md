@@ -15,33 +15,33 @@ weight: 10
 
 # Zachycení výstupu konzole C# – Přepsání názvu úlohy a zápis výstupu terminálu na disk (C#)
 
-## Introduction
+## Úvod
 
-V tomto krok‑za‑krokem průvodci se naučíte **jak zachytit výstup konzole C#** při práci s Aspose.TeX pro .NET. Přepsáním názvu úlohy a nasměrováním výstupu terminálu do souboru získáte plnou kontrolu nad pipeline zpracování TeX—ideální pro automatizované sestavení, scénáře CI/CD nebo jakoukoli situaci, kdy potřebujete zaznamenat proud konzole pro pozdější analýzu.
+V tomto krok‑za‑krokem průvodci se naučíte **jak zachytit výstup konzole C#** při práci s Aspose.TeX pro .NET. Přeím název úlohy a nasměrováním výstupu terminálu do souboru získáte plnou kontrolu nad pipeline zpracování TeX—ideální pro automatizované sestavení, scénáře CI/CD nebo jakoukoliv situaci, kdy potřebujete zaznamenat hrdou konzole pro pozdější analýzu.
 
-## Quick Answers
-- **Co znamená „capture console output C#“?** Přesměrovává standardní proud terminálu generovaný Aspose.TeX do souboru, který určíte.  
-- **Proč přepsat název úlohy?** Přepsání zajišťuje předvídatelná jména souborů a zabraňuje kolizím při spuštění více úloh.  
-- **Která třída Aspose.TeX zapisuje výstup?** `OutputFileTerminal` (používá se přes `options.TerminalOut`).  
-- **Mohu nastavit vlastní vstupní složku TeX?** Ano — použijte `options.InputWorkingDirectory` k **nastavení vstupního adresáře TeX**.  
+## Rychlé odpovědi
+- **Co znamená „capture console output C#“?** Přesměrovává standardní proudový terminál generovaný Aspose.TeX do souboru, který určíte.
+- **Proč přepsat název úlohy?** Přepsání zajišťuje předvídatelná jména souborů a kolizím při spuštění více úloh.
+- **Která třída Aspose.TeX zapisuje výstup?** `OutputFileTerminal` (používá se přes `options.TerminalOut`).
+- **Mohu nastavit vlastní vstupní složku TeX?** Ano— použijte `options.InputWorkingDirectory` k **nastavení vstupního adresáře TeX**.
 - **Je tento přístup kompatibilní s .NET Core?** Naprosto; stejné API funguje jak na .NET Framework, tak na .NET Core.
 
-## What is “capture console output C#” in the context of Aspose.TeX?
+## Co je „zachycení výstupu konzoly C#“ v kontextu Aspose.TeX?
 Zachycení výstupu konzole znamená převzít vše, co by se normálně zobrazilo v okně terminálu (logovací zprávy, varování, podrobnosti o kompilaci) a zapsat to do trvalého souboru. To je zvláště užitečné při ladění rozsáhlých projektů TeX nebo při integraci zpracování TeX do automatizovaných pracovních postupů.
 
-## Why override the job name and write terminal output to a file?
-- **Předvídatelná jména souborů:** Přepsání názvu úlohy vám umožní rozhodnout o základním jménu všech generovaných souborů, což usnadňuje psaní skriptů pro následné zpracování.  
-- **Auditovatelnost:** Uložení logu terminálu vám poskytuje kompletní auditní stopu procesu kompilace TeX.  
-- **Paralelní provádění:** Při současném spouštění několika úloh unikátní názvy úloh zabraňují kolizím souborů.  
+## Proč přepisovat název úlohy a zapisovat výstup terminálu do souboru?
+- **Předvídatelná jména souborů:** Přepsání názvu úlohy vám umožní zvolit o základní jménu všech generovaných souborů, což tvoří psaní skriptů pro následné zpracování.
+- **Auditovatelnost:** Uložení logu terminálu vám poskytuje kompletní auditní stopu procesu kompilace TeX.
+- **Paralelní provádění:** Při současném spouštění několika úloh unikátních názvů úloh zabraňují kolize souborů.
 
-## Prerequisites
+## Předpoklady
 
-- Aspose.TeX pro .NET knihovna: Ujistěte se, že máte nainstalovanou knihovnu Aspose.TeX pro .NET. Můžete si ji stáhnout z [webu Aspose.TeX](https://releases.aspose.com/tex/net/).
+- Aspose.TeX pro .NET knihovna: zatím se, že máte nainstalovanou knihovnu Aspose.TeX pro .NET. Můžete si ji stáhnout z [webu Aspose.TeX](https://releases.aspose.com/tex/net/).
 - .NET vývojové prostředí: Mějte funkční .NET vývojové prostředí, včetně integrovaného vývojového prostředí (IDE) jako je Visual Studio.
 - Základní znalosti C#: Znalost základů programovacího jazyka C#.
-- Vstupní a výstupní adresáře: Připravte vstupní a výstupní adresáře pro vaše soubory TeX.
+- Vstupní a výstupní adresář: Připravte vstupní a výstupní adresář pro vaše soubory TeX.
 
-## Import Namespaces
+## Import jmenných prostorů
 
 Ve vašem C# kódu se ujistěte, že zahrnujete potřebné jmenné prostory pro přístup k funkcím Aspose.TeX:
 
@@ -50,7 +50,7 @@ using Aspose.TeX.IO;
 using Aspose.TeX.Presentation.Xps;
 ```
 
-## Step 1: Create Conversion Options
+## Krok 1: Vytvořte možnosti převodu
 
 Nejprve vytvoříme instanci `TeXOptions`, která Aspose.TeX informuje, že běžíme ve scénáři konzolové aplikace.
 
@@ -60,7 +60,7 @@ TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
 
 Vytvořte `TeXOptions` s `ConsoleAppOptions`, přičemž jako `TeXConfig` specifikujete `ObjectTeX`.
 
-## Step 2: Specify Job Name (Override Default)
+## Krok 2: Zadejte název úlohy (Přepsat výchozí nastavení)
 
 Přepsání názvu úlohy nám dává kontrolu nad základním jménem všech generovaných artefaktů.
 
@@ -70,7 +70,7 @@ options.JobName = "overridden-job-name";
 
 Zadejte název úlohy, aby přepsal výchozí jméno.
 
-## Step 3: Set TeX Input Directory
+## Krok 3: Nastavte vstupní adresář TeX
 
 Řekněte Aspose.TeX, kde najde vaše zdrojové soubory `.tex`. Toto je krok **nastavení vstupního adresáře TeX**.
 
@@ -80,7 +80,7 @@ options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directo
 
 Nastavte pracovní vstupní adresář pro vaše soubory TeX.
 
-## Step 4: Specify Output Working Directory
+## Krok 4: Zadejte pracovní adresář pro výstup
 
 Definujte, kam budou uloženy zpracované soubory a zachycený log konzole.
 
@@ -90,7 +90,7 @@ options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Dire
 
 Definujte výstupní pracovní adresář pro uložení zpracovaných souborů TeX.
 
-## Step 5: Write Terminal Output to File
+## Krok 5: Zapište výstup terminálu do souboru
 
 Nyní nasměrujeme proud konzole do fyzického souboru ve výstupním adresáři. Tím splníme požadavek **zápisu výstupu terminálu do souboru**.
 
@@ -100,7 +100,7 @@ options.TerminalOut = new OutputFileTerminal(options.OutputWorkingDirectory);
 
 Nakonfigurujte výstup terminálu tak, aby byl zapisován do souboru ve výstupním adresáři.
 
-## Step 6: Run the Job
+## Krok 6: Spusťte úlohu
 
 Nakonec vytvoříme `TeXJob` s přepsaným názvem úlohy, výstupním zařízením XPS a konfigurovanými možnostmi. Spuštěním úlohy se vygeneruje soubor XPS a zachytí log konzole.
 
@@ -111,45 +111,45 @@ job.Run();
 
 Vytvořte `TeXJob`, specifikujte název úlohy, výstupní zařízení (`XpsDevice`) a možnosti. Nakonec úlohu spusťte.
 
-## Common Issues & Troubleshooting
+## Běžné problémy a odstraňování problémů
 
-| Symptom | Likely Cause | Fix |
+| Symptom | Pravděpodobná příčina | Opravit |
 |---------|--------------|-----|
 | Žádný výstupní soubor nebyl vytvořen | Cesta k výstupnímu adresáři je nesprávná nebo chybí oprávnění k zápisu | Ověřte, že `options.OutputWorkingDirectory` ukazuje na platný adresář a proces má právo zapisovat. |
-| Log terminálu je prázdný | `TerminalOut` není nastaven nebo je později přepsán | Ujistěte se, že `options.TerminalOut = new OutputFileTerminal(...);` je vykonáno před `job.Run();`. |
-| Úloha selhala s chybou „soubor nenalezen“ | Vstupní adresář není nastaven správně | Zkontrolujte znovu cestu předanou do `InputFileSystemDirectory` a že `.tex` soubory v tomto adresáři existují. |
+| Log terminálu je prázdný | `TerminalOut` není nastaven nebo je později přepsán | určitě se, že `options.TerminalOut = new OutputFileTerminal(...);` je vykonáno před `job.Run();`. |
+| Úloha selhala s chybou „soubor nenalezen“ | Vstupní adresář není nastaven správně | Zkontrolujte znovu cestu předanou do `InputFileSystemDirectory` a že soubory `.tex` v tomto adresáři existují. |
 
-## Frequently Asked Questions
+## Často kladené otázky
 
-### Q1: Can I use Aspose.TeX for .NET with other .NET libraries?
+### Q1: Mohu používat Aspose.TeX pro .NET s jinými knihovnami .NET?
 
 Ano, Aspose.TeX pro .NET lze bez problémů integrovat s dalšími .NET knihovnami.
 
-### Q2: Is there a free trial available for Aspose.TeX for .NET?
+### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.TeX pro .NET?
 
 Ano, můžete si stáhnout verzi zdarma [zde](https://releases.aspose.com/).
 
-### Q3: How can I get support for Aspose.TeX for .NET?
+### Q3: Jak mohu získat podporu pro Aspose.TeX pro .NET?
 
-Navštivte [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) pro komunitní podporu.
+Navštivte [fórum Aspose.TeX](https://forum.aspose.com/c/tex/47) pro komunitní podporu.
 
-### Q4: Are temporary licenses available for Aspose.TeX for .NET?
+### Q4: Jsou dostupné dočasné licence pro Aspose.TeX pro .NET?
 
 Ano, můžete získat dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Where can I find the documentation for Aspose.TeX for .NET?
+### Q5: Kde najdu dokumentaci k Aspose.TeX pro .NET?
 
 Dokumentace je k dispozici [zde](https://reference.aspose.com/tex/net/).
 
-## Conclusion
+## Závěr
 
-Gratulujeme! Úspěšně jste se naučili **zachytit výstup konzole C#** přepsáním názvu úlohy, nastavením vstupního adresáře TeX a zápisem výstupu terminálu do souboru pomocí Aspose.TeX pro .NET. Tato technika zjednodušuje logování, zlepšuje sledovatelnost a činí automatizované pipeline zpracování TeX robustnějšími.
+Gratulujeme! Úspěšně jste se naučili **zachytit výstup konzole C#** přepsáním názvu úlohy, nastavením vstupního adresáře TeX a zápisem výstupu terminálu do souboru pomocí Aspose.TeX pro .NET. Tato technika zjednodušuje logování, zlepšujeelnost a činí automatizované pipeline zpracování TeX robustnějšími.
 
 ---
 
-**Poslední aktualizace:** 2025-12-21  
-**Testováno s:** Aspose.TeX 24.11 for .NET  
-**Autor:** Aspose  
+**Poslední aktualizace:** 21.12.2025
+**Testováno s:** Aspose.TeX 24.11 pro .NET
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

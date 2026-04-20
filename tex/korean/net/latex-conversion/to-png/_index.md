@@ -108,28 +108,6 @@ new TeXJob(Path.Combine("Your Input Directory", "hello-world.ltx"), new ImageDev
 
 이 튜토리얼에서는 Aspose.TeX for .NET을 애플리케이션에 원활히 통합하여 LaX를 PNG로 변환하는 핵심 단계를 다루었습니다. 이 강력한 도구로 문서 처리 기능을 한층 강화하세요.
 
-## FAQ
-
-### Q1: LaTeX 문서를 다른 이미지 형식으로도 변환할 수 있나요?
-
-A1: 네, 가능합니다. Aspose.TeX는 JPEG, TIFF, BMP 등 다양한 출력 형식을 지원합니다. 옵션만 적절히 조정하면 됩니다.
-
-### Q2: Aspose.TeX for .NET 문서는 어디에서 찾을 수 있나요?
-
-A2: 문서는 [여기](https://reference.aspose.com/tex/net/)에서 확인할 수 있습니다.
-
-### Q3: 무료 체험판을 이용할 수 있나요?
-
-A3: 네, 무료 체험판은 [여기](https://releases.aspose.com/)에서 이용할 수 있습니다.
-
-### Q4: Aspose.TeX for .NET에 대한 지원은 어떻게 받나요?
-
-A4: 지원 포럼은 [여기](https://forum.aspose.com/c/tex/47)에서 이용하세요.
-
-### Q5: Aspose.TeX for .NET을 구매하려면 어디로 가야 하나요?
-
-A:5 제품 구매는 [여기](https://purchase.aspose.com/buy)에서 가능합니다.
-
 ## 자주 묻는 질문
 
 **Q: 생성된 PNG를 웹 애플리케이션에서 사용할 수 있나요?**  

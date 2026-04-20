@@ -140,13 +140,6 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 
 Τώρα έχετε ένα πλήρες, έτοιμο για παραγωγή παράδειγμα που **μετατρέπει TeX σε PDF**, **παρακάμπτει το όνομα εργασίας**, και **γράφει την έξοδο τερματικού σε αρχείο ZIP** χρησιμοποιώντας Aspose.TeX for .NET. Μη διστάσετε να προσαρμόσετε τις διαδρομές, το όνομα εργασίας ή τη μορφή εξόδου ώστε να ταιριάζουν στη δική σας ροή εργασίας.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-21  
@@ -154,3 +147,10 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

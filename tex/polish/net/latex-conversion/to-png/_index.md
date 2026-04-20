@@ -109,28 +109,6 @@ I to wszystko! Pomyślnie skonwertowałeś dokument LaTeX do PNG przy użyciu As
 
 W tym tutorialu omówiliśmy kluczowe kroki, które pozwalają płynnie zintegrować Aspose.TeX dla .NET w Twoich aplikacjach w celu konwersji LaTeX do PNG. Rozszerz możliwości przetwarzania dokumentów dzięki temu potężnemu narzędziu.
 
-## FAQ
-
-### Q1: Czy mogę konwertować dokumenty LaTeX do innych formatów obrazów?
-
-A1: Tak, możesz. Aspose.TeX obsługuje różne formaty wyjściowe, takie jak JPEG, TIFF i BMP. Wystarczy odpowiednio dostosować opcje.
-
-### Q2: Gdzie mogę znaleźć dokumentację Aspose.TeX dla .NET?
-
-A2: Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/tex/net/).
-
-### Q3: Czy dostępna jest darmowa wersja próbna?
-
-A3: Tak, darmową wersję próbną możesz wypróbować [tutaj](https://releases.aspose.com/).
-
-### Q4: Jak mogę uzyskać wsparcie dla Aspose.TeX dla .NET?
-
-A4: Odwiedź nasze forum wsparcia [tutaj](https://forum.aspose.com/c/tex/47), aby uzyskać pomoc.
-
-### Q5: Gdzie mogę kupić Aspose.TeX dla .NET?
-
-A5: Produkt można zakupić [tutaj](https://purchase.aspose.com/buy).
-
 ## Najczęściej zadawane pytania
 
 **P: Czy mogę używać wygenerowanego PNG w aplikacji internetowej?**  

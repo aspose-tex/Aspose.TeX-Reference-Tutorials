@@ -110,28 +110,6 @@ Neste tutorial, cobrimos as etapas essenciais para integrar perfeitamente o Aspo
 
 ## Perguntas Frequentes
 
-### Q1: Posso converter documentos LaTeX para outros formatos de imagem?
-
-A1: Sim, você pode. O Aspose.TeX suporta vários formatos de saída como JPEG, TIFF e BMP. Basta ajustar as opções conforme necessário.
-
-### Q2: Onde posso encontrar a documentação do Aspose.TeX para .NET?
-
-A2: A documentação está disponível [aqui](https://reference.aspose.com/tex/net/).
-
-### Q3: Existe uma versão de teste gratuita disponível?
-
-A3: Sim, você pode experimentar uma versão de teste gratuita [aqui](https://releases.aspose.com/).
-
-### Q4: Como posso obter suporte para o Aspose.TeX para .NET?
-
-A4: Visite nosso fórum de suporte [aqui](https://forum.aspose.com/c/tex/47) para assistência.
-
-### Q5: Onde posso comprar o Aspose.TeX para .NET?
-
-A5: Você pode comprar o produto [aqui](https://purchase.aspose.com/buy).
-
-## Perguntas Frequentes
-
 **Q: Posso usar o PNG gerado em uma aplicação web?**  
 A: Absolutamente. Uma vez que o PNG esteja salvo, você pode servi‑lo via um controlador MVC, incorporá‑lo em visualizações Razor ou retorná‑lo de um endpoint de API.
 

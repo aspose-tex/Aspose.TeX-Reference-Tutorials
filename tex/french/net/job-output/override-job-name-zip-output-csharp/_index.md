@@ -140,13 +140,6 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 
 Vous disposez maintenant d’un exemple complet, prêt pour la production, qui **convertit TeX en PDF**, **remplace le nom du travail** et **écrit la sortie du terminal dans une archive ZIP** en utilisant Aspose.TeX pour .NET. N’hésitez pas à adapter les chemins, le nom du travail ou le format de sortie pour correspondre à votre propre flux de travail.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-12-21  
@@ -154,3 +147,10 @@ Vous disposez maintenant d’un exemple complet, prêt pour la production, qui *
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

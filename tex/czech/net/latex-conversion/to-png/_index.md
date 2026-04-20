@@ -110,28 +110,6 @@ V tomto tutoriálu jsme pokryli základní kroky pro bezproblémovou integraci A
 
 ## Často kladené otázky
 
-### Q1: Mohu převádět LaTeX dokumenty do jiných obrazových formátů?
-
-Ano, můžete. Aspose.TeX podporuje různé výstupní formáty jako JPEG, TIFF a BMP. Stačí upravit možnosti podle potřeby.
-
-### Q2: Kde najdu dokumentaci k Aspose.TeX pro .NET?
-
-Dokumentace je k dispozici [zde](https://reference.aspose.com/tex/net/).
-
-### Q3: Je k dispozici bezplatná zkušební verze?
-
-Ano, můžete si vyzkoušet bezplatnou verzi [zde](https://releases.aspose.com/).
-
-### Q4: Jak mohu získat podporu pro Aspose.TeX pro .NET?
-
-Navštivte naše fórum podpory [zde](https://forum.aspose.com/c/tex/47) pro pomoc.
-
-### Q5: Kde mohu zakoupit Aspose.TeX pro .NET?
-
-A:5 Můžete zakoupit produkt [zde](https://purchase.aspose.com/buy).
-
-## Často kladené otázky
-
 **Q: Mohu použít vygenerovaný PNG ve webové aplikaci?**  
 A: Ano. Jakmile je PNG uložen, můžete jej servírovat přes MVC kontroler, vložit do Razor view nebo vrátit z API endpointu.
 

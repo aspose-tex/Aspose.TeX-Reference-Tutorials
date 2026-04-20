@@ -138,15 +138,15 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 
 これで **TeX を PDF に変換し**、**ジョブ名を上書き**、そして **端末出力を ZIP アーカイブに書き込む** 完全な実装例が完成しました。自分のワークフローに合わせてパス、ジョブ名、出力形式などを自由に調整してください。
 
+---
+
+**最終更新日:** 2025-12-21  
+**テスト済み:** Aspose.TeX 24.12 for .NET  
+**作成者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-21  
-**テスト済み:** Aspose.TeX 24.12 for .NET  
-**作成者:** Aspose

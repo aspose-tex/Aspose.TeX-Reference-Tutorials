@@ -140,13 +140,6 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 
 Теперь у вас есть полностью готовый к продакшн пример, который **преобразует TeX в PDF**, **переопределяет имя задания** и **записывает вывод терминала в ZIP‑архив** с помощью Aspose.TeX for .NET. Не стесняйтесь адаптировать пути, имя задания или формат вывода под ваш собственный рабочий процесс.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-21  
@@ -154,3 +147,10 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

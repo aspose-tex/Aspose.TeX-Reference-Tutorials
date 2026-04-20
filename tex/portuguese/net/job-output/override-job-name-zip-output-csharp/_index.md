@@ -139,15 +139,15 @@ Esta chamada libera quaisquer dados pendentes e fecha corretamente o ZIP de saí
 
 Agora você tem um exemplo completo e pronto para produção que **converte TeX para PDF**, **substitui o nome do job** e **grava a saída do terminal em um arquivo ZIP** usando Aspose.TeX for .NET. Sinta‑se à vontade para adaptar os caminhos, o nome do job ou o formato de saída para atender ao seu fluxo de trabalho.
 
+---
+
+**Última atualização:** 2025-12-21  
+**Testado com:** Aspose.TeX 24.12 for .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-21  
-**Testado com:** Aspose.TeX 24.12 for .NET  
-**Autor:** Aspose

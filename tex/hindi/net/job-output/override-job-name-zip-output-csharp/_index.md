@@ -139,13 +139,6 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 
 आपके पास अब एक पूर्ण, प्रोडक्शन‑रेडी उदाहरण है जो **TeX को PDF में बदलता है**, **जॉब नाम ओवरराइड करता है**, और **Aspose.TeX for .NET** का उपयोग करके टर्मिनल आउटपुट को ZIP आर्काइव में लिखता है। अपने वर्कफ़्लो के अनुसार पाथ, जॉब नाम, या आउटपुट फ़ॉर्मेट को अनुकूलित करने में संकोच न करें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अद्यतन:** 2025-12-21  
@@ -153,3 +146,10 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

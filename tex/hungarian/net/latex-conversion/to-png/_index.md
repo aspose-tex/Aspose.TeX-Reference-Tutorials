@@ -109,28 +109,6 @@ new TeXJob(Path.Combine("Your Input Directory", "hello-world.ltx"), new ImageDev
 
 Ebben a tutorialban áttekintettük a legfontosabb lépéseket, amelyekkel zökkenőmentesen integrálhatod az Aspose.TeX for .NET-et alkalmazásaidba a LaTeX‑ről PNG‑re konvertáláshoz. Bővítsd dokumentumfeldolgozási képességeidet ezzel a hatékony eszközzel.
 
-## GyIK
-
-### Q1: Konvertálhatok LaTeX dokumentumokat más képfájl‑formátumokra is?
-
-A1: Igen. Az Aspose.TeX támogatja a JPEG, TIFF és BMP formátumokat is. Egyszerűen állítsd be a megfelelő opciókat.
-
-### Q2: Hol találom az Aspose.TeX for .NET dokumentációját?
-
-A2: A dokumentáció elérhető [itt](https://reference.aspose.com/tex/net/).
-
-### Q3: Van ingyenes próba verzió?
-
-A3: Igen, egy ingyenes próbát itt érhetsz el [itt](https://releases.aspose.com/).
-
-### Q4: Hogyan kaphatok támogatást az Aspose.TeX for .NET‑hez?
-
-A4: Látogasd meg a támogatási fórumunkat [itt](https://forum.aspose.com/c/tex/47) segítségért.
-
-### Q5: Hol vásárolhatom meg az Aspose.TeX for .NET‑et?
-
-A5: A terméket itt vásárolhatod meg [itt](https://purchase.aspose.com/buy).
-
 ## Gyakran feltett kérdések
 
 **K: Használhatom a generált PNG‑t webalkalmazásban?**  

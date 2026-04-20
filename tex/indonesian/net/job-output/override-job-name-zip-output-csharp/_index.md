@@ -139,15 +139,15 @@ new TeXJob("hello-world", new PdfDevice(), options).Run();
 
 Anda sekarang memiliki contoh lengkap yang siap produksi yang **mengonversi TeX ke PDF**, **menimpa nama pekerjaan**, dan **menulis output terminal ke dalam arsip ZIP** menggunakan Aspose.TeX untuk .NET. Silakan sesuaikan jalur, nama pekerjaan, atau format output sesuai alur kerja Anda.
 
+---
+
+**Terakhir Diperbarui:** 2025-12-21  
+**Diuji Dengan:** Aspose.TeX 24.12 untuk .NET  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-21  
-**Diuji Dengan:** Aspose.TeX 24.12 untuk .NET  
-**Penulis:** Aspose
