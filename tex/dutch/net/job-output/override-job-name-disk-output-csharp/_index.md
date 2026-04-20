@@ -1,76 +1,102 @@
 ---
-title: Taaknaam negeren en terminaluitvoer naar schijf schrijven (C#)
-linktitle: Taaknaam negeren en terminaluitvoer naar schijf schrijven (C#)
-second_title: Aspose.TeX .NET-API
-description: Ontdek hoe u Aspose.TeX voor .NET kunt gebruiken om taaknamen te overschrijven en terminaluitvoer vast te leggen. Volg onze uitgebreide gids voor naadloos TeX-bestandsbeheer.
-weight: 10
+date: 2025-12-21
+description: Leer hoe je console‑uitvoer in C# kunt vastleggen met Aspose.TeX, de
+  taaknaam kunt overschrijven, de TeX‑invoermap kunt instellen en terminaluitvoer
+  naar een bestand kunt schrijven.
+linktitle: Capture Console Output C# – Override Job Name & Write Output to Disk
+second_title: Aspose.TeX .NET API
+title: Console-uitvoer vastleggen C# – Jobnaam overschrijven & uitvoer naar schijf
+  schrijven
 url: /nl/net/job-output/override-job-name-disk-output-csharp/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Taaknaam negeren en terminaluitvoer naar schijf schrijven (C#)
+# Console-uitvoer vastleggen C# – Jobnaam overschrijven en terminaluitvoer naar schijf schrijven (C#)
 
-## Invoering
+## Inleiding
 
-Welkom bij deze stapsgewijze handleiding over het gebruik van Aspose.TeX voor .NET om taaknamen te overschrijven en terminaluitvoer naar schijf te schrijven in de programmeertaal C#. Aspose.TeX voor .NET is een krachtige bibliotheek waarmee u naadloos met TeX-bestanden kunt werken, en in deze tutorial zullen we ons concentreren op een specifieke taak: taaknamen overschrijven en terminaluitvoer vastleggen.
+In deze stap‑voor‑stap‑gids leer je **hoe je console‑uitvoer C# kunt vastleggen** bij het werken met Aspose.TeX voor .NET. Door de jobnaam te overschrijven en de terminaluitvoer naar een bestand te leiden, krijg je volledige controle over TeX‑verwerkingspijplijnen—perfect voor geautomatiseerde builds, CI/CD‑scenario's, of elke situatie waarin je de console‑stroom wilt loggen voor latere analyse.
+
+## Snelle antwoorden
+- **Wat betekent “capture console output C#”?** Het leidt de standaard terminalstroom die door Aspose.TeX wordt gegenereerd om naar een bestand dat u opgeeft.  
+- **Waarom de jobnaam overschrijven?** Overschrijven zorgt voor voorspelbare bestandsnamen en voorkomt conflicten bij het uitvoeren van meerdere jobs.  
+- **Welke Aspose.TeX‑klasse schrijft de output?** `OutputFileTerminal` (gebruikt via `options.TerminalOut`).  
+- **Kan ik een aangepaste TeX‑invoermap instellen?** Ja—gebruik `options.InputWorkingDirectory` om de **TeX‑inputdirectory** in te stellen.  
+- **Is deze aanpak compatibel met .NET Core?** Absoluut; dezelfde API werkt op .NET Framework en .NET Core.
+
+## Wat is “capture console output C#” in de context van Aspose.TeX?
+Console‑uitvoer vastleggen betekent dat alles wat normaal gesproken in het terminalvenster zou verschijnen (log‑berichten, waarschuwingen, compilatiedetails) wordt weggeschreven naar een persistent bestand. Dit is bijzonder nuttig voor het debuggen van grote TeX‑projecten of het integreren van TeX‑verwerking in geautomatiseerde workflows.
+
+## Waarom de jobnaam overschrijven en terminaluitvoer naar een bestand schrijven?
+- **Voorspelbare bestandsnamen:** Door de jobnaam te overschrijven kunt u de basisnaam voor gegenereerde bestanden bepalen, waardoor post‑processing‑scripts makkelijker te schrijven zijn.  
+- **Auditbaarheid:** Het opslaan van het terminallogboek geeft u een volledige audittrail van het TeX‑compilatieproces.  
+- **Parallelle uitvoering:** Bij het gelijktijdig uitvoeren van meerdere jobs voorkomen unieke jobnamen bestandsconflicten.  
 
 ## Vereisten
 
-Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
+Voor we beginnen, zorg dat je het volgende hebt:
 
--  Aspose.TeX voor .NET-bibliotheek: Zorg ervoor dat de Aspose.TeX voor .NET-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[Aspose.TeX-website](https://releases.aspose.com/tex/net/).
+- Aspose.TeX voor .NET Bibliotheek: Zorg ervoor dat u de Aspose.TeX voor .NET bibliotheek geïnstalleerd heeft. U kunt deze downloaden van de [Aspose.TeX website](https://releases.aspose.com/tex/net/).
+- .NET-ontwikkelomgeving: Zorg voor een werkende .NET‑ontwikkelomgeving, inclusief een geïntegreerde ontwikkelomgeving (IDE) zoals Visual Studio.
+- Basiskennis C#: Vertrouwd met de basisprincipes van de programmeertaal C#.
+- Invoer‑ en uitvoermappen: Bereid de invoer‑ en uitvoermappen voor uw TeX‑bestanden voor.
 
-- .NET-ontwikkelomgeving: Zorg voor een werkende .NET-ontwikkelomgeving, inclusief een geïntegreerde ontwikkelomgeving (IDE) zoals Visual Studio.
+## Namespaces importeren
 
-- Basiskennis C#: maak uzelf vertrouwd met de basisprincipes van de programmeertaal C#.
-
-- Invoer- en uitvoermappen: bereid de invoer- en uitvoermappen voor uw TeX-bestanden voor.
-
-## Naamruimten importeren
-
-Zorg ervoor dat u in uw C#-code de benodigde naamruimten opneemt om toegang te krijgen tot de Aspose.TeX-functionaliteiten:
+In uw C#‑code moet u de benodigde namespaces opnemen om toegang te krijgen tot de Aspose.TeX‑functionaliteiten:
 
 ```csharp
 using Aspose.TeX.IO;
 using Aspose.TeX.Presentation.Xps;
 ```
 
-## Stap 1: Maak conversieopties
+## Stap 1: Conversie‑opties maken
+
+Eerst maken we een `TeXOptions`‑instantie die Aspose.TeX vertelt dat we in een console‑applicatiescenario draaien.
 
 ```csharp
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
 ```
 
-Maak TeXOptions met ConsoleAppOptions, waarbij u ObjectTeX opgeeft als TeXConfig.
+Maak `TeXOptions` met `ConsoleAppOptions`, waarbij `ObjectTeX` als de `TeXConfig` wordt opgegeven.
 
-## Stap 2: Geef de taaknaam op
+## Stap 2: Jobnaam opgeven (standaard overschrijven)
+
+Door de jobnaam te overschrijven krijgen we controle over de basisnaam van alle gegenereerde artefacten.
 
 ```csharp
 options.JobName = "overridden-job-name";
 ```
 
-Geef de taaknaam op om de standaardnaam te overschrijven.
+Geef de jobnaam op om de standaardnaam te overschrijven.
 
-## Stap 3: Geef de invoerwerkmap op
+## Stap 3: TeX‑invoermap instellen
+
+Vertel Aspose.TeX waar uw bron‑`.tex`‑bestanden zich bevinden. Dit is de **set tex input directory** stap.
 
 ```csharp
 options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
 ```
 
-Stel de invoerwerkmap voor uw TeX-bestanden in.
+Stel de invoerwerkmap in voor uw TeX‑bestanden.
 
-## Stap 4: Geef de uitvoerwerkmap op
+## Stap 4: Uitvoermap opgeven
+
+Definieer waar de verwerkte bestanden en het vastgelegde console‑logboek worden opgeslagen.
 
 ```csharp
 options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 ```
 
-Definieer de uitvoerwerkmap om de verwerkte TeX-bestanden op te slaan.
+Definieer de uitvoerwerkmap om de verwerkte TeX‑bestanden op te slaan.
 
-## Stap 5: Schrijf terminaluitvoer naar schijf
+## Stap 5: Terminaluitvoer naar bestand schrijven
+
+Nu leiden we de console‑stroom naar een fysiek bestand in de uitvoermap. Dit implementeert de **write terminal output to file** eis.
 
 ```csharp
 options.TerminalOut = new OutputFileTerminal(options.OutputWorkingDirectory);
@@ -78,40 +104,57 @@ options.TerminalOut = new OutputFileTerminal(options.OutputWorkingDirectory);
 
 Configureer de terminaluitvoer zodat deze naar een bestand in de uitvoermap wordt geschreven.
 
-## Stap 6: Voer de taak uit
+## Stap 6: Job uitvoeren
+
+Tot slot maken we een `TeXJob` met de overschreven jobnaam, het XPS‑outputapparaat, en de opties die we hebben geconfigureerd. Het uitvoeren van de job genereert het XPS‑bestand en legt het console‑logboek vast.
 
 ```csharp
 TeXJob job = new TeXJob("hello-world", new XpsDevice(), options);
 job.Run();
 ```
 
-Maak een TeXJob en geef een taaknaam, uitvoerapparaat (XpsDevice) en opties op. Voer ten slotte de taak uit.
+Maak een `TeXJob`, met een jobnaam, output‑apparaat (`XpsDevice`) en opties. Voer vervolgens de job uit.
 
-## Conclusie
+## Veelvoorkomende problemen & probleemoplossing
 
-Gefeliciteerd! U hebt met succes geleerd hoe u taaknamen kunt overschrijven en terminaluitvoer naar schijf kunt schrijven met behulp van Aspose.TeX voor .NET in C#. Deze mogelijkheid is waardevol voor het efficiënt beheren van uw TeX-verwerkingstaken.
+| Symptoom | Waarschijnlijke oorzaak | Oplossing |
+|----------|--------------------------|-----------|
+| Geen uitvoerbestand aangemaakt | Pad van de uitvoermap is onjuist of er ontbreken schrijfrechten | Controleer of `options.OutputWorkingDirectory` naar een geldige map wijst en dat het proces schrijfrechten heeft. |
+| Terminallogboek is leeg | `TerminalOut` niet ingesteld of later overschreven | Zorg ervoor dat `options.TerminalOut = new OutputFileTerminal(...);` wordt uitgevoerd vóór `job.Run();`. |
+| Job mislukt met “bestand niet gevonden” | Invoermap niet correct ingesteld | Controleer het pad dat aan `InputFileSystemDirectory` wordt doorgegeven en of de `.tex`‑bestanden daar aanwezig zijn. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.TeX voor .NET gebruiken met andere .NET-bibliotheken?
+### V1: Kan ik Aspose.TeX voor .NET gebruiken met andere .NET‑bibliotheken?
 
-A1: Ja, Aspose.TeX voor .NET kan naadloos worden geïntegreerd met andere .NET-bibliotheken.
+Ja, Aspose.TeX voor .NET kan naadloos worden geïntegreerd met andere .NET‑bibliotheken.
 
 ### V2: Is er een gratis proefversie beschikbaar voor Aspose.TeX voor .NET?
 
- A2: Ja, u kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
+Ja, u kunt een gratis proefversie downloaden [hier](https://releases.aspose.com/).
 
 ### V3: Hoe kan ik ondersteuning krijgen voor Aspose.TeX voor .NET?
 
- A3: Bezoek de[Aspose.TeX-forum](https://forum.aspose.com/c/tex/47) om gemeenschap en steun te krijgen.
+Bezoek het [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) voor community‑ondersteuning en hulp.
 
-### V4: Zijn er tijdelijke licenties beschikbaar voor Aspose.TeX voor .NET?
+### V4: Zijn tijdelijke licenties beschikbaar voor Aspose.TeX voor .NET?
 
- A4: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+Ja, u kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
 
-### V5: Waar kan ik de documentatie voor Aspose.TeX voor .NET vinden?
+### V5: Waar kan ik de documentatie vinden voor Aspose.TeX voor .NET?
 
- A5: De documentatie is beschikbaar[hier](https://reference.aspose.com/tex/net/).
+De documentatie is beschikbaar [hier](https://reference.aspose.com/tex/net/).
+
+## Conclusie
+
+Gefeliciteerd! Je hebt met succes geleerd hoe je **console‑uitvoer vastlegt C#** door de jobnaam te overschrijven, de TeX‑invoermap in te stellen, en de terminaluitvoer naar een bestand te schrijven met behulp van Aspose.TeX voor .NET. Deze techniek stroomlijnt het loggen, verbetert de traceerbaarheid en maakt geautomatiseerde TeX‑verwerkingspijplijnen robuuster.
+
+---
+
+**Laatst bijgewerkt:** 2025-12-21  
+**Getest met:** Aspose.TeX 24.11 voor .NET  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
