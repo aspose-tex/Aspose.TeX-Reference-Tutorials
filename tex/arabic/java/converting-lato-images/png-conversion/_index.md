@@ -1,10 +1,10 @@
 ---
-date: 2025-11-29
-description: تعلم كيفية إنشاء PNG من LaTeX في Java باستخدام Aspose.TeX. دليل خطوة
-  بخطوة يغطي تعيين ترخيص Aspose في Java وتكوين دليل الإخراج في Java.
+date: 2026-02-05
+description: تعلم كيفية تعيين الترخيص وإنشاء PNG من LaTeX في Java باستخدام Aspose.TeX.
+  يغطي هذا الدليل خطوة بخطوة تعيين ترخيص Aspose، وتكوين دليل الإخراج، وتغيير دقة PNG.
 linktitle: Generate PNG from LaTeX in Java
 second_title: Aspose.TeX Java API
-title: إنشاء PNG من LaTeX في Java باستخدام Aspose.TeX
+title: كيفية تعيين الترخيص وإنشاء PNG من LaTeX (Java)
 url: /ar/java/converting-lato-images/png-conversion/
 weight: 10
 ---
@@ -15,16 +15,22 @@ weight: 10
 
 # إنشاء PNG من LaTeX في Java باستخدام Aspose.TeX
 
-## مقدمة
+## المقدمة
 
-إذا كنت بحاجة إلى **إنشاء PNG من LaTeX** داخل تطبيق Java، فإن Aspose.TeX يجعل المهمة سهلة. في هذا الدرس سنستعرض كل ما تحتاجه — من ترخيص المكتبة إلى تكوين دليل الإخراج Java — حتى تتمكن من تحويل ملفات مصدر LaTeX إلى صور PNG عالية الجودة ببضع أسطر من الشيفرة.
+إذا كنت بحاجة إلى **إنشاء PNG من LaTeX** داخل تطبيق Java، فإن Aspose.TeX يجعل المهمة سهلة. في هذا الدرس سنستعرض كل ما تحتاجه — من **كيفية ضبط الترخيص** لـ Aspose.TeX إلى تكوين دليل الإخراج Java وضبط جودة الصورة — حتى تتمكن من تحويل ملفات مصدر LaTeX إلى صور PNG عالية الجودة ببضع أسطر من الشيفرة.
 
 ## إجابات سريعة
 - **أي مكتبة تحول LaTeX إلى PNG في Java؟** Aspose.TeX for Java.  
 - **هل أحتاج إلى ترخيص؟** نعم – يجب عليك *set Aspose license Java* قبل تشغيل التحويلات.  
 - **ما نسخة Java المطلوبة؟** JDK 1.8 أو أحدث.  
 - **هل يمكنني اختيار تنسيق صورة آخر؟** بالتأكيد – JPEG و BMP و TIFF مدعومة أيضًا.  
-- **أين يتم حفظ ملفات PNG؟** تقوم بتحديد *output directory Java* في خيارات التحويل.
+- **أين تُحفظ ملفات PNG؟** تقوم بتحديد *output directory Java* في خيارات التحويل.
+
+## كيفية ضبط الترخيص لـ Aspose.TeX (Java)
+
+ضبط الترخيص هو الخطوة الأولى التي تفتح جميع الوظائف وتزيل علامات مائية التقييم. استدعاء `Utils.setLicense()` يحمل ملف `.lic` الذي حصلت عليه من Aspose. ضع ملف الترخيص في أي مكان على classpath (مثلاً في `src/main/resources`) واستدعِ الطريقة قبل بدء أي عملية تحويل.
+
+> **نصيحة احترافية:** إذا نقلت ملف الترخيص، قم بتحديث المسار داخل `Utils.setLicense()` وفقًا لذلك؛ وإلا ستظهر لك رسالة خطأ الترخيص أثناء التشغيل.
 
 ## ما هو “إنشاء PNG من LaTeX”؟
 
@@ -32,14 +38,22 @@ weight: 10
 
 ## لماذا نستخدم Aspose.TeX لهذه المهمة؟
 
-- **لا توجد تبعيات خارجية** – لا حاجة لتثبيت TeX محلي.  
-- **تحكم كامل في العرض** – DPI، عمق اللون، وتنسيق الصورة قابلة للتكوين.  
+- **عدم وجود تبعيات خارجية** – لا حاجة لتثبيت TeX محلي.  
+- **تحكم كامل في العرض** – DPI وعمق اللون وتنسيق الصورة قابلة للتكوين.  
 - **متعدد المنصات** – يعمل على أي نظام تشغيل يدعم Java.  
 - **جاهز للمؤسسات** – يتضمن ترخيصًا قويًا ودعمًا.
 
+## تغيير دقة PNG (اختياري)
+
+إذا لم تكن الدقة الافتراضية تلبي متطلبات الجودة لديك، يمكنك تعديلها عبر `PngSaveOptions`. على سبيل المثال، ضبط `setResolution(300)` سيعطيك مخرجات بدقة 300 DPI، وهو مثالي للرسومات الجاهزة للطباعة.
+
+## تعيين مجلد الإخراج (output directory java)
+
+يمكنك توجيه الملفات المُنشأة إلى أي مجلد تريده. يتم التحكم بذلك عبر طريقة `setOutputWorkingDirectory`. تأكد من وجود المجلد وأن عملية Java لديها صلاحيات كتابة.
+
 ## المتطلبات المسبقة
 
-- **Aspose.TeX for Java** – قم بتنزيله من [Aspose.TeX Java Documentation](https://reference.aspose.com/tex/java/).  
+- **Aspose.TeX for Java** – حمّل من [Aspose.TeX Java Documentation](https://reference.aspose.com/tex/java/).  
 - **Java Development Kit (JDK) 1.8+** – تأكد من أن `java -version` يُظهر 1.8 أو أحدث.  
 - **ترخيص Aspose.TeX صالح** – ستستخدم طريقة `set Aspose license Java` لتفعيلها.
 
@@ -65,9 +79,9 @@ import com.aspose.tex.rendering.TiffSaveOptions;
 import util.Utils;
 ```
 
-### الخطوة 1: تعيين ترخيص Aspose (set Aspose license Java)
+### الخطوة 1: ضبط ترخيص Aspose (set Aspose license Java)
 
-قبل أن يتم أي تحويل، يجب عليك تسجيل الترخيص الخاص بك. هذه الخطوة تمنع علامات مائية التقييم وتفتح جميع الوظائف.
+قبل أن يتم أي تحويل، يجب عليك تسجيل ترخيصك. هذه الخطوة تمنع علامات مائية التقييم وتفتح جميع الوظائف.
 
 ```java
 Utils.setLicense();
@@ -83,7 +97,7 @@ TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectLaTeX());
 
 ### الخطوة 3: تحديد دليل الإخراج (output directory Java)
 
-أخبر Aspose.TeX أين يكتب ملفات PNG المُولدة. استبدل العنصر النائب بالمسار المطلق أو النسبي الذي تفضله.
+أخبر Aspose.TeX أين يكتب ملفات PNG المُنشأة. استبدل العنصر النائب بالمسار المطلق أو النسبي الذي تفضله.
 
 ```java
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
@@ -91,7 +105,7 @@ options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Dir
 
 ### الخطوة 4: تهيئة خيارات حفظ PNG
 
-اختر PNG كتنسيق الصورة المستهدف. يمكنك تعديل الدقة، وإزالة التعرجات، وعمق اللون عبر `PngSaveOptions` إذا لزم الأمر.
+اختر PNG كتنسيق الصورة المستهدف. يمكنك ضبط الدقة، وإزالة التعرجات، وعمق اللون عبر `PngSaveOptions` إذا لزم الأمر.
 
 ```java
 options.setSaveOptions(new PngSaveOptions());
@@ -109,15 +123,15 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 
 | المشكلة | السبب المحتمل | الحل |
 |---------|--------------|----------|
-| **عدم ظهور ملفات PNG** | مسار دليل الإخراج غير صحيح أو يفتقر إلى أذونات الكتابة. | تحقق من المسار الممرّر إلى `OutputFileSystemDirectory` وتأكد من أن عملية Java يمكنها الكتابة إلى ذلك المجلد. |
-| **خطأ في الترخيص** | `Utils.setLicense()` لم تُستدعَ أو ملف الترخيص غير موجود. | ضع ملف الترخيص في موقع يمكن الوصول إليه عبر classpath وتحقق مرة أخرى من تنفيذ الطريقة. |
-| **صور منخفضة الدقة** | قيمة DPI الافتراضية منخفضة جدًا. | أنشئ كائن `PngSaveOptions` واضبط `setResolution(300)` قبل تمريره إلى `options.setSaveOptions()`. |
+| **لا تظهر ملفات PNG** | مسار دليل الإخراج غير صحيح أو يفتقر إلى صلاحيات الكتابة. | تحقق من المسار الممرّر إلى `OutputFileSystemDirectory` وتأكد من أن عملية Java يمكنها الكتابة إلى ذلك المجلد. |
+| **خطأ في الترخيص** | `Utils.setLicense()` لم يتم استدعاؤه أو ملف الترخيص غير موجود. | ضع ملف الترخيص في موقع يمكن الوصول إليه عبر classpath وتحقق مرة أخرى من تنفيذ الطريقة. |
+| **صور منخفضة الدقة** | DPI الافتراضي منخفض جدًا. | أنشئ كائن `PngSaveOptions` واضبط `setResolution(300)` قبل تمريره إلى `options.setSaveOptions()`. |
 
 ## الأسئلة المتكررة
 
 ### س1: هل Aspose.TeX متوافق مع أحدث إصدارات Java؟
 
-**ج:** نعم. المكتبة تعمل مع JDK 1.8 وجميع الإصدارات اللاحقة، بما في ذلك Java 11، 17، و21.
+**ج:** نعم. المكتبة تعمل مع JDK 1.8 وجميع الإصدارات اللاحقة، بما في ذلك Java 11 و17 و21.
 
 ### س2: هل يمكنني تخصيص دقة صورة الإخراج؟
 
@@ -129,7 +143,7 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 
 ### س4: أين يمكنني العثور على دعم المجتمع لـ Aspose.TeX؟
 
-**ج:** زر [Aspose.TeX Forum](https://forum.aspose.com/c/tex/47) للمناقشات، الأمثلة، ومساعدة حل المشكلات.
+**ج:** زر [Aspose.TeX Forum](https://forum.aspose.com/c/tex/47) للمناقشات، الأمثلة، ومساعدة استكشاف الأخطاء.
 
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لأغراض الاختبار؟
 
@@ -137,21 +151,21 @@ new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), option
 
 **أسئلة وإجابات إضافية**
 
-**س: كيف يمكنني تغيير لون خلفية PNG برمجيًا؟**  
+**س: كيف يمكنني تغيير لون الخلفية للـ PNG برمجياً؟**  
 **ج:** استخدم `PngSaveOptions.setBackgroundColor(java.awt.Color)` قبل إسناد الخيارات إلى كائن `TeXOptions`.
 
-**س: هل يمكن تحويل ملفات LaTeX متعددة في تشغيل واحد؟**  
-**ج:** نعم. قم بالتكرار عبر قائمة الملفات الخاصة بك وأنشئ `TeXJob` جديد لكل ملف، مع إعادة استخدام نفس كائن `options`.
+**س: هل من الممكن تحويل ملفات LaTeX متعددة في تشغيل واحد؟**  
+**ج:** نعم. قم بالتكرار عبر قائمة الملفات وأنشئ `TeXJob` جديد لكل ملف، مع إعادة استخدام نفس كائن `options`.
 
 ## الخلاصة
 
-أصبح لديك الآن سير عمل كامل وجاهز للإنتاج **لإنشاء PNG من LaTeX** في Java باستخدام Aspose.TeX. من خلال تعيين ترخيص Aspose، وتكوين دليل الإخراج Java، واختيار خيارات حفظ PNG، يمكنك دمج عرض LaTeX في أي نظام يعتمد على Java بثقة.
+أصبح لديك الآن سير عمل كامل وجاهز للإنتاج **لإنشاء PNG من LaTeX** في Java باستخدام Aspose.TeX. من خلال ضبط ترخيص Aspose، وتكوين دليل الإخراج Java، واختيار خيارات حفظ PNG (أو تعديل الدقة)، يمكنك دمج عرض LaTeX في أي نظام مبني على Java بثقة.
 
 ---
 
-**آخر تحديث:** 2025-11-29  
-**تم الاختبار مع:** Aspose.TeX for Java 24.11 (latest at time of writing)  
-**المؤلف:** Aspose
+**آخر تحديث:** 2026-02-05  
+**تم الاختبار مع:** Aspose.TeX for Java 24.11 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
