@@ -1,65 +1,87 @@
 ---
-title: Ustaw licencję licznikową dla Aspose.TeX (C#)
-linktitle: Ustaw licencję licznikową dla Aspose.TeX (C#)
-second_title: Aspose.TeX API .NET
-description: Poznaj Aspose.TeX dla .NET, bez wysiłku skonfiguruj licencjonowanie odmierzone i odblokuj pełny potencjał manipulacji plikami TeX w swoich projektach C#.
-weight: 12
+date: 2025-12-25
+description: Dowiedz się, jak ustawić licencję dla Aspose.TeX w C# i odblokować pełne
+  możliwości manipulacji plikami TeX.
+linktitle: Set Metered License for Aspose.TeX (C#)
+second_title: Aspose.TeX .NET API
+title: Jak ustawić licencję dla Aspose.TeX (C#)
 url: /pl/net/licensing/set-metered-license-csharp/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw licencję licznikową dla Aspose.TeX (C#)
+# Jak ustawić licencję dla Aspose.TeX (C#)
 
-## Wstęp
+## Wprowadzenie
 
-Aspose.TeX dla .NET to potężna biblioteka, która umożliwia programistom płynną pracę z plikami TeX. Aby uwolnić jego pełny potencjał, konieczne jest skonfigurowanie licencji licznikowej. Dzięki temu masz pewność, że posiadasz odpowiednie uprawnienia do korzystania z biblioteki w swoich aplikacjach.
+Jeśli planujesz pracować z plikami TeX w aplikacji C#, pierwszą rzeczą, którą musisz zrobić, jest **jak ustawić licencję** dla Aspose.TeX. Ustawienie licencji metered nie tylko usuwa ograniczenia w czasie wykonywania, ale także daje dostęp do pełnego zestawu funkcji biblioteki. W tym przewodniku przeprowadzimy Cię przez cały proces — od pobrania SDK po weryfikację, że licencja jest aktywna — abyś mógł od razu rozpocząć budowanie rozwiązań opartych na TeX.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Czym jest licencja metered?** Lekkiego modelu licencji, który weryfikuje użycie za pomocą kluczy publicznych/prywatnych, bez potrzeby lokalnego pliku licencji.  
+- **Czy potrzebuję licencji do rozwoju?** Tak, licencja metered jest wymagana zarówno w fazie rozwoju, jak i produkcji, aby odblokować wszystkie funkcje.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Czy mogę później zmienić klucze?** Oczywiście — po prostu wywołaj ponownie `SetMeteredKey` z nowymi kluczami.  
+- **Jak potwierdzić, że licencja działa?** Użyj `Aspose.TeX.Metered.IsMetered()`, aby uzyskać wynik true/false.
 
-Zanim zaczniesz, upewnij się, że masz następujące elementy:
+## Czym jest licencja metered?
 
-1.  Biblioteka Aspose.TeX dla .NET: Pobierz i zainstaluj bibliotekę z[strona pobierania](https://releases.aspose.com/tex/net/).
+Licencja metered dla Aspose.TeX działa poprzez wysyłanie lekkiego żądania do serwera licencyjnego Aspose przy każdym uruchomieniu aplikacji. Serwer weryfikuje podane klucze publiczny i prywatny i zwraca token użycia. Takie podejście eliminuje potrzebę dystrybucji fizycznego pliku licencji i ułatwia rotację kluczy w razie potrzeby.
 
-2.  Odmierzone klucze licencyjne: Uzyskaj odmierzone klucze publiczne i prywatne ze swojego konta Aspose. Jeśli nie masz konta, możesz się zarejestrować[Tutaj](https://purchase.aspose.com/buy).
+## Dlaczego używać licencji metered dla Aspose.TeX?
 
-3. Środowisko programistyczne C#: upewnij się, że masz działające środowisko programistyczne C#, takie jak Visual Studio.
+- **Brak wdrażania pliku** – Klucze są osadzone bezpośrednio w kodzie.  
+- **Łatwa rotacja kluczy** – Aktualizuj klucze bez ponownego wdrażania pliku licencji.  
+- **Dokładne śledzenie użycia** – Aspose rejestruje każdą aktywację, pomagając utrzymać się w granicach subskrypcji.  
+- **Pełny dostęp do funkcji** – Wszystkie możliwości API są odblokowane po zweryfikowaniu licencji.
 
-## Importuj przestrzenie nazw
+## Wymagania wstępne
 
-W projekcie C# zacznij od zaimportowania niezbędnych przestrzeni nazw:
+Przed rozpoczęciem upewnij się, że masz przygotowane następujące elementy:
+
+1. **Aspose.TeX for .NET Library** – Pobierz i zainstaluj bibliotekę ze [strony pobierania](https://releases.aspose.com/tex/net/).  
+2. **Klucze licencji metered** – Uzyskaj publiczny i prywatny klucz metered ze swojego konta Aspose. Jeśli nie masz konta, możesz się zarejestrować [tutaj](https://purchase.aspose.com/buy).  
+3. **Środowisko programistyczne C#** – Visual Studio (dowolna aktualna wersja) lub inne wybrane IDE C#.
+
+> **Wskazówka:** Przechowuj klucze metered w bezpiecznym magazynie konfiguracji (np. Azure Key Vault) zamiast wpisywać je na stałe w kodzie.
+
+## Importowanie przestrzeni nazw
+
+W swoim projekcie C# rozpocznij od zaimportowania przestrzeni nazw Aspose.TeX:
 
 ```csharp
 using Aspose.TeX;
 ```
 
-## Krok 1: Ustaw licencję taryfową
+## Ustawianie licencji Aspose w C# – przewodnik krok po kroku
 
-Pierwszy krok polega na skonfigurowaniu licencji taryfowej w kodzie C#. Użyj następującego fragmentu kodu:
+### Krok 1: Ustaw licencję metered (jak ustawić licencję)
+
+Pierwszy fragment kodu pokazuje dokładnie **jak ustawić licencję** przy użyciu kluczy metered. Umieść go na początku procedury uruchamiania aplikacji (np. `Main` lub `Startup.cs`).
 
 ```csharp
-// ExStart: SetMeteredLicense
-// Ustaw mierzone klucze publiczne i prywatne.
+// ExStart:SetMeteredLicense
+// Set metered public and private keys.
 new Aspose.TeX.Metered().SetMeteredKey(
     "<type public key here>",
     "<type private key here>");
 // ExEnd:SetMeteredLicense
 ```
 
- Zastępować`<type public key here>` I`<type private key here>` z rzeczywistymi kluczami licencyjnymi.
+Zastąp `<type public key here>` i `<type private key here>` kluczami, które otrzymałeś od Aspose.
 
-## Krok 2: Zintegruj się ze swoim projektem
+### Krok 2: Zintegruj z projektem
 
-Po ustawieniu licencji licznikowej zintegruj Aspose.TeX ze swoim projektem. Możesz teraz korzystać z jego funkcji bez żadnych problemów licencyjnych.
+Po ustawieniu licencji możesz swobodnie korzystać z dowolnych klas Aspose.TeX — kompilować LaTeX, konwertować do PDF, wyodrębniać obrazy itp. Nie jest wymagany dodatkowy kod licencyjny.
 
-## Krok 3: Zweryfikuj licencję
+### Krok 3: Zweryfikuj licencję
 
-Aby upewnić się, że licencja licznikowa została poprawnie zastosowana, zweryfikuj ją w swoim kodzie:
+Dobrym zwyczajem jest potwierdzenie, że licencja została pomyślnie zastosowana. Poniższy fragment wypisuje czytelną wiadomość na konsolę.
 
 ```csharp
-// ExStart: Sprawdź zmierzoną licencję
+// ExStart:VerifyMeteredLicense
 if (Aspose.TeX.Metered.IsMetered())
 {
     Console.WriteLine("Metered license is set successfully!");
@@ -68,36 +90,59 @@ else
 {
     Console.WriteLine("Metered license is not set!");
 }
-// ExEnd: Sprawdź zmierzoną licencję
+// ExEnd:VerifyMeteredLicense
 ```
 
-Ten krok zapewnia potwierdzenie, że licencja licznikowa rzeczywiście obowiązuje.
+Jeśli zobaczysz „Metered license is set successfully!” jesteś gotowy do działania.
 
-## Wniosek
+## Typowe problemy i rozwiązywanie
 
-Konfigurowanie licencji taryfowej dla Aspose.TeX w języku C# jest prostym procesem. Wykonując te kroki, upewnisz się, że Twoje środowisko programistyczne jest prawidłowo skonfigurowane pod kątem bezproblemowej integracji z tą potężną biblioteką.
+| Objaw | Prawdopodobna przyczyna | Rozwiązanie |
+|-------|--------------------------|-------------|
+| `IsMetered()` returns **false** | Nieprawidłowe klucze lub problem z połączeniem sieciowym | Sprawdź ponownie klucze, upewnij się, że maszyna może połączyć się z `license.aspose.com`. |
+| Application throws **LicenseException** | Licencja ustawiona po użyciu API Aspose.TeX | Przenieś kod ustawiający licencję na sam początek programu (przed utworzeniem jakichkolwiek obiektów Aspose.TeX). |
+| Keys exposed in source control | Zagrożenie bezpieczeństwa | Przechowuj klucze w zmiennych środowiskowych lub bezpiecznym magazynie i odczytuj je w czasie działania. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Jak mogę uzyskać licencję licznikową dla Aspose.TeX?
+### Q1: Jak mogę uzyskać licencję metered dla Aspose.TeX?
 
- Odpowiedź 1: Możesz kupić licencję licznikową w witrynie[Strona zakupu Aspose](https://purchase.aspose.com/buy).
+**A1:** Możesz zakupić licencję metered na [stronie zakupu Aspose](https://purchase.aspose.com/buy).
 
-### P2: Czy dostępny jest bezpłatny okres próbny?
+### Q2: Czy dostępna jest darmowa wersja próbna?
 
- Odpowiedź 2: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.TeX odwiedzając stronę[ten link](https://releases.aspose.com/).
+**A2:** Tak, możesz wypróbować darmową wersję Aspose.TeX, odwiedzając [ten link](https://releases.aspose.com/).
 
-### P3: Gdzie mogę znaleźć dokumentację dla Aspose.TeX?
+### Q3: Gdzie mogę znaleźć dokumentację Aspose.TeX?
 
- A3: Patrz[Dokumentacja Aspose.TeX](https://reference.aspose.com/tex/net/) w celu uzyskania kompleksowych wskazówek.
+**A3:** Zapoznaj się z [dokumentacją Aspose.TeX](https://reference.aspose.com/tex/net/), aby uzyskać pełne informacje.
 
-### P4: Jak mogę uzyskać wsparcie dla Aspose.TeX?
+### Q4: Jak mogę uzyskać wsparcie dla Aspose.TeX?
 
- A4: Odwiedź[Forum Aspose.TeX](https://forum.aspose.com/c/tex/47)za wsparcie społeczności i dyskusje.
+**A4:** Odwiedź [forum Aspose.TeX](https://forum.aspose.com/c/tex/47), aby uzyskać wsparcie społeczności i dyskusje.
 
-### P5: Czy mogę używać tymczasowej licencji na Aspose.TeX?
+### Q5: Czy mogę używać tymczasowej licencji dla Aspose.TeX?
 
- Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+**A5:** Tak, możesz uzyskać tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
+
+**Dodatkowe Q&A**
+
+**Q: Czy mogę później przejść z licencji metered na pełną licencję węzłową?**  
+**A:** Oczywiście — po prostu zamień wywołanie `SetMeteredKey` na standardową klasę `License` i podaj plik `.lic`.
+
+**Q: Czy licencja metered działa w Azure App Service?**  
+**A:** Tak, pod warunkiem że usługa może połączyć się z endpointem licencyjnym Aspose.
+
+## Podsumowanie
+
+Postępując zgodnie z powyższymi krokami, teraz wiesz **jak ustawić licencję** dla Aspose.TeX w środowisku C#, jak ją zweryfikować oraz jak unikać typowych problemów. Mając licencję metered, możesz pewnie integrować możliwości przetwarzania TeX w dowolnej aplikacji .NET.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-25  
+**Testowano z:** Aspose.TeX 24.10 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
