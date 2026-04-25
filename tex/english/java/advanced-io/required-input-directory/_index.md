@@ -1,11 +1,11 @@
 ---
-title: Set Input Directory Java – Guide with Aspose.TeX for Java
+title: How to Use Aspose: Set Input Directory Java – Guide with Aspose.TeX for Java
 linktitle: Set Input Directory Java – Guide with Aspose.TeX for Java
 second_title: Aspose.TeX Java API
-description: Learn how to **set input directory java** using Aspose.TeX for Java, read tex files java, and manage tex files by extension with a simple Java tex input stream.
+description: Learn **how to use Aspose** to set input directory Java, read tex files java, and manage tex files by extension with the Java tex input stream.
 weight: 10
 url: /java/advanced-io/required-input-directory/
-date: 2025-11-28
+date: 2026-02-02
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,32 +16,32 @@ date: 2025-11-28
 
 ## Introduction
 
-If you need to **set input directory java** for processing TeX jobs, Aspose.TeX for Java provides a clean and efficient way to do it. In this tutorial you’ll learn how to configure the required input directory, **read TeX files Java**‑style, and work with **tex files by extension** using the built‑in `JavaTexInputStream`. We'll walk through each step, explain why it matters, and give you practical tips you can apply right away.
+If you need to **set input directory java** for processing TeX jobs, Aspose.TeX for Java provides a clean and efficient way to do it. In this tutorial you’ll learn **how to use Aspose** to configure the required input directory, **read tex files java**‑style, and work with **tex files by extension** using the built‑in `JavaTexInputStream`. We'll walk through each step, explain why it matters, and give you practical tips you can apply right away.
 
 ## Quick Answers
 - **What does “set input directory java” mean?** It tells Aspose.TeX where to look for all TeX source files and related resources.  
 - **Which class handles the directory?** `RequiredInputDirectory`.  
-- **Can I load a single TeX file?** Yes – use `load tex file java` via `getFile`.  
+- **Can I load a single TeX file?** Yes – use **load tex file java** via `getFile`.  
 - **How do I list files by type?** Call `getFileNamesByExtension(".tex")` to retrieve **tex files by extension**.  
 - **Do I need a license for development?** A temporary license works for testing; a full license is required for production.
 
-## What is “set input directory java”?
+## How to Use Aspose for Setting Input Directory Java?
 Setting the input directory tells the Aspose.TeX engine where to search for `.tex` files, images, and auxiliary files. Without a correctly configured directory, the engine cannot locate the resources needed to compile a TeX document.
 
-## Why use Aspose.TeX for Java to manage TeX files?
+## Why Use Aspose.TeX for Java to Manage TeX Files?
 - **Full control** over file resolution, allowing you to isolate project assets.  
 - **Simplified API** for reading and loading TeX files directly from memory or custom storage.  
-- **Robust handling** of file extensions, making it easy to work with multiple TeX‑related resources.
+- **Robust handling** of file extensions, making it easy to work with multiple TeX‑related resources.  
 
 ## Prerequisites
 
-1. **Java Development Environment** – JDK 8 or newer installed.  
+1. **Java Development Environment** – JDK 8 or newer installed.  
 2. **Aspose.TeX for Java** – Download the latest JAR from the [official download page](https://releases.aspose.com/tex/java/).  
 3. **Basic Java knowledge** – Familiarity with classes, interfaces, and exception handling.  
 
 Now that we have the basics covered, let’s dive into the code.
 
-## How to set input directory java with Aspose.TeX?
+## Step‑by‑Step Guide
 
 ### Import Packages
 First, import the necessary Aspose.TeX classes. These imports give you access to the `RequiredInputDirectory`, `IFileCollector`, and the **Java tex input stream** needed for reading files.
@@ -102,24 +102,24 @@ inputDirectory.close();
 
 ## Frequently Asked Questions
 
-### Q1: Where can I find the Aspose.TeX for Java documentation?
-A1: The documentation is available [here](https://reference.aspose.com/tex/java/).
+**Q:** Where can I find the Aspose.TeX for Java documentation?  
+**A:** The documentation is available [here](https://reference.aspose.com/tex/java/).
 
-### Q2: How can I get a temporary license for Aspose.TeX for Java?
-A2: Visit [this link](https://purchase.aspose.com/temporary-license/) for a temporary license.
+**Q:** How can I get a temporary license for Aspose.TeX for Java?  
+**A:** Visit [this link](https://purchase.aspose.com/temporary-license/) for a temporary license.
 
-### Q3: Where can I get support for Aspose.TeX for Java?
-A3: Head over to the Aspose.TeX forum [here](https://forum.aspose.com/c/tex/47).
+**Q:** Where can I get support for Aspose.TeX for Java?  
+**A:** Head over to the Aspose.TeX forum [here](https://forum.aspose.com/c/tex/47).
 
-### Q4: Can I try Aspose.TeX for Java for free before purchasing?
-A4: Yes, you can access a free trial [here](https://releases.aspose.com/).
+**Q:** Can I try Aspose.TeX for Java for free before purchasing?  
+**A:** Yes, you can access a free trial [here](https://releases.aspose.com/).
 
-### Q5: How do I purchase Aspose.TeX for Java?
-A5: To buy, visit the purchase page [here](https://purchase.aspose.com/buy).
+**Q:** How do I purchase Aspose.TeX for Java?  
+**A:** To buy, visit the purchase page [here](https://purchase.aspose.com/buy).
 
 ---
 
-**Last Updated:** 2025-11-28  
+**Last Updated:** 2026-02-02  
 **Tested With:** Aspose.TeX for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
