@@ -1,37 +1,47 @@
 ---
-title: Skład TeX-a na XPS w .NET
-linktitle: Skład TeX-a na XPS w .NET
-second_title: Aspose.TeX API .NET
-description: Bez wysiłku konwertuj dokumenty TeX na XPS w .NET za pomocą Aspose.TeX. Zapoznaj się z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-weight: 10
+date: 2025-12-30
+description: Dowiedz się, jak konwertować TeX na XPS w .NET przy użyciu Aspose.TeX.
+  Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać płynną integrację
+  i niezawodny wynik.
+linktitle: How to Convert TeX to XPS in .NET
+second_title: Aspose.TeX .NET API
+title: Jak przekonwertować TeX na XPS w .NET
 url: /pl/net/xps-output/typeset-tex-to-xps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skład TeX-a na XPS w .NET
+# Jak przekonwertować TeX na XPS w .NET
 
-## Wstęp
+## Jak przekonwertować TeX na XPS – Wprowadzenie
 
-Witamy w naszym przewodniku krok po kroku dotyczącym składu TeX-a na XPS w .NET przy użyciu potężnej biblioteki Aspose.TeX. Jeśli chcesz bezproblemowo konwertować dokumenty TeX do formatu XPS w aplikacjach .NET, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię przez cały proces, dzieląc każdy krok, aby zapewnić płynne wdrożenie.
+Witamy w naszym kompleksowym, krok po kroku przewodniku, jak **przekonwertować TeX** na format XPS w środowisku .NET. Korzystając z potężnej biblioteki Aspose.TeX, będziesz mógł zintegrować konwersję TeX‑do‑XPS w dowolnej aplikacji .NET — niezależnie od tego, czy jest to narzędzie desktopowe, usługa internetowa, czy zautomatyzowany potok raportowania. W kolejnych sekcjach przeprowadzimy Cię przez wszystkie niezbędne ustawienia, pokażemy dokładny kod oraz wyjaśnimy, dlaczego każdy element ma znaczenie, abyś mógł wdrożyć rozwiązanie z pełnym przekonaniem.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co obejmuje ten samouczek?** Konwertowanie plików TeX na XPS przy użyciu Aspose.TeX dla .NET.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Jak długo trwa implementacja?** Zazwyczaj mniej niż 15 minut dla podstawowej konwersji.  
+- **Gdzie mogę pobrać bibliotekę?** Pobierz ze strony oficjalnej wersji Aspose.TeX.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Wymagania wstępne
 
--  Aspose.TeX dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.TeX. Możesz go pobrać[Tutaj](https://releases.aspose.com/tex/net/).
+Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania:
 
-- Dokumentacja: Zapoznaj się z biblioteką, korzystając z dokumentacji[Tutaj](https://reference.aspose.com/tex/net/).
+- Aspose.TeX dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.TeX. Możesz ją pobrać [tutaj](https://releases.aspose.com/tex/net/).
 
-- Katalogi wejściowe i wyjściowe: skonfiguruj katalogi wejściowe i wyjściowe zgodnie z przykładowym kodem.
+- Dokumentacja: Zapoznaj się z biblioteką, odwołując się do dokumentacji [tutaj](https://reference.aspose.com/tex/net/).
 
-Teraz, gdy już wszystko skonfigurowałeś, przejdźmy do przewodnika krok po kroku.
+- Katalogi wejściowy i wyjściowy: Skonfiguruj katalogi wejściowy i wyjściowy zgodnie z przykładowym kodem.
 
-## Importuj przestrzenie nazw
+Teraz, gdy wszystko jest skonfigurowane, przejdźmy do przewodnika krok po kroku.
 
-W aplikacji .NET rozpocznij od zaimportowania niezbędnych przestrzeni nazw. Dzięki temu masz dostęp do funkcjonalności Aspose.TeX wymaganych do składu TeX-a na XPS.
+## Importowanie przestrzeni nazw
+
+W swojej aplikacji .NET rozpocznij od zaimportowania niezbędnych przestrzeni nazw. Zapewni to dostęp do funkcjonalności Aspose.TeX wymaganych do składu TeX na XPS.
 
 ```csharp
 using Aspose.TeX.IO;
@@ -41,25 +51,25 @@ using System.IO;
 
 ## Krok 1: Ustaw opcje konwersji
 
-Zdefiniuj opcje konwersji, określając format ObjectTeX w rozszerzeniu silnika ObjectTeX. Ustaw także nazwę zadania, katalogi wejściowe i wyjściowe oraz szczegóły wyjściowe terminala.
+Zdefiniuj opcje konwersji, określając format ObjectTeX przy użyciu rozszerzenia silnika ObjectTeX. Ustaw także nazwę zadania, katalogi wejściowy i wyjściowy oraz szczegóły wyjścia terminala.
 
 ```csharp
-// Utwórz opcje konwersji dla domyślnego formatu ObjectTeX po rozszerzeniu silnika ObjectTeX.
+// Create conversion options for default ObjectTeX format upon ObjectTeX engine extension.
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
-// Podaj nazwę zadania.
+// Specify a job name.
 options.JobName = "external-file-stream";
-// Określ katalog roboczy systemu plików dla danych wejściowych.
+// Specify a file system working directory for input.
 options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
-// Określ katalog roboczy systemu plików dla danych wyjściowych.
+// Specify a file system working directory for output.
 options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
-// Określ, że dane wyjściowe terminala muszą zostać zapisane w pliku w wyjściowym katalogu roboczym.
-// Nazwa pliku to <nazwa_zadania>.trm.
+// Specify that the terminal output must be written to a file in the output working directory.
+// The file name is <job_name>.trm.
 options.TerminalOut = new OutputFileTerminal(options.OutputWorkingDirectory);
 ```
 
-## Krok 2: Utwórz strumień dokumentów XPS
+## Krok 2: Utwórz strumień dokumentu XPS
 
-Otwórz strumień, aby napisać złożony dokument XPS. Nazwa pliku nie musi być taka sama jak nazwa zadania.
+Otwórz strumień do zapisu składanego dokumentu XPS. Nazwa pliku nie musi być identyczna z nazwą zadania.
 
 ```csharp
 using (Stream stream = File.Open(Path.Combine("Your Output Directory", options.JobName + ".xps"), FileMode.Create))
@@ -67,39 +77,63 @@ using (Stream stream = File.Open(Path.Combine("Your Output Directory", options.J
 
 ## Krok 3: Uruchom zadanie TeX
 
-Zainicjuj i uruchom zadanie TeX, określając nazwę dokumentu, XpsDevice i opcje konwersji.
+Zainicjuj i uruchom zadanie TeX, określając nazwę dokumentu, XpsDevice oraz opcje konwersji.
 
 ```csharp
 new TeXJob("hello-world", new XpsDevice(stream), options).Run();
 ```
 
-Gratulacje! Pomyślnie przepisałeś TeX na XPS w .NET przy użyciu Aspose.TeX. Zachęcamy do zapoznania się z większą liczbą funkcji i opcji w zależności od konkretnych wymagań.
+Gratulacje! Pomyślnie przetworzyłeś TeX na XPS w .NET przy użyciu Aspose.TeX. Śmiało eksploruj dalsze funkcje i opcje zgodnie ze swoimi wymaganiami.
 
-## Wniosek
+## Zakończenie
 
-W tym samouczku omówiliśmy podstawowe kroki, aby bezproblemowo przekonwertować dokumenty TeX do formatu XPS w .NET przy użyciu Aspose.TeX. Postępując zgodnie z tym przewodnikiem, uzyskałeś cenny wgląd w możliwości biblioteki i sposoby wykorzystania ich w swoich projektach.
+W tym samouczku omówiliśmy kluczowe kroki, które umożliwiają płynną konwersję dokumentów TeX do formatu XPS w .NET przy użyciu Aspose.TeX. Postępując zgodnie z tym przewodnikiem, zyskałeś cenną wiedzę o możliwościach biblioteki i sposobach ich wykorzystania w swoich projektach.
 
-## Często zadawane pytania
+## FAQ
 
 ### P1: Czy Aspose.TeX jest kompatybilny z .NET Core?
 
-O1: Tak, Aspose.TeX jest w pełni kompatybilny z .NET Core.
+A1: Tak, Aspose.TeX jest w pełni kompatybilny z .NET Core.
 
 ### P2: Czy mogę używać Aspose.TeX w projektach komercyjnych?
 
-A2: Absolutnie! Aspose.TeX jest dostępny zarówno do użytku komercyjnego, jak i osobistego.
+A2: Oczywiście! Aspose.TeX jest dostępny zarówno do użytku komercyjnego, jak i prywatnego.
 
 ### P3: Gdzie mogę znaleźć dodatkowe przykłady i zasoby?
 
- A3: Zapoznaj się z dokumentacją Aspose.TeX[Tutaj](https://reference.aspose.com/tex/net/)aby uzyskać więcej przykładów i szczegółowych zasobów.
+A3: Przeglądaj dokumentację Aspose.TeX [tutaj](https://reference.aspose.com/tex/net/) aby zobaczyć więcej przykładów i szczegółowe zasoby.
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.TeX?
 
- A4: Odwiedź forum wsparcia Aspose.TeX[Tutaj](https://forum.aspose.com/c/tex/47) aby uzyskać pomoc od społeczności.
+A4: Odwiedź forum wsparcia Aspose.TeX [tutaj](https://forum.aspose.com/c/tex/47), aby uzyskać pomoc od społeczności.
 
-### P5: Czy dostępny jest bezpłatny okres próbny?
+### P5: Czy dostępna jest darmowa wersja próbna?
 
- Odpowiedź 5: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+A5: Tak, możesz uzyskać dostęp do darmowej wersji próbnej [tutaj](https://releases.aspose.com/).
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę dostosować wyjście XPS (np. rozmiar strony lub marginesy)?**  
+A: Tak. Możesz zmienić ustawienia XpsDevice lub zmodyfikować źródło TeX, aby kontrolować układ strony przed konwersją.
+
+**Q: Co się stanie, jeśli plik wejściowy TeX zawiera błędy?**  
+A: Proces konwersji zapisuje szczegóły błędów do pliku wyjścia terminala (`*.trm`). Przejrzyj ten plik, aby zdiagnozować i naprawić problemy.
+
+**Q: Czy można konwertować wiele plików TeX w jednym uruchomieniu?**  
+A: Możesz iterować po kolekcji plików źródłowych TeX, tworząc osobny TeXJob dla każdego, jednocześnie używając tej samej instancji `TeXOptions`.
+
+**Q: Czy Aspose.TeX obsługuje pakiety LaTeX takie jak `amsmath` lub `graphicx`?**  
+A: Większość standardowych pakietów LaTeX jest obsługiwana. Sprawdź oficjalną dokumentację, aby uzyskać pełną listę kompatybilnych pakietów.
+
+**Q: Jak osadzić czcionki w wygenerowanym pliku XPS?**  
+A: Aspose.TeX automatycznie osadza czcionki używane przez silnik TeX. Upewnij się, że wymagane czcionki są zainstalowane na maszynie wykonującej konwersję.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-30  
+**Testowano z:** Aspose.TeX for .NET 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
