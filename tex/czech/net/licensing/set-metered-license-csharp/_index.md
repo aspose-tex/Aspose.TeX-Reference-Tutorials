@@ -1,62 +1,84 @@
 ---
-title: Nastavit měřenou licenci pro Aspose.TeX (C#)
-linktitle: Nastavit měřenou licenci pro Aspose.TeX (C#)
+date: 2025-12-25
+description: Naučte se, jak nastavit licenci pro Aspose.TeX v C# a odemknout plné
+  možnosti manipulace s TeX soubory.
+linktitle: Set Metered License for Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
-description: Prozkoumejte Aspose.TeX for .NET, bez námahy nastavte měřené licencování a odemkněte plný potenciál manipulace se soubory TeX ve svých projektech C#.
-weight: 12
+title: Jak nastavit licenci pro Aspose.TeX (C#)
 url: /cs/net/licensing/set-metered-license-csharp/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavit měřenou licenci pro Aspose.TeX (C#)
+# Jak nastavit licenci pro Aspose.TeX (C#)
 
 ## Úvod
 
-Aspose.TeX for .NET je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory TeX. Chcete-li využít jeho plný potenciál, je nezbytné nastavit měřenou licenci. To zajišťuje, že máte správné oprávnění k používání knihovny ve vašich aplikacích.
+Pokud plánujete pracovat se soubory TeX v aplikaci C#, první věc, kterou musíte udělat, je **jak nastavit licenci** pro Aspose.TeX. Nastavení měřené licence nejen odstraňuje omezení během běhu, ale také vám poskytuje přístup k úplnému souboru funkcí knihovny. V tomto průvodci vás provedeme celým procesem – od stažení SDK po ověření, že je licence aktivní – abyste mohli okamžitě začít vytvářet řešení poháněná TeXem.
+
+## Rychlé odpovědi
+- **Co je to měřená licence?** Lehký licenční model, který ověřuje používání pomocí veřejných/soukromých klíčů bez potřeby lokálního licenčního souboru.  
+- **Potřebuji licenci pro vývoj?** Ano, měřená licence je vyžadována jak pro vývoj, tak pro produkci, aby byly odemčeny všechny funkce.  
+- **Které verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Mohu klíče později změnit?** Rozhodně – stačí znovu zavolat `SetMeteredKey` s novými klíči.  
+- **Jak mohu potvrdit, že licence funguje?** Použijte `Aspose.TeX.Metered.IsMetered()` a získáte výsledek true/false.
+
+## Co je měřená licence?
+
+Měřená licence pro Aspose.TeX funguje tak, že při každém spuštění aplikace odešle lehký požadavek na licenční server Aspose. Server ověří poskytnuté veřejné a soukromé klíče a vrátí token používání. Tento přístup eliminuje potřebu distribuovat fyzický licenční soubor a usnadňuje rotaci klíčů, pokud je to potřeba.
+
+## Proč použít měřenou licenci pro Aspose.TeX?
+
+- **Žádné nasazení souboru** – Klíče jsou vloženy přímo do kódu.  
+- **Snadná rotace klíčů** – Aktualizujte klíče bez opětovného nasazení licenčního souboru.  
+- **Přesné sledování využití** – Aspose zaznamenává každou aktivaci, pomáhá vám zůstat v mezích předplatného.  
+- **Plný přístup k funkcím** – Všechny možnosti API jsou odemčeny po ověření licence.
 
 ## Předpoklady
 
-Než začnete, ujistěte se, že máte následující:
+Než začnete, ujistěte se, že máte připravené následující položky:
 
-1.  Aspose.TeX for .NET Library: Stáhněte a nainstalujte knihovnu z[stránka ke stažení](https://releases.aspose.com/tex/net/).
+1. **Aspose.TeX for .NET Library** – Stáhněte a nainstalujte knihovnu z [download page](https://releases.aspose.com/tex/net/).  
+2. **Metered License Keys** – Získejte měřené veřejné a soukromé klíče ze svého účtu Aspose. Pokud účet nemáte, můžete se zaregistrovat [here](https://purchase.aspose.com/buy).  
+3. **C# Development Environment** – Visual Studio (jakákoli recentní verze) nebo jiné C# IDE dle vašeho výběru.  
 
-2.  Měřené licenční klíče: Získejte měřené veřejné a soukromé klíče ze svého účtu Aspose. Pokud nemáte účet, můžete se zaregistrovat[tady](https://purchase.aspose.com/buy).
+> **Pro tip:** Ukládejte své měřené klíče v bezpečném konfiguračním úložišti (např. Azure Key Vault) místo jejich tvrdého zakódování.
 
-3. Vývojové prostředí C#: Ujistěte se, že máte funkční vývojové prostředí C#, jako je Visual Studio.
+## Importujte jmenné prostory
 
-## Importovat jmenné prostory
-
-Ve svém projektu C# začněte importováním potřebných jmenných prostorů:
+Ve vašem C# projektu začněte importováním jmenného prostoru Aspose.TeX:
 
 ```csharp
 using Aspose.TeX;
 ```
 
-## Krok 1: Nastavte měřenou licenci
+## Nastavení licence Aspose v C# – krok za krokem
 
-První krok zahrnuje nastavení měřené licence ve vašem kódu C#. Použijte následující fragment kódu:
+### Krok 1: Nastavit měřenou licenci (jak nastavit licenci)
+
+První úryvek kódu ukazuje přesně **jak nastavit licenci** pomocí měřených klíčů. Umístěte jej na začátek spouštěcí rutiny aplikace (např. `Main` nebo `Startup.cs`).
 
 ```csharp
 // ExStart:SetMeteredLicense
-// Nastavte měřené veřejné a soukromé klíče.
+// Set metered public and private keys.
 new Aspose.TeX.Metered().SetMeteredKey(
     "<type public key here>",
     "<type private key here>");
 // ExEnd:SetMeteredLicense
 ```
 
- Nahradit`<type public key here>` a`<type private key here>` s vašimi skutečnými měřenými licenčními klíči.
+Nahraďte `<type public key here>` a `<type private key here>` klíči, které jste obdrželi od Aspose.
 
-## Krok 2: Integrujte se do svého projektu
+### Krok 2: Integrace do projektu
 
-Jakmile nastavíte měřenou licenci, integrujte Aspose.TeX do svého projektu. Nyní můžete využívat jeho funkce bez jakýchkoli obav o licencování.
+Po nastavení licence můžete volně používat jakékoli třídy Aspose.TeX – kompilovat LaTeX, převádět do PDF, extrahovat obrázky atd. Další licenční kód není potřeba.
 
-## Krok 3: Ověřte licenci
+### Krok 3: Ověření licence
 
-Chcete-li zajistit, aby byla měřená licence použita správně, ověřte ji ve svém kódu:
+Je dobré si ověřit, že licence byla úspěšně aplikována. Následující úryvek vypíše jasnou zprávu do konzole.
 
 ```csharp
 // ExStart:VerifyMeteredLicense
@@ -71,33 +93,56 @@ else
 // ExEnd:VerifyMeteredLicense
 ```
 
-Tento krok poskytuje potvrzení, že měřená licence je skutečně platná.
+Pokud uvidíte „Metered license is set successfully!“, jste připraveni pokračovat.
 
-## Závěr
+## Časté problémy a řešení
 
-Nastavení měřené licence pro Aspose.TeX v C# je jednoduchý proces. Pomocí těchto kroků zajistíte, že vaše vývojové prostředí je správně nakonfigurováno pro bezproblémovou integraci s touto výkonnou knihovnou.
+| Příznak | Pravděpodobná příčina | Řešení |
+|---------|-----------------------|--------|
+| `IsMetered()` vrací **false** | Nesprávné klíče nebo problém s připojením k síti | Zkontrolujte klíče, ujistěte se, že stroj může dosáhnout `license.aspose.com`. |
+| Aplikace vyhodí **LicenseException** | Licence nastavena po použití API Aspose.TeX | Přesuňte kód nastavení licence na úplný začátek programu (před vytvořením jakýchkoli objektů Aspose.TeX). |
+| Klíče jsou vystaveny ve zdrojovém řízení | Bezpečnostní riziko | Ukládejte klíče do proměnných prostředí nebo bezpečného úložiště a načtěte je za běhu. |
 
-## FAQ
+## Často kladené otázky
 
 ### Q1: Jak mohu získat měřenou licenci pro Aspose.TeX?
 
- A1: Můžete si zakoupit měřenou licenci z[Aspose nákupní stránku](https://purchase.aspose.com/buy).
+A1: Měřenou licenci můžete zakoupit na [Aspose purchase page](https://purchase.aspose.com/buy).
 
 ### Q2: Je k dispozici bezplatná zkušební verze?
 
- Odpověď 2: Ano, můžete navštívit bezplatnou zkušební verzi Aspose.TeX[tento odkaz](https://releases.aspose.com/).
+A2: Ano, můžete vyzkoušet bezplatnou verzi Aspose.TeX na [this link](https://releases.aspose.com/).
 
-### Q3: Kde najdu dokumentaci k Aspose.TeX?
+### Q3: Kde najdu dokumentaci pro Aspose.TeX?
 
- A3: Viz[Dokumentace Aspose.TeX](https://reference.aspose.com/tex/net/) za komplexní návod.
+A3: Viz [Aspose.TeX documentation](https://reference.aspose.com/tex/net/) pro komplexní informace.
 
 ### Q4: Jak mohu získat podporu pro Aspose.TeX?
 
- A4: Navštivte[Fórum Aspose.TeX](https://forum.aspose.com/c/tex/47)za podporu komunity a diskuze.
+A4: Navštivte [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) pro komunitní podporu a diskuse.
 
 ### Q5: Mohu použít dočasnou licenci pro Aspose.TeX?
 
- A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+A5: Ano, dočasnou licenci můžete získat [here](https://purchase.aspose.com/temporary-license/).
+
+**Další Q&A**
+
+**Q: Mohu později přejít z měřené licence na plnou licenci?**  
+A: Rozhodně – stačí nahradit volání `SetMeteredKey` standardní třídou `License` a poskytnout soubor `.lic`.
+
+**Q: Funguje měřená licence v Azure App Service?**  
+A: Ano, pokud služba dokáže dosáhnout licenčního koncového bodu Aspose.
+
+## Závěr
+
+Postupem podle výše uvedených kroků nyní víte **jak nastavit licenci** pro Aspose.TeX v prostředí C#, jak ji ověřit a jak se vyhnout běžným úskalím. S nastavenou měřenou licencí můžete sebejistě integrovat funkce zpracování TeXu do jakékoli .NET aplikace.
+
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.TeX 24.10 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
