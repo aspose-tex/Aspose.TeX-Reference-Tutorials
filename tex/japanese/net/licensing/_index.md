@@ -75,19 +75,6 @@ Aspose.TeX for .NET でライセンスをシームレスにロードし、ドキ
 ### [Aspose.TeX のメーター制ライセンスを設定する (C#)](./set-metered-license-csharp/)
 Aspose.TeX for .NET を探求し、メーター制ライセンスを手軽に設定して、C# プロジェクトでの TeX ファイル操作の全潜在能力を解き放ちましょう。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-23  
-**Tested With:** Aspose.TeX for .NET (latest version)  
-**Author:** Aspose  
-
 ## よくある質問
 
 **Q:** *各サーバーごとに別々のライセンスが必要ですか？*  
@@ -104,3 +91,16 @@ Aspose.TeX for .NET を探求し、メーター制ライセンスを手軽に設
 
 **Q:** *埋め込みリソースからライセンスをロードできますか？*  
 **A:** はい。リソースストリームを取得し、他の `Stream` と同様にライセンスローダーに渡すことができます。
+
+---
+
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.TeX for .NET (latest version)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

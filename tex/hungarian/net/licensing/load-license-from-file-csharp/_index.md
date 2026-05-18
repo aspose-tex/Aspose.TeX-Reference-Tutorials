@@ -89,28 +89,6 @@ Gratulálunk! Sikeresen betöltötte az Aspose.TeX licencet C# használatával. 
 
 ## Gyakran Ismételt Kérdések
 
-### Q1: Használhatom az Aspose.TeX for .NET-et licenc nélkül?
-
-A1: Bár a teljes funkcionalitáshoz licenc ajánlott, az Aspose.TeX-et ideiglenes licenccel is felfedezheti, amely [itt](https://purchase.aspose.com/temporary-license/) érhető el.
-
-### Q2: Hol találok támogatást az Aspose.TeX for .NET-hez?
-
-A2: Látogassa meg az [Aspose.TeX fórumot](https://forum.aspose.com/c/tex/47), hogy kapcsolatba léphessen a közösséggel és segítséget kérhessen.
-
-### Q3: Van ingyenes próba az Aspose.TeX for .NET-hez?
-
-A3: Igen, az ingyenes próbát [itt](https://releases.aspose.com/) érheti el.
-
-### Q4: Milyen gyakran jelennek meg frissítések az Aspose.TeX for .NET-hez?
-
-A4: Legyen naprakész a legújabb kiadásokkal [itt](https://releases.aspose.com/tex/net/).
-
-### Q5: Hol vásárolhatom meg az Aspose.TeX for .NET-et?
-
-A5: Az Aspose.TeX-et [itt](https://purchase.aspose.com/buy) vásárolhatja meg.
-
-## Gyakran Ismételt Kérdések
-
 **K: Újra kell töltenem a licencet minden új AppDomain-hez?**  
 V: Igen, a licencregisztráció AppDomain‑specifikus. Hívja meg a `SetLicense`-t az egyes domainok indításakor.
 

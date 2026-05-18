@@ -87,28 +87,6 @@ Genom att följa dessa två enkla steg säkerställer du att Aspose.TeX är korr
 
 Grattis! Du har framgångsrikt laddat Aspose.TeX‑licensen med C#. Detta grundläggande steg låter dig utforska bibliotekets mångsidiga funktioner utan begränsningar. För djupare insikter, se [dokumentationen](https://reference.aspose.com/tex/net/) och experimentera med TeX‑rendering, PDF‑konvertering och mer.
 
-## Vanliga frågor
-
-### Q1: Kan jag använda Aspose.TeX för .NET utan licens?
-
-A1: Även om en licens rekommenderas för full funktionalitet, kan du utforska Aspose.TeX med en tillfällig licens som finns tillgänglig [här](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Var kan jag hitta support för Aspose.TeX för .NET?
-
-A2: Besök [Aspose.TeX‑forumet](https://forum.aspose.com/c/tex/47) för att ansluta till communityn och söka hjälp.
-
-### Q3: Finns det en gratis provversion för Aspose.TeX för .NET?
-
-A3: Ja, du kan komma åt den kostnadsfria provversionen [här](https://releases.aspose.com/).
-
-### Q4: Hur ofta släpps uppdateringar för Aspose.TeX för .NET?
-
-A4: Håll dig uppdaterad med de senaste versionerna [här](https://releases.aspose.com/tex/net/).
-
-### Q5: Var kan jag köpa Aspose.TeX för .NET?
-
-A5: Du kan köpa Aspose.TeX [här](https://purchase.aspose.com/buy).
-
 ## Vanliga frågor och svar
 
 **Q: Måste jag ladda om licensen för varje ny AppDomain?**  

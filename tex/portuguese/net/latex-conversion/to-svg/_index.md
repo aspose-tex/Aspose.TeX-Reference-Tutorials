@@ -131,13 +131,6 @@ A: Absolutamente. Percorra uma coleção de caminhos de arquivo e instancie um `
 
 Seguindo estas etapas, você pode **criar SVG a partir de LaTeX** de forma rápida e confiável usando o Aspose.TeX para .NET. Seja construindo um portal científico, automatizando a geração de relatórios ou simplesmente precisando **gerar SVG a partir de LaTeX** para qualquer projeto .NET, este guia fornece uma base sólida para começar.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última Atualização:** 2025-12-23  
@@ -145,3 +138,10 @@ Seguindo estas etapas, você pode **criar SVG a partir de LaTeX** de forma rápi
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

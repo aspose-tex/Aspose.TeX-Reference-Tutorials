@@ -13,31 +13,31 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# LaTeX to XPS in .NET - Easy Conversion with Aspose.TeX
+# LaTeX เป็น XPS ใน .NET - แปลงอย่างง่ายดายด้วย Aspose.TeX
 
-## Introduction
+## การแนะนำ
 
-หากคุณกำลังสงสัย **วิธีแปลงเอกสาร latex** ให้เป็นรูปแบบ XPS ในแอปพลิเคชัน .NET ของคุณ คุณมาถูกที่แล้ว Aspose.TeX for .NET ให้โซลูชันที่ทรงพลังและง่ายต่อการใช้งานซึ่งทำงานหนักให้คุณเอง ในคู่มือนี้เราจะเดินผ่านแต่ละขั้นตอน อธิบายว่าการตั้งค่าแต่ละอย่างสำคัญอย่างไร และแสดงวิธีการได้ผลลัพธ์ XPS คุณภาพสูงที่ปรับแต่งได้ด้วยเพียงไม่กี่บรรทัดของโค้ด
+ด้วยความสงสัย **วิธีแปลงเอกสาร latex** ในกรณีที่ XPS ในแอปพลิเคชัน .NET ของคุณคุณมาถูกที่แล้ว Aspose.TeX สำหรับ .NET จะช่วยให้สามารถปรับและความเข้มข้นในการใช้งานซึ่งจะช่วยให้คุณเองในคู่มือนี้เราจะตรวจสอบแต่ละขั้นตอน ไดรฟ์อัจฉริยะแต่ละอย่างมีความสำคัญอย่างไร และแสดงวิธีการได้ผลลัพธ์ XPS เป็นที่ปรับแต่งได้ตามปกติของโค้ด
 
-## Quick Answers
-- **Library ที่ทำการแปลงคืออะไร?** Aspose.TeX for .NET  
-- **รูปแบบผลลัพธ์ที่รองรับ?** XPS (รวมถึง PDF, PNG, เป็นต้น)  
-- **เวลาในการทำงานโดยประมาณ?** 10–15 นาทีสำหรับการแปลงพื้นฐาน  
-- **ต้องมีลิขสิทธิ์หรือไม่?** จำเป็นต้องมีลิขสิทธิ์ชั่วคราวสำหรับการใช้งานในโปรดักชัน; มีการทดลองใช้ฟรีให้บริการ  
-- **สามารถทำการแปลงจากหน่วยความจำได้หรือไม่?** ได้, โดยใช้ `MemoryStream` ตามที่แสดงต่อไปนี้
+## คำตอบด่วน
+- **Library ทำอะไรที่นี่?** Aspose.TeX สำหรับ .NET
+- ** รูปแบบผลลัพธ์ที่รองรับ?** XPS (รวมถึง PDF, PNG, เป็นต้น)
+- **เวลาโดยประมาณ?** 10–15 นาทีสำหรับการตรวจสอบพื้นฐาน
+- **ต้องมีลิขสิทธิ์หรือไม่** ต้องมีลิขสิทธิ์บางส่วนในโปรดักชัน; คุณสามารถดูรายการฟรีให้บริการ
+- ** เราสามารถอธิบายได้จากการตรวจสอบอย่างละเอียด?** ได้, `MemoryStream` สามารถแสดงที่นี่ได้
 
-## How to Convert LaTeX to XPS in .NET
-ด้านล่างเป็นขั้นตอนสั้น ๆ ที่ครอบคลุมทุกอย่างที่คุณต้องการ — ตั้งแต่ข้อกำหนดเบื้องต้นจนถึงการปรับแต่งเพิ่มเติม — เพื่อให้คุณสามารถมุ่งเน้นที่ตรรกะธุรกิจของแอปพลิเคชันของคุณได้
+## วิธีแปลง LaTeX เป็น XPS ใน .NET
+ด้านล่างเป็นขั้นตอนสั้น ๆ ทุกอย่างที่คุณต้องการ — หลักการเบื้องต้นเพื่อตรวจสอบเพิ่มเติม — เพื่อให้คุณสามารถจัดการกับธุรกิจของแอปพลิเคชันได้
 
-## Prerequisites
+## ข้อกำหนดเบื้องต้น
 
-ก่อนเริ่มทำตามบทเรียน โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้พร้อมใช้งานแล้ว:
+ก่อนเริ่มทำตามคำสั่งอย่างเป็นทางการคุณจะต้องมีข้อกำหนดเพิ่มเติมพร้อมใช้งานแล้ว:
 
-- ความรู้พื้นฐานด้าน C# และการพัฒนา .NET  
-- ไลบรารี Aspose.TeX for .NET ติดตั้งแล้ว คุณสามารถดาวน์โหลดได้ **[ที่นี่](https://releases.aspose.com/tex/net/)**  
-- ความเข้าใจพื้นฐานเกี่ยวกับไวยากรณ์และโครงสร้างของ LaTeX
+- ความรู้พื้นฐานด้าน C# และการพัฒนา .NET
+- ไลบรารี Aspose.TeX สำหรับ .NET ดาวน์โหลดแล้วดาวน์โหลดดาวน์โหลด **[ที่นี่](https://releases.aspose.com/tex/net/)**
+- ความเข้าใจพื้นฐานเกี่ยวกับการพิจารณาและระบบควบคุม LaTeX
 
-## Import Namespaces
+## นำเข้าเนมสเปซ
 
 เริ่มต้นด้วยการนำเข้า namespace ที่จำเป็นสำหรับแอปพลิเคชัน .NET ของเรา Namespace เหล่านี้สำคัญต่อการโต้ตอบกับฟังก์ชันของ Aspose.TeX
 
@@ -48,7 +48,7 @@ using System.IO;
 using System.Text;
 ```
 
-## Step 1: Set Up Conversion Options
+## ขั้นตอนที่ 1: ตั้งค่าตัวเลือกการแปลง
 
 ```csharp
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectLaTeX);
@@ -57,7 +57,7 @@ options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directo
 
 ที่นี่เราจะสร้างอ็อบเจ็กต์ตัวเลือกการแปลงและระบุตำแหน่งโฟลเดอร์ที่มีไฟล์ต้นฉบับ `.ltx` ของคุณ
 
-## Step 2: Set Interaction Mode
+## ขั้นตอนที่ 2: ตั้งค่าโหมดการโต้ตอบ
 
 ```csharp
 options.Interaction = Interaction.NonstopMode;
@@ -65,7 +65,7 @@ options.Interaction = Interaction.NonstopMode;
 
 โหมด non‑stop บอกให้เอนจินดำเนินการต่อแม้จะพบคำเตือนเล็กน้อย ซึ่งเหมาะกับ pipeline ที่ทำงานอัตโนมัติ
 
-## Step 3: Set Job Name (Optional)
+## ขั้นตอนที่ 3: ตั้งชื่องาน (ไม่บังคับ)
 
 ```csharp
 // options.JobName = "my-job-name";
@@ -73,7 +73,7 @@ options.Interaction = Interaction.NonstopMode;
 
 คุณสามารถกำหนดชื่อ job แบบกำหนดเองเพื่อช่วยระบุ log เมื่อประมวลผลหลายเอกสารพร้อมกัน
 
-## Step 4: Set Date in Title (Optional)
+## ขั้นตอนที่ 4: ตั้งค่าวันที่ในชื่อเรื่อง (ไม่บังคับ)
 
 ```csharp
 // options.DateTime = new System.DateTime(2022, 12, 18);
@@ -81,7 +81,7 @@ options.Interaction = Interaction.NonstopMode;
 
 บังคับให้แสดงวันที่เฉพาะบนหน้า title ที่สร้างขึ้น ซึ่งมีประโยชน์สำหรับรายงานที่ต้องทำซ้ำได้
 
-## Step 5: Ignore Missing Packages
+## ขั้นตอนที่ 5: ละเว้นแพ็กเกจที่ขาดหายไป
 
 ```csharp
 options.IgnoreMissingPackages = true;
@@ -89,7 +89,7 @@ options.IgnoreMissingPackages = true;
 
 เมื่อกำหนดเป็น `true` เอนจินจะข้ามแพ็กเกจ LaTeX ที่หายไปแทนการโยนข้อผิดพลาด ซึ่งช่วยเร่งการแปลงเป็นชุดใหญ่ได้
 
-## Step 6: Disable Ligatures
+## ขั้นตอนที่ 6: ปิดใช้งานการเชื่อมตัวอักษร
 
 ```csharp
 options.NoLigatures = true;
@@ -97,7 +97,7 @@ options.NoLigatures = true;
 
 การปิด ligatures ทำให้การผสมตัวอักษรแสดงผลตามที่พิมพ์ไว้อย่างแม่นยำ ซึ่งบางเอกสารเทคนิคต้องการเช่นนี้
 
-## Step 7: Repeat the Job (Optional)
+## ขั้นตอนที่ 7: ทำซ้ำงาน (ไม่บังคับ)
 
 ```csharp
 // options.Repeat = true;
@@ -105,7 +105,7 @@ options.NoLigatures = true;
 
 เปิดใช้งานฟลักนี้ทำให้เอนจินรัน job เดิมอีกครั้ง — มีประโยชน์สำหรับการดีบักแบบวนซ้ำ
 
-## Step 8: Specify Output Working Directory
+## ขั้นตอนที่ 8: ระบุไดเร็กทอรีการทำงานของเอาต์พุต
 
 ```csharp
 options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
@@ -113,7 +113,7 @@ options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Dire
 
 กำหนดตำแหน่งที่ไฟล์ XPS ที่สร้างขึ้นจะถูกเขียนลง
 
-## Step 9: Initialize Save Options for XPS
+## ขั้นตอนที่ 9: เริ่มต้นตัวเลือกการบันทึกสำหรับ XPS
 
 ```csharp
 options.SaveOptions = new XpsSaveOptions(); // Default value. Arbitrary assignment.
@@ -121,7 +121,7 @@ options.SaveOptions = new XpsSaveOptions(); // Default value. Arbitrary assignme
 
 สร้างอินสแตนซ์ของ `XpsSaveOptions` เพื่อปรับแต่งผลลัพธ์ XPS อย่างละเอียด
 
-## Step 10: Rasterize Formulas (Optional)
+## ขั้นตอนที่ 10: แปลงสูตรเป็นแรสเตอร์ (ไม่บังคับ)
 
 ```csharp
 options.SaveOptions.RasterizeFormulas = true;
@@ -129,7 +129,7 @@ options.SaveOptions.RasterizeFormulas = true;
 
 เมื่อ `true` สูตรคณิตศาสตร์จะถูกเรนเดอร์เป็นภาพ raster ซึ่งอาจเพิ่มความเข้ากันได้กับ XPS viewer รุ่นเก่า
 
-## Step 11: Rasterize Included Graphics (Optional)
+## ขั้นตอนที่ 11: แปลงกราฟิกที่รวมอยู่เป็นแรสเตอร์ (ไม่บังคับ)
 
 ```csharp
 options.SaveOptions.RasterizeIncludedGraphics = true;
@@ -137,7 +137,7 @@ options.SaveOptions.RasterizeIncludedGraphics = true;
 
 แปลงกราฟิกเวกเตอร์ที่ฝังอยู่ในซอร์ส LaTeX ให้เป็นภาพ raster เพื่อให้การแสดงผลสม่ำเสมอบนทุกแพลตฟอร์ม
 
-## Step 12: Subset Fonts
+## ขั้นตอนที่ 12: เลือกแบบอักษรย่อย
 
 ```csharp
 options.SaveOptions.SubsetFonts = true;
@@ -145,7 +145,7 @@ options.SaveOptions.SubsetFonts = true;
 
 การ subset ฟอนต์จะฝังเฉพาะ glyph ที่ใช้ในเอกสารจริง ลดขนาดไฟล์ลง
 
-## Step 13: Run LaTeX to XPS Conversion
+## ขั้นตอนที่ 13: เรียกใช้การแปลง LaTeX เป็น XPS
 
 ```csharp
 new TeXJob(Path.Combine("Your Input Directory", "sample.ltx"), new XpsDevice(), options).Run();
@@ -153,7 +153,7 @@ new TeXJob(Path.Combine("Your Input Directory", "sample.ltx"), new XpsDevice(), 
 
 บรรทัดเดียวนี้จะเริ่มกระบวนการแปลง อ่าน `sample.ltx` แล้วสร้างไฟล์ XPS ในโฟลเดอร์ผลลัพธ์
 
-## Step 14: Run LaTeX to XPS Conversion with MemoryStream (Alternative)
+## ขั้นตอนที่ 14: เรียกใช้การแปลง LaTeX เป็น XPS ด้วย MemoryStream (ทางเลือกอื่น)
 
 ```csharp
 // new TeXJob(new MemoryStream(Encoding.ASCII.GetBytes(@"\documentclass{article} \begin{document} Hello, World! \end{document}")),
@@ -162,7 +162,7 @@ new TeXJob(Path.Combine("Your Input Directory", "sample.ltx"), new XpsDevice(), 
 
 หากคุณต้องการป้อนซอร์ส LaTeX โดยตรงจากหน่วยความจำ — เช่น สร้างขึ้นแบบไดนามิก — ให้ใช้ `MemoryStream` ตามที่แสดง
 
-## Step 15: Run LaTeX to XPS Conversion with Main Input Terminal (Alternative)
+## ขั้นตอนที่ 15: เรียกใช้การแปลง LaTeX เป็น XPS ด้วยเทอร์มินัลอินพุตหลัก (ทางเลือกอื่น)
 
 ```csharp
 // new TeXJob(new XpsDevice(), options).Run();
@@ -170,38 +170,38 @@ new TeXJob(Path.Combine("Your Input Directory", "sample.ltx"), new XpsDevice(), 
 
 โอเวอร์โหลดนี้ให้คุณเริ่มการแปลงจาก terminal อินพุตเริ่มต้น ซึ่งเหมาะกับสถานการณ์แบบ command‑line
 
-## Common Issues & Tips
+## ปัญหาและเคล็ดลับทั่วไป
 
-- **Missing Packages:** แม้ตั้งค่า `IgnoreMissingPackages` เป็น `true` บางแพ็กเกจยังคงจำเป็น ตรวจสอบให้แน่ใจว่าแพ็กเกจหลัก (เช่น `amsmath`) มีอยู่ใน distribution ของ TeX ของคุณ  
-- **Font Subsetting Errors:** หากไฟล์ XPS ที่ได้ดูผิดรูป ให้ลองปิด `SubsetFonts` เพื่อฝังฟอนต์เต็ม  
-- **Large Documents:** สำหรับโครงการ LaTeX ขนาดใหญ่ ให้เพิ่มขนาด heap ของ JVM (หากใช้เอนจิน TeX ภายใน) หรือแบ่งเอกสารเป็นส่วนย่อยเพื่อประมวลผล
+- **Missing Package:** ติดตั้ง `IgnoreMissingPackages` เป็น `true` บางการรักษายังคงจำเป็นต้องใช้การดูแลแคร์หลัก (เช่น `amsmath`) มีการกระจายของ TeX ของคุณ
+- **Font Subsetting Errors:** ถ้าไฟล์ XPS ที่ได้ดูผิดรูปให้ลองปิด `SubsetFonts` เพื่อฝังฟอนต์เต็ม
+- **เอกสารขนาดใหญ่:** สำหรับโครงการ LaTeX ขนาดใหญ่ให้เพิ่มขนาดฮีปของ JVM (หากใช้เอนจิน TeX ภายนอก) หรือแบ่งเอกสารย่อยย่อยเพื่อดูรายละเอียด
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-**Q1: Aspose.TeX รองรับ .NET framework ล่าสุดหรือไม่?**  
-A: ใช่, Aspose.TeX มีการอัปเดตอย่างสม่ำเสมอเพื่อสนับสนุน .NET 6, .NET 7 และเวอร์ชันใหม่ ๆ
+**Q1: ​​Aspose.TeX รองรับ .NET framework ล่าสุดหรือไม่**
+ตอบ: ถูกต้อง, Aspose.TeX มีความจำเป็นเพื่อสนับสนุน .NET6, .NET7 และทุกอย่างใหม่
 
-**Q2: ฉันสามารถปรับแต่งรูปแบบผลลัพธ์อื่นนอกจาก XPS ได้หรือไม่?**  
-A: Aspose.TeX รองรับหลายรูปแบบผลลัพธ์ ดูรายละเอียดเต็มใน API reference **[ที่นี่](https://reference.aspose.com/tex/net/)**
+**คำถามที่ 2: ฉันสามารถควบคุมรูปแบบผลลัพธ์อื่นนอกเหนือจาก XPS ได้หรือไม่**
+ตอบ: Aspose.TeX สามารถดูได้หลายรูปแบบผลลัพธ์ ดูรายละเอียดในการอ้างอิง API **[ที่นี่](https://reference.aspose.com/tex/net/)**
 
-**Q3: ฉันจะขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.TeX ได้อย่างไร?**  
-A: คุณสามารถรับลิขสิทธิ์ชั่วคราว **[ที่นี่](https://purchase.aspose.com/temporary-license/)**
+**คำถามที่ 3: ฉันขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.TeX ได้อย่างไร**
+ตอบ: ไม่เคยรับลิขสิทธิ์ชั่วคราว **[ที่นี่](https://purchase.aspose.com/temporary-license/)**
 
-**Q4: ฉันจะหาชุมชนหรือที่แชร์ประสบการณ์กับ Aspose.TeX ได้จากที่ไหน?**  
-A: เข้าร่วมฟอรั่มชุมชน **[ที่นี่](https://forum.aspose.com/c/tex/47)** เพื่อรับเคล็ดลับและการสนับสนุน
+**Q4: ฉันหาชุมชนหรือที่แชร์ประสบการณ์กับ Aspose.TeX จากที่ไหน?**
+ตอบ: ผู้ดูแลฟอรั่มชุมชน **[ที่นี่](https://forum.aspose.com/c/tex/47)** เพื่อรับเคล็ดลับและการรับฟัง
 
-**Q5: มีตัวอย่างเอกสาร LaTeX สำหรับทดสอบการแปลงหรือไม่?**  
-A: มี, สำรวจตัวอย่าง Aspose.TeX **[ที่นี่](https://github.com/aspose-tex/Aspose.TeX-for-.NET)**
+**Q5: มีตัวอย่างเอกสาร LaTeX สำหรับทดสอบทดสอบหรือไม่**
+A: มี, ภาพยนตร์ตัวอย่าง Aspose.TeX **[ที่นี่](https://github.com/aspose-tex/Aspose.TeX-for-.NET)**
 
-## Conclusion
+## บทสรุป
 
-โดยทำตามขั้นตอนเหล่านี้ คุณจะได้เวิร์กโฟลว์ที่พร้อมใช้งานในระดับโปรดักชันสำหรับ **วิธีแปลง latex** ให้เป็น XPS ด้วย Aspose.TeX for .NET ตัวเลือกหลากหลายของไลบรารีทำให้คุณสามารถปรับการแปลงให้ตรงกับความต้องการเฉพาะของคุณ ไม่ว่าจะเป็นการสร้างใบแจ้งหนี้ คู่มือเทคนิค หรืองานวิจัยทางวิชาการ
+โดยขั้นตอนนี้คุณจะได้เริ่มต้นโฟลว์ที่พร้อมใช้งานในระดับโปรดักชัน **วิธีแปลง latex** ให้เป็น XPS ด้วย Aspose.TeX สำหรับ .NET ความหลากหลายของไลบรารีรัฐสภาให้เรียกร้องเรียกร้องเฉพาะของคุณเพื่อรวบรวมข้อมูลเชิงเทคนิคหรือวิจัยทางวิชาการ
 
 ---
 
-**Last Updated:** 2025-12-23  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 23-12-2025
+**ทดสอบกับ:** Aspose.TeX 24.11 สำหรับ .NET
+**ผู้เขียน:** สมมติ  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

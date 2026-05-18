@@ -133,13 +133,6 @@ A: Természetesen. Iteráljon egy fájlútvonal‑gyűjteményen, és minden egy
 
 Ezeknek a lépéseknek a követésével gyorsan és megbízhatóan **SVG-t hozhat létre LaTeX-ből** az Aspose.TeX for .NET segítségével. Akár tudományos webportált épít, automatizált jelentéskészítést valósít meg, vagy egyszerűen csak **SVG-t generál LaTeX-ből** bármely .NET projektben, ez az útmutató szilárd alapot nyújt a kezdéshez.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Legutóbb frissítve:** 2025-12-23  
@@ -147,3 +140,10 @@ Ezeknek a lépéseknek a követésével gyorsan és megbízhatóan **SVG-t hozha
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

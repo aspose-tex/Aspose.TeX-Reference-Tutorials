@@ -87,28 +87,6 @@ Dengan mengikuti dua langkah sederhana ini, Anda memastikan Aspose.TeX berlisens
 
 Selamat! Anda telah berhasil memuat lisensi Aspose.TeX menggunakan C#. Langkah dasar ini memungkinkan Anda menjelajahi beragam fungsionalitas perpustakaan tanpa batasan. Untuk eksplorasi lebih dalam, lihat [dokumentasi](https://reference.aspose.com/tex/net/) dan bereksperimen dengan rendering TeX, konversi PDF, dan lainnya.
 
-## FAQ
-
-### Q1: Bisakah saya menggunakan Aspose.TeX untuk .NET tanpa lisensi?
-
-**A1:** Meskipun lisensi disarankan untuk fungsionalitas penuh, Anda dapat menjelajahi Aspose.TeX dengan lisensi sementara yang tersedia [di sini](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Di mana saya dapat menemukan dukungan untuk Aspose.TeX untuk .NET?
-
-**A2:** Kunjungi [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) untuk terhubung dengan komunitas dan mencari bantuan.
-
-### Q3: Apakah ada percobaan gratis untuk Aspose.TeX untuk .NET?
-
-**A3:** Ya, Anda dapat mengakses percobaan gratis [di sini](https://releases.aspose.com/).
-
-### Q4: Seberapa sering pembaruan dirilis untuk Aspose.TeX untuk .NET?
-
-**A4:** Tetap terbarui dengan rilis terbaru [di sini](https://releases.aspose.com/tex/net/).
-
-### Q5: Di mana saya dapat membeli Aspose.TeX untuk .NET?
-
-**A5:** Anda dapat membeli Aspose.TeX [di sini](https://purchase.aspose.com/buy).
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Apakah saya perlu memuat ulang lisensi untuk setiap AppDomain baru?**  

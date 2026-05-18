@@ -15,29 +15,29 @@ weight: 13
 
 # LaTeX ke XPS di .NET - Konversi Mudah dengan Aspose.TeX
 
-## Introduction
+## Perkenalan
 
-Jika Anda bertanya-tanya **cara mengonversi latex** dokumen ke format XPS dalam aplikasi .NET Anda, Anda berada di tempat yang tepat. Aspose.TeX untuk .NET menyediakan solusi yang kuat dan sederhana yang menangani pekerjaan berat untuk Anda. Dalam panduan ini kami akan menjelaskan setiap langkah, menjelaskan mengapa setiap pengaturan penting, dan menunjukkan cara mendapatkan output XPS berkualitas tinggi dan dapat disesuaikan dengan hanya beberapa baris kode.
+Jika Anda bertanya-tanya **cara mengonversi lateks** dokumen ke format XPS dalam aplikasi .NET Anda, Anda berada di tempat yang tepat. Aspose.TeX untuk .NET menyediakan solusi yang kuat dan sederhana yang menangani pekerjaan berat untuk Anda. Dalam panduan ini kami akan menjelaskan setiap langkah, menjelaskan mengapa setiap pengaturan penting, dan menunjukkan cara mendapatkan output XPS berkualitas tinggi dan dapat disesuaikan hanya dengan beberapa baris kode.
 
-## Quick Answers
-- **Perpustakaan apa yang menangani konversi?** Aspose.TeX for .NET  
-- **Format output yang didukung?** XPS (also PDF, PNG, etc.)  
-- **Waktu implementasi tipikal?** 10–15 menit untuk konversi dasar  
-- **Apakah saya memerlukan lisensi?** Lisensi sementara diperlukan untuk produksi; percobaan gratis tersedia.  
-- **Bisakah saya menjalankan konversi dari memori?** Ya, menggunakan `MemoryStream` seperti yang ditunjukkan nanti.
+## Jawaban Cepat
+- **Perpustakaan apa yang menangani konversi?** Aspose.TeX untuk .NET
+- **Format output yang didukung?** XPS (juga PDF, PNG, dll.)
+- **Waktu implementasi tipikal?** 10–15 menit untuk konversi dasar
+- **Apakah saya memerlukan lisensi?** Lisensi sementara diperlukan untuk produksi; percobaan gratis tersedia.
+- ** Membiarkan saya menjalankan konversi dari memori?** Ya, menggunakan `MemoryStream` seperti yang ditunjukkan nanti.
 
-## How to Convert LaTeX to XPS in .NET
-Berikut adalah panduan singkat langkah‑demi‑langkah yang mencakup semua yang Anda butuhkan—dari prasyarat hingga penyesuaian opsional—sehingga Anda dapat fokus pada logika bisnis aplikasi Anda.
+## Cara Mengonversi LaTeX ke XPS di .NET
+Berikut adalah panduan langkah‑demi‑langkah singkat yang mencakup semua yang Anda butuhkan—dari prasyarat hingga penyesuaian opsional—sehingga Anda dapat fokus pada logika bisnis aplikasi Anda.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum menyelam ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
-- Pengetahuan dasar tentang C# dan pengembangan .NET.  
-- Perpustakaan Aspose.TeX untuk .NET terpasang. Anda dapat mengunduhnya **[here](https://releases.aspose.com/tex/net/)**.  
+- Pengetahuan dasar tentang C# dan pengembangan .NET.
+- Perpustakaan Aspose.TeX untuk .NET terpasang. Anda dapat mengunduhnya **[di sini](https://releases.aspose.com/tex/net/)**.
 - Pemahaman tentang sintaks dan struktur LaTeX.
 
-## Import Namespaces
+## Impor Namespace
 
 Mari kita mulai dengan mengimpor namespace yang diperlukan untuk aplikasi .NET kami. Namespace ini penting untuk berinteraksi dengan fungsionalitas Aspose.TeX.
 
@@ -48,7 +48,7 @@ using System.IO;
 using System.Text;
 ```
 
-## Step 1: Set Up Conversion Options
+## Langkah 1: Atur Opsi Konversi
 
 ```csharp
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectLaTeX);
@@ -57,7 +57,7 @@ options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directo
 
 Di sini, kami menginisialisasi opsi konversi dan menunjuk mesin ke folder yang berisi file sumber `.ltx` Anda.
 
-## Step 2: Set Interaction Mode
+## Langkah 2: Atur Mode Interaksi
 
 ```csharp
 options.Interaction = Interaction.NonstopMode;
@@ -65,7 +65,7 @@ options.Interaction = Interaction.NonstopMode;
 
 Mode non‑stop memberi tahu mesin untuk terus memproses meskipun menemukan peringatan kecil, yang ideal untuk pipeline otomatis.
 
-## Step 3: Set Job Name (Optional)
+## Langkah 3: Atur Nama Pekerjaan (Opsional)
 
 ```csharp
 // options.JobName = "my-job-name";
@@ -73,7 +73,7 @@ Mode non‑stop memberi tahu mesin untuk terus memproses meskipun menemukan peri
 
 Anda dapat menetapkan nama pekerjaan khusus untuk membantu mengidentifikasi log saat memproses banyak dokumen.
 
-## Step 4: Set Date in Title (Optional)
+## Langkah 4: Atur Tanggal di Judul (Opsional)
 
 ```csharp
 // options.DateTime = new System.DateTime(2022, 12, 18);
@@ -81,7 +81,7 @@ Anda dapat menetapkan nama pekerjaan khusus untuk membantu mengidentifikasi log 
 
 Memaksa tanggal tertentu muncul di halaman judul yang dihasilkan, berguna untuk laporan yang dapat direproduksi.
 
-## Step 5: Ignore Missing Packages
+## Langkah 5: Abaikan Paket yang Hilang
 
 ```csharp
 options.IgnoreMissingPackages = true;
@@ -89,7 +89,7 @@ options.IgnoreMissingPackages = true;
 
 Ketika disetel ke `true`, mesin melewati paket LaTeX yang hilang alih‑alih melempar error, yang dapat mempercepat konversi batch.
 
-## Step 6: Disable Ligatures
+## Langkah 6: Nonaktifkan Ligatur
 
 ```csharp
 options.NoLigatures = true;
@@ -97,7 +97,7 @@ options.NoLigatures = true;
 
 Menonaktifkan ligatur memastikan kombinasi karakter ditampilkan persis seperti yang diketik, yang diperlukan oleh beberapa dokumen teknis.
 
-## Step 7: Repeat the Job (Optional)
+## Langkah 7: Ulangi Pekerjaan (Opsional)
 
 ```csharp
 // options.Repeat = true;
@@ -105,7 +105,7 @@ Menonaktifkan ligatur memastikan kombinasi karakter ditampilkan persis seperti y
 
 Mengaktifkan flag ini memberi tahu mesin untuk menjalankan pekerjaan yang sama lagi—berguna untuk debugging iteratif.
 
-## Step 8: Specify Output Working Directory
+## Langkah 8: Tentukan Direktori Kerja Output
 
 ```csharp
 options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
@@ -113,7 +113,7 @@ options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Dire
 
 Tentukan di mana file XPS yang dihasilkan akan ditulis.
 
-## Step 9: Initialize Save Options for XPS
+## Langkah 9: Inisialisasi Opsi Simpan untuk XPS
 
 ```csharp
 options.SaveOptions = new XpsSaveOptions(); // Default value. Arbitrary assignment.
@@ -121,7 +121,7 @@ options.SaveOptions = new XpsSaveOptions(); // Default value. Arbitrary assignme
 
 Buat instance `XpsSaveOptions` untuk menyetel detail output XPS.
 
-## Step 10: Rasterize Formulas (Optional)
+## Langkah 10: Rasterisasi Rumus (Opsional)
 
 ```csharp
 options.SaveOptions.RasterizeFormulas = true;
@@ -129,7 +129,7 @@ options.SaveOptions.RasterizeFormulas = true;
 
 Ketika `true`, rumus matematika dirender sebagai gambar raster, yang dapat meningkatkan kompatibilitas dengan penampil XPS lama.
 
-## Step 11: Rasterize Included Graphics (Optional)
+## Langkah 11: Rasterisasi Grafik yang Disertakan (Opsional)
 
 ```csharp
 options.SaveOptions.RasterizeIncludedGraphics = true;
@@ -137,7 +137,7 @@ options.SaveOptions.RasterizeIncludedGraphics = true;
 
 Konversi grafik vektor yang disematkan dalam sumber LaTeX menjadi gambar raster untuk rendering konsisten di semua platform.
 
-## Step 12: Subset Fonts
+## Langkah 12: Subset Font
 
 ```csharp
 options.SaveOptions.SubsetFonts = true;
@@ -145,7 +145,7 @@ options.SaveOptions.SubsetFonts = true;
 
 Subset hanya menyertakan glif yang benar‑benar digunakan dalam dokumen, sehingga ukuran file berkurang.
 
-## Step 13: Run LaTeX to XPS Conversion
+## Langkah 13: Jalankan Konversi LaTeX ke XPS
 
 ```csharp
 new TeXJob(Path.Combine("Your Input Directory", "sample.ltx"), new XpsDevice(), options).Run();
@@ -153,7 +153,7 @@ new TeXJob(Path.Combine("Your Input Directory", "sample.ltx"), new XpsDevice(), 
 
 Baris tunggal ini meluncurkan proses konversi, membaca `sample.ltx` dan menghasilkan file XPS di direktori output.
 
-## Step 14: Run LaTeX to XPS Conversion with MemoryStream (Alternative)
+## Langkah 14: Jalankan Konversi LaTeX ke XPS dengan MemoryStream (Alternatif)
 
 ```csharp
 // new TeXJob(new MemoryStream(Encoding.ASCII.GetBytes(@"\documentclass{article} \begin{document} Hello, World! \end{document}")),
@@ -162,7 +162,7 @@ Baris tunggal ini meluncurkan proses konversi, membaca `sample.ltx` dan menghasi
 
 Jika Anda lebih suka memberi sumber LaTeX langsung dari memori—misalnya yang dihasilkan secara dinamis—gunakan `MemoryStream` seperti yang ditunjukkan.
 
-## Step 15: Run LaTeX to XPS Conversion with Main Input Terminal (Alternative)
+## Langkah 15: Jalankan Konversi LaTeX ke XPS dengan Terminal Input Utama (Alternatif)
 
 ```csharp
 // new TeXJob(new XpsDevice(), options).Run();
@@ -170,38 +170,38 @@ Jika Anda lebih suka memberi sumber LaTeX langsung dari memori—misalnya yang d
 
 Overload ini memungkinkan Anda meluncurkan konversi dari terminal input default, berguna untuk skenario baris perintah.
 
-## Common Issues & Tips
+## Masalah & Tip Umum
 
-- **Missing Packages:** Bahkan dengan `IgnoreMissingPackages` disetel ke `true`, beberapa paket tetap penting. Pastikan paket inti (mis., `amsmath`) tersedia dalam distribusi TeX Anda.  
-- **Font Subsetting Errors:** Jika output XPS terlihat berantakan, coba nonaktifkan `SubsetFonts` untuk menyertakan font lengkap.  
-- **Large Documents:** Untuk proyek LaTeX yang sangat besar, tingkatkan ukuran heap JVM (jika menggunakan mesin TeX di bawah) atau proses dokumen dalam potongan yang lebih kecil.
+- **Paket Hilang:** Bahkan dengan `IgnoreMissingPackages` disetel ke `true`, beberapa paket tetap penting. Pastikan paket inti (mis., `amsmath`) tersedia dalam distribusi TeX Anda.
+- **Font Subsetting Errors:** Jika output XPS terlihat berantakan, coba aktifkan `SubsetFonts` untuk memasukkan font lengkap.
+- **Dokumen Besar:** Untuk proyek LaTeX yang sangat besar, tingkatkan ukuran heap JVM (jika menggunakan mesin TeX di bawah) atau proses dokumen dalam potongan yang lebih kecil.
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q1: Apakah Aspose.TeX kompatibel dengan kerangka kerja .NET terbaru?**  
-A: Ya, Aspose.TeX secara rutin diperbarui untuk mendukung .NET 6, .NET 7, dan rilis yang lebih baru.
+**Q1: ​​Apakah Aspose.TeX kompatibel dengan kerangka kerja .NET terbaru?**
+A: Ya, Aspose.TeX secara rutin diperbarui untuk mendukung .NET6, .NET7, dan rilis yang lebih baru.
 
-**Q2: Bisakah saya menyesuaikan format output selain XPS?**  
-A: Aspose.TeX mendukung banyak format output. Lihat referensi API lengkap **[here](https://reference.aspose.com/tex/net/)** untuk detailnya.
+**Q2: Bisakah saya menyesuaikan format output selain XPS?**
+A: Aspose.TeX mendukung banyak format output. Lihat referensi API lengkap **[di sini](https://reference.aspose.com/tex/net/)** untuk detailnya.
 
-**Q3: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.TeX?**  
-A: Anda dapat memperoleh lisensi sementara **[here](https://purchase.aspose.com/temporary-license/)**.
+**Q3: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.TeX?**
+A: Anda dapat memperoleh lisensi sementara **[di sini](https://purchase.aspose.com/temporary-license/)**.
 
-**Q4: Di mana saya dapat mencari bantuan atau berbagi pengalaman dengan Aspose.TeX?**  
-A: Bergabunglah dengan forum komunitas **[here](https://forum.aspose.com/c/tex/47)** untuk tips dan dukungan.
+**Q4: Di mana saya dapat mencari bantuan atau berbagi pengalaman dengan Aspose.TeX?**
+A: bermitra dengan forum komunitas **[di sini](https://forum.aspose.com/c/tex/47)** untuk tips dan dukungan.
 
-**Q5: Apakah ada contoh dokumen LaTeX untuk menguji konversi?**  
-A: Ya, jelajahi contoh Aspose.TeX **[here](https://github.com/aspose-tex/Aspose.TeX-for-.NET)**.
+**Q5: Apakah ada contoh dokumen LaTeX untuk menguji konversi?**
+A: Ya, jelajahi contoh Aspose.TeX **[di sini](https://github.com/aspose-tex/Aspose.TeX-for-.NET)**.
 
-## Conclusion
+## Kesimpulan
 
-Dengan mengikuti langkah‑langkah ini, Anda kini memiliki alur kerja lengkap yang siap produksi untuk **cara mengonversi latex** dokumen ke XPS menggunakan Aspose.TeX untuk .NET. Opsi‑opsi luas dalam perpustakaan memungkinkan Anda menyesuaikan konversi sesuai kebutuhan tepat—baik Anda membuat faktur, manual teknis, atau makalah akademik.
+Dengan mengikuti langkah‑langkah ini, Anda kini memiliki alur kerja lengkap yang siap produksi untuk **cara mengonversi lateks** dokumen ke XPS menggunakan Aspose.TeX untuk .NET. Opsi‑opsi luas dalam perpustakaan memungkinkan Anda menyesuaikan konversi sesuai kebutuhan tepat—baik Anda membuat faktur, manual teknis, atau dokumen akademik.
 
 ---
 
-**Last Updated:** 2025-12-23  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 23-12-2025
+**Diuji Dengan:** Aspose.TeX 24.11 untuk .NET
+**Penulis:** Beranggapan  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -85,29 +85,7 @@ Console.WriteLine("License set successfully.");
 
 बधाई हो! आपने C# का उपयोग करके Aspose.TeX लाइसेंस सफलतापूर्वक लोड कर लिया है। यह बुनियादी कदम आपको लाइब्रेरी की विविध कार्यक्षमताओं को बिना प्रतिबंध के एक्सप्लोर करने की अनुमति देता है। अधिक गहराई के लिए, [documentation](https://reference.aspose.com/tex/net/) देखें और TeX रेंडरिंग, PDF रूपांतरण आदि के साथ प्रयोग करें।
 
-## अक्सर पूछे जाने वाले प्रश्न
-
-### Q1: क्या मैं Aspose.TeX for .NET को बिना लाइसेंस के उपयोग कर सकता हूँ?
-
-A1: जबकि पूर्ण कार्यक्षमता के लिए लाइसेंस की सिफारिश की जाती है, आप Aspose.TeX को एक अस्थायी लाइसेंस के साथ एक्सप्लोर कर सकते हैं जो [here](https://purchase.aspose.com/temporary-license/) पर उपलब्ध है।
-
-### Q2: मैं Aspose.TeX for .NET के लिए सपोर्ट कहाँ पा सकता हूँ?
-
-A2: सहायता के लिए [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) पर जाएँ और समुदाय से जुड़ें।
-
-### Q3: क्या Aspose.TeX for .NET के लिए मुफ्त ट्रायल उपलब्ध है?
-
-A3: हाँ, आप मुफ्त ट्रायल [here](https://releases.aspose.com/) पर एक्सेस कर सकते हैं।
-
-### Q4: Aspose.TeX for .NET के लिए अपडेट कितनी बार रिलीज़ होते हैं?
-
-A4: नवीनतम रिलीज़ [here](https://releases.aspose.com/tex/net/) पर देखें।
-
-### Q5: मैं Aspose.TeX for .NET कहाँ खरीद सकता हूँ?
-
-A5: आप Aspose.TeX [here](https://purchase.aspose.com/buy) से खरीद सकते हैं।
-
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले प्रश्नों
 
 **प्रश्न: क्या मुझे प्रत्येक नए AppDomain के लिए लाइसेंस को पुनः लोड करना चाहिए?**  
 **उत्तर:** हाँ, लाइसेंस रजिस्ट्रेशन AppDomain‑specific है। प्रत्येक डोमेन के स्टार्टअप के दौरान `SetLicense` कॉल करें।

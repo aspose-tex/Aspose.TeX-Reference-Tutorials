@@ -74,19 +74,6 @@ Aspose.TeX for .NET 为开发者打开了无限可能。无论是创建、修改
 ### [为 Aspose.TeX 设置计量许可证 (C#)](./set-metered-license-csharp/)
 探索 Aspose.TeX for .NET，轻松设置计量授权，释放 C# 项目中 TeX 文件操作的全部潜能。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-23  
-**测试环境：** Aspose.TeX for .NET（最新版本）  
-**作者：** Aspose  
-
 ## 常见问题
 
 **问：** *我需要为每台服务器单独购买许可证吗？*  
@@ -103,3 +90,16 @@ Aspose.TeX for .NET 为开发者打开了无限可能。无论是创建、修改
 
 **问：** *可以从嵌入资源加载许可证吗？*  
 **答：** 可以。获取资源流后，像处理其他 `Stream` 一样传递给许可证加载器。
+
+---
+
+**最后更新：** 2025-12-23  
+**测试环境：** Aspose.TeX for .NET（最新版本）  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

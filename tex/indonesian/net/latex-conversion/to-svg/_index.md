@@ -131,13 +131,6 @@ J: Tentu saja. Loop melalui koleksi jalur file dan buat instance `TeXJob` untuk 
 
 Dengan mengikuti langkah‑langkah ini Anda dapat **membuat SVG dari LaTeX** dengan cepat dan andal menggunakan Aspose.TeX untuk .NET. Baik Anda membangun portal web ilmiah, mengotomatisasi pembuatan laporan, atau sekadar perlu **menghasilkan SVG dari LaTeX** untuk proyek .NET apa pun, panduan ini memberikan fondasi yang solid untuk memulai.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-12-23  
@@ -145,3 +138,10 @@ Dengan mengikuti langkah‑langkah ini Anda dapat **membuat SVG dari LaTeX** den
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

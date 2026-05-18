@@ -75,19 +75,6 @@ Aspose.TeX สำหรับ .NET เปิดโลกของความเ
 ### [ตั้งค่าใบอนุญาตแบบ Metered สำหรับ Aspose.TeX (C#)](./set-metered-license-csharp/)
 สำรวจ Aspose.TeX สำหรับ .NET ตั้งค่าใบอนุญาตแบบ metered อย่างง่ายดาย, และปลดล็อกศักยภาพเต็มของการจัดการไฟล์ TeX ในโปรเจกต์ C# ของคุณ
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-23  
-**ทดสอบด้วย:** Aspose.TeX for .NET (เวอร์ชันล่าสุด)  
-**ผู้เขียน:** Aspose  
-
 ## คำถามที่พบบ่อย
 
 **ถาม:** *ฉันต้องการใบอนุญาตแยกต่างหากสำหรับแต่ละเซิร์ฟเวอร์หรือไม่?*  
@@ -104,3 +91,16 @@ Aspose.TeX สำหรับ .NET เปิดโลกของความเ
 
 **ถาม:** *ฉันสามารถโหลดใบอนุญาตจาก resource ที่ฝังไว้ได้หรือไม่?*  
 **ตอบ:** ได้ ดึงสตรีมของ resource แล้วส่งให้ตัวโหลดใบอนุญาตเช่นเดียวกับ `Stream` ใด ๆ.
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-23  
+**ทดสอบด้วย:** Aspose.TeX for .NET (เวอร์ชันล่าสุด)  
+**ผู้เขียน:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

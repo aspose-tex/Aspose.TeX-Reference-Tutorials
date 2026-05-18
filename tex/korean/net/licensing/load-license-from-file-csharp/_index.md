@@ -86,28 +86,6 @@ Console.WriteLine("License set successfully.");
 
 축하합니다! C#를 사용하여 Aspose.TeX 라이선스를 성공적으로 로드했습니다. 이 기본 단계 덕분에 라이브러리의 다양한 기능을 제한 없이 탐색할 수 있습니다. 더 자세히 알아보려면 [documentation](https://reference.aspose.com/tex/net/)을 참고하고 TeX 렌더링, PDF 변환 등을 실험해 보세요.
 
-## FAQ
-
-### Q1: 라이선스 없이 Aspose.TeX for .NET을 사용할 수 있나요?
-
-A1: 전체 기능을 사용하려면 라이선스를 권장하지만, [here](https://purchase.aspose.com/temporary-license/)에서 제공되는 임시 라이선스로 Aspose.TeX를 체험할 수 있습니다.
-
-### Q2: Aspose.TeX for .NET에 대한 지원을 어디서 찾을 수 있나요?
-
-A2: 커뮤니티와 연결하고 도움을 받으려면 [Aspose.TeX forum](https://forum.aspose.com/c/tex/47)을 방문하십시오.
-
-### Q3: Aspose.TeX for .NET에 대한 무료 체험이 있나요?
-
-A3: 예, 무료 체험은 [here](https://releases.aspose.com/)에서 이용할 수 있습니다.
-
-### Q4: Aspose.TeX for .NET 업데이트는 얼마나 자주 출시되나요?
-
-A4: 최신 릴리스는 [here](https://releases.aspose.com/tex/net/)에서 확인하십시오.
-
-### Q5: Aspose.TeX for .NET을 어디서 구매할 수 있나요?
-
-A5: Aspose.TeX는 [here](https://purchase.aspose.com/buy)에서 구매할 수 있습니다.
-
 ## 자주 묻는 질문
 
 **Q: 각 새로운 AppDomain마다 라이선스를 다시 로드해야 하나요?**  

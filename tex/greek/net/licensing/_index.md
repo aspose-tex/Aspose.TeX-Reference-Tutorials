@@ -76,19 +76,6 @@ weight: 23
 ### [Ρύθμιση Μετρημένης Άδειας για Aspose.TeX (C#)](./set-metered-license-csharp/)
 Εξερευνήστε το Aspose.TeX για .NET, ρυθμίστε τη μετρημένη αδειοδότηση χωρίς κόπο και ξεκλειδώστε το πλήρες δυναμικό της επεξεργασίας αρχείων TeX στα έργα C# σας.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-23  
-**Tested With:** Aspose.TeX for .NET (latest version)  
-**Author:** Aspose  
-
 ## Συχνές Ερωτήσεις
 
 **Q:** *Χρειάζομαι ξεχωριστή άδεια για κάθε διακομιστή;*  
@@ -105,3 +92,16 @@ weight: 23
 
 **Q:** *Μπορώ να φορτώσω την άδεια από ενσωματωμένο πόρο;*  
 **A:** Ναι. Ανακτήστε τη ροή πόρου και περάστε την στον φορτωτή άδειας όπως οποιαδήποτε άλλη `Stream`.
+
+---
+
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.TeX for .NET (latest version)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

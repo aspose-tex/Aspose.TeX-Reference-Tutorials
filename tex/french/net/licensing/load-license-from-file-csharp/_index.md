@@ -18,33 +18,33 @@ weight: 10
 
 ## Introduction
 
-Bienvenue dans le monde passionnant d'Aspose.TeX pour .NET ! Dans ce tutoriel, vous découvrirez **comment charger une licence c#** afin de pouvoir appliquer un fichier de licence et libérer toute la puissance de la bibliothèque dans vos applications .NET. Que vous construisiez un outil de publication scientifique ou que vous automatisiez la génération de rapports, un composant Aspose.TeX correctement licencié est essentiel pour des fonctionnalités prêtes pour la production.
+Bienvenue dans le monde passionnant d'Aspose.TeX pour .NET ! Dans ce tutoriel, vous découvrirez **commenter charger une licence c#** afin de pouvoir appliquer un fichier de licence et libérer toute la puissance de la bibliothèque dans vos applications .NET. Que vous construisiez un outil de publication scientifique ou que vous automatisiez la génération de rapports, un composant Aspose.TeX correctement licencié est essentiel pour des fonctionnalités prêtes pour la production.
 
-## Quick Answers
-- **Que fait “load license c#” ?** Il enregistre votre licence Aspose.TeX auprès du runtime, supprimant les limitations d'évaluation.  
-- **Ai-je besoin d'une licence permanente ?** Une licence permanente offre un accès illimité ; une licence Aspose temporaire fonctionne pour des tests à court terme.  
-- **Où le fichier de licence doit‑il être placé ?** Stockez‑le dans un dossier sécurisé sur le serveur et faites référence au chemin complet dans le code.  
-- **Puis‑je charger la licence à l'exécution ?** Oui — appelez `SetLicense` tôt dans le démarrage de votre application.  
+## Réponses rapides
+- **Que fait “load licence c#” ?** Il enregistre votre licence Aspose.TeX auprès du runtime, supprimant les limitations d'évaluation.
+- **Ai-je besoin d'une licence permanente ?** Une licence permanente offre un accès illimité; une licence Aspose temporaire fonctionne pour des tests à court terme.
+- **Où le fichier de licence doit‑il être placé ?** Stockez‑le dans un dossier sécurisé sur le serveur et faites référence au chemin complet dans le code.
+- **Puis‑je charger la licence à l'exécution ?** Oui— appelez `SetLicense` tôt dans le démarrage de votre application.
 - **Cette approche est‑elle compatible avec .NET Core ?** Absolument, la même API fonctionne sur .NET Framework et .NET Core.
 
-## Qu'est‑ce que load license c# ?
+## Qu'est‑ce que charger la licence c# ?
 
-Charger une licence en C# signifie simplement créer une instance de la classe `License` fournie par Aspose.TeX et la pointer vers un fichier `.lic` valide. Une fois la licence chargée, tous les appels d'API suivants fonctionnent sans filigranes ni limites d'utilisation.
+Charger une licence en C# signifie simplement créer une instance de la classe `License` fournie par Aspose.TeX et le pointeur vers un fichier `.lic` valide. Une fois la licence chargée, tous les appels d'API suivants fonctionnent sans filigranes ni limites d'utilisation.
 
 ## Pourquoi appliquer un fichier de licence ?
 
-- Ensemble complet de fonctionnalités (par ex., rendu TeX avancé, conversion PDF).  
-- Suppression des messages d'évaluation qui pourraient perturber les utilisateurs finaux.  
-- Conformité aux conditions de licence d'Aspose, notamment pour les déploiements commerciaux.  
+- Ensemble complet de fonctionnalités (par ex., rendu TeX avancé, conversion PDF).
+- Suppression des messages d'évaluation qui pourraient perturber les utilisateurs finaux.
+- Conformité aux conditions de licence d'Aspose, notamment pour les déploiements commerciaux.
 
 ## Prérequis
 
-Avant de commencer, vérifiez que vous disposez de ce qui suit :
+Avant de commencer, vérifiez que vous disposez de ce qui suit :
 
-1. **Aspose.TeX pour .NET installé** – vous pouvez le télécharger [ici](https://releases.aspose.com/tex/net/).  
-2. **Une clé de licence valide** – achetez‑en une [ici](https://purchase.aspose.com/buy) ou utilisez une [licence temporaire](https://purchase.aspose.com/temporary-license/).  
+1. **Aspose.TeX pour .NET installé** – vous pouvez le télécharger [ici](https://releases.aspose.com/tex/net/).
+2. **Une clé de licence valide** – achetez‑en une [ici](https://purchase.aspose.com/buy) ou utilisez une [licence temporaire](https://purchase.aspose.com/temporary-license/).
 
-## Import Namespaces
+## Importer des espaces de noms
 
 Pour démarrer votre aventure avec Aspose.TeX, importez l'espace de noms requis :
 
@@ -86,28 +86,6 @@ En suivant ces deux étapes simples, vous vous assurez qu'Aspose.TeX est correct
 ## Conclusion
 
 Félicitations ! Vous avez chargé avec succès la licence Aspose.TeX en utilisant C#. Cette étape fondamentale vous permet d'explorer les diverses fonctionnalités de la bibliothèque sans restrictions. Pour des approfondissements, consultez la [documentation](https://reference.aspose.com/tex/net/) et expérimentez le rendu TeX, la conversion PDF, et plus encore.
-
-## FAQ
-
-### Q1 : Puis‑je utiliser Aspose.TeX pour .NET sans licence ?
-
-R1 : Bien qu'une licence soit recommandée pour une fonctionnalité complète, vous pouvez explorer Aspose.TeX avec une licence temporaire disponible [ici](https://purchase.aspose.com/temporary-license/).
-
-### Q2 : Où puis‑je trouver du support pour Aspose.TeX pour .NET ?
-
-R2 : Visitez le [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) pour rejoindre la communauté et demander de l'aide.
-
-### Q3 : Existe‑t‑il un essai gratuit disponible pour Aspose.TeX pour .NET ?
-
-R3 : Oui, vous pouvez accéder à l'essai gratuit [ici](https://releases.aspose.com/).
-
-### Q4 : À quelle fréquence les mises à jour sont‑elles publiées pour Aspose.TeX pour .NET ?
-
-R4 : Restez à jour avec les dernières versions [ici](https://releases.aspose.com/tex/net/).
-
-### Q5 : Où puis‑je acheter Aspose.TeX pour .NET ?
-
-R5 : Vous pouvez acheter Aspose.TeX [ici](https://purchase.aspose.com/buy).
 
 ## Questions fréquemment posées
 

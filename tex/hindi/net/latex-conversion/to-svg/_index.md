@@ -131,13 +131,6 @@ new TeXJob(Path.Combine("Your Input Directory", "hello-world.ltx"), new SvgDevic
 
 इन चरणों का पालन करके आप Aspose.TeX for .NET का उपयोग करके **LaTeX से SVG जल्दी और भरोसेमंद तरीके से बना** सकते हैं। चाहे आप एक वैज्ञानिक वेब पोर्टल बना रहे हों, रिपोर्ट जेनरेशन को ऑटोमेट कर रहे हों, या किसी भी .NET प्रोजेक्ट के लिए **LaTeX से SVG जेनरेट** करना चाहते हों, यह गाइड आपको शुरू करने के लिए एक ठोस आधार प्रदान करता है।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2025-12-23  
@@ -145,3 +138,10 @@ new TeXJob(Path.Combine("Your Input Directory", "hello-world.ltx"), new SvgDevic
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

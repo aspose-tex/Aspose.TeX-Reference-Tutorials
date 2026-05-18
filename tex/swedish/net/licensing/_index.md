@@ -75,19 +75,6 @@ Utforska Aspose.TeX för .NET, ladda licenser sömlöst, förbättra dokumentbea
 ### [Ställ in mätbaserad licens för Aspose.TeX (C#)](./set-metered-license-csharp/)
 Utforska Aspose.TeX för .NET, konfigurera mätbaserad licensiering utan ansträngning, och lås upp hela potentialen i TeX-filmanipulation i dina C#-projekt.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-23  
-**Tested With:** Aspose.TeX for .NET (latest version)  
-**Author:** Aspose  
-
 ## Vanliga frågor
 
 **Q:** *Behöver jag en separat licens för varje server?*  
@@ -104,3 +91,16 @@ Utforska Aspose.TeX för .NET, konfigurera mätbaserad licensiering utan ansträ
 
 **Q:** *Kan jag ladda licensen från en inbäddad resurs?*  
 **A:** Ja. Hämta resursströmmen och skicka den till licensladdaren precis som någon annan `Stream`.
+
+---
+
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.TeX for .NET (latest version)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

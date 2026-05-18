@@ -85,28 +85,6 @@ Console.WriteLine("License set successfully.");
 
 恭喜！您已成功使用 C# 加载 Aspose.TeX 许可证。此基础步骤使您能够无限制地探索库的各种功能。想要深入了解，请参考 [documentation](https://reference.aspose.com/tex/net/) 并尝试 TeX 渲染、PDF 转换等。
 
-## 常见问答
-
-### Q1：我可以在没有许可证的情况下使用 Aspose.TeX for .NET 吗？
-
-A1：虽然建议使用许可证以获得完整功能，但您可以使用在 [here](https://purchase.aspose.com/temporary-license/) 提供的临时许可证进行探索。
-
-### Q2：在哪里可以找到 Aspose.TeX for .NET 的支持？
-
-A2：访问 [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) 与社区交流并获取帮助。
-
-### Q3：是否提供 Aspose.TeX for .NET 的免费试用？
-
-A3：是的，您可以在 [here](https://releases.aspose.com/) 获取免费试用。
-
-### Q4：Aspose.TeX for .NET 的更新发布频率如何？
-
-A4：请在 [here](https://releases.aspose.com/tex/net/) 获取最新发布信息。
-
-### Q5：在哪里可以购买 Aspose.TeX for .NET？
-
-A5：您可以在 [here](https://purchase.aspose.com/buy) 购买 Aspose.TeX。
-
 ## 常见问题
 
 **Q：我需要为每个新 AppDomain 重新加载许可证吗？**  

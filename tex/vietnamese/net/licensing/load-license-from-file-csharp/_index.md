@@ -90,28 +90,6 @@ Chúc mừng! Bạn đã tải thành công giấy phép Aspose.TeX bằng C#. B
 
 ## Câu hỏi thường gặp
 
-### Q1: Tôi có thể sử dụng Aspose.TeX cho .NET mà không có giấy phép không?
-
-A1: Mặc dù giấy phép được khuyến nghị để có đầy đủ chức năng, bạn vẫn có thể khám phá Aspose.TeX với một giấy phép tạm thời có sẵn [tại đây](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Tôi có thể tìm hỗ trợ cho Aspose.TeX cho .NET ở đâu?
-
-A2: Truy cập [diễn đàn Aspose.TeX](https://forum.aspose.com/c/tex/47) để kết nối với cộng đồng và nhận trợ giúp.
-
-### Q3: Có bản dùng thử miễn phí cho Aspose.TeX cho .NET không?
-
-A3: Có, bạn có thể truy cập bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
-
-### Q4: Các bản cập nhật cho Aspose.TeX cho .NET được phát hành bao lâu một lần?
-
-A4: Bạn có thể theo dõi các bản phát hành mới nhất [tại đây](https://releases.aspose.com/tex/net/).
-
-### Q5: Tôi có thể mua Aspose.TeX cho .NET ở đâu?
-
-A5: Bạn có thể mua Aspose.TeX [tại đây](https://purchase.aspose.com/buy).
-
-## Câu hỏi thường gặp
-
 **Q: Tôi có cần tải lại giấy phép cho mỗi AppDomain mới không?**  
 A: Có, việc đăng ký giấy phép là riêng cho mỗi AppDomain. Hãy gọi `SetLicense` trong quá trình khởi động của mỗi domain.
 

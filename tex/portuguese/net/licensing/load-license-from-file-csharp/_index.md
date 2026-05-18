@@ -90,28 +90,6 @@ Parabéns! Você carregou com sucesso a licença Aspose.TeX usando C#. Esta etap
 
 ## Perguntas Frequentes
 
-### Q1: Posso usar Aspose.TeX para .NET sem uma licença?
-
-A1: Embora uma licença seja recomendada para funcionalidade completa, você pode explorar o Aspose.TeX com uma licença temporária disponível [aqui](https://purchase.aspose.com/temporary-license/).
-
-### Q2: Onde posso encontrar suporte para Aspose.TeX para .NET?
-
-A2: Visite o [fórum Aspose.TeX](https://forum.aspose.com/c/tex/47) para conectar‑se com a comunidade e buscar assistência.
-
-### Q3: Existe um teste gratuito disponível para Aspose.TeX para .NET?
-
-A3: Sim, você pode acessar o teste gratuito [aqui](https://releases.aspose.com/).
-
-### Q4: Com que frequência são lançadas atualizações para Aspose.TeX para .NET?
-
-A4: Mantenha‑se atualizado com os últimos lançamentos [aqui](https://releases.aspose.com/tex/net/).
-
-### Q5: Onde posso comprar Aspose.TeX para .NET?
-
-A5: Você pode comprar o Aspose.TeX [aqui](https://purchase.aspose.com/buy).
-
-## Perguntas Frequentes
-
 **Q: Preciso recarregar a licença para cada novo AppDomain?**  
 A: Sim, o registro da licença é específico do AppDomain. Chame `SetLicense` durante a inicialização de cada domínio.
 

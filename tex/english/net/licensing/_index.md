@@ -74,19 +74,6 @@ Explore Aspose.TeX for .NET Load licenses seamlessly, enhance document processin
 ### [Set Metered License for Aspose.TeX (C#)](./set-metered-license-csharp/)
 Explore Aspose.TeX for .NET, set up metered licensing effortlessly, and unlock the full potential of TeX file manipulation in your C# projects.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-23  
-**Tested With:** Aspose.TeX for .NET (latest version)  
-**Author:** Aspose  
-
 ## Frequently Asked Questions
 
 **Q:** *Do I need a separate license for each server?*  
@@ -103,3 +90,16 @@ Explore Aspose.TeX for .NET, set up metered licensing effortlessly, and unlock t
 
 **Q:** *Can I load the license from an embedded resource?*  
 **A:** Yes. Retrieve the resource stream and pass it to the license loader just like any other `Stream`.
+
+---
+
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.TeX for .NET (latest version)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

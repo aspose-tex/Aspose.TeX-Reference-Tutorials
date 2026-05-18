@@ -75,19 +75,6 @@ Explora Aspose.TeX para .NET, carga licencias sin problemas y mejora el procesam
 ### [Configurar licencia por consumo para Aspose.TeX (C#)](./set-metered-license-csharp/)
 Explora Aspose.TeX para .NET, configura la licencia por consumo sin esfuerzo y desbloquea todo el potencial de la manipulación de archivos TeX en tus proyectos C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-23  
-**Probado con:** Aspose.TeX for .NET (latest version)  
-**Autor:** Aspose  
-
 ## Preguntas frecuentes
 
 **P:** *¿Necesito una licencia separada para cada servidor?*  
@@ -104,3 +91,16 @@ Explora Aspose.TeX para .NET, configura la licencia por consumo sin esfuerzo y d
 
 **P:** *¿Puedo cargar la licencia desde un recurso incrustado?*  
 **R:** Sí. Recupera el stream del recurso y pásalo al cargador de licencias como cualquier otro `Stream`.
+
+---
+
+**Última actualización:** 2025-12-23  
+**Probado con:** Aspose.TeX for .NET (latest version)  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

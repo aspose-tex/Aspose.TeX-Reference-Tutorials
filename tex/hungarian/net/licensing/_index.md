@@ -75,19 +75,6 @@ Fedezd fel az Aspose.TeX for .NET licencek egyszerű betöltését, javítsd a d
 ### [Metered licenc beállítása Aspose.TeX‑hez (C#)](./set-metered-license-csharp/)
 Fedezd fel az Aspose.TeX for .NET‑et, állítsd be a metered licencet könnyedén, és szabadítsd fel a TeX fájlok manipulálásának teljes potenciálját C# projektjeidben.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-23  
-**Tested With:** Aspose.TeX for .NET (latest version)  
-**Author:** Aspose  
-
 ## Gyakran Ismételt Kérdések
 
 **Q:** *Szükség van külön licencre minden szerverhez?*  
@@ -104,3 +91,16 @@ Fedezd fel az Aspose.TeX for .NET‑et, állítsd be a metered licencet könnyed
 
 **Q:** *Betölthetem a licencet beágyazott erőforrásból?*  
 **A:** Igen. Szerezd meg az erőforrás‑streamet, és add át a licencbetöltőnek, akárcsak bármely más `Stream`‑nek.
+
+---
+
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.TeX for .NET (latest version)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

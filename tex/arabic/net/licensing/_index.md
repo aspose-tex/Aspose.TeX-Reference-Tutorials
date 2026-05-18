@@ -75,19 +75,6 @@ Aspose.TeX for .NET يفتح عالماً من الإمكانيات للمطور
 ### [إعداد ترخيص مستند إلى الاستهلاك لـ Aspose.TeX (C#)](./set-metered-license-csharp/)
 استكشف Aspose.TeX لـ .NET، قم بإعداد الترخيص القائم على الاستهلاك بسهولة، وافتح الإمكانات الكاملة لمعالجة ملفات TeX في مشاريع C# الخاصة بك.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-23  
-**Tested With:** Aspose.TeX for .NET (latest version)  
-**Author:** Aspose  
-
 ## الأسئلة المتكررة
 
 **س:** *هل أحتاج إلى ترخيص منفصل لكل خادم؟*  
@@ -104,3 +91,16 @@ Aspose.TeX for .NET يفتح عالماً من الإمكانيات للمطور
 
 **س:** *هل يمكنني تحميل الترخيص من مورد مدمج؟*  
 **ج:** نعم. استرجع تدفق المورد ومرره إلى محمل الترخيص كما تفعل مع أي `Stream` آخر.
+
+---
+
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.TeX for .NET (latest version)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

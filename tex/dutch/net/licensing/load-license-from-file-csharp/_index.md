@@ -88,28 +88,6 @@ Gefeliciteerd! Je hebt de Aspose.TeX‑licentie succesvol geladen met C#. Deze f
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.TeX voor .NET gebruiken zonder licentie?
-
-A1: Hoewel een licentie wordt aanbevolen voor volledige functionaliteit, kun je Aspose.TeX verkennen met een tijdelijke licentie die [hier](https://purchase.aspose.com/temporary-license/) beschikbaar is.
-
-### V2: Waar kan ik ondersteuning vinden voor Aspose.TeX voor .NET?
-
-A2: Bezoek het [Aspose.TeX‑forum](https://forum.aspose.com/c/tex/47) om contact te maken met de community en hulp te zoeken.
-
-### V3: Is er een gratis proefversie beschikbaar voor Aspose.TeX voor .NET?
-
-A3: Ja, je kunt de gratis proefversie [hier](https://releases.aspose.com/) benaderen.
-
-### V4: Hoe vaak worden updates uitgebracht voor Aspose.TeX voor .NET?
-
-A4: Blijf op de hoogte van de nieuwste releases [hier](https://releases.aspose.com/tex/net/).
-
-### V5: Waar kan ik Aspose.TeX voor .NET kopen?
-
-A5: Je kunt Aspose.TeX [hier](https://purchase.aspose.com/buy) kopen.
-
-## Veelgestelde vragen
-
 **V: Moet ik de licentie opnieuw laden voor elk nieuw AppDomain?**  
 A: Ja, de licentieregistratie is AppDomain‑specifiek. Roep `SetLicense` aan tijdens de opstart van elk domein.
 

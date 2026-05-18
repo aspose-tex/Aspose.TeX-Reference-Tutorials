@@ -75,19 +75,6 @@ Prozkoumejte Aspose.TeX pro .NET – načítejte licence bez problémů, zlepšu
 ### [Set Metered License for Aspose.TeX (C#)](./set-metered-license-csharp/)
 Prozkoumejte Aspose.TeX pro .NET, nastavte měřené licencování snadno a odemkněte plný potenciál manipulace se soubory TeX ve vašich C# projektech.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-23  
-**Tested With:** Aspose.TeX for .NET (latest version)  
-**Author:** Aspose  
-
 ## Často kladené otázky
 
 **Q:** *Potřebuji samostatnou licenci pro každý server?*  
@@ -104,3 +91,16 @@ Prozkoumejte Aspose.TeX pro .NET, nastavte měřené licencování snadno a odem
 
 **Q:** *Mohu načíst licenci z vloženého zdroje?*  
 **A:** Ano. Získejte stream zdroje a předávejte jej načítači licence stejně jako jakýkoli jiný `Stream`.
+
+---
+
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.TeX for .NET (latest version)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
