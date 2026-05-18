@@ -53,13 +53,6 @@ Khám phá hướng dẫn toàn diện về việc render hình LaTeX sang PNG b
 ### [Render Hình LaTeX sang SVG với Aspose.TeX (C#)](./svg-latex-figure-renderer-csharp/)
 Cải thiện việc render tài liệu trong .NET với Aspose.TeX. Tìm hiểu cách render hình LaTeX sang SVG trong C# để tích hợp mượt mà các biểu thức toán học.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể chuyển đổi LaTeX sang cả PNG và SVG trong cùng một dự án không?**  
@@ -82,3 +75,10 @@ A: Các sub‑tutorial được liên kết ở trên chứa đầy đủ mã ng
 **Cập nhật lần cuối:** 2025-12-25  
 **Kiểm tra với:** Aspose.TeX 24.11 for .NET  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

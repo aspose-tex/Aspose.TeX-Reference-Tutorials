@@ -14,43 +14,66 @@ weight: 25
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Merender Gambar LaTeX dengan Aspose.TeX
+# Cara Merender Gambar LaTeX avec Aspose.TeX
 
 ## Introduction
 
-Jika Anda mencari cara yang dapat diandalkan **bagaimana cara merender latex** di dalam aplikasi .NET Anda, Aspose.TeX adalah jawabannya. Dengan hanya beberapa baris kode C# Anda dapat **mengonversi latex ke PNG** atau **mengonversi latex ke SVG**, memberikan dokumen Anda grafik matematika yang tajam dan dapat diskalakan. Dalam tutorial ini kami akan membahas kedua jalur rendering, menjelaskan mengapa mereka penting, dan mengarahkan Anda ke sub‑tutorial terperinci yang berisi contoh kode lengkap.
+Jika Anda mencari cara yang dapat diandalkan **bagaimana cara merender latex** di dalam aplikasi .NET Anda, Aspose.TeX adalah jawabannya. Il s'agit d'un code C# et d'une version **en latex en PNG** et d'un **en latex en SVG**, des documents membres et des graphiques sont également disponibles sur ce disque. Dans ce didacticiel, vous trouverez des informations sur le rendu, le rendu et la lecture, et vous aurez un sous-tutoriel qui vous permettra de comprendre le code long.
 
-## Quick Answers
-- **Apa yang dilakukan Aspose.TeX?** Ia mem-parsing markup LaTeX dan merendernya sebagai gambar raster (PNG) atau vektor (SVG) berkualitas tinggi.  
-- **Format apa yang didukung?** PNG dan SVG dibahas dalam contoh; format lain tersedia melalui API.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
-- **Versi .NET apa yang kompatibel?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Apakah C# satu‑satunya bahasa?** API berbasis .NET, sehingga bahasa .NET apa pun (C#, VB.NET, F#) dapat digunakan.
+## Réponses rapides
+- **Vous n'avez pas besoin d'Aspose.TeX?** Un balisage d'analyse de mémoire LaTeX et des images de trame (PNG) et de vecteur (SVG) sont disponibles.
+- **Format pour la formation ?** PNG et SVG sont disponibles pour le contenu ; formater l'API tersedia melalui.
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan pour une évaluation ; Licence commerciale pour les produits.
+- **Versi .NET est-il compatible ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Apakah C# satu‑satunya Bahasa?** API basée sur .NET, ou plutôt .NET avec un jeu de mots (C#, VB.NET, F#) maintenant.
 
-## How to render LaTeX to PNG with Aspose.TeX (C#)
+## Comment rendre LaTeX en PNG avec Aspose.TeX (C#)
 
-[Render Gambar LaTeX ke PNG](./png-latex-figure-renderer-csharp/)
+[Rendu Gambar LaTeX ke PNG](./png-latex-figure-renderer-csharp/)
 
-Jalur rendering PNG sangat cocok ketika Anda memerlukan gambar bitmap yang dapat disisipkan dalam PDF, dokumen Word, atau ditampilkan di web tanpa memerlukan logika skala tambahan. Panduan langkah‑demi‑langkah kami akan menuntun Anda menyiapkan pustaka Aspose.TeX, memberi masukan sumber LaTeX, dan menyimpan output sebagai file PNG. Anda juga akan mempelajari beberapa tips kinerja untuk pemrosesan batch.
+Jalur render PNG sangat cocok ketika Anda memerlukan gambar gambar bitmap yang dapt disisipkan dalam PDF, documents Word, atau ditampilkan di web tanpa memerlukan logika skala tambahan. Vous pouvez utiliser un menu langkah‑demi‑langkah et utiliser Aspose.TeX, qui utilise LaTeX et qui produit un fichier PNG. Et j'ai également des conseils pour mempelajari beberapa kinerja pour le lot de pemrosesan.
 
-## How to render LaTeX to SVG with Aspose.TeX (C#)
+## Comment rendre LaTeX en SVG avec Aspose.TeX (C#)
 
-[Render Gambar LaTeX ke SVG](./svg-latex-figure-renderer-csharp/)
+[Rendu Gambar LaTeX ke SVG](./svg-latex-figure-renderer-csharp/)
 
-Output SVG memberikan grafik yang tidak bergantung pada resolusi dan tetap tajam pada ukuran apa pun—ideal untuk halaman web responsif atau cetakan beresolusi tinggi. Bagian ini menjelaskan alur kerja rendering SVG, menyoroti perbedaan dengan rendering PNG, dan menunjukkan cara mengintegrasikan SVG yang dihasilkan ke dalam tampilan HTML atau XAML.
+Sortie graphique SVG avec une nouvelle résolution et une prise en charge complète d'un jeu de mots - idéal pour répondre à tous les besoins du Web. Vous pouvez maintenant utiliser le rendu de fichiers SVG, vous pouvez utiliser le rendu PNG et les menus pour intégrer SVG en utilisant HTML et XAML.
 
-### Why choose Aspose.TeX for C# LaTeX rendering?
+### Pourquoi choisir Aspose.TeX pour le rendu C# LaTeX ?
 
-- **High fidelity:** Mesin ini mendukung berbagai paket dan simbol LaTeX, memastikan persamaan Anda tampil persis seperti yang diharapkan.  
-- **No external dependencies:** Anda tidak memerlukan instalasi LaTeX di mesin target; semuanya berjalan di dalam proses .NET Anda.  
-- **Easy integration:** Panggilan API yang sederhana mudah disisipkan ke dalam basis kode C# yang ada, baik Anda membangun aplikasi desktop, layanan web, atau mikro‑service.  
+- **Haute fidélité :** Vous pouvez utiliser ce paquet pour obtenir un paquet avec un symbole LaTeX, en même temps et en persis seperti yang diharapkan.
+- **Aucune dépendance externe :** Et maintenant, vous pouvez installer LaTeX sur ma cible ; semuanya berjalan di dalam prose .NET Anda.
+- **Intégration facile :** Vous pouvez utiliser l'API pour configurer le code de base C# en fonction de l'application de bureau, du Web et du micro-service.
 
-## Render LaTeX Figures with Aspose.TeX Tutorials
-### [Render Gambar LaTeX ke PNG dengan Aspose.TeX (C#)](./png-latex-figure-renderer-csharp/)
-Jelajahi panduan komprehensif tentang merender gambar LaTeX ke PNG menggunakan Aspose.TeX dalam C#. Pelajari langkah demi langkah dengan contoh kode.
+## Rendre les figures LaTeX avec les didacticiels Aspose.TeX
+### [Render Gambar LaTeX en PNG avec Aspose.TeX (C#)](./png-latex-figure-renderer-csharp/)
+Vous pouvez facilement utiliser des fichiers LaTeX complets en PNG pour Aspose.TeX en C#. Pelajari langkah demi langkah dengan contoh kode.
 
-### [Render Gambar LaTeX ke SVG dengan Aspose.TeX (C#)](./svg-latex-figure-renderer-csharp/)
-Tingkatkan rendering dokumen di .NET dengan Aspose.TeX. Pelajari cara merender gambar LaTeX ke SVG dalam C# untuk integrasi mulus ekspresi matematika.
+### [Render Gambar LaTeX en SVG avec Aspose.TeX (C#)](./svg-latex-figure-renderer-csharp/)
+Un document de rendu unique de .NET avec Aspose.TeX. Vous pouvez utiliser du LaTeX comme du SVG en C# pour intégrer plusieurs matériaux expressifs.
+
+## Questions fréquemment posées
+
+**Q : Je veux dire une version LaTeX en PNG et SVG d'un projet yang sama ?**
+R : Oui. API Aspose.TeX memungkinkan Et un moteur de rendu utilisé pour le format setiap, qui utilise une instance similaire pour obtenir une sortie unique.
+
+**Q : Bagaimana « bagaimana cara mengonversi latex » en PNG et SVG ?**
+R : Conversi PNG meraster persamaan, menghasilkan bitmap berukuran tetap, sementara conversi SVG menghasilkan jalur vektor yang dapat diskalakan tanpa kehilangan kualitas.
+
+**Q : Voulez-vous savoir comment distribuer le serveur LaTeX ?**
+R : Tidak. Aspose.TeX prend en charge l'analyseur LaTeX et mes méthodes de rendu, sehingga tidak ada ketergantungan eksternal.
+
+**Q : Comment utiliser le rendu LaTeX pour le rendu ?**
+R : Pustaka ini menangani persamaan akademik tipikal dengan nyaman ; dokumen yang sangat besar mungkin memerlukan alokasi memori yang lebih tinggi.
+
+**Q : Vous avez besoin de plus d'informations sur le rendu du latex c# ?**
+R : Le sous-tutoriel vous dit que ce code est long et que la documentation Aspose.TeX vous permet de lire également un scénario en langue locale.
+
+---
+
+**Dernière mise à jour :** 2025-12-25
+**Testé avec :** Aspose.TeX 24.11 pour .NET
+**Auteur :** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -58,26 +81,3 @@ Tingkatkan rendering dokumen di .NET dengan Aspose.TeX. Pelajari cara merender g
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Frequently Asked Questions
-
-**Q: Bisakah saya mengonversi LaTeX ke PNG dan SVG dalam proyek yang sama?**  
-A: Ya. API Aspose.TeX memungkinkan Anda membuat renderer terpisah untuk setiap format, atau menggunakan kembali instance yang sama dengan pengaturan output yang berbeda.
-
-**Q: Bagaimana “bagaimana cara mengonversi latex” berbeda antara PNG dan SVG?**  
-A: Konversi PNG meraster persamaan, menghasilkan bitmap berukuran tetap, sementara konversi SVG menghasilkan jalur vektor yang dapat diskalakan tanpa kehilangan kualitas.
-
-**Q: Apakah saya perlu menginstal distribusi LaTeX di server?**  
-A: Tidak. Aspose.TeX menyertakan parser LaTeX dan mesin rendering sendiri, sehingga tidak ada ketergantungan eksternal.
-
-**Q: Apakah ada batasan ukuran ekspresi LaTeX yang dapat saya render?**  
-A: Pustaka ini menangani persamaan akademik tipikal dengan nyaman; dokumen yang sangat besar mungkin memerlukan alokasi memori yang lebih tinggi.
-
-**Q: Di mana saya dapat menemukan contoh lebih lanjut tentang rendering latex c#?**  
-A: Sub‑tutorial yang ditautkan di atas berisi kode sumber lengkap, dan dokumentasi Aspose.TeX menyediakan cuplikan tambahan untuk skenario lanjutan.
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose

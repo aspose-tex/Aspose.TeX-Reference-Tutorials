@@ -18,28 +18,28 @@ weight: 11
 
 ## Introduction
 
-Bienvenue dans l’univers de **Aspose.TeX for .NET** – une bibliothèque puissante qui vous permet de créer, modifier et convertir des documents TeX en toute simplicité. Dans ce tutoriel, nous vous expliquerons **comment charger une licence** depuis un flux en utilisant C#. À la fin de ce guide, vous saurez exactement comment charger une licence Aspose.TeX, pourquoi c’est important et comment intégrer le code dans n’importe quel projet .NET.
+Bienvenue dans l'univers de **Aspose.TeX for .NET** – une bibliothèque puissante qui vous permet de créer, modifier et convertir des documents TeX en toute simplicité. Dans ce tutoriel, nous vous expliquons **comment charger une licence** depuis un flux en utilisant C#. À la fin de ce guide, vous saurez exactement comment charger une licence Aspose.TeX, pourquoi c'est important et comment intégrer le code dans n'importe quel projet .NET.
 
-## Quick Answers
-- **Quelle est l’étape principale ?** Initialiser un objet `License` et appeler `SetLicense` avec un flux.  
-- **Puis‑je charger la licence depuis un fichier au lieu d’un flux ?** Oui – vous pouvez ouvrir un `FileStream` vers le fichier `.lic` et le transmettre à `SetLicense`.  
-- **Ai‑je besoin de droits administrateur ?** Non, tant que l’application peut lire l’emplacement du fichier de licence.  
-- **Une licence est‑elle requise en production ?** Absolument – sans licence valide, de nombreuses fonctionnalités sont désactivées.  
-- **Quelles versions de .NET sont prises en charge ?** Aspose.TeX fonctionne avec .NET Framework 4.5+, .NET Core 3.1+, et .NET 5/6/7.
+## Réponses rapides
+- **Quelle est l'étape principale ?** Initialiser un objet `License` et appeler `SetLicense` avec un flux.
+- **Puis‑je charger la licence depuis un fichier au lieu d'un flux?** Oui – vous pouvez ouvrir un `FileStream` vers le fichier `.lic` et le transmettre à `SetLicense`.
+- **Ai‑je besoin de droits administrateur?** Non, tant que l’application peut lire l’emplacement du fichier de licence.
+- **Une licence est‑elle requise en production?** Absolument – ​​sans licence valide, de nombreuses fonctionnalités sont désactivées.
+- **Quelles versions de .NET sont prises en charge ?** Aspose.TeX fonctionne avec .NET Framework 4.5+, .NET Core 3.1+ et .NET 5/6/7.
 
-## Qu’est‑ce que le « how to load license » dans Aspose.TeX ?
-Charger une licence débloque l’ensemble complet des fonctionnalités de la bibliothèque Aspose.TeX, supprime les filigranes d’évaluation et permet un traitement haute performance. Le processus est simple : créez une instance `License`, ouvrez le fichier de licence sous forme de flux, puis appliquez‑le.
+## Qu’est‑ce que le « comment charger la licence » dans Aspose.TeX ?
+Charger une licence débloque l’ensemble complet des fonctionnalités de la bibliothèque Aspose.TeX, supprime les filigranes d’évaluation et permet un traitement haute performance. Le processus est simple : créez une instance `License`, ouvrez le fichier de licence sous forme de flux, puis appliquez-le.
 
-## Pourquoi charger la licence depuis un flux ?
+## Pourquoi charger la licence depuis un flux ?
 Le chargement depuis un flux vous offre de la flexibilité – vous pouvez intégrer le fichier de licence comme ressource incorporée, le lire depuis un emplacement distant, ou le déchiffrer à la volée avant de l’appliquer. Cette approche est particulièrement utile dans les déploiements cloud ou conteneurisés où les chemins du système de fichiers peuvent être dynamiques.
 
 ## Prérequis
 
-- Connaissances de base en C# et développement .NET.  
-- Aspose.TeX for .NET installé (via NuGet ou MSI).  
+- Connaissances de base en C# et développement .NET.
+- Aspose.TeX pour .NET installé (via NuGet ou MSI).
 - Un fichier de licence Aspose.TeX `.lic` valide (vous pouvez obtenir une licence d’essai temporaire sur le site Aspose).
 
-## Import Namespaces
+## Importer des espaces de noms
 
 Tout d’abord, importez les espaces de noms requis pour la gestion des fichiers et les classes de licence Aspose.TeX.
 

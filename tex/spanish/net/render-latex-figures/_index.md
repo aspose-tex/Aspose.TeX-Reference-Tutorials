@@ -52,13 +52,6 @@ Explora una guía completa sobre cómo renderizar figuras LaTeX a PNG usando Asp
 ### [Render LaTeX Figures to SVG with Aspose.TeX (C#)](./svg-latex-figure-renderer-csharp/)
 Mejora el renderizado de documentos en .NET con Aspose.TeX. Aprende cómo renderizar figuras LaTeX a SVG en C# para una integración fluida de expresiones matemáticas.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **Q: ¿Puedo convertir LaTeX a PNG y SVG en el mismo proyecto?**  
@@ -81,3 +74,10 @@ A: Los sub‑tutoriales enlazados arriba contienen el código fuente completo, y
 **Última actualización:** 2025-12-25  
 **Probado con:** Aspose.TeX 24.11 for .NET  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

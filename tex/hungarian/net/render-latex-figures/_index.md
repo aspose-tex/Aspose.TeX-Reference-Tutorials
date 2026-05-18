@@ -52,13 +52,6 @@ Fedezze fel a részletes útmutatót a LaTeX ábrák PNG‑re történő rendere
 ### [LaTeX ábrák renderelése SVG‑re az Aspose.TeX‑szel (C#)](./svg-latex-figure-renderer-csharp/)
 Fejlessze a .NET dokumentumrenderelést az Aspose.TeX‑szel. Tanulja meg, hogyan rendereljen LaTeX ábrákat SVG‑re C#‑ban a matematikai kifejezések zökkenőmentes integrálásához.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Convertálhatom a LaTeX-et egyszerre PNG‑re és SVG‑re ugyanabban a projektben?**  
@@ -81,3 +74,10 @@ A: A fent hivatkozott al‑tutorialok teljes forráskódot tartalmaznak, az Aspo
 **Utolsó frissítés:** 2025-12-25  
 **Tesztelt verzió:** Aspose.TeX 24.11 for .NET  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
