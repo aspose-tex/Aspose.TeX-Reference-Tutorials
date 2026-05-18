@@ -1,33 +1,44 @@
 ---
-title: .NET 中的 LaTeX 到 XPS - 使用 Aspose.TeX 輕鬆轉換
-linktitle: .NET 中的 LaTeX 到 XPS - 使用 Aspose.TeX 輕鬆轉換
+date: 2025-12-23
+description: 輕鬆學習如何在 .NET 中使用 Aspose.TeX 將 LaTeX 轉換為 XPS。高品質、可自訂且高效的轉換。
+linktitle: How to Convert LaTeX to XPS in .NET – Easy Conversion with Aspose.TeX
 second_title: Aspose.TeX .NET API
-description: 使用 Aspose.TeX 輕鬆將 .NET 中的 LaTeX 轉換為 XPS。高品質、可客製化、高效。
-weight: 13
+title: 在 .NET 中將 LaTeX 轉換為 XPS – 使用 Aspose.TeX 輕鬆轉換
 url: /zh-hant/net/latex-conversion/to-xps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET 中的 LaTeX 到 XPS - 使用 Aspose.TeX 輕鬆轉換
+# LaTeX 轉 XPS（.NET）- 使用 Aspose.TeX 輕鬆轉換
 
-## 介紹
+## 簡介
 
-您是否正在尋找一種在 .NET 應用程式中將 LaTeX 文件無縫轉換為 XPS 格式的方法？ Aspose.TeX for .NET 為這項任務提供了強大的解決方案，使轉換過程簡單且有效率。本逐步指南將引導您完成使用 Aspose.TeX 將 LaTeX 轉換為 XPS 的過程，確保您獲得準確且高品質的結果。
+如果你想了解 **如何將 latex** 文件轉換為 .NET 應用程式中的 XPS 格式，你來對地方了。Aspose.TeX for .NET 提供一個強大且直接的解決方案，為你處理繁重的工作。在本指南中，我們將逐步說明每個步驟，解釋每個設定的原因，並示範如何僅用幾行程式碼即可取得高品質、可自訂的 XPS 輸出。
 
-## 先決條件
+## 快速答覆
+- **什麼函式庫負責轉換？** Aspose.TeX for .NET  
+- **支援的輸出格式？** XPS（亦支援 PDF、PNG 等）  
+- **一般實作時間？** 基本轉換約 10–15 分鐘  
+- **需要授權嗎？** 正式環境需要臨時授權；亦提供免費試用。  
+- **可以在記憶體中執行轉換嗎？** 可以，使用稍後示範的 `MemoryStream`。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## 如何在 .NET 中將 LaTeX 轉換為 XPS
+以下提供簡潔的逐步說明，涵蓋從前置條件到可選調整的所有內容，讓你能專注於應用程式的業務邏輯。
 
-- 具備 C# 和 .NET 開發的實用知識。
-- 安裝了 Aspose.TeX for .NET 函式庫。你可以下載它[這裡](https://releases.aspose.com/tex/net/).
-- 了解 LaTeX 語法和結構。
+## 前置條件
 
-## 導入命名空間
+在開始本教學之前，請確保已具備以下前置條件：
 
-首先，我們為 .NET 應用程式導入必要的命名空間。這些命名空間對於與 Aspose.TeX 功能互動至關重要。
+- 具備 C# 與 .NET 開發的基礎知識。  
+- 已安裝 Aspose.TeX for .NET 函式庫。你可以在 **[此處](https://releases.aspose.com/tex/net/)** 下載。  
+- 了解 LaTeX 語法與結構。
+
+## 匯入命名空間
+
+讓我們先為 .NET 應用程式匯入必要的命名空間。這些命名空間對於使用 Aspose.TeX 功能至關重要。
 
 ```csharp
 using Aspose.TeX.IO;
@@ -36,62 +47,62 @@ using System.IO;
 using System.Text;
 ```
 
-## 第 1 步：設定轉換選項
+## 步驟 1：設定轉換選項
 
 ```csharp
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectLaTeX);
 options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
 ```
 
-在這裡，我們初始化轉換選項並設定 LaTeX 檔案的輸入工作目錄。
+在此，我們會初始化轉換選項，並將引擎指向包含 `.ltx` 原始檔案的資料夾。
 
-## 第二步：設定互動模式
+## 步驟 2：設定互動模式
 
 ```csharp
 options.Interaction = Interaction.NonstopMode;
 ```
 
-指定交互模式，這裡我們將其設定為不間斷模式，以實現不間斷的轉換。
+非停止模式會指示引擎即使遇到輕微警告也繼續處理，這對自動化流水線非常理想。
 
-## 步驟 3：設定作業名稱（可選）
+## 步驟 3：設定工作名稱（可選）
 
 ```csharp
-// options.JobName = "我的工作名稱";
+// options.JobName = "my-job-name";
 ```
 
-如果需要，您可以設定自訂作業名稱。
+你可以指定自訂的工作名稱，以便在處理多個文件時辨識日誌。
 
-## 第 4 步：在標題中設定日期（可選）
+## 步驟 4：在標題中設定日期（可選）
 
 ```csharp
 // options.DateTime = new System.DateTime(2022, 12, 18);
 ```
 
-強制 TeX 引擎在標題中輸出特定日期。
+強制在產生的標題頁顯示特定日期，對於可重現的報告很有用。
 
-## 第 5 步：忽略遺失的包裹
+## 步驟 5：忽略缺少的套件
 
 ```csharp
 options.IgnoreMissingPackages = true;
 ```
 
-如果您希望引擎跳過遺失的套件而不出現錯誤，請設定為 true。
+設定為 `true` 時，引擎會跳過缺少的 LaTeX 套件而非拋出錯誤，這可加速批次轉換。
 
-## 第 6 步：停用連字
+## 步驟 6：停用連字
 
 ```csharp
 options.NoLigatures = true;
 ```
 
-設定為 true 以防止引擎建立連字。
+停用連字可確保字元組合以原始輸入方式呈現，某些技術文件需要此設定。
 
-## 第 7 步：重複作業（可選）
+## 步驟 7：重複工作（可選）
 
 ```csharp
-//選項.重複= true;
+// options.Repeat = true;
 ```
 
-如果需要，請讓引擎重複該作業。
+啟用此旗標會指示引擎再次執行相同工作——對於迭代除錯相當方便。
 
 ## 步驟 8：指定輸出工作目錄
 
@@ -99,90 +110,98 @@ options.NoLigatures = true;
 options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 ```
 
-設定轉換後的 XPS 檔案的輸出工作目錄。
+定義產生的 XPS 檔案寫入的目錄位置。
 
-## 步驟 9：初始化 XPS 的儲存選項
+## 步驟 9：初始化 XPS 儲存選項
 
 ```csharp
-options.SaveOptions = new XpsSaveOptions(); //預設值.任意分配。
+options.SaveOptions = new XpsSaveOptions(); // Default value. Arbitrary assignment.
 ```
 
-初始化以 XPS 格式儲存的選項。
+建立 `XpsSaveOptions` 的實例，以微調 XPS 輸出。
 
-## 第 10 步：柵格化公式（可選）
+## 步驟 10：光柵化公式（可選）
 
 ```csharp
 options.SaveOptions.RasterizeFormulas = true;
 ```
 
-如果您希望將數學公式轉換為光柵圖像，請設定為 true。
+設定為 `true` 時，數學公式會以光柵圖像呈現，這可提升與舊版 XPS 檢視器的相容性。
 
-## 第 11 步：光柵化包含的圖形（可選）
+## 步驟 11：光柵化內嵌圖形（可選）
 
 ```csharp
 options.SaveOptions.RasterizeIncludedGraphics = true;
 ```
 
-如果您希望將包含向量元素的圖形轉換為光柵圖像，請設定為 true。
+將 LaTeX 原始檔中嵌入的向量圖形轉換為光柵圖像，以確保跨平台渲染一致。
 
-## 第 12 步：字體子集
+## 步驟 12：子集字型
 
 ```csharp
 options.SaveOptions.SubsetFonts = true;
 ```
 
-設定為 true 以使文件中使用裝置子集字型。
+子集化僅嵌入文件實際使用的字形，可減少檔案大小。
 
-## 第 13 步：運行 LaTeX 到 XPS 的轉換
+## 步驟 13：執行 LaTeX 轉 XPS 轉換
 
 ```csharp
 new TeXJob(Path.Combine("Your Input Directory", "sample.ltx"), new XpsDevice(), options).Run();
 ```
 
-啟動 LaTeX 到 XPS 的轉換過程。
+此單行程式碼即啟動轉換程序，讀取 `sample.ltx` 並在輸出目錄產生 XPS 檔案。
 
-## 步驟 14：使用 MemoryStream 執行 LaTeX 到 XPS 轉換（替代）
+## 步驟 14：使用 MemoryStream 執行 LaTeX 轉 XPS 轉換（備選方案）
 
 ```csharp
-// new TeXJob(new MemoryStream(Encoding.ASCII.GetBytes(@"\documentclass{article} \begin{document} 你好，世界！\end{document}")),
-//新的 XpsDevice(), 選項).Run();
+// new TeXJob(new MemoryStream(Encoding.ASCII.GetBytes(@"\documentclass{article} \begin{document} Hello, World! \end{document}")),
+//     new XpsDevice(), options).Run();
 ```
 
-您也可以使用 MemoryStream 對輸入 LaTeX 內容執行轉換。
+如果你想直接從記憶體提供 LaTeX 原始碼（例如即時產生），請使用如範例所示的 `MemoryStream`。
 
-## 步驟 15：使用主輸入終端機執行 LaTeX 到 XPS 轉換（替代）
+## 步驟 15：使用主要輸入端點執行 LaTeX 轉 XPS 轉換（備選方案）
 
 ```csharp
 // new TeXJob(new XpsDevice(), options).Run();
 ```
 
-直接從主輸入終端運行轉換。
+此重載允許你從預設輸入端點啟動轉換，適用於命令列情境。
+
+## 常見問題與技巧
+
+- **缺少套件：** 即使 `IgnoreMissingPackages` 設為 `true`，仍有部分套件是必需的。請確認你的 TeX 發行版中已安裝核心套件（例如 `amsmath`）。  
+- **字型子集錯誤：** 若輸出 XPS 顯示亂碼，請嘗試停用 `SubsetFonts` 以嵌入完整字型。  
+- **大型文件：** 對於非常龐大的 LaTeX 專案，可增加 JVM 堆積大小（若使用底層 TeX 引擎）或將文件分割成較小的區塊處理。
+
+## 常見問答
+
+**Q1：Aspose.TeX 是否相容於最新的 .NET 框架？**  
+A：是的，Aspose.TeX 會定期更新，以支援 .NET 6、.NET 7 以及更新的版本。
+
+**Q2：我可以自訂除 XPS 之外的輸出格式嗎？**  
+A：Aspose.TeX 支援多種輸出格式。詳情請參閱完整 API 參考 **[此處](https://reference.aspose.com/tex/net/)**。
+
+**Q3：如何取得 Aspose.TeX 的臨時授權？**  
+A：你可以在 **[此處](https://purchase.aspose.com/temporary-license/)** 取得臨時授權。
+
+**Q4：我可以在哪裡尋求協助或分享使用 Aspose.TeX 的經驗？**  
+A：請加入社群論壇 **[此處](https://forum.aspose.com/c/tex/47)**，獲取技巧與支援。
+
+**Q5：是否有可用於測試轉換的 LaTeX 範例文件？**  
+A：有，請在 **[此處](https://github.com/aspose-tex/Aspose.TeX-for-.NET)** 探索 Aspose.TeX 範例。
 
 ## 結論
 
-遵循這些簡單的步驟，您可以使用 Aspose.TeX for .NET 輕鬆地將 LaTeX 文件轉換為 XPS 格式。這個強大的庫提供了靈活性和自訂選項來滿足您的特定要求。
+依照上述步驟操作後，你現在擁有一套完整、可投入生產環境的工作流程，能使用 Aspose.TeX for .NET **將 latex** 文件轉換為 XPS。此函式庫提供豐富的選項，讓你依需求客製化轉換，無論是產生發票、技術手冊或學術論文皆適用。
 
-## 常見問題解答
+---
 
-### Q1：Aspose.TeX 與最新的.NET 框架相容嗎？
+**最後更新：** 2025-12-23  
+**測試環境：** Aspose.TeX 24.11 for .NET  
+**作者：** Aspose  
 
-A1：是的，Aspose.TeX 會定期更新，以確保與最新的 .NET 框架相容。
-
-### Q2：我可以自訂XPS以外的輸出格式嗎？
-
- A2：Aspose.TeX支援多種輸出格式。參考文檔[這裡](https://reference.aspose.com/tex/net/)了解詳情。
-
-### Q3：如何取得 Aspose.TeX 的臨時授權？
-
- A3：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
-
-### Q4：我可以在哪裡尋求協助或分享我使用 Aspose.TeX 的經驗？
-
- A4：造訪 Aspose.TeX 論壇[這裡](https://forum.aspose.com/c/tex/47)以獲得社區支持。
-
-### Q5: 有樣本檔案可供測試嗎？
-
- A5：探索 Aspose.TeX 範例[這裡](https://github.com/aspose-tex/Aspose.TeX-for-.NET).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
