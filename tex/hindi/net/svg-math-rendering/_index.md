@@ -67,13 +67,6 @@ Aspose.TeX .NET डेवलपर्स के लिए LaTeX गणित र
 ### [.NET में LaTeX गणित को SVG के रूप में रेंडर करना](./render-latex-math-svg/)
 Aspose.TeX का उपयोग करके .NET में LaTeX गणित समीकरणों को SVG के रूप में रेंडर करना सीखें। सटीक गणितीय प्रतिनिधित्व के लिए अनुकूलन योग्य विकल्पों के साथ चरण‑दर‑चरण गाइड।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या मैं उत्पन्न SVG फ़ाइलों को वेब पर अतिरिक्त रूपांतरण के बिना उपयोग कर सकता हूँ?**  
@@ -98,3 +91,10 @@ Aspose.TeX का उपयोग करके .NET में LaTeX गणित
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

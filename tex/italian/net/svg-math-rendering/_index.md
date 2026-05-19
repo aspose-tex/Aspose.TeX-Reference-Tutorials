@@ -67,13 +67,6 @@ In conclusione, questa serie di tutorial è più di una semplice guida; è un in
 ### [Rendering LaTeX Math as SVG in .NET](./render-latex-math-svg/)
 Imparate a renderizzare equazioni LaTeX come SVG in .NET usando Aspose.TeX. Guida passo‑a‑passo con opzioni personalizzabili per una rappresentazione matematica precisa.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande Frequenti
 
 **Q: Posso usare i file SVG generati sul web senza conversioni aggiuntive?**  
@@ -96,3 +89,10 @@ A: Sì—potete iterare su una collezione di stringhe LaTeX e renderizzare ciasc
 **Last Updated:** 2026-01-05  
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

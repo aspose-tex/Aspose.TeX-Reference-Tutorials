@@ -66,13 +66,6 @@ Aspose.TeX 以其稳健的解决方案脱颖而出，为 .NET 开发者在渲染
 ### [在 .NET 中将 LaTeX 数学渲染为 SVG](./render-latex-math-svg/)
 了解如何使用 Aspose.TeX 在 .NET 中将 LaTeX 数学方程渲染为 SVG。提供可自定义选项的逐步指南，实现精确的数学表现。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **问：我可以在网页上直接使用生成的 SVG 文件而无需额外转换吗？**  
@@ -93,3 +86,10 @@ Aspose.TeX 以其稳健的解决方案脱颖而出，为 .NET 开发者在渲染
 **Last Updated:** 2026-01-05  
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

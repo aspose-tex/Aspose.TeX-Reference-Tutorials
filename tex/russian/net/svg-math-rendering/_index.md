@@ -70,13 +70,6 @@ Aspose.TeX выделяется как надёжное решение для .N
 ### [Визуализация LaTeX‑математики как SVG в .NET](./render-latex-math-svg/)
 Узнайте, как визуализировать LaTeX‑уравнения как SVG в .NET с помощью Aspose.TeX. Пошаговое руководство с настраиваемыми параметрами для точного представления математики.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Можно ли использовать сгенерированные SVG‑файлы в вебе без дополнительного преобразования?**  
@@ -101,3 +94,10 @@ A: Да — вы можете перебрать коллекцию строк L
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
