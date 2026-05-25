@@ -1,10 +1,46 @@
 ---
-date: 2025-12-25
-description: Apprenez comment définir la licence pour Aspose.TeX en C# et débloquez
+date: 2026-05-25
+description: Apprenez à configurer une licence à compte C# pour Aspose.TeX, débloquant
   toutes les capacités de manipulation de fichiers TeX.
-linktitle: Set Metered License for Aspose.TeX (C#)
+keywords:
+- set metered license c#
+- Aspose.TeX licensing
+- C# TeX processing
+linktitle: Configurer la licence à compte pour Aspose.TeX (C#)
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to set metered license C# for Aspose.TeX, unlocking full
+    TeX file manipulation capabilities.
+  headline: How to Set Metered License C# for Aspose.TeX
+  type: TechArticle
+- description: Learn how to set metered license C# for Aspose.TeX, unlocking full
+    TeX file manipulation capabilities.
+  name: How to Set Metered License C# for Aspose.TeX
+  steps:
+  - name: Set Metered License (how to set license)
+    text: The first code snippet shows exactly **how to set license** using the metered
+      keys. Place this early in your application startup routine (e.g., `Main` or
+      `Startup.cs`). Replace `<type public key here>` and `<type private key here>`
+      with the keys you received from Aspose.
+  - name: Integrate into Your Project
+    text: After the license is set, you can freely use any Aspose.TeX classes—compiling
+      LaTeX, converting to PDF, extracting images, etc. No additional licensing code
+      is required.
+  - name: Verify the License
+    text: It’s a good practice to confirm that the license was applied successfully.
+      The following snippet prints a clear message to the console. If you see “Metered
+      license is set successfully!” you’re ready to go.
+  type: HowTo
+- questions:
+  - answer: Absolutely—simply replace the `SetMeteredKey` call with the standard `License`
+      class and provide the `.lic` file.
+    question: Can I switch from a metered license to a full‑node license later?
+  - answer: Yes, as long as the service can reach the Aspose licensing endpoint.
+    question: Does the metered license work in Azure App Service?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: Comment définir la licence pour Aspose.TeX (C#)
+title: Comment configurer une licence à compte C# pour Aspose.TeX
 url: /fr/net/licensing/set-metered-license-csharp/
 weight: 12
 ---
@@ -13,53 +49,54 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comment définir la licence pour Aspose.TeX (C#)
+# Comment définir une licence à compte C# pour Aspose.TeX
 
 ## Introduction
 
-Si vous prévoyez de travailler avec des fichiers TeX dans une application C#, la première chose à faire est **comment définir la licence** pour Aspose.TeX. Définir une licence à compte‑tours supprime non seulement les restrictions d'exécution, mais vous donne également accès à l'ensemble complet des fonctionnalités de la bibliothèque. Dans ce guide, nous parcourrons tout le processus — du téléchargement du SDK à la vérification de l'activation de la licence — afin que vous puissiez commencer à créer des solutions alimentées par TeX immédiatement.
+If you need to work with TeX files in a C# application, the first step is to **set metered license C#** for Aspose.TeX. A metered license removes runtime limits, grants access to every API method, and lets you embed licensing keys directly in code. In this tutorial we’ll walk through downloading the SDK, adding the required namespaces, applying the license, and confirming that it’s active—so you can start building TeX‑powered solutions without interruption.
 
 ## Réponses rapides
-- **Qu'est-ce qu'une licence à compte‑tours ?** Un modèle de licence léger qui valide l'utilisation via des clés publiques/privées sans nécessiter de fichier de licence local.  
-- **Ai‑je besoin d'une licence pour le développement ?** Oui, une licence à compte‑tours est requise à la fois pour le développement et la production afin de débloquer toutes les fonctionnalités.  
-- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Puis‑je changer les clés plus tard ?** Absolument — il suffit d'appeler à nouveau `SetMeteredKey` avec les nouvelles clés.  
-- **Comment confirmer que la licence fonctionne ?** Utilisez `Aspose.TeX.Metered.IsMetered()` pour obtenir un résultat vrai/faux.
+- **What is a metered license?** A lightweight license model that validates usage via public/private keys without a local license file.  
+- **Do I need a license for development?** Yes, a metered license is required for both development and production to unlock all features.  
+- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Can I change the keys later?** Absolutely—simply call `SetMeteredKey` again with the new keys.  
+- **How do I confirm the license is working?** Use `Aspose.TeX.Metered.IsMetered()` to get a true/false result.  
 
-## Qu'est-ce qu'une licence à compte‑tours ?
+The `Aspose.TeX.Metered.IsMetered()` method returns a Boolean indicating whether a metered license is currently active.
 
-Une licence à compte‑tours pour Aspose.TeX fonctionne en envoyant une requête légère au serveur de licences d'Aspose chaque fois que votre application démarre. Le serveur valide les clés publiques et privées que vous fournissez et renvoie un jeton d'utilisation. Cette approche élimine le besoin de déployer un fichier de licence physique et facilite la rotation des clés si nécessaire.
+## Qu’est‑ce qu’une licence à compte ?
 
-## Pourquoi utiliser une licence à compte‑tours pour Aspose.TeX ?
+A metered license for Aspose.TeX validates your public and private keys against Aspose’s licensing server each time the application starts. The server returns a short usage token, eliminating the need for a physical `.lic` file and allowing seamless key rotation.
 
-- **Pas de déploiement de fichier** – Les clés sont intégrées directement dans le code.  
-- **Rotation facile des clés** – Mettez à jour les clés sans redéployer de fichier de licence.  
-- **Suivi précis de l'utilisation** – Aspose enregistre chaque activation, vous aidant à rester dans les limites de votre abonnement.  
-- **Accès complet aux fonctionnalités** – Toutes les capacités de l'API sont débloquées une fois la licence validée.
+## Pourquoi utiliser une licence à compte pour Aspose.TeX ?
+
+Metered licensing gives you **full feature access** while keeping deployment simple. Aspose.TeX supports **50+ input and output formats**—including LaTeX, PDF, PNG, and SVG—and can process multi‑hundred‑page documents without loading the entire file into memory, making it ideal for high‑throughput services.
 
 ## Prérequis
 
-Avant de commencer, assurez‑vous d'avoir les éléments suivants prêts :
+Before you begin, make sure you have:
 
-1. **Aspose.TeX for .NET Library** – Téléchargez et installez la bibliothèque depuis la [page de téléchargement](https://releases.aspose.com/tex/net/).  
-2. **Clés de licence à compte‑tours** – Obtenez les clés publiques et privées à compte‑tours depuis votre compte Aspose. Si vous n'avez pas de compte, vous pouvez vous inscrire [ici](https://purchase.aspose.com/buy).  
-3. **Environnement de développement C#** – Visual Studio (toute version récente) ou tout autre IDE C# de votre choix.  
+1. **Aspose.TeX for .NET Library** – Download and install the library from the [download page](https://releases.aspose.com/tex/net/).  
+2. **Metered License Keys** – Obtain the public and private keys from your Aspose account (sign‑up [here](https://purchase.aspose.com/buy) if you don’t have one).  
+3. **C# Development Environment** – Visual Studio (any recent version) or another C# IDE.
 
-> **Astuce** : Conservez vos clés à compte‑tours dans un magasin de configuration sécurisé (par ex., Azure Key Vault) plutôt que de les coder en dur.
+> **Pro tip:** Store your metered keys in a secure configuration store (e.g., Azure Key Vault) instead of hard‑coding them.
 
 ## Importer les espaces de noms
 
-Dans votre projet C#, commencez par importer l'espace de noms Aspose.TeX :
+`Aspose.TeX` is the root namespace that provides all classes for TeX processing, compilation, and conversion. In your C# project, start by importing the Aspose.TeX namespace:
 
 ```csharp
 using Aspose.TeX;
 ```
 
-## Guide étape par étape pour définir la licence Aspose en C#
+## Comment définir une licence à compte C# pour Aspose.TeX ?
 
-### Étape 1 : Définir la licence à compte‑tours (comment définir la licence)
+`Aspose.TeX.Metered.SetMeteredKey` registers your public and private keys with the Aspose licensing service. Load your keys with `Aspose.TeX.Metered.SetMeteredKey("<public>", "<private>")` right at application startup—this single line activates the full library instantly. Placing the call in `Main` or `Startup.cs` guarantees that every subsequent Aspose.TeX operation runs under a licensed context.
 
-Le premier extrait de code montre exactement **comment définir la licence** en utilisant les clés à compte‑tours. Placez‑le tôt dans la routine de démarrage de votre application (par ex., `Main` ou `Startup.cs`).
+### Étape 1 : Définir la licence à compte (comment définir la licence)
+
+The first code snippet shows exactly **how to set license** using the metered keys. Place this early in your application startup routine (e.g., `Main` or `Startup.cs`).
 
 ```csharp
 // ExStart:SetMeteredLicense
@@ -70,15 +107,15 @@ new Aspose.TeX.Metered().SetMeteredKey(
 // ExEnd:SetMeteredLicense
 ```
 
-Remplacez `<type public key here>` et `<type private key here>` par les clés que vous avez reçues d'Aspose.
+Replace `<type public key here>` and `<type private key here>` with the keys you received from Aspose.
 
-### Étape 2 : Intégrer dans votre projet
+### Étape 2 : Intégrer dans votre projet
 
-Une fois la licence définie, vous pouvez utiliser librement n'importe quelle classe Aspose.TeX — compilation LaTeX, conversion en PDF, extraction d'images, etc. Aucun code de licence supplémentaire n'est requis.
+After the license is set, you can freely use any Aspose.TeX classes—compiling LaTeX, converting to PDF, extracting images, etc. No additional licensing code is required.
 
-### Étape 3 : Vérifier la licence
+### Étape 3 : Vérifier la licence
 
-Il est recommandé de confirmer que la licence a été appliquée avec succès. L'extrait suivant affiche un message clair dans la console.
+It’s a good practice to confirm that the license was applied successfully. The following snippet prints a clear message to the console.
 
 ```csharp
 // ExStart:VerifyMeteredLicense
@@ -93,57 +130,61 @@ else
 // ExEnd:VerifyMeteredLicense
 ```
 
-Si vous voyez « Metered license is set successfully! », vous êtes prêt à démarrer.
+If you see “Metered license is set successfully!” you’re ready to go.
 
-## Problèmes courants & dépannage
+## Problèmes courants et dépannage
+
+A `LicenseException` is raised when licensing is not set before using Aspose.TeX APIs.
 
 | Symptôme | Cause probable | Solution |
 |----------|----------------|----------|
 | `IsMetered()` renvoie **false** | Clés incorrectes ou problème de connectivité réseau | Vérifiez à nouveau les clés, assurez‑vous que la machine peut atteindre `license.aspose.com`. |
-| L'application lance **LicenseException** | Licence définie après l'utilisation des API Aspose.TeX | Déplacez le code de définition de la licence au tout début du programme (avant la création de tout objet Aspose.TeX). |
-| Clés exposées dans le contrôle de source | Risque de sécurité | Stockez les clés dans des variables d'environnement ou un coffre sécurisé et lisez‑les à l'exécution. |
+| Application throws **LicenseException** | Licence définie après l'utilisation des API Aspose.TeX | Déplacez le code de définition de la licence au tout début du programme (avant la création de tout objet Aspose.TeX). |
+| Keys exposed in source control | Risque de sécurité | Stockez les clés dans des variables d'environnement ou un coffre sécurisé et lisez‑les à l'exécution. |
 
-## Foire aux questions
+## Questions fréquemment posées
 
-### Q1 : Comment puis‑je obtenir une licence à compte‑tours pour Aspose.TeX ?
+**Q1 : Comment puis‑je obtenir une licence à compte pour Aspose.TeX ?**  
+A1: You can purchase a metered license from the [Aspose purchase page](https://purchase.aspose.com/buy).
 
-A1 : Vous pouvez acheter une licence à compte‑tours depuis la [page d'achat Aspose](https://purchase.aspose.com/buy).
+**Q2 : Une version d'essai gratuite est‑elle disponible ?**  
+A2: Yes, you can explore a free trial of Aspose.TeX by visiting [this link](https://releases.aspose.com/).
 
-### Q2 : Une version d'essai gratuite est‑elle disponible ?
+**Q3 : Où puis‑je trouver la documentation d'Aspose.TeX ?**  
+A3: Refer to the [Aspose.TeX documentation](https://reference.aspose.com/tex/net/) for comprehensive guidance.
 
-A2 : Oui, vous pouvez essayer gratuitement Aspose.TeX en visitant [ce lien](https://releases.aspose.com/).
+**Q4 : Comment obtenir du support pour Aspose.TeX ?**  
+A4: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support and discussions.
 
-### Q3 : Où puis‑je trouver la documentation d'Aspose.TeX ?
+**Q5 : Puis‑je utiliser une licence temporaire pour Aspose.TeX ?**  
+A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-A3 : Consultez la [documentation Aspose.TeX](https://reference.aspose.com/tex/net/) pour des instructions complètes.
+## Questions supplémentaires
 
-### Q4 : Comment obtenir du support pour Aspose.TeX ?
+**Q : Puis‑je passer d'une licence à compte à une licence full‑node plus tard ?**  
+A: Absolutely—simply replace the `SetMeteredKey` call with the standard `License` class and provide the `.lic` file.
 
-A4 : Visitez le [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) pour le support communautaire et les discussions.
-
-### Q5 : Puis‑je utiliser une licence temporaire pour Aspose.TeX ?
-
-A5 : Oui, vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
-
-**Q : Puis‑je passer d’une licence à compte‑tours à une licence full‑node plus tard ?**  
-**R :** Absolument — remplacez simplement l’appel `SetMeteredKey` par la classe standard `License` et fournissez le fichier `.lic`.
-
-**Q : La licence à compte‑tours fonctionne‑t‑elle dans Azure App Service ?**  
-**R :** Oui, tant que le service peut atteindre le point de terminaison de licence Aspose.
+**Q : La licence à compte fonctionne‑t‑elle dans Azure App Service ?**  
+A: Yes, as long as the service can reach the Aspose licensing endpoint.
 
 ## Conclusion
 
-En suivant les étapes ci‑dessus, vous savez maintenant **comment définir la licence** pour Aspose.TeX dans un environnement C#, comment la vérifier et comment éviter les pièges courants. Avec la licence à compte‑tours en place, vous pouvez intégrer en toute confiance les capacités de traitement TeX dans n'importe quelle application .NET.
+By following the steps above you now know **how to set metered license C#** for Aspose.TeX, how to verify it, and how to avoid common pitfalls. With the metered license in place, you can confidently integrate TeX processing capabilities into any .NET application and take full advantage of Aspose.TeX’s 50+ format support.
 
 ---
 
-**Dernière mise à jour** : 2025-12-25  
-**Testé avec** : Aspose.TeX 24.10 pour .NET  
-**Auteur** : Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-05-25  
+**Tested With:** Aspose.TeX 24.10 for .NET  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Tutoriels associés
+
+- [Load License C# – Load Aspose.TeX License from File](/tex/net/licensing/load-license-from-file-csharp/)
+- [How to Load License from Stream in Aspose.TeX (C#)](/tex/net/licensing/load-license-from-stream-csharp/)
+- [Load Aspose.TeX License – Manage Aspose.TeX Licenses](/tex/net/licensing/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

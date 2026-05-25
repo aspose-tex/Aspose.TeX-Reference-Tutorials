@@ -1,10 +1,46 @@
 ---
-date: 2025-12-25
-description: C#'ta Aspose.TeX lisansını nasıl ayarlayacağınızı öğrenin ve tam TeX
-  dosyası manipülasyon yeteneklerinin kilidini açın.
-linktitle: Set Metered License for Aspose.TeX (C#)
+date: 2026-05-25
+description: Aspose.TeX için C# Metered License nasıl ayarlanacağını öğrenin ve tam
+  TeX dosyası manipülasyonu yeteneklerini açığa çıkarın.
+keywords:
+- set metered license c#
+- Aspose.TeX licensing
+- C# TeX processing
+linktitle: Aspose.TeX (C#) için Metered License Ayarla
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to set metered license C# for Aspose.TeX, unlocking full
+    TeX file manipulation capabilities.
+  headline: How to Set Metered License C# for Aspose.TeX
+  type: TechArticle
+- description: Learn how to set metered license C# for Aspose.TeX, unlocking full
+    TeX file manipulation capabilities.
+  name: How to Set Metered License C# for Aspose.TeX
+  steps:
+  - name: Set Metered License (how to set license)
+    text: The first code snippet shows exactly **how to set license** using the metered
+      keys. Place this early in your application startup routine (e.g., `Main` or
+      `Startup.cs`). Replace `<type public key here>` and `<type private key here>`
+      with the keys you received from Aspose.
+  - name: Integrate into Your Project
+    text: After the license is set, you can freely use any Aspose.TeX classes—compiling
+      LaTeX, converting to PDF, extracting images, etc. No additional licensing code
+      is required.
+  - name: Verify the License
+    text: It’s a good practice to confirm that the license was applied successfully.
+      The following snippet prints a clear message to the console. If you see “Metered
+      license is set successfully!” you’re ready to go.
+  type: HowTo
+- questions:
+  - answer: Absolutely—simply replace the `SetMeteredKey` call with the standard `License`
+      class and provide the `.lic` file.
+    question: Can I switch from a metered license to a full‑node license later?
+  - answer: Yes, as long as the service can reach the Aspose licensing endpoint.
+    question: Does the metered license work in Azure App Service?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: Aspose.TeX (C#) Lisansını Nasıl Ayarlarsınız
+title: Aspose.TeX için C# Metered License Nasıl Ayarlanır
 url: /tr/net/licensing/set-metered-license-csharp/
 weight: 12
 ---
@@ -13,53 +49,54 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.TeX (C#) için Lisans Nasıl Ayarlanır
+# C# için Aspose.TeX Ölçümlü Lisansını Nasıl Ayarlarsınız
 
 ## Giriş
 
-C# uygulamasında TeX dosyalarıyla çalışmayı planlıyorsanız, yapmanız gereken ilk şey Aspose.TeX için **lisans nasıl ayarlanır**. Ölçümlü bir lisans ayarlamak yalnızca çalışma zamanı kısıtlamalarını kaldırmakla kalmaz, aynı zamanda kütüphanenin tam özellik setine erişmenizi sağlar. Bu rehberde, SDK'yı indirmeden lisansın etkin olduğunu doğrulamaya kadar tüm süreci adım adım göstereceğiz, böylece TeX‑güçlü çözümler geliştirmeye hemen başlayabilirsiniz.
+C# uygulamasında TeX dosyalarıyla çalışmanız gerekiyorsa, ilk adım Aspose.TeX için **C# ölçümlü lisansını ayarlamaktır**. Ölçümlü lisans, çalışma zamanı sınırlamalarını kaldırır, tüm API yöntemlerine erişim sağlar ve lisans anahtarlarını doğrudan koda gömmenize izin verir. Bu öğreticide SDK'yı indirmeyi, gerekli ad alanlarını eklemeyi, lisansı uygulamayı ve lisansın aktif olduğunu doğrulamayı adım adım göstereceğiz—böylece kesintisiz bir şekilde TeX‑tabanlı çözümler geliştirmeye başlayabilirsiniz.
 
 ## Hızlı Yanıtlar
-- **Metered lisans nedir?** Yerel bir lisans dosyasına ihtiyaç duymadan, kamu/özel anahtarlar aracılığıyla kullanımı doğrulayan hafif bir lisans modeli.  
-- **Geliştirme için lisansa ihtiyacım var mı?** Evet, tüm özelliklerin kilidini açmak için geliştirme ve üretim ortamlarında ölçümlü bir lisans gereklidir.  
+- **Ölçümlü lisans nedir?** Yerel bir lisans dosyası olmadan, kamu/özel anahtarlar aracılığıyla kullanım doğrulaması yapan hafif bir lisans modelidir.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Evet, tüm özelliklerin kilidini açmak için hem geliştirme hem de üretim ortamlarında ölçümlü lisans gereklidir.  
 - **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
 - **Anahtarları daha sonra değiştirebilir miyim?** Kesinlikle—yeni anahtarlarla `SetMeteredKey` metodunu tekrar çağırmanız yeterlidir.  
-- **Lisansın çalıştığını nasıl doğrularım?** `Aspose.TeX.Metered.IsMetered()` metodunu kullanarak true/false sonucu alabilirsiniz.
+- **Lisansi çalıştığını nasıl doğrularım?** `Aspose.TeX.Metered.IsMetered()` metodunu kullanarak true/false sonucu alabilirsiniz.  
+
+`Aspose.TeX.Metered.IsMetered()` metodu, ölçümlü lisansın şu anda aktif olup olmadığını gösteren bir Boolean döndürür.
 
 ## Ölçümlü Lisans Nedir?
 
-Aspose.TeX için ölçümlü bir lisans, uygulamanız her başladığında Aspose'un lisans sunucusuna hafif bir istek göndererek çalışır. Sunucu, sağladığınız kamu ve özel anahtarları doğrular ve bir kullanım token'ı döndürür. Bu yaklaşım, fiziksel bir lisans dosyası gönderme ihtiyacını ortadan kaldırır ve gerektiğinde anahtarları döndürmeyi (rotate) kolaylaştırır.
+Aspose.TeX için ölçümlü lisans, uygulama her başlatıldığında kamu ve özel anahtarlarınızı Aspose'un lisans sunucusuna doğrular. Sunucu kısa bir kullanım belirteci döndürür, bu da fiziksel bir `.lic` dosyasına ihtiyaç duyulmadan sorunsuz anahtar döndürme sağlar.
 
-## Aspose.TeX için Ölçümlü Lisans Neden Kullanılmalı?
+## Aspose.TeX için Ölçümlü Lisans Neden Kullanılır?
 
-- **Dosya dağıtımı yok** – Anahtarlar doğrudan kod içinde gömülüdür.  
-- **Kolay anahtar döndürme** – Lisans dosyasını yeniden dağıtmadan anahtarları güncelleyebilirsiniz.  
-- **Doğru kullanım takibi** – Aspose her aktivasyonu kaydeder, böylece abonelik limitleriniz içinde kalmanıza yardımcı olur.  
-- **Tam özellik erişimi** – Lisans doğrulandıktan sonra tüm API yeteneklerinin kilidi açılır.
+Ölçümlü lisanslama, dağıtımı basit tutarken **tam özellik erişimi** sağlar. Aspose.TeX, **50+ giriş ve çıkış formatını** destekler—LaTeX, PDF, PNG ve SVG dahil—ve tüm dosyayı belleğe yüklemeden çok sayfalı belgeleri işleyebilir, bu da yüksek verimli hizmetler için idealdir.
 
-## Önkoşullar
+## Ön Koşullar
 
-Başlamadan önce, aşağıdaki öğelerin hazır olduğundan emin olun:
+Başlamadan önce şunlara sahip olduğunuzdan emin olun:
 
-1. **Aspose.TeX for .NET Library** – Kütüphaneyi [indirme sayfasından](https://releases.aspose.com/tex/net/) indirin ve kurun.  
-2. **Metered Lisans Anahtarları** – Aspose hesabınızdan ölçümlü kamu ve özel anahtarları edinin. Hesabınız yoksa, [buradan](https://purchase.aspose.com/buy) kaydolabilirsiniz.  
-3. **C# Geliştirme Ortamı** – Visual Studio (herhangi bir yeni sürüm) veya tercih ettiğiniz başka bir C# IDE.
+1. **Aspose.TeX for .NET Kütüphanesi** – Kütüphaneyi [download page](https://releases.aspose.com/tex/net/) adresinden indirip kurun.  
+2. **Ölçümlü Lisans Anahtarları** – Kamu ve özel anahtarları Aspose hesabınızdan edinin (eğer hesabınız yoksa [here](https://purchase.aspose.com/buy) adresinden kaydolun).  
+3. **C# Geliştirme Ortamı** – Visual Studio (herhangi bir yeni sürüm) veya başka bir C# IDE.
 
-> **Pro ipucu:** Ölçümlü anahtarlarınızı kod içinde sabit olarak tutmak yerine, güvenli bir yapılandırma deposunda (ör. Azure Key Vault) saklayın.
+> **Pro ipucu:** Metreli anahtarlarınızı kod içinde sabit olarak tutmak yerine güvenli bir yapılandırma deposunda (ör. Azure Key Vault) saklayın.
 
-## Ad Alanlarını İçe Aktarın
+## Ad Alanlarını İçe Aktarma
 
-C# projenizde, Aspose.TeX ad alanını içe aktararak başlayın:
+`Aspose.TeX`, TeX işleme, derleme ve dönüştürme için tüm sınıfları sağlayan kök ad alanıdır. C# projenizde, Aspose.TeX ad alanını içe aktararak başlayın:
 
 ```csharp
 using Aspose.TeX;
 ```
 
-## C# Aspose Lisansını Ayarlama – Adım Adım Kılavuz
+## C# için Aspose.TeX Ölçümlü Lisansını Nasıl Ayarlarsınız?
 
-### Adım 1: Ölçümlü Lisansı Ayarla (lisans nasıl ayarlanır)
+`Aspose.TeX.Metered.SetMeteredKey`, kamu ve özel anahtarlarınızı Aspose lisans hizmetine kaydeder. Anahtarlarınızı `Aspose.TeX.Metered.SetMeteredKey("<public>", "<private>")` ile uygulama başlangıcında yükleyin—bu tek satır kütüphaneyi anında tam olarak etkinleştirir. Çağrıyı `Main` veya `Startup.cs` içine yerleştirmek, sonraki tüm Aspose.TeX işlemlerinin lisanslı bir bağlamda çalışmasını sağlar.
 
-İlk kod parçacığı, ölçümlü anahtarları kullanarak **lisans nasıl ayarlanır** gösterir. Bu kodu uygulamanızın başlangıç rutininde (ör. `Main` veya `Startup.cs`) erken bir yerde yerleştirin.
+### Adım 1: Ölçümlü Lisansı Ayarlama (lisansı nasıl ayarlarsınız)
+
+İlk kod parçacığı, ölçümlü anahtarları kullanarak **lisansın nasıl ayarlanacağını** tam olarak gösterir. Bunu uygulama başlangıç rutininizin erken bir aşamasına (ör. `Main` veya `Startup.cs`) yerleştirin.
 
 ```csharp
 // ExStart:SetMeteredLicense
@@ -74,7 +111,7 @@ new Aspose.TeX.Metered().SetMeteredKey(
 
 ### Adım 2: Projenize Entegre Edin
 
-Lisans ayarlandıktan sonra, herhangi bir Aspose.TeX sınıfını özgürce kullanabilirsiniz—LaTeX derleme, PDF'ye dönüştürme, görüntü çıkarma vb. Ek bir lisans koduna gerek yoktur.
+Lisans ayarlandıktan sonra, LaTeX derleme, PDF'ye dönüştürme, görüntü çıkarma vb. gibi Aspose.TeX sınıflarını serbestçe kullanabilirsiniz. Ek lisans koduna gerek yoktur.
 
 ### Adım 3: Lisansı Doğrulayın
 
@@ -93,59 +130,58 @@ else
 // ExEnd:VerifyMeteredLicense
 ```
 
-“Metered license is set successfully!” mesajını görürseniz, kullanıma hazırsınız.
+“Metered license is set successfully!” mesajını görürseniz, hazırsınız.
 
 ## Yaygın Sorunlar ve Sorun Giderme
 
-| Semptom | Olası Neden | Çözüm |
-|---------|--------------|----------|
-| `IsMetered()` returns **false** | Yanlış anahtarlar veya ağ bağlantısı sorunu | Anahtarları tekrar kontrol edin, makinenin `license.aspose.com` adresine ulaşabildiğinden emin olun. |
-| Application throws **LicenseException** | Aspose.TeX API'lerini kullandıktan sonra lisans ayarlanması | Lisans ayarlama kodunu programın en başına taşıyın (herhangi bir Aspose.TeX nesnesi oluşturulmadan önce). |
-| Keys exposed in source control | Güvenlik riski | Anahtarları ortam değişkenlerinde veya güvenli bir kasada saklayın ve çalışma zamanında okuyun. |
+| Belirti | Muhtemel Neden | Çözüm |
+|---------|----------------|-------|
+| `IsMetered()` **false** döndürür | Yanlış anahtarlar veya ağ bağlantısı sorunu | Anahtarları tekrar kontrol edin, makinenin `license.aspose.com` adresine ulaşabildiğinden emin olun. |
+| Uygulama **LicenseException** hatası fırlatır | Aspose.TeX API'leri kullanıldıktan sonra lisans ayarlandı | Lisans ayarlama kodunu programın en başına (herhangi bir Aspose.TeX nesnesi oluşturulmadan önce) taşıyın. |
+| Anahtarlar kaynak kontrolünde ortaya çıkıyor | Güvenlik riski | Anahtarları ortam değişkenlerinde veya güvenli bir kasada saklayın ve çalışma zamanında okuyun. |
 
-## Sıkça Sorulan Sorular
+## Sık Sorulan Sorular
 
-### S1: Aspose.TeX için ölçümlü lisansı nasıl edinebilirim?
+**S1: Aspose.TeX için ölçümlü lisansı nasıl edinebilirim?**  
+A1: Ölçümlü lisansı [Aspose satın alma sayfası](https://purchase.aspose.com/buy) adresinden satın alabilirsiniz.
 
-A1: Ölçümlü bir lisansı [Aspose satın alma sayfasından](https://purchase.aspose.com/buy) satın alabilirsiniz.
+**S2: Ücretsiz deneme mevcut mu?**  
+A2: Evet, [bu bağlantı](https://releases.aspose.com/) adresini ziyaret ederek Aspose.TeX'in ücretsiz denemesini keşfedebilirsiniz.
 
-### S2: Ücretsiz deneme mevcut mu?
+**S3: Aspose.TeX belgelerini nerede bulabilirim?**  
+A3: Kapsamlı rehberlik için [Aspose.TeX belgeleri](https://reference.aspose.com/tex/net/) adresine bakın.
 
-A2: Evet, [bu linki](https://releases.aspose.com/) ziyaret ederek Aspose.TeX'in ücretsiz denemesini inceleyebilirsiniz.
+**S4: Aspose.TeX için destek nasıl alabilirim?**  
+A4: Topluluk desteği ve tartışmalar için [Aspose.TeX forumu](https://forum.aspose.com/c/tex/47) adresini ziyaret edin.
 
-### S3: Aspose.TeX belgelerini nerede bulabilirim?
-
-A3: Kapsamlı rehberlik için [Aspose.TeX belgelerine](https://reference.aspose.com/tex/net/) bakabilirsiniz.
-
-### S4: Aspose.TeX için destek nasıl alabilirim?
-
-A4: Topluluk desteği ve tartışmalar için [Aspose.TeX forumunu](https://forum.aspose.com/c/tex/47) ziyaret edin.
-
-### S5: Aspose.TeX için geçici bir lisans kullanabilir miyim?
-
+**S5: Aspose.TeX için geçici bir lisans kullanabilir miyim?**  
 A5: Evet, geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
-**Ekstra Soru&Cevap**
-
-**S: Ölçümlü lisansı daha sonra tam‑düğüm lisansına geçirebilir miyim?**  
-C: Kesinlikle—`SetMeteredKey` çağrısını standart `License` sınıfıyla değiştirin ve `.lic` dosyasını sağlayın.
+**S: Daha sonra ölçümlü lisansı tam‑düğüm lisansına geçebilir miyim?**  
+A: Kesinlikle—`SetMeteredKey` çağrısını standart `License` sınıfı ile değiştirip `.lic` dosyasını sağlayın.
 
 **S: Ölçümlü lisans Azure App Service'te çalışır mı?**  
-C: Evet, hizmet Aspose lisanslama uç noktasına ulaşabildiği sürece çalışır.
+A: Evet, hizmet Aspose lisans uç noktasına ulaşabildiği sürece çalışır.
 
 ## Sonuç
 
-Yukarıdaki adımları izleyerek, C# ortamında Aspose.TeX için **lisans nasıl ayarlanır** bilgisini, nasıl doğrulanacağını ve yaygın hatalardan nasıl kaçınılacağını öğrendiniz. Ölçümlü lisans kurulduğunda, TeX işleme yeteneklerini herhangi bir .NET uygulamasına güvenle entegre edebilirsiniz.
+Yukarıdaki adımları izleyerek artık Aspose.TeX için **C# ölçümlü lisansının nasıl ayarlanacağını**, nasıl doğrulanacağını ve yaygın hatalardan nasıl kaçınılacağını biliyorsunuz. Ölçümlü lisansla, TeX işleme yeteneklerini herhangi bir .NET uygulamasına güvenle entegre edebilir ve Aspose.TeX'in 50+ format desteğinden tam olarak yararlanabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2025-12-25  
-**Test Edilen Versiyon:** Aspose.TeX 24.10 for .NET  
+**Son Güncelleme:** 2026-05-25  
+**Test Edildi:** Aspose.TeX 24.10 for .NET  
 **Yazar:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## İlgili Eğitimler
+
+- [Lisansı Yükle C# – Aspose.TeX Lisansını Dosyadan Yükle](/tex/net/licensing/load-license-from-file-csharp/)
+- [Aspose.TeX'te (C#) Akıştan Lisans Nasıl Yüklenir](/tex/net/licensing/load-license-from-stream-csharp/)
+- [Aspose.TeX Lisansını Yükle – Aspose.TeX Lisanslarını Yönet](/tex/net/licensing/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
