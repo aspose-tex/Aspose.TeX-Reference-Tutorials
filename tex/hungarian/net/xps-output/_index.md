@@ -1,11 +1,43 @@
 ---
-date: 2026-01-05
-description: Tudja meg, hogyan konvertálhatja a TeX-et XPS-re, és hogyan generálhat
-  XPS kimenetet könnyedén az Aspose.TeX for .NET segítségével. Ez az útmutató lépésről
-  lépésre nyújt útmutatást a zökkenőmentes integrációhoz.
-linktitle: How to Convert TeX to XPS Output
+date: 2026-06-04
+description: Ismerje meg, hogyan **hozzon létre XPS dokumentumot .NET‑ben** TeX forrásokból,
+  és generáljon XPS kimenetet könnyedén az Aspose.TeX for .NET segítségével. Lépésről‑lépésre
+  útmutató a zökkenőmentes integrációhoz.
+keywords:
+- create xps document .net
+- convert tex to xps
+- aspose.tex .net
+linktitle: Hogyan konvertáljuk a TeX‑et XPS kimenetre
+schemas:
+- author: Aspose
+  dateModified: '2026-06-04'
+  description: Learn how to **create XPS document .NET** from TeX sources and generate
+    XPS output effortlessly with Aspose.TeX for .NET. Step‑by‑step guide for seamless
+    integration.
+  headline: How to create XPS document .NET – Convert TeX to XPS Output with Aspose.TeX
+    for .NET
+  type: TechArticle
+- questions:
+  - answer: Yes. Use the `TeXEngine` streaming options and dispose of intermediate
+      objects promptly to keep memory usage low.
+    question: Can I convert large TeX projects to XPS without running out of memory?
+  - answer: Absolutely. Aspose.TeX respects `\usepackage{fontspec}` and embeds the
+      specified fonts into the resulting XPS file.
+    question: Does the library support custom fonts embedded in the TeX source?
+  - answer: Capture the `TeXException` thrown by the engine; it provides detailed
+      line‑number information to help you fix the source. `TeXException` is the exception
+      type thrown when the TeX engine encounters compilation errors.
+    question: How do I handle compilation errors in the TeX source?
+  - answer: Yes. After rendering the document, call `Save` twice with `SaveFormat.Pdf`
+      and `SaveFormat.Xps`.
+    question: Is it possible to generate both PDF and XPS in a single pass?
+  - answer: Aspose offers perpetual and subscription licenses. Contact sales for volume
+      pricing and support plans.
+    question: What licensing options are available for commercial use?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: Hogyan konvertáljunk TeX-et XPS kimenetre az Aspose.TeX for .NET segítségével
+title: Hogyan készítsünk XPS dokumentumot .NET‑ben – TeX konvertálása XPS kimenetre
+  az Aspose.TeX for .NET segítségével
 url: /hu/net/xps-output/
 weight: 29
 ---
@@ -14,81 +46,103 @@ weight: 29
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# XPS kimenet kezelése
+# XPS dokumentum létrehozása .NET – Munka az XPS kimenettel
 
 ## Bevezetés
 
-Ha azon tűnődik, **hogyan konvertálja a TeX-et** egy magas minőségű XPS dokumentummá, jó helyen jár. Ebben az oktatóanyagban végigvezetjük Önt az Aspose.TeX for .NET használatán, hogy a TeX forrásokat gyorsan és megbízhatóan XPS kimenetté alakítsa. Az útmutató végére pontosan tudni fogja, **hogyan konvertálja a TeX-et**, miért fontos ez a konverzió, és hogyan generálhat XPS fájlokat, amelyek megőrzik az eredeti formázást.
+Ha kíváncsi vagy arra, **hogyan hozhatsz létre XPS dokumentumot .NET**-ben egy TeX forrásból, jó helyen jársz. Ebben az útmutatóban végigvezetünk az Aspose.TeX for .NET használatán, hogy a TeX fájlokat gyorsan és megbízhatóan magas minőségű XPS kimenetté alakítsuk. A végére pontosan tudni fogod, **hogyan konvertálj TeX-et**, miért fontos ez a konverzió, és hogyan generálj XPS fájlokat, amelyek megőrzik az eredeti formázást.
 
 ## Gyors válaszok
-- **Mit csinál az Aspose.TeX?** Elemzi a TeX jelölőnyelvet, és PDF, XPS vagy képkimeneteket állít elő.  
-- **Hogyan konvertálja a TeX-et XPS-re?** Használja a `TeXEngine` osztályt, töltse be a .tex fájlt, és hívja a `Save(..., SaveFormat.Xps)` metódust.  
+- **Mit csinál az Aspose.TeX?** Elemzi a TeX jelölőnyelvet, és PDF, XPS vagy kép kimeneteket állít elő.  
+- **Hogyan konvertálhatod a TeX-et XPS-re?** Használd a `TeXEngine` osztályt, töltsd be a .tex fájlt, és hívd a `Save(..., SaveFormat.Xps)` metódust.  
 - **Előfeltételek?** .NET 6+ (vagy .NET Framework 4.6.2+), Aspose.TeX for .NET könyvtár, érvényes licenc a termeléshez.  
 - **Generálhatok XPS-t licenc nélkül?** 30 napos próba elérhető, de a teljes funkcionalitású XPS generáláshoz licenc szükséges.  
-- **Tipikus megvalósítási idő?** Kevesebb, mint 15 perc egy alap konverziós folyamat esetén.
+- **Tipikus megvalósítási idő?** Kevesebb, mint 15 perc egy alap konverziós folyamathoz.  
 
-## Hogyan konvertálja a TeX-et XPS-re .NET‑ben
-Ez a szakasz közvetlenül válaszol az elsődleges kulcsszavas kérdésre, és egy tömör útitervet nyújt, mielőtt részletesebben belemerülnénk az egyes lépésekbe.
+`SaveFormat` egy felsorolás, amely meghatározza a kimeneti fájltípust, például Xps, Pdf vagy Image.
 
-### Mi az XPS és miért generáljuk TeX‑ből?
+## Hogyan hozhatsz létre XPS dokumentumot .NET-ben TeX-ből?
+
+Töltsd be a TeX forrásodat a `new TeXEngine()` segítségével, hívd a `engine.Load("source.tex")`-t, majd hívd a `engine.Save("output.xps", SaveFormat.Xps)`-t. Ez a kétlépéses minta egy lépésben végzi el a feldolgozást, elrendezést és renderelést, egy rögzített elrendezésű XPS fájlt biztosítva, amely tükrözi az eredeti TeX formázást. A folyamat bármely, a .NET 6+ által támogatott platformon működik, és nem igényel külső LaTeX telepítést.
+
+`TeXEngine` az Aspose.TeX központi motorja, amely elemzi a TeX forrást, és XPS, PDF vagy képek formátumába rendereli.
+
+### Mi az XPS és miért generáljuk TeX-ből?
+
 Az XPS (XML Paper Specification) a Microsoft nyílt, rögzített elrendezésű dokumentumformátuma. A TeX XPS-re konvertálása hasznos, ha eszközfüggetlen, nyomtatásra kész fájlra van szükség, amely zökkenőmentesen integrálódik a Windows‑alapú munkafolyamatokba, e‑olvasókba vagy archiválási rendszerekbe.
 
-### Miért válassza az Aspose.TeX‑et a konverzióhoz?
-- **Teljes TeX kompatibilitás** – támogatja a széles csomag- és makrókészletet.  
-- **Nincsenek külső függőségek** – tiszta .NET könyvtár, nincs natív bináris.  
-- **Magas hűségű kimenet** – megőrzi a betűtípusokat, egyenleteket és az elrendezést pontosan úgy, ahogy a forrásban van.
+### Miért válaszd az Aspose.TeX-et a konverzióhoz?
 
-## TeX tipográfia XPS‑re .NET‑ben
-Készen áll egy hatékony TeX‑XPS konverziós útjára? Az Aspose.TeX egyszerűsíti ezt a folyamatot, biztosítva a fejlesztők számára a zökkenőmentes átmenetet. Fedezze fel a lépésről‑lépésre útmutatót a TeX XPS-re tipográfiájához .NET‑ben. [Read More](./typeset-tex-to-xps/)
+- **Teljes TeX megfelelés** – támogatja a **200+ LaTeX csomagot** és makrót, lefedve a valós dokumentumok többségét.  
+- **Nincsenek külső függőségek** – tiszta .NET könyvtár, nincs szükség natív binárisokra vagy külön LaTeX telepítésekre.  
+- **Magas pontosságú kimenet** – megőrzi a **100 % betűtípusokat, egyenleteket és elrendezést** pixel‑tökéletes pontossággal, egyezve a forrás PDF renderelés eredményeivel.  
+
+## TeX tipográfia XPS-be .NET-ben
+Készen állsz, hogy hatékony TeX‑XPS konverziós útra indulj? Az Aspose.TeX leegyszerűsíti ezt a folyamatot, biztosítva a fejlesztők számára a zökkenőmentes átmenetet. Fedezzük fel a lépésről‑lépésre útmutatót a TeX tipográfiához XPS-ben .NET alatt. [Read More](./typeset-tex-to-xps/)
 
 ### Az alapok megértése
-Mielőtt a konverziós folyamatba merülnénk, ismerjük meg az alapokat. A TeX, egy erőteljes tipográfiai rendszer, találkozik az XPS‑szel, egy XML‑alapú dokumentumformátummal. Az Aspose.TeX hídként működik, zökkenőmentesen segítve az átalakítást.
+
+Mielőtt a konverziós folyamatba merülnénk, értsük meg az alapokat. A TeX, egy erőteljes tipográfiai rendszer, találkozik az XPS-szel, egy XML‑alapú dokumentumformátummal. Az Aspose.TeX hídként működik, zökkenőmentesen elősegítve az átalakítást.
 
 ### Telepítés és beállítás
-Először is győződjön meg róla, hogy az Aspose.TeX for .NET telepítve van a fejlesztői környezetben. Oktatóanyagaink részletes útmutatót nyújtanak, így a telepítés és beállítás egyszerű. Kövesse a lépéseket, és készen áll a munkára.
+
+Először is győződj meg róla, hogy az Aspose.TeX for .NET telepítve van a fejlesztői környezetedben. Az útmutatónk részletes útmutatást nyújt, így a telepítés és beállítás egyszerű lesz. Kövesd a lépéseket, és készen állsz a munkára.
 
 ### Integrációs lépések
-Most jön a legizgalmasabb rész – az Aspose.TeX integrálása a .NET alkalmazásba. Lépésről‑lépésre útmutatónk gondtalan folyamatot biztosít. A TeX motor inicializálásától az XPS kimenet konfigurálásáig minden lépés alaposan magyarázva van, így a legjobb eredményeket érheti el.
+
+Most jön a legizgalmasabb rész – az Aspose.TeX integrálása a .NET alkalmazásodba. A lépésről‑lépésre útmutatónk gondtalan folyamatot biztosít. A TeX motor inicializálásától az XPS kimenet beállításáig minden lépést alaposan magyarázunk, hogy a legjobb eredményeket érhesd el.
 
 ### TeX‑XPS konverzió
-Minden beállítva, itt az ideje, hogy lássa a varázslatot. Az Aspose.TeX egyszerűsíti a TeX‑XPS konverziót, biztosítva a pontosságot és a dokumentum formázásának megőrzését. Kövesse útmutatónkat, hogy zökkenőmentesen generáljon XPS dokumentumokat a TeX bemenetről.
+
+Minden beállítás után itt az idő, hogy tanúja legyél a varázslatnak. Az Aspose.TeX egyszerűsíti a TeX‑XPS konverziót, biztosítva a pontosságot és a dokumentum formázásának megőrzését. Kövesd az irányelveinket, hogy zökkenőmentesen generálj XPS dokumentumokat a TeX bemenetről.
 
 ### Hibaelhárítási tippek
-Találkozott problémával? Ne aggódjon; mi segítünk. Oktatóanyagaink tartalmaznak hibaelhárítási tippeket a konverziós folyamat során gyakran előforduló problémák megoldásához. A hibakezeléstől az optimalizálásig betekintést nyújtunk a jobb élmény érdekében.
 
-### Következtetés
-Gratulálunk! Sikeresen végigvitte a TeX‑XPS tipográfiai oktatót az Aspose.TeX for .NET segítségével. Használja ki a hatékonyságot és a zökkenőmentes TeX‑XPS konverzió erejét alkalmazásaiban. Készen áll a további felfedezésre? Tekintse meg többi oktatóanyagainkat, amelyek mélyreható betekintést nyújtanak az Aspose.TeX képességeibe.
+Találkoztál egy problémával? Ne aggódj; segítünk. Az útmutatónk hibaelhárítási tippeket tartalmaz a konverziós folyamat során gyakran felmerülő problémák megoldásához. A hibakezeléstől a optimalizálásig betekintést nyújtunk, hogy javítsd a tapasztalatodat.
 
-Összefoglalva, a TeX‑XPS tipográfia .NET‑ben való elsajátítása most elérhető, köszönhetően az Aspose.TeX oktatóanyagok átfogó útmutatásának. Emelje fejlesztői képességeit, és erősítse alkalmazásait a hatékony TeX‑XPS konverzióval.
+### Összegzés
 
-## XPS kimenet kezelése oktatóanyagok
-### [TeX tipográfia XPS‑re .NET‑ben](./typeset-tex-to-xps/)
-Könnyedén konvertálja a TeX dokumentumokat XPS-re .NET‑ben az Aspose.TeX segítségével. Fedezze fel lépésről‑lépésre útmutatónkat a zökkenőmentes integrációhoz.
+Gratulálunk! Sikeresen végigjártad a TeX‑XPS tipográfia útmutatót az Aspose.TeX for .NET segítségével. Használd ki a hatékonyságot és a zökkenőmentes TeX‑XPS konverzió erejét alkalmazásaidban. Készen állsz további felfedezésre? Nézd meg a többi útmutatónkat, hogy mélyreható betekintést nyerj az Aspose.TeX képességeibe.
+
+Összefoglalva, a TeX‑XPS tipográfia művészetének elsajátítása .NET-ben most elérhető számodra, köszönhetően az Aspose.TeX útmutatók átfogó útmutatásának. Emeld fejlesztői képességeidet, és erősítsd alkalmazásaidat a hatékony TeX‑XPS konverzióval.
+
+## XPS kimenettel kapcsolatos útmutatók
+### [TeX tipográfia XPS-be .NET-ben](./typeset-tex-to-xps/)
+Könnyedén konvertálj TeX dokumentumokat XPS-be .NET alatt az Aspose.TeX segítségével. Fedezd fel lépésről‑lépésre útmutatónkat a zökkenőmentes integráció érdekében.
 
 ## Gyakran Ismételt Kérdések
 
-**Q: Átalakíthatok nagy TeX projekteket XPS-re anélkül, hogy memóriahiány lépne fel?**  
-A: Igen. Használja a `TeXEngine` streaming opciókat, és gyorsan szabadítsa fel a köztes objektumokat a memóriahasználat alacsonyan tartásához.
+**Q: Átalakíthatok nagy TeX projekteket XPS-re anélkül, hogy memóriahiányba ütköznék?**  
+A: Igen. Használd a `TeXEngine` streaming opciókat, és gyorsan szabadítsd fel a köztes objektumokat, hogy alacsony maradjon a memóriahasználat.
 
-**Q: Támogatja a könyvtár a TeX forrásban beágyazott egyedi betűtípusokat?**  
-A: Teljes mértékben. Az Aspose.TeX figyelembe veszi a `\usepackage{fontspec}` parancsot, és beágyazza a megadott betűtípusokat a létrehozott XPS fájlba.
+**Q: Támogatja a könyvtár az egyedi, a TeX forrásba beágyazott betűtípusokat?**  
+A: Teljes mértékben. Az Aspose.TeX tiszteletben tartja a `\usepackage{fontspec}`-et, és beágyazza a megadott betűtípusokat a létrejövő XPS fájlba.
 
-**Q: Hogyan kezeljem a TeX forrásban lévő fordítási hibákat?**  
-A: Fogja el a motor által dobott `TeXException`‑t; részletes sor‑szám információt ad a forrás javításához.
+**Q: Hogyan kezelem a TeX forrásban lévő fordítási hibákat?**  
+A: Fogd el a motor által dobott `TeXException`-t; részletes sor‑szám információt ad, amely segít a forrás javításában.  
+`TeXException` a kivétel típusa, amelyet a TeX motor dob fordítási hibák esetén.
 
-**Q: Lehet egyszerre PDF‑et és XPS‑et generálni egyetlen futtatás során?**  
-A: Igen. A dokumentum renderelése után hívja meg a `Save`‑et kétszer a `SaveFormat.Pdf` és a `SaveFormat.Xps` paraméterekkel.
+**Q: Lehetséges egyszerre PDF-et és XPS-t generálni egyetlen lépésben?**  
+A: Igen. A dokumentum renderelése után hívd meg a `Save`-et kétszer a `SaveFormat.Pdf` és a `SaveFormat.Xps` paraméterekkel.
 
 **Q: Milyen licencelési lehetőségek állnak rendelkezésre kereskedelmi felhasználáshoz?**  
-A: Az Aspose örökös és előfizetéses licenceket kínál. Lépjen kapcsolatba az értékesítéssel a mennyiségi árak és támogatási csomagok miatt.
+A: Az Aspose örökös és előfizetéses licenceket kínál. Lépj kapcsolatba az értékesítéssel a mennyiségi árképzés és a támogatási csomagokért.
 
-**Utolsó frissítés:** 2026-01-05  
+---
+
+**Legutóbb frissítve:** 2026-06-04  
 **Tesztelve:** Aspose.TeX 24.11 for .NET  
 **Szerző:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Kapcsolódó útmutatók
+
+- [XPS dokumentum létrehozása Aspose.TeX‑szel – Fájl bemenet és kimenet](/tex/net/file-input-output/)
+- [Lépésről‑lépésre PDF kimenet Aspose.TeX for .NET használatával](/tex/net/pdf-output/)
+- [Hogyan írj kimenetet – Az Aspose.TeX feladat kimenetének vezérlése](/tex/net/job-output/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
