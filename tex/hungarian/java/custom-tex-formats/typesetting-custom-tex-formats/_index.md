@@ -1,11 +1,11 @@
 ---
-date: 2025-12-05
-description: Tanulja meg, hogyan állíthat be TeX-et az Aspose.TeX for Java használatával,
-  beleértve az egyéni formátumok lépéseit és azt, hogyan szerezhet be egy ideiglenes
-  Aspose licencet.
+date: 2026-02-10
+description: Tanulja meg, hogyan hozhat létre egyedi TeX formátumot, és hogyan állíthat
+  elő TeX Java dokumentumot az Aspose.TeX for Java használatával, beleértve a lépésről‑lépésre
+  történő beállítást, az egyedi formátum kezelését és az ideiglenes licenc megszerzését.
 linktitle: How to Typeset TeX with Custom Formats in Java
 second_title: Aspose.TeX Java API
-title: Hogyan állítsunk elő TeX-et egyedi formátumokkal Java-ban
+title: Hogyan hozzunk létre egyedi TeX formátumot és állítsunk tipográfiát Java-ban
 url: /hu/java/custom-tex-formats/typesetting-custom-tex-formats/
 weight: 10
 ---
@@ -14,43 +14,41 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan állítsuk elő a TeX-et egyedi formátumokkal Java-ban
+# Hogyan hozzunk létre egyedi TeX formátumot és typeset TeX-et Java-ban
 
 ## Bevezetés
 
-Ha **how to typeset tex**-et kell végrehajtania egy Java alkalmazásban, az Aspose.TeX tiszta, nagy teljesítményű módot kínál az egyedi TeX formátumfájlokkal való munkához. Ebben az útmutatóban mindent végigvezetünk, amire szüksége van – a környezet beállításától a saját formátumot használó TeX feladat futtatásáig. Akár tudományos kiadványszerkesztő eszközt, akár egyedi jelentésgenerátort épít, az alábbi lépések gyorsan elindítják Önt.
+Ha **create custom tex format**‑ra és TeX typeset‑re van szüksége egy Java‑alkalmazáson belül, az Aspose.TeX tiszta, nagy‑teljesítményű módot kínál az egyedi TeX formátumfájlok kezelésére. Ebben az útmutatóban mindent végigvezetünk, ami szükséges – a környezet beállításától a saját formátumot használó TeX‑feladat futtatásáig. Akár tudományos kiadványszerkesztő eszközt, akár egyedi jelentésgenerátort épít, az alábbi lépések gyorsan elindítják Önt.
 
 ## Gyors válaszok
 - **Melyik könyvtárra van szükségem?** Aspose.TeX for Java  
-- **Használhatok egyedi TeX formátumot?** Igen – csak mutassa a `FormatProvider`-t a fájlra.  
-- **Szükségem van licencre a fejlesztéshez?** Egy ideiglenes aspose licenc működik teszteléshez; a teljes licenc szükséges a termeléshez.  
+- **Használhatok egyedi TeX formátumot?** Igen – csak mutassa a `FormatProvider`‑t a fájlra.  
+- **Szükségem van licencre fejlesztéshez?** Egy ideiglenes license aspose elegendő a teszteléshez; a termeléshez teljes licenc szükséges.  
 - **Melyik Java verzió támogatott?** JDK 8 vagy újabb.  
-- **Milyen kimeneti formátumot generál a példa?** XPS (átállítható PDF-re, PNG-re stb.).
+- **Milyen kimeneti formátumot generál a példa?** XPS (átállítható PDF‑re, PNG‑re stb.).
 
-## Mi az egyedi TeX formátum?
+## Mi az az egyedi TeX formátum?
+Az egyedi TeX formátum egy előre lefordított makró‑ és primitívkészlet, amely a TeX motorját az Ön specifikus dokumentumtípusához igazítja. Saját `.fmt` fájl biztosításával szabályozhatja a betűtípusokat, elrendezési szabályokat és parancsdefiníciókat anélkül, hogy minden alkalommal módosítania kellene a forrás‑TeX‑et.
 
-Az egyedi TeX formátum egy előre lefordított makrók és primitívek halmaza, amely a TeX motorját az Ön specifikus dokumentumstílusához igazítja. Saját `.fmt` fájl biztosításával vezérelheti a betűtípusokat, elrendezési szabályokat és parancsdefiníciókat anélkül, hogy minden alkalommal módosítaná a forrás TeX-et.
-
-## Miért használja az Aspose.TeX-et Java-hoz?
-
-- **Pure Java** – Nincsenek natív binárisok, könnyen beágyazható bármely JVM-alapú projektbe.  
+## Miért használja az Aspose.TeX for Java‑t?
+- **Pure Java** – Nincsenek natív binárisok, könnyen beágyazható bármely JVM‑alapú projektbe.  
 - **High fidelity** – Olyan kimenetet generál, amely megegyezik a LaTeX‑stílusú rendereléssel.  
 - **Extensible** – Támogatja az egyedi formátumokat, több kimeneti eszközt és kötegelt feldolgozást.  
-- **License flexibility** – Kezdje egy ideiglenes aspose licenccel, majd frissítse, amikor élőben használja.
+- **License flexibility** – Kezdje egy ideiglenes license aspose‑szal, majd frissítsen, amikor élőben üzemel.
 
 ## Előfeltételek
 
 Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
 
-1. **Java Development Kit (JDK)** – Telepítve van a JDK 8 vagy újabb. Töltse le a hivatalos [Java weboldalról](https://www.oracle.com/java/technologies/javase-downloads.html), ha még nem tette.  
-2. **Aspose.TeX library for Java** – Szerezze be a legújabb JAR fájlt a [Aspose.TeX for Java letöltési oldalról](https://releases.aspose.com/tex/java/).  
-3. **Az Ön egyedi TeX formátumfájlja** – Helyezze a lefordított `.fmt` (pl. `customtex.fmt`) fájlt egy mappába, amely a kimeneti könyvtárként szolgál.  
+1. **Java Development Kit (JDK)** – JDK 8 vagy újabb telepítve. Töltse le a hivatalos [Java website](https://www.oracle.com/java/technologies/javase-downloads.html) oldalról, ha még nem tette meg.  
+2. **Aspose.TeX library for Java** – Szerezze be a legújabb JAR‑t a [Aspose.TeX for Java download page](https://releases.aspose.com/tex/java/) oldalról.  
+3. **Az egyedi TeX formátumfájlja** – Helyezze a lefordított `.fmt` (pl. `customtex.fmt`) fájlt egy olyan mappába, amely a kimeneti könyvtárként szolgál.  
 
-> **Pro tipp:** Ha a terméket értékeli, kérjen egy *temporary license aspose*-t az Aspose portálról; ez eltávolítja a kiértékelési vízjelet egy korlátozott időre.
+> **Pro tip:** Ha a terméket értékeli, kérjen egy *temporary license aspose*-t az Aspose portálról; ez eltávolítja az értékelési vízjelet egy korlátozott időre.
 
-## Csomagok importálása
+## Import Packages
 
-Először adja hozzá a szükséges importokat a Java projektjéhez. Ezek az osztályok hozzáférést biztosítanak a formátum szolgáltatóhoz, a feladat konfigurációhoz és a renderelő eszközhöz.
+Először adja hozzá a szükséges importokat a Java‑projektjéhez. Ezek a osztályok biztosítják a formátum‑szolgáltatóhoz, a feladat‑konfigurációhoz és a renderelő eszközhöz való hozzáférést.
 
 ```java
 package com.aspose.tex.TypesetWithCustomTeXFormat;
@@ -71,18 +69,18 @@ import util.Utils;
 
 ## Lépésről‑lépésre útmutató
 
-### 1. lépés: Formátum szolgáltató létrehozása
+### Step 1: Create a Format Provider
 
-A `FormatProvider` arra a könyvtárra mutat, amely tartalmazza az egyedi TeX formátumfájlt. Cserélje le a `"Your Output Directory"`-t a tényleges útvonalra, ahol a `customtex.fmt` található.
+A `FormatProvider` arra a könyvtárra mutat, amely tartalmazza az egyedi TeX formátumfájlt. Cserélje le a `"Your Output Directory"`‑t a tényleges útra, ahol a `customtex.fmt` található.
 
 ```java
 final FormatProvider formatProvider = new FormatProvider(
         new InputFileSystemDirectory("Your Output Directory"), "customtex");
 ```
 
-### 2. lépés: Átalakítási beállítások megadása
+### Step 2: Set Conversion Options
 
-Állítsa be a feladatot, hogy az ObjectTeX motorral (az egyedi formátumokat értő motorral) dolgozzon. Itt beállítjuk a feladat nevét, valamint megadjuk a bemeneti/kimeneti munkakönyvtárakat.
+Állítsa be a feladatot, hogy az ObjectTeX motor‑t használja (a motor, amely az egyedi formátumokat érti). Itt megadjuk a feladat nevét és a bemeneti/kimeneti munkakönyvtárakat is.
 
 ```java
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX(formatProvider));
@@ -91,9 +89,9 @@ options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Direct
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-### 3. lépés: TeX feladat futtatása
+### Step 3: Run the TeX Job
 
-Hozzon létre egy `TeXJob` példányt, adjon neki egy egyszerű TeX kódrészletet, és utasítsa, hogy az `XpsDevice`-el renderelje az eredményt. A kódrészlet a `\end`-el zárul, hogy lezárja a dokumentumot.
+Hozzon létre egy `TeXJob` példányt, adjon neki egy egyszerű TeX‑kódrészletet, és kérje meg, hogy az `XpsDevice`‑el renderelje az eredményt. A kódrészlet a `\end`‑nel zárul, hogy befejezze a dokumentumot.
 
 ```java
 new TeXJob(new ByteArrayInputStream(
@@ -101,57 +99,66 @@ new TeXJob(new ByteArrayInputStream(
         new XpsDevice(), options).run();
 ```
 
-### 4. lépés: Kimenet befejezése
+### Step 4: Finalize Output
 
-A feladat befejezése után adjon egy sortörést a terminál kimenetéhez, hogy a konzol rendezett maradjon.
+A feladat befejezése után adjon egy sortörést a terminál kimenethez, hogy a konzol rendezett maradjon.
 
 ```java
 options.getTerminalOut().getWriter().newLine();
 ```
 
-### 5. lépés: Formátum szolgáltató bezárása
+### Step 5: Close the Format Provider
 
-Ha befejezte, zárja be a szolgáltatót a fájlkezelők felszabadításához és az erőforrások felszabadításához.
+Amikor befejezte, zárja le a szolgáltatót a fájl‑kezelők felszabadítása és az erőforrások megtisztítása érdekében.
 
 ```java
 formatProvider.close();
 ```
 
+## Gyakori felhasználási esetek
+
+- **Automatizált tudományos cikkgenerálás** – Használjon előre lefordított formátumot, amely a folyóiratspecifikus makrókat tartalmazza.  
+- **Dinamikus jelentéskészítés** – Generáljon számlákat vagy bizonyítványokat „on‑the‑fly”, anélkül, hogy minden alkalommal újraépítené a LaTeX forrásokat.  
+- **Kötegelt feldolgozás nagy dokumentumgyűjteményeknél** – Töltsön be egy egyedi formátumot egyszer, és használja újra több száz fájlhoz, jelentősen csökkentve a feldolgozási időt.
+
 ## Gyakori problémák és megoldások
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
-| **„Formátumfájl nem található”** | Helytelen útvonal a `FormatProvider`-ben | Ellenőrizze, hogy a könyvtár és a fájlnév (`customtex.fmt`) helyes és elérhető. |
-| **Kódolási hibák** | Nem ASCII karakterek a TeX szövegben | Használjon UTF‑8 kódolást (`"UTF-8"` a `"ASCII"` helyett). |
-| **Kimenet nem generálódik** | A kimeneti könyvtárnak nincs írás jogosultsága | Győződjön meg róla, hogy a Java folyamatnak írási joga van a `" Output Directory"`-hez. |
-| **Licenc vízjel** | Csak a kiértékelési licenc használata | Alkalmazzon egy *temporary license aspose*-t teszteléshez, vagy vásároljon teljes licencet a termeléshez. |
+| **“Format file not found”** | Wrong path in `FormatProvider` | Verify the directory and filename (`customtex.fmt`) are correct and accessible. |
+| **Encoding errors** | Non‑ASCII characters in the TeX string | Use UTF‑8 encoding (`"UTF-8"` instead of `"ASCII"`). |
+| **Output not generated** | Output directory missing write permission | Ensure the Java process has write access to `"Your Output Directory"`. |
+| **License watermark** | Using only the evaluation license | Apply a *temporary license aspose* for testing or purchase a full license for production. |
 
 **Related Resources:** [Aspose.TeX API Reference](https://docs.aspose.com/tex/java/) | [Download Free Trial](https://releases.aspose.com/tex/java/)
 
-## Gyakran ismételt kérdések
+## Gyakran feltett kérdések
 
-**Q: Használhatom az Aspose.TeX-et más Java könyvtárakkal együtt?**  
-A: Természetesen. Az API pure Java, és együtt működik olyan könyvtárakkal, mint az Apache PDFBox, iText vagy a Spring Boot.
+**Q: Can I use Aspose.TeX together with other Java libraries?**  
+A: Absolutely. The API is pure Java and works alongside libraries such as Apache PDFBox, iText, or Spring Boot.
 
-**Q: Hol szerezhetek egy temporary license aspose-ot értékeléshez?**  
-A: Kérjen egyet a [Aspose temporary license oldalról](https://purchase.aspose.com/temporary-license/). Ez legfeljebb 30 napra eltávolítja a kiértékelési vízjelet.
+**Q: Where can I get a temporary license aspose for evaluation?**  
+A: Request one from the [Aspose temporary license page](https://purchase.aspose.com/temporary-license/). It removes the evaluation watermark for up to 30 days.
 
-**Q: Támogatja az Aspose.TeX más kimeneti formátumokat is, mint az XPS?**  
-A: Igen. A `new XpsDevice()`-et lecserélheti `new PdfDevice()`, `new PngDevice()` stb.-re, igényeitől függően.
+**Q: Does Aspose.TeX support output formats other than XPS?**  
+A: Yes. You can replace `new XpsDevice()` with `new PdfDevice()`, `new PngDevice()`, etc., depending on your needs.
 
-**Q: Hogyan hibakereshetem a sikertelen TeX feladatot?**  
-A: Engedélyezze a részletes naplózást a `options.setLogLevel(LogLevel.DEBUG);` hívással, és vizsgálja meg a konzol kimenetét a részletes hibaüzenetekért.
+**Q: How do I debug a failing TeX job?**  
+A: Enable verbose logging by calling `options.setLogLevel(LogLevel.DEBUG);` and inspect the console output for detailed error messages.
 
-**Q: Van elérhető ingyenes próba?**  
-A: Igen – töltse le a próbaverzió binárisait a [Aspose.TeX letöltési oldalról](https://releases.aspose.com/tex/java/).
+**Q: Is there a free trial available?**  
+A: Yes – download the trial binaries from the [Aspose.TeX download page](https://releases.aspose.com/tex/java/).
+
+**Q: Can I create multiple custom formats in the same application?**  
+A: Yes. Instantiate a separate `FormatProvider` for each `.fmt` file and pass the appropriate provider to `TeXConfig.objectTeX()`.
 
 ## Következtetés
 
-Most már tudja, hogyan **how to typeset tex**-et végezzen egy Java alkalmazásban egy egyedi TeX formátummal az Aspose.TeX segítségével. A fenti lépések követésével magas minőségű tipográfiát integrálhat bármely Java‑alapú munkafolyamatba, kísérletezhet saját formátumfájlokkal, és a prototípusból a termelésbe léphet megfelelő licenccel.
+Most már tudja, **how to create custom tex format**‑t és **how to typeset tex java**‑t egy Java‑alkalmazásban az Aspose.TeX segítségével. A fenti lépések követésével magas minőségű tipográfiát integrálhat bármely Java‑alapú munkafolyamatba, kísérletezhet saját formátumfájlokkal, és a prototípusból a termelésbe léphet megfelelő licenccel.
 
 ---
 
-**Last Updated:** 2025-12-05  
+**Last Updated:** 2026-02-10  
 **Tested With:** Aspose.TeX for Java 24.10  
 **Author:** Aspose  
 
