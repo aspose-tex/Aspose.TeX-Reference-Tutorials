@@ -1,11 +1,11 @@
 ---
-title: Write Terminal Output to File and Override Job Name in Java
+title: How to Capture Console Output and Override Job Name in Java
 linktitle: Write Terminal Output to File and Override Job Name in Java
 second_title: Aspose.TeX Java API
-description: Learn how to write terminal output to file and override a job name using Aspose.TeX for Java. Follow this step‑by‑step guide with complete code examples.
+description: Learn how to capture console output in Java using Aspose.TeX, write terminal output to a file, and override the job name. This step‑by‑step guide also covers redirect console output Java.
 weight: 10
 url: /java/customizing-output/override-job-name-disk/
-date: 2025-12-05
+date: 2026-02-12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ date: 2025-12-05
 
 ## Introduction
 
-Aspose.TeX for Java provides powerful features for working with TeX files, allowing developers to manipulate and customize the TeX document processing pipeline. In this tutorial you’ll learn **how to write terminal output to file** while also overriding the default job name—two capabilities that give you fine‑grained control over batch processing and logging.
+In this tutorial, you’ll discover **how to capture console output** while processing TeX files with Aspose.TeX for Java. We’ll walk through writing terminal output to a file, overriding the default job name, and redirecting console output Java so that logs are easy to locate and analyze. These techniques are essential when you need reliable logging for batch conversions or automated document pipelines.
 
 ## Quick Answers
 - **Can I change the job name?** Yes, use `options.setJobName(...)` before running the job.  
@@ -25,11 +25,17 @@ Aspose.TeX for Java provides powerful features for working with TeX files, allow
 - **What format is the output file?** Plain‑text terminal log that mirrors console output.  
 - **Is this compatible with other output devices?** Absolutely—once the log is written you can process it with any tool that reads text files.
 
+## What is **how to capture console** in the context of Aspose.TeX?
+
+Capturing console output means redirecting everything that would normally appear on the standard output stream (the terminal) into a file on disk. With Aspose.TeX you can do this effortlessly by configuring a `OutputFileTerminal` and assigning it to the conversion options.
+
+## Why override the job name?
+
+Overriding the job name gives each conversion run a unique identifier. This makes generated log files (`*.trm`) and other artifacts easier to track, especially when running multiple jobs in parallel or scheduling batch processes.
+
 ## Prerequisites
 
-Before we dive into the code, make sure you have the following:
-
-- A solid understanding of Java programming fundamentals.  
+- Basic proficiency with Java programming.  
 - Aspose.TeX for Java installed (download from the official [Aspose.TeX Java documentation](https://reference.aspose.com/tex/java/)).  
 - A Java IDE or build tool (Maven/Gradle) ready to compile and run the sample.
 
@@ -55,7 +61,7 @@ import util.Utils;
 
 > **Pro tip:** Keep the `util.Utils` import only if you need helper methods from the Aspose sample utilities; otherwise you can remove it to keep the code clean.
 
-## How to Write Terminal Output to File in Java
+## How to Capture Console Output in Java
 
 Below is a step‑by‑step guide that shows exactly how to configure the conversion options, override the job name, and direct the terminal output to a file on disk.
 
@@ -126,13 +132,9 @@ A: Use the temporary‑license request form at [Aspose temporary license](https:
 **Q: Where can I purchase a permanent license?**  
 A: Purchase a license directly from the [Aspose.TeX buying page](https://purchase.aspose.com/buy).
 
-## Conclusion
-
-In this guide we demonstrated how to **write terminal output to file** and override the default job name using Aspose.TeX for Java. These capabilities let you keep detailed logs for debugging, automate batch processing, and maintain a clean, organized output structure—essential for production‑grade document conversion pipelines.
-
 ---
 
-**Last Updated:** 2025-12-05  
+**Last Updated:** 2026-02-12  
 **Tested With:** Aspose.TeX 24.11 for Java  
 **Author:** Aspose  
 

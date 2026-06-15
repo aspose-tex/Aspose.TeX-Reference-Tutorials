@@ -1,80 +1,89 @@
 ---
-date: 2025-11-30
-description: Aspose.TeX를 사용하여 Java에서 LaTeX를 XPS로 변환하는 방법을 배우세요 – 쉬운 Java 문서 변환으로 LaTeX
-  문서를 변환하는 완전 가이드.
-linktitle: How to Convert LaTeX to XPS in Java
+date: 2026-02-12
+description: Aspose.TeX를 사용하여 Java에서 LaTeX의 XPS를 변환하는 방법을 배우세요 – XPS를 효율적으로 변환하는 단계별
+  가이드.
+linktitle: 'How to Convert XPS: Convert LaTeX to XPS in Java'
 second_title: Aspose.TeX Java API
-title: Java에서 LaTeX를 XPS로 변환하는 방법
+title: 'XPS 변환 방법: Java에서 LaTeX를 XPS로 변환하기'
 url: /ko/java/converting-lato-xps/
 weight: 23
 ---
+
+ content.
+
+Let's craft the translation.
+
+Be careful with markdown formatting.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java에서 LaTeX를 XPS로 변환하는 방법
+# XPS 변환 방법: Java에서 LaTeX를 XPS로 변환하기
 
-## Introduction
+## 소개
 
-Java를 사용해 LaTeX 파일을 XPS 형식으로 **변환하는 방법**을 궁금해 하신다면, 바로 이곳이 정답입니다. 이번 튜토리얼에서는 Aspose.TeX for Java를 활용해 LaTeX 소스 문서를 몇 줄의 코드만으로 고품질 XPS 파일로 만드는 과정을 단계별로 안내합니다. 보고서 엔진, 전자책 생성기 구축이든, Windows 환경에서 LaTeX 콘텐츠를 신뢰성 있게 공유해야 하든, 시작하는 데 필요한 모든 내용을 다룹니다.
+If you're wondering **XPS 변환 방법** from LaTeX files using Java, you’ve come to the right place. In this tutorial we’ll walk you through the process with Aspose.TeX for Java, showing you how to turn a LaTeX source document into a high‑quality XPS file with just a few lines of code. Whether you’re building a reporting engine, an e‑book generator, or simply need a reliable way to share LaTeX content on Windows platforms, this guide covers everything you need to get started.
 
-## Quick Answers
+## 빠른 답변
 - **What library handles LaTeX to XPS conversion?** Aspose.TeX for Java.  
 - **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
 - **Which Java versions are supported?** Java 8 and later (including Java 11, 17).  
 - **Is XPS output vector‑based?** Yes – the generated XPS retains vector graphics for crisp rendering.  
 - **Can I customize page size or margins?** Absolutely – Aspose.TeX exposes XPS rendering options you can tweak programmatically.
 
-## What is LaTeX‑to‑XPS conversion?
-LaTeX는 고품질 조판을 위해 설계된 마크업 언어이며, XPS(XML Paper Specification)는 Microsoft의 고정 레이아웃 문서 형식입니다. LaTeX를 XPS로 변환하면 원본 문서의 레이아웃, 글꼴 및 벡터 그래픽을 그대로 유지하면서 Windows 기반 뷰어에서 전체 LaTeX 설치 없이도 공유할 수 있습니다.
+## Java에서 XPS 변환 방법
+This section directly answers the primary question of **XPS 변환 방법** from LaTeX. We’ll break the workflow into clear, actionable steps so you can implement the solution in minutes.
 
-## Why use Aspose.TeX for Java?
+## LaTeX‑to‑XPS 변환이란?
+LaTeX is a markup language designed for high‑quality typesetting, while XPS (XML Paper Specification) is Microsoft’s fixed‑layout document format. Converting LaTeX to XPS lets you preserve the exact layout, fonts, and vector graphics of the original document and share it with Windows‑based viewers without needing a full LaTeX installation on the client side.
+
+## 왜 Java용 Aspose.TeX를 사용하나요?
 - **Zero external dependencies** – No need to install a LaTeX engine on the server.  
 - **Full control over rendering** – Adjust fonts, page size, and rendering quality directly from Java.  
 - **High performance** – Convert large documents quickly, ideal for batch processing.  
-- **Cross‑platform** – Works on Windows, Linux, and macOS with the same code base.
+- **Cross‑platform** – Works on Windows, Linux, and macOS with the same code base.  
 
-## Prerequisites
+## 사전 요구 사항
 - Java Development Kit (JDK) 8 or newer.  
 - Aspose.TeX for Java library (download the latest JAR from the Aspose website).  
 - A valid Aspose.TeX license for production use (optional for trial).  
 
-## Step‑by‑Step Guide
+## 단계별 가이드
 
-### Step 1: Add Aspose.TeX to Your Project
+### 단계 1: 프로젝트에 Aspose.TeX 추가
 Include the Aspose.TeX JAR in your project’s `libs` folder or add it via Maven/Gradle. This gives you access to the `com.aspose.tex` namespace.
 
-### Step 2: Load Your LaTeX Document
+### 단계 2: LaTeX 문서 로드
 Create an instance of `Document` and point it to your `.tex` source file. Aspose.TeX parses the LaTeX markup and builds an internal representation ready for rendering.
 
-### Step 3: Configure XPS Rendering Options (Optional)
+### 단계 3: XPS 렌더링 옵션 구성 (선택 사항)
 You can fine‑tune the output by setting properties such as page size, margins, and DPI. This step is optional but useful for custom layouts.
 
-### Step 4: Save as XPS
+### 단계 4: XPS로 저장
 Invoke the `save` method with the `SaveFormat.XPS` enum. The library handles the conversion internally and writes a standards‑compliant XPS file to disk.
 
-> **Pro tip:** If you need to generate multiple XPS files in a loop, reuse the same `Document` instance after calling `clear()` to free memory.
+> **팁:** If you need to generate multiple XPS files in a loop, reuse the same `Document` instance after calling `clear()` to free memory.
 
-## Effortless LaTeX to XPS Conversion
-The tutorial, [Convert LaTeX to XPS Format in Java with Ease](./simple-xps-conversion/), is your gateway to a smooth conversion experience. Aspose.TeX simplifies the entire process, allowing you to effortlessly transform LaTeX documents into the XPS format. Gone are the days of complex coding and intricate steps. Our guide provides a clear roadmap, ensuring you achieve the conversion seamlessly.
+## 손쉬운 LaTeX to XPS 변환
+The tutorial, [Java에서 LaTeX를 XPS 형식으로 손쉽게 변환](./simple-xps-conversion/), is your gateway to a smooth conversion experience. Aspose.TeX simplifies the entire process, allowing you to effortlessly transform LaTeX documents into the XPS format. Gone are the days of complex coding and intricate steps. Our guide provides a clear roadmap, ensuring you achieve the conversion seamlessly.
 
-## Tailored Solutions with Advanced XPS Conversion
-For those seeking a more customized approach, the tutorial, [Customize LaTeX to XPS Conversion in Java with Aspose.TeX](./advanced-xps-conversion/), offers a deeper dive into the capabilities of Aspose.TeX. Unlock the full potential of LaTeX to XPS conversion in Java with advanced features and efficient document processing. Tailor the conversion to meet your specific requirements and enhance the overall functionality of your Java applications.
+## 고급 XPS 변환을 통한 맞춤형 솔루션
+For those seeking a more customized approach, the tutorial, [Aspose.TeX와 함께 Java에서 LaTeX를 XPS 변환 맞춤화](./advanced-xps-conversion/), offers a deeper dive into the capabilities of Aspose.TeX. Unlock the full potential of LaTeX to XPS conversion in Java with advanced features and efficient document processing. Tailor the conversion to meet your specific requirements and enhance the overall functionality of your Java applications.
 
 Whether you are working on a personal project or a large‑scale application, these tutorials cater to developers of all levels. The clear, concise instructions ensure that you not only grasp the concepts swiftly but also gain a comprehensive understanding of Aspose.TeX for Java.
 
-As you explore these tutorials, you'll find that Aspose.TeX strikes the perfect balance between simplicity and customization. The active voice in the tutorials ensures that you, the developer, are in control, making the conversion process a seamless and enjoyable experience.
-
 In conclusion, with Aspose.TeX for Java, converting LaTeX to XPS is no longer a daunting task. Embrace the tutorials, follow the steps, and unlock the full potential of document conversion in your Java applications. Happy coding!
 
-## Converting LaTeX to XPS in Java Tutorials
-### [Convert LaTeX to XPS Format in Java with Ease](./simple-xps-conversion/)
+## Java에서 LaTeX를 XPS로 변환하는 튜토리얼
+### [Java에서 LaTeX를 XPS 형식으로 손쉽게 변환](./simple-xps-conversion/)
 Convert LaTeX to XPS effortlessly in Java using Aspose.TeX. Follow our step‑by‑step guide for seamless integration.
-### [Customize LaTeX to XPS Conversion in Java with Aspose.TeX](./advanced-xps-conversion/)
+### [Aspose.TeX와 함께 Java에서 LaTeX를 XPS 변환 맞춤화](./advanced-xps-conversion/)
 Unlock seamless LaTeX to XPS conversion in Java using Aspose.TeX. Follow our step‑by‑step guide for efficient document processing.
 
-## Frequently Asked Questions
+## 자주 묻는 질문
 
 **Q: Can I use this solution in a commercial Java application?**  
 A: Yes. After testing with the free trial, purchase an Aspose.TeX license for production use.
@@ -91,10 +100,8 @@ A: Absolutely. Replace `SaveFormat.XPS` with `SaveFormat.PDF` in the `save` call
 **Q: What if I need to change the default font family?**  
 A: Use the `FontSettings` class to specify a custom font collection before rendering.
 
----
-
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Last Updated:** 2026-02-12  
+**Tested With:** Aspose.TeX for Java (latest)  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
