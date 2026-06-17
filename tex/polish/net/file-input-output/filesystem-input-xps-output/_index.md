@@ -1,12 +1,10 @@
 ---
-date: 2025-12-20
-description: Dowiedz się, jak tworzyć wyjście XPS z zadań TeX przy użyciu Aspose.TeX
-  dla .NET, zarządzać wejściem/wyjściem systemu plików oraz generować wysokiej jakości
-  dokumenty XPS.
-linktitle: Create TeX Job XPS Output with Filesystems – Aspose.TeX for .NET
+date: 2026-03-26
+description: Dowiedz się, jak tworzyć XPS z TeX przy użyciu Aspose.TeX dla .NET, zarządzać
+  wejściem/wyjściem systemu plików oraz generować wysokiej jakości dokumenty XPS.
+linktitle: Create XPS from TeX with Filesystems – Aspose.TeX for .NET
 second_title: Aspose.TeX .NET API
-title: Utwórz wyjście XPS zadania TeX przy użyciu systemów plików – Aspose.TeX dla
-  .NET
+title: Tworzenie XPS z TeX przy użyciu systemów plików – Aspose.TeX dla .NET
 url: /pl/net/file-input-output/filesystem-input-xps-output/
 weight: 10
 ---
@@ -15,53 +13,56 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz zadanie TeX z wyjściem XPS przy użyciu systemów plików – Aspose.TeX dla .NET
+# Utwórz XPS z TeX przy użyciu systemów plików – Aspose.TeX dla .NET
 
-## Wstęp
+## Wprowadzenie
 
-Witamy! W tym samouczku nauczsz się **jak uruchomić zadanie TeX z wyjścia XPS** pracując z wyjściem i wyjściem w systemie plików przy użyciu Aspose.TeX dla .NET. oprogramowanie od tego, czy tworzywo sztuczne wsadowy, obsługa oprogramowania, czy narzędzie desktopowe, kolejne kroki po uruchomieniu Cię przez konfigurowanie silnika, wspisywanie plików oraz generowanie dokumentów XPS, które wyglądają jak prawdziwe kody LaTeX.
-
-Podzielimy proces na przejrzyste, numerowane kroki, wyjaśnimy „dlaczego” każdego kodu liniowego i podamy praktyczne, które można natychmiast sprawdzić.
+Witaj! W tym samouczku nauczysz się **jak utworzyć XPS z TeX** pracując z wejściem i wyjściem w systemie plików przy użyciu Aspose.TeX dla .NET. Niezależnie od tego, czy tworzysz przetwarzacz wsadowy, usługę internetową, czy narzędzie desktopowe, poniższe kroki poprowadzą Cię przez konfigurowanie silnika, wskazywanie na Twoje pliki i generowanie dokumentów XPS, które wyglądają dokładnie tak jak oryginalne źródło LaTeX.  
+Podzielimy proces na przejrzyste, numerowane kroki, wyjaśnimy „dlaczego” za każdą linią kodu i podamy praktyczne wskazówki, które możesz od razu zastosować.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „create tex job xps”?** Odnosi się do konfigurowania zadań Aspose.TeX, które odczytuje pliki TeX i zapisuje wynik jako dokument XPS.
-- **Czy jest to licencjat?** Dostępna jest tymczasowa licencja do egzaminów; pełny licencjat jest wymagany w środowisku produkcyjnym.
-- **Jakie wersje .NET są pobierane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
-- **Czy można zmienić format wyjściowy?** Tak – zamień `XpsDevice` na inne urządzenie (PDF, PNG, itp.).
-- **Czy wymagane jest wyjście konsoli?** Nie można użyć terminala pamięciowego do cichego wykonania.
+- **Co oznacza „utworzyć XPS z TeX”?** Odnosi się do konfigurowania zadania Aspose.TeX, które odczytuje pliki TeX i zapisuje wynik jako dokument XPS.  
+- **Czy potrzebna jest licencja?** Dostępna jest tymczasowa licencja do testów; pełna licencja jest wymagana w środowisku produkcyjnym.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Czy mogę zmienić format wyjściowy?** Tak – zamień `XpsDevice` na inne urządzenie (PDF, PNG, itp.).  
+- **Czy wymagane jest wyjście konsoli?** Nie – możesz użyć terminala pamięciowego do cichego wykonania.
 
-## Co to jest „utwórz xps pracy w Teksasie”?
+## Jak utworzyć XPS z TeX przy użyciu Aspose.TeX
 
-Utworzenie zadań TeX, które oznacza XPS, oznacza nie silnik Aspose.TeX, wskazanie, skąd pochodzą pliki źródłowe, oraz wskazanenie renderowanych stron do źródła XPS. XPS (Specyfikacja papieru XML) do formatu okablowania, który wyznacza typografię i grafikę wektorową, co stanowi idealne rozwiązanie do urządzeń lub urządzeń.
+Utworzenie zadania TeX, które generuje XPS, oznacza zainicjowanie silnika Aspose.TeX, wskazanie, skąd ma czytać pliki źródłowe, oraz skierowanie renderowanych stron do pakietu XPS. XPS (XML Paper Specification) jest formatem o stałym układzie, który zachowuje typografię i grafikę wektorową, co czyni go idealnym do drukowania lub dalszej konwersji.
 
-## Po co używać Aspose.TeX do tworzenia plików XPS?
+## Co to jest „create tex job xps”?
 
-- **Wysoka wierność:** Silnik uruchamia układ LaTeX w XPS.
-- **Brak zewnętrznych zależności:** Czysta biblioteka .NET, nie wymaga natywnych instalacji LaTeX.
-- **Elastyczne I/O:** Działa z katalogami systemów plików, strumieniami pamięci lub dostawcami.
-- **Skalowalność:** Równie często używane pliki, jak i przetwarzanie wsadowego.
+Utworzenie zadania TeX, które generuje XPS, oznacza zainicjowanie silnika Aspose.TeX, wskazanie, skąd ma czytać pliki źródłowe, oraz skierowanie renderowanych stron do pakietu XPS. XPS (XML Paper Specification) jest formatem o stałym układzie, który zachowuje typografię i grafikę wektorową, co czyni go idealnym do drukowania lub dalszej konwersji.
 
-## Warunki wstępne
+## Dlaczego używać Aspose.TeX do wyjścia XPS?
 
-- **Aspose.TeX dla .NET** – pobierz najnowszą wersję ze [strony Aspose](https://releases.aspose.com/tex/net/).
-- **Środowisko programistyczne .NET** – Visual Studio, Rider lub VS Code z zestawem .NET SDK.
-- **Folder dostarczany i wyjściowy** – utwórz dwa katalogi na swoim komputerze (np. `C:\TeX\Input` i `C:\TeX\Output`).
-- **Licencja (opcjonalnie do testów)** – umożliwia uzyskanie tymczasowego dostępu w portalu Aspose.
+- **Wysoka wierność:** Silnik odtwarza układ LaTeX dokładnie w XPS.  
+- **Brak zewnętrznych zależności:** Czysta biblioteka .NET, nie wymaga natywnych instalacji LaTeX.  
+- **Elastyczne I/O:** Działa z katalogami systemu plików, strumieniami pamięci lub dostawcami niestandardowymi.  
+- **Skalowalny:** Odpowiedni do konwersji pojedynczych plików lub przetwarzania wsadowego.
 
-## Importuj przestrzenie nazw
+## Wymagania wstępne
 
-Najpierw wprowadź wymagane przestrzenie nazw, aby mieć dostęp do plików pomocniczych oraz urządzeń XPS.
+- **Aspose.TeX for .NET** – pobierz najnowszą wersję ze [strony Aspose](https://releases.aspose.com/tex/net/).  
+- **Środowisko programistyczne .NET** – Visual Studio, Rider lub VS Code z .NET SDK.  
+- **Foldery wejściowy i wyjściowy** – utwórz dwa katalogi na swoim komputerze (np. `C:\TeX\Input` i `C:\TeX\Output`).  
+- **Licencja (opcjonalnie do testów)** – możesz uzyskać tymczasową licencję z portalu Aspose.
+
+## Importowanie przestrzeni nazw
+
+Najpierw wprowadź wymagane przestrzenie nazw, aby mieć dostęp do pomocników systemu plików i urządzenia XPS.
 
 ```csharp
 using Aspose.TeX.IO;
 using Aspose.TeX.Presentation.Xps;
 ```
 
-Te przestrzenie nazw udostępniają `InputFileSystemDirectory`, `OutputFileSystemDirectory` oraz `XpsDevice`, które są niezbędne dla przepływu pracy **create tex job xps**.
+Te przestrzenie nazw udostępniają `InputFileSystemDirectory`, `OutputFileSystemDirectory` oraz `XpsDevice`, które są niezbędne w przepływie pracy **create XPS from TeX**.
 
 ## Krok 1: Utwórz opcje konwersji
 
-Zaczynamy od utworzenia obiektu `TeXOptions`, który instruuje silnik, aby używał konfiguracji ObjectTeX (domyślnej dla większości źródeł LaTeX).
+Zaczynamy od zbudowania obiektu `TeXOptions`, który instruuje silnik, aby używał konfiguracji ObjectTeX (domyślnej dla większości źródeł LaTeX).
 
 ```csharp
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
@@ -69,20 +70,20 @@ TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
 
 > **Wskazówka:** `ConsoleAppOptions` ustawia rozsądne domyślne wartości dla aplikacji konsolowych, ale w razie potrzeby możesz później dostosować opcje.
 
-## Krok 2: Określ katalogi wejściowe i wyjściowe
+## Krok 2: Określ katalogi wejściowy i wyjściowy
 
-Wskaż silnikowi katalogi, które przygotowałeś wcześniej. Zastąp ciągi zastępcze rzeczywistymi ścieżkami na swoim komputerze.
+Wskaż silnikowi foldery, które przygotowałeś wcześniej. Zastąp ciągi znaków zastępczych rzeczywistymi ścieżkami na swoim komputerze.
 
 ```csharp
 options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
 options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 ```
 
-Teraz zadanie TeX wie, gdzie szukać plików `.tex` i gdzie umieścić wygenerowane pliki XPS.
+Teraz zadanie TeX wie, gdzie znaleźć pliki `.tex` i gdzie umieścić wygenerowane pliki XPS.
 
 ## Krok 3: Wybierz terminal wyjściowy
 
-Terminal kontroluje, gdzie zapisywane są komunikaty statusu. Do szybkiego debugowania pozostaniemy przy konsoli, ale możesz przełączyć się na terminal pamięciowy, aby uruchamiać procesy w trybie cichym.
+Terminal kontroluje, gdzie zapisywane są komunikaty statusu. Do szybkiego debugowania pozostaniemy przy konsoli, ale możesz przełączyć się na terminal pamięciowy dla cichych uruchomień.
 
 ```csharp
 options.TerminalOut = new OutputConsoleTerminal(); // Default value. Arbitrary assignment.
@@ -92,7 +93,7 @@ options.TerminalOut = new OutputConsoleTerminal(); // Default value. Arbitrary a
 
 ## Krok 4: Uruchom zadanie TeX
 
-Utwórz instancję `TeXJob`, nadaj jej przyjazną nazwę, podłącz `XpsDevice` i uruchom ją.
+Utwórz instancję `TeXJob`, nadaj jej przyjazną nazwę, podłącz `XpsDevice` i wykonaj ją.
 
 ```csharp
 TeXJob job = new TeXJob("hello-world", new XpsDevice(), options);
@@ -101,48 +102,56 @@ job.Run();
 
 Po zakończeniu `Run()` znajdziesz plik `hello-world.xps` w katalogu wyjściowym.
 
-## Krok 5: Dostrój wyjście konsoli
+## Krok 5: Dostosuj wyjście konsoli
 
-Dodanie pustej linii po zakończeniu zadania ułatwia czytanie logu konsoli, szczególnie gdy uruchamiasz wiele zadań w partii.
+Dodanie pustej linii po zakończeniu zadania ułatwia czytanie logu konsoli, szczególnie gdy uruchamiasz wiele zadań w trybie wsadowym.
 
 ```csharp
 options.TerminalOut.Writer.WriteLine();
 ```
 
+## Typowe przypadki użycia
+
+| Scenario | Why XPS? | How the snippet helps |
+|----------|----------|-----------------------|
+| **Masowa konwersja prac akademickich** | Zachowanie dokładnego układu do druku archiwalnego. | Podejście oparte na systemie plików pozwala wskazać folder z plikami `.tex` i wygenerować odpowiadający zestaw plików XPS. |
+| **Usługa internetowa renderująca LaTeX w locie** | XPS może być strumieniowany bezpośrednio do przeglądarek, które go obsługują. | Zamieniając `XpsDevice` na strumień pamięci, możesz zwrócić dokument bez zapisywania go na dysku. |
+| **Narzędzie do publikacji desktopowej** | Potrzeba podglądu o stałym układzie przed konwersją do PDF. | To samo zadanie może później zostać połączone z urządzeniem PDF w celu ostatecznej dystrybucji. |
+
 ## Typowe problemy i rozwiązania
 
-| Problem | Przyczyna | Rozwiązanie |
-|--------|-----------|------------|
-| **Plik XPS jest pusty** | Ścieżka wyjściowa jest nieprawidłowa lub nie ma uprawnień do zapisu. | Zweryfikuj przekazaną do `OutputFileSystemDirectory` i kontroluj, że proces ma dostęp do zapisu. |
-| **Błędy odpadi** | Źródło LaTeX używa pakietów nie podłączanych do ObjectTeX. | przełączył się na pełne gniazdo silnika TeX („TeXConfig.FullTeX()”) lub dodaj brakujące pliki pakietów do katalogu źródłowego. |
-| **Konsola się zawiesza** | Terminal dostępny na dane pochodzące z zapytania interaktywnego. | Użyj `OutputMemoryTerminal`, aby wyciszyć zapytanie w skryptach automatycznych. |
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Plik XPS jest pusty** | Ścieżka katalogu wyjściowego jest niepoprawna lub nie ma uprawnień do zapisu. | Sprawdź ścieżkę przekazaną do `OutputFileSystemDirectory` i upewnij się, że proces ma uprawnienia do zapisu. |
+| **Błędy kompilacji** | Źródło LaTeX używa pakietów nie zawartych w ObjectTeX. | Przełącz się na pełną konfigurację silnika TeX (`TeXConfig.FullTeX()`) lub dodaj brakujące pliki pakietów do katalogu wejściowego. |
+| **Konsola zawiesza się** | Terminal oczekuje na dane wejściowe z powodu interaktywnych zapytań. | Użyj `OutputMemoryTerminal`, aby wyciszyć interaktywne zapytania w skryptach automatycznych. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-**Q1: ​​Czy mogę używać innego formatu wyjściowego zamiast XPS?**
-A1: Tak, Aspose.TeX obsługuje PDF, PNG, SVG i inne formaty. Zamień `new XpsDevice()` na tworzenie klasę urządzeń (np. `new PdfDevice()`).
+**Q1: Czy mogę użyć innego formatu wyjściowego zamiast XPS?**  
+A1: Tak, Aspose.TeX obsługuje PDF, PNG, SVG i inne formaty. Zamień `new XpsDevice()` na odpowiednią klasę urządzenia (np. `new PdfDevice()`).
 
-**Q2: Czy dostępna jest tymczasowa licencjat do celów testowych?**
-A2: Tak, tymczasową szkodę, jaką można uzyskać pod [tym linkiem](https://purchase.aspose.com/temporary-license/).
+**Q2: Czy dostępna jest tymczasowa licencja do celów testowych?**  
+A2: Tak, możesz uzyskać tymczasową licencję do testów z [tego linku](https://purchase.aspose.com/temporary-license/).
 
-**Q3: Gdzie mogę znaleźć dodatkowe uzupełnienie?**
+**Q3: Gdzie mogę znaleźć dodatkową dokumentację?**  
 A3: Odwołaj się do [dokumentacji Aspose.TeX dla .NET](https://reference.aspose.com/tex/net/) po szczegółowe informacje.
 
-**Pytanie 4: Jak mogę uzyskać wsparcie społeczności lub pytania?**
-A4: Odwiedź [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) w celu uzyskania wsparcia społeczności i debaty.
+**Q4: Jak mogę uzyskać wsparcie społeczności lub zadać pytania?**  
+A4: Odwiedź [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) w celu uzyskania wsparcia społeczności i dyskusji.
 
-**Pyt. 5: Czy dostępne są przykładowe projekty?**
-A5: Przeglądaj repozytorium Aspose.TeX na GitHub pod kątem przykładów użycia i fragmentów kodu.
+**Q5: Czy dostępne są przykładowe projekty?**  
+A5: Przeglądaj repozytorium Aspose.TeX na GitHubie, aby znaleźć przykładowe projekty i fragmenty kodu.
 
-## Wniosek
+## Podsumowanie
 
-Po połączeniu z krokami, teraz wiesz, jak **utworzyć zadanie TeX z wyjścia XPS** przy użyciu Aspose.TeX dla .NET, udostępnić folderami dystrybucjimi i wyjściami oraz przebieg procesu zarówno do scenariuszy deweloperskich, jak i dystrybucji. Śmiało eksperymentuj z innymi wyjściami wyjściowymi, integruj tę logikę w głównych przepływach pracy lub automatyzuj konwersje wsadowe.
+Postępując zgodnie z powyższymi krokami, teraz wiesz, jak **utworzyć XPS z TeX** przy użyciu Aspose.TeX dla .NET, zarządzać folderami wejściowymi i wyjściowymi oraz dopasować proces zarówno w scenariuszach deweloperskich, jak i produkcyjnych. Śmiało eksperymentuj z innymi urządzeniami wyjściowymi, integruj tę logikę w większych przepływach pracy lub automatyzuj konwersje wsadowe.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-20
-**Testowano z:** Aspose.TeX 24.11 dla .NET (najnowsza wersja w momencie pisania)
-**Autor:** Aspose  
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.TeX 24.11 for .NET (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
