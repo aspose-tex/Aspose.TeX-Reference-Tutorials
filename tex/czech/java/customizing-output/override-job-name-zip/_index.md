@@ -1,5 +1,5 @@
 ---
-date: 2025-12-07
+date: 2026-02-15
 description: Naučte se, jak převést TeX na PDF, přepsat názvy úloh a zapsat výstup
   terminálu do souboru ZIP pomocí Aspose.TeX pro Javu. Průvodce krok za krokem pro
   vývojáře Javy.
@@ -20,34 +20,40 @@ weight: 11
 
 ## Úvod
 
-Pokud potřebujete **převést TeX na PDF** a mít plnou kontrolu nad názvem úlohy a logy terminálu, Aspose.TeX pro Java to dělá jednoduchým. V tomto tutoriálu projdeme reálný scénář: přepsání názvu úlohy, směrování výstupu terminálu do ZIP archivu a nakonec vytvoření PDF dokumentu. Na konci budete mít znovupoužitelný úryvek kódu, který můžete vložit do libovolného Java projektu.
+Pokud potřebujete **převést TeX na PDF** a mít plnou kontrolu nad názvem úlohy a protokoly terminálu, Aspose.TeX pro Java to usnadňuje. V tomto tutoriálu projdeme reálný scénář: přepsání názvu úlohy, nasměrování výstupu terminálu do ZIP archivu a nakonec vytvoření PDF dokumentu. Na konci budete mít opakovaně použitelný úryvek kódu, který můžete vložit do libovolného Java projektu.
 
 ## Rychlé odpovědi
-- **Co tento tutoriál dosahuje?** Ukazuje, jak převést TeX na PDF, nastavit vlastní název úlohy a zachytit výstup terminálu do ZIP souboru.  
-- **Která knihovna je vyžadována?** Aspose.TeX for Java (nejnovější verze).  
-- **Potřebuji licenci?** Dočasná licence stačí pro hodnocení; pro produkci je vyžadována plná licence.  
+- **Co tento tutoriál dosahuje?** Ukazuje, jak převést TeX na PDF, nastavit vlastní název úlohy a zachytit výstup terminálu v ZIP souboru.  
+- **Která knihovna je vyžadována?** Aspose.TeX pro Java (nejnovější verze).  
+- **Potřebuji licenci?** Dočasná licence stačí pro vyhodnocení; pro produkci je vyžadována plná licence.  
 - **Jaké výstupní soubory jsou generovány?** PDF dokument a terminálový log `<job_name>.trm` uvnitř výstupního ZIP.  
 - **Jak dlouho trvá implementace?** Přibližně 10‑15 minut na zkopírování kódu a jeho spuštění.
 
-## Co je „převod TeX na PDF“?
-Převod TeX na PDF znamená převzít zdrojový soubor TeX (nebo kolekci souborů TeX) a vykreslit jej jako PDF dokument. Aspose.TeX poskytuje vysoce výkonný engine, který zvládá celou pipeline kompilace TeX bez potřeby externí distribuce LaTeX.
+## Co znamená „převod TeX na PDF“?
+Převod TeX na PDF znamená převzít zdrojový soubor TeX (nebo sbírku souborů TeX) a vykreslit jej jako PDF dokument. Aspose.TeX poskytuje vysoce výkonný engine, který zpracovává celý kompilovací řetězec TeX bez potřeby externí distribuce LaTeX.
 
 ## Proč přepsat název úlohy a zapsat výstup terminálu do ZIP?
 - **Přehlednost:** Vlastní název úlohy se objeví v log souborech, což usnadňuje identifikaci běhů v automatizovaných pipelinech.  
 - **Přenositelnost:** Uložení výstupu terminálu (`*.trm`) uvnitř ZIP souboru udržuje všechny artefakty pohromadě, což je užitečné pro CI/CD nebo zpracování v cloudu.  
 - **Ladění:** Terminálový log obsahuje podrobné zprávy o kompilaci, které vám pomohou řešit chyby v TeX.
 
-## Požadavky
+## Proč je to důležité
+Když generujete PDF z TeX v produkčním prostředí, často potřebujete udržet artefakty sestavení uspořádané. Přepsání názvu úlohy vám umožní označit každý běh smysluplným identifikátorem (např. číslem sestavení). Zabalení terminálového logu do stejného ZIPu jako PDF vám poskytne jediný přenosný balíček, který lze archivovat nebo odeslat do následných služeb bez ztráty kontextu.
 
-Než začnete, ujistěte se, že máte:
+## Běžné případy použití
+- **Automatizovaná tvorba reportů** – noční úloha vytváří PDF z TeX šablon a ukládá logy pro auditní účely.  
+- **CI/CD pipeline** – vývojáři mohou zobrazit přesné zprávy o kompilaci, když sestavení selže, aniž by museli prohledávat samostatné log soubory.  
+- **Služby dokumentů v cloudu** – webová služba přijme ZIP se zdrojovými soubory TeX, zpracuje je a vrátí ZIP obsahující PDF a jeho kompilovací log.
+
+## Předpoklady
 
 - Funkční vývojové prostředí Java (JDK 8 nebo vyšší).  
-- Aspose.TeX for Java stažený z [Aspose webu](https://releases.aspose.com/tex/java/).  
+- Aspose.TeX pro Java stažený z [Aspose webu](https://releases.aspose.com/tex/java/).  
 - Základní znalost Java I/O streamů.  
 
 ## Import balíčků
 
-Nejprve importujte potřebné třídy. Tím získáte přístup k API Aspose.TeX a standardním Java I/O utilitám.
+Začněte importováním potřebných tříd. To vám poskytne přístup k API Aspose.TeX a standardním Java I/O utilitám.
 
 ```java
 package com.aspose.tex.OverridenJobNameAndTerminalOutputWrittenToZip;
@@ -72,7 +78,7 @@ import util.Utils;
 
 ## Krok 1: Otevřete vstupní ZIP archiv
 
-Nejprve otevřeme stream, který ukazuje na ZIP soubor obsahující zdrojové soubory TeX. Tento archiv funguje jako **vstupní pracovní adresář** pro úlohu převodu.
+Nejprve otevřeme stream, který ukazuje na ZIP soubor obsahující zdrojové soubory TeX. Tento archiv funguje jako **vstupní pracovní adresář** pro konverzní úlohu.
 
 ```java
 // Open a stream on the input ZIP archive
@@ -81,16 +87,16 @@ final InputStream inZipStream = new FileInputStream("Your Input Directory" + "zi
 
 ## Krok 2: Otevřete výstupní ZIP archiv
 
-Dále vytvoříme stream pro ZIP soubor, který přijme vygenerované PDF a log terminálu. Toto je **výstupní pracovní adresář**.
+Dále vytvořte stream pro ZIP soubor, který přijme vygenerované PDF a terminálový log. Toto je **výstupní pracovní adresář**.
 
 ```java
 // Open a stream on the output ZIP archive
 final OutputStream outZipStream = new FileOutputStream("Your Output Directory" + "terminal-out-to-zip.zip");
 ```
 
-## Krok 3: Nastavte možnosti převodu (včetně názvu úlohy)
+## Krok 3: Nastavte možnosti konverze (včetně názvu úlohy)
 
-Zde konfiguruje možnosti převodu pro formát ObjectTeX, specifikuje vlastní název úlohy a sváže vstupní a výstupní ZIP adresáře.
+Zde konfigurujeme možnosti konverze pro formát ObjectTeX, specifikujeme vlastní název úlohy a svážeme vstupní a výstupní ZIP adresáře.
 
 ```java
 // Create TeX options for ObjectTeX format
@@ -100,9 +106,9 @@ options.setInputWorkingDirectory(new InputZipDirectory(inZipStream, "in"));
 options.setOutputWorkingDirectory(new OutputZipDirectory(outZipStream));
 ```
 
-## Krok 4: Směřujte výstup terminálu do souboru v ZIP
+## Krok 4: Nasmerujte výstup terminálu do souboru v ZIP
 
-Řekneme Aspose.TeX, aby zapsal výstup kompilace terminálu do souboru pojmenovaného `<job_name>.trm` uvnitř výstupního ZIP.
+Řekneme Aspose.TeX, aby zapisoval výstup kompilace terminálu do souboru pojmenovaného `<job_name>.trm` uvnitř výstupního ZIP.
 
 ```java
 // Specify terminal output settings
@@ -128,41 +134,48 @@ Po dokončení úlohy musíme správně uzavřít ZIP stream, aby byl archiv pla
 ((OutputZipDirectory) options.getOutputWorkingDirectory()).finish();
 ```
 
-## Časté problémy a řešení
+## Tipy a osvědčené postupy
+
+- **Znovupoužití streamů**: Pokud zpracováváte mnoho TeX úloh po sobě, nechte vstupní a výstupní streamy otevřené a mezi běhy měňte pouze `JobName`.  
+- **Kontrola logu**: Otevřete soubor `<job_name>.trm` libovolným textovým editorem a zobrazte varování nebo chyby, které TeX kompilátor vypsal.  
+- **Výkon**: Pro velké dokumenty zvažte zvýšení velikosti haldy JVM (`-Xmx2g`), aby nedošlo k `OutOfMemoryError` během vykreslování PDF.  
+- **Bezpečnost**: Při práci s nedůvěryhodnými TeX zdroji spusťte konverzi v sandboxovaném prostředí, aby se omezily potenciální škodlivé makra.
+
+## Běžné problémy a řešení
 
 | Problém | Pravděpodobná příčina | Řešení |
-|---------|-----------------------|--------|
-| **Prázdné PDF** | Vstupní ZIP neobsahuje platný soubor `*.tex` nebo soubor není umístěn ve složce `in`. | Ověřte strukturu ZIP (`in/yourfile.tex`). |
-| **Chybějící soubor `.trm`** | `setTerminalOut` nebyla zavolána nebo výstupní adresář není `OutputZipDirectory`. | Ujistěte se, že `options.setTerminalOut(...)` je provedeno před `run()`. |
+|---------|----------------------|--------|
+| **Prázdné PDF** | Vstupní ZIP neobsahuje platný soubor `*.tex` nebo není umístěn ve složce `in`. | Ověřte strukturu ZIP (`in/yourfile.tex`). |
+| **Chybějící soubor `.trm`** | `setTerminalOut` nebyla zavolána nebo výstupní adresář není `OutputZipDirectory`. | Zajistěte, aby `options.setTerminalOut(...)` bylo provedeno před `run()`. |
 | **`IOException` při dokončení** | Výstupní stream byl již jinde uzavřen. | Zavolejte `finish()` pouze jednou, po dokončení úlohy. |
-| **Převod selže kvůli chybám v TeX** | Zdrojový TeX obsahuje syntaktické chyby. | Otevřete vygenerovaný log `<job_name>.trm` a podívejte se na podrobné chybové zprávy. |
+| **Konverze selže s TeX chybami** | Zdroj TeX obsahuje syntaktické chyby. | Otevřete vygenerovaný log `<job_name>.trm` a zobrazte podrobné chybové zprávy. |
 
 ## Často kladené otázky
 
 **Q: Co je Aspose.TeX?**  
-A: Aspose.TeX je Java knihovna, která umožňuje vývojářům **vytvářet PDF ze zdrojů TeX**, manipulovat s TeX dokumenty a provádět pokročilé renderování bez externích LaTeX instalací.
+A: Aspose.TeX je Java knihovna, která umožňuje vývojářům **vytvářet PDF ze zdrojů TeX**, manipulovat s TeX dokumenty a provádět pokročilé vykreslování bez externích instalací LaTeX.
 
 **Q: Jak mohu získat dočasnou licenci pro Aspose.TeX?**  
-A: Dočasnou licenci můžete získat na [tomto odkazu](https://purchase.aspose.com/temporary-license/).
+A: Dočasnou licenci můžete získat na [této stránce](https://purchase.aspose.com/temporary-license/).
 
 **Q: Kde najdu oficiální dokumentaci Aspose.TeX?**  
 A: Dokumentace je dostupná [zde](https://reference.aspose.com/tex/java/).
 
 **Q: Existuje bezplatná zkušební verze Aspose.TeX?**  
-A: Ano, bezplatnou verzi si můžete stáhnout [zde](https://releases.aspose.com/).
+A: Ano, bezplatnou zkušební verzi můžete stáhnout [zde](https://releases.aspose.com/).
 
 **Q: Kam se mohu obrátit o pomoc, pokud narazím na problémy?**  
 A: Navštivte [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) pro komunitní podporu a oficiální asistenci.
 
 ## Závěr
 
-Nyní jste viděli, jak **převést TeX na PDF**, přepsat název úlohy a zachytit výstup terminálu uvnitř ZIP archivu pomocí Aspose.TeX pro Java. Tento přístup je zvláště užitečný v automatizovaných build pipelinech, kde udržování logů spolu s generovanými artefakty usnadňuje ladění a auditní stopy. Klidně přizpůsobte kód vlastní struktuře projektu nebo jej rozšiřte na další výstupní formáty podporované Aspose.TeX.
+Nyní jste viděli, jak **převést TeX na PDF**, přepsat název úlohy a zachytit výstup terminálu uvnitř ZIP archivu pomocí Aspose.TeX pro Java. Tento přístup je zvláště užitečný v automatizovaných build pipelinech, kde udržování logů společně s vygenerovanými artefakty zjednodušuje ladění a auditní stopy. Klidně přizpůsobte kód vlastní struktuře projektu nebo jej rozšiřte na další výstupní formáty podporované Aspose.TeX.
 
 ---
 
-**Poslední aktualizace:** 2025-12-07  
-**Testováno s:** Aspose.TeX for Java 24.11 (nejnovější v době psaní)  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-15  
+**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
