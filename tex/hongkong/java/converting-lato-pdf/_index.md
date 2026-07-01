@@ -9,15 +9,7 @@ url: /zh-hant/java/converting-lato-pdf/
 weight: 20
 ---
 
-:** Aspose => "**作者：** Aspose"
-
-Then closing shortcodes.
-
-Now produce final content with same shortcodes.
-
-Be careful to keep blank lines.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

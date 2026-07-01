@@ -8,11 +8,7 @@ url: /ja/java/converting-lato-images/
 weight: 22
 ---
 
- none.
-
-Make sure to preserve markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

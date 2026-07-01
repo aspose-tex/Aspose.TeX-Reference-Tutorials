@@ -10,14 +10,6 @@ url: /es/java/converting-lato-images/
 weight: 22
 ---
 
- not to translate URLs, file paths, code, class names, etc.
-
-Let's translate.
-
-I'll write Spanish.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -8,14 +8,6 @@ url: /zh-hant/java/converting-lato-images/
 weight: 22
 ---
 
- good.
-
-Now produce final content.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

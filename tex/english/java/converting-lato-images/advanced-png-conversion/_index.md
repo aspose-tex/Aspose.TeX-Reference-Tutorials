@@ -1,5 +1,5 @@
 ---
-title: Convert LaTeX to PNG: Advanced Options with Aspose.TeX for Java
+title: Convert LaTeX to PNG - Advanced Options with Aspose.TeX for Java
 linktitle: Explore Advanced PNG Conversion Options with Aspose.TeX for Java
 second_title: Aspose.TeX Java API
 description: Learn how to convert LaTeX to PNG and export LaTeX as PNG using advanced options in Aspose.TeX for Java. Complete step‑by‑step guide.

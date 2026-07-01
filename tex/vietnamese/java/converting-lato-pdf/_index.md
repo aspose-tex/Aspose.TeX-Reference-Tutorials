@@ -10,9 +10,7 @@ url: /vi/java/converting-lato-pdf/
 weight: 20
 ---
 
- preserved.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

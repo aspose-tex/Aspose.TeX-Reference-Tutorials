@@ -10,12 +10,6 @@ url: /nl/java/converting-lato-images/png-conversion/
 weight: 10
 ---
 
-Then closing shortcodes.
-
-Now ensure we keep all shortcodes unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

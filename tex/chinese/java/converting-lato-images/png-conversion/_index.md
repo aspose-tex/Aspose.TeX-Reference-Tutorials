@@ -9,12 +9,6 @@ url: /zh/java/converting-lato-images/png-conversion/
 weight: 10
 ---
 
- have bold parts. Keep bold.
-
-Translate sentences naturally.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -9,9 +9,7 @@ url: /nl/java/converting-lato-pdf/advanced-pdf-conversion/
 weight: 11
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
