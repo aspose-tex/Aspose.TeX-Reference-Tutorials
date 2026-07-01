@@ -89,28 +89,6 @@ new Metered().setMeteredKey(
 
 ## Câu hỏi thường gặp
 
-### Q1: Tôi có thể tìm tài liệu cho Aspose.TeX trong Java ở đâu?
-
-A1: Tài liệu có sẵn [tại đây](https://reference.aspose.com/tex/java/).
-
-### Q2: Làm sao tôi có thể tải thư viện Aspose.TeX cho Java?
-
-A2: Bạn có thể tải thư viện từ [release page](https://releases.aspose.com/tex/java/).
-
-### Q3: Tôi có thể mua giấy phép định mức cho Aspose.TeX ở đâu?
-
-A3: Bạn có thể mua giấy phép từ [Aspose Purchase](https://purchase.aspose.com/buy).
-
-### Q4: Có bản dùng thử miễn phí cho Aspose.TeX không?
-
-A4: Có, bạn có thể truy cập bản dùng thử miễn phí từ [tại đây](https://releases.aspose.com/).
-
-### Q5: Cần trợ giúp hoặc có câu hỏi?
-
-A5: Tham khảo [Aspose.TeX support forum](https://forum.aspose.com/c/tex/47) để được hỗ trợ.
-
-## Câu hỏi thường gặp
-
 **Q: Tôi có thể sử dụng cùng một khóa trên nhiều máy không?**  
 A: Có, các khóa định mức không phụ thuộc vào máy, nhưng mỗi lần sử dụng đều tính vào hạn ngạch tiêu thụ của bạn.
 

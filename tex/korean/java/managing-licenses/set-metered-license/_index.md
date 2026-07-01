@@ -86,28 +86,6 @@ new Metered().setMeteredKey(
 - **잘못된 키 형식 사용** – 키는 Aspose에서 제공한 정확한 문자열이어야 합니다. 여분의 공백이나 줄바꿈이 있으면 라이선스 오류가 발생합니다.  
 - **`setMeteredKey`를 여러 번 호출** – 기술적으로는 허용되지만 불필요한 오버헤드가 발생합니다. 초기화 시 한 번만 호출하십시오(예: static 블록에서).
 
-## FAQ
-
-### Q1: Java용 Aspose.TeX 문서는 어디에서 찾을 수 있나요?
-
-A1: 문서는 [여기](https://reference.aspose.com/tex/java/)에서 확인할 수 있습니다.
-
-### Q2: Java용 Aspose.TeX 라이브러리를 어떻게 다운로드하나요?
-
-A2: 라이브러리는 [release page](https://releases.aspose.com/tex/java/)에서 다운로드할 수 있습니다.
-
-### Q3: Aspose.TeX 메터드 라이선스를 어디서 구매할 수 있나요?
-
-A3: [Aspose Purchase](https://purchase.aspose.com/buy)에서 라이선스를 구매할 수 있습니다.
-
-### Q4: Aspose.TeX 무료 체험판이 있나요?
-
-A4: 예, [여기](https://releases.aspose.com/)에서 무료 체험판에 접근할 수 있습니다.
-
-### Q5: 도움이 필요하거나 질문이 있나요?
-
-A5: 도움은 [Aspose.TeX 지원 포럼](https://forum.aspose.com/c/tex/47)에서 확인하십시오.
-
 ## 자주 묻는 질문
 
 **Q: 동일한 키를 여러 머신에서 사용할 수 있나요?**  

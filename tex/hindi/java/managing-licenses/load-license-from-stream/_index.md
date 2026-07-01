@@ -9,11 +9,7 @@ url: /hi/java/managing-licenses/load-license-from-stream/
 weight: 11
 ---
 
-.
-
-Make sure to keep all shortcodes exactly.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

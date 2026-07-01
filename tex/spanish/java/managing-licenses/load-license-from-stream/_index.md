@@ -10,10 +10,6 @@ url: /es/java/managing-licenses/load-license-from-stream/
 weight: 11
 ---
 
- markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

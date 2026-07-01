@@ -9,15 +9,7 @@ url: /nl/java/typesetting-tex-to-pdf/typeset-tex-to-pdf-external-stream/
 weight: 10
 ---
 
- tutorial gives you a solid foundation for integrating TeX‑to‑PDF generation into any Java application—whether you're building a web service, a desktop tool, or an automated reporting pipeline." Translate.
-
-Then horizontal line, then "**Last Updated:** 2026-02-18" keep date. "**Tested With:** Aspose.TeX for Java 24.11" keep. "**Author:** Aspose". Keep.
-
-Then closing shortcodes.
-
-Now produce final content with same shortcodes and placeholders.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

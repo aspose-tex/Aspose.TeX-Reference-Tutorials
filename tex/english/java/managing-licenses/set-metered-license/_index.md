@@ -85,28 +85,6 @@ That’s all there is to it! Once the above code runs, your Java application can
 - **Using the wrong key format** – Keys must be exact strings provided by Aspose. Extra whitespace or line‑breaks will cause a licensing error.  
 - **Calling `setMeteredKey` multiple times** – While technically allowed, it adds unnecessary overhead. Call it once during initialization (e.g., in a static block).
 
-## FAQ's
-
-### Q1: Where can I find the documentation for Aspose.TeX in Java?
-
-A1: The documentation is available [here](https://reference.aspose.com/tex/java/).
-
-### Q2: How can I download the Aspose.TeX library for Java?
-
-A2: You can download the library from the [release page](https://releases.aspose.com/tex/java/).
-
-### Q3: Where can I purchase a metered license for Aspose.TeX?
-
-A3: You can buy a license from [Aspose Purchase](https://purchase.aspose.com/buy).
-
-### Q4: Is there a free trial available for Aspose.TeX?
-
-A4: Yes, you can access the free trial from [here](https://releases.aspose.com/).
-
-### Q5: Need help or have questions?
-
-A5: Visit the [Aspose.TeX support forum](https://forum.aspose.com/c/tex/47) for assistance.
-
 ## Frequently Asked Questions
 
 **Q: Can I use the same keys on multiple machines?**  

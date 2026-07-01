@@ -87,28 +87,6 @@ new Metered().setMeteredKey(
 - **Uso del formato di chiave errato** – Le chiavi devono essere stringhe esatte fornite da Aspose. Spazi aggiuntivi o interruzioni di riga causeranno un errore di licenza.  
 - **Chiamare `setMeteredKey` più volte** – Sebbene tecnicamente consentito, aggiunge overhead inutile. Chiamalo una sola volta durante l'inizializzazione (ad esempio, in un blocco statico).
 
-## FAQ
-
-### Q1: Dove posso trovare la documentazione di Aspose.TeX per Java?
-
-A1: La documentazione è disponibile [qui](https://reference.aspose.com/tex/java/).
-
-### Q2: Come posso scaricare la libreria Aspose.TeX per Java?
-
-A2: Puoi scaricare la libreria dalla [pagina di rilascio](https://releases.aspose.com/tex/java/).
-
-### Q3: Dove posso acquistare una licenza a consumo per Aspose.TeX?
-
-A3: Puoi acquistare una licenza da [Acquisto Aspose](https://purchase.aspose.com/buy).
-
-### Q4: È disponibile una prova gratuita per Aspose.TeX?
-
-A4: Sì, puoi accedere alla prova gratuita da [qui](https://releases.aspose.com/).
-
-### Q5: Hai bisogno di aiuto o hai domande?
-
-A5: Visita il [forum di supporto Aspose.TeX](https://forum.aspose.com/c/tex/47) per assistenza.
-
 ## Domande Frequenti
 
 **Q: Posso usare le stesse chiavi su più macchine?**  

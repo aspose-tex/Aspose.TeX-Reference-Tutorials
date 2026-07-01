@@ -86,20 +86,20 @@ Une fois le flux fermé, vous pouvez renvoyer les octets PDF à un client, les s
 
 ## Questions fréquemment posées
 
-**Q: Can I use this approach to generate PDF from TeX on a serverless platform?**  
-R : Oui. Comme Aspose.TeX ne travaille qu’avec des flux, il s’intègre parfaitement à AWS Lambda, Azure Functions ou Google Cloud Run où l’écriture sur disque est limitée.
+**Q : Puis-je utiliser cette approche pour générer des PDF à partir de TeX sur une plate-forme sans serveur ?**
+R : Oui. Comme Aspose.TeX ne fonctionne qu'avec des flux, il s'intègre parfaitement à AWS Lambda, Azure Functions ou Google Cloud Run où l'écriture sur disque est limitée.
 
-**Q: Does Aspose.TeX support PDF/A compliance for archival?**  
-R : Absolument. Vous pouvez activer la sortie PDF/A via la classe `PdfSaveOptions` tout en continuant d’utiliser des flux externes.
+**Q : Aspose.TeX prend-il en charge la conformité PDF/A pour l'archivage ?**
+R : Absolument. Vous pouvez activer la sortie PDF/A via la classe `PdfSaveOptions` tout en continu d'utiliser des flux externes.
 
-**Q: How do I embed custom fonts that are not installed on the host machine?**  
-R : Incluez les fichiers de police dans les ressources de votre application et référencez‑les avec `\setmainfont{MyFont}` après les avoir enregistrées avec `FontFactory.register()`.
+**Q : Comment intégrer des polices personnalisées qui ne sont pas installées sur la machine hôte ?**
+R : Incluez les fichiers de police dans les ressources de votre application et référencez-les avec `\setmainfont{MyFont}` après les avoir enregistrés avec `FontFactory.register()`.
 
-**Q: Is there a way to convert only a portion of a large TeX document?**  
-R : Vous pouvez diviser la source en sections `InputStream` séparées et convertir chacune indépendamment, puis fusionner les PDF résultants si nécessaire.
+**Q : Existe-t-il un moyen de convertir uniquement une partie d'un document TeX volumineux ?**
+R : Vous pouvez diviser la source en sections `InputStream` séparées et convertir chacune différemment, puis fusionner les PDF résultants si nécessaire.
 
-**Q: What Java versions are supported?**  
-R : Aspose.TeX for Java prend en charge Java 8 à Java 21, y compris toutes les versions LTS.
+**Q : Quelles versions de Java sont prises en charge ?**
+R : Aspose.TeX for Java prend en charge Java8 à Java21, et comprend toutes les versions LTS.
 
 ## Conclusion
 

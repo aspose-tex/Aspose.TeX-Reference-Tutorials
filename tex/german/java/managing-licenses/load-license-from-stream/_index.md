@@ -10,10 +10,6 @@ url: /de/java/managing-licenses/load-license-from-stream/
 weight: 11
 ---
 
- headings and paragraphs.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -89,28 +89,6 @@ Dat is alles! Zodra de bovenstaande code wordt uitgevoerd, kan je Java‑applica
 
 ## Veelgestelde vragen
 
-### Q1: Waar kan ik de documentatie voor Aspose.TeX in Java vinden?
-
-A1: De documentatie is beschikbaar [hier](https://reference.aspose.com/tex/java/).
-
-### Q2: Hoe kan ik de Aspose.TeX‑bibliotheek voor Java downloaden?
-
-A2: Je kunt de bibliotheek downloaden van de [release page](https://releases.aspose.com/tex/java/).
-
-### Q3: Waar kan ik een metered‑licentie voor Aspose.TeX kopen?
-
-A3: Je kunt een licentie kopen via [Aspose Purchase](https://purchase.aspose.com/buy).
-
-### Q4: Is er een gratis proefversie beschikbaar voor Aspose.TeX?
-
-A4: Ja, je kunt de gratis proefversie bereiken via [hier](https://releases.aspose.com/).
-
-### Q5: Hulp nodig of vragen?
-
-A5: Bezoek het [Aspose.TeX support forum](https://forum.aspose.com/c/tex/47) voor hulp.
-
-## Veelgestelde vragen
-
 **Q: Kan ik dezelfde sleutels op meerdere machines gebruiken?**  
 A: Ja, de metered‑sleutels zijn niet machinespecifiek, maar elk gebruik telt mee voor je consumptie‑quota.
 

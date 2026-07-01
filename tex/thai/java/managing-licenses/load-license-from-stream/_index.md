@@ -9,14 +9,6 @@ url: /th/java/managing-licenses/load-license-from-stream/
 weight: 11
 ---
 
- to translate URLs.
-
-Also keep "Aspose.TeX", "Java", "API", etc.
-
-Ok.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

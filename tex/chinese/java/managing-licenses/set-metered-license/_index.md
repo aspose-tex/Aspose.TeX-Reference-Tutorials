@@ -85,28 +85,6 @@ new Metered().setMeteredKey(
 - **Using the wrong key format** – 密钥必须与 Aspose 提供的字符串完全一致。多余的空格或换行会导致许可证错误。  
 - **Calling `setMeteredKey` multiple times** – 虽然技术上允许，但会增加不必要的开销。请在初始化时调用一次（例如在 static 块中）。
 
-## 常见问题
-
-### Q1：在哪里可以找到 Aspose.TeX 的 Java 文档？
-
-A1：文档可在 [here](https://reference.aspose.com/tex/java/) 查看。
-
-### Q2：如何下载 Aspose.TeX 的 Java 库？
-
-A2：您可以从 [release page](https://releases.aspose.com/tex/java/) 下载库。
-
-### Q3：在哪里可以购买 Aspose.TeX 的计量许可证？
-
-A3：您可以在 [Aspose Purchase](https://purchase.aspose.com/buy) 购买许可证。
-
-### Q4：Aspose.TeX 是否提供免费试用？
-
-A4：是的，您可以从 [here](https://releases.aspose.com/) 获取免费试用。
-
-### Q5：需要帮助或有疑问？
-
-A5：请访问 [Aspose.TeX support forum](https://forum.aspose.com/c/tex/47) 获取帮助。
-
 ## 常见问答
 
 **Q: Can I use the same keys on multiple machines?**  

@@ -9,14 +9,6 @@ url: /hu/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
-"Conclusion" -> "Összegzés". "Last Updated:" keep date. "Tested With:" keep. "Author:" keep.
-
-Make sure to keep markdown formatting.
-
-Also ensure we keep shortcodes at top and bottom.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

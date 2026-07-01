@@ -88,28 +88,6 @@ A to je vše! Jakmile výše uvedený kód běží, vaše Java aplikace může p
 
 ## Často kladené otázky
 
-### Q1: Kde najdu dokumentaci pro Aspose.TeX v Javě?
-
-A1: Dokumentace je dostupná [zde](https://reference.aspose.com/tex/java/).
-
-### Q2: Jak mohu stáhnout knihovnu Aspose.TeX pro Java?
-
-A2: Knihovnu můžete stáhnout ze [stránky vydání](https://releases.aspose.com/tex/java/).
-
-### Q3: Kde mohu zakoupit měřenou licenci pro Aspose.TeX?
-
-A3: Licenci můžete zakoupit na [Aspose Purchase](https://purchase.aspose.com/buy).
-
-### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.TeX?
-
-A4: Ano, bezplatnou zkušební verzi můžete získat [zde](https://releases.aspose.com/).
-
-### Q5: Potřebujete pomoc nebo máte otázky?
-
-A5: Navštivte [fórum podpory Aspose.TeX](https://forum.aspose.com/c/tex/47) pro pomoc.
-
-## Často kladené otázky
-
 **Q: Mohu použít stejné klíče na více strojích?**  
 A: Ano, měřené klíče nejsou specifické pro stroj, ale každé použití se počítá do vaší spotřební kvóty.
 

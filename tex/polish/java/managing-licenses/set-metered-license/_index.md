@@ -86,28 +86,6 @@ To wszystko! Gdy powyższy kod zostanie uruchomiony, Twoja aplikacja Java będzi
 - **Użycie niewłaściwego formatu klucza** – Klucze muszą być dokładnymi ciągami podanymi przez Aspose. Dodatkowe białe znaki lub znaki nowej linii spowodują błąd licencyjny.  
 - **Wywoływanie `setMeteredKey` wielokrotnie** – Choć technicznie dozwolone, dodaje niepotrzebny narzut. Wywołaj go raz podczas inicjalizacji (np. w bloku static).
 
-## FAQ
-
-### Q1: Gdzie mogę znaleźć dokumentację Aspose.TeX w Javie?
-
-Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/tex/java/).
-
-### Q2: Jak mogę pobrać bibliotekę Aspose.TeX dla Javy?
-
-Możesz pobrać bibliotekę ze [strony wydania](https://releases.aspose.com/tex/java/).
-
-### Q3: Gdzie mogę kupić licencję metrową dla Aspose.TeX?
-
-Możesz kupić licencję na [Aspose Purchase](https://purchase.aspose.com/buy).
-
-### Q4: Czy dostępna jest darmowa wersja próbna Aspose.TeX?
-
-Tak, darmową wersję próbną możesz uzyskać [tutaj](https://releases.aspose.com/).
-
-### Q5: Potrzebujesz pomocy lub masz pytania?
-
-Odwiedź [forum wsparcia Aspose.TeX](https://forum.aspose.com/c/tex/47), aby uzyskać pomoc.
-
 ## Często zadawane pytania
 
 **P: Czy mogę używać tych samych kluczy na wielu maszynach?**  

@@ -10,8 +10,6 @@ url: /es/java/typesetting-tex-to-pdf/
 weight: 28
 ---
 
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

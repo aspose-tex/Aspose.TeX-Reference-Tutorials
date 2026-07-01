@@ -9,8 +9,6 @@ url: /es/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
- craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

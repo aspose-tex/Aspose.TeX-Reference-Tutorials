@@ -9,14 +9,6 @@ url: /id/java/managing-licenses/set-metered-license/
 weight: 12
 ---
 
-.
-
-Be careful with bullet points, keep markdown.
-
-Also note "FAQ's" maybe keep as "FAQ". We'll translate headings.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -93,28 +85,6 @@ Itu saja! Setelah kode di atas dijalankan, aplikasi Java Anda dapat memanfaatkan
 - **Lupa menambahkan pustaka ke classpath** – Kode akan berhasil dikompilasi tetapi akan melempar `ClassNotFoundException`. Pastikan JAR Aspose.TeX direferensikan di alat build Anda (Maven, Gradle, atau classpath manual).  
 - **Menggunakan format kunci yang salah** – Kunci harus berupa string tepat yang diberikan oleh Aspose. Spasi ekstra atau baris baru akan menyebabkan error lisensi.  
 - **Memanggil `setMeteredKey` berkali‑kali** – Secara teknis diperbolehkan, tetapi menambah beban yang tidak perlu. Panggil sekali saja saat inisialisasi (misalnya, di blok statik).
-
-## FAQ's
-
-### Q1: Di mana saya dapat menemukan dokumentasi Aspose.TeX untuk Java?
-
-A1: Dokumentasi tersedia [di sini](https://reference.aspose.com/tex/java/).
-
-### Q2: Bagaimana cara mengunduh pustaka Aspose.TeX untuk Java?
-
-A2: Anda dapat mengunduh pustaka dari [halaman rilis](https://releases.aspose.com/tex/java/).
-
-### Q3: Di mana saya dapat membeli lisensi metered untuk Aspose.TeX?
-
-A3: Anda dapat membeli lisensi dari [Aspose Purchase](https://purchase.aspose.com/buy).
-
-### Q4: Apakah ada trial gratis untuk Aspose.TeX?
-
-A4: Ya, Anda dapat mengakses trial gratis dari [sini](https://releases.aspose.com/).
-
-### Q5: Butuh bantuan atau memiliki pertanyaan?
-
-A5: Kunjungi [forum dukungan Aspose.TeX](https://forum.aspose.com/c/tex/47) untuk bantuan.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -85,28 +85,6 @@ new Metered().setMeteredKey(
 - **Using the wrong key format** – キーは Aspose が提供した正確な文字列である必要があります。余分な空白や改行があるとライセンスエラーになります。  
 - **Calling `setMeteredKey` multiple times** – 技術的には可能ですが、不要なオーバーヘッドが発生します。初期化時に一度だけ呼び出す（例: 静的ブロック内）ようにしてください。
 
-## FAQ
-
-### Q1: Aspose.TeX の Java 用ドキュメントはどこで見つけられますか？
-
-A1: ドキュメントは [here](https://reference.aspose.com/tex/java/) で利用可能です。
-
-### Q2: Aspose.TeX の Java ライブラリはどこからダウンロードできますか？
-
-A2: ライブラリは [release page](https://releases.aspose.com/tex/java/) からダウンロードできます。
-
-### Q3: Aspose.TeX のメータードライセンスはどこで購入できますか？
-
-A3: ライセンスは [Aspose Purchase](https://purchase.aspose.com/buy) で購入できます。
-
-### Q4: Aspose.TeX の無料トライアルはありますか？
-
-A4: はい、[here](https://releases.aspose.com/) から無料トライアルにアクセスできます。
-
-### Q5: サポートが必要ですか、質問がありますか？
-
-A5: 支援が必要な場合は [Aspose.TeX support forum](https://forum.aspose.com/c/tex/47) をご利用ください。
-
 ## よくある質問
 
 **Q: 同じキーを複数のマシンで使用できますか？**  

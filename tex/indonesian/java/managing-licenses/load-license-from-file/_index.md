@@ -9,9 +9,7 @@ url: /id/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
- formatting.
-
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

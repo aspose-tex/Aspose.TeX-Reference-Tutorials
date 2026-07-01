@@ -9,12 +9,6 @@ url: /hi/java/typesetting-tex-to-pdf/typeset-tex-to-pdf-external-stream/
 weight: 10
 ---
 
- संस्करण:", "लेखक:" but maybe keep as is? The instruction: translate all text content naturally to Hindi. So translate those.
-
-Now produce final content.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

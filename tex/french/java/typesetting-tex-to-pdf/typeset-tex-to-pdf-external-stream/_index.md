@@ -10,7 +10,7 @@ url: /fr/java/typesetting-tex-to-pdf/typeset-tex-to-pdf-external-stream/
 weight: 10
 ---
 
- produce final content. Ensure no extra explanations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

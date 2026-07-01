@@ -9,13 +9,7 @@ url: /vi/java/managing-licenses/load-license-from-stream/
 weight: 11
 ---
 
- blocks/products/products-backtop-button >}}
-
-Now produce final content with all translations.
-
-Make sure to keep markdown formatting, code block placeholders unchanged.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

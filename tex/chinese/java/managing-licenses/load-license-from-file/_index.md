@@ -8,15 +8,7 @@ url: /zh/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
-- Keep the final shortcodes.
-
-Let's craft translation.
-
-Be careful with bullet list items: keep dash and space.
-
-Also ensure we keep the markdown table formatting with pipes.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

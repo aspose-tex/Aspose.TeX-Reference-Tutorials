@@ -87,28 +87,6 @@ Hepsi bu kadar! Yukarıdaki kod çalıştırıldığında, Java uygulamanız lis
 - **Yanlış anahtar formatı kullanmak** – Anahtarlar Aspose tarafından sağlanan tam stringler olmalı. Fazladan boşluk veya satır sonları lisans hatasına yol açar.  
 - **`setMeteredKey`'i birden çok kez çağırmak** – Teknik olarak mümkün olsa da gereksiz yük ekler. Başlangıçta bir kez (ör. static blok içinde) çağırın.
 
-## FAQ's
-
-### Q1: Aspose.TeX için Java belgelerini nerede bulabilirim?
-
-A1: Dokümantasyon [burada](https://reference.aspose.com/tex/java/) mevcuttur.
-
-### Q2: Aspose.TeX kütüphanesini Java için nasıl indirebilirim?
-
-A2: Kütüphaneyi [release page](https://releases.aspose.com/tex/java/) adresinden indirebilirsiniz.
-
-### Q3: Aspose.TeX için ölçülü lisansı nereden satın alabilirim?
-
-A3: Lisansı [Aspose Purchase](https://purchase.aspose.com/buy) üzerinden satın alabilirsiniz.
-
-### Q4: Aspose.TeX için ücretsiz deneme mevcut mu?
-
-A4: Evet, ücretsiz denemeye [buradan](https://releases.aspose.com/) erişebilirsiniz.
-
-### Q5: Yardıma mı ihtiyacınız var ya da sorularınız mı var?
-
-A5: Yardım için [Aspose.TeX destek forumu](https://forum.aspose.com/c/tex/47) adresini ziyaret edin.
-
 ## Sıkça Sorulan Sorular
 
 **Q: Aynı anahtarları birden fazla makinede kullanabilir miyim?**  

@@ -9,16 +9,6 @@ url: /vi/java/typesetting-tex-to-pdf/
 weight: 28
 ---
 
- table headers and cells but keep pipe formatting. Ensure not to translate code snippets inside.
-
-Also bullet lists.
-
-Let's produce final translated markdown.
-
-Be careful with "java pdf conversion" etc keep as is.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -10,16 +10,6 @@ url: /hu/java/managing-licenses/load-license-from-stream/
 weight: 11
 ---
 
-Now produce final output.
-
-Let's translate.
-
-I'll write Hungarian translations.
-
-Be careful with technical terms: keep API, SDK, class names unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

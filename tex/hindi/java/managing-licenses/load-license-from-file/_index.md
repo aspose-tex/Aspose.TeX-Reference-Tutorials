@@ -9,32 +9,6 @@ url: /hi/java/managing-licenses/load-license-from-file/
 weight: 10
 ---
 
- list items, table content, etc.
-
-Make sure to keep markdown formatting.
-
-Proceed step by step.
-
-Start with the shortcodes at top.
-
-Then heading "# Java License Management: How to Set License from File" translate: "# जावा लाइसेंस प्रबंधन: फ़ाइल से लाइसेंस कैसे सेट करें"
-
-Similarly subheadings.
-
-Translate bullet list under Quick Answers.
-
-Need to keep bold formatting.
-
-Translate text but keep code snippets unchanged.
-
-Table: translate Issue, Reason, Fix headings? Keep as Hindi? Probably translate. Keep table formatting.
-
-FAQ sections: translate Q and A labels but keep links unchanged.
-
-Make sure to keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -89,28 +89,6 @@ new Metered().setMeteredKey(
 
 ## Preguntas Frecuentes
 
-### Q1: ¿Dónde puedo encontrar la documentación de Aspose.TeX en Java?
-
-A1: La documentación está disponible [aquí](https://reference.aspose.com/tex/java/).
-
-### Q2: ¿Cómo puedo descargar la biblioteca Aspose.TeX para Java?
-
-A2: Puede descargar la biblioteca desde la [release page](https://releases.aspose.com/tex/java/).
-
-### Q3: ¿Dónde puedo comprar una licencia medida para Aspose.TeX?
-
-A3: Puede comprar una licencia en [Aspose Purchase](https://purchase.aspose.com/buy).
-
-### Q4: ¿Hay una prueba gratuita disponible para Aspose.TeX?
-
-A4: Sí, puede acceder a la prueba gratuita [aquí](https://releases.aspose.com/).
-
-### Q5: ¿Necesita ayuda o tiene preguntas?
-
-A5: Visite el [Aspose.TeX support forum](https://forum.aspose.com/c/tex/47) para obtener asistencia.
-
-## Preguntas Frecuentes
-
 **Q: ¿Puedo usar las mismas claves en múltiples máquinas?**  
 A: Sí, las claves medidas no son específicas de una máquina, pero cada uso cuenta para su cuota de consumo.
 

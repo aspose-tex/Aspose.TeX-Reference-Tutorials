@@ -9,15 +9,7 @@ url: /tr/java/typesetting-tex-to-pdf/typeset-tex-to-pdf-external-stream/
 weight: 10
 ---
 
- translate headers and cells.
-
-Lists under Tips etc.
-
-FAQs: translate Q and A.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

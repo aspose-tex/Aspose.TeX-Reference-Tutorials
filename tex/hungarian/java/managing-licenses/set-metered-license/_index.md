@@ -87,28 +87,6 @@ Ennyi is! Amint a fenti kód lefut, a Java alkalmazása teljes mértékben kihas
 - **Rossz kulcsformátum használata** – A kulcsoknak pontosan a Aspose által megadott karakterláncoknak kell lenniük. A felesleges szóközök vagy sortörések licenchibát okoznak.  
 - **Többszörös `setMeteredKey` hívás** – Bár technikailag megengedett, felesleges terhet jelent. Hívja egyszer az inicializálás során (pl. egy statikus blokkban).
 
-## GYIK
-
-### Q1: Hol találom az Aspose.TeX Java dokumentációját?
-
-A dokumentáció elérhető [itt](https://reference.aspose.com/tex/java/).
-
-### Q2: Hogyan tölthetem le az Aspose.TeX könyvtárat Java-hoz?
-
-Letöltheti a könyvtárat a [release page](https://releases.aspose.com/tex/java/) oldalról.
-
-### Q3: Hol vásárolhatok meterelt licencet az Aspose.TeX-hez?
-
-Licencet vásárolhat a [Aspose Purchase](https://purchase.aspose.com/buy) oldalon.
-
-### Q4: Van ingyenes próbaidőszak az Aspose.TeX-hez?
-
-Igen, az ingyenes próbaverziót elérheti [itt](https://releases.aspose.com/).
-
-### Q5: Segítségre van szükségem vagy kérdéseim vannak?
-
-Látogasson el az [Aspose.TeX támogatási fórumra](https://forum.aspose.com/c/tex/47) segítségért.
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom ugyanazokat a kulcsokat több gépen?**  

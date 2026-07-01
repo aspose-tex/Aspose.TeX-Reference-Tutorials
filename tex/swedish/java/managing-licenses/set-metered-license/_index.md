@@ -87,28 +87,6 @@ Det är allt! När koden ovan körs kan ditt Java‑program fullt utnyttja Aspos
 - **Using the wrong key format** – Nycklarna måste vara exakt de strängar som levereras av Aspose. Extra blanksteg eller radbrytningar orsakar ett licensfel.  
 - **Calling `setMeteredKey` multiple times** – Även om det tekniskt är tillåtet, ger det onödig overhead. Anropa den en gång under initiering (t.ex. i ett statiskt block).
 
-## FAQ's
-
-### Q1: Where can I find the documentation for Aspose.TeX in Java?
-
-A1: Dokumentationen finns tillgänglig [här](https://reference.aspose.com/tex/java/).
-
-### Q2: How can I download the Aspose.TeX library for Java?
-
-A2: Du kan ladda ner biblioteket från [release page](https://releases.aspose.com/tex/java/).
-
-### Q3: Where can I purchase a metered license for Aspose.TeX?
-
-A3: Du kan köpa en licens från [Aspose Purchase](https://purchase.aspose.com/buy).
-
-### Q4: Is there a free trial available for Aspose.TeX?
-
-A4: Ja, du kan komma åt den kostnadsfria provversionen [här](https://releases.aspose.com/).
-
-### Q5: Need help or have questions?
-
-A5: Besök [Aspose.TeX support forum](https://forum.aspose.com/c/tex/47) för hjälp.
-
 ## Vanliga frågor
 
 **Q: Kan jag använda samma nycklar på flera maskiner?**  
