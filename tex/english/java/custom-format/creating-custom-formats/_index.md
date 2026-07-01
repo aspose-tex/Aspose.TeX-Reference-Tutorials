@@ -1,5 +1,5 @@
 ---
-title: How to Create Format: TeX Formats for Consistent Typesetting in Java
+title: How to Create Format - TeX Formats for Consistent Typesetting in Java
 linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
 second_title: Aspose.TeX Java API
 description: Learn how to create format by creating TeX formats in Java using Aspose.TeX, how to set tex input and output directories, and create custom tex format files for consistent typesetting.
@@ -106,23 +106,6 @@ options.getTerminalOut().getWriter().newLine();
 | **“File not found” for .tex source** | Incorrect input directory path | Verify the path passed to `setInputWorkingDirectory` matches the folder containing your `.tex` files. |
 | **Permission denied on output folder** | Write rights missing | Ensure the Java process has write permissions for the directory set via `setOutputWorkingDirectory`. |
 | **Format creation hangs** | Large number of packages being loaded | Pre‑compile only the packages you need; avoid loading the full TeX distribution if unnecessary. |
-
-## Frequently Asked Questions
-
-**Q: Can I reuse the same custom format across multiple Java applications?**  
-A: Yes. The generated `.fmt` file is platform‑independent and can be loaded by any Aspose.TeX engine instance.
-
-**Q: Do I need to regenerate the format after adding a new macro?**  
-A: You must re‑run `TeXJob.createFormat` whenever you change the macro definitions or package list that the format depends on.
-
-**Q: Is it possible to set the input and output directories programmatically at runtime?**  
-A: Absolutely—just call `options.setInputWorkingDirectory(...)` and `options.setOutputWorkingDirectory(...)` before invoking `TeXJob.createFormat` or `TeXJob.process`.
-
-**Q: How does this differ from using the default `plain` format?**  
-A: The default format loads a generic set of macros each time, which adds overhead. A custom format is pre‑compiled, faster, and guarantees the exact layout you defined.
-
-**Q: Will this work on non‑Windows operating systems?**  
-A: Yes. Aspose.TeX for Java is cross‑platform; just ensure the file paths use the correct separator for your OS.
 
 ## Additional FAQ's
 

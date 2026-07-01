@@ -18,35 +18,35 @@ weight: 11
 
 ## Introduction
 
-Si vous devez **convertir LaTeX** en fichiers XPS de haute qualité depuis une application Java, vous êtes au bon endroit. En utilisant **Aspose.TeX**, vous pouvez automatiser cette transformation dans le cadre de votre flux de travail **java document processing**, éliminant les étapes manuelles et garantissant une sortie cohérente. Dans ce tutoriel, nous passerons en revue tout ce dont vous avez besoin — des prérequis à un exemple complet et exécutable. À la fin de ce guide, vous saurez exactement comment **convertir latex en xps** de manière propre et programmatique.
+Si vous devez **convertir LaTeX** en fichiers XPS de haute qualité depuis une application Java, vous êtes au bon endroit. En utilisant **Aspose.TeX**, vous pouvez automatiser cette transformation dans le cadre de votre flux de travail **java document Processing**, en éliminant les étapes manuelles et en garantissant une sortie cohérente. Dans ce tutoriel, nous passerons en revue tout ce dont vous avez besoin—des prérequis à un exemple complet et exécutable. À la fin de ce guide, vous saurez exactement comment **convertir latex en xps** de manière propre et programmatique.
 
-## Quick Answers
-- **Quelle bibliothèque est requise ?** Aspose.TeX for Java.  
-- **Quels formats sont impliqués ?** Entrée = LaTeX (`.ltx`), Sortie = XPS.  
-- **Ai‑je besoin d’une licence pour les tests ?** Un essai gratuit suffit pour le développement ; une licence commerciale est requise pour la production.  
-- **Combien de lignes de code ?** Moins de 30 lignes de logique de conversion principale.  
+## Réponses rapides
+- **Quelle bibliothèque est requise ?** Aspose.TeX pour Java.
+- **Quels formats sont impliqués ?** Entrée=LaTeX (`.ltx`), Sortie=XPS.
+- **Ai‑je besoin d’une licence pour les tests ?** Un essai gratuit suffit pour le développement; une licence commerciale est requise pour la production.
+- **Combien de lignes de code ?** Moins de 30 lignes de logique de conversion principale.
 - **Puis‑je l’exécuter sur n’importe quel OS ?** Oui – Java est indépendant de la plateforme.
 
-## What is **convert latex to xps**?
-Convertir LaTeX en XPS consiste à prendre un fichier source `.ltx`—généralement utilisé pour des articles scientifiques ou de la documentation technique—et à le rendre sous forme de document XPS (XML Paper Specification). XPS est un format à mise en page fixe similaire au PDF, idéal pour l’impression ou l’archivage sur les plateformes Windows tout en préservant les graphiques vectoriels et la typographie.
+## Qu'est-ce que **convertir du latex en XP** ?
+Convertir LaTeX en XPS consiste à prendre un fichier source `.ltx`—généralement utilisé pour des articles scientifiques ou de la documentation technique—et à le rendre sous forme de document XPS (XML Paper Spécification). XPS est un format à mise en page fixe similaire au PDF, idéal pour l'impression ou l'archivage sur les plateformes Windows tout en préservant les graphiques vectoriels et la typographie.
 
-## Why use Aspose.TeX for this conversion?
-- **Pas d’installation LaTeX externe** – Aspose.TeX gère tout le rendu en interne.  
-- **Multiplateforme** – Fonctionne sous Windows, Linux et macOS car il est purement Java.  
-- **Contrôle fin** – Les options vous permettent de spécifier les répertoires de travail, les formats de sortie, etc.  
+## Pourquoi utiliser Aspose.TeX pour cette conversion ?
+- **Pas d’installation LaTeX externe** – Aspose.TeX gère tout le rendu en interne.
+- **Multiplateforme** – Fonctionne sous Windows, Linux et macOS car il est purement Java.
+- **Contrôle fin** – Les options vous permettent de préciser les répertoires de travail, les formats de sortie, etc.
 - **Haute fidélité** – La sortie XPS conserve les graphiques vectoriels et la typographie de la source LaTeX originale.
 
-## Prerequisites
+## Prérequis
 
-Avant de commencer, assurez‑vous de disposer de ce qui suit :
+Avant de commencer, assurez-vous de disposer de ce qui suit :
 
-1. **Aspose.TeX for Java** – téléchargez le JAR le plus récent depuis la [page des versions Aspose.TeX](https://releases.aspose.com/tex/java/).  
-2. **Java Development Kit (JDK 8 ou plus récent)** – configurez votre IDE préféré (IntelliJ, Eclipse, VS Code, etc.).  
-3. **Un fichier source LaTeX** – par exemple, `hello-world.ltx` que vous souhaitez convertir en XPS.  
+1. **Aspose.TeX for Java** – téléchargez le JAR le plus récent depuis la [page des versions Aspose.TeX](https://releases.aspose.com/tex/java/).
+2. **Java Development Kit (JDK 8 ou plus récent)** – configurez votre IDE préféré (IntelliJ, Eclipse, VSCode, etc.).
+3. **Un fichier source LaTeX** – par exemple, `hello-world.ltx` que vous souhaitez convertir en XPS.
 
-Ces éléments vous offrent une base solide pour un **java document processing** fluide.
+Ces éléments vous offrent une base solide pour un **Java Document Processing** fluide.
 
-## Import Packages
+## Importer des packages
 
 Ajoutez les imports requis en haut de votre classe Java. Cela vous donne accès au moteur de conversion d’Aspose.TeX et aux aides du système de fichiers.
 
@@ -65,11 +65,11 @@ import com.aspose.tex.rendering.XpsDevice;
 import com.aspose.tex.rendering.XpsSaveOptions;
 ```
 
-## How to convert latex to xps in Java
+## Comment convertir du LaTeX en XPS en Java
 
 Voici un guide pas à pas. Chaque étape est expliquée en termes simples avant le bloc de code correspondant, afin que vous puissiez suivre même si vous débutez avec Aspose.TeX.
 
-### Step 1: Create XPS Stream
+### Étape 1 : Créer un flux XPS
 
 Tout d’abord, créez un flux de sortie où le document XPS sera écrit. Remplacez `"Your Output Directory"` par le dossier où vous souhaitez enregistrer le résultat.
 
@@ -79,7 +79,7 @@ Tout d’abord, créez un flux de sortie où le document XPS sera écrit. Rempla
 final OutputStream xpsStream = new FileOutputStream("Your Output Directory" + "any-name.xps");
 ```
 
-### Step 2: Configure Conversion Options
+### Étape 2 : Configurer les options de conversion
 
 Configurez les options de conversion afin qu’Aspose.TeX sache que vous travaillez avec une source Object‑LaTeX et où placer les fichiers temporaires.
 
@@ -92,7 +92,7 @@ options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Dir
 options.setSaveOptions(new XpsSaveOptions()); // Default value. Arbitrary assignment.
 ```
 
-### Step 3: Run LaTeX to XPS Conversion
+### Étape 3 : Lancer la conversion LaTeX vers XPS
 
 Appelez maintenant le moteur de conversion. Le `TeXJob` assemble le fichier d’entrée, le dispositif XPS (qui écrit dans le flux) et les options que vous venez de configurer.
 
@@ -101,7 +101,7 @@ Appelez maintenant le moteur de conversion. Le `TeXJob` assemble le fichier d’
 new TeXJob("Your Input Directory" + "hello-world.ltx", new XpsDevice(xpsStream), options).run();
 ```
 
-### Step 4: Close the XPS Stream
+### Étape 4 : Fermer le flux XPS
 
 Fermez toujours le flux pour libérer les ressources système et garantir que le fichier XPS est correctement finalisé.
 
@@ -113,32 +113,32 @@ finally {
 // ExEnd:Conversion-LaTeXToXps-Alternative
 ```
 
-## Common Issues & Tips
+## Problèmes courants et conseils
 
-| Symptôme | Cause probable | Solution |
-|----------|----------------|----------|
-| `FileNotFoundException` on output | Chemin du répertoire de sortie incorrect | Utilisez un chemin absolu ou assurez‑vous que le dossier existe |
-| Blank XPS file | Le fichier `.ltx` d’entrée est vide ou mal formé | Vérifiez que la source LaTeX se compile correctement dans un éditeur LaTeX |
-| Out‑of‑memory error for large files | Mémoire tampon JVM insuffisante | Augmentez l’option JVM `-Xmx` (par ex., `-Xmx2g`) |
+| Symptôme | Cause probable | Solutions |
+|--------------|----------------|----------|
+| `FileNotFoundException` en sortie | Chemin du répertoire de sortie incorrect | Utilisez un chemin absolu ou assurez-vous que le dossier existe |
+| Fichier XPS vierge | Le fichier `.ltx` d’entrée est vide ou mal formé | Vérifiez que la source LaTeX se compile correctement dans un éditeur LaTeX |
+| Erreur de mémoire insuffisante pour les fichiers volumineux | Mémoire tampon JVM insuffisante | Augmentez l'option JVM `-Xmx` (par ex., `-Xmx2g`) |
 
-**Astuce pro :** Lors de la gestion de gros projets LaTeX, divisez la source en plusieurs fichiers `.ltx` plus petits et convertissez‑les individuellement, puis fusionnez les fichiers XPS résultants à l’aide d’Aspose.PDF si nécessaire.
+**Astuce pro :** Lors de la gestion de gros projets LaTeX, divisez la source en plusieurs fichiers `.ltx` plus petits et convertissez‑les individuellement, puis fusionnez les fichiers XPS résultants à l'aide d'Aspose.PDF si nécessaire.
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
-### Q1 : Puis‑je utiliser Aspose.TeX pour Java gratuitement ?
-A1 : Oui, vous pouvez obtenir une version d’essai gratuite [ici](https://releases.aspose.com/).
+### Q1 : Puis‑je utiliser Aspose.TeX pour Java gratuitement ?
+A1 : Oui, vous pouvez une version d’essai gratuite [ici](https://releases obtenir.aspose.com/).
 
-### Q2 : Où puis‑je trouver la documentation détaillée d’Aspose.TeX ?
-A2 : Consultez la documentation [ici](https://reference.aspose.com/tex/java/).
+### Q2 : Où puis‑je trouver la documentation détaillée d’Aspose.TeX ?
+A2 : Consultez la documentation [ici](https://reference.aspose.com/tex/java/).
 
-### Q3 : Comment obtenir du support pour Aspose.TeX ?
-A3 : Pour le support, visitez le [Forum Aspose.TeX](https://forum.aspose.com/c/tex/47).
+### Q3 : Comment obtenir du support pour Aspose.TeX ?
+A3 : Pour le support, visitez le [Forum Aspose.TeX](https://forum.aspose.com/c/tex/47).
 
-### Q4 : Existe‑t‑il une licence temporaire ?
-A4 : Oui, vous pouvez acquérir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
+### Q4 : Existe‑t‑il une licence temporaire ?
+A4 : Oui, vous pouvez posséder une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
-### Q5 : Où puis‑je acheter Aspose.TeX pour Java ?
-A5 : Vous pouvez acheter Aspose.TeX pour Java [ici](https://purchase.aspose.com/buy).
+### Q5 : Où puis-je acheter Aspose.TeX pour Java ?
+A5 : Vous pouvez acheter Aspose.TeX pour Java [ici](https://purchase.aspose.com/buy).
 
 ## Conclusion
 
@@ -146,9 +146,9 @@ Vous disposez maintenant d’un exemple complet, prêt pour la production, qui m
 
 ---
 
-**Dernière mise à jour :** 2026-02-07  
-**Testé avec :** Aspose.TeX 24.11 for Java  
-**Auteur :** Aspose  
+**Dernière mise à jour:** 2026-02-07
+**Testé avec:** Aspose.TeX 24.11 pour Java
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -14,45 +14,45 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# java create printable invoices – Konversi Langkah demi Langkah: Format LaTeX ke XPS di Java
+# java membuat faktur yang dapat dicetak – Konversi Langkah demi Langkah: Format LaTeX ke XPS di Java
 
-## Introduction
+## Perkenalan
 
-Jika Anda perlu **java create printable invoices** dari sumber LaTeX di dalam aplikasi Java, Anda berada di tutorial yang tepat. Dengan **Aspose.TeX for Java** Anda dapat merender file LaTeX, menangani formula kompleks, dan menghasilkan file XPS berkualitas tinggi yang mencetak persis seperti yang Anda harapkan. Dalam beberapa menit ke depan kami akan menelusuri seluruh alur kerja, menjelaskan mengapa metode ini ideal untuk pembuatan faktur, dan menunjukkan cara menyesuaikan konversi untuk pipeline pelaporan Anda sendiri.
+Jika Anda perlu **java membuat faktur yang dapat dicetak** dari sumber LaTeX di dalam aplikasi Java, Anda berada di tutorial yang tepat. Dengan **Aspose.TeX for Java** Anda dapat merender file LaTeX, menangani formula kompleks, dan menghasilkan file XPS berkualitas tinggi yang mencetak tetap seperti yang Anda harapkan. Dalam beberapa menit ke depan kami akan menelusuri seluruh alur kerja, menjelaskan mengapa metode ini ideal untuk pembuatan faktur, dan menunjukkan cara menyesuaikan konversi untuk pelaporan pipa Anda sendiri.
 
-## Quick Answers
-- **Library apa yang harus saya gunakan?** Aspose.TeX for Java  
-- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk pengaturan dasar  
-- **Apa saja prasyaratnya?** JDK 8+, Aspose.TeX JAR, dan IDE (Eclipse/IntelliJ)  
-- **Apakah saya dapat merender formula kompleks?** Ya – Aspose.TeX sepenuhnya mendukung lingkungan matematika LaTeX  
-- **Apakah lisensi diperlukan untuk produksi?** Ya, lisensi komersial diperlukan untuk penggunaan non‑trial  
+## Jawaban Cepat
+- **Library apa yang harus saya gunakan?** Aspose.TeX untuk Java
+- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk pengaturan dasar
+- **Apa saja prasyaratnya?** JDK 8+, Aspose.TeX JAR, dan IDE (Eclipse/IntelliJ)
+- **Apakah saya dapat merender formula kompleks?** Ya – Aspose.TeX sepenuhnya mendukung lingkungan matematika LaTeX
+- **Apakah lisensi diperlukan untuk produksi?** Ya, lisensi komersial diperlukan untuk penggunaan non‑trial
 
-## How to java create printable invoices with LaTeX to XPS conversion?
+## Bagaimana cara java membuat faktur yang dapat dicetak dengan konversi LaTeX ke XPS?
 
-Berikut adalah penjelasan percakapan langkah demi langkah yang perlu Anda lakukan. Silakan berhenti sejenak, bereksperimen dengan kode, dan sesuaikan pengaturan agar cocok dengan tata letak faktur Anda.
+Berikut adalah penjelasan percakapan langkah demi langkah yang perlu Anda lakukan. Silakan berhenti sejenak, bereksperimen dengan kode, dan menyesuaikan pengaturan agar cocok dengan tata letak faktur Anda.
 
-## What is step by step conversion?
+## Apa itu konversi langkah demi langkah?
 
-*Step by step conversion* adalah proses terarah dan bertahap yang memecah tugas besar—seperti mengubah file sumber LaTeX menjadi dokumen XPS—menjadi tindakan‑tindakan kecil yang dapat dikelola. Dengan mengikuti setiap langkah, Anda menghindari jebakan umum, menjaga kode tetap bersih, dan dapat dengan mudah menyesuaikan pengaturan individu (seperti penanganan font atau rasterisasi gambar) tanpa menulis ulang seluruh pipeline.
+*Konversi langkah demi langkah* adalah proses terarah dan bertahap yang memecah tugas besar—seperti mengubah file sumber LaTeX menjadi dokumen XPS—menjadi tindakan‑tindakan kecil yang dapat dikelola. Dengan mengikuti setiap langkah, Anda menghindari jebakan umum, menjaga kode tetap bersih, dan dapat dengan mudah menyesuaikan pengaturan individu (seperti penanganan font atau rasterisasi gambar) tanpa menulis ulang seluruh pipeline.
 
-## Why use Aspose.TeX for Java latex rendering?
+## Mengapa menggunakan Aspose.TeX untuk rendering lateks Java?
 
-- **Dukungan LaTeX penuh** – Dari artikel sederhana hingga buku dengan paket khusus.  
-- **Tanpa binary eksternal** – Semua berjalan di Java murni, yang menyederhanakan deployment.  
-- **Kontrol detail** – Opsi memungkinkan Anda menentukan bagaimana formula, grafik, dan font ditangani.  
+- **Dukungan LaTeX penuh** – Dari artikel sederhana hingga buku dengan paket khusus.
+- **Tanpa biner eksternal** – Semua berjalan di Java murni, yang mengarahkan penerapan.
+- **Kontrol detail** – Opsi memungkinkan Anda menentukan bagaimana rumus, grafik, dan font ditangani.
 - **Output lintas‑platform** – File XPS dirender secara konsisten pada penampil Windows, macOS, dan Linux.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki:
 
-- Java Development Kit (JDK) 8 atau yang lebih baru terpasang.  
-- Library Aspose.TeX for Java (unduh dari halaman resmi [Aspose.TeX Java download page](https://releases.aspose.com/tex/java/)).  
-- IDE Java atau alat build (Maven/Gradle) untuk menambahkan JAR ke classpath proyek Anda.  
+- Java Development Kit (JDK) 8 atau yang lebih baru terpasang.
+- Library Aspose.TeX untuk Java (unduh dari halaman resmi [halaman unduh Aspose.TeX Java](https://releases.aspose.com/tex/java/)).
+- IDE Java atau alat build (Maven/Gradle) untuk menambahkan JAR ke classpath proyek Anda.
 
-## Import Packages
+## Impor Paket
 
-Langkah pertama adalah mengimpor kelas‑kelas yang diperlukan. Pertahankan blok impor persis seperti yang ditampilkan—ini memastikan kode dapat dikompilasi tanpa modifikasi.
+Langkah pertama adalah mengimpor kelas‑kelas yang diperlukan. Pertahankan blok impor tetap seperti yang ditampilkan—ini memastikan kode dapat dikompilasi tanpa modifikasi.
 
 ```java
 package com.aspose.tex.LaTeXXpsConversionSimplest;
@@ -76,7 +76,7 @@ import util.Utils;
 
 Sekarang mari kita telusuri langkah‑langkah konversi, menjelaskan tujuan setiap fragmen kode.
 
-## Step 1: Set Input and Output Directories
+## Langkah 1: Atur Direktori Input dan Output
 
 Anda perlu memberi tahu Aspose.TeX di mana menemukan file sumber `.ltx` dan ke mana menulis file XPS yang dihasilkan.
 
@@ -87,7 +87,7 @@ options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Dir
 
 *Tip:* Ganti `"Your Input Directory"` dan `"Your Output Directory"` dengan jalur absolut atau relatif yang ada di mesin Anda.
 
-## Step 2: Configure TeX Options
+## Langkah 2: Konfigurasi Opsi TeX
 
 Opsi‑opsi ini mengontrol perilaku mesin LaTeX selama konversi. Sesuaikan agar cocok dengan kebutuhan dokumen Anda.
 
@@ -105,7 +105,7 @@ options.repeat(true);
 - **noLigatures** – Menonaktifkan ligatur tipografis jika Anda lebih suka karakter polos.  
 - **repeat** – Memungkinkan mesin menjalankan kembali untuk referensi silang.
 
-## Step 3: Initialize XPS Save Options
+## Langkah 3: Inisialisasi Opsi Penyimpanan XPS
 
 Buat instance `XpsSaveOptions` yang akan menyimpan pengaturan khusus XPS.
 
@@ -113,7 +113,7 @@ Buat instance `XpsSaveOptions` yang akan menyimpan pengaturan khusus XPS.
 options.setSaveOptions(new XpsSaveOptions());
 ```
 
-## Step 4: Customize XPS Save Options
+## Langkah 4: Kustomisasi Opsi Penyimpanan XPS
 
 Sesuaikan cara output XPS menangani formula, grafik, dan font.
 
@@ -127,7 +127,7 @@ options.getSaveOptions().subsetFonts(true);
 - **rasterizeIncludedGraphics** – Memaksa grafik yang disematkan untuk dirasterisasi, yang dapat meningkatkan kompatibilitas.  
 - **subsetFonts** – Menyertakan hanya glyph yang digunakan dalam dokumen, mengurangi ukuran file.
 
-## Step 5: Run LaTeX to XPS Conversion
+## Langkah 5: Jalankan Konversi LaTeX ke XPS
 
 Akhirnya, jalankan pekerjaan konversi. `TeXJob` menggabungkan file input, perangkat output (`XpsDevice`), dan semua opsi yang telah Anda konfigurasikan.
 
@@ -137,9 +137,9 @@ new TeXJob("Your Input Directory" + "sample.ltx", new XpsDevice(), options).run(
 
 Setelah pemanggilan `run()` selesai, Anda akan menemukan `sample.xps` di direktori output yang Anda tentukan sebelumnya. File XPS ini dapat dikirim langsung ke printer atau disematkan dalam bundel faktur PDF.
 
-## Additional Examples
+## Contoh Tambahan
 
-### Use InputStream (Convert a LaTeX string directly)
+### Gunakan InputStream (Konversi string LaTeX secara langsung)
 
 Jika Anda lebih suka memberi sumber LaTeX dari memori alih‑alih file, bungkus sumber tersebut dalam `ByteArrayInputStream`.
 
@@ -149,7 +149,7 @@ new TeXJob(new ByteArrayInputStream(
     new XpsDevice(), options).run();
 ```
 
-### Use Main Input Terminal (Let Aspose.TeX locate the file automatically)
+### Gunakan Terminal Input Utama (Biarkan Aspose.TeX menemukan file secara otomatis)
 
 Ketika Anda tidak perlu menentukan jalur file secara eksplisit, Anda dapat mengandalkan terminal input default.
 
@@ -157,38 +157,38 @@ Ketika Anda tidak perlu menentukan jalur file secara eksplisit, Anda dapat menga
 new TeXJob(new XpsDevice(), options).run();
 ```
 
-## Common Use Cases & Tips
+## Kasus & Tip Penggunaan Umum
 
-| Scenario | Why This Approach Helps |
+| Skenario | Mengapa Pendekatan Ini Membantu |
 |----------|--------------------------|
-| **Generating printable invoices** | XPS mempertahankan kesetiaan tata letak di seluruh printer Windows, menjadikannya sempurna untuk output faktur berkualitas tinggi. |
-| **Batch converting academic papers** | API langkah‑demi‑langkah memungkinkan Anda memproses banyak file `.ltx` dengan kode minimal. |
-| **Embedding LaTeX equations in a reporting tool** | Rasterisasi formula memastikan mereka dirender dengan benar bahkan pada perangkat berdaya rendah. |
+| **Membuat faktur yang dapat dicetak** | XPS mempertahankan kesetiaan tata letak di seluruh printer Windows, menjadikannya sempurna untuk keluaran faktur berkualitas tinggi. |
+| **Konversi makalah akademis secara batch** | Langkah‑demi‑langkah API memungkinkan Anda memproses banyak file `.ltx` dengan kode minimal. |
+| **Menyematkan persamaan LaTeX dalam alat pelaporan** | Formula rasterisasi memastikan hasilnya benar-benar bahkan pada perangkat berdaya rendah. |
 
-**Pro tip:** Bungkus logika konversi dalam metode utilitas sehingga Anda dapat menggunakannya kembali di berbagai modul aplikasi Anda.
+**Tips pro:** Bungkus logika konversi dalam metode utilitas sehingga Anda dapat menggunakannya kembali di berbagai modul aplikasi Anda.
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: Can I convert LaTeX documents with complex formulas using Aspose.TeX?**  
-A: Absolutely. The engine fully supports AMS math packages and will rasterise formulas when `rasterizeFormulas(true)` is set.
+**T: Bisakah saya mengonversi dokumen LaTeX dengan rumus kompleks menggunakan Aspose.TeX?**
+J: Tentu saja. Mesin ini sepenuhnya mendukung paket matematika AMS dan akan merasterisasi rumus ketika `rasterizeFormulas(true)` diatur.
 
-**Q: Is there a trial version available for Aspose.TeX for Java?**  
-A: Yes, you can download a free trial from the [Aspose.TeX Java download page](https://releases.aspose.com/tex/java/).
+**T: Apakah ada versi uji coba yang tersedia untuk Aspose.TeX untuk Java?**
+J: Ya, Anda dapat mengunduh versi uji coba gratis dari [halaman unduhan Aspose.TeX Java](https://releases.aspose.com/tex/java/).
 
-**Q: How can I get support for Aspose.TeX?**  
-A: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community assistance, or open a support ticket through your Aspose account.
+**T: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.TeX?**
+J: Kunjungi [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) untuk bantuan komunitas, atau buka tiket dukungan melalui akun Aspose Anda.
 
-**Q: Are temporary licenses available for Aspose.TeX?**  
-A: Yes, temporary licenses can be obtained via the [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
+**T: Apakah lisensi sementara tersedia untuk Aspose.TeX?**
+J: Ya, lisensi sementara dapat diperoleh melalui [halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/).
 
-**Q: Where can I find the documentation for Aspose.TeX?**  
-A: Comprehensive API docs are available at the [Aspose.TeX Java reference](https://reference.aspose.com/tex/java/).
+**T: Di mana saya dapat menemukan dokumentasi untuk Aspose.TeX?**
+J: Dokumentasi API yang komprehensif tersedia di [Referensi Java Aspose.TeX](https://reference.aspose.com/tex/java/).
 
 ---
 
-**Last Updated:** 2026-02-07  
-**Tested With:** Aspose.TeX 24.11 for Java  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-02-07
+**Diuji Dengan:** Aspose.TeX 24.11 untuk Java
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
