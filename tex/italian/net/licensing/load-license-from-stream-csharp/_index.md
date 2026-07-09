@@ -1,11 +1,39 @@
 ---
-date: 2025-12-25
-description: Scopri come caricare la licenza per Aspose.TeX in .NET da uno stream
-  usando C#. Questa guida mostra come caricare la licenza da un file, impostarla programmaticamente
-  e rendere la tua applicazione pronta per la produzione.
-linktitle: How to Load License from Stream in Aspose.TeX (C#)
+date: 2026-05-20
+description: Scopri come impostare la licenza per Aspose.TeX da uno stream in .NET
+  usando C#. Questa guida copre il caricamento della licenza da file, l'impostazione
+  programmatica e la preparazione della tua applicazione per la produzione.
+keywords:
+- how to set license
+- load license from file
+- Aspose.TeX licensing
+linktitle: Come impostare la licenza da stream in Aspose.TeX (C#)
+schemas:
+- author: Aspose
+  dateModified: '2026-05-20'
+  description: Learn how to set license for Aspose.TeX from a stream in .NET using
+    C#. This guide covers loading license from file, setting it programmatically,
+    and preparing your app for production.
+  headline: How to Set License from Stream in Aspose.TeX (C#)
+  type: TechArticle
+- questions:
+  - answer: Yes. Add the `.lic` file to your project, set its Build Action to *Embedded
+      Resource*, then retrieve it with `Assembly.GetManifestResourceStream` and pass
+      the stream to `SetLicense`.
+    question: Can I embed the license file as a resource?
+  - answer: The license is read once at startup; subsequent operations run at full
+      speed with no measurable overhead.
+    question: Does loading the license affect runtime performance?
+  - answer: It works, but you should secure the share and ensure only the application
+      account has read permissions.
+    question: Is it safe to store the license on a shared network drive?
+  - answer: After calling `SetLicense`, invoke a feature that is disabled in evaluation
+      mode (e.g., processing a large document). If no exception is thrown, the license
+      is active.
+    question: How can I programmatically verify that the license was applied?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: Come caricare la licenza da stream in Aspose.TeX (C#)
+title: Come impostare la licenza da stream in Aspose.TeX (C#)
 url: /it/net/licensing/load-license-from-stream-csharp/
 weight: 11
 ---
@@ -14,34 +42,40 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come caricare la licenza da uno stream in Aspose.TeX (C#)
+# Come impostare la licenza da stream in Aspose.TeX (C#)
 
 ## Introduzione
 
-Benvenuti nel mondo di **Aspose.TeX for .NET** – una libreria potente che consente di creare, modificare e convertire documenti TeX con facilità. In questo tutorial vi guideremo passo passo su **come caricare la licenza** da uno stream usando C#. Alla fine della guida saprete esattamente come caricare una licenza Aspose.TeX, perché è importante e come integrare il codice in qualsiasi progetto .NET.
+In questo tutorial scoprirai **how to set license** per Aspose.TeX usando uno stream .NET in C#. Caricare correttamente la licenza rimuove le filigrane di valutazione, sblocca tutte le funzionalità API e rende la tua applicazione pronta per la produzione. Esamineremo gli spazi dei nomi richiesti, mostreremo la sequenza di codice esatta e discuteremo perché un approccio basato su stream è ideale per le distribuzioni cloud o container.
 
 ## Risposte rapide
-- **Qual è il passaggio principale?** Inizializzare un oggetto `License` e chiamare `SetLicense` passando uno stream.  
-- **Posso caricare la licenza da un file invece che da uno stream?** Sì – è possibile aprire un `FileStream` sul file `.lic` e passarlo a `SetLicense`.  
-- **Sono necessari privilegi di amministratore?** No, purché l'applicazione possa leggere il percorso del file di licenza.  
-- **È necessaria una licenza per la produzione?** Assolutamente sì – senza una licenza valida molte funzionalità sono disabilitate.  
-- **Quali versioni di .NET sono supportate?** Aspose.TeX funziona con .NET Framework 4.5+, .NET Core 3.1+, e .NET 5/6/7.
+- **Qual è il primo passo?** Crea un oggetto `License` e chiama `SetLicense` con uno stream che contiene il tuo file `.lic`.  
+- **Posso evitare gli stream e caricare da un percorso file?** Sì—`license.SetLicense("path/to/license.lic")` funziona, ma gli stream offrono maggiore flessibilità di distribuzione.  
+- **Ho bisogno di diritti di amministratore per applicare la licenza?** No, il processo richiede solo l'accesso in lettura al file di licenza o alla risorsa.  
+- **Una licenza è obbligatoria per la produzione?** Assolutamente—senza di essa molte funzionalità ad alte prestazioni rimangono disabilitate e compaiono filigrane.  
+- **Quali runtime .NET sono supportati?** Aspose.TeX funziona su .NET Framework 4.5+, .NET Core 3.1+ e .NET 5/6/7.
 
-## Che cosa significa “come caricare la licenza” in Aspose.TeX?
-Caricare una licenza sblocca l'intero set di funzionalità della libreria Aspose.TeX, rimuovendo le filigrane di valutazione e abilitando l'elaborazione ad alte prestazioni. Il processo è semplice: creare un'istanza `License`, aprire il file di licenza come stream e applicarlo.
+## Cos'è “how to set license” in Aspose.TeX?
 
-## Perché caricare la licenza da uno stream?
-Il caricamento da uno stream offre flessibilità – è possibile incorporare il file di licenza come risorsa incorporata, leggerlo da una posizione remota o decrittarlo al volo prima dell'applicazione. Questo approccio è particolarmente utile in ambienti cloud o containerizzati dove i percorsi del file system possono essere dinamici.
+L'operazione **how to set license** indica ad Aspose.TeX di utilizzare il tuo file `.lic` acquistato invece della modalità di valutazione. Viene eseguita dalla classe `License`, che legge i byte della licenza e attiva l'intero set di funzionalità per l'AppDomain corrente.
+
+Caricare una licenza sblocca l'intero set di funzionalità della libreria Aspose.TeX, rimuovendo le filigrane di valutazione e abilitando l'elaborazione ad alte prestazioni. Il processo è semplice: crea un'istanza `License`, apri il file di licenza come stream e applicalo.
+
+## Perché impostare la licenza da uno stream?
+
+Caricare la licenza da uno stream ti consente di incorporare il file `.lic` come risorsa incorporata, recuperarlo da un archivio remoto sicuro o decrittarlo al volo prima dell'applicazione. Questa flessibilità è particolarmente utile in ambienti cloud‑native o containerizzati dove i percorsi assoluti del file system possono cambiare a runtime.
 
 ## Prerequisiti
 
-- Conoscenza di base di C# e sviluppo .NET.  
-- Aspose.TeX for .NET installato (tramite NuGet o MSI).  
-- Un file di licenza Aspose.TeX `.lic` valido (è possibile ottenere una licenza di prova temporanea dal sito Aspose).
+- Esperienza di base nello sviluppo C# e .NET.  
+- Aspose.TeX per .NET installato tramite NuGet o MSI.  
+- Un file `.lic` valido di Aspose.TeX (puoi ottenere una licenza di prova temporanea dal sito web di Aspose).
 
-## Importare i namespace
+## Importa spazi dei nomi
 
-Per prima cosa, importate i namespace necessari per la gestione dei file e le classi di licenza di Aspose.TeX.
+`License` e la gestione degli stream si trovano nei seguenti spazi dei nomi:
+
+`License` è la classe Aspose.TeX utilizzata per applicare una licenza alla libreria.
 
 ```csharp
 using System;
@@ -49,6 +83,8 @@ using System.IO;
 ```
 
 ## Passo 1: Inizializzare l'oggetto License
+
+`License` rappresenta il componente di licenza Aspose.TeX che attiva tutte le funzionalità del prodotto.
 
 Creare un oggetto `License` è il primo passo prima di poter impostare i dati della licenza.
 
@@ -58,9 +94,15 @@ License license = new License();
 // ExEnd:InitializeLicenseObject
 ```
 
-## Passo 2: Caricare la licenza da uno stream
+## Passo 2: Caricare la licenza da stream
 
-Ora caricate la licenza da un `FileStream`. Questo esempio dimostra **load aspose license c#** leggendo il file `.lic` dal disco e applicandolo.
+`SetLicense` è un metodo della classe `License` che carica una licenza da uno stream fornito.
+
+`FileStream` fornisce uno stream per leggere e scrivere file su disco.
+
+Ora carica la licenza da un `FileStream`. Questo esempio dimostra **load aspose license c#** leggendo il file `.lic` dal disco e applicandolo.
+
+Il `FileStream` legge i byte grezzi del file `.lic`, che `SetLicense` poi valida rispetto alla versione del prodotto. L'uso di uno stream garantisce che la licenza possa essere caricata da qualsiasi sorgente che restituisce uno `Stream`.
 
 ```csharp
 // ExStart:LoadLicenseFromStream
@@ -74,65 +116,65 @@ Console.WriteLine("License set successfully.");
 // ExEnd:LoadLicenseFromStream
 ```
 
-> **Consiglio esperto:** Se preferite **caricare la licenza da file** senza aprire manualmente uno stream, potete semplicemente chiamare `license.SetLicense("path/to/license.lic");`. L'uso di uno stream, tuttavia, offre un maggiore controllo sulla provenienza dei byte della licenza.
+> **Suggerimento:** Se preferisci **load license from file** senza aprire manualmente uno stream, puoi semplicemente chiamare `license.SetLicense("path/to/license.lic");`. Tuttavia, usare uno stream ti dà più controllo su da dove provengono i byte della licenza.
 
 ## Problemi comuni e soluzioni
 
 | Problema | Motivo | Soluzione |
 |----------|--------|-----------|
-| `FileNotFoundException` | Percorso file errato o permessi mancanti | Verificate il percorso (`D:\\Aspose.Total.NET.lic`) e assicuratevi che l'applicazione abbia accesso in lettura. |
-| Licenza non applicata | Stream non reimpostato o chiuso prima che `SetLicense` termini | Mantenete lo stream aperto fino a dopo il ritorno di `SetLicense`, oppure usate un blocco `using` che lo chiude dopo la chiamata. |
-| La filigrana di valutazione è ancora presente | Il file di licenza è scaduto o non corrisponde alla versione del prodotto | Ottenete una nuova licenza che corrisponda esattamente alla versione di Aspose.TeX in uso. |
+| `FileNotFoundException` | Percorso file errato o permesso mancante | Verifica il percorso (`D:\\Aspose.Total.NET.lic`) e assicurati che l'applicazione abbia accesso in lettura. |
+| Licenza non applicata | Stream non ripristinato o chiuso prima che `SetLicense` termini | Mantieni lo stream aperto fino a dopo il ritorno di `SetLicense`, oppure usa un blocco `using` che lo chiude dopo la chiamata. |
+| La filigrana di valutazione appare ancora | Il file di licenza è scaduto o non corrisponde alla versione del prodotto | Ottieni una nuova licenza che corrisponda esattamente alla versione di Aspose.TeX che stai usando. |
 
 ## FAQ
 
-### Q1: Posso usare Aspose.TeX for .NET senza una licenza?
+**Q1: Posso usare Aspose.TeX per .NET senza licenza?**  
+A: No, è necessaria una licenza valida per utilizzare tutte le funzionalità di Aspose.TeX. Puoi ottenere una licenza di prova temporanea per i test.
 
-A1: No, è necessaria una licenza valida per utilizzare tutte le funzionalità di Aspose.TeX for .NET. È possibile ottenere una licenza temporanea per scopi di test.
+**Q2: Dove posso trovare documentazione aggiuntiva?**  
+A: Consulta la [Aspose.TeX documentation](https://reference.aspose.com/tex/net/) per guide complete e riferimenti API.
 
-### Q2: Dove posso trovare documentazione aggiuntiva?
+**Q3: Come posso ottenere supporto?**  
+A: Visita il [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) per entrare in contatto con la community e gli ingegneri di supporto di Aspose.
 
-A2: Consultate la [documentazione di Aspose.TeX](https://reference.aspose.com/tex/net/) per informazioni complete ed esempi.
+**Q4: È disponibile una versione di prova gratuita?**  
+A: Sì, puoi accedere alla prova gratuita di Aspose.TeX per .NET [qui](https://releases.aspose.com/).
 
-### Q3: Come posso ottenere supporto?
+**Q5: Dove posso acquistare una licenza commerciale?**  
+A: Puoi acquistare Aspose.TeX per .NET [qui](https://purchase.aspose.com/buy).
 
-A3: Visitate il [forum di Aspose.TeX](https://forum.aspose.com/c/tex/47) per ricevere assistenza dalla community e dal team di supporto Aspose.
+## Domande frequenti (Aggiuntive)
 
-### Q4: È disponibile una versione di prova gratuita?
+**Q: Posso incorporare il file di licenza come risorsa?**  
+A: Sì. Aggiungi il file `.lic` al tuo progetto, imposta la sua Build Action su *Embedded Resource*, quindi recuperalo con `Assembly.GetManifestResourceStream` e passa lo stream a `SetLicense`.
 
-A4: Sì, potete accedere alla prova gratuita di Aspose.TeX for .NET [qui](https://releases.aspose.com/).
+**Q: Il caricamento della licenza influisce sulle prestazioni a runtime?**  
+A: La licenza viene letta una sola volta all'avvio; le operazioni successive vengono eseguite a piena velocità senza overhead misurabile.
 
-### Q5: Dove posso acquistare Aspose.TeX for .NET?
+**Q: È sicuro memorizzare la licenza su un'unità di rete condivisa?**  
+A: Funziona, ma dovresti proteggere la condivisione e assicurarti che solo l'account dell'applicazione abbia permessi di lettura.
 
-A5: Potete acquistare Aspose.TeX for .NET [qui](https://purchase.aspose.com/buy).
-
-## Domande frequenti (aggiuntive)
-
-**D: Posso incorporare il file di licenza come risorsa?**  
-R: Sì. Aggiungete il file `.lic` al progetto, impostate la sua *Build Action* su *Embedded Resource*, quindi recuperatelo con `Assembly.GetManifestResourceStream` e passate lo stream a `SetLicense`.
-
-**D: Il caricamento della licenza influisce sulle prestazioni?**  
-R: La licenza viene letta una sola volta all'avvio; le operazioni successive non ne sono influenzate.
-
-**D: È sicuro memorizzare la licenza su un'unità di rete condivisa?**  
-R: Funziona, ma assicuratevi che l'unità sia protetta e che l'applicazione abbia i permessi di lettura.
-
-**D: Come verificare programmaticamente che la licenza sia stata applicata?**  
-R: Dopo aver chiamato `SetLicense`, provate a utilizzare una funzionalità disabilitata in modalità di valutazione (ad es., elaborare un documento di grandi dimensioni) – se non viene sollevata alcuna eccezione, la licenza è attiva.
+**Q: Come posso verificare programmaticamente che la licenza sia stata applicata?**  
+A: Dopo aver chiamato `SetLicense`, invoca una funzionalità disabilitata in modalità di valutazione (ad esempio, l'elaborazione di un documento di grandi dimensioni). Se non viene sollevata alcuna eccezione, la licenza è attiva.
 
 ## Conclusione
 
-Ora avete padroneggiato **come caricare la licenza** per Aspose.TeX da uno stream usando C#. Inizializzando un oggetto `License` e fornendogli un `FileStream`, sbloccate tutte le potenzialità della libreria e mantenete le vostre applicazioni pronte per la produzione. Sentitevi liberi di esplorare altre opzioni di licenza, come risorse incorporate o stream remoti, per adattarle al vostro scenario di distribuzione.
+Ora sai **how to set license** per Aspose.TeX da uno stream usando C#. Inizializzando un oggetto `License` e fornendogli un `FileStream`, sblocchi tutte le capacità della libreria e mantieni la tua applicazione pronta per la produzione. Esplora altre opzioni di licenza — come risorse incorporate o stream remoti — per adattarle alla tua strategia di distribuzione.
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-25  
+**Ultimo aggiornamento:** 2026-05-20  
 **Testato con:** Aspose.TeX for .NET 24.11  
-**Autore:** Aspose  
+**Autore:** Aspose
+
+## Tutorial correlati
+
+- [Carica licenza C# – Carica licenza Aspose.TeX da file](/tex/net/licensing/load-license-from-file-csharp/)
+- [Carica licenza Aspose.TeX – Gestisci licenze Aspose.TeX](/tex/net/licensing/)
+- [Come impostare la licenza per Aspose.TeX (C#)](/tex/net/licensing/set-metered-license-csharp/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
