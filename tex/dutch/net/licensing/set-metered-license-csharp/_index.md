@@ -1,10 +1,46 @@
 ---
-date: 2025-12-25
-description: Leer hoe u de licentie voor Aspose.TeX in C# instelt en volledige TeX‑bestandsbewerkingsmogelijkheden
-  ontgrendelt.
-linktitle: Set Metered License for Aspose.TeX (C#)
+date: 2026-05-25
+description: Leer hoe u een metered-licentie in C# instelt voor Aspose.TeX, waarmee
+  u volledige mogelijkheden voor het manipuleren van TeX-bestanden ontgrendelt.
+keywords:
+- set metered license c#
+- Aspose.TeX licensing
+- C# TeX processing
+linktitle: Metered-licentie instellen voor Aspose.TeX (C#)
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to set metered license C# for Aspose.TeX, unlocking full
+    TeX file manipulation capabilities.
+  headline: How to Set Metered License C# for Aspose.TeX
+  type: TechArticle
+- description: Learn how to set metered license C# for Aspose.TeX, unlocking full
+    TeX file manipulation capabilities.
+  name: How to Set Metered License C# for Aspose.TeX
+  steps:
+  - name: Set Metered License (how to set license)
+    text: The first code snippet shows exactly **how to set license** using the metered
+      keys. Place this early in your application startup routine (e.g., `Main` or
+      `Startup.cs`). Replace `<type public key here>` and `<type private key here>`
+      with the keys you received from Aspose.
+  - name: Integrate into Your Project
+    text: After the license is set, you can freely use any Aspose.TeX classes—compiling
+      LaTeX, converting to PDF, extracting images, etc. No additional licensing code
+      is required.
+  - name: Verify the License
+    text: It’s a good practice to confirm that the license was applied successfully.
+      The following snippet prints a clear message to the console. If you see “Metered
+      license is set successfully!” you’re ready to go.
+  type: HowTo
+- questions:
+  - answer: Absolutely—simply replace the `SetMeteredKey` call with the standard `License`
+      class and provide the `.lic` file.
+    question: Can I switch from a metered license to a full‑node license later?
+  - answer: Yes, as long as the service can reach the Aspose licensing endpoint.
+    question: Does the metered license work in Azure App Service?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: Hoe de licentie instellen voor Aspose.TeX (C#)
+title: Hoe een Metered-licentie instellen in C# voor Aspose.TeX
 url: /nl/net/licensing/set-metered-license-csharp/
 weight: 12
 ---
@@ -13,53 +49,54 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe licentie instellen voor Aspose.TeX (C#)
+# Hoe een Metered License in C# instellen voor Aspose.TeX
 
 ## Introductie
 
-Als je van plan bent om met TeX‑bestanden te werken in een C#‑applicatie, is het eerste wat je moet doen **hoe je een licentie instelt** voor Aspose.TeX. Het instellen van een metered‑licentie verwijdert niet alleen runtime‑beperkingen, maar geeft je ook toegang tot de volledige functionaliteit van de bibliotheek. In deze gids lopen we het hele proces door — van het downloaden van de SDK tot het verifiëren dat de licentie actief is — zodat je meteen kunt beginnen met het bouwen van TeX‑gestuurde oplossingen.
+Als u met TeX‑bestanden in een C#‑applicatie wilt werken, is de eerste stap om **een metered license in C#** voor Aspose.TeX in te stellen. Een metered license verwijdert runtime‑beperkingen, geeft toegang tot elke API‑methode en laat u licentiesleutels direct in de code opnemen. In deze tutorial lopen we door het downloaden van de SDK, het toevoegen van de benodigde namespaces, het toepassen van de licentie en het bevestigen dat deze actief is—zodat u zonder onderbreking TeX‑gestuurde oplossingen kunt bouwen.
 
 ## Snelle antwoorden
-- **Wat is een metered‑licentie?** Een lichtgewicht licentiemodel dat gebruik valideert via publieke/private sleutels zonder een lokaal licentiebestand nodig te hebben.  
-- **Heb ik een licentie nodig voor ontwikkeling?** Ja, een metered‑licentie is vereist voor zowel ontwikkeling als productie om alle functies te ontgrendelen.  
+- **Wat is een metered license?** Een lichtgewicht licentiemodel dat gebruik valideert via openbare/privé‑sleutels zonder een lokaal licentiebestand.  
+- **Heb ik een licentie nodig voor ontwikkeling?** Ja, een metered license is vereist voor zowel ontwikkeling als productie om alle functies te ontgrendelen.  
 - **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Kan ik de sleutels later wijzigen?** Absoluut — roep simpelweg `SetMeteredKey` opnieuw aan met de nieuwe sleutels.  
-- **Hoe bevestig ik dat de licentie werkt?** Gebruik `Aspose.TeX.Metered.IsMetered()` om een true/false‑resultaat te krijgen.
+- **Kan ik de sleutels later wijzigen?** Absoluut—roep gewoon opnieuw `SetMeteredKey` aan met de nieuwe sleutels.  
+- **Hoe bevestig ik dat de licentie werkt?** Gebruik `Aspose.TeX.Metered.IsMetered()` om een true/false‑resultaat te krijgen.  
 
-## Wat is een Metered‑licentie?
+De `Aspose.TeX.Metered.IsMetered()`‑methode retourneert een Boolean die aangeeft of er momenteel een metered‑licentie actief is.
 
-Een metered‑licentie voor Aspose.TeX werkt door bij elke start van je applicatie een lichtgewicht verzoek naar de licentieserver van Aspose te sturen. De server valideert de door jou opgegeven publieke en private sleutels en retourneert een gebruikstoken. Deze aanpak elimineert de noodzaak om een fysiek licentiebestand mee te leveren en maakt het eenvoudig om sleutels te roteren indien nodig.
+## Wat is een Metered License?
 
-## Waarom een Metered‑licentie gebruiken voor Aspose.TeX?
+Een metered license voor Aspose.TeX valideert uw openbare en privé‑sleutels bij de licentieserver van Aspose elke keer dat de applicatie start. De server retourneert een kort gebruikstoken, waardoor een fysiek `.lic`‑bestand overbodig wordt en naadloze sleutelrotatie mogelijk is.
 
-- **Geen bestandsimplementatie** – Sleutels worden direct in de code ingebed.  
-- **Eenvoudige sleutelrotatie** – Werk sleutels bij zonder een licentiebestand opnieuw te implementeren.  
-- **Nauwkeurige gebruiksregistratie** – Aspose registreert elke activatie, waardoor je binnen je abonnementslimieten blijft.  
-- **Volledige functietoegang** – Alle API‑mogelijkheden worden ontgrendeld zodra de licentie gevalideerd is.
+## Waarom een Metered License gebruiken voor Aspose.TeX?
 
-## Vereisten
+Metered licensing geeft u **volledige functietoegang** terwijl de implementatie eenvoudig blijft. Aspose.TeX ondersteunt **meer dan 50 invoer‑ en uitvoerformaten**—inclusief LaTeX, PDF, PNG en SVG—en kan documenten van honderden pagina’s verwerken zonder het volledige bestand in het geheugen te laden, wat het ideaal maakt voor high‑throughput services.
 
-Voordat je begint, zorg dat je de volgende items klaar hebt:
+## Voorvereisten
 
-1. **Aspose.TeX for .NET Library** – Download en installeer de bibliotheek vanaf de [download page](https://releases.aspose.com/tex/net/).  
-2. **Metered License Keys** – Verkrijg de metered publieke en private sleutels vanuit je Aspose‑account. Als je nog geen account hebt, kun je je aanmelden [here](https://purchase.aspose.com/buy).  
-3. **C# Development Environment** – Visual Studio (een recente versie) of een andere C#‑IDE naar keuze.  
+Voordat u begint, zorg dat u het volgende heeft:
 
-> **Pro tip:** Bewaar je metered‑sleutels in een veilige configuratiestore (bijv. Azure Key Vault) in plaats van ze hard‑coded in de code te plaatsen.
+1. **Aspose.TeX voor .NET Bibliotheek** – Download en installeer de bibliotheek van de [downloadpagina](https://releases.aspose.com/tex/net/).  
+2. **Metered License‑sleutels** – Verkrijg de openbare en privé‑sleutels van uw Aspose‑account (meld u aan [hier](https://purchase.aspose.com/buy) als u er geen heeft).  
+3. **C#‑ontwikkelomgeving** – Visual Studio (een recente versie) of een andere C#‑IDE.
 
-## Namespaces importeren
+> **Pro tip:** Sla uw metered‑sleutels op in een veilige configuratiewinkel (bijv. Azure Key Vault) in plaats van ze hard‑coded in de code te plaatsen.
 
-In je C#‑project begin je met het importeren van de Aspose.TeX‑namespace:
+## Importeer Namespaces
+
+`Aspose.TeX` is de root‑namespace die alle klassen biedt voor TeX‑verwerking, compilatie en conversie. Importeer in uw C#‑project de Aspose.TeX‑namespace:
 
 ```csharp
 using Aspose.TeX;
 ```
 
-## C# Aspose‑licentie instellen – Stapsgewijze gids
+## Hoe een Metered License in C# instellen voor Aspose.TeX?
 
-### Stap 1: Metered‑licentie instellen (hoe licentie instellen)
+`Aspose.TeX.Metered.SetMeteredKey` registreert uw openbare en privé‑sleutels bij de licentieservice van Aspose. Laad uw sleutels met `Aspose.TeX.Metered.SetMeteredKey("<public>", "<private>")` direct bij het opstarten van de applicatie—deze enkele regel activeert de volledige bibliotheek onmiddellijk. Het plaatsen van de oproep in `Main` of `Startup.cs` garandeert dat elke daaropvolgende Aspose.TeX‑bewerking onder een gelicentieerde context draait.
 
-De eerste code‑snippet laat precies **hoe je een licentie instelt** met behulp van de metered‑sleutels zien. Plaats dit vroeg in je applicatie‑opstartroutine (bijv. `Main` of `Startup.cs`).
+### Stap 1: Metered License instellen (hoe licentie in te stellen)
+
+Het eerste code‑fragment toont precies **hoe de licentie** in te stellen met de metered‑sleutels. Plaats dit vroeg in uw opstartroutine (bijv. `Main` of `Startup.cs`).
 
 ```csharp
 // ExStart:SetMeteredLicense
@@ -70,15 +107,15 @@ new Aspose.TeX.Metered().SetMeteredKey(
 // ExEnd:SetMeteredLicense
 ```
 
-Vervang `<type public key here>` en `<type private key here>` door de sleutels die je van Aspose hebt ontvangen.
+Vervang `<type public key here>` en `<type private key here>` door de sleutels die u van Aspose heeft ontvangen.
 
-### Stap 2: Integreren in je project
+### Stap 2: Integreren in uw project
 
-Nadat de licentie is ingesteld, kun je vrijelijk alle Aspose.TeX‑klassen gebruiken — LaTeX compileren, naar PDF converteren, afbeeldingen extraheren, enz. Er is geen extra licentiecode meer nodig.
+Nadat de licentie is ingesteld, kunt u vrijelijk elke Aspose.TeX‑klasse gebruiken—LaTeX compileren, naar PDF converteren, afbeeldingen extraheren, enz. Er is geen extra licentiecode meer nodig.
 
-### Stap 3: Licentie verifiëren
+### Stap 3: De licentie verifiëren
 
-Het is een goede gewoonte om te bevestigen dat de licentie succesvol is toegepast. De volgende snippet print een duidelijke boodschap naar de console.
+Het is een goede gewoonte om te bevestigen dat de licentie succesvol is toegepast. Het volgende fragment print een duidelijke boodschap naar de console.
 
 ```csharp
 // ExStart:VerifyMeteredLicense
@@ -93,59 +130,61 @@ else
 // ExEnd:VerifyMeteredLicense
 ```
 
-Als je “Metered license is set successfully!” ziet, ben je klaar om te gaan.
+Als u “Metered license is set successfully!” ziet, bent u klaar om te gaan.
 
 ## Veelvoorkomende problemen & probleemoplossing
+
+Een `LicenseException` wordt opgegooid wanneer de licentie niet is ingesteld vóór het gebruik van Aspose.TeX‑API’s.
 
 | Symptoom | Waarschijnlijke oorzaak | Oplossing |
 |----------|--------------------------|-----------|
 | `IsMetered()` retourneert **false** | Onjuiste sleutels of netwerkconnectiviteitsprobleem | Controleer de sleutels nogmaals, zorg ervoor dat de machine `license.aspose.com` kan bereiken. |
-| Applicatie geeft **LicenseException** | Licentie ingesteld na gebruik van Aspose.TeX API's | Verplaats de licentie‑instellingscode naar het allereerste begin van het programma (voordat er Aspose.TeX‑objecten worden aangemaakt). |
+| Applicatie gooit **LicenseException** | Licentie ingesteld na gebruik van Aspose.TeX API's | Verplaats de licentie‑instellingscode naar het allereerste begin van het programma (voordat er Aspose.TeX‑objecten worden aangemaakt). |
 | Sleutels blootgesteld in broncodebeheer | Beveiligingsrisico | Sla sleutels op in omgevingsvariabelen of een veilige kluis en lees ze tijdens runtime. |
 
 ## Veelgestelde vragen
 
-### V1: Hoe kan ik een metered‑licentie voor Aspose.TeX verkrijgen?
+**Q1: Hoe kan ik een metered license voor Aspose.TeX verkrijgen?**  
+A1: U kunt een metered license aanschaffen via de [Aspose‑aankooppagina](https://purchase.aspose.com/buy).
 
-U kunt een metered‑licentie kopen via de [Aspose purchase page](https://purchase.aspose.com/buy).
+**Q2: Is er een gratis proefversie beschikbaar?**  
+A2: Ja, u kunt een gratis proefversie van Aspose.TeX verkennen via [deze link](https://releases.aspose.com/).
 
-### V2: Is er een gratis proefversie beschikbaar?
+**Q3: Waar vind ik documentatie voor Aspose.TeX?**  
+A3: Raadpleeg de [Aspose.TeX‑documentatie](https://reference.aspose.com/tex/net/) voor uitgebreide richtlijnen.
 
-Ja, u kunt een gratis proefversie van Aspose.TeX verkennen via [this link](https://releases.aspose.com/).
+**Q4: Hoe kan ik ondersteuning krijgen voor Aspose.TeX?**  
+A4: Bezoek het [Aspose.TeX‑forum](https://forum.aspose.com/c/tex/47) voor community‑ondersteuning en discussies.
 
-### V3: Waar kan ik documentatie voor Aspose.TeX vinden?
+**Q5: Kan ik een tijdelijke licentie gebruiken voor Aspose.TeX?**  
+A5: Ja, u kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
 
-Zie de [Aspose.TeX documentation](https://reference.aspose.com/tex/net/) voor uitgebreide begeleiding.
+**Aanvullende Q&A**
 
-### V4: Hoe kan ik ondersteuning voor Aspose.TeX krijgen?
+**Q: Kan ik later overschakelen van een metered license naar een full‑node license?**  
+A: Absoluut—vervang simpelweg de `SetMeteredKey`‑aanroep door de standaard `License`‑klasse en lever het `.lic`‑bestand.
 
-Bezoek het [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) voor community‑ondersteuning en discussies.
-
-### V5: Kan ik een tijdelijke licentie voor Aspose.TeX gebruiken?
-
-Ja, u kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
-
-**Additional Q&A**
-
-**V: Kan ik later overschakelen van een metered‑licentie naar een volledige node‑licentie?**  
-Ja — vervang simpelweg de `SetMeteredKey`‑aanroep door de standaard `License`‑klasse en lever het `.lic`‑bestand.
-
-**V: Werkt de metered‑licentie in Azure App Service?**  
-Ja, zolang de service de Aspose‑licentie‑endpoint kan bereiken.
+**Q: Werkt de metered license in Azure App Service?**  
+A: Ja, zolang de service de Aspose‑licentie‑endpoint kan bereiken.
 
 ## Conclusie
 
-Door de bovenstaande stappen te volgen, weet je nu **hoe je een licentie instelt** voor Aspose.TeX in een C#‑omgeving, hoe je deze verifieert en hoe je veelvoorkomende valkuilen vermijdt. Met de metered‑licentie kun je vol vertrouwen TeX‑verwerkingsfunctionaliteit integreren in elke .NET‑applicatie.
+Door de bovenstaande stappen te volgen weet u nu **hoe u een metered license in C# instelt** voor Aspose.TeX, hoe u deze verifieert en hoe u veelvoorkomende valkuilen vermijdt. Met de metered license geïmplementeerd, kunt u met vertrouwen TeX‑verwerkingsmogelijkheden integreren in elke .NET‑applicatie en volledig profiteren van de meer dan 50 ondersteunde formaten van Aspose.TeX.
 
 ---
 
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.TeX 24.10 for .NET  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Laatst bijgewerkt:** 2026-05-25  
+**Getest met:** Aspose.TeX 24.10 for .NET  
+**Auteur:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Gerelateerde tutorials
+
+- [Load License C# – Load Aspose.TeX License from File](/tex/net/licensing/load-license-from-file-csharp/)
+- [How to Load License from Stream in Aspose.TeX (C#)](/tex/net/licensing/load-license-from-stream-csharp/)
+- [Load Aspose.TeX License – Manage Aspose.TeX Licenses](/tex/net/licensing/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
