@@ -69,13 +69,6 @@ Prozkoumejte Aspose.TeX pro .NET, robustní knihovnu pro bezproblémovou integra
 ### [Ovládněte streamy, obrázky a terminálový vstup v Aspose.TeX pro C#](./stream-input-image-output-terminal-input-csharp/)
 Prozkoumejte sílu Aspose.TeX pro C# při ovládání streamů, obrázků a terminálového vstupu bez námahy. Stáhněte si nyní pro bezproblémové zpracování dokumentů.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu změnit vstupní adresář za běhu?**  
@@ -98,3 +91,10 @@ A: Dvě výše uvedené odkazy na tutoriály obsahují kompletní ukázky kódu,
 **Last Updated:** 2026-03-21  
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

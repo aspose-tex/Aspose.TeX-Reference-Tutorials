@@ -69,13 +69,6 @@ Explora Aspose.TeX para .NET, una biblioteca robusta para una integración fluid
 ### [Master Streams, Images, & Terminal Input in Aspose.TeX for C#](./stream-input-image-output-terminal-input-csharp/)
 Explora el poder de Aspose.TeX para C# para dominar streams, imágenes y entrada de terminal sin esfuerzo. Descárgalo ahora para un procesamiento de documentos sin interrupciones.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **Q: ¿Puedo cambiar el directorio de entrada en tiempo de ejecución?**  
@@ -98,3 +91,10 @@ A: Los dos enlaces de tutoriales anteriores contienen ejemplos de código comple
 **Last Updated:** 2026-03-21  
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

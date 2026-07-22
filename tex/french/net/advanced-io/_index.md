@@ -69,13 +69,6 @@ Explorez Aspose.TeX pour .NET, une bibliothèque robuste pour une intégration t
 ### [Maîtriser les flux, les images & l'entrée terminale dans Aspose.TeX pour C#](./stream-input-image-output-terminal-input-csharp/)
 Explorez la puissance d'Aspose.TeX pour C# pour maîtriser les flux, les images et l'entrée terminale sans effort. Téléchargez dès maintenant pour un traitement de documents fluide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Questions fréquentes
 
 **Q : Puis‑je changer le répertoire d'entrée à l'exécution ?**  
@@ -98,3 +91,10 @@ R : Les deux liens de tutoriels ci‑dessus contiennent des exemples de code c
 **Dernière mise à jour :** 2026-03-21  
 **Testé avec :** Aspose.TeX 24.11 for .NET  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

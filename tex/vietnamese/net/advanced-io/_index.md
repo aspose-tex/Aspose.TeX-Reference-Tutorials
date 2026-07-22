@@ -66,13 +66,6 @@ Khám phá Aspose.TeX cho .NET, một thư viện mạnh mẽ cho việc tích h
 ### [Làm Chủ Streams, Images, & Terminal Input trong Aspose.TeX cho C#](./stream-input-image-output-terminal-input-csharp/)
 Khám phá sức mạnh của Aspose.TeX cho C# trong việc làm chủ streams, images và terminal input một cách dễ dàng. Tải xuống ngay để xử lý tài liệu một cách liền mạch.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu Hỏi Thường Gặp
 
 **Q: Tôi có thể thay đổi thư mục đầu vào tại thời gian chạy không?**  
@@ -95,3 +88,10 @@ A: Hai liên kết hướng dẫn ở trên chứa các mẫu mã đầy đủ m
 **Last Updated:** 2026-03-21  
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
