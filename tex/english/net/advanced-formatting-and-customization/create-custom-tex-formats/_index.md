@@ -1,6 +1,6 @@
 ---
-title: Create Custom LaTeX Format with Aspose.TeX for .NET
-linktitle: Create Unique LaTeX Designs with Aspose.TeX for .NET
+title: Generate Custom LaTeX Format Using Aspose.TeX .NET API
+linktitle: Generate Custom LaTeX Format with Aspose.TeX .NET API
 second_title: Aspose.TeX .NET API
 description: Learn how to create custom LaTeX format using Aspose.TeX for .NET – a step‑by‑step guide with code, prerequisites, and best practices.
 weight: 10
@@ -124,11 +124,9 @@ A: Yes, any `.sty` or `.tex` files placed in the input directory are compiled in
 By following these steps you now know how to **create custom LaTeX format** files with Aspose.TeX for .NET. This capability lets you pre‑compile frequently used packages, speed up document generation, and keep your build pipeline tidy. Experiment with different macro sets, integrate the format into larger automation workflows, and enjoy the performance boost.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
