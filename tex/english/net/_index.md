@@ -1,5 +1,5 @@
 ---
-title: "Generate PDF from LaTeX using Aspose.TeX for .NET – Full Tutorials"
+title: "Convert LaTeX to PDF with Aspose.TeX for .NET – Full Tutorials"
 linktitle: Aspose.TeX for .NET Tutorials
 weight: 10
 url: /net/

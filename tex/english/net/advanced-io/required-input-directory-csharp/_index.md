@@ -1,6 +1,6 @@
 ---
-title: Get File Stream (C#) Using Aspose.TeX API Required Input Directory
-linktitle: Get File Stream (C#) Using Aspose.TeX API Required Input Directory
+title: Get TeX File Stream (C#) Using Aspose.TeX API Required Input Directory
+linktitle: Get TeX File Stream (C#) Using Aspose.TeX API Required Input Directory
 second_title: Aspose.TeX .NET API
 description: Learn how to get file stream C# while specifying required input for Aspose.TeX .NET. Follow our step‑by‑step guide.
 weight: 10
@@ -177,4 +177,5 @@ A: Aspose.TeX works with .NET 5, .NET 6, and later, as well as .NET Framewor
 
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

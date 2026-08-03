@@ -1,6 +1,6 @@
 ---
-title: Generate Custom LaTeX Format Using Aspose.TeX .NET API
-linktitle: Generate Custom LaTeX Format with Aspose.TeX .NET API
+title: Generate Custom LaTeX Format Using Aspose.TeX for .NET
+linktitle: Generate Custom LaTeX Format with Aspose.TeX for .NET
 second_title: Aspose.TeX .NET API
 description: Learn how to create custom LaTeX format using Aspose.TeX for .NET – a step‑by‑step guide with code, prerequisites, and best practices.
 weight: 10
@@ -126,12 +126,9 @@ By following these steps you now know how to **create custom LaTeX format** file
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
----
 
 **Last Updated:** 2026-03-24  
 **Tested With:** Aspose.TeX 24.11 for .NET (latest at time of writing)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/main-wrap-class >}}
