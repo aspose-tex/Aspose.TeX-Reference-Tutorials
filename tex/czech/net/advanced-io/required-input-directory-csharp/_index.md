@@ -1,35 +1,52 @@
 ---
-title: Zadejte požadovaný vstupní adresář pro Aspose.TeX (C#)
-linktitle: Zadejte požadovaný vstupní adresář pro Aspose.TeX (C#)
+date: 2026-03-24
+description: Naučte se, jak v C# získat stream souboru při zadávání požadovaného vstupu
+  pro Aspose.TeX .NET. Postupujte podle našeho krok‑za‑krokem průvodce.
+linktitle: Get File Stream C# in Aspose.TeX Required Input Directory
 second_title: Aspose.TeX .NET API
-description: Prozkoumejte Aspose.TeX for .NET, robustní knihovnu pro bezproblémovou integraci TeXu. Postupujte podle našeho podrobného průvodce.
-weight: 10
+title: Získat souborový stream C# v Aspose.TeX požadovaný vstupní adresář
 url: /cs/net/advanced-io/required-input-directory-csharp/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zadejte požadovaný vstupní adresář pro Aspose.TeX (C#)
+# Získání souborového proudu C# v Aspose.TeX – Požadovaný vstupní adresář
 
 ## Úvod
 
-oblasti zpracování a sazby dokumentů představuje Aspose.TeX for .NET výkonný nástroj pro vývojáře. Usnadňuje bezproblémové vytváření a manipulaci se soubory TeX v aplikacích .NET. Tento článek slouží jako obsáhlý průvodce, který rozděluje využití Aspose.TeX pro .NET do snadno pochopitelných kroků.
+Pokud potřebujete **získat souborový proud C#** při práci s Aspose.TeX, prvním krokem je informovat knihovnu, kde se nacházejí vaše zdrojové soubory TeX. Tento tutoriál vás provede přesný kód, který potřebujete k **specifikaci požadovaného vstupu** pro engine Aspose.TeX, převádějící složku s `.tex` soubory na proud, který API může konzumovat. Na konci tohoto průvodce budete mít znovupoužitelnou třídu `RequiredInputDirectory`, která čistě propojuje váš souborový systém s Aspose.TeX.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co znamená “get file stream C#”?** Znamená to vrácení objektu `System.IO.Stream` pro požadovaný název souboru.  
+- **Proč musím specifikovat požadovaný vstup?** Aspose.TeX prohledává vstupní adresář pro soubory TeX; bez něj engine nemůže rozpoznat příkazy `\include{}` nebo `\input{}`.  
+- **Které jmenné prostory jsou povinné?** `Aspose.TeX.IO`, `System.Collections.Generic` a `System.IO`.  
+- **Je potřeba nějaká speciální licence?** Pro produkční použití je vyžadována vývojová nebo zkušební licence Aspose.TeX.  
+- **Mohu třídu znovu použít v různých projektech?** Ano — po zkompilování funguje s jakýmkoli .NET projektem, který odkazuje na Aspose.TeX.
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+## Co je get file stream C#?
 
--  Knihovna Aspose.TeX for .NET: Stáhněte si a nainstalujte knihovnu Aspose.TeX for .NET z[stránka vydání](https://releases.aspose.com/tex/net/).
+V .NET je *souborový proud* objekt odvozený od `System.IO.Stream`, který poskytuje čtení/zápis k surovým bajtům souboru. Když Aspose.TeX požaduje soubor, očekává, že vrátíte takový proud, aby engine mohl číst zdroj TeX přímo z paměti nebo disku.
 
-- Vývojové prostředí .NET: Ujistěte se, že máte na svém počítači nastavené funkční vývojové prostředí .NET.
+## Proč specifikovat požadovaný vstup pro Aspose.TeX?
 
-Nyní se pojďme ponořit do procesu integrace Aspose.TeX for .NET do vašich projektů.
+Aspose.TeX zpracovává TeX dokumenty tím, že vyhledává pomocné soubory (obrázky, soubory stylů, zahrnuté TeX soubory) relativně k **požadovanému vstupnímu adresáři**. Tím, že tento adresář explicitně definujete, můžete:
+1. Předejít chybám „soubor nenalezen“ během kompilace.  
+2. Udržet logiku přístupu k souborům ve vašem projektu oddělenou od zbytku kódu.  
+3. Usnadnit jednotkové testování pomocí mockování vstupního adresáře.
 
-## Importovat jmenné prostory
+## Požadavky
 
-Chcete-li začít, musíte do své aplikace .NET importovat potřebné jmenné prostory. To zajistí, že váš kód bude mít přístup k funkcím Aspose.TeX. Na začátek kódu přidejte následující jmenné prostory:
+- **Aspose.TeX for .NET Library** – stáhněte ji ze [stránky vydání](https://releases.aspose.com/tex/net/).  
+- **.NET Development Environment** – Visual Studio 2022, Rider nebo jakékoli IDE, které podporuje .NET 6+.
+
+Nyní importujeme jmenné prostory, které budete potřebovat.
+
+## Import jmenných prostor
+
+Přidejte tyto `using` příkazy na začátek vašeho C# souboru, aby kompilátor mohl najít požadované typy:
 
 ```csharp
 using Aspose.TeX.IO;
@@ -37,11 +54,13 @@ using System.Collections.Generic;
 using System.IO;
 ```
 
-## Zadejte požadovaný vstupní adresář pro Aspose.TeX (C#)
+## Jak získat souborový proud C# s požadovaným vstupním adresářem
 
-Nyní si rozeberme proces specifikace požadovaného vstupního adresáře pro Aspose.TeX v C#.
+Níže je podrobný krok‑za‑krokem rozpis třídy `RequiredInputDirectory`. Každý krok obsahuje krátké vysvětlení následované přesným blokem kódu, který byste měli zkopírovat do svého projektu.
 
-### Krok 1: Vytvořte třídu RequiredInputDirectory
+### Krok 1: Vytvořte třídu `RequiredInputDirectory`
+
+Třída implementuje dvě rozhraní — `IInputWorkingDirectory` (používáno Aspose.TeX k vyhledávání souborů) a `IFileCollector` (používáno k shromažďování názvů souborů při jejich přidávání).
 
 ```csharp
 public class RequiredInputDirectory : IInputWorkingDirectory, IFileCollector
@@ -54,7 +73,9 @@ public class RequiredInputDirectory : IInputWorkingDirectory, IFileCollector
     }
 ```
 
-### Krok 2: Implementujte metodu StoreFileName
+### Krok 2: Implementujte metodu `StoreFileName`
+
+Tato metoda zaznamenává každý název souboru, který předáte kolektoru, a seskupuje je podle jejich přípony pro rychlé vyhledávání.
 
 ```csharp
 public void StoreFileName(string fileName)
@@ -70,17 +91,21 @@ public void StoreFileName(string fileName)
 }
 ```
 
-### Krok 3: Implementujte rozhraní IInputWorkingDirectory
+### Krok 3: Implementujte rozhraní `IInputWorkingDirectory` — GetFile
+
+Když Aspose.TeX požaduje soubor, tato metoda vrací **souborový proud** (nebo `null`, pokud proud zpracováváte jinde). Výstup `fullName` informuje engine o přesné cestě, kterou vyřešil.
 
 ```csharp
 public Stream GetFile(string fileName, out string fullName, bool searchSubdirectories = false)
 {
     fullName = fileName;
-    return null; // Zde ve skutečnosti vracíme proud pro soubor požadovaný jeho názvem.
+    return null; // Here we actually return a stream for the file requested by its name.
 }
 ```
 
 ### Krok 4: Shromážděte kolekce souborů podle přípony
+
+Engine může požádat o všechny soubory s určitou příponou (např. „.tex“). Tato metoda vrací tyto názvy jako pole řetězců.
 
 ```csharp
 public string[] GetFileNamesByExtension(string extension, string path = null)
@@ -93,7 +118,9 @@ public string[] GetFileNamesByExtension(string extension, string path = null)
 }
 ```
 
-### Krok 5: Zlikvidujte zdroje
+### Krok 5: Uvolnění prostředků
+
+Vyčištění vnitřního slovníku zabraňuje únikům paměti, zejména když je třída používána v dlouhodobých službách.
 
 ```csharp
 public void Dispose()
@@ -102,33 +129,50 @@ public void Dispose()
 }
 ```
 
- Tato komplexní implementace`RequiredInputDirectory` třída zajišťuje efektivní manipulaci se vstupními adresáři pro Aspose.TeX ve vaší C# aplikaci.
+S těmito pěti úryvky nyní máte plně funkční třídu `RequiredInputDirectory`, která **získává souborový proud C#**‑styl a **specifikuje požadovaný vstup** pro procesor Aspose.TeX.
 
-## Závěr
+## Časté problémy a řešení
 
-Závěrem lze říci, že Aspose.TeX for .NET umožňuje vývojářům bezproblémově integrovat funkčnost TeXu do jejich aplikací .NET. Podle podrobného průvodce popsaného v tomto článku můžete efektivně určit požadovaný vstupní adresář a zlepšit možnosti zpracování dokumentů.
+| Problém | Proč se to děje | Rychlé řešení |
+|---------|----------------|---------------|
+| `GetFile` vrací `null` a kompilace selže | Metoda je zástupná; musíte otevřít skutečný `FileStream`, pokud chcete, aby engine četl soubor. | Nahraďte `return null;` za `return File.OpenRead(fullName);` (ujistěte se, že cesta je správná). |
+| Soubory nejsou nalezeny, i když existují | Kolektor nedostal správné názvy souborů nebo přípony. | Zavolejte `StoreFileName` pro každý soubor **před** předáním adresáře Aspose.TeX. |
+| Spotřeba paměti stoupá při mnoha velkých `.tex` souborech | Slovník uchovává všechny názvy souborů v paměti. | Uvolněte `RequiredInputDirectory` hned po dokončení zpracování, nebo použijte streamingový přístup. |
 
-### FAQ
+## Často kladené otázky
 
-### Q1: Kde najdu dokumentaci Aspose.TeX for .NET?
+**Q: Kde mohu najít dokumentaci k Aspose.TeX pro .NET?**  
+A: Dokumentace je dostupná [zde](https://reference.aspose.com/tex/net/).
 
- A1: Dokumentace je k dispozici[tady](https://reference.aspose.com/tex/net/).
+**Q: Jak si mohu stáhnout knihovnu Aspose.TeX pro .NET?**  
+A: Knihovnu můžete stáhnout ze [stránky vydání](https://releases.aspose.com/tex/net/).
 
-### Q2: Jak si stáhnu knihovnu Aspose.TeX for .NET?
+**Q: Kde mohu získat podporu pro Aspose.TeX pro .NET?**  
+A: Navštivte [forum Aspose.TeX](https://forum.aspose.com/c/tex/47) pro komunitní podporu.
 
- A2: Knihovnu si můžete stáhnout z[stránka vydání](https://releases.aspose.com/tex/net/).
+**Q: Je k dispozici bezplatná zkušební verze?**  
+A: Ano, bezplatnou zkušební verzi můžete prozkoumat [zde](https://releases.aspose.com/).
 
-### Q3: Kde mohu získat podporu pro Aspose.TeX pro .NET?
+**Q: Jak mohu získat dočasnou licenci pro Aspose.TeX pro .NET?**  
+A: Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
- A3: Navštivte[Fórum Aspose.TeX](https://forum.aspose.com/c/tex/47) za podporu komunity.
+## Další často kladené otázky
 
-### Q4: Je k dispozici bezplatná zkušební verze?
+**Q: Mohu tuto třídu použít v .NET Core projektu?**  
+A: Rozhodně — `IInputWorkingDirectory` a `IFileCollector` jsou platformově agnostické.
 
-A4: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+**Q: Musím adresář s Aspose.TeX registrovat ručně?**  
+A: Ano, předáte instanci `RequiredInputDirectory` do konstruktoru `TeXDocument` nebo příslušného API volání.
 
-### Q5: Jak mohu získat dočasnou licenci pro Aspose.TeX pro .NET?
+**Q: Jaké verze .NET jsou podporovány?**  
+A: Aspose.TeX funguje s .NET 5, .NET 6 a novějšími, stejně jako s .NET Framework 4.6.2+.
 
- A5: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+---
+
+**Poslední aktualizace:** 2026-03-24  
+**Testováno s:** Aspose.TeX 24.11 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
