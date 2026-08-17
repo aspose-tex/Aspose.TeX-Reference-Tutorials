@@ -1,11 +1,10 @@
 ---
-date: 2025-12-20
-description: Aspose.TeX for .NET kullanarak TeX işinin XPS çıktısını nasıl oluşturacağınızı,
-  dosya sistemi giriş/çıkışını nasıl yöneteceğinizi ve yüksek kaliteli XPS belgeleri
-  nasıl üreteceğinizi öğrenin.
-linktitle: Create TeX Job XPS Output with Filesystems – Aspose.TeX for .NET
+date: 2026-03-26
+description: Aspose.TeX for .NET kullanarak TeX'ten XPS oluşturmayı, dosya sistemi
+  giriş/çıkışını yönetmeyi ve yüksek kaliteli XPS belgeleri üretmeyi öğrenin.
+linktitle: Create XPS from TeX with Filesystems – Aspose.TeX for .NET
 second_title: Aspose.TeX .NET API
-title: Dosya Sistemleriyle TeX İş XPS Çıktısı Oluşturma – Aspose.TeX for .NET
+title: Dosya Sistemleriyle TeX'ten XPS Oluşturma – Aspose.TeX for .NET
 url: /tr/net/file-input-output/filesystem-input-xps-output/
 weight: 10
 ---
@@ -14,136 +13,148 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dosya Sistemleriyle TeX İş XPS Çıktısı Oluşturma – Aspose.TeX for .NET
+# Create XPS from TeX with Filesystems – Aspose.TeX for .NET
 
-## Giriiş
+## Introduction
 
-Hoş geldiniz! Bu öğreticide **TeX iş XPS çıkışı nasıl oluşturulur**, Aspose.TeX for .NET kullanarak dosya sistemi giriş ve çıkışlarıyla birlikte dosya sistemi bilgilerini içerir. Bir toplu işlemci, bir web hizmeti ya da bir bilgisayar yardımcı programı oluşturulsun, aşağıdaki adımların takibiniz, dosyalarınıza yönlendirmeniz ve orijinal LaTeX kaynağıyla aynı görünüme sahip XPS belgeleri üretmeniz konusunda size rehberlik edecek.
+Welcome! In this tutorial you’ll learn **how to create XPS from TeX** while working with filesystem input and output using Aspose.TeX for .NET. Whether you’re building a batch processor, a web service, or a desktop utility, the steps below will guide you through configuring the engine, pointing it at your files, and producing XPS documents that look exactly like the original LaTeX source.
 
-Süreçleri net, adımları adımlara bölecek, her kod bölümünün “neden”ini açıklayacak ve hemen uygulayabileceğiniz pratik ipuçları sunacağız.
+We’ll break the process into clear, numbered steps, explain the “why” behind each line of code, and give you practical tips you can apply right away.
 
-## Hızlı Yanıtlar
-- **“create tex job xps” ne anlama geliyor?** Aspose.TeX işlemlerini, TeX işlemlerinin sonucunu bir XPS belgesi olarak yazacak şekilde çözümlemeyi ifade eder.
-- **Lisans gerekli mi?** Test için geçici bir lisans mevcuttur; üretim için tam lisans gereklidir.
-- **Hangi .NET uzantısı destekleniyor mu?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
-- **Çıktı formatını etkileyebilir miyim?** Evet – `XpsDevice` yerine başka bir cihaz (PDF, PNG vb.) kullanabilirsiniz.
-- **Konsol çıkışı zorunlu mu?** Hayır – sessiz çalıştırma için bir bellek terminalini kullanabilirsiniz.
+## Quick Answers
+- **What does “create XPS from TeX” mean?** It refers to configuring an Aspose.TeX job that reads TeX files and writes the result as an XPS document.  
+- **Do I need a license?** A temporary license is available for testing; a full license is required for production.  
+- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Can I change the output format?** Yes – replace `XpsDevice` with another device (PDF, PNG, etc.).  
+- **Is console output required?** No – you can use a memory terminal for silent execution.
 
-## "tex job xps oluştur" nedir?
+## How to create XPS from TeX using Aspose.TeX
 
-XPS çıkışı veren bir TeX işi oluşturun, Aspose.TeX motorunu çalıştırın, dosyaları Nereden okuyacağını belirtin ve parçaları bir XPS paketine yönlendirmek için gelir. XPS (XML Kağıt Spesifikasyonu), tipografi ve vektör grafikleri koruyan sabit‑düzen bir formattır; bu da onu baskı veya sonraki dönüşümler için idealdir.
+Creating a TeX job that outputs XPS means initializing the Aspose.TeX engine, telling it where to read source files, and directing the rendered pages into an XPS package. XPS (XML Paper Specification) is a fixed‑layout format that preserves typography and vector graphics, making it ideal for printing or further conversion.
 
-## XPS çıktısı için neden Aspose.TeX kullanılmalı?
+## What is “create tex job xps”?
 
-- **Yüksek doğruluk:** Motor, LaTeX yerleşimini XPS içinde doğru bir şekilde yeniden üretir.
-- **Harici ilişkileri yok:** Saf .NET kütüphanesi, yerel LaTeX kurulumlarına ihtiyaç duymaz.
-- **Esnek I/O:** Dosya sistemi dizinleri, bellek depoları veya özel sağlayıcılarla çalışır.
-- **Ölçeklenebilir:** Tek dosya dönüşümlerinden toplu işleme hatlarına kadar uygundur.
+Creating a TeX job that outputs XPS means initializing the Aspose.TeX engine, telling it where to read source files, and directing the rendered pages into an XPS package. XPS (XML Paper Specification) is a fixed‑layout format that preserves typography and vector graphics, making it ideal for printing or further conversion.
 
-## Önkoşullar
+## Why use Aspose.TeX for XPS output?
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+- **High fidelity:** The engine reproduces LaTeX layout accurately in XPS.  
+- **No external dependencies:** Pure .NET library, no need for native LaTeX installations.  
+- **Flexible I/O:** Works with filesystem directories, memory streams, or custom providers.  
+- **Scalable:** Suitable for single‑file conversions or bulk processing pipelines.
 
-- **Aspose.TeX for .NET** – en son sürümü [Aspose web sitesinde](https://releases.aspose.com/tex/net/) indir.
-- **.NET geliştirme ortamı** – Visual Studio, Rider veya .NET SDK yüklü VS Code.
-- **Giriş & çıkış klasörleri** – makinenizde iki dizin oluşturma (örn. `C:\TeX\Input` ve `C:\TeX\Output`).
-- **Lisans (test için evrensel bağlı)** – geçici bir lisansı Aspose portalından alabilirsiniz.
+## Prerequisites
 
-## Ad Alanlarını İçe Aktar
+Before we dive in, ensure you have the following:
 
-İlk olarak, dosya sistemi yardımcılarını ve XPS cihazını kullanabilmek için gerekli ad alanlarını kapsam içine alın.
+- **Aspose.TeX for .NET** – download the latest version from the [Aspose website](https://releases.aspose.com/tex/net/).  
+- **.NET development environment** – Visual Studio, Rider, or VS Code with the .NET SDK.  
+- **Input & output folders** – create two directories on your machine (e.g., `C:\TeX\Input` and `C:\TeX\Output`).  
+- **License (optional for testing)** – you can obtain a temporary license from the Aspose portal.
+
+## Import Namespaces
+
+First, bring the required namespaces into scope so you can access filesystem helpers and the XPS device.
 
 ```csharp
 using Aspose.TeX.IO;
 using Aspose.TeX.Presentation.Xps;
 ```
 
-Bu ad alanları `InputFileSystemDirectory`, `OutputFileSystemDirectory` ve `XpsDevice` öğelerini ortaya çıkarır; **create tex job xps** iş akışı için bunlar vazgeçilmezdir.
+These namespaces expose `InputFileSystemDirectory`, `OutputFileSystemDirectory`, and `XpsDevice`, which are essential for the **create XPS from TeX** workflow.
 
-## 1. Adım: Dönüşüm Seçenekleri Oluşturun
+## Step 1: Create Conversion Options
 
-Motorun çoğu LaTeX kaynağı için varsayılan olan ObjectTeX yapılandırmasını kullanmasını söyleyen bir `TeXOptions` nesnesi oluşturuyoruz.
+We start by building a `TeXOptions` object that tells the engine to use the ObjectTeX configuration (the default for most LaTeX sources).
 
 ```csharp
 TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
 ```
 
-> **Pro tip:** `ConsoleAppOptions` konsol‑türünde uygulamalar için mantıklı varsayılanlar ayarlar, ancak isterseniz seçenekleri daha sonra özelleştirebilirsiniz.
+> **Pro tip:** `ConsoleAppOptions` sets sensible defaults for console‑style applications, but you can customize the options later if needed.
 
-## Adım 2: Giriş ve Çıkış Dizinlerini Belirtin
+## Step 2: Specify Input and Output Directories
 
-Motoru önceden hazırladığınız klasörlere yönlendirin. Yer tutucu metinleri makinenizdeki gerçek yollarla değiştirin.
+Point the engine at the folders you prepared earlier. Replace the placeholder strings with the actual paths on your machine.
 
 ```csharp
 options.InputWorkingDirectory = new InputFileSystemDirectory("Your Input Directory");
 options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 ```
 
-Artık TeX işi `.tex` dosyalarını nerede bulacağını ve oluşturulan XPS dosyalarını nereye bırakacağını biliyor.
+Now the TeX job knows where to find `.tex` files and where to drop the generated XPS files.
 
-## Adım 3: Bir Çıkış Terminali Seçin
+## Step 3: Choose an Output Terminal
 
-Terminal, durum mesajlarının nereye yazılacağını kontrol eder. Hızlı hata ayıklama için konsolu kullanacağız, ancak sessiz çalıştırmalar için bir bellek terminaline geçebilirsiniz.
+The terminal controls where status messages are written. For quick debugging we’ll stick with the console, but you can switch to a memory terminal for silent runs.
 
 ```csharp
 options.TerminalOut = new OutputConsoleTerminal(); // Default value. Arbitrary assignment.
 ```
 
-> **Neden önemli:** Konsol terminali, derleme uyarılarını veya hatalarını anında görmenizi sağlar; bu da sorun giderme sürecini hızlandırır.
+> **Why this matters:** Using a console terminal gives you immediate feedback about compilation warnings or errors, which speeds up troubleshooting.
 
-## Adım 4: TeX İşlemini Çalıştırın
+## Step 4: Run the TeX Job
 
-Bir `TeXJob` örneği oluşturun, ona açıklayıcı bir ad verin, `XpsDevice`i ekleyin ve çalıştırın.
+Create a `TeXJob` instance, give it a friendly name, attach the `XpsDevice`, and execute it.
 
 ```csharp
 TeXJob job = new TeXJob("hello-world", new XpsDevice(), options);
 job.Run();
 ```
 
-`Run()` tamamlandığında, çıkış klasöründe bir `hello-world.xps` dosyası bulacaksınız.
+When `Run()` completes, you’ll find an `hello-world.xps` file in the output directory.
 
-## Adım 5: Konsol Çıktısını İnce Ayarlayın
+## Step 5: Fine‑Tune the Console Output
 
-İş tamamlandıktan sonra boş bir satır eklemek, özellikle bir toplu işte birden fazla işi çalıştırdığınızda, konsol günlüğünü daha okunaklı hâle getirir.
+Adding a blank line after the job finishes makes the console log easier to read, especially when you run multiple jobs in a batch.
 
 ```csharp
 options.TerminalOut.Writer.WriteLine();
 ```
 
-## Yaygın Sorunlar ve Çözümler
+## Common Use Cases
 
-| Sorun | Neden | Çözüm |
-|----------|-------|-------|
-| **XPS dosyası boş** | Çıkışların yolu hatalı veya yazılabilir değil. | `OutputFileSystemDirectory`e verilen yolu doğrulayın ve işlemin yazma iznine sahip olduğunuzdan emin olun. |
-| **Derleme hataları** | LaTeX kaynağı, ObjectTeX ile paketlenmemiş paketler kullanılıyor. | Tam bir TeX motoru kontrolüne (`TeXConfig.FullTeX()`) geçin veya eksik paketteki giriş bileşenlerine ekleyin. |
-| **Konsol alınıyor** | Terminal, iletişimli istemler nedeniyle girmeyi bekliyor. | Otomatik betiklerde etkileşimli istemleri bastırmak için `OutputMemoryTerminal` kullanın. |
+| Scenario | Why XPS? | How the snippet helps |
+|----------|----------|-----------------------|
+| **Batch conversion of academic papers** | Preserve exact layout for archival printing. | The filesystem‑based approach lets you point at a folder of `.tex` files and output a matching set of XPS files. |
+| **Web service that renders LaTeX on‑the‑fly** | XPS can be streamed directly to browsers that support it. | By swapping `XpsDevice` with a memory stream you can return the document without touching the disk. |
+| **Desktop publishing tool** | Need a fixed‑layout preview before PDF conversion. | The same job can be chained to a PDF device later for final distribution. |
 
-## Sıkça Sorulan Sorular
+## Common Issues and Solutions
 
-**S1: XPS yerine farklı bir çıktı formatı kullanabilir miyim?**
-C1: Evet, Aspose.TeX PDF, PNG, SVG ve diğer formatları. `new XpsDevice()` cihazına uygun cihaz sınıfıyla (ör. `new PdfDevice()`) onaylandı.
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **XPS file is empty** | Output directory path is incorrect or not writable. | Verify the path passed to `OutputFileSystemDirectory` and ensure the process has write permissions. |
+| **Compilation errors** | LaTeX source uses packages not bundled with ObjectTeX. | Switch to a full TeX engine configuration (`TeXConfig.FullTeX()`) or add missing package files to the input directory. |
+| **Console hangs** | Terminal waiting for input due to interactive prompts. | Use `OutputMemoryTerminal` to suppress interactive prompts in automated scripts. |
 
-**S2: Test amaçlı geçici bir lisans mevcut mu?**
-C2: Evet, [bu linkten](https://purchase.aspose.com/temporary-license/) test için geçici bir lisans alabilirsiniz.
+## Frequently Asked Questions
 
-**S3: Ek belgelemeyi nerede öğrenebilirim?**
-C3: Ayrıntılı bilgi için [Aspose.TeX for .NET belgelerine](https://reference.aspose.com/tex/net/) göz atın.
+**Q1: Can I use a different output format instead of XPS?**  
+A1: Yes, Aspose.TeX supports PDF, PNG, SVG, and other formats. Replace `new XpsDevice()` with the appropriate device class (e.g., `new PdfDevice()`).
 
-**S4: Topluluk desteği soru sorulursa nasıl alınır?**
-C4: Topluluk desteği ve tartışmalar için [Aspose.TeX forumunu](https://forum.aspose.com/c/tex/47) ziyaret edin.
+**Q2: Is a temporary license available for testing purposes?**  
+A2: Yes, you can obtain a temporary license for testing from [this link](https://purchase.aspose.com/temporary-license/).
 
-**S5: Örnek projeler var mı?**
-C5: Aspose.TeX GitHub deposunda örnek projeler ve kodlar bulunabilir.
+**Q3: Where can I find additional documentation?**  
+A3: Refer to the [Aspose.TeX for .NET documentation](https://reference.aspose.com/tex/net/) for detailed information.
 
-## Çözüm
+**Q4: How can I get community support or ask questions?**  
+A4: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support and discussions.
 
-Yukarıdaki adımları izliyor, Aspose.TeX for .NET kullanarak **TeX iş XPS çıktısı oluşturmayı**, giriş ve çıkış klasörlerinizi yönetmeyi ve süreci hem geliştirme hem de üretim senaryoları için nasıl ince ayar parçalarını ayırmanız. Diğer çıkışlı cihazlarla denemeler yapılarak, bu mantık daha büyük iş akışlarına entegre edilmekten veya toplu dönüşümleri otomatikleştirmekten ibarettir.
+**Q5: Are there any sample projects available?**  
+A5: Explore the Aspose.TeX GitHub repository for sample projects and code snippets.
+
+## Conclusion
+
+By following the steps above, you now know how to **create XPS from TeX** using Aspose.TeX for .NET, manage your input and output folders, and fine‑tune the process for both development and production scenarios. Feel free to experiment with other output devices, integrate this logic into larger workflows, or automate batch conversions.
 
 ---
 
-**Son Güncelleme:** 2025-12-20
-**Test Edilen Sürüm:** Aspose.TeX 24.11 for .NET (yazım anındaki en güncel sürüm)
-**Yazar:** Aspose  
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.TeX 24.11 for .NET (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
