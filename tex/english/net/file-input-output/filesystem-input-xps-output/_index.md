@@ -62,7 +62,7 @@ using Aspose.TeX.Presentation.Xps;
 
 These namespaces expose `InputFileSystemDirectory`, `OutputFileSystemDirectory`, and `XpsDevice`, which are essential for the **create XPS from TeX** workflow.
 
-## Step 1: Create Conversion Options
+## Step 1: create conversion options
 
 We start by building a `TeXOptions` object that tells the engine to use the ObjectTeX configuration (the default for most LaTeX sources).
 
@@ -72,7 +72,7 @@ TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX());
 
 > **Pro tip:** `ConsoleAppOptions` sets sensible defaults for console‑style applications, but you can customize the options later if needed.
 
-## Step 2: Specify Input and Output Directories
+## Step 2: specify input and output directories
 
 Point the engine at the folders you prepared earlier. Replace the placeholder strings with the actual paths on your machine.
 
@@ -83,7 +83,7 @@ options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Dire
 
 Now the TeX job knows where to find `.tex` files and where to drop the generated XPS files.
 
-## Step 3: Choose an Output Terminal
+## Step 3: choose an output terminal
 
 The terminal controls where status messages are written. For quick debugging we’ll stick with the console, but you can switch to a memory terminal for silent runs.
 
@@ -93,7 +93,7 @@ options.TerminalOut = new OutputConsoleTerminal(); // Default value. Arbitrary a
 
 > **Why this matters:** Using a console terminal gives you immediate feedback about compilation warnings or errors, which speeds up troubleshooting.
 
-## Step 4: Run the TeX Job
+## Step 4: run the teX job
 
 Create a `TeXJob` instance, give it a friendly name, attach the `XpsDevice`, and execute it.
 
@@ -104,7 +104,7 @@ job.Run();
 
 When `Run()` completes, you’ll find an `hello-world.xps` file in the output directory.
 
-## Step 5: Fine‑Tune the Console Output
+## Step 5: fine‑Tune the console output
 
 Adding a blank line after the job finishes makes the console log easier to read, especially when you run multiple jobs in a batch.
 
@@ -112,7 +112,7 @@ Adding a blank line after the job finishes makes the console log easier to read,
 options.TerminalOut.Writer.WriteLine();
 ```
 
-## Common Use Cases
+## Common use cases
 
 | Scenario | Why XPS? | How the snippet helps |
 |----------|----------|-----------------------|
@@ -120,7 +120,7 @@ options.TerminalOut.Writer.WriteLine();
 | **Web service that renders LaTeX on‑the‑fly** | XPS can be streamed directly to browsers that support it. | By swapping `XpsDevice` with a memory stream you can return the document without touching the disk. |
 | **Desktop publishing tool** | Need a fixed‑layout preview before PDF conversion. | The same job can be chained to a PDF device later for final distribution. |
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -128,13 +128,13 @@ options.TerminalOut.Writer.WriteLine();
 | **Compilation errors** | LaTeX source uses packages not bundled with ObjectTeX. | Switch to a full TeX engine configuration (`TeXConfig.FullTeX()`) or add missing package files to the input directory. |
 | **Console hangs** | Terminal waiting for input due to interactive prompts. | Use `OutputMemoryTerminal` to suppress interactive prompts in automated scripts. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I use a different output format instead of XPS?**  
 A1: Yes, Aspose.TeX supports PDF, PNG, SVG, and other formats. Replace `new XpsDevice()` with the appropriate device class (e.g., `new PdfDevice()`).
 
 **Q2: Is a temporary license available for testing purposes?**  
-A2: Yes, you can obtain a temporary license for testing from [this link](https://purchase.aspose.com/temporary-license/).
+A2: Yes, you can obtain a temporary license for testing from the [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 **Q3: Where can I find additional documentation?**  
 A3: Refer to the [Aspose.TeX for .NET documentation](https://reference.aspose.com/tex/net/) for detailed information.

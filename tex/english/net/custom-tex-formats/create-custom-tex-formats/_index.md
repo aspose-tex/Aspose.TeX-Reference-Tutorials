@@ -49,7 +49,7 @@ using System.IO;
 using System.Text;
 ```
 
-## Step 1: Create the Format Provider
+## Step 1: create the format provider
 
 The `FormatProvider` points the engine to the folder that contains your custom format file (`customtex.fmt`). Replace `"Your Output Directory"` with the path where you stored the compiled format.
 
@@ -70,7 +70,7 @@ Here we build the `TeXOptions` object. Notice the `InputWorkingDirectory` – th
     options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 ```
 
-## Step 3: Run the Job
+## Step 3: run the job
 
 Now we feed a simple TeX string to the engine, choose an output device (XPS in this example), and execute the job.
 
@@ -80,7 +80,7 @@ Now we feed a simple TeX string to the engine, choose an output device (XPS in t
         new XpsDevice(), options).Run();
 ```
 
-## Step 4: Polish the Terminal Output
+## Step 4: polish the terminal output
 
 Adding a blank line makes the console output easier to read, especially when you run multiple jobs in a batch.
 
@@ -92,7 +92,7 @@ Adding a blank line makes the console output easier to read, especially when you
 
 Congratulations! You've now **created a custom tex format** and successfully used it to typeset a document in .NET.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -101,22 +101,22 @@ Congratulations! You've now **created a custom tex format** and successfully use
 | *Terminal output garbled* | Encoding mismatch | Use `Encoding.UTF8` if your TeX source contains non‑ASCII characters. |
 | *XPS file is empty* | Job did not run due to earlier exception | Check the console for error messages; they often indicate missing packages or syntax errors in the TeX string. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I use Aspose.TeX for .NET with other document processing libraries?
 A1: Yes, Aspose.TeX is designed to integrate seamlessly with other Aspose document processing libraries for comprehensive document handling.
 
 ### Q2: Is there a free trial available for Aspose.TeX for .NET?
-A2: Yes, you can access the free trial [here](https://releases.aspose.com/).
+A2: Yes, you can access the free trial **Aspose.TeX free trial download page** (https://releases.aspose.com/).
 
 ### Q3: How can I get support for Aspose.TeX for .NET?
-A3: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support or explore premium support options [here](https://purchase.aspose.com/buy).
+A3: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support or explore premium support options on the **premium support purchase page** (https://purchase.aspose.com/buy).
 
 ### Q4: Are temporary licenses available for Aspose.TeX for .NET?
-A4: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A4: Yes, you can obtain a temporary license on the **temporary license request page** (https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Where can I find the documentation for Aspose.TeX for .NET?
-A5: Refer to the comprehensive documentation [here](https://reference.aspose.com/tex/net/).
+A5: Refer to the comprehensive documentation on the **API reference documentation** (https://reference.aspose.com/tex/net/).
 
 **Additional Q&A**
 
@@ -130,15 +130,22 @@ A: Yes. Any change to macros or engine settings requires re‑running `tex -ini`
 
 In conclusion, Aspose.TeX for .NET provides a robust solution for **create custom tex format** scenarios, giving developers unprecedented control over document typesetting. Experiment with different configurations, set the appropriate tex input directory, and integrate the workflow into your larger .NET applications for automated, high‑quality document generation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
 **Last Updated:** 2026-03-26  
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

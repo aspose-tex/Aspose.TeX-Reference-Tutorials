@@ -29,14 +29,23 @@ If you’re looking for **how to create XPS** documents with Aspose.TeX, you’r
 
 Creating an XPS document means converting a TeX or LaTeX source into the XML‑Paper Specification (XPS) format, which preserves layout, fonts, and vector graphics for high‑quality printing and on‑screen rendering. This process is the core of **how to create XPS** with the library.
 
-## Why Use Aspose.TeX for File Input and Output?
+Here is a minimal example that demonstrates loading a TeX file and exporting it to XPS:
+
+```csharp
+// Load a TeX file and export to XPS
+var loadOptions = new LoadOptions();
+var doc = new Document("sample.tex", loadOptions);
+doc.Save("sample.xps", SaveFormat.Xps);
+```
+
+## Why use Aspose.TeX for file input and output?
 
 - **Unified API** – Handles plain files, entire directories, and ZIP archives with the same code path.  
 - **High fidelity** – The generated XPS output mirrors the original TeX layout.  
 - **Performance‑focused** – Optimized for large documents and batch processing, perfect for **batch convert tex** scenarios.  
 - **Cross‑platform** – Works on Windows, Linux, and macOS via .NET Core.
 
-## Understanding Filesystems & XPS Output
+## Understanding filesystems & XPS output
 
 In Aspose.TeX, the **filesystem** abstraction lets you point the API to a folder, a single file, or a compressed archive. Once the source is loaded, you can invoke the XPS exporter to **create XPS documents**. This approach simplifies scenarios such as:
 
@@ -46,7 +55,7 @@ In Aspose.TeX, the **filesystem** abstraction lets you point the API to a folder
 If you want to explore a step‑by‑step example, head over to the dedicated guide:  
 [Work with Filesystems & XPS Output in Aspose.TeX for .NET](./filesystem-input-xps-output/)
 
-## Efficient Handling of Filesystem & ZIP Inputs
+## Efficient handling of filesystem & ZIP inputs
 
 Aspose.TeX shines when you need to **read TeX files** from diverse sources:
 
@@ -60,13 +69,13 @@ These capabilities make it easy to **work with filesystem** structures and **ZIP
 
 When you have dozens or hundreds of TeX sources, you can **batch convert tex** files by pointing the API at a root folder or a ZIP archive that contains the entire batch. The library will iterate over each `.tex` entry, render it, and save the resulting XPS files side‑by‑side, dramatically reducing manual effort.
 
-## Common Use Cases
+## Common use cases
 
 - **Automated report generation** – Convert LaTeX‑based financial reports into XPS for secure distribution.  
 - **Batch conversion pipelines** – Process thousands of TeX files stored in network shares or ZIP bundles.  
 - **Legacy document archiving** – Preserve old TeX documents as XPS files for long‑term storage.
 
-## Tips & Best Practices
+## Tips & best practices
 
 - **Pro tip:** Use the `LoadOptions` object to specify encoding when **reading TeX files** that contain non‑ASCII characters.  
 - **Avoid pitfalls:** Ensure that all required font files are accessible to the renderer; missing fonts can cause layout differences in the XPS output.  
@@ -83,7 +92,7 @@ Discover the power of Aspose.TeX for .NET. Learn how to effortlessly handle file
 ### [Work with Filesystem & ZIP Inputs in Aspose.TeX for .NET](./required-inputs-from-filesystem-and-zip/)
 Explore Aspose.TeX for .NET, a robust library for TeX and LaTeX document handling. Efficiently convert files with filesystem and ZIP inputs.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I **read TeX** files from a ZIP archive?**  
 A: Use the `LoadOptions` constructor that accepts a `Stream` and pass the ZIP file stream; Aspose.TeX will automatically locate and read the `.tex` entries.

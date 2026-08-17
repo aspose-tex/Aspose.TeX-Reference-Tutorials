@@ -39,7 +39,7 @@ Converting TeX to PNG means taking a TeX markup string (the language used for sc
 ## Prerequisites
 
 - Basic C# knowledge.  
-- Aspose.TeX for .NET installed – you can download it **[here](https://releases.aspose.com/tex/net/)**.  
+- Aspose.TeX for .NET installed – you can download it from the **[Aspose.TeX for .NET download page](https://releases.aspose.com/tex/net/)**.  
 - A C# development environment (Visual Studio, VS Code, Rider, etc.).  
 
 ## Import Namespaces
@@ -53,7 +53,7 @@ using System.IO;
 using System.Text;
 ```
 
-## Step 1: Set Up Conversion Options
+## Step 1: set up conversion options
 
 Configure the conversion pipeline. Here we tell Aspose.TeX to treat the application as a console app, specify input/output folders, route terminal I/O, and request PNG output at 300 dpi.
 
@@ -68,7 +68,7 @@ options.TerminalOut = new OutputConsoleTerminal();
 options.SaveOptions = new PngSaveOptions() { Resolution = 300 };
 ```
 
-## Step 2: Create Image Device and Run the Job
+## Step 2: create image device and run the job
 
 The `ImageDevice` captures the rendered PNG data. We feed a simple TeX snippet via a `MemoryStream`, run the job, and let Aspose.TeX do the heavy lifting.
 
@@ -84,7 +84,7 @@ job.Run();
 
 When the console prompts, type **ABC**, press **Enter**, then type **\end** and press **Enter** again. This demonstrates how terminal input can be captured while the TeX engine is running.
 
-## Step 4: Fine‑Tune Output
+## Step 4: fine‑Tune output
 
 After the job finishes, you can write a line break to the console and retrieve the raw PNG bytes from the device. The `result` array holds one PNG image per page.
 
@@ -96,7 +96,7 @@ byte[][] result = device.Result;
 
 You can now save `result[0]` to a file, send it over a network, or embed it directly into a UI component.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -105,7 +105,7 @@ You can now save `result[0]` to a file, send it over a network, or embed it dire
 | **Incorrect image size** | Default DPI is 96. | Increase `Resolution` in `PngSaveOptions`. |
 | **File‑system paths not found** | Wrong working directory strings. | Use absolute paths or verify directories exist before running. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I use Aspose.TeX for .NET in a non‑console application?
 
@@ -117,15 +117,15 @@ A2: In the example, the resolution is set via `PngSaveOptions.Resolution`. Chang
 
 ### Q3: Is there a trial version available?
 
-A3: Yes, you can explore Aspose.TeX with a free trial available **[here](https://releases.aspose.com/)**.
+A3: Yes, you can explore Aspose.TeX with a free trial available on the **[Aspose.TeX free trial page](https://releases.aspose.com/)**.
 
 ### Q4: Where can I find additional support and assistance?
 
-A4: Visit the Aspose.TeX forum **[here](https://forum.aspose.com/c/tex/47)** for community support and discussions.
+A4: Visit the Aspose.TeX community forum on **[Aspose.TeX forum](https://forum.aspose.com/c/tex/47)** for community support and discussions.
 
 ### Q5: How can I obtain a temporary license for Aspose.TeX?
 
-A5: You can acquire a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
+A5: You can acquire a temporary license through the **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
 ## Conclusion
 
