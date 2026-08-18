@@ -1,7 +1,7 @@
 ---
-title: Render LaTeX to PNG Image Using Aspose.TeX .NET API
-linktitle: Render LaTeX to PNG Image Using Aspose.TeX .NET API
-second_title: Aspose.TeX .NET API
+title: Render LaTeX to PNG Images with Aspose.TeX for .NET
+linktitle: Render LaTeX to PNG Images with Aspose.TeX for .NET
+second_title: Aspose.TeX for .NET
 description: Learn how to convert LaTeX to image using Aspose.TeX – create LaTeX math images in PNG with a simple C# guide.
 weight: 26
 url: /net/render-latex-math/
@@ -13,13 +13,13 @@ keywords:
 - LaTeX PNG C#
 schemas:
 - type: TechArticle
-  headline: Render LaTeX to PNG Image Using Aspose.TeX .NET API
+  headline: Render LaTeX to PNG Images with Aspose.TeX for .NET
   description: Learn how to convert LaTeX to image using Aspose.TeX – create LaTeX
     math images in PNG with a simple C# guide.
   dateModified: '2026-05-25'
   author: Aspose
 - type: HowTo
-  name: Render LaTeX to PNG Image Using Aspose.TeX .NET API
+  name: Render LaTeX to PNG Images with Aspose.TeX for .NET
   description: Learn how to convert LaTeX to image using Aspose.TeX – create LaTeX
     math images in PNG with a simple C# guide.
   steps:

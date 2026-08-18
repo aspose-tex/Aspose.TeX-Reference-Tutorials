@@ -1,6 +1,6 @@
 ---
-title: Render LaTeX as PNG with Aspose.TeX for .NET – Using Filesystem & ZIP Inputs
-linktitle: Render LaTeX as PNG with Aspose.TeX for .NET – Using Filesystem & ZIP Inputs
+title: Convert LaTeX to PNG with Aspose.TeX for .NET – Using Filesystem & ZIP Inputs
+linktitle: Convert LaTeX to PNG with Aspose.TeX for .NET – Using Filesystem & ZIP Inputs
 second_title: Aspose.TeX .NET API
 description: Learn how to **convert LaTeX to PNG** using Aspose.TeX for .NET. This guide shows you how to save LaTeX as PNG, configure output directory, and handle filesystem or ZIP inputs efficiently.
 weight: 11
@@ -219,9 +219,9 @@ You’ve now learned how to **convert LaTeX to PNG**, **save LaTeX as PNG**, and
 
 ## Related Tutorials
 
-{{< relref "../../../net/advanced-io/required-input-directory-csharp/_index.md" >}}Specify Required Input Directory for Aspose.TeX (C#){{< /relref >}}
-{{< relref "../../../net/zip-file-io/_index.md" >}}How to Read Zip Files Using Aspose.TeX for .NET{{< /relref >}}
-{{< relref "../../../net/latex-conversion/to-svg/_index.md" >}}Create SVG from LaTeX in .NET with Aspose.TeX – Easy Guide{{< /relref >}}
+[Specify Required Input Directory for Aspose.TeX (C#)]({{< relref "../../../net/advanced-io/required-input-directory-csharp/_index.md" >}})
+[How to Read Zip Files Using Aspose.TeX for .NET]({{< relref "../../../net/zip-file-io/_index.md" >}})
+[Create SVG from LaTeX in .NET with Aspose.TeX – Easy Guide]({{< relref "../../../net/latex-conversion/to-svg/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
