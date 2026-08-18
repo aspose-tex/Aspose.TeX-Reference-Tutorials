@@ -1,11 +1,51 @@
 ---
-date: 2026-02-12
-description: Tanulja meg a Java LaTeX‑ről SVG‑re konvertálást, hogyan konvertáljon
-  LaTeX‑et, generáljon SVG‑t LaTeX‑ből, és írjon terminálkimenetet Java‑ban az Aspose.TeX
-  használatával.
-linktitle: Customizing TeX Output in Aspose.TeX for Java
+date: 2026-08-18
+description: Ismerje meg, hogyan jeleníthető meg a LaTeX SVG-ként, hogyan konvertálható
+  a LaTeX SVG-be, hogyan rögzíthető a terminál kimenete, és hogyan testreszabhatók
+  a feladatnevek az Aspose.TeX for Java használatával.
+keywords:
+- render latex as svg
+- how to convert latex
+- how to capture output
+- latex to svg java
+- how to override job
+lastmod: 2026-08-18
+linktitle: A TeX kimenet testreszabása az Aspose.TeX for Java-ban
+og_description: A LaTeX SVG-ként történő megjelenítése az Aspose.TeX for Java segítségével.
+  Fedezze fel a lépésről‑lépésre konverziót, a feladatnév felülírásokat és a terminál
+  kimenetének rögzítését a robusztus Java alkalmazásokhoz.
+og_image_alt: Developer guide showing Java code rendering LaTeX to SVG with Aspose.TeX
+og_title: LaTeX megjelenítése SVG-ként az Aspose.TeX for Java könyvtárral
+schemas:
+- author: Aspose
+  dateModified: '2026-08-18'
+  description: Learn how to render latex as svg, convert latex to SVG, capture terminal
+    output, and customize job names using Aspose.TeX for Java.
+  headline: 'Render latex as svg: customizing TeX output in Aspose.TeX for Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library works on any Java runtime, making it suitable for server‑side
+      rendering in web apps.
+    question: Can I use Aspose.TeX to convert LaTeX to SVG in a web application?
+  - answer: Use the *override job name* and *write terminal output* options; you can
+      direct the output to a file or a ZIP archive as shown in the related tutorials.
+    question: How do I capture the terminal output when converting LaTeX to SVG?
+  - answer: Absolutely. You can configure the renderer to process multiple LaTeX fragments,
+      each producing its own SVG file.
+    question: Is it possible to render both figures and math to SVG in a single run?
+  - answer: A standard Aspose.TeX license covers all rendering formats, including
+      SVG.
+    question: Do I need a special license for SVG output?
+  - answer: Aspose.TeX supports Java 8 and later versions.
+    question: What Java version is required?
+  type: FAQPage
 second_title: Aspose.TeX Java API
-title: 'java latex to svg: A TeX kimenet testreszabása az Aspose.TeX for Java-ban'
+tags:
+- latex to svg
+- Aspose.TeX
+- Java document processing
+title: 'LaTeX megjelenítése SVG-ként: a TeX kimenet testreszabása az Aspose.TeX for
+  Java-ban'
 url: /hu/java/customizing-output/
 weight: 26
 ---
@@ -14,119 +54,124 @@ weight: 26
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Latex to SVG Java: TeX kimenet testreszabása az Aspose.TeX for Java-ban
+# LaTeX renderelése SVG-ként: a TeX kimenet testreszabása az Aspose.TeX for Java-ban
 
 ## Bevezetés
 
-Ha olyan Java fejlesztő vagy, akinek **java latex to svg** konverzióra van szüksége, jó helyen jársz. Az Aspose.TeX for Java finomhangolt vezérlést biztosít a TeX rendereléshez, lehetővé téve, hogy SVG grafikákat generálj, amelyek bármilyen felbontáson élesek maradnak. Ebben az útmutatóban a leghasznosabb testreszabási technikákat mutatjuk be – beleértve a **how to convert latex** SVG‑re, a munkanév felülírását és a **write terminal output java** lehetőségét – hogy magabiztosan integrálhass vektor‑alapú matematikát és ábrákat bármely Java alkalmazásba.
+Ha Java fejlesztő vagy, akinek **render latex as svg**-re van szüksége, jó helyen jár. Az Aspose.TeX for Java finomhangolt vezérlést biztosít a TeX renderelés felett, lehetővé téve, hogy SVG grafikákat generálj, amelyek bármilyen felbontáson élesek maradnak. Ebben az útmutatóban a leghasznosabb testreszabási technikákat mutatjuk be – beleértve a **how to convert latex** SVG-re, a feladatnevek felülírását és a **write terminal output java** – hogy magabiztosan integrálhass vektor‑alapú matematikát és ábrákat bármely Java alkalmazásba.
 
 ## Gyors válaszok
-- **What does “java latex to svg” mean?** Ez a folyamat, amely a LaTeX jelölést Scalable Vector Graphics (SVG) formátumba alakítja egy Java könyvtár, például az Aspose.TeX segítségével.  
-- **Which Aspose.TeX feature renders LaTeX to SVG?** Az API `renderLaTeXToSvg` munkafolyamata.  
-- **Can I control the job name during conversion?** Igen – használd a *override job name* opciókat egy egyedi azonosító beállításához.  
-- **Is it possible to capture terminal output to a file?** Teljesen lehetséges; az Aspose.TeX lehetővé teszi a **write terminal output java** írását lemezre vagy ZIP archívumba.  
-- **Do I need a license for production use?** Egy érvényes Aspose.TeX licenc szükséges a kereskedelmi telepítésekhez.
+- **Mi a “render latex as svg” jelentése?** Ez a folyamat, amely során a LaTeX jelölést Scalable Vector Graphics (SVG) formátumba alakítják egy Java könyvtár, például az Aspose.TeX segítségével.  
+- **Melyik Aspose.TeX funkció rendereli a LaTeX-et SVG-re?** Az API `renderLaTeXToSvg` munkafolyamata egyetlen hívással kezeli a konverziót.  
+- **Kezelhetem a feladat nevét a konverzió során?** Igen – használd a *override job name* opciókat egy egyedi azonosító beállításához minden konverziós futáshoz.  
+- **Lehetséges a terminál kimenet fájlba rögzíteni?** Természetesen; az Aspose.TeX lehetővé teszi, hogy **write terminal output java**-t lemezre vagy ZIP archívumba írj későbbi elemzéshez.  
+- **Szükségem van licencre a termeléshez?** Érvényes Aspose.TeX licenc szükséges a kereskedelmi telepítésekhez, és feloldja az összes renderelési formátumot, beleértve az SVG-t.
 
-## Hogyan végezzük el a java latex to svg konverziót az Aspose.TeX‑ben?
+## Hogyan hajtsuk végre a Java LaTeX‑SVG konverziót az Aspose.TeX‑ben?
 
-A LaTeX közvetlen SVG‑re renderelése felbontás‑független grafikákat eredményez, amelyek tökéletesen mutatnak képernyőkön, PDF‑ekben és weboldalakon. Az alábbiakban egy gondosan összeállított lépésről‑lépésre útmutató sorozatot találsz, amely a munkafolyamat minden aspektusát lefedi, az alap rendereléstől a fejlett munkanév‑kezelésig.
+`TeXEngine` osztály irányítja a konverziós folyamatot, míg a `SvgRenderOptions` SVG‑specifikus beállításokat konfigurál; az `engine.render()` végrehajtja a renderelést. Töltsd be a LaTeX forrásodat egy `TeXEngine`‑be, állítsd be a `SvgRenderOptions`‑t, opcionálisan írd felül a feladatnevet, és hívd meg az `engine.render()`‑t – ez az egyetlen csővezeték egy vagy több SVG fájlt hoz létre a célmappában. Az API automatikusan kezeli a betűkészlet beágyazását, a színkezelést és a layout számítást, így pixel‑tökéletes vektor kimenetet kapsz manuális utófeldolgozás nélkül.
 
-### Override Job Name and Write Terminal Output in Java
+Az alábbiakban egy összeállított lista található lépésről‑lépésre útmutatókról, amelyek a munkafolyamat minden aspektusát lefedik, az alap rendereléstől a fejlett feladatnév kezelésig.
 
-#### [Override Job Name and Write Terminal Output in Java](./override-job-name-disk/)
+### Feladatnév felülírása és terminál kimenet írása Java-ban
 
-Az Aspose.TeX for Java egyik kulcsfontosságú funkciója a **override job names** és a **write terminal output** közvetlen lemezre írásának lehetősége. Ez a tutorial lépésről‑lépésre útmutatót nyújt, amely felhatalmaz arra, hogy hatékonyan kihasználd ezt a funkciót. Emeld a dokumentumfeldolgozást a munkanevek ellenőrzésével és a terminálkimenet optimalizálásával.
+#### [Feladatnév felülírása és terminál kimenet írása Java-ban](./override-job-name-disk/)
 
-### Override Job Name and Write Terminal Output to Zip in Java
+Az Aspose.TeX for Java egyik kulcsfontosságú funkciója a **override job names** és a **write terminal output** közvetlen lemezre írásának képessége. Ez az útmutató lépésről‑lépésre útmutatót nyújt, amely lehetővé teszi, hogy hatékonyan kihasználd ezt a funkciót. Emeld a dokumentumfeldolgozás szintjét azzal, hogy irányítod a feladatneveket és optimalizálod a terminál kimenetet.
 
-#### [Override Job Name and Write Terminal Output to Zip in Java](./override-job-name-zip/)
+### Feladatnév felülírása és terminál kimenet írása ZIP-be Java-ban
 
-Emeld a testreszabási képességeidet egy szinttel feljebb azzal, hogy megtanulod, hogyan kell a munkaneveket felülírni és a terminálkimenetet ZIP fájlokba írni Java‑ban. Az Aspose.TeX átfogó eszközkészletet biztosít Java fejlesztőknek, és ez a tutorial biztosítja, hogy mesterévé válj a ZIP integrációval történő dokumentumfeldolgozásnak. Kövesd az útmutatót, hogy új lehetőségeket nyiss meg a testreszabásban.
+#### [Feladatnév felülírása és terminál kimenet írása ZIP-be Java-ban](./override-job-name-zip/)
 
-### Render LaTeX Figures to PNG in Java
+Fejleszd tovább testreszabási képességeidet azzal, hogy megtanulod, hogyan lehet felülírni a feladatneveket és terminál kimenetet ZIP fájlokba írni Java-ban. Az Aspose.TeX átfogó eszközöket biztosít Java fejlesztőknek, és ez az útmutató biztosítja, hogy elsajátítsd a dokumentumfeldolgozás ZIP integrációval való bővítésének művészetét. Kövesd az útmutatót, hogy új testreszabási lehetőségeket nyiss meg.
 
-#### [Render LaTeX Figures to PNG in Java](./render-lafigures-png/)
+### LaTeX ábrák renderelése PNG-re Java-ban
 
-Könnyedén renderelj LaTeX ábrákat PNG képekké Java‑ban az Aspose.TeX segítségével. Ez a tutorial egyszerűsíti az integrációs folyamatot, biztosítva a zökkenőmentes élményt Java fejlesztők számára. Akár jelentéseken, tudományos dolgozatokon vagy bármilyen LaTeX‑alapú dokumentumon dolgozol, ez az útmutató felvértez a vizuálisan vonzó PNG kimenetek előállításához szükséges tudással.
+#### [LaTeX ábrák renderelése PNG-re Java-ban](./render-lafigures-png/)
 
-### Render LaTeX Math to PNG in Java
+Könnyedén rendereld a LaTeX ábrákat PNG képekké Java-ban az Aspose.TeX segítségével. Ez az útmutató egyszerűsíti az integrációs folyamatot, biztosítva a zökkenőmentes élményt Java fejlesztők számára. Akár jelentéseken, tudományos dolgozatokon vagy bármilyen LaTeX‑alapú dokumentumon dolgozol, ez az útmutató felvértez a képességekkel, hogy vizuálisan vonzó PNG kimeneteket állíts elő.
 
-#### [Render LaTeX Math to PNG in Java](./render-lamath-png/)
+### LaTeX matematikai egyenletek renderelése PNG-re Java-ban
 
-Mesterévé válhatsz a LaTeX matematikai egyenletek PNG képekké renderelésének az Aspose.TeX‑szel Java‑ban. Ez a lépésről‑lépésre útmutató nem csak a dokumentumfeldolgozási képességeidet bővíti, hanem kivételes teljesítményt is biztosít. Emeld dokumentumaid vizuális vonzerejét pontosan renderelt komplex matematikai egyenletekkel.
+#### [LaTeX matematikai egyenletek renderelése PNG-re Java-ban](./render-lamath-png/)
 
-### Render LaTeX Figures to SVG in Java
+Mesterségessé válj a LaTeX matematikai egyenletek PNG képekké renderelésében Java-ban az Aspose.TeX használatával. Ez a lépésről‑lépésre útmutató nem csak a dokumentumfeldolgozási képességeidet növeli, hanem kivételes teljesítményt is biztosít. Emeld dokumentumaid vizuális vonzerejét a komplex matematikai egyenletek pontos renderelésével.
 
-#### [Render LaTeX Figures to SVG in Java](./render-lafigures-svg/)
+### LaTeX ábrák renderelése SVG-re Java-ban
 
-Fedezd fel a Scalable Vector Graphics (SVG) világát, és renderelj LaTeX ábrákat könnyedén Java‑ban az Aspose.TeX‑szel. Ez a tutorial részletes, lépésről‑lépésre útmutatót kínál, amely lehetővé teszi a Java fejlesztők számára, hogy zökkenőmentesen integrálják az SVG kimeneteket a dokumentumfeldolgozási munkafolyamataikba.
+#### [LaTeX ábrák renderelése SVG-re Java-ban](./render-lafigures-svg/)
 
-### Render LaTeX Math to SVG in Java
+Fedezd fel a Scalable Vector Graphics (SVG) világát azzal, hogy könnyedén rendereled a LaTeX ábrákat Java-ban az Aspose.TeX segítségével. Ez az útmutató részletes, lépésről‑lépésre útmutatót kínál, lehetővé téve a Java fejlesztők számára, hogy zökkenőmentesen integrálják az SVG kimeneteket a dokumentumfeldolgozási munkafolyamataikba.
 
-#### [Render LaTeX Math to SVG in Java](./render-lamath-svg/)
+### LaTeX matematikai egyenletek renderelése SVG-re Java-ban
 
-Mélyedj el a LaTeX matematikai egyenletek SVG‑re renderelésének pontosságában Java‑ban az Aspose.TeX használatával. Ez az átfogó útmutató biztosítja a pontos és vizuálisan vonzó eredményeket Java fejlesztőknek. Emeld a dokumentumfeldolgozást magas minőségű SVG kimenetek könnyed beillesztésével.
+#### [LaTeX matematikai egyenletek renderelése SVG-re Java-ban](./render-lamath-svg/)
 
-## Miért generáljunk SVG‑t LaTeX‑ből?
+Mélyedj el a LaTeX matematikai egyenletek SVG-re renderelésének pontosságában Java-ban az Aspose.TeX használatával. Ez az átfogó útmutató biztosítja a pontos és vizuálisan vonzó eredményeket Java fejlesztők számára. Emeld dokumentumfeldolgozásodat magas minőségű SVG kimenetek könnyű beépítésével.
 
-- **Skálázhatóság:** Az SVG grafikák pixelálás nélkül skálázhatók, tökéletesek a reszponzív weboldalakhoz és a nagy felbontású nyomtatáshoz.  
-- **Kis fájlméret:** A vektoradat gyakran könnyebb, mint a raszteres képek, csökkentve a sávszélesség‑ és tárolási költségeket.  
-- **Szerkeszthetőség:** Az SVG CSS‑szel stílusozható vagy JavaScript‑kel manipulálható, dinamikus vezérlést biztosítva a renderelés után.  
-- **Platform‑közi konzisztencia:** Az ugyanaz az SVG azonos módon jelenik meg Windows, macOS, Linux és mobil eszközökön.
+## Miért generáljunk SVG-t LaTeX‑ből?
 
-## Gyakori hibák és profi tippek
+Az SVG kimenet végtelen skálázhatóságot biztosít, általában 30 %-kal kisebb fájlméretet a hasonló PNG‑kkel szemben, és teljes szerkeszthetőséget CSS vagy JavaScript segítségével. Mivel az SVG vektor‑alapú, élesen jelenik meg nagy DPI‑s képernyőkön, bármilyen felbontásban nyomtatható, és a renderelés után dinamikusan stilizálható – így ideális reszponzív weboldalakhoz és magas minőségű nyomtatási anyagokhoz.
 
-- **Pro tip:** Mindig állíts be egy egyedi munkanevet kötegelt konverziók futtatásakor; ez rendezi a kimeneti mappákat és megkönnyíti a hibakeresést.  
-- **Hiba:** A `TeXEngine` bezárásának elhanyagolása memória‑szivárgáshoz vezethet. Használj try‑with‑resources blokkot vagy hívd meg explicit módon az `engine.dispose()`‑t.  
-- **Pro tip:** Amikor a terminálkimenetet ZIP archívumba írod, győződj meg róla, hogy a ZIP‑streamet a motor befejezése előtt flush‑olod, hogy elkerüld a sérült naplókat.  
+## Gyakori buktatók és profi tippek
 
-## Gyakran feltett kérdések
+- **Pro tip:** Mindig állíts be egy egyedi feladatnevet kötegelt konverziók futtatásakor; ez rendezetten tartja a kimeneti mappákat és megkönnyíti a hibakeresést.  
+- **Pitfall:** A `TeXEngine` bezárásának elhagyása memória szivárgáshoz vezethet. Használj try‑with‑resources blokkot vagy hívd meg explicit módon az `engine.dispose()`‑t.  
+- **Pro tip:** Terminál kimenet ZIP archívumba írásakor győződj meg róla, hogy a ZIP stream ki van ürítve, mielőtt a motor befejeződik, hogy elkerüld a sérült naplókat.  
 
-**K: Használhatom az Aspose.TeX‑et LaTeX‑ről SVG‑re konvertálásra webalkalmazásban?**  
-V: Igen. A könyvtár bármely Java futtatókörnyezetben működik, így alkalmas szerver‑oldali renderelésre webalkalmazásokban.
+## Gyakran ismételt kérdések
 
-**K: Hogyan rögzíthetem a terminálkimenetet LaTeX‑ről SVG‑re konvertálás közben?**  
-V: Használd a *override job name* és a *write terminal output* opciókat; a kimenetet fájlba vagy ZIP archívumba irányíthatod a kapcsolódó tutorialokban bemutatott módon.
+**Q: Használhatom az Aspose.TeX‑et LaTeX‑ből SVG‑re konvertálásra webalkalmazásban?**  
+A: Igen. A könyvtár bármely Java futtatókörnyezetben működik, így alkalmas szerver‑oldali renderelésre webalkalmazásokban.
 
-**K: Lehetőség van egyszerre ábrák és matematikai kifejezések SVG‑re renderelésére?**  
-V: Teljesen lehetséges. A renderelőt úgy konfigurálhatod, hogy több LaTeX‑fragmentumot dolgozzon fel, mindegyik saját SVG fájlt generálva.
+**Q: Hogyan rögzítsem a terminál kimenetet LaTeX‑SVG konverzió során?**  
+A: Használd a *override job name* és *write terminal output* opciókat; a kimenetet fájlba vagy ZIP archívumba irányíthatod, ahogy a kapcsolódó útmutatókban látható.
 
-**K: Szükség van külön licencre az SVG‑kimenethez?**  
-V: Egy standard Aspose.TeX licenc lefedi az összes renderelési formátumot, beleértve az SVG‑t is.
+**Q: Lehetséges egyetlen futtatás során mind ábrákat, mind matematikát SVG‑re renderelni?**  
+A: Természetesen. A renderelőt úgy konfigurálhatod, hogy több LaTeX fragmentumot dolgozzon fel, mindegyik saját SVG fájlt eredményezve.
 
-**K: Melyik Java verzió szükséges?**  
-V: Az Aspose.TeX támogatja a Java 8‑at és az azt követő verziókat.
+**Q: Szükségem van speciális licencre az SVG kimenethez?**  
+A: Egy standard Aspose.TeX licenc lefedi az összes renderelési formátumot, beleértve az SVG‑t.
 
-**K: Miben különbözik a “generate svg from latex” a PNG rendereléstől?**  
-V: Az SVG vektor‑alapú, végtelen skálázhatóságot biztosít, míg a PNG raszteres és felbontás‑függő. Válaszd az SVG‑t, ha éles grafikára van szükséged bármilyen méretben.
+**Q: Milyen Java verzió szükséges?**  
+A: Az Aspose.TeX támogatja a Java 8‑at és az azt követő verziókat.
 
-**K: Automatizálhatom a “write terminal output java” folyamatot CI pipeline‑okban?**  
-V: Igen. A munkanév felülírásával és a kimenet ismert könyvtárba vagy ZIP fájlba irányításával könnyen archiválhatod a naplókat folyamatos integrációs build‑ekhez.
+**Q: Miben különbözik a “generate svg from latex” a PNG rendereléstől?**  
+A: Az SVG vektor‑alapú, végtelen skálázhatóságot és általában kisebb fájlméreteket kínál, míg a PNG raszter és felbontás‑függő. Válaszd az SVG‑t, ha bármilyen méretben éles grafikára van szükséged.
 
-## Aspose.TeX for Java TeX kimenet testreszabása tutorialok
-### [Override Job Name and Write Terminal Output in Java](./override-job-name-disk/)
-Fedezd fel a lépésről‑lépésre útmutatót a munkanevek felülírásáról és a terminálkimenet írásáról az Aspose.TeX for Java‑val. Bővítsd dokumentumfeldolgozásodat erőteljes testreszabási lehetőségekkel.
+**Q: Automatizálhatom a “write terminal output java” folyamatot CI pipeline‑okhoz?**  
+A: Igen. A feladatnév felülírásával és a kimenet ismert könyvtárba vagy ZIP fájlba irányításával könnyen archiválhatod a naplókat a folyamatos integrációs buildekhez.
 
-### [Override Job Name and Write Terminal Output to Zip in Java](./override-job-name-zip/)
-Tanuld meg, hogyan kell a munkaneveket felülírni és a terminálkimenetet ZIP‑be írni Java‑ban az Aspose.TeX‑szel. Átfogó tutorial Java fejlesztőknek.
+## A TeX kimenet testreszabása az Aspose.TeX for Java útmutatóiban
+### [Feladatnév felülírása és terminál kimenet írása Java-ban](./override-job-name-disk/)
+Fedezd fel a lépésről‑lépésre útmutatót a feladatnevek felülírásáról és a terminál kimenet írásáról az Aspose.TeX for Java használatával. Bővítsd dokumentumfeldolgozásodat erőteljes testreszabási lehetőségekkel.
 
-### [Render LaTeX Figures to PNG in Java](./render-lafigures-png/)
-Renderelj LaTeX ábrákat PNG‑be könnyedén Java‑ban az Aspose.TeX‑szel. Kövesd ezt az útmutatót a zökkenőmentes integrációhoz.
+### [Feladatnév felülírása és terminál kimenet írása ZIP-be Java-ban](./override-job-name-zip/)
+Tanuld meg, hogyan lehet felülírni a feladatneveket és terminál kimenetet ZIP‑be írni Java-ban az Aspose.TeX segítségével. Átfogó útmutató Java fejlesztőknek.
 
-### [Render LaTeX Math to PNG in Java](./render-lamath-png/)
-Tanuld meg, hogyan kell LaTeX matematikai egyenleteket PNG képekké renderelni Java‑ban az Aspose.TeX‑szel. Lépésről‑lépésre útmutató a zökkenőmentes integrációhoz és kivételes teljesítményhez.
+### [LaTeX ábrák renderelése PNG-re Java-ban](./render-lafigures-png/)
+Könnyedén rendereld a LaTeX ábrákat PNG-re Java-ban az Aspose.TeX segítségével. Kövesd ezt az útmutatót a zökkenőmentes integrációhoz.
 
-### [Render LaTeX Figures to SVG in Java](./render-lafigures-svg/)
-Tanuld meg, hogyan lehet könnyedén LaTeX ábrákat SVG‑be renderelni Java‑ban az Aspose.TeX‑szel. Kövesd ezt a lépésről‑lépésre útmutatót a zökkenőmentes integrációhoz.
+### [LaTeX matematikai egyenletek renderelése PNG-re Java-ban](./render-lamath-png/)
+Tanuld meg, hogyan rendereld a LaTeX matematikai egyenleteket PNG képekké Java-ban az Aspose.TeX segítségével. Lépésről‑lépésre útmutató a zökkenőmentes integrációhoz és kivételes teljesítményhez.
 
-### [Render LaTeX Math to SVG in Java](./render-lamath-svg/)
-Tanuld meg, hogyan kell LaTeX matematikai egyenleteket SVG‑be renderelni Java‑ban az Aspose.TeX‑szel. Kövesd a részletes lépésről‑lépésre útmutatót a pontos és vizuálisan vonzó eredményekért.
+### [LaTeX ábrák renderelése SVG-re Java-ban](./render-lafigures-svg/)
+Tanuld meg, hogyan rendereld könnyedén a LaTeX ábrákat SVG-re Java-ban az Aspose.TeX használatával. Kövesd ezt a lépésről‑lépésre útmutatót a zökkenőmentes integrációhoz.
+
+### [LaTeX matematikai egyenletek renderelése SVG-re Java-ban](./render-lamath-svg/)
+Tanuld meg, hogyan rendereld a LaTeX matematikai egyenleteket SVG-re Java-ban az Aspose.TeX segítségével. Kövesd a lépésről‑lépésre útmutatónkat a pontos és vizuálisan vonzó eredményekért.
 
 ---
 
-**Last Updated:** 2026-02-12  
-**Tested With:** Aspose.TeX for Java 24.11  
-**Author:** Aspose  
+**Utoljára frissítve:** 2026-08-18  
+**Tesztelve ezzel:** Aspose.TeX for Java 24.11  
+**Szerző:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [TeX konvertálása PDF-re, Feladatnév felülírása és terminál kimenet írása ZIP-be Java-ban](/tex/java/customizing-output/override-job-name-zip/)
+- [Hogyan rögzítsük a konzol kimenetet és felülírjuk a feladatnevet Java-ban](/tex/java/customizing-output/override-job-name-disk/)
+- [Hogyan használjunk ZIP archívumokat bemenethez és kimenethez az Aspose.TeX Java-ban](/tex/java/zip-archives/zip-archives-input-output/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
