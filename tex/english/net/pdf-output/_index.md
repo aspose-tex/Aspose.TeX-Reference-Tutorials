@@ -88,7 +88,7 @@ If you need to **how to create pdf** files directly from TeX sources in a .NET e
 
 Aspose.TeX is a .NET library that parses LaTeX/TeX markup and directly renders it into a PDF document, performing the full TeX compilation pipeline in‑memory without requiring any external TeX distribution. You provide a .tex string or file and receive a ready‑to‑save PDF with full typographic fidelity.  
 
-## Why Use Aspose.TeX for PDF Generation?  
+## Why use Aspose.TeX for PDF generation?
 
 You can create PDF files without installing a full LaTeX distribution, and the library processes documents up to 500 pages while using less than 150 MB of RAM.  
 
@@ -123,7 +123,7 @@ You can then call the generation routine from any layer—ASP.NET controllers, b
 
 ## Typeset TeX to PDF in .NET – A Comprehensive Guide  
 
-Are you a .NET developer looking to master the art of typesetting TeX to PDF? Look no further. This tutorial is designed to walk you through the entire process, providing you with the knowledge and skills to elevate your development game. [Read More](./typeset-tex-to-pdf/)  
+Are you a .NET developer looking to master the art of typesetting TeX to PDF? Look no further. This tutorial is designed to walk you through the entire process, providing you with the knowledge and skills to elevate your development game. [Read more about typesetting TeX to PDF](./typeset-tex-to-pdf/)  
 
 ## How to Generate PDF from TeX Using Aspose.TeX  
 
@@ -146,7 +146,7 @@ Typesetting TeX in .NET requires understanding three core concepts: the document
 - **Package inclusion** (`\usepackage{amsmath}`, `\usepackage{graphicx}`) adds functionality; Aspose.TeX supports over 50 common packages out of the box.  
 - **Font handling and encoding** are automatically managed, but you can embed custom fonts via `PdfSaveOptions.FontEmbeddingMode`.  
 
-## Elevate Your .NET Development Skills  
+## Elevate your .NET development skills
 
 As you progress through the tutorial, you'll find yourself mastering the intricacies of typesetting TeX to PDF in a .NET environment. From fundamental concepts to advanced techniques, we leave no stone unturned. Elevate your development skills and stay ahead of the curve with the insights provided in this comprehensive guide.  
 
@@ -156,7 +156,7 @@ As you progress through the tutorial, you'll find yourself mastering the intrica
 
 Explore the seamless integration of Aspose.TeX for .NET in typesetting TeX to PDF. Dive into this comprehensive tutorial and elevate your .NET development skills.  
 
-## Frequently Asked Questions  
+## Frequently asked questions
 
 **Q: Can I use Aspose.TeX in a commercial application?**  
 A: Yes, with a valid Aspose license. A free trial is available for evaluation.  
@@ -173,21 +173,23 @@ A: Enable the library’s logging feature to capture detailed parsing informatio
 **Q: Is it possible to embed fonts in the generated PDF?**  
 A: Yes, set the `EmbedFonts` option in `PdfSaveOptions` to embed all used fonts.  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
-- [How to Write Output - Control Aspose.TeX Job Output](/tex/net/job-output/)
-- [Convert LaTeX to PNG in .NET with Aspose.TeX](/tex/net/latex-conversion/to-png/)
-- [Advanced Aspose.TeX Input and Output](/tex/net/advanced-io/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+- [How to Write Output - Control Aspose.TeX Job Output]({{< relref "/tex/net/job-output/_index.md" >}})
+- [Convert LaTeX to PNG in .NET with Aspose.TeX]({{< relref "/tex/net/latex-conversion/to-png/_index.md" >}})
+- [Advanced Aspose.TeX Input and Output]({{< relref "/tex/net/advanced-io/_index.md" >}})
 
 ---  
 
 **Last Updated:** 2026-05-15  
 **Tested With:** Aspose.TeX for .NET 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

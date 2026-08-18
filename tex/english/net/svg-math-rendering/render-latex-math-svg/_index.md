@@ -31,7 +31,7 @@ schemas:
     answer: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community
       support and discussions.
   - question: How can I obtain a temporary license for testing purposes?
-    answer: Obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+    answer: Obtain a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
   - question: Are there any example tutorials available in the documentation?
     answer: Yes, you can explore more examples in the [Aspose.TeX documentation](https://reference.aspose.com/tex/net/).
 ---
@@ -84,7 +84,7 @@ using Aspose.TeX;
 
 Now let’s walk through the rendering pipeline step by step.
 
-## Step 1: Create Rendering Options
+## Step 1: create rendering options
 
 MathRendererOptions is the base class that holds settings for rendering LaTeX to various formats. SvgMathRendererOptions derives from it and adds SVG‑specific properties.
 
@@ -92,7 +92,7 @@ MathRendererOptions is the base class that holds settings for rendering LaTeX to
 using Aspose.TeX.Features;
 ```
 
-## Step 2: Specify the Preamble
+## Step 2: specify the preamble
 
 The Preamble property lets you add LaTeX packages and commands that are processed before the main equation.
 
@@ -101,7 +101,7 @@ The Preamble property lets you add LaTeX packages and commands that are processe
 MathRendererOptions options = new SvgMathRendererOptions();
 ```
 
-## Step 3: Set Scaling Factor and Colors
+## Step 3: set scaling factor and colors
 
 options.Scale controls the size of the output SVG, while options.TextColor and options.BackgroundColor define foreground and background colors.
 
@@ -113,7 +113,7 @@ options.Preamble = @"\usepackage{amsmath}
 \usepackage{color}";
 ```
 
-## Step 4: Configure Output Options
+## Step 4: configure output options
 
 OutputFile specifies the path where the generated SVG will be saved, and options.EmbedFonts determines whether fonts are embedded in the SVG.
 
@@ -128,7 +128,7 @@ options.TextColor = System.Drawing.Color.Black;
 options.BackgroundColor = System.Drawing.Color.White;
 ```
 
-## Step 5: Render the LaTeX Math Equation
+## Step 5: render the laTeX math equation
 
 MathRenderer is the engine that takes the LaTeX string and the rendering options to produce the final SVG document.
 
@@ -140,7 +140,7 @@ options.LogStream = new System.IO.MemoryStream();
 options.ShowTerminal = true;
 ```
 
-## Step 6: Display Results
+## Step 6: display results
 
 SvgDocument represents the generated SVG and can be saved to disk or streamed directly to a web response.
 
@@ -156,7 +156,7 @@ using (System.IO.Stream stream = System.IO.File.Open(
 }
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -164,7 +164,7 @@ using (System.IO.Stream stream = System.IO.File.Open(
 | **Missing symbols** | Required LaTeX packages not included in the preamble. | Add the needed `\usepackage{...}` lines to `options.Preamble`. |
 | **Incorrect colors** | `TextColor` or `BackgroundColor` set to transparent. | Use explicit `System.Drawing.Color` values (e.g., `Color.Black`). |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I customize the colors of the rendered equations?**  
 A: Yes, you can easily customize the foreground and background colors using the `TextColor` and `BackgroundColor` properties in the rendering options.
@@ -176,12 +176,12 @@ A: Yes, you need a valid license. You can obtain one from [Aspose's purchase pag
 A: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support and discussions.
 
 **Q: How can I obtain a temporary license for testing purposes?**  
-A: Obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+A: Obtain a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 **Q: Are there any example tutorials available in the documentation?**  
 A: Yes, you can explore more examples in the [Aspose.TeX documentation](https://reference.aspose.com/tex/net/).
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Conclusion
 
@@ -199,14 +199,16 @@ You’ve now learned how to **convert LaTeX to SVG** using Aspose.TeX for .NET. 
 - [Render LaTeX to SVG with Aspose.TeX (C#)](/tex/net/render-latex-figures/svg-latex-figure-renderer-csharp/)
 - [Render LaTeX Math with Aspose.TeX](/tex/net/render-latex-math/)
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ```csharp
 // Show other results.
 System.Console.Out.WriteLine(options.ErrorReport);
 System.Console.Out.WriteLine();
 System.Console.Out.WriteLine("Size: " + size);
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

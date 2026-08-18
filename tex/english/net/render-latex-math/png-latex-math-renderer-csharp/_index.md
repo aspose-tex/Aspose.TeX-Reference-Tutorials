@@ -63,7 +63,7 @@ Aspose.TeX provides **full LaTeX support for over 30 standard packages** (includ
 ## Prerequisites
 
 - Basic C# programming knowledge.  
-- Aspose.TeX for .NET installed – download it from [here](https://releases.aspose.com/tex/net/).  
+- Aspose.TeX for .NET installed – download it from the [Aspose.TeX .NET release page](https://releases.aspose.com/tex/net/).  
 - A development environment such as Visual Studio, Rider, or VS Code.
 
 ## Import Namespaces
@@ -75,7 +75,7 @@ using Aspose.TeX.Features;
 
 Now let’s break the example into clear, numbered steps.
 
-## Step 1: Set up Rendering Options
+## Step 1: set up rendering options
 
 `MathRendererOptions` defines common settings for rendering, while `PngMathRendererOptions` specializes them for PNG output.  
 ```csharp
@@ -84,7 +84,7 @@ MathRendererOptions options = new PngMathRendererOptions() { Resolution = 150 };
 
 Here we create a `PngMathRendererOptions` object and set the image resolution to **150 dpi**. Adjust the DPI to match your quality requirements; values between 150 dpi and 300 dpi cover most web and print scenarios.
 
-## Step 2: Specify the Preamble
+## Step 2: specify the preamble
 
 `options.Preamble` specifies the LaTeX preamble to load required packages before rendering.  
 ```csharp
@@ -96,7 +96,7 @@ options.Preamble = @"\usepackage{amsmath}
 
 The preamble loads the LaTeX packages you need for advanced symbols and color handling. Including `\usepackage{color}` enables the `\textcolor` command used later.
 
-## Step 3: Define the Scaling Factor
+## Step 3: define the scaling factor
 
 `options.Scale` sets the scaling factor applied to the rendered image.  
 ```csharp
@@ -105,7 +105,7 @@ options.Scale = 3000;
 
 A scaling factor of **3000 %** enlarges the rendered equation, giving you a crisp PNG even after down‑scaling for thumbnails or high‑DPI displays.
 
-## Step 4: Choose Foreground and Background Colors
+## Step 4: choose foreground and background colors
 
 `options.TextColor` and `options.BackgroundColor` control the foreground and background colors of the PNG.  
 ```csharp
@@ -135,7 +135,7 @@ using (System.IO.Stream stream = System.IO.File.Open(
 
 This `using` block opens a file stream where the rendered PNG will be saved. Replace `"Your Output Directory"` with the actual path you want.
 
-## Step 7: Render the LaTeX Equation
+## Step 7: render the laTeX equation
 
 `renderer.Render` processes the LaTeX source and writes the PNG to the output stream.  
 ```csharp
@@ -146,7 +146,7 @@ e^x = x^{\color{red}0} + x^{\color{red}1} + \frac{x^{\color{red}2}}{2} + \frac{x
 
 The `Render` method takes the LaTeX source, the output stream, the options we configured, and returns the final image size. After the call completes, the PNG file is ready for use.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | Quick Fix |
 |-------|----------------|-----------|
@@ -155,7 +155,7 @@ The `Render` method takes the LaTeX source, the output stream, the options we co
 | **Unexpected colors** | `TextColor` or `BackgroundColor` not set | Explicitly set both colors as shown in Step 4 |
 | **Compilation errors** | Syntax error in LaTeX string | Check the LaTeX code; use the log stream for details |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I customize the colors of the rendered equations?**  
 A: Yes, you can specify both foreground (`TextColor`) and background (`BackgroundColor`) colors in the rendering options.
@@ -178,7 +178,7 @@ A: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for help from
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -186,7 +186,9 @@ A: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for help from
 - [Render LaTeX to PNG with Aspose.TeX (C#)](/tex/net/render-latex-figures/png-latex-figure-renderer-csharp/)
 - [latex to pdf .net – 2 Easy Methods with Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
