@@ -1,6 +1,6 @@
 ---
-title: Convert LaTeX to PNG with Aspose.TeX for .NET – Using Filesystem & ZIP Inputs
-linktitle: Convert LaTeX to PNG with Aspose.TeX for .NET – Using Filesystem & ZIP Inputs
+title: Convert LaTeX to PNG Using Aspose.TeX for .NET – Process Filesystem & ZIP Inputs
+linktitle: Convert LaTeX to PNG Using Aspose.TeX for .NET – Process Filesystem & ZIP Inputs
 second_title: Aspose.TeX .NET API
 description: Learn how to **convert LaTeX to PNG** using Aspose.TeX for .NET. This guide shows you how to save LaTeX as PNG, configure output directory, and handle filesystem or ZIP inputs efficiently.
 weight: 11

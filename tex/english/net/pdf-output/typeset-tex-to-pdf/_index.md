@@ -1,5 +1,5 @@
 ---
-title: Convert TeX to PDF in .NET with Aspose.TeX
+title: Learn How to Convert TeX to PDF in .NET using Aspose.TeX
 linktitle: Convert TeX to PDF in .NET
 second_title: Aspose.TeX .NET API
 description: Learn how to convert TeX to PDF in .NET with Aspose.TeX. This guide shows you how to generate PDF from TeX, export TeX to PDF, and save PDF with options, plus tips for customizing PDF output.

@@ -1,6 +1,6 @@
 ---
-title: Render LaTeX to SVG using Aspose.TeX FigureRenderer (C#)
-linktitle: Render LaTeX to SVG using Aspose.TeX FigureRenderer (C#)
+title: How to Render LaTeX to SVG using Aspose.TeX FigureRenderer (C#)
+linktitle: How to Render LaTeX to SVG using Aspose.TeX FigureRenderer (C#)
 second_title: Aspose.TeX .NET API
 description: Learn how to render latex to svg and generate svg from latex using Aspose.TeX for .NET. Create crisp, resolution‑independent graphics in minutes.
 weight: 11
@@ -13,13 +13,13 @@ keywords:
   - C# LaTeX SVG
 schemas:
 - type: TechArticle
-  headline: Render LaTeX to SVG using Aspose.TeX FigureRenderer (C#)
+  headline: How to Render LaTeX to SVG using Aspose.TeX FigureRenderer (C#)
   description: Learn how to render latex to svg and generate svg from latex using
     Aspose.TeX for .NET. Create crisp, resolution‑independent graphics in minutes.
   dateModified: '2026-05-25'
   author: Aspose
 - type: HowTo
-  name: Render LaTeX to SVG using Aspose.TeX FigureRenderer (C#)
+  name: How to Render LaTeX to SVG using Aspose.TeX FigureRenderer (C#)
   description: Learn how to render latex to svg and generate svg from latex using
     Aspose.TeX for .NET. Create crisp, resolution‑independent graphics in minutes.
   steps:

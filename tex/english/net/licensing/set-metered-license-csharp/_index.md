@@ -1,5 +1,5 @@
 ---
-title: Configure Metered License in C# with Aspose.TeX
+title: Configure Metered License in C# with Aspose.TeX .NET API
 linktitle: Configure Metered License for Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Learn how to set metered license C# for Aspose.TeX, unlocking full TeX file manipulation capabilities.
@@ -76,7 +76,7 @@ Metered licensing gives you **full feature access** while keeping deployment sim
 Before you begin, make sure you have:
 
 1. **Aspose.TeX for .NET Library** – Download and install the library from the [download page]({{< relref "download-page/_index.md" >}}).  
-2. **Metered License Keys** – Obtain the public and private keys from your Aspose account (sign‑up [here]({{< relref "purchase-page/_index.md" >}}) if you don’t have one).  
+2. **Metered License Keys** – Obtain the public and private keys from your Aspose account (sign‑up [Aspose purchase page]({{< relref "purchase-page/_index.md" >}}) if you don’t have one).  
 3. **C# Development Environment** – Visual Studio (any recent version) or another C# IDE.
 
 > **Pro tip:** Store your metered keys in a secure configuration store (e.g., Azure Key Vault) instead of hard‑coding them.
@@ -156,7 +156,7 @@ A3: Refer to the [Aspose.TeX documentation]({{< relref "documentation-page/_inde
 A4: Visit the [Aspose.TeX forum]({{< relref "forum-page/_index.md" >}}) for community support and discussions.
 
 **Q5: Can I use a temporary license for Aspose.TeX?**  
-A5: Yes, you can obtain a temporary license [here]({{< relref "temporary-license-page/_index.md" >}}).
+A5: Yes, you can obtain a temporary license [temporary license page]({{< relref "temporary-license-page/_index.md" >}}).
 
 **Additional Q&A**
 

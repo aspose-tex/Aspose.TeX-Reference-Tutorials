@@ -1,6 +1,6 @@
 ---
-title: Render LaTeX to PNG Images with Aspose.TeX for .NET
-linktitle: Render LaTeX to PNG Images with Aspose.TeX for .NET
+title: How to Render LaTeX to PNG Images with Aspose.TeX for .NET
+linktitle: How to Render LaTeX to PNG Images with Aspose.TeX for .NET
 second_title: Aspose.TeX for .NET
 description: Learn how to convert LaTeX to image using Aspose.TeX – create LaTeX math images in PNG with a simple C# guide.
 weight: 26
