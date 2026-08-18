@@ -1,5 +1,5 @@
 ---
-title: How to Set Metered License C# for Aspose.TeX
+title: Set Metered License in C# for Aspose.TeX
 linktitle: Set Metered License for Aspose.TeX (C#)
 second_title: Aspose.TeX .NET API
 description: Learn how to set metered license C# for Aspose.TeX, unlocking full TeX file manipulation capabilities.
@@ -12,13 +12,13 @@ keywords:
 - C# TeX processing
 schemas:
 - type: TechArticle
-  headline: How to Set Metered License C# for Aspose.TeX
+  headline: Set Metered License in C# for Aspose.TeX
   description: Learn how to set metered license C# for Aspose.TeX, unlocking full
     TeX file manipulation capabilities.
   dateModified: '2026-05-25'
   author: Aspose
 - type: HowTo
-  name: How to Set Metered License C# for Aspose.TeX
+  name: Set Metered License in C# for Aspose.TeX
   description: Learn how to set metered license C# for Aspose.TeX, unlocking full
     TeX file manipulation capabilities.
   steps:
@@ -108,11 +108,11 @@ new Aspose.TeX.Metered().SetMeteredKey(
 
 Replace `<type public key here>` and `<type private key here>` with the keys you received from Aspose.
 
-### Step 2: Integrate into Your Project
+### Step 2: integrate into your project
 
 After the license is set, you can freely use any Aspose.TeX classes—compiling LaTeX, converting to PDF, extracting images, etc. No additional licensing code is required.
 
-### Step 3: Verify the License
+### Step 3: verify the license
 
 It’s a good practice to confirm that the license was applied successfully. The following snippet prints a clear message to the console.
 
@@ -126,12 +126,12 @@ else
 {
     Console.WriteLine("Metered license is not set!");
 }
-// ExEnd:VerifyMeteredLicense
+}
 ```
 
 If you see “Metered license is set successfully!” you’re ready to go.
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 
 A `LicenseException` is raised when licensing is not set before using Aspose.TeX APIs.
 
@@ -141,7 +141,7 @@ A `LicenseException` is raised when licensing is not set before using Aspose.TeX
 | Application throws **LicenseException** | License set after using Aspose.TeX APIs | Move the license‑setting code to the very start of the program (before any Aspose.TeX objects are created). |
 | Keys exposed in source control | Security risk | Store keys in environment variables or a secure vault and read them at runtime. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: How can I obtain a metered license for Aspose.TeX?**  
 A1: You can purchase a metered license from the [Aspose purchase page](https://purchase.aspose.com/buy).
@@ -180,10 +180,9 @@ By following the steps above you now know **how to set metered license C#** for 
 
 ## Related Tutorials
 
-- [Load License C# – Load Aspose.TeX License from File](/tex/net/licensing/load-license-from-file-csharp/)
-- [How to Load License from Stream in Aspose.TeX (C#)](/tex/net/licensing/load-license-from-stream-csharp/)
-- [Load Aspose.TeX License – Manage Aspose.TeX Licenses](/tex/net/licensing/)
-
+- [Load License C# – Load Aspose.TeX License from File](./load-license-from-file-csharp/)
+- [How to Load License from Stream in Aspose.TeX (C#)](./load-license-from-stream-csharp/)
+- [Load Aspose.TeX License – Manage Aspose.TeX Licenses](./)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

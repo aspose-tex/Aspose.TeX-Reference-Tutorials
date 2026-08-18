@@ -1,5 +1,5 @@
 ---
-title: Convert TeX to PDF in .NET with Aspose.TeX – Step‑by‑Step Guide
+title: How to Convert TeX to PDF in .NET using Aspose.TeX
 linktitle: How to Convert TeX to PDF in .NET
 second_title: Aspose.TeX .NET API
 description: Learn how to convert TeX to PDF in .NET with Aspose.TeX. This guide shows you how to generate PDF from TeX, export TeX to PDF, and save PDF with options, plus tips for customizing PDF output.
@@ -91,7 +91,7 @@ using System.IO.Compression;
 
 These `using` statements give you the `TeXProcessor`, `PdfSaveOptions`, and ZIP utilities needed for the workflow.
 
-## Step 1: Set Up Input and Output Directories
+## Step 1: set up input and output directories
 
 **Direct answer:** Create two temporary ZIP archives – one for the TeX source and resources (input) and one for the generated PDF (output). This approach isolates the job, makes it easy to stream data, and works consistently across platforms.
 
@@ -103,7 +103,7 @@ using Aspose.TeX.Presentation.Pdf;
 using System.IO;
 ```
 
-## Step 2: Define Conversion Options
+## Step 2: define conversion options
 
 **Direct answer:** Instantiate a `TeXConversionOptions` object, set the job name to match your `.tex` file (without extension), and point it to the input and output ZIP archives. This object tells Aspose.TeX where to read from and where to write the resulting PDF.
 
@@ -148,7 +148,7 @@ This step performs the actual **convert tex to pdf** operation and produces a re
 options.SaveOptions = new PdfSaveOptions();
 ```
 
-## Step 5: Finalize Output
+## Step 5: finalize output
 
 **Direct answer:** Close the output ZIP archive to finalize the package, then extract the PDF file from the archive or stream it directly to the client. Closing the archive ensures all entries are flushed and the ZIP structure is valid.
 
@@ -160,7 +160,7 @@ using (Stream stream = File.Open(Path.Combine("Your Output Directory", "file-nam
 
 Congratulations! You've successfully **converted a TeX document to a PDF** using Aspose.TeX for .NET. You now have a fully functional pipeline that can be integrated into web services, background jobs, or desktop applications.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | How to Fix |
 |-------|----------------|------------|
@@ -189,7 +189,7 @@ A2: You can purchase a license for commercial use through [Aspose's website](htt
 
 **Direct answer:** Yes, you can download a fully functional 30‑day trial that lets you convert up to 10 documents without a license.
 
-A3: You can explore Aspose.TeX with a free trial from [here](https://releases.aspose.com/).
+A3: You can explore Aspose.TeX with a free trial from the [Aspose.TeX free trial download page](https://releases.aspose.com/).
 
 ### Q4: Where can I find support for Aspose.TeX?
 
@@ -201,9 +201,9 @@ A4: You can seek assistance and engage with the community on the [Aspose.TeX for
 
 **Direct answer:** A temporary license removes the evaluation watermark and is recommended for automated testing pipelines.
 
-A5: You can obtain a temporary license for testing purposes through [this link](https://purchase.aspose.com/temporary-license/).
+A5: You can obtain a temporary license for testing purposes through the [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I **generate PDF from TeX** with custom page size?**  
 **Direct answer:** Set the `PageSize` property on `PdfSaveOptions` (e.g., `options.PageSize = PageSize.A4`) before running the conversion.
