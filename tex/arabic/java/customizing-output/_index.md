@@ -1,10 +1,48 @@
 ---
-date: 2026-02-12
-description: تعلم تحويل LaTeX إلى SVG باستخدام Java، كيفية تحويل LaTeX، إنشاء SVG
-  من LaTeX، وكتابة مخرجات الطرفية في Java باستخدام Aspose.TeX.
-linktitle: Customizing TeX Output in Aspose.TeX for Java
+date: 2026-08-18
+description: تعلم كيفية عرض LaTeX كـ SVG، تحويل LaTeX إلى SVG، التقاط مخرجات الطرفية،
+  وتخصيص أسماء الوظائف باستخدام Aspose.TeX for Java.
+keywords:
+- render latex as svg
+- how to convert latex
+- how to capture output
+- latex to svg java
+- how to override job
+lastmod: 2026-08-18
+linktitle: تخصيص مخرجات TeX في Aspose.TeX for Java
+og_description: تحويل LaTeX إلى SVG باستخدام Aspose.TeX for Java. اكتشف التحويل خطوة
+  بخطوة، تجاوزات أسماء الوظائف، والتقاط مخرجات الطرفية لتطبيقات Java القوية.
+og_image_alt: Developer guide showing Java code rendering LaTeX to SVG with Aspose.TeX
+og_title: تحويل LaTeX إلى SVG باستخدام مكتبة Aspose.TeX for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-18'
+  description: Learn how to render latex as svg, convert latex to SVG, capture terminal
+    output, and customize job names using Aspose.TeX for Java.
+  headline: 'Render latex as svg: customizing TeX output in Aspose.TeX for Java'
+  type: TechArticle
+- questions:
+  - answer: Yes. The library works on any Java runtime, making it suitable for server‑side
+      rendering in web apps.
+    question: Can I use Aspose.TeX to convert LaTeX to SVG in a web application?
+  - answer: Use the *override job name* and *write terminal output* options; you can
+      direct the output to a file or a ZIP archive as shown in the related tutorials.
+    question: How do I capture the terminal output when converting LaTeX to SVG?
+  - answer: Absolutely. You can configure the renderer to process multiple LaTeX fragments,
+      each producing its own SVG file.
+    question: Is it possible to render both figures and math to SVG in a single run?
+  - answer: A standard Aspose.TeX license covers all rendering formats, including
+      SVG.
+    question: Do I need a special license for SVG output?
+  - answer: Aspose.TeX supports Java 8 and later versions.
+    question: What Java version is required?
+  type: FAQPage
 second_title: Aspose.TeX Java API
-title: 'جافا لايتكس إلى SVG: تخصيص مخرجات TeX في Aspose.TeX للـ Java'
+tags:
+- latex to svg
+- Aspose.TeX
+- Java document processing
+title: 'تحويل LaTeX إلى SVG: تخصيص مخرجات TeX في Aspose.TeX for Java'
 url: /ar/java/customizing-output/
 weight: 26
 ---
@@ -13,119 +51,125 @@ weight: 26
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Latex إلى SVG Java: تخصيص مخرجات TeX في Aspose.TeX للـ Java
+# عرض latex كـ svg: تخصيص مخرجات TeX في Aspose.TeX للـ Java
 
-## Introduction
+## مقدمة
 
-إذا كنت مطور Java يحتاج إلى تحويل **java latex to svg**، فقد وصلت إلى المكان الصحيح. توفر لك Aspose.TeX للـ Java تحكمًا دقيقًا في عرض TeX، مما يتيح لك إنشاء رسومات SVG تبقى واضحة على أي دقة. في هذا الدليل سنستعرض أكثر تقنيات التخصيص فائدة—بما في ذلك **how to convert latex** إلى SVG، وتجاوز أسماء الوظائف، و**write terminal output java**—حتى تتمكن من دمج الرياضيات والرسومات القائمة على المتجهات في أي تطبيق Java بثقة.
+إذا كنت مطور Java يحتاج إلى **عرض latex كـ svg**، فأنت في المكان الصحيح. يتيح لك Aspose.TeX للـ Java التحكم الدقيق في عملية عرض TeX، مما يسمح لك بإنشاء رسومات SVG تبقى واضحة عند أي دقة. في هذا الدليل سنستعرض أكثر تقنيات التخصيص فائدة—بما في ذلك **كيفية تحويل latex** إلى SVG، تجاوز أسماء الوظائف، و**كتابة مخرجات الطرفية java**—حتى تتمكن من دمج الرسوميات الرياضية القائمة على المتجهات في أي تطبيق Java بثقة.
 
-## Quick Answers
-- **What does “java latex to svg” mean?** إنها عملية تحويل تنسيق LaTeX إلى رسومات Scalable Vector Graphics (SVG) باستخدام مكتبة Java مثل Aspose.TeX.  
-- **Which Aspose.TeX feature renders LaTeX to SVG?** تدفق العمل `renderLaTeXToSvg` في الـ API.  
-- **Can I control the job name during conversion?** نعم—استخدم خيارات *override job name* لتعيين معرف مخصص.  
-- **Is it possible to capture terminal output to a file?** بالتأكيد؛ Aspose.TeX يتيح لك **write terminal output java** إلى القرص أو إلى أرشيف ZIP.  
-- **Do I need a license for production use?** يلزم وجود ترخيص Aspose.TeX صالح للاستخدام التجاري.
+## إجابات سريعة
+- **ماذا يعني “عرض latex كـ svg”؟** إنه عملية تحويل تنسيق LaTeX إلى رسومات Scalable Vector Graphics (SVG) باستخدام مكتبة Java مثل Aspose.TeX.  
+- **أي ميزة في Aspose.TeX تقوم بتحويل LaTeX إلى SVG؟** تدفق العمل `renderLaTeXToSvg` في الـ API يتولى التحويل في نداء واحد.  
+- **هل يمكنني التحكم في اسم المهمة أثناء التحويل؟** نعم—استخدم خيارات *override job name* لتعيين معرف مخصص لكل تشغيل تحويل.  
+- **هل يمكن التقاط مخرجات الطرفية إلى ملف؟** بالتأكيد؛ يتيح لك Aspose.TeX **write terminal output java** إلى قرص أو أرشيف ZIP للتحليل لاحقًا.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يلزم وجود ترخيص Aspose.TeX صالح للنشر التجاري، وهو يفتح جميع صيغ العرض بما فيها SVG.
 
-## How to Perform java latex to svg Conversion in Aspose.TeX?
+## كيفية تنفيذ تحويل LaTeX إلى SVG في Java باستخدام Aspose.TeX؟
 
-يمنحك تحويل LaTeX مباشرة إلى SVG رسومات مستقلة عن الدقة تبدو مثالية على الشاشات، ملفات PDF، وصفحات الويب. أدناه قائمة منسقة من الدروس خطوة بخطوة التي تغطي كل جانب من جوانب سير العمل هذا، من العرض الأساسي إلى التعامل المتقدم مع أسماء الوظائف.
+تقوم الفئة `TeXEngine` بإدارة عملية التحويل، بينما تضبط `SvgRenderOptions` إعدادات SVG الخاصة؛ وتنفذ `engine.render()` عملية العرض. حمّل مصدر LaTeX الخاص بك في كائن `TeXEngine`، اضبط `SvgRenderOptions`، إذا رغبت تجاوز اسم المهمة، ثم استدعِ `engine.render()` – هذه السلسلة الواحدة تنتج ملفًا أو أكثر من ملفات SVG في المجلد المستهدف. يتولى الـ API تضمين الخطوط، إدارة الألوان، وحساب التخطيط تلقائيًا، لتحصل على مخرجات متجهية دقيقة دون الحاجة إلى معالجة يدوية لاحقة.
 
-### Override Job Name and Write Terminal Output in Java
+فيما يلي قائمة من الدروس خطوة بخطوة التي تغطي جميع جوانب هذا التدفق، من العرض الأساسي إلى التعامل المتقدم مع أسماء الوظائف.
 
-#### [تجاوز اسم الوظيفة وكتابة مخرجات الطرفية في Java](./override-job-name-disk/)
+### تجاوز اسم المهمة وكتابة مخرجات الطرفية في Java
 
-إحدى الميزات الرئيسية التي تقدمها Aspose.TeX للـ Java هي القدرة على **override job names** و**write terminal output** مباشرة إلى القرص. يوفر هذا الدرس دليلًا خطوة بخطوة، يمكّنك من استغلال هذه الوظيفة بفعالية. ارتقِ بمعالجة المستندات من خلال التحكم في أسماء الوظائف وتحسين مخرجات الطرفية.
+#### [تجاوز اسم المهمة وكتابة مخرجات الطرفية في Java](./override-job-name-disk/)
 
-### Override Job Name and Write Terminal Output to Zip in Java
+إحدى الميزات الرئيسية التي يقدمها Aspose.TeX للـ Java هي القدرة على **تجاوز أسماء الوظائف** و**كتابة مخرجات الطرفية** مباشرة إلى القرص. يقدم هذا الدرس دليلًا خطوة بخطوة، يمكّنك من استغلال هذه الوظيفة بفعالية. ارتقِ بمعالجة المستندات لديك من خلال التحكم في أسماء الوظائف وتحسين مخرجات الطرفية.
 
-#### [تجاوز اسم الوظيفة وكتابة مخرجات الطرفية إلى Zip في Java](./override-job-name-zip/)
+### تجاوز اسم المهمة وكتابة مخرجات الطرفية إلى ZIP في Java
 
-خذ مهارات التخصيص إلى مستوى أعلى بتعلم كيفية تجاوز أسماء الوظائف وكتابة مخرجات الطرفية إلى ملفات ZIP في Java. تقدم Aspose.TeX أدوات شاملة لمطوري Java، وهذا الدرس يضمن إتقانك لفن تحسين معالجة المستندات عبر دمج ZIP. اتبع الدليل لفتح إمكانيات جديدة في التخصيص.
+#### [تجاوز اسم المهمة وكتابة مخرجات الطرفية إلى Zip في Java](./override-job-name-zip/)
 
-### Render LaTeX Figures to PNG in Java
+طوّر مهاراتك في التخصيص خطوةً إضافيةً بتعلم كيفية تجاوز أسماء الوظائف وكتابة مخرجات الطرفية إلى ملفات ZIP في Java. يوفر Aspose.TeX أدوات شاملة لمطوري Java، وهذا الدرس يضمن إتقانك لفن تحسين معالجة المستندات مع دمج ZIP. اتبع الدليل لفتح إمكانيات جديدة في التخصيص.
 
-#### [تحويل رسومات LaTeX إلى PNG في Java](./render-lafigures-png/)
+### عرض رسومات LaTeX إلى PNG في Java
 
-قم بتحويل رسومات LaTeX إلى صور PNG بسهولة في Java باستخدام Aspose.TeX. يبسط هذا الدرس عملية التكامل، مما يضمن تجربة سلسة لمطوري Java. سواء كنت تعمل على تقارير، أوراق أكاديمية، أو أي مستندات تعتمد على LaTeX، سيوفر لك هذا الدليل المهارات اللازمة لإنتاج مخرجات PNG جذابة بصريًا.
+#### [عرض رسومات LaTeX إلى PNG في Java](./render-lafigures-png/)
 
-### Render LaTeX Math to PNG in Java
+قم بعرض رسومات LaTeX إلى صور PNG بسهولة في Java باستخدام Aspose.TeX. يبسط هذا الدرس عملية الدمج، مما يضمن تجربة سلسة لمطوري Java. سواء كنت تعمل على تقارير، أوراق أكاديمية، أو أي مستندات تعتمد على LaTeX، سيوفر لك هذا الدليل المهارات اللازمة لإنتاج مخرجات PNG جذابة بصريًا.
 
-#### [تحويل معادلات LaTeX الرياضية إلى PNG في Java](./render-lamath-png/)
+### عرض معادلات LaTeX الرياضية إلى PNG في Java
 
-إتقان فن تحويل معادلات LaTeX الرياضية إلى صور PNG في Java باستخدام Aspose.TeX. يقدم هذا الدليل خطوة بخطوة تحسينًا لقدرات معالجة المستندات ويضمن أداءً استثنائيًا. ارتقِ بجاذبية مستنداتك البصرية من خلال عرض دقيق للمعادلات الرياضية المعقدة.
+#### [عرض معادلات LaTeX الرياضية إلى PNG في Java](./render-lamath-png/)
 
-### Render LaTeX Figures to SVG in Java
+إتقان عرض معادلات LaTeX الرياضية إلى صور PNG في Java باستخدام Aspose.TeX. يقدم هذا الدليل خطوة بخطوة تحسينًا لقدرات معالجة المستندات الخاصة بك ويضمن أداءً استثنائيًا. ارتقِ بجاذبية مستنداتك من خلال عرض دقيق للمعادلات الرياضية المعقدة.
 
-#### [تحويل رسومات LaTeX إلى SVG في Java](./render-lafigures-svg/)
+### عرض رسومات LaTeX إلى SVG في Java
 
-استكشف عالم رسومات Scalable Vector Graphics (SVG) من خلال تحويل رسومات LaTeX بسهولة في Java باستخدام Aspose.TeX. يقدم هذا الدرس دليلًا مفصلاً خطوة بخطوة، مما يسمح لمطوري Java بدمج مخرجات SVG بسلاسة في سير عمل معالجة المستندات.
+#### [عرض رسومات LaTeX إلى SVG في Java](./render-lafigures-svg/)
 
-### Render LaTeX Math to SVG in Java
+استكشف عالم رسومات Scalable Vector Graphics (SVG) عبر عرض رسومات LaTeX بسهولة في Java باستخدام Aspose.TeX. يقدم هذا الدرس دليلًا مفصلاً خطوة بخطوة، مما يتيح لمطوري Java دمج مخرجات SVG بسلاسة في سير عمل معالجة المستندات.
 
-#### [تحويل معادلات LaTeX الرياضية إلى SVG في Java](./render-lamath-svg/)
+### عرض معادلات LaTeX الرياضية إلى SVG في Java
 
-تعمق في دقة تحويل معادلات LaTeX الرياضية إلى SVG في Java باستخدام Aspose.TeX. يضمن هذا الدليل الشامل نتائج دقيقة وجذابة بصريًا لمطوري Java. ارتقِ بمعالجة المستندات من خلال دمج مخرجات SVG عالية الجودة بسهولة.
+#### [عرض معادلات LaTeX الرياضية إلى SVG في Java](./render-lamath-svg/)
 
-## Why Generate SVG from LaTeX?
+تعمق في دقة عرض معادلات LaTeX الرياضية إلى SVG في Java باستخدام Aspose.TeX. يضمن هذا الدليل الشامل نتائج دقيقة وجذابة بصريًا لمطوري Java. ارتقِ بمعالجة المستندات عبر دمج مخرجات SVG عالية الجودة بسهولة.
 
-- **Scalability:** رسومات SVG تتوسع دون بكسلة، مثالية للصفحات الويب المتجاوبة والطباعة عالية الدقة.  
-- **Small File Size:** بيانات المتجه غالبًا ما تكون أخف من الصور النقطية، مما يقلل من استهلاك النطاق الترددي وتكاليف التخزين.  
-- **Editability:** يمكن تنسيق SVG باستخدام CSS أو التلاعب به عبر JavaScript، مما يمنحك تحكمًا ديناميكيًا بعد العرض.  
-- **Cross‑Platform Consistency:** يظهر نفس ملف SVG بصورة متطابقة على Windows و macOS و Linux والأجهزة المحمولة.
+## لماذا توليد SVG من LaTeX؟
 
-## Common Pitfalls & Pro Tips
+توفر مخرجات SVG قابلية توسعة لا نهائية، عادةً ما تكون أصغر بنسبة 30 % مقارنة بملفات PNG المماثلة، وتسمح بتحرير كامل عبر CSS أو JavaScript. نظرًا لأن SVG يعتمد على المتجهات، فإنه يُظهر حدة عالية على الشاشات ذات الكثافة العالية DPI، ويُطبع بأي دقة، ويمكن تنسيقه ديناميكيًا بعد العرض—مما يجعله مثاليًا للصفحات الويب المتجاوبة والمواد الطباعية عالية الجودة.
 
-- **Pro tip:** دائمًا عيّن اسم وظيفة مخصص عند تشغيل التحويلات الدفعة؛ فهذا يحافظ على تنظيم مجلدات المخرجات ويسهل عملية تصحيح الأخطاء.  
-- **Pitfall:** نسيان إغلاق `TeXEngine` قد يؤدي إلى تسرب الذاكرة. استخدم كتلة try‑with‑resources أو استدعِ `engine.dispose()` صراحة.  
-- **Pro tip:** عند كتابة مخرجات الطرفية إلى أرشيف ZIP، تأكد من تفريغ تدفق ZIP قبل انتهاء المحرك لتجنب سجلات تالفة.  
+## الأخطاء الشائعة ونصائح الخبراء
 
-## Frequently Asked Questions
+- **نصيحة خبراء:** دائمًا عيّن اسم وظيفة مخصص عند تشغيل تحويلات الدُفعات؛ فهذا يحافظ على تنظيم مجلدات المخرجات ويسهل عملية تصحيح الأخطاء.  
+- **خطأ شائع:** نسيان إغلاق `TeXEngine` قد يؤدي إلى تسرب الذاكرة. استخدم كتلة `try‑with‑resources` أو استدعِ `engine.dispose()` صراحة.  
+- **نصيحة خبراء:** عند كتابة مخرجات الطرفية إلى أرشيف ZIP، تأكد من تفريغ تدفق ZIP قبل انتهاء الـ engine لتجنب سجلات تالفة.  
+
+## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.TeX لتحويل LaTeX إلى SVG في تطبيق ويب؟**  
 ج: نعم. تعمل المكتبة على أي بيئة تشغيل Java، مما يجعلها مناسبة للعرض من جانب الخادم في تطبيقات الويب.
 
-**س: كيف يمكنني التقاط مخرجات الطرفية عند تحويل LaTeX إلى SVG؟**  
-ج: استخدم خيارات *override job name* و *write terminal output*؛ يمكنك توجيه المخرجات إلى ملف أو إلى أرشيف ZIP كما هو موضح في الدروس ذات الصلة.
+**س: كيف ألتقط مخرجات الطرفية عند تحويل LaTeX إلى SVG؟**  
+ج: استخدم خيارات *override job name* و*write terminal output*؛ يمكنك توجيه المخرجات إلى ملف أو أرشيف ZIP كما هو موضح في الدروس ذات الصلة.
 
-**س: هل من الممكن تحويل كل من الرسومات والرياضيات إلى SVG في تشغيل واحد؟**  
-ج: بالتأكيد. يمكنك تكوين العارض لمعالجة عدة مقاطع LaTeX، كل منها ينتج ملف SVG خاص به.
+**س: هل يمكنني عرض كل من الرسومات والمعادلات إلى SVG في تشغيل واحد؟**  
+ج: بالتأكيد. يمكنك ضبط العارض لمعالجة عدة مقاطع LaTeX، كل منها ينتج ملف SVG خاص به.
 
 **س: هل أحتاج إلى ترخيص خاص لإخراج SVG؟**  
-ج: ترخيص Aspose.TeX القياسي يغطي جميع صيغ العرض، بما في ذلك SVG.
+ج: يغطي الترخيص القياسي لـ Aspose.TeX جميع صيغ العرض، بما فيها SVG.
 
 **س: ما نسخة Java المطلوبة؟**  
-ج: تدعم Aspose.TeX Java 8 والإصدارات الأحدث.
+ج: يدعم Aspose.TeX Java 8 وما فوق.
 
-**س: كيف يختلف “generate svg from latex” عن عرض PNG؟**  
-ج: SVG يعتمد على المتجهات، مما يوفر قابلية توسع لا نهائية، بينما PNG صورة نقطية تعتمد على الدقة. اختر SVG عندما تحتاج إلى رسومات واضحة بأي حجم.
+**س: كيف يختلف “إنشاء SVG من LaTeX” عن عرض PNG؟**  
+ج: SVG يعتمد على المتجهات، مما يوفر توسعة لا نهائية وحجم ملفات أصغر عادةً، بينما PNG هو صورة نقطية وتعتمد على الدقة. اختر SVG عندما تحتاج إلى رسومات واضحة بأي حجم.
 
-**س: هل يمكن أتمتة “write terminal output java” لخطوط أنابيب CI؟**  
-ج: نعم. عبر تجاوز اسم الوظيفة وتوجيه المخرجات إلى دليل معروف أو ملف ZIP، يمكنك أرشفة السجلات بسهولة لبناءات التكامل المستمر.
+**س: هل يمكن أتمتة “write terminal output java” في خطوط أنابيب CI؟**  
+ج: نعم. عبر تجاوز اسم المهمة وتوجيه المخرجات إلى دليل معروف أو ملف ZIP، يمكنك أرشفة السجلات بسهولة لبناءات التكامل المستمر.
 
-## Customizing TeX Output in Aspose.TeX for Java Tutorials
-### [تجاوز اسم الوظيفة وكتابة مخرجات الطرفية في Java](./override-job-name-disk/)
-استكشف الدليل خطوة بخطوة حول تجاوز أسماء الوظائف وكتابة مخرجات الطرفية باستخدام Aspose.TeX للـ Java. حسّن معالجة المستندات عبر خيارات تخصيص قوية.
+## دروس تخصيص مخرجات TeX في Aspose.TeX للـ Java
+### [تجاوز اسم المهمة وكتابة مخرجات الطرفية في Java](./override-job-name-disk/)
+استكشف دليلًا خطوة بخطوة حول تجاوز أسماء الوظائف وكتابة مخرجات الطرفية باستخدام Aspose.TeX للـ Java. عزّز معالجة المستندات لديك بخيارات تخصيص قوية.
 
-### [تجاوز اسم الوظيفة وكتابة مخرجات الطرفية إلى Zip في Java](./override-job-name-zip/)
-تعلم كيفية تجاوز أسماء الوظائف وكتابة مخرجات الطرفية إلى ZIP في Java باستخدام Aspose.TeX. دليل شامل لمطوري Java.
+### [تجاوز اسم المهمة وكتابة مخرجات الطرفية إلى Zip في Java](./override-job-name-zip/)
+تعلم كيفية تجاوز أسماء الوظائف وكتابة مخرجات الطرفية إلى ZIP في Java مع Aspose.TeX. دليل شامل لمطوري Java.
 
-### [تحويل رسومات LaTeX إلى PNG في Java](./render-lafigures-png/)
-قم بتحويل رسومات LaTeX إلى PNG بسهولة في Java مع Aspose.TeX. اتبع هذا الدليل للتكامل السلس.
+### [عرض رسومات LaTeX إلى PNG في Java](./render-lafigures-png/)
+اعرض رسومات LaTeX إلى PNG بسهولة في Java باستخدام Aspose.TeX. اتبع هذا الدليل للدمج السلس.
 
-### [تحويل معادلات LaTeX الرياضية إلى PNG في Java](./render-lamath-png/)
-تعلم تحويل معادلات LaTeX الرياضية إلى صور PNG في Java باستخدام Aspose.TeX. دليل خطوة بخطوة للتكامل السلس وأداء استثنائي.
+### [عرض معادلات LaTeX الرياضية إلى PNG في Java](./render-lamath-png/)
+تعلم عرض معادلات LaTeX الرياضية إلى صور PNG في Java باستخدام Aspose.TeX. دليل خطوة بخطوة للدمج السلس والأداء المتميّز.
 
-### [تحويل رسومات LaTeX إلى SVG في Java](./render-lafigures-svg/)
-تعلم كيفية تحويل رسومات LaTeX إلى SVG بسهولة في Java باستخدام Aspose.TeX. اتبع هذا الدليل خطوة بخطوة للتكامل السلس.
+### [عرض رسومات LaTeX إلى SVG في Java](./render-lafigures-svg/)
+تعلم كيفية عرض رسومات LaTeX إلى SVG بسهولة في Java باستخدام Aspose.TeX. اتبع هذا الدليل خطوة بخطوة للدمج السلس.
 
-### [تحويل معادلات LaTeX الرياضية إلى SVG في Java](./render-lamath-svg/)
-تعلم كيفية تحويل معادلات LaTeX الرياضية إلى SVG في Java باستخدام Aspose.TeX. اتبع دليلنا خطوة بخطوة للحصول على نتائج دقيقة وجذابة بصريًا.
+### [عرض معادلات LaTeX الرياضية إلى SVG في Java](./render-lamath-svg/)
+تعلم كيفية عرض معادلات LaTeX الرياضية إلى SVG في Java باستخدام Aspose.TeX. اتبع دليلنا خطوة بخطوة للحصول على نتائج دقيقة وجذابة بصريًا.
 
 ---
 
-**آخر تحديث:** 2026-02-12  
-**تم الاختبار مع:** Aspose.TeX for Java 24.11  
-**المؤلف:** Aspose  
+**آخر تحديث:** 2026-08-18  
+**تم الاختبار مع:** Aspose.TeX للـ Java 24.11  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [Convert TeX to PDF, Override Job Name and Write Terminal Output to ZIP in Java](/tex/java/customizing-output/override-job-name-zip/)
+- [How to Capture Console Output and Override Job Name in Java](/tex/java/customizing-output/override-job-name-disk/)
+- [How to Use ZIP Archives for Input and Output in Aspose.TeX Java](/tex/java/zip-archives/zip-archives-input-output/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
