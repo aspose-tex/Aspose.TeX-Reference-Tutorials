@@ -51,17 +51,9 @@ url: /zh/net/render-latex-math/
 weight: 26
 ---
 
-{{< blocks/products/pf/main-container >}}
-
-## 相关教程
-
-- [使用 Aspose.TeX 在 .NET 中从 LaTeX 创建 SVG – 简易指南](/tex/net/latex-conversion/to-svg/)
-- [latex 转 pdf .net – 2 种简易方法，使用 Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
-- [使用 Aspose.TeX for .NET 创建独特的 LaTeX 设计](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用 Aspose.TeX 将 LaTeX 转换为图像
 
@@ -165,7 +157,14 @@ A: 可达 5000 × 5000 px 而不降低性能；更大的尺寸可通过增
 **测试使用：** Aspose.TeX 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+## 相关教程
+
+- [使用 Aspose.TeX 在 .NET 中从 LaTeX 创建 SVG – 简易指南](/tex/net/latex-conversion/to-svg/)
+- [latex 转 pdf .net – 2 种简易方法，使用 Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
+- [使用 Aspose.TeX for .NET 创建独特的 LaTeX 设计](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

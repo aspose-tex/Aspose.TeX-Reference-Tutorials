@@ -172,7 +172,6 @@ A：可以，只要该服务能够访问 Aspose 的许可端点。
 **测试环境：** Aspose.TeX 24.10 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## 相关教程
 
@@ -183,3 +182,5 @@ A：可以，只要该服务能够访问 Aspose 的许可端点。
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

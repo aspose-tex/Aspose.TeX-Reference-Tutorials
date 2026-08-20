@@ -177,7 +177,6 @@ A: Ναι, εφόσον η υπηρεσία μπορεί να φτάσει στ�
 **Δοκιμή Με:** Aspose.TeX 24.10 for .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Σχετικά Μαθήματα
 
@@ -189,3 +188,5 @@ A: Ναι, εφόσον η υπηρεσία μπορεί να φτάσει στ�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

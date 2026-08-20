@@ -220,7 +220,6 @@ A: Η μηχανή μπορεί να επεξεργαστεί έγγραφα έ�
 **Δοκιμάστηκε Με:** Aspose.TeX 24.11 for .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Σχετικά Μαθήματα
 
@@ -231,3 +230,5 @@ A: Η μηχανή μπορεί να επεξεργαστεί έγγραφα έ�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -176,7 +176,6 @@ A: はい、サービスが Aspose のライセンスエンドポイントに到
 **Tested With:** Aspose.TeX 24.10 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## 関連チュートリアル
 
@@ -187,3 +186,5 @@ A: はい、サービスが Aspose のライセンスエンドポイントに到
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

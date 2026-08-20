@@ -52,17 +52,9 @@ url: /th/net/render-latex-math/
 weight: 26
 ---
 
-{{< blocks/products/pf/main-container >}}
-
-## การสอนที่เกี่ยวข้อง
-
-- [สร้าง SVG จาก LaTeX ใน .NET ด้วย Aspose.TeX – คู่มือแบบง่าย](/tex/net/latex-conversion/to-svg/)
-- [latex ไปเป็น pdf .net – 2 วิธีง่ายด้วย Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
-- [สร้างการออกแบบ LaTeX ที่ไม่ซ้ำใครด้วย Aspose.TeX สำหรับ .NET](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # วิธีแปลง LaTeX เป็นภาพด้วย Aspose.TeX
 
@@ -157,7 +149,14 @@ A: สูงสุด 5000 × 5000 px โดยไม่มีการล
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+## การสอนที่เกี่ยวข้อง
+
+- [สร้าง SVG จาก LaTeX ใน .NET ด้วย Aspose.TeX – คู่มือแบบง่าย](/tex/net/latex-conversion/to-svg/)
+- [latex ไปเป็น pdf .net – 2 วิธีง่ายด้วย Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
+- [สร้างการออกแบบ LaTeX ที่ไม่ซ้ำใครด้วย Aspose.TeX สำหรับ .NET](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

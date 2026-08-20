@@ -173,7 +173,6 @@ Yukarıdaki adımları izleyerek artık Aspose.TeX için **C# ölçümlü lisans
 **Test Edildi:** Aspose.TeX 24.10 for .NET  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## İlgili Eğitimler
 
@@ -185,3 +184,5 @@ Yukarıdaki adımları izleyerek artık Aspose.TeX için **C# ölçümlü lisans
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

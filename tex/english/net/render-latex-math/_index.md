@@ -51,16 +51,9 @@ schemas:
       be rendered by increasing memory allocation.
 ---
 
-{{< blocks/products/pf/main-container >}}
-
-## Related Tutorials
-
-{{< relref "tex/net/latex-conversion/to-svg" >}}
-{{< relref "tex/net/latex-conversion/to-pdf" >}}
-{{< relref "tex/net/advanced-formatting-and-customization/create-custom-tex-formats" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Convert LaTeX to Image with Aspose.TeX
 
@@ -104,32 +97,6 @@ Create a simple C# console application and add the following logic (the code blo
 ### Step 3: run and verify
 Execute the program; a PNG file will appear in your output folder. Open it with any image viewer to confirm the formula looks exactly as expected.
 
-## Unraveling the Magic: Aspose.TeX for .NET
-
-Aspose.TeX for .NET is a powerful tool that opens up a world of possibilities for rendering LaTeX math to PNG. Whether you're a seasoned developer or a coding enthusiast, this tutorial series is designed to cater to all skill levels. Let's dive into the first tutorial to kickstart your journey.
-
-## Render LaTeX Math to PNG with Aspose.TeX (C#)
-
-{{< relref "png-latex-math-renderer-csharp" >}}
-
-In the first leg of our adventure, we'll explore the fundamental steps to render LaTeX math to PNG using Aspose.TeX in C#. This tutorial is perfect for those starting their journey with Aspose.TeX or looking to enhance their existing knowledge. {{< relref "png-latex-math-renderer-csharp" >}}
-
-### Getting started: setting up your environment
-
-Before we delve into the code, let's ensure you have everything set up. You'll need to install Aspose.TeX for .NET and have a C# development environment ready. Don't worry; we've got a handy guide to walk you through this process seamlessly.
-
-### The code unveiled: a closer look
-
-Once your environment is set up, we'll dissect the C# code responsible for rendering LaTeX math to PNG. Each line will be explained with clarity, ensuring you understand the logic behind the magic. We believe in demystifying the complex, making it accessible to all.
-
-### Debugging tips: navigating challenges
-
-No coding journey is without its challenges. We'll equip you with valuable debugging tips, addressing common issues faced during LaTeX math rendering. By the end, you'll be troubleshooting like a pro, ensuring a smooth rendering process.
-
-### Seamless integration: bringing it all together
-
-The final steps involve integrating your freshly rendered LaTeX math seamlessly. Whether it's for a project, presentation, or educational materials, Aspose.TeX ensures a polished finish. We'll guide you through the integration process, leaving you with a sense of accomplishment.
-
 ## Common issues and solutions
 - **Missing font errors:** Ensure the required TrueType fonts are installed on the server or specify a custom font folder via `RenderOptions.FontsPath`.
 - **Unsupported LaTeX commands:** Aspose.TeX covers 30+ commands; for rare packages, consider preprocessing the LaTeX or using the `CustomCommand` API.
@@ -162,7 +129,15 @@ You now have a complete, production‑ready approach to **how to convert LaTeX t
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+## Related Tutorials
+
+- [How to Convert LaTeX to PNG with Aspose.TeX (C#)](/tex/net/render-latex-math/png-latex-math-renderer-csharp/)
+- [Create SVG from LaTeX in .NET with Aspose.TeX – Easy Guide](/tex/net/latex-conversion/to-svg/)
+- [latex to pdf .net – 2 Easy Methods with Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
+- [Create Unique LaTeX Designs with Aspose.TeX for .NET](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

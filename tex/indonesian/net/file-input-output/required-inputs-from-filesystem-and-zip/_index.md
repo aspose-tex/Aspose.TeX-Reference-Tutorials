@@ -217,7 +217,6 @@ Anda kini telah belajar cara **mengonversi LaTeX ke PNG**, **menyimpan LaTeX seb
 **Diuji Dengan:** Aspose.TeX 24.11 for .NET  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Tutorial Terkait
 
@@ -229,3 +228,5 @@ Anda kini telah belajar cara **mengonversi LaTeX ke PNG**, **menyimpan LaTeX seb
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

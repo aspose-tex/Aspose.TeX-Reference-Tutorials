@@ -217,7 +217,6 @@ Aspose.TeX 可以读取包含 `.tex` 文件以及所有必需的 `.sty`、字体
 **测试环境：** Aspose.TeX 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## 相关教程
 
@@ -228,3 +227,5 @@ Aspose.TeX 可以读取包含 `.tex` 文件以及所有必需的 `.sty`、字体
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

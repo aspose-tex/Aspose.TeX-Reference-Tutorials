@@ -220,7 +220,6 @@ Vous avez maintenant appris comment **convertir LaTeX en PNG**, **enregistrer La
 **Testé avec :** Aspose.TeX 24.11 for .NET  
 **Auteur :** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Tutoriels associés
 
@@ -232,3 +231,5 @@ Vous avez maintenant appris comment **convertir LaTeX en PNG**, **enregistrer La
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

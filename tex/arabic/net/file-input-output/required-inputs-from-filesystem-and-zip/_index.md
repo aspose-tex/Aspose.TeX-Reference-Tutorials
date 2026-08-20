@@ -219,7 +219,6 @@ new TeXJob(Path.Combine("Your Input Directory", "required-input-fs.tex"), new Im
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## دروس ذات صلة
 
@@ -231,3 +230,5 @@ new TeXJob(Path.Combine("Your Input Directory", "required-input-fs.tex"), new Im
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

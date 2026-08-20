@@ -52,17 +52,9 @@ url: /ar/net/render-latex-math/
 weight: 26
 ---
 
-{{< blocks/products/pf/main-container >}}
-
-## الدروس ذات الصلة
-
-- [إنشاء SVG من LaTeX في .NET باستخدام Aspose.TeX – دليل سهل](/tex/net/latex-conversion/to-svg/)
-- [latex إلى pdf .net – طريقتان سهلتان مع Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
-- [إنشاء تصاميم LaTeX فريدة باستخدام Aspose.TeX لـ .NET](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # كيفية تحويل LaTeX إلى صورة باستخدام Aspose.TeX
 
@@ -164,7 +156,14 @@ Aspose.TeX لـ .NET أداة قوية تفتح لك عالمًا من الإم�
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+## الدروس ذات الصلة
+
+- [إنشاء SVG من LaTeX في .NET باستخدام Aspose.TeX – دليل سهل](/tex/net/latex-conversion/to-svg/)
+- [latex إلى pdf .net – طريقتان سهلتان مع Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
+- [إنشاء تصاميم LaTeX فريدة باستخدام Aspose.TeX لـ .NET](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

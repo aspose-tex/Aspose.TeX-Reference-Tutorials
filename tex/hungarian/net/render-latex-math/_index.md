@@ -52,17 +52,9 @@ url: /hu/net/render-latex-math/
 weight: 26
 ---
 
-{{< blocks/products/pf/main-container >}}
-
-## Kapcsolódó oktatóanyagok
-
-- [SVG létrehozása LaTeX-ből .NET-ben az Aspose.TeX‑szel – Egyszerű útmutató](/tex/net/latex-conversion/to-svg/)
-- [LaTeX PDF‑re .NET‑ben – 2 egyszerű módszer az Aspose.TeX‑szel](/tex/net/latex-conversion/to-pdf/)
-- [Egyedi LaTeX tervek létrehozása az Aspose.TeX for .NET‑tel](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Hogyan konvertáljunk LaTeX‑t képpé az Aspose.TeX‑szel
 
@@ -164,7 +156,14 @@ Most már egy teljes, termelésre kész megközelítést birtokolsz a **hogyan k
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+## Kapcsolódó oktatóanyagok
+
+- [SVG létrehozása LaTeX-ből .NET-ben az Aspose.TeX‑szel – Egyszerű útmutató](/tex/net/latex-conversion/to-svg/)
+- [LaTeX PDF‑re .NET‑ben – 2 egyszerű módszer az Aspose.TeX‑szel](/tex/net/latex-conversion/to-pdf/)
+- [Egyedi LaTeX tervek létrehozása az Aspose.TeX for .NET‑tel](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

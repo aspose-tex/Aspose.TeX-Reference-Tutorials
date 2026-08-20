@@ -215,7 +215,6 @@ Teraz wiesz, jak **konwertować LaTeX do PNG**, **zapisować LaTeX jako PNG** i 
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Powiązane samouczki
 
@@ -227,3 +226,5 @@ Teraz wiesz, jak **konwertować LaTeX do PNG**, **zapisować LaTeX jako PNG** i 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

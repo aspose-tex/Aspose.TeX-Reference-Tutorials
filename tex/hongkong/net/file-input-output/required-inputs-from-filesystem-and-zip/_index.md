@@ -219,7 +219,6 @@ A: 由於採用串流架構，引擎可在不將整個檔案載入記憶體的�
 **測試環境：** Aspose.TeX 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## 相關教學
 
@@ -231,3 +230,5 @@ A: 由於採用串流架構，引擎可在不將整個檔案載入記憶體的�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

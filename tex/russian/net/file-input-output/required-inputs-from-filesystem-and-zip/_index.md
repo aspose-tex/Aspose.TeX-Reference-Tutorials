@@ -215,7 +215,6 @@ A: Движок может обрабатывать документы до **50
 **Тестировано с:** Aspose.TeX 24.11 for .NET  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Связанные учебники
 
@@ -227,3 +226,5 @@ A: Движок может обрабатывать документы до **50
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

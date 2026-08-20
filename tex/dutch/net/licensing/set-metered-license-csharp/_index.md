@@ -177,7 +177,6 @@ Door de bovenstaande stappen te volgen weet u nu **hoe u een metered license in 
 **Getest met:** Aspose.TeX 24.10 for .NET  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Gerelateerde tutorials
 
@@ -188,3 +187,5 @@ Door de bovenstaande stappen te volgen weet u nu **hoe u een metered license in 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

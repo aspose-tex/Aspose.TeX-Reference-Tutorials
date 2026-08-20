@@ -215,7 +215,6 @@ You’ve now learned how to **convert LaTeX to PNG**, **save LaTeX as PNG**, and
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Related Tutorials
 
@@ -226,3 +225,5 @@ You’ve now learned how to **convert LaTeX to PNG**, **save LaTeX as PNG**, and
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

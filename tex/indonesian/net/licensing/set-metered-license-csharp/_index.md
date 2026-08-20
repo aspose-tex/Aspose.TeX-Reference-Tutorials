@@ -173,7 +173,6 @@ Dengan mengikuti langkah-langkah di atas, Anda kini tahu **cara mengatur lisensi
 **Diuji Dengan:** Aspose.TeX 24.10 for .NET  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Tutorial Terkait
 
@@ -185,3 +184,5 @@ Dengan mengikuti langkah-langkah di atas, Anda kini tahu **cara mengatur lisensi
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

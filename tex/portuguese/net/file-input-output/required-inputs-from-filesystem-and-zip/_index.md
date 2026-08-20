@@ -217,7 +217,6 @@ Você aprendeu agora como **converter LaTeX para PNG**, **salvar LaTeX como PNG*
 **Testado com:** Aspose.TeX 24.11 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Tutoriais Relacionados
 
@@ -229,3 +228,5 @@ Você aprendeu agora como **converter LaTeX para PNG**, **salvar LaTeX como PNG*
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

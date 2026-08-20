@@ -218,7 +218,6 @@ Artık **LaTeX'i PNG'ye dönüştürmeyi**, **LaTeX'i PNG olarak kaydetmeyi** ve
 **Test Edilen Sürümler:** Aspose.TeX 24.11 for .NET  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## İlgili Öğreticiler
 
@@ -230,3 +229,5 @@ Artık **LaTeX'i PNG'ye dönüştürmeyi**, **LaTeX'i PNG olarak kaydetmeyi** ve
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

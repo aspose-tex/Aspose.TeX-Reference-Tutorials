@@ -177,7 +177,6 @@ Seguindo os passos acima, você agora sabe **como definir a licença metered C#*
 **Tested With:** Aspose.TeX 24.10 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Tutoriais Relacionados
 
@@ -189,3 +188,5 @@ Seguindo os passos acima, você agora sabe **como definir a licença metered C#*
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

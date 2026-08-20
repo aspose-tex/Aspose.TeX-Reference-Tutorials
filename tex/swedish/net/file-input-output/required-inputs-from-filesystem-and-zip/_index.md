@@ -216,7 +216,6 @@ Du har nu lärt dig hur man **konverterar LaTeX till PNG**, **sparar LaTeX som P
 **Testat med:** Aspose.TeX 24.11 för .NET  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Relaterade handledningar
 
@@ -227,3 +226,5 @@ Du har nu lärt dig hur man **konverterar LaTeX till PNG**, **sparar LaTeX som P
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

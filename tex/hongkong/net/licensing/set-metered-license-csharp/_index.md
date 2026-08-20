@@ -174,7 +174,6 @@ A: 能，只要服務能連到 Aspose 的授權端點即可。
 **測試版本：** Aspose.TeX 24.10 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## 相關教學
 
@@ -185,3 +184,5 @@ A: 能，只要服務能連到 Aspose 的授權端點即可。
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

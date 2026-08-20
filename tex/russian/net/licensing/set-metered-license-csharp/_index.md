@@ -177,7 +177,6 @@ A: Да, при условии, что сервис может достичь к
 **Тестировано с:** Aspose.TeX 24.10 for .NET  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Связанные руководства
 
@@ -189,3 +188,5 @@ A: Да, при условии, что сервис может достичь к
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

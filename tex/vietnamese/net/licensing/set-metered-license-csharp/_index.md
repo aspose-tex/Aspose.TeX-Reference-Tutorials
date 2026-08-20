@@ -177,7 +177,6 @@ Bằng cách thực hiện các bước trên, bạn đã biết **cách thiết
 **Kiểm tra với:** Aspose.TeX 24.10 for .NET  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Hướng dẫn liên quan
 
@@ -188,3 +187,5 @@ Bằng cách thực hiện các bước trên, bạn đã biết **cách thiết
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

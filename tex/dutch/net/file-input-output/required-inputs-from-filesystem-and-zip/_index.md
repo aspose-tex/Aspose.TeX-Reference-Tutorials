@@ -218,7 +218,6 @@ Je hebt nu geleerd hoe je **LaTeX naar PNG kunt converteren**, **LaTeX als PNG k
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Gerelateerde tutorials
 
@@ -230,3 +229,5 @@ Je hebt nu geleerd hoe je **LaTeX naar PNG kunt converteren**, **LaTeX als PNG k
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

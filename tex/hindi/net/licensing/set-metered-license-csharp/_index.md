@@ -175,7 +175,6 @@ A: हाँ, जब तक सर्विस Aspose लाइसेंसि�
 **Tested With:** Aspose.TeX 24.10 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## संबंधित ट्यूटोरियल
 
@@ -186,3 +185,5 @@ A: हाँ, जब तक सर्विस Aspose लाइसेंसि�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -51,17 +51,9 @@ url: /zh-hant/net/render-latex-math/
 weight: 26
 ---
 
-{{< blocks/products/pf/main-container >}}
-
-## 相關教學
-
-- [使用 Aspose.TeX 在 .NET 中從 LaTeX 建立 SVG – 簡易指南](/tex/net/latex-conversion/to-svg/)
-- [latex 轉 pdf .net – 兩個簡易方法與 Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
-- [使用 Aspose.TeX for .NET 建立獨特 LaTeX 設計](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # 如何使用 Aspose.TeX 將 LaTeX 轉換為圖像
 
@@ -163,7 +155,14 @@ Aspose.TeX for .NET 是一套功能強大的工具，為將 LaTeX 數學渲染�
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+## 相關教學
+
+- [使用 Aspose.TeX 在 .NET 中從 LaTeX 建立 SVG – 簡易指南](/tex/net/latex-conversion/to-svg/)
+- [latex 轉 pdf .net – 兩個簡易方法與 Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
+- [使用 Aspose.TeX for .NET 建立獨特 LaTeX 設計](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

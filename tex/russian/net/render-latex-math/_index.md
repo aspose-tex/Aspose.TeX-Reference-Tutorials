@@ -53,17 +53,9 @@ url: /ru/net/render-latex-math/
 weight: 26
 ---
 
-{{< blocks/products/pf/main-container >}}
-
-## Связанные руководства
-
-- [Создать SVG из LaTeX в .NET с Aspose.TeX – простой гид](/tex/net/latex-conversion/to-svg/)
-- [latex в pdf .net – 2 простых метода с Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
-- [Создать уникальные дизайны LaTeX с Aspose.TeX для .NET](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Как конвертировать LaTeX в изображение с помощью Aspose.TeX
 
@@ -165,7 +157,14 @@ A: До 5000 × 5000 px без ухудшения производител
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+## Связанные руководства
+
+- [Создать SVG из LaTeX в .NET с Aspose.TeX – простой гид](/tex/net/latex-conversion/to-svg/)
+- [latex в pdf .net – 2 простых метода с Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
+- [Создать уникальные дизайны LaTeX с Aspose.TeX для .NET](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

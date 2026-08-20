@@ -173,7 +173,6 @@ A fenti lépések követésével most már tudja, **hogyan állítsuk be a mér�
 **Tesztelve:** Aspose.TeX 24.10 for .NET  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Kapcsolódó oktatóanyagok
 
@@ -184,3 +183,5 @@ A fenti lépések követésével most már tudja, **hogyan állítsuk be a mér�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

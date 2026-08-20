@@ -211,7 +211,6 @@ Aspose.TeX は、`.tex` ファイルと必要なすべての `.sty`、フォン�
 **テスト環境:** Aspose.TeX 24.11 for .NET  
 **著者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## 関連チュートリアル
 
@@ -223,3 +222,5 @@ Aspose.TeX は、`.tex` ファイルと必要なすべての `.sty`、フォン�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

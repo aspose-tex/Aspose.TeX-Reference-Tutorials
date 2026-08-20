@@ -53,17 +53,9 @@ url: /pl/net/render-latex-math/
 weight: 26
 ---
 
-{{< blocks/products/pf/main-container >}}
-
-## Powiązane samouczki
-
-- [Utwórz SVG z LaTeX w .NET przy użyciu Aspose.TeX – Łatwy przewodnik](/tex/net/latex-conversion/to-svg/)
-- [latex do pdf .net – 2 proste metody z Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
-- [Utwórz unikalne projekty LaTeX z Aspose.TeX dla .NET](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Jak konwertować LaTeX na obraz przy użyciu Aspose.TeX
 
@@ -165,7 +157,14 @@ Masz teraz kompletną, gotową do produkcji metodę **jak konwertować LaTeX na 
 **Testowane z:** Aspose.TeX 24.11 dla .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+## Powiązane samouczki
+
+- [Utwórz SVG z LaTeX w .NET przy użyciu Aspose.TeX – Łatwy przewodnik](/tex/net/latex-conversion/to-svg/)
+- [latex do pdf .net – 2 proste metody z Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
+- [Utwórz unikalne projekty LaTeX z Aspose.TeX dla .NET](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

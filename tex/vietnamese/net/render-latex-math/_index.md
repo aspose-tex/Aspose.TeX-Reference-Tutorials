@@ -52,17 +52,9 @@ url: /vi/net/render-latex-math/
 weight: 26
 ---
 
-{{< blocks/products/pf/main-container >}}
-
-## Các hướng dẫn liên quan
-
-- [Tạo SVG từ LaTeX trong .NET với Aspose.TeX – Hướng dẫn dễ dàng](/tex/net/latex-conversion/to-svg/)
-- [latex sang pdf .net – 2 phương pháp dễ dàng với Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
-- [Tạo các thiết kế LaTeX độc đáo với Aspose.TeX cho .NET](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Cách chuyển đổi LaTeX thành hình ảnh với Aspose.TeX
 
@@ -164,7 +156,14 @@ Bạn giờ đã có một phương pháp hoàn chỉnh, sẵn sàng cho sản x
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+## Các hướng dẫn liên quan
+
+- [Tạo SVG từ LaTeX trong .NET với Aspose.TeX – Hướng dẫn dễ dàng](/tex/net/latex-conversion/to-svg/)
+- [latex sang pdf .net – 2 phương pháp dễ dàng với Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
+- [Tạo các thiết kế LaTeX độc đáo với Aspose.TeX cho .NET](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

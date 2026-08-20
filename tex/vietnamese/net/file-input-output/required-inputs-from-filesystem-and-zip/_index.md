@@ -218,7 +218,6 @@ Bạn đã học cách **chuyển LaTeX sang PNG**, **lưu LaTeX dưới dạng 
 **Kiểm tra với:** Aspose.TeX 24.11 cho .NET  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Hướng dẫn liên quan
 
@@ -230,3 +229,5 @@ Bạn đã học cách **chuyển LaTeX sang PNG**, **lưu LaTeX dưới dạng 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

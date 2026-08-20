@@ -175,7 +175,6 @@ Seguendo i passaggi sopra, ora sai **come impostare la licenza a consumo C#** pe
 **Tested With:** Aspose.TeX 24.10 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Tutorial correlati
 
@@ -187,3 +186,5 @@ Seguendo i passaggi sopra, ora sai **come impostare la licenza a consumo C#** pe
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

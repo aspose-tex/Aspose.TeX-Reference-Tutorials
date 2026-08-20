@@ -52,17 +52,9 @@ url: /hi/net/render-latex-math/
 weight: 26
 ---
 
-{{< blocks/products/pf/main-container >}}
-
-## संबंधित ट्यूटोरियल
-
-- [Aspose.TeX के साथ .NET में LaTeX से SVG बनाएं – आसान गाइड](/tex/net/latex-conversion/to-svg/)
-- [latex to pdf .net – Aspose.TeX के साथ 2 आसान विधियाँ](/tex/net/latex-conversion/to-pdf/)
-- [Aspose.TeX for .NET के साथ अनोखे LaTeX डिज़ाइन बनाएं](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.TeX के साथ LaTeX को इमेज में बदलना
 
@@ -164,7 +156,14 @@ Aspose.TeX for .NET एक शक्तिशाली टूल है जो L
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+## संबंधित ट्यूटोरियल
+
+- [Aspose.TeX के साथ .NET में LaTeX से SVG बनाएं – आसान गाइड](/tex/net/latex-conversion/to-svg/)
+- [latex to pdf .net – Aspose.TeX के साथ 2 आसान विधियाँ](/tex/net/latex-conversion/to-pdf/)
+- [Aspose.TeX for .NET के साथ अनोखे LaTeX डिज़ाइन बनाएं](/tex/net/advanced-formatting-and-customization/create-custom-tex-formats/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

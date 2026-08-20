@@ -220,7 +220,6 @@ A: เอนจินสามารถประมวลผลเอกสา�
 **ทดสอบกับ:** Aspose.TeX 24.11 for .NET  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## บทแนะนำที่เกี่ยวข้อง
 
@@ -232,3 +231,5 @@ A: เอนจินสามารถประมวลผลเอกสา�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

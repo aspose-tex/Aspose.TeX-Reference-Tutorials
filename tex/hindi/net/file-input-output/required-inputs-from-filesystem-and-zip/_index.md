@@ -218,7 +218,6 @@ A: यह इंजन **500 पृष्ठ** तक के दस्ताव�
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## संबंधित ट्यूटोरियल
 
@@ -230,3 +229,5 @@ A: यह इंजन **500 पृष्ठ** तक के दस्ताव�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

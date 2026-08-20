@@ -175,7 +175,6 @@ Genom att följa stegen ovan vet du nu **how to set metered license C#** för As
 **Testat med:** Aspose.TeX 24.10 för .NET  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
 
 ## Relaterade handledningar
 
@@ -186,3 +185,5 @@ Genom att följa stegen ovan vet du nu **how to set metered license C#** för As
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
