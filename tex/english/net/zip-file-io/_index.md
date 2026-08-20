@@ -2,7 +2,7 @@
 title: Create Zip Archive and Read ZIP Files with Aspose.TeX for .NET
 linktitle: Zip File Input and Output
 second_title: Aspose.TeX .NET API
-description: Learn how to create zip archive and read zip files using Aspose.TeX for .NET, simplifying document processing in your applications.
+description: Learn how to quickly create zip archives and efficiently read zip files using Aspose.TeX for .NET, simplifying document processing in your applications.
 weight: 32
 url: /net/zip-file-io/
 date: 2026-05-30
@@ -15,8 +15,7 @@ keywords:
 schemas:
 - type: TechArticle
   headline: Create Zip Archive and Read ZIP Files with Aspose.TeX for .NET
-  description: Learn how to create zip archive and read zip files using Aspose.TeX
-    for .NET, simplifying document processing in your applications.
+  description: Learn how to create zip archive and read zip files using Aspose.TeX for .NET, simplifying document processing in your applications.
   dateModified: '2026-05-30'
   author: Aspose
 - type: FAQPage
@@ -81,6 +80,27 @@ Aspose.TeX provides a fast, native‑coded engine that can decompress typical 10
 
 When you call `Save`, Aspose.TeX automatically chooses the optimal compression level based on file type, delivering up to **30 % smaller** archives compared with default .NET compression. The method also supports adding custom metadata like comments or extra fields for each entry.
 
+```csharp
+using Aspose.TeX.Compression;
+using System.IO;
+
+// Create a new ZIP archive
+var zip = new ZipFile();
+
+// Add a PDF file from disk
+zip.AddEntry("Document.pdf", File.ReadAllBytes("C:\\Docs\\Document.pdf"));
+
+// Add a text file from a memory stream
+using var stream = new MemoryStream();
+using var writer = new StreamWriter(stream);
+writer.Write("Hello, Aspose.TeX!");
+writer.Flush();
+zip.AddEntry("Greeting.txt", stream.ToArray());
+
+// Save the archive to disk
+zip.Save("C:\\Output\\MyArchive.zip");
+```
+
 ## How to extract zip files using Aspose.TeX
 
 `ZipFile` is the class representing a ZIP archive and provides methods for extraction. Open the archive, iterate over its `Entries` collection, and write each entry to a target folder or stream. Selective extraction is straightforward—you can filter by name, size, or custom metadata before invoking `Extract`. This approach is ideal when you only need a subset of files, such as extracting a single PDF from a large batch without unpacking the entire archive.
@@ -92,15 +112,15 @@ When you call `Save`, Aspose.TeX automatically chooses the optimal compression l
 
 Our first tutorial, "Using Zip Files with Aspose.TeX for .NET," acts as the gateway to unlocking the full potential of this library. Explore step‑by‑step guidance on effortlessly handling ZIP files, providing you with insights into integrating this functionality into your document processing workflow. Learn how Aspose.TeX simplifies the complexities, ensuring a smooth and efficient operation.
 
-## Optimizing Document Processing
+## Optimizing document processing
 
 Aspose.TeX supports **60+ input and output formats**—including DOCX, XLSX, PPTX, HTML, and common image types—so you can compress virtually any document type without conversion. Its streaming API processes multi‑hundred‑page archives without loading the whole file into memory, reducing peak RAM usage by up to **70 %**. These quantified benefits translate directly into faster batch jobs and lower cloud‑hosting costs.
 
-## Streamlining Your Workflow
+## Streamlining your workflow
 
 Imagine an application that receives dozens of ZIP packages each day, each containing a mix of PDFs, Word files, and images. With Aspose.TeX you can open each archive, extract only the PDFs you need, convert them to another format, and re‑zip the results—all in a few concise statements. This eliminates the need for external tools, cuts down on I/O overhead, and keeps your deployment footprint lightweight.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Issue:** “Archive is corrupted.”  
   **Solution:** Verify the source stream and use `ZipFile.IsValid` before extraction.  
 - **Issue:** “Out‑of‑memory when handling large archives.”  
@@ -110,12 +130,12 @@ Imagine an application that receives dozens of ZIP packages each day, each conta
 
 `ZipFile.IsValid` is a method that verifies the integrity of a ZIP archive before extraction.
 
-## Zip File Input and Output Tutorials
+## Zip file input and output tutorials
 ### [Using Zip Files with Aspose.TeX for .NET](./zip-files-aspose-tex/)
 
 Explore the power of Aspose.TeX for .NET in handling ZIP files effortlessly. Enhance document processing in your applications.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.TeX ZIP features in a Linux container?**  
 A: Yes, the library is cross‑platform and works on Linux, Windows, and macOS runtimes.
@@ -140,9 +160,9 @@ A: It follows a per‑developer or per‑server model; a free trial is available
 
 ## Related Tutorials
 
-- [Create XPS Document with Aspose.TeX – File Input and Output](/tex/net/file-input-output/)
-- [How to Convert TeX PDF Using Zip Files with Aspose.TeX for .NET](/tex/net/zip-file-io/zip-files-aspose-tex/)
-- [Convert LaTeX to PNG – Work with Filesystem & ZIP Inputs in Aspose.TeX for .NET](/tex/net/file-input-output/required-inputs-from-filesystem-and-zip/)
+- [Create XPS Document with Aspose.TeX – File Input and Output](../file-input-output/)
+- [How to Convert TeX PDF Using Zip Files with Aspose.TeX for .NET](./zip-files-aspose-tex/)
+- [Convert LaTeX to PNG – Work with Filesystem & ZIP Inputs in Aspose.TeX for .NET](../file-input-output/required-inputs-from-filesystem-and-zip/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,5 +1,5 @@
 ---
-title: Convert tex to pdf Using Zip Files with Aspose.TeX for .NET
+title: Learn to Convert tex to pdf Using Zip Files with Aspose.TeX for .NET
 linktitle: Using Zip Files with Aspose.TeX for .NET
 second_title: Aspose.TeX .NET API
 description: Learn how to convert tex to pdf with Aspose.TeX for .NET, handle zip archives, read zip stream C#, and create PDF from TeX efficiently.
@@ -139,7 +139,7 @@ using (Stream outZipStream = File.Open(Path.Combine("Your Output Directory", "zi
 
 > **Pro tip:** Keep the streams inside a `using` block to ensure they are disposed automatically, preventing file locks.
 
-### Step 2: Set Conversion Options
+### Step 2: set conversion options
 
 Create conversion options that target the default ObjectTeX format. This tells Aspose.TeX which engine extensions to use.
 
@@ -158,7 +158,7 @@ options.InputWorkingDirectory = new InputZipDirectory(inZipStream, "in");
 options.OutputWorkingDirectory = new OutputZipDirectory(outZipStream);
 ```
 
-### Step 4: Specify Output Terminal
+### Step 4: specify output terminal
 
 Direct the conversion logs to the console. This is optional but helpful for debugging.
 
@@ -176,7 +176,7 @@ options.TerminalOut = new OutputConsoleTerminal(); // Default value. Arbitrary a
 options.SaveOptions = new PdfSaveOptions();
 ```
 
-### Step 6: Run the Job
+### Step 6: run the job
 
 Create a `TeXJob` instance, passing the source name (`"hello‑world"`), the PDF rendering device, and the configured options. Then execute the job.
 
@@ -187,7 +187,7 @@ TeXJob job = new TeXJob("hello-world", new PdfDevice(), options);
 job.Run();
 ```
 
-### Step 7: Finalize Output ZIP Archive
+### Step 7: finalize output ZIP archive
 
 After the conversion finishes, close and finalize the output ZIP archive to ensure the file is properly written.
 
@@ -195,7 +195,7 @@ After the conversion finishes, close and finalize the output ZIP archive to ensu
 ((OutputZipDirectory)options.OutputWorkingDirectory).Finish();
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -204,7 +204,7 @@ After the conversion finishes, close and finalize the output ZIP archive to ensu
 | **Unsupported TeX packages** | Aspose.TeX may not support some obscure LaTeX packages. | Use standard packages or pre‑process the source to remove unsupported commands. |
 | **Performance bottleneck** | Large archives (>100 MB) cause high memory usage. | Enable `TeXOptions.MemoryLimit` to cap RAM usage at 512 MB and process the archive in chunks. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.TeX with other archive formats besides ZIP?**  
 A: As of the current release, Aspose.TeX primarily supports ZIP archives for both input and output; other formats are not yet implemented.
@@ -227,21 +227,23 @@ A: Visit [this link](https://purchase.aspose.com/temporary-license/) to get a te
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
-- [How to Read Zip Files Using Aspose.TeX for .NET](/tex/net/zip-file-io/)
-- [Convert TeX to PDF and Override Job Name – Write Output to ZIP (C#)](/tex/net/job-output/override-job-name-zip-output-csharp/)
-- [latex to pdf .net – 2 Easy Methods with Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+- [How to Read Zip Files Using Aspose.TeX for .NET]({{< relref "tex/net/zip-file-io/_index.md" >}})
+- [Convert TeX to PDF and Override Job Name – Write Output to ZIP (C#)]({{< relref "tex/net/job-output/override-job-name-zip-output-csharp/_index.md" >}})
+- [latex to pdf .net – 2 Easy Methods with Aspose.TeX]({{< relref "tex/net/latex-conversion/to-pdf/_index.md" >}})
 
 ```csharp
 using Aspose.TeX.IO;
 using Aspose.TeX.Presentation.Pdf;
 using System.IO;
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

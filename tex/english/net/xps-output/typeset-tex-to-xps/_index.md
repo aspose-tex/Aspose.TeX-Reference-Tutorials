@@ -70,9 +70,9 @@ Aspose.TeX provides a single, consistent API for many output formats, eliminatin
 
 Before we dive into the implementation, verify that you have the following:
 
-- Aspose.TeX for .NET: Ensure that you have the Aspose.TeX library installed. You can download it [here](https://releases.aspose.com/tex/net/).
+- Aspose.TeX for .NET: Ensure that you have the Aspose.TeX library installed. You can download the Aspose.TeX .NET library [here](https://releases.aspose.com/tex/net/).
 
-- Documentation: Familiarize yourself with the library by referring to the documentation [here](https://reference.aspose.com/tex/net/).
+- Documentation: Familiarize yourself with the library by referring to the Aspose.TeX .NET API reference [here](https://reference.aspose.com/tex/net/).
 
 - Input and Output Directories: Set up your input and output folders as shown in the example code.
 
@@ -92,7 +92,7 @@ using System.IO;
 
 The `TeXDocument` class represents a TeX source file and provides parsing capabilities. The `XpsDevice` class is the output target that generates XPS streams from the rendered document. Load your TeX source with `new TeXDocument("sample.tex")`, configure the `XpsDevice` options, and call `job.Run()` – that’s the entire conversion pipeline in two concise steps. The library automatically handles font embedding, layout calculations, and XPS packaging, so you get a print‑ready document without additional post‑processing.
 
-## Step 1: Set Conversion Options
+## Step 1: set conversion options
 
 Define the conversion options, specifying the **ObjectTeX** format for the engine extension. Also, set the job name, input and output directories, and terminal output details.
 
@@ -110,7 +110,7 @@ options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Dire
 options.TerminalOut = new OutputFileTerminal(options.OutputWorkingDirectory);
 ```
 
-## Step 2: Create XPS Document Stream
+## Step 2: create XPS document stream
 
 Open a stream to write the typeset XPS document. The file name is not necessarily the same as the job name.
 
@@ -120,7 +120,7 @@ Open a stream to write the typeset XPS document. The file name is not necessaril
 using (Stream stream = File.Open(Path.Combine("Your Output Directory", options.JobName + ".xps"), FileMode.Create))
 ```
 
-## Step 3: Run the TeX Job
+## Step 3: run the teX job
 
 The `TeXJob` class orchestrates the conversion process, tying together the source document, output device, and options. Initiate and run the TeX job, specifying the document name, `XpsDevice`, and conversion options.
 
@@ -146,7 +146,7 @@ A2: Absolutely! Aspose.TeX is available for both commercial and personal use.
 
 ### Q3: Where can I find additional examples and resources?
 
-A3: Explore the Aspose.TeX documentation [here](https://reference.aspose.com/tex/net/) for more examples and detailed resources.
+A3: Explore the Aspose.TeX API documentation [here](https://reference.aspose.com/tex/net/) for more examples and detailed resources.
 
 ### Q4: How can I get support for Aspose.TeX?
 
@@ -156,7 +156,7 @@ A4: Visit the Aspose.TeX support forum [here](https://forum.aspose.com/c/tex/47)
 
 A5: Yes, you can access a free trial [here](https://releases.aspose.com/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Does the library support Unicode math symbols?**  
 A: Yes, Aspose.TeX fully supports Unicode, allowing you to render complex mathematical expressions without additional configuration.
@@ -179,7 +179,7 @@ A: No external TeX distribution is required; Aspose.TeX contains its own renderi
 **Tested With:** Aspose.TeX 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -187,7 +187,9 @@ A: No external TeX distribution is required; Aspose.TeX contains its own renderi
 - [Convert LaTeX to PNG in .NET with Aspose.TeX](/tex/net/latex-conversion/to-png/)
 - [Advanced Aspose.TeX Input and Output](/tex/net/advanced-io/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
