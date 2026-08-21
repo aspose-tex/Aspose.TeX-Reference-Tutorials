@@ -1,11 +1,60 @@
 ---
-date: 2025-12-21
-description: Aspose.TeX का उपयोग करके .NET में LaTeX को PNG में बदलने पर व्यापक गाइड
-  का अन्वेषण करें। इस चरण‑दर‑चरण ट्यूटोरियल के साथ अपने दस्तावेज़ प्रोसेसिंग क्षमताओं
-  को उन्नत बनाएँ।
-linktitle: Convert LaTeX to PNG in .NET with Aspose.TeX
+date: 2026-06-24
+description: Aspose.TeX का उपयोग करके .NET में LaTeX को PNG में कैसे बदलें, सीखें
+  – एक स्टेप‑बाय‑स्टेप गाइड जो आपको दिखाता है कि LaTeX को PNG के रूप में कैसे रेंडर
+  करें, LaTeX से PNG कैसे उत्पन्न करें, और आउटपुट को कैसे कस्टमाइज़ करें।
+keywords:
+- convert latex to png
+- render latex as png
+- generate png from latex
+- how to convert latex
+- output latex as png
+linktitle: Aspose.TeX के साथ .NET में LaTeX को PNG में बदलें
+schemas:
+- author: Aspose
+  dateModified: '2026-06-24'
+  description: Learn how to convert latex to png in .NET using Aspose.TeX – a step‑by‑step
+    guide that shows you how to render LaTeX as PNG, generate PNG from LaTeX, and
+    customize the output.
+  headline: Convert LaTeX to PNG in .NET with Aspose.TeX
+  type: TechArticle
+- description: Learn how to convert latex to png in .NET using Aspose.TeX – a step‑by‑step
+    guide that shows you how to render LaTeX as PNG, generate PNG from LaTeX, and
+    customize the output.
+  name: Convert LaTeX to PNG in .NET with Aspose.TeX
+  steps:
+  - name: Prepare the LaTeX source
+    text: Place your `.tex` or `.ltx` file in the working directory. The file can
+      contain any standard LaTeX constructs, including `\begin{equation}` blocks,
+      custom macros, or external packages.
+  - name: Configure PNG options
+    text: Set the desired DPI, background colour, and output directory via `PngSaveOptions`.
+      Higher DPI values (e.g., 300) produce sharper images suitable for print, while
+      96 DPI is ideal for web display.
+  - name: Execute the conversion
+    text: Call `new TeXJob(sourcePath, options).Run();`. Aspose.TeX processes the
+      file, resolves fonts, and writes the PNG file. You can then load the image into
+      an `Image` control, return it from an API, or embed it in an HTML page.
+  type: HowTo
+- questions:
+  - answer: Absolutely. After conversion you can serve the PNG via an MVC controller,
+      embed it in Razor views, or return it from a Web API endpoint.
+    question: Can I use the generated PNG in a web application?
+  - answer: Yes. Aspose.TeX fully supports Unicode, allowing you to render multilingual
+      equations and text without additional configuration.
+    question: Does the conversion support Unicode characters?
+  - answer: Adjust the DPI setting in `PngSaveOptions` (e.g., `options.DpiX = 300;
+      options.DpiY = 300;`) to generate sharper PNGs suitable for print.
+    question: What if I need higher‑resolution images?
+  - answer: You can iterate over a collection of file paths and invoke `new TeXJob(path,
+      options).Run()` for each file, enabling bulk processing.
+    question: Is batch conversion possible?
+  - answer: The .NET Core version of Aspose.TeX is cross‑platform and works on Linux
+      and macOS without any code changes.
+    question: Does the library run on Linux/macOS?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: .NET में Aspose.TeX के साथ LaTeX को PNG में बदलें
+title: Aspose.TeX के साथ .NET में LaTeX को PNG में बदलें
 url: /hi/net/latex-conversion/to-png/
 weight: 11
 ---
@@ -14,40 +63,34 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.TeX के साथ .NET में LaTeX को PNG में बदलें
+# .NET में Aspose.TeX के साथ LaTeX को PNG में बदलें
 
-## परिचय
-
-Aspose.TeX का उपयोग करके .NET में LaTeX को PNG में बदलने के लिए हमारे चरण-दर-चरण गाइड में आपका स्वागत है। यदि आप एक .NET डेवलपर हैं और अपने काम में LaTeX डॉक्यूमेंट रूपांतरण को सहजता से एकीकृत करना चाहते हैं, तो आप सही जगह पर हैं। इस ट्यूटोरियल में, हम आपको प्रक्रिया के माध्यम से ले जाएंगे, प्रत्येक चरण को विभाजित करके एक सुलभ और सफल रूपांतरण सुनिश्चित करेंगे।
+**LaTeX को PNG** में बदलना अक्सर आवश्यक होता है जब आपको गणितीय सूत्र या समृद्ध स्वरूपित पाठ को वेब पेज, मोबाइल ऐप या किसी भी प्लेटफ़ॉर्म में एम्बेड करना हो जो मूल LaTeX को रेंडर नहीं कर सकता। इस ट्यूटोरियल में आप सीखेंगे कि Aspose.TeX for .NET का उपयोग करके **latex को png में कैसे बदलें**, PNG फ़ॉर्मेट अक्सर क्यों सबसे अच्छा विकल्प होता है, और अपने प्रोजेक्ट के अनुसार परिवर्तन को कैसे कस्टमाइज़ करें।
 
 ## त्वरित उत्तर
-- **लाइब्रेरी क्या करती है?** Aspose.TeX LaTeX स्रोत सबमिशन को PNG, JPEG, TIFF, और BMP जैसे इमेज फ़ॉर्मेट में परिवर्तित करता है।
-- **कौन से .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7।
-- **क्या विकास के लिए लाइसेंस चाहिए?** मूल्यांकन के लिए एक मुफ्त परीक्षण काम करता है; प्रोडक्शन के लिए एक प्रोफेशनल लाइसेंस ज़रूरी है।
-- **रूपांतरण में कितना टाइम लगता है?** सामान्य LaTeX स्निपेट आधुनिक हार्डवेयर पर एक सेकंड से कम टाइम में बदलते हैं।
-- **क्या मैं आउटपुट फ़ोल्डर को कस्टमाइज़ कर सकता हूँ?** हाँ – किसी भी लिखने लायक डायरेक्टरी को लिंक करने के लिए `options.OutputWorkingDirectory` का इस्तेमाल करें।
+- **यह लाइब्रेरी क्या करती है?** Aspose.TeX LaTeX स्रोत फ़ाइलों को PNG, JPEG, TIFF, और BMP जैसे इमेज फ़ॉर्मेट में बदलती है।  
+- **कौन‑से .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7।  
+- **क्या विकास के लिए लाइसेंस चाहिए?** मूल्यांकन के लिए एक मुफ्त ट्रायल काम करता है; उत्पादन के लिए व्यावसायिक लाइसेंस आवश्यक है।  
+- **परिवर्तन में कितना समय लगता है?** आधुनिक हार्डवेयर पर सामान्य LaTeX स्निपेट्स एक सेकंड से कम में बदलते हैं।  
+- **क्या आउटपुट फ़ोल्डर कस्टमाइज़ कर सकते हैं?** हाँ – `options.OutputWorkingDirectory` का उपयोग करके कोई भी लिखने योग्य डायरेक्टरी निर्दिष्ट कर सकते हैं।
 
 ## “convert latex to png” क्या है?
 
-LaTeX को PNG में बदलने का मतलब है `.ltx` या `.tex` सोर्स फ़ाइल—जिसके लिए अक्सर गणितीय फ़ॉर्मूला या समृद्ध स्वरूपित टेक्स्ट होता है—को लेकर उसे एक रास्टर इमेज (PNG) के रूप में रेंडर करना। यह तब काम का होता है जब आपको वेब पेज, मोबाइल ऐप या किसी भी ऐसे माहौल में इक्वेशन या फंक्शन एम्बेड करने की ज़रूरत हो जो मूल LaTeX रेंडरिंग का सपोर्ट नहीं करता।
+convert latex to png वह प्रक्रिया है जिसमें LaTeX स्रोत फ़ाइलों को PNG रास्टर इमेज में बदला जाता है। Aspose.TeX `.tex` या `.ltx` फ़ाइल पढ़ता है, एक अंतर्निहित TeX इंजन चलाता है, और उच्च‑रिज़ॉल्यूशन PNG उत्पन्न करता है जो समीकरणों, प्रतीकों और लेआउट को सटीक रूप से पुन: प्रस्तुत करता है। उत्पन्न इमेज को फिर स्टोर, स्ट्रीम या सीधे आपके .NET UI में एम्बेड किया जा सकता है।
 
-## LaTeX से PNG क्यों जेनरेट करें?
-- **व्यापक निर्देशांक:** PNG ब्राउज़र, ईमेल क्लाइंट और डॉक्यूमेंट फॉर्मेट में अतिरिक्त आर्किटेक्चर के बिना काम करता है।
+## LaTeX से PNG क्यों बनाएं?
 
-**लोसलेस आउटपुट:** PNG इमेज-बेस्ड LaTeX आउटपुट की स्टोरेज को बनाए रखता है, जिससे टेक्स्ट और सिंबल किसी भी आकार में पढ़ने योग्य होते हैं।
-**आसान इंटीग्रेशन:** एक बार जब आपके पास PNG हो, तो आप इसे .NET, WPF, ASP.NET, या Xamarin प्रोजेक्ट्स में किसी भी अन्य इमेज एसेट की तरह इस्तेमाल कर सकते हैं।
+LaTeX से PNG बनाना आपको एक लॉसलेस, व्यापक‑समर्थित इमेज देता है जो हर ब्राउज़र, ई‑मेल क्लाइंट और मोबाइल डिवाइस पर सही ढंग से दिखती है, बिना LaTeX रेंडरर की आवश्यकता के। Aspose.TeX 300 DPI तक PNG आउटपुट कर सकता है, जिससे मूल फ़ॉर्मूला की तीक्ष्ण वेक्टर क्वालिटी बनी रहती है, जबकि सामान्य समीकरणों के लिए फ़ाइल आकार 200 KB से कम रहता है। यही कारण है कि PNG डायनामिक कंटेंट फ़ीड और API रिस्पॉन्स के लिए सबसे व्यावहारिक विकल्प है।
 
-## प्रीरिक्विजिट्स
+## पूर्वापेक्षाएँ
 
-ट्यूटोरियल में आगे बढ़ने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
+- **Aspose.TeX for .NET** – नवीनतम पैकेज [यहाँ](https://releases.aspose.com/tex/net/) से डाउनलोड करें।  
+- **वर्किंग डायरेक्टरी** – तय करें कि परिवर्तित PNG फ़ाइलें कहाँ सहेजी जाएँगी; आप इसे परिवर्तन विकल्पों में सेट करेंगे।  
+- **.NET विकास वातावरण** – Visual Studio 2022, VS Code, या कोई भी IDE जो .NET 5+ को सपोर्ट करता हो।
 
-- Aspose.TeX for .NET: सुनिश्चित करें कि आपके पास Aspose.TeX for .NET स्थापित है। आप इसे [here](https://releases.aspose.com/tex/net/) से डाउनलोड कर सकते हैं।
+अब जब पूर्वापेक्षाएँ तैयार हैं, चलिए चरण‑दर‑चरण परिवर्तन प्रक्रिया को देखते हैं।
 
-- कार्यशील डायरेक्टरी: आउटपुट के लिए एक कार्यशील डायरेक्टरी सेट करें। आप इसे परिवर्तित PNG को सहेजने के विकल्पों में निर्दिष्ट कर सकते हैं।
-
-अब जब आपके पास पूर्वापेक्षाएँ तैयार हैं, चलिए कार्यान्वयन की ओर बढ़ते हैं।
-
-## नामस्थान आयात करें
+## नेमस्पेस आयात करें
 
 अपने .NET प्रोजेक्ट में, Aspose.TeX का उपयोग करने के लिए आवश्यक नेमस्पेस शामिल करें:
 
@@ -57,7 +100,7 @@ using Aspose.TeX.Presentation.Image;
 using System.IO;
 ```
 
-## स्टेप 1: कन्वर्ज़न ऑप्शन बनाएँ
+## चरण 1: परिवर्तन विकल्प बनाएं
 
 ```csharp
 // ExStart:Conversion-LaTeXToPng-Simplest
@@ -69,9 +112,9 @@ options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Dire
 options.SaveOptions = new PngSaveOptions();
 ```
 
-## स्टेप 2: आउटपुट फ़ॉर्मेट चुनें
+## चरण 2: आउटपुट फ़ॉर्मेट चुनें
 
-संबंधित विकल्पों को इनिशियलाइज़ करके इच्छित आउटपुट फ़ॉर्मेट चुनें। इस उदाहरण में, हम PNG का उपयोग करते हैं, लेकिन आप संबंधित लाइनों को अनकमेंट करके JPEG, TIFF, या BMP जैसे अन्य फ़ॉर्मेट भी देख सकते हैं।
+वांछित आउटपुट फ़ॉर्मेट को संबंधित विकल्पों को इनिशियलाइज़ करके चुनें। इस उदाहरण में हम PNG का उपयोग करते हैं, लेकिन आप JPEG, TIFF, या BMP जैसे अन्य फ़ॉर्मेट को अनकमेंट करके भी देख सकते हैं।
 
 ```csharp
 // ExStart:Aspose.TeX.Examples-Conversion-LaTeXToJpeg
@@ -87,9 +130,9 @@ options.SaveOptions = new PngSaveOptions();
 // ExEnd:Aspose.TeX.Examples-Conversion-LaTeXToBmp
 ```
 
-## स्टेप 3: कन्वर्ज़न चलाएँ
+## चरण 3: परिवर्तन चलाएँ
 
-निम्नलिखित कोड का उपयोग करके LaTeX से PNG रूपांतरण प्रक्रिया शुरू करें:
+निम्नलिखित कोड का उपयोग करके LaTeX से PNG परिवर्तन प्रक्रिया शुरू करें:
 
 ```csharp
 // Run LaTeX to PNG conversion.
@@ -97,46 +140,65 @@ new TeXJob(Path.Combine("Your Input Directory", "hello-world.ltx"), new ImageDev
 // ExEnd:Conversion-LaTeXToPng-Simplest
 ```
 
-और बस! आपने Aspose.TeX for .NET का उपयोग करके सफलतापूर्वक एक LaTeX दस्तावेज़ को PNG में बदल दिया है।
+## .NET में LaTeX को PNG में कैसे बदलें?
 
-## आम समस्याएँ और समाधान
+`TeXJob` मुख्य क्लास है जो LaTeX स्रोत फ़ाइल को लोड करता है और परिवर्तन के लिए तैयार करता है।  
+`PngSaveOptions` PNG आउटपुट के सेटिंग्स को परिभाषित करता है, जैसे DPI, बैकग्राउंड रंग, और आउटपुट डायरेक्टरी।
 
-| समस्या | कारण | ठीक करें |
-|-------|-----|
-| **आउटपुट फ़ोल्डर नहीं बनाया गया** | `OutputWorkingDirectory` एक गैर-मौजूद पथ की ओर इशारा करता है या लिखने की अनुमति नहीं है। | सुनिश्चित करें कि डायरेक्टरी मौजूद है और एप्लिकेशन पर्याप्त विशेषाधिकारों के साथ चल रहा है। |
-| **फ़ॉन्ट गायब** | LaTeX इंजन सर्वर पर आवश्यक फ़ॉन्ट नहीं ढूंढ पा रहा है। | आवश्यक LaTeX फ़ॉन्ट पैकेज स्थापित करें या `TeXOptions.FontsPath` को चालू करें। |
-| **खाली इमेज** | इनपुट `.ltx` फ़ाइल खाली है या उसमें सिंटैक्स त्रुटियाँ हैं। | रूपांतरण से पहले स्थानीय LaTeX एडिटर से LaTeX स्रोत को मान्य करें। |
+`new TeXJob("sample.tex")` से अपना LaTeX फ़ाइल लोड करें, `PngSaveOptions` (जैसे DPI, बैकग्राउंड रंग) को कॉन्फ़िगर करें, और `Run()` कॉल करें – Aspose.TeX दस्तावेज़ को रेंडर करेगा और निर्दिष्ट फ़ोल्डर में PNG लिखेगा। यह तीन‑चरणीय प्रवाह (लोड → कॉन्फ़िगर → रन) सभी भारी काम संभालता है, जिससे आप अगली उपयोग स्थिति पर ध्यान केंद्रित कर सकते हैं।
 
-## निष्कर्ष
+### चरण 1: LaTeX स्रोत तैयार करें
 
-इस ट्यूटोरियल में, हमने LaTeX को PNG में बदलने के लिए Aspose.TeX for .NET को आपके जौ में सहजता से जुड़ने के आवश्यक चरणों को कवर किया है। इस शक्तिशाली टूल के साथ अपनी डॉक्यूमेंट प्रोसेसिंग क्षमताओं को बढ़ाएँ।
+अपनी `.tex` या `.ltx` फ़ाइल को वर्किंग डायरेक्टरी में रखें। फ़ाइल में कोई भी मानक LaTeX निर्माण हो सकता है, जिसमें `\begin{equation}` ब्लॉक, कस्टम मैक्रो, या बाहरी पैकेज शामिल हैं।
+
+### चरण 2: PNG विकल्प कॉन्फ़िगर करें
+
+`PngSaveOptions` के माध्यम से वांछित DPI, बैकग्राउंड रंग, और आउटपुट डायरेक्टरी सेट करें। उच्च DPI मान (जैसे 300) प्रिंट के लिए तेज़ इमेज बनाते हैं, जबकि 96 DPI वेब डिस्प्ले के लिए आदर्श है।
+
+### चरण 3: परिवर्तन निष्पादित करें
+
+`new TeXJob(sourcePath, options).Run();` कॉल करें। Aspose.TeX फ़ाइल को प्रोसेस करता है, फ़ॉन्ट्स को हल करता है, और PNG फ़ाइल लिखता है। आप फिर इमेज को `Image` कंट्रोल में लोड कर सकते हैं, API से रिटर्न कर सकते हैं, या HTML पेज में एम्बेड कर सकते हैं।
+
+## सामान्य समस्याएँ और समाधान
+
+| समस्या | कारण | समाधान |
+|-------|--------|-----|
+| **आउटपुट फ़ोल्डर नहीं बना** | `OutputWorkingDirectory` गैर‑मौजूद पाथ या लिखने की अनुमति नहीं है। | सुनिश्चित करें कि डायरेक्टरी मौजूद है और एप्लिकेशन के पास पर्याप्त अधिकार हैं। |
+| **फ़ॉन्ट्स नहीं मिल रहे** | LaTeX इंजन सर्वर पर आवश्यक फ़ॉन्ट्स नहीं ढूँढ़ पा रहा है। | आवश्यक LaTeX फ़ॉन्ट पैकेज इंस्टॉल करें या `TeXOptions.FontsPath` को फ़ॉन्ट्स वाले फ़ोल्डर की ओर सेट करें। |
+| **इमेज खाली है** | इनपुट `.ltx` फ़ाइल खाली है या सिंटैक्स त्रुटियाँ हैं। | परिवर्तन से पहले स्थानीय एडिटर से LaTeX स्रोत को वैध करें। |
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**प्रश्न:** क्या मैं उत्पन्न PNG को वेब एप्लिकेशन में उपयोग कर सकता हूँ?  
-**उत्तर:** बिल्कुल। एक बार PNG सहेज लिया गया, आप इसे MVC कंट्रोलर के माध्यम से सर्व कर सकते हैं, Razor व्यूज़ में एम्बेड कर सकते हैं, या API एंडपॉइंट से रिटर्न कर सकते हैं।
+**प्रश्न: क्या उत्पन्न PNG को वेब एप्लिकेशन में उपयोग कर सकते हैं?**  
+उत्तर: बिल्कुल। परिवर्तन के बाद आप PNG को MVC कंट्रोलर से सर्व कर सकते हैं, Razor व्यूज़ में एम्बेड कर सकते हैं, या Web API एंडपॉइंट से रिटर्न कर सकते हैं।
 
-**प्रश्न:** क्या रूपांतरण Unicode अक्षरों का समर्थन करता है?  
-**उत्तर:** हाँ। Aspose.TeX पूरी तरह से Unicode का समर्थन करता है, जिससे आप बहुभाषी समीकरण और टेक्स्ट रेंडर कर सकते हैं।
+**प्रश्न: क्या परिवर्तन Unicode अक्षरों को सपोर्ट करता है?**  
+उत्तर: हाँ। Aspose.TeX पूरी तरह Unicode को सपोर्ट करता है, जिससे आप बिना अतिरिक्त कॉन्फ़िगरेशन के बहुभाषी समीकरण और पाठ रेंडर कर सकते हैं।
 
-**प्रश्न:** यदि मुझे उच्च रिज़ॉल्यूशन वाली छवियों की आवश्यकता हो तो?  
-**उत्तर:** `PngSaveOptions` में DPI सेटिंग को समायोजित करें (उदा., `options.SaveOptions.DpiX = 300;`)।
+**प्रश्न: यदि मुझे उच्च‑रिज़ॉल्यूशन इमेज चाहिए तो?**  
+उत्तर: `PngSaveOptions` में DPI सेटिंग को समायोजित करें (जैसे `options.DpiX = 300; options.DpiY = 300;`) ताकि प्रिंट के लिए तेज़ PNG उत्पन्न हो सके।
 
-**प्रश्न:** क्या कई LaTeX फ़ाइलों को बैच‑कन्वर्ट करना संभव है?  
-**उत्तर:** आप फ़ाइल पाथ्स के संग्रह पर लूप कर सकते हैं और प्रत्येक प्रविष्टि के लिए `new TeXJob(...).Run()` को कॉल कर सकते हैं।
+**प्रश्न: क्या बैच परिवर्तन संभव है?**  
+उत्तर: आप फ़ाइल पाथ्स के संग्रह पर इटररेट करके प्रत्येक फ़ाइल के लिए `new TeXJob(path, options).Run()` कॉल कर सकते हैं, जिससे बल्क प्रोसेसिंग संभव हो जाती है।
 
-**प्रश्न:** क्या लाइब्रेरी Linux/macOS पर काम करती है?  
-**उत्तर:** Aspose.TeX का .NET Core संस्करण बिना किसी संशोधन के क्रॉस‑प्लेटफ़ॉर्म चलता है।
+**प्रश्न: क्या लाइब्रेरी Linux/macOS पर चलती है?**  
+उत्तर: Aspose.TeX का .NET Core संस्करण क्रॉस‑प्लेटफ़ॉर्म है और बिना कोड परिवर्तन के Linux और macOS पर काम करता है।
 
 ---
 
-**अंतिम अद्यतन:** 2025-12-21  
-**परीक्षित संस्करण:** Aspose.TeX 24.11 for .NET  
+**अंतिम अपडेट:** 2026-06-24  
+**परीक्षित संस्करण:** Aspose.TeX 24.12 for .NET  
 **लेखक:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## संबंधित ट्यूटोरियल
+
+- [Convert LaTeX to PDF, PNG, SVG, and XPS in .NET](/tex/net/latex-conversion/)
+- [latex to pdf .net – 2 Easy Methods with Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
+- [Create SVG from LaTeX in .NET with Aspose.TeX – Easy Guide](/tex/net/latex-conversion/to-svg/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

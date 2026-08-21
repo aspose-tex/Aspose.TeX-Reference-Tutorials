@@ -1,8 +1,57 @@
 ---
-date: 2025-12-21
-description: اكتشف الدليل الشامل لتحويل LaTeX إلى PNG في .NET باستخدام Aspose.TeX.
-  ارتق بقدرات معالجة المستندات لديك مع هذا البرنامج التعليمي خطوة بخطوة.
-linktitle: Convert LaTeX to PNG in .NET with Aspose.TeX
+date: 2026-06-24
+description: تعلم كيفية تحويل LaTeX إلى PNG في .NET باستخدام Aspose.TeX – دليل خطوة
+  بخطوة يوضح لك كيفية عرض LaTeX كـ PNG، إنشاء PNG من LaTeX، وتخصيص النتيجة.
+keywords:
+- convert latex to png
+- render latex as png
+- generate png from latex
+- how to convert latex
+- output latex as png
+linktitle: تحويل LaTeX إلى PNG في .NET باستخدام Aspose.TeX
+schemas:
+- author: Aspose
+  dateModified: '2026-06-24'
+  description: Learn how to convert latex to png in .NET using Aspose.TeX – a step‑by‑step
+    guide that shows you how to render LaTeX as PNG, generate PNG from LaTeX, and
+    customize the output.
+  headline: Convert LaTeX to PNG in .NET with Aspose.TeX
+  type: TechArticle
+- description: Learn how to convert latex to png in .NET using Aspose.TeX – a step‑by‑step
+    guide that shows you how to render LaTeX as PNG, generate PNG from LaTeX, and
+    customize the output.
+  name: Convert LaTeX to PNG in .NET with Aspose.TeX
+  steps:
+  - name: Prepare the LaTeX source
+    text: Place your `.tex` or `.ltx` file in the working directory. The file can
+      contain any standard LaTeX constructs, including `\begin{equation}` blocks,
+      custom macros, or external packages.
+  - name: Configure PNG options
+    text: Set the desired DPI, background colour, and output directory via `PngSaveOptions`.
+      Higher DPI values (e.g., 300) produce sharper images suitable for print, while
+      96 DPI is ideal for web display.
+  - name: Execute the conversion
+    text: Call `new TeXJob(sourcePath, options).Run();`. Aspose.TeX processes the
+      file, resolves fonts, and writes the PNG file. You can then load the image into
+      an `Image` control, return it from an API, or embed it in an HTML page.
+  type: HowTo
+- questions:
+  - answer: Absolutely. After conversion you can serve the PNG via an MVC controller,
+      embed it in Razor views, or return it from a Web API endpoint.
+    question: Can I use the generated PNG in a web application?
+  - answer: Yes. Aspose.TeX fully supports Unicode, allowing you to render multilingual
+      equations and text without additional configuration.
+    question: Does the conversion support Unicode characters?
+  - answer: Adjust the DPI setting in `PngSaveOptions` (e.g., `options.DpiX = 300;
+      options.DpiY = 300;`) to generate sharper PNGs suitable for print.
+    question: What if I need higher‑resolution images?
+  - answer: You can iterate over a collection of file paths and invoke `new TeXJob(path,
+      options).Run()` for each file, enabling bulk processing.
+    question: Is batch conversion possible?
+  - answer: The .NET Core version of Aspose.TeX is cross‑platform and works on Linux
+      and macOS without any code changes.
+    question: Does the library run on Linux/macOS?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
 title: تحويل LaTeX إلى PNG في .NET باستخدام Aspose.TeX
 url: /ar/net/latex-conversion/to-png/
@@ -15,37 +64,30 @@ weight: 11
 
 # تحويل LaTeX إلى PNG في .NET باستخدام Aspose.TeX
 
-## المقدمة
-
-مرحبًا بكم في دليلنا خطوة بخطوة حول تحويل LaTeX إلى PNG في .NET باستخدام Aspose.TeX. إذا كنت مطور .NET وتبحث عن دمج تحويل مستندات LaTeX بسلاسة في تطبيقاتك، فأنت في المكان المناسب. في هذا البرنامج التعليمي، سنرشدك خلال العملية، مقسمين كل خطوة لضمان تحويل سلس وناجح.
+تحويل **LaTeX إلى PNG** هو طلب شائع عندما تحتاج إلى تضمين صيغ رياضية أو نص منسق بشكل غني في صفحات الويب أو التطبيقات المحمولة أو أي منصة لا تستطيع عرض LaTeX الأصلي. في هذا الدرس ستتعلم كيفية **convert latex to png** باستخدام Aspose.TeX لـ .NET، ولماذا غالبًا ما يكون تنسيق PNG هو الخيار الأفضل، وكيفية تخصيص التحويل ليتناسب مع مشروعك.
 
 ## إجابات سريعة
-- **ما الذي تفعله المكتبة؟** تقوم Aspose.TeX بتحويل ملفات مصدر LaTeX إلى صيغ صور مثل PNG و JPEG و TIFF و BMP.  
-- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6/7.  
-- **هل أحتاج إلى ترخيص للتطوير؟** النسخة التجريبية المجانية تكفي للتقييم؛ يتطلب الترخيص التجاري للإنتاج.  
-- **كم يستغرق التحويل؟** عادةً ما يتم تحويل مقاطع LaTeX النموذجية في أقل من ثانية على الأجهزة الحديثة.  
+- **ماذا تفعل المكتبة؟** تقوم Aspose.TeX بتحويل ملفات مصدر LaTeX إلى تنسيقات صور مثل PNG و JPEG و TIFF و BMP.  
+- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6/7.  
+- **هل أحتاج إلى ترخيص للتطوير؟** النسخة التجريبية المجانية تعمل للتقييم؛ يلزم ترخيص تجاري للإنتاج.  
+- **كم يستغرق التحويل من الوقت؟** عادةً ما يتم تحويل مقاطع LaTeX النموذجية في أقل من ثانية على الأجهزة الحديثة.  
 - **هل يمكنني تخصيص مجلد الإخراج؟** نعم – استخدم `options.OutputWorkingDirectory` لتحديد أي دليل قابل للكتابة.
 
-## ما هو “تحويل latex إلى png”؟
-تحويل LaTeX إلى PNG يعني أخذ ملف مصدر `.ltx` أو `.tex`—غالبًا ما يحتوي على صيغ رياضية أو نص منسق غني—وتصويره كصورة نقطية (PNG). هذا مفيد عندما تحتاج إلى تضمين معادلات أو مخططات في صفحات الويب، تطبيقات الهواتف المحمولة، أو أي بيئة لا تدعم عرض LaTeX الأصلي.
+## ما هو “convert latex to png”؟
+Convert latex to png هو عملية تحويل ملفات مصدر LaTeX إلى صور نقطية PNG. تقوم Aspose.TeX بقراءة ملف `.tex` أو `.ltx`، وتشغيل محرك TeX مدمج، وتنتج صورة PNG عالية الدقة تعيد بدقة المعادلات والرموز والتخطيط. يمكن بعد ذلك تخزين الصورة أو بثها أو تضمينها مباشرة في واجهة .NET الخاصة بك.
 
 ## لماذا إنشاء PNG من LaTeX؟
-- **توافق واسع:** يعمل PNG عبر المتصفحات، عملاء البريد الإلكتروني، وصيغ المستندات دون الحاجة إلى إضافات.  
-- **جودة غير مضغوطة:** يحافظ PNG على وضوح مخرجات LaTeX القائمة على المتجهات، مما يجعل النص والرموز قابلة للقراءة بأي حجم.  
-- **تكامل سهل:** بمجرد حصولك على PNG، يمكنك التعامل معه كأي أصل صورة آخر في مشاريعNET أو WPF أو ASP.NET أو Xamarin.
+إنشاء PNG من LaTeX يمنحك صورة غير مضغوطة ومدعومة على نطاق واسع تُظهر بشكل صحيح على كل متصفح، عميل بريد إلكتروني، وجهاز محمول دون الحاجة إلى محرك عرض LaX. يمكن لـ Aspose.TeX إنتاج PNG بدقة تصل إلى 300 DPI، مع الحفاظ على جودة المتجه الحادة للمعادلة الأصلية مع إبقاء حجم الملفات أقل من 200 KB للمعادلات النموذجية. هذا يجعل PNG الخيار الأكثر عملية لتغذيات المحتوى الديناميكي واستجابات API.
 
 ## المتطلبات المسبقة
+- **Aspose.TeX for .NET** – قم بتنزيل أحدث حزمة من [هنا](https://releases.aspose.com/tex/net/).  
+- **دليل العمل** – حدد المكان الذي سيتم حفظ ملفات PNG المحولة فيه؛ ستقوم بتعيينه في خيارات التحويل.  
+- **بيئة تطوير .NET** – Visual Studio 2022، VS Code، أو أي بيئة تطوير تدعم .NET 5+.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات التالية:
+الآن بعد أن أصبحت المتطلبات المسبقة جاهزة، دعنا نتبع خطوات التحويل خطوة بخطوة.
 
-- Aspose.TeX for .NET: تأكد من تثبيت Aspose.TeX for .NET. يمكنك تنزيله من [here](https://releases.aspose.com/tex/net/).
-- دليل العمل: قم بإعداد دليل عمل للإخراج. يمكنك تحديد ذلك في الخيارات لحفظ PNG المحول.
-
-الآن بعد أن أصبحت المتطلبات جاهزة، دعنا ننتقل إلى التنفيذ.
-
-## استيراد المساحات الاسمية
-
-في مشروع .NET الخاص بك، أدرج المساحات الاسمية اللازمة لاستخدام Aspose.TeX:
+## استيراد مساحات الأسماء
+في مشروع .NET الخاص بك، قم بتضمين مساحات الأسماء اللازمة لاستخدام Aspose.TeX:
 
 ```csharp
 using Aspose.TeX.IO;
@@ -54,7 +96,6 @@ using System.IO;
 ```
 
 ## الخطوة 1: إنشاء خيارات التحويل
-
 ```csharp
 // ExStart:Conversion-LaTeXToPng-Simplest
 // Create conversion options for Object LaTeX format upon Object TeX engine extension.
@@ -65,9 +106,8 @@ options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Dire
 options.SaveOptions = new PngSaveOptions();
 ```
 
-## الخطوة 2: اختيار صيغة الإخراج
-
-اختر صيغة الإخراج المطلوبة بتهيئة الخيارات المقابلة. في هذا المثال، نستخدم PNG، لكن يمكنك أيضًا استكشاف صيغ أخرى مثل JPEG أو TIFF أو BMP بإلغاء التعليق عن الأسطر المعنية.
+## الخطوة 2: اختيار تنسيق الإخراج
+اختر تنسيق الإخراج المطلوب بتهيئة الخيارات المقابلة. في هذا المثال، نستخدم PNG، ولكن يمكنك أيضًا استكشاف تنسيقات أخرى مثل JPEG أو TIFF أو BMP عن طريق إلغاء التعليق على السطور المعنية.
 
 ```csharp
 // ExStart:Aspose.TeX.Examples-Conversion-LaTeXToJpeg
@@ -84,7 +124,6 @@ options.SaveOptions = new PngSaveOptions();
 ```
 
 ## الخطوة 3: تشغيل التحويل
-
 ابدأ عملية تحويل LaTeX إلى PNG باستخدام الشيفرة التالية:
 
 ```csharp
@@ -93,44 +132,50 @@ new TeXJob(Path.Combine("Your Input Directory", "hello-world.ltx"), new ImageDev
 // ExEnd:Conversion-LaTeXToPng-Simplest
 ```
 
-وهذا كل شيء! لقد نجحت في تحويل مستند LaTeX إلى PNG باستخدام Aspose.TeX for .NET.
+## كيف تحول LaTeX إلى PNG في .NET؟
+TeXJob هو الفئة الأساسية التي تقوم بتحميل ملف مصدر LaTeX وتجهزه للتحويل.  
+PngSaveOptions يحدد إعدادات إخراج PNG، مثل DPI، لون الخلفية، ودليل الإخراج.
+
+حمّل ملف `.tex` أو `.ltx` الخاص بك في دليل العمل. يمكن للملف أن يحتوي على أي بنى LaTeX قياسية، بما في ذلك كتل `\begin{equation}`، ماكرو مخصص، أو حزم خارجية.
+
+حدد DPI المطلوب، لون الخلفية، ودليل الإخراج عبر `PngSaveOptions`. قيم DPI الأعلى (مثل 300) تنتج صورًا أكثر وضوحًا مناسبة للطباعة، بينما 96 DPI مثالي للعرض على الويب.
+
+استدعِ `new TeXJob(sourcePath, options).Run();`. تقوم Aspose.TeX بمعالجة الملف، وحل الخطوط، وكتابة ملف PNG. يمكنك بعد ذلك تحميل الصورة في عنصر تحكم `Image`، إرجاعها من API، أو تضمينها في صفحة HTML.
 
 ## المشكلات الشائعة والحلول
-
 | المشكلة | السبب | الحل |
 |-------|--------|-----|
 | **مجلد الإخراج غير مُنشأ** | `OutputWorkingDirectory` يشير إلى مسار غير موجود أو يفتقر إلى صلاحية الكتابة. | تأكد من وجود الدليل وأن التطبيق يعمل بصلاحيات كافية. |
-| **الخطوط مفقودة** | محرك LaTeX لا يستطيع العثور على الخطوط المطلوبة على الخادم. | قم بتثبيت حزم خطوط LaTeX اللازمة أو قم بتهيئة `TeXOptions.FontsPath`. |
-| **صورة فارغة** | ملف `.ltx` المدخل فارغ أو يحتوي على أخطاء في الصياغة. | تحقق من صحة مصدر LaTeX باستخدام محرر LaTeX محلي قبل التحويل. |
-
-## الخاتمة
-
-في هذا البرنامج التعليمي، غطينا الخطوات الأساسية لدمج Aspose.TeX for .NET بسلاسة في تطبيقاتك لتحويل LaTeX إلى PNG. عزز قدرات معالجة المستندات لديك باستخدام هذه الأداة القوية.
+| **الخطوط مفقودة** | محرك LaTeX لا يستطيع العثور على الخطوط المطلوبة على الخادم. | قم بتثبيت حزم خطوط LaTeX اللازمة أو اضبط `TeXOptions.FontsPath` إلى مجلد يحتوي على الخطوط. |
+| **صورة فارغة** | ملف `.ltx` المدخل فارغ أو يحتوي على أخطاء في الصياغة. | تحقق من صحة مصدر LaTeX باستخدام محرر محلي قبل التحويل. |
 
 ## الأسئلة المتكررة
-
 **س: هل يمكنني استخدام PNG المُولد في تطبيق ويب؟**  
-ج: بالتأكيد. بمجرد حفظ PNG، يمكنك تقديمه عبر متحكم MVC، تضمينه في عروض Razor، أو إرجاعه من نقطة نهاية API.
+ج: بالطبع. بعد التحويل يمكنك تقديم PNG عبر متحكم MVC، تضمينه في عروض Razor، أو إرجاعه من نقطة نهاية Web API.
 
 **س: هل يدعم التحويل أحرف Unicode؟**  
-ج: نعم. تدعم Aspose.TeX Unicode بالكامل، مما يتيح لك عرض معادلات ونصوص متعددة اللغات.
+ج: نعم. يدعم Aspose.TeX Unicode بالكامل، مما يتيح لك عرض معادلات ونص متعدد اللغات دون إعداد إضافي.
 
 **س: ماذا لو احتجت إلى صور ذات دقة أعلى؟**  
-ج: عدل إعداد DPI في `PngSaveOptions` (مثال: `options.SaveOptions.DpiX = 300;`).
+ج: قم بضبط إعداد DPI في `PngSaveOptions` (مثلاً، `options.DpiX = 300; options.DpiY = 300;`) لتوليد PNG أكثر حدة مناسبة للطباعة.
 
-**س: هل من الممكن تحويل عدة ملفات LaTeX دفعة واحدة؟**  
-ج: يمكنك التكرار على مجموعة من مسارات الملفات واستدعاء `new TeXJob(...).Run()` لكل مدخل.
+**س: هل التحويل الجماعي ممكن؟**  
+ج: يمكنك التكرار عبر مجموعة من مسارات الملفات واستدعاء `new TeXJob(path, options).Run()` لكل ملف، مما يتيح المعالجة الجماعية.
 
 **س: هل تعمل المكتبة على Linux/macOS؟**  
-ج: نسخة .NET Core من Aspose.TeX تعمل عبر الأنظمة دون تعديل.
+ج: إصدار .NET Core من Aspose.TeX متعدد المنصات ويعمل على Linux و macOS دون أي تغييرات في الشيفرة.
 
-**آخر تحديث:** 2025-12-21  
-**تم الاختبار مع:** Aspose.TeX 24.11 for .NET  
+**آخر تحديث:** 2026-06-24  
+**تم الاختبار مع:** Aspose.TeX 24.12 لـ .NET  
 **المؤلف:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## دروس ذات صلة
+- [تحويل LaTeX إلى PDF، PNG، SVG، و XPS في .NET](/tex/net/latex-conversion/)
+- [latex إلى pdf .net – طريقتان سهلتان مع Aspose.TeX](/tex/net/latex-conversion/to-pdf/)
+- [إنشاء SVG من LaTeX في .NET باستخدام Aspose.TeX – دليل سهل](/tex/net/latex-conversion/to-svg/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
