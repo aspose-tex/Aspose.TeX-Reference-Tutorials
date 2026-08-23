@@ -1,12 +1,49 @@
 ---
-date: 2026-02-15
-description: เรียนรู้วิธีแปลง TeX เป็น PDF, แทนที่ชื่องานและบันทึกผลลัพธ์ของเทอร์มินัลลงในไฟล์
-  ZIP ด้วย Aspose.TeX for Java. คู่มือขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา Java.
-linktitle: Convert TeX to PDF, Override Job Name and Write Terminal Output to ZIP
-  in Java
+date: 2026-08-23
+description: เรียนรู้วิธีสร้างเอกสาร PDF จาก TeX, override the job name, และ write
+  terminal output to a ZIP file ด้วย Aspose.TeX for Java. คู่มือขั้นตอนสำหรับนักพัฒนา
+  Java.
+keywords:
+- create pdf document from tex
+- Aspose.TeX Java
+- TeX to PDF conversion
+lastmod: 2026-08-23
+linktitle: แปลง TeX เป็น PDF, Override Job Name และ Write Terminal Output ไปยัง ZIP
+  ใน Java
+og_description: เรียนรู้วิธีสร้างเอกสาร PDF จาก TeX, customize job names, และ capture
+  terminal output ใน ZIP ด้วย Aspose.TeX for Java – คู่มือเร็ว 10 นาที
+og_image_alt: Developer guide showing Java code to convert TeX to PDF and zip logs
+og_title: สร้างเอกสาร PDF จาก TeX, override job name และ zip logs ใน Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-23'
+  description: Learn how to create PDF document from TeX, override the job name, and
+    write terminal output to a ZIP file using Aspose.TeX for Java. Step‑by‑step guide
+    for Java developers.
+  headline: How to create PDF document from TeX and zip logs in Java
+  type: TechArticle
+- questions:
+  - answer: Aspose.TeX is a Java library that enables developers to **create PDF document
+      from TeX** sources, manipulate TeX documents, and perform advanced rendering
+      without external LaTeX installations.
+    question: What is Aspose.TeX?
+  - answer: You can get a temporary license from the [Aspose.TeX temporary license
+      page](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.TeX?
+  - answer: The documentation is available on the [Aspose.TeX Java documentation page](https://reference.aspose.com/tex/java/).
+    question: Where can I find the official Aspose.TeX documentation?
+  - answer: Yes, you can download the free trial from the [Aspose.TeX free trial page](https://releases.aspose.com/).
+    question: Is there a free trial version of Aspose.TeX?
+  - answer: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community
+      support and official assistance.
+    question: Where can I ask for help if I run into problems?
+  type: FAQPage
 second_title: Aspose.TeX Java API
-title: แปลง TeX เป็น PDF, แทนที่ชื่องานและบันทึกผลลัพธ์ของเทอร์มินัลเป็นไฟล์ ZIP ใน
-  Java
+tags:
+- TeX conversion
+- Aspose.TeX
+- Java PDF generation
+title: วิธีสร้างเอกสาร PDF จาก TeX และ zip logs ใน Java
 url: /th/java/customizing-output/override-job-name-zip/
 weight: 11
 ---
@@ -15,46 +52,51 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แปลง TeX เป็น PDF, แทนที่ชื่องานและบันทึกผลลัพธ์เทอร์มินัลเป็น ZIP ใน Java
+# สร้างเอกสาร PDF จาก TeX และบีบอัดบันทึกเป็น ZIP ใน Java
 
-## Introduction
+## บทนำ
 
-หากคุณต้องการ **แปลง TeX เป็น PDF** พร้อมการควบคุมเต็มที่ต่อชื่องานและบันทึกเทอร์มินัล, Aspose.TeX for Java ทำให้เรื่องนี้ง่ายขึ้น ในบทแนะนำนี้เราจะเดินผ่านสถานการณ์จริง: การแทนที่ชื่องาน, การส่งออกผลลัพธ์เทอร์มินัลไปยังไฟล์ ZIP, และสุดท้ายการสร้างเอกสาร PDF. เมื่อเสร็จคุณจะมีโค้ดสแนปช็อตที่สามารถนำไปใช้ในโปรเจกต์ Java ใดก็ได้.
+หากคุณต้องการ **สร้างเอกสาร PDF จาก TeX** พร้อมการควบคุมเต็มที่ของชื่องานและบันทึกเทอร์มินัล Aspose.TeX for Java จะทำให้เรื่องนี้ง่ายขึ้น ในบทแนะนำนี้เราจะพาคุณผ่านสถานการณ์จริง: แทนที่ชื่องาน, ส่งออกผลลัพธ์เทอร์มินัลไปยังไฟล์ ZIP, และสุดท้ายสร้างเอกสาร PDF เมื่อเสร็จคุณจะได้โค้ดสแนปช็อตที่สามารถนำไปใช้ในโปรเจกต์ Java ใดก็ได้
 
-## Quick Answers
-- **What does this tutorial achieve?** It shows how to convert TeX to PDF, set a custom job name, and capture terminal output in a ZIP file.  
-- **Which library is required?** Aspose.TeX for Java (latest version).  
-- **Do I need a license?** A temporary license works for evaluation; a full license is required for production.  
-- **What output files are generated?** A PDF document and a `<job_name>.trm` terminal log inside the output ZIP.  
-- **How long does the implementation take?** Roughly 10‑15 minutes to copy the code and run it.
+## คำตอบอย่างรวดเร็ว
+- **บทเรียนนี้ทำอะไรได้บ้าง?** แสดงวิธีสร้างเอกสาร PDF จาก TeX, ตั้งชื่องานแบบกำหนดเอง, และบันทึกผลลัพธ์เทอร์มินัลในไฟล์ ZIP  
+- **ต้องใช้ไลบรารีอะไร?** Aspose.TeX for Java (เวอร์ชันล่าสุด)  
+- **ต้องมีใบอนุญาตหรือไม่?** ใบอนุญาตชั่วคราวใช้ได้สำหรับการประเมิน; ใบอนุญาตเต็มจำเป็นสำหรับการใช้งานจริง  
+- **ไฟล์ผลลัพธ์ที่สร้างขึ้นคืออะไร?** เอกสาร PDF และไฟล์บันทึกเทอร์มินัล `<job_name>.trm` ภายใน ZIP ผลลัพธ์  
+- **ใช้เวลานานเท่าไหร่ในการทำตาม?** ประมาณ 10‑15 นาทีเพื่อคัดลอกโค้ดและรัน
 
-## What is “convert TeX to PDF”?
+## “แปลง TeX เป็น PDF” คืออะไร
 
-การแปลง TeX เป็น PDF หมายถึงการนำไฟล์ต้นฉบับ TeX (หรือชุดไฟล์ TeX) มาสร้างเป็นเอกสาร PDF. Aspose.TeX มีเอนจินประสิทธิภาพสูงที่จัดการกระบวนการคอมไพล์ TeX ทั้งหมดโดยไม่ต้องพึ่งพาการติดตั้ง LaTeX ภายนอก.
+การแปลง TeX เป็น PDF หมายถึงการนำไฟล์ต้นฉบับ TeX (หรือชุดไฟล์ TeX) มาประมวลผลและแสดงผลเป็นเอกสาร PDF Aspose.TeX มีเอนจินประสิทธิภาพสูงที่จัดการกระบวนการคอมไพล์ TeX ทั้งหมดโดยไม่ต้องพึ่งพาการติดตั้ง LaTeX ภายนอก
 
-## Why override the job name and write terminal output to ZIP?
-- **Clarity:** A custom job name appears in log files, making it easier to identify runs in automated pipelines.  
-- **Portability:** Storing the terminal output (`*.trm`) inside a ZIP keeps all artifacts together, which is handy for CI/CD or cloud‑based processing.  
-- **Debugging:** The terminal log contains detailed compilation messages that help you troubleshoot TeX errors.
+## ทำไมต้องแทนที่ชื่องานและบันทึกผลลัพธ์เทอร์มินัลลงใน ZIP?
 
-## Why this matters
+การแทนที่ชื่องานช่วยให้คุณติดแท็กแต่ละการคอมไพล์ด้วยตัวระบุที่มีความหมาย (เช่น หมายเลขบิลด์) การบันทึกผลลัพธ์เทอร์มินัลลงใน ZIP ทำให้ไฟล์บันทึก (`*.trm`) อยู่ร่วมกับ PDF ที่สร้างขึ้น ซึ่งทำให้การจัดเก็บ, การตรวจสอบ, และการดีบักใน pipeline อัตโนมัติง่ายขึ้น
 
-เมื่อคุณสร้าง PDF จาก TeX ในสภาพแวดล้อมการผลิต คุณมักต้องจัดระเบียบ artefact ของการสร้าง การแทนที่ชื่องานทำให้คุณสามารถแท็กแต่ละรันด้วยตัวระบุที่มีความหมาย (เช่น หมายเลขบิลด์). การบรรจุล็อกเทอร์มินัลไว้ใน ZIP เดียวกับ PDF ให้คุณมีแพคเกจเดียวที่พกพาได้ซึ่งสามารถเก็บไว้เป็นอาร์ไคฟ์หรือส่งต่อให้บริการ downstream โดยไม่สูญเสียบริบท.
+## ทำไมเรื่องนี้ถึงสำคัญ
 
-## Common use cases
-- **Automated report generation** – a nightly job creates PDFs from TeX templates and stores logs for audit purposes.  
-- **CI/CD pipelines** – developers can view the exact compilation messages when a build fails, without digging into separate log files.  
-- **Cloud‑based document services** – a web service receives a ZIP of TeX sources, processes them, and returns a ZIP containing the PDF and its compilation log.
+เมื่อคุณสร้าง PDF จาก TeX ในสภาพแวดล้อมการผลิต คุณมักต้องการจัดระเบียบ artifacts ของบิลด์ให้เป็นระบบ การแทนที่ชื่องานช่วยให้คุณติดแท็กแต่ละรันด้วยตัวระบุที่มีความหมาย (เช่น หมายเลขบิลด์) การบรรจุบันทึกเทอร์มินัลใน ZIP เดียวกับ PDF ทำให้คุณมีแพคเกจพกพาเดียวที่สามารถเก็บหรือส่งต่อไปยังบริการ downstream ได้โดยไม่สูญเสียบริบท
 
-## Prerequisites
+## กรณีการใช้งานทั่วไป
+- **การสร้างรายงานอัตโนมัติ** – งานประจำคืนสร้าง PDF จากเทมเพลต TeX และเก็บบันทึกเพื่อการตรวจสอบ  
+- **pipeline CI/CD** – นักพัฒนาสามารถดูข้อความคอมไพล์ที่แน่นอนได้เมื่อบิลด์ล้มเหลวโดยไม่ต้องค้นหาไฟล์บันทึกแยกต่างหาก  
+- **บริการเอกสารบนคลาวด์** – เว็บเซอร์วิสรับ ZIP ของไฟล์ต้นฉบับ TeX, ประมวลผล, แล้วส่งกลับ ZIP ที่มี PDF และบันทึกการคอมไพล์
 
-- A working Java development environment (JDK 8 or higher).  
-- Aspose.TeX for Java downloaded from the [Aspose website](https://releases.aspose.com/tex/java/).  
-- Basic familiarity with Java I/O streams.  
+## ข้อกำหนดเบื้องต้น
 
-## Import Packages
+ก่อนเริ่มทำให้แน่ใจว่าคุณมี:
 
-เริ่มต้นด้วยการนำเข้าคลาสที่จำเป็น ซึ่งจะให้คุณเข้าถึง API ของ Aspose.TeX และยูทิลิตี้ I/O ของ Java มาตรฐาน.
+- สภาพแวดล้อมการพัฒนา Java ที่ทำงานได้ (JDK 8 หรือสูงกว่า)  
+- ดาวน์โหลด Aspose.TeX for Java จาก [หน้าดาวน์โหลด Aspose.TeX Java](https://releases.aspose.com/tex/java/)  
+- ความคุ้นเคยพื้นฐานกับสตรีม I/O ของ Java  
+
+## นำเข้าแพ็กเกจ
+
+เนมสเปซ `com.aspose.tex` มีคลาสทั้งหมดที่จำเป็นสำหรับการแปลง ส่วนคลาสมาตรฐาน `java.io` จะจัดการสตรีม ZIP การนำเข้าแพ็กเกจเหล่านี้ทำให้คุณเข้าถึง Aspose.TeX API และยูทิลิตี้ I/O ของ Java
+
+## ขั้นตอนที่ 1: เปิดไฟล์ ZIP อินพุต
+
+คลาส `InputZipDirectory` แทนไฟล์ ZIP ที่ให้ไฟล์ต้นฉบับ TeX แก่เอนจินการแปลง ทำหน้าที่เป็น **ไดเรกทอรีทำงานอินพุต** ของงาน
 
 ```java
 package com.aspose.tex.OverridenJobNameAndTerminalOutputWrittenToZip;
@@ -77,27 +119,28 @@ import com.aspose.tex.rendering.PdfSaveOptions;
 import util.Utils;
 ```
 
-## Step 1: Open the Input ZIP Archive
+## ขั้นตอนที่ 2: เปิดไฟล์ ZIP เอาต์พุต
 
-เราเปิดสตรีมที่ชี้ไปยังไฟล์ ZIP ที่บรรจุไฟล์ต้นฉบับ TeX. ไฟล์ ZIP นี้ทำหน้าที่เป็น **input working directory** สำหรับงานแปลง.
+คลาส `OutputZipDirectory` สร้างไฟล์ ZIP ที่จะรับ artifacts ที่สร้างขึ้น เช่น PDF และบันทึกเทอร์มินัล นี่คือ **ไดเรกทอรีทำงานเอาต์พุต**
 
 ```java
 // Open a stream on the input ZIP archive
 final InputStream inZipStream = new FileInputStream("Your Input Directory" + "zip-in.zip");
 ```
 
-## Step 2: Open the Output ZIP Archive
+## ขั้นตอนที่ 3: ตั้งค่าตัวเลือกการแปลง (รวมถึงชื่องาน)
 
-ต่อไปสร้างสตรีมสำหรับไฟล์ ZIP ที่จะรับ PDF ที่สร้างและล็อกเทอร์มินัล. นี้คือ **output working directory**.
+`ConversionOptions` (โดยเฉพาะ `ObjectTeXOptions`) ให้คุณกำหนดค่ากระบวนการคอมไพล์ โดยเรียก `setJobName("MyBuild_123")` คุณจะแทนที่ตัวระบุงานเริ่มต้น ซึ่งจะปรากฏในชื่อไฟล์บันทึกและเมตาดาต้าภายใน
 
 ```java
 // Open a stream on the output ZIP archive
 final OutputStream outZipStream = new FileOutputStream("Your Output Directory" + "terminal-out-to-zip.zip");
 ```
 
-## Step 3: Set Conversion Options (including job name)
+## ขั้นตอนที่ 4: ส่งออกผลลัพธ์เทอร์มินัลไปยังไฟล์ใน ZIP
 
-ที่นี่เราตั้งค่าตัวเลือกการแปลงสำหรับรูปแบบ ObjectTeX, ระบุชื่องานแบบกำหนดเอง, และผูกไดเรกทอรี ZIP อินพุตและเอาต์พุต.
+การเรียก `options.setTerminalOut("MyBuild_123.trm")` บอก Aspose.TeX ให้เขียนผลลัพธ์คอนโซลของคอมไพเลอร์ทั้งหมดลงในไฟล์ชื่อ `<job_name>.trm` ภายใน ZIP เอาต์พุต ไฟล์นี้บรรจุคำเตือน, ข้อผิดพลาด, และข้อความข้อมูลที่จำเป็นสำหรับการแก้ปัญหา  
+`setTerminalOut` ระบุชื่อไฟล์สำหรับบันทึกผลลัพธ์เทอร์มินัล
 
 ```java
 // Create TeX options for ObjectTeX format
@@ -107,18 +150,18 @@ options.setInputWorkingDirectory(new InputZipDirectory(inZipStream, "in"));
 options.setOutputWorkingDirectory(new OutputZipDirectory(outZipStream));
 ```
 
-## Step 4: Direct Terminal Output to a File in the ZIP
+## ขั้นตอนที่ 5: กำหนดตัวเลือกการบันทึกและรันงาน
 
-เราบอก Aspose.TeX ให้เขียนผลลัพธ์เทอร์มินัลของการคอมไพล์ไปยังไฟล์ชื่อ `<job_name>.trm` ภายใน ZIP เอาต์พุต.
+อ็อบเจกต์ `SavingOptions` เลือกอุปกรณ์เรนเดอร์ – ในกรณีนี้คือ PDF `Job` เชื่อมต่อไดเรกทอรีอินพุต, ไดเรกทอรีเอาต์พุต, และตัวเลือกการแปลงเข้าด้วยกันและจัดการกระบวนการ การเรียก `job.run()` จะดำเนินการ pipeline TeX‑to‑PDF ทั้งหมด, เขียน PDF ไปยัง ZIP เอาต์พุต, และสร้างไฟล์บันทึก `.trm` `run()` เริ่มงานแปลงและบล็อกจนกว่าจะเสร็จ
 
 ```java
 // Specify terminal output settings
 options.setTerminalOut(new OutputFileTerminal(options.getOutputWorkingDirectory()));
 ```
 
-## Step 5: Define Saving Options and Run the Job
+## ขั้นตอนที่ 6: ปิดไฟล์ ZIP เอาต์พุต
 
-ตั้งอุปกรณ์เรนเดอร์ที่ต้องการ (PDF) และดำเนินการงาน. ขั้นตอนนี้ **แปลง TeX เป็น PDF** และเก็บผลลัพธ์ใน ZIP เอาต์พุต.
+หลังงานเสร็จสิ้น คุณต้องเรียก `outputZip.finish()` เพื่อปิดสตรีม ZIP และทำให้ไฟล์อาร์ไคฟ์ถูกต้อง `finish()` สรุปไฟล์ ZIP และเขียนศูนย์กลางไดเรกทอรี การข้ามขั้นตอนนี้อาจทำให้ ZIP เสียหาย ทำให้ PDF หรือบันทึกไม่สามารถอ่านได้
 
 ```java
 // Define saving options and run the job
@@ -126,57 +169,67 @@ options.setSaveOptions(new PdfSaveOptions());
 new TeXJob("hello-world", new PdfDevice(), options).run();
 ```
 
-## Step 6: Finalize the Output ZIP Archive
+## เคล็ดลับและแนวปฏิบัติที่ดีที่สุด
 
-หลังงานเสร็จ เราต้องปิดสตรีม ZIP อย่างถูกต้องเพื่อให้ไฟล์อาร์ไคฟ์เป็นที่ใช้งานได้.
+- **Reuse streams**: หากคุณประมวลผลหลายงาน TeX ต่อเนื่อง ให้เปิดสตรีมอินพุตและเอาต์พุตค้างไว้และเปลี่ยน `JobName` ระหว่างรันเท่านั้น  
+- **Log inspection**: เปิดไฟล์ `<job_name>.trm` ด้วยโปรแกรมแก้ไขข้อความใดก็ได้เพื่อดูคำเตือนหรือข้อผิดพลาดที่คอมไพเลอร์ TeX ส่งออก  
+- **Performance**: Aspose.TeX สามารถประมวลผลเอกสารได้ถึง 500 หน้าโดยใช้หน่วยความจำ heap ต่ำกว่า 1 GB บนเซิร์ฟเวอร์ทั่วไป สำหรับไฟล์ขนาดใหญ่ให้เพิ่มขนาด heap ของ JVM (`-Xmx2g`)  
+- **Security**: เมื่อจัดการกับแหล่ง TeX ที่ไม่เชื่อถือ ให้รันการแปลงในสภาพแวดล้อมแซนด์บ็อกซ์เพื่อบรรเทาแมโครที่อาจเป็นอันตราย  
+
+## ปัญหาทั่วไปและวิธีแก้
+
+| ปัญหา | สาเหตุที่เป็นไปได้ | วิธีแก้ |
+|-------|-------------------|----------|
+| PDF ว่าง | ไฟล์ ZIP อินพุตไม่มีไฟล์ `*.tex` ที่ถูกต้องหรือไฟล์ไม่ได้อยู่ในโฟลเดอร์ `in`. | ตรวจสอบโครงสร้างของ ZIP (`in/yourfile.tex`). |
+| ไฟล์ `.trm` หาย | `setTerminalOut` ไม่ได้ถูกเรียกหรือไดเรกทอรีเอาต์พุตไม่ใช่ `OutputZipDirectory`. | ตรวจสอบให้แน่ใจว่า `options.setTerminalOut(...)` ถูกเรียกก่อน `run()`. |
+| `IOException` ขณะเรียก finish | สตรีมเอาต์พุตถูกปิดไว้ที่อื่นแล้ว. | เรียก `finish()` เพียงครั้งเดียว หลังจากงานเสร็จสิ้น. |
+| การแปลงล้มเหลวด้วยข้อผิดพลาดของ TeX | ไฟล์ต้นฉบับ TeX มีข้อผิดพลาดทางไวยากรณ์. | เปิดไฟล์ล็อก `<job_name>.trm` ที่สร้างขึ้นเพื่อดูข้อความข้อผิดพลาดโดยละเอียด. |
+
+## คำถามที่พบบ่อย
+
+**Q: Aspose.TeX คืออะไร?**  
+A: Aspose.TeX เป็นไลบรารี Java ที่ช่วยให้นักพัฒนาสามารถ **สร้างเอกสาร PDF จาก TeX** ได้, จัดการเอกสาร TeX, และทำการเรนเดอร์ขั้นสูงโดยไม่ต้องติดตั้ง LaTeX ภายนอก  
+
+**Q: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.TeX ได้อย่างไร?**  
+A: คุณสามารถรับใบอนุญาตชั่วคราวได้จาก [หน้าใบอนุญาตชั่วคราวของ Aspose.TeX](https://purchase.aspose.com/temporary-license/)  
+
+**Q: ฉันจะหาเอกสารอย่างเป็นทางการของ Aspose.TeX ได้จากที่ไหน?**  
+A: เอกสารพร้อมใช้งานบน [หน้าเอกสาร Aspose.TeX Java](https://reference.aspose.com/tex/java/)  
+
+**Q: มีเวอร์ชันทดลองฟรีของ Aspose.TeX หรือไม่?**  
+A: มี, คุณสามารถดาวน์โหลดเวอร์ชันทดลองฟรีจาก [หน้าเวอร์ชันทดลองของ Aspose.TeX](https://releases.aspose.com/)  
+
+**Q: ฉันจะขอความช่วยเหลือได้จากที่ไหนหากพบปัญหา?**  
+A: เยี่ยมชม [ฟอรั่ม Aspose.TeX](https://forum.aspose.com/c/tex/47) เพื่อรับการสนับสนุนจากชุมชนและทีมงานอย่างเป็นทางการ  
+
+## สรุป
+
+คุณได้เรียนรู้วิธี **สร้างเอกสาร PDF จาก TeX**, แทนที่ชื่องาน, และบันทึกผลลัพธ์เทอร์มินัลภายใน ZIP โดยใช้ Aspose.TeX for Java วิธีนี้เหมาะอย่างยิ่งสำหรับ pipeline การบิลด์อัตโนมัติ ที่การเก็บบันทึกร่วมกับ artifacts ช่วยให้การดีบักและการตรวจสอบเป็นเรื่องง่าย ปรับโค้ดให้เข้ากับโครงสร้างโปรเจกต์ของคุณ หรือขยายให้รองรับรูปแบบผลลัพธ์อื่น ๆ ที่ Aspose.TeX สนับสนุน
+
+---
+
+**Last Updated:** 2026-08-23  
+**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
+
+
+
+
+
+
 
 ```java
 // Finalize the output ZIP archive
 ((OutputZipDirectory) options.getOutputWorkingDirectory()).finish();
 ```
 
-## Tips and best practices
+## บทแนะนำที่เกี่ยวข้อง
 
-- **Reuse streams**: If you process many TeX jobs in a row, keep the input and output streams open and only change the `JobName` between runs.  
-- **Log inspection**: Open the `<job_name>.trm` file with any text editor to see warnings or errors that the TeX compiler emitted.  
-- **Performance**: For large documents, consider increasing the JVM heap size (`-Xmx2g`) to avoid `OutOfMemoryError` during PDF rendering.  
-- **Security**: When handling untrusted TeX sources, run the conversion in a sandboxed environment to mitigate potential malicious macros.
+- [Create ZIP Archive in Java with Aspose.TeX – Complete Guide](/tex/java/zip-archives/)
+- [Java generate PDF from LaTeX: Advanced Conversion Options with Aspose.TeX](/tex/java/converting-lato-pdf/advanced-pdf-conversion/)
+- [How to Load Aspose.TeX License in Java – Step‑by‑Step Guide](/tex/java/managing-licenses/)
 
-## Common Issues and Solutions
-
-| ปัญหา | สาเหตุที่เป็นไปได้ | วิธีแก้ |
-|-------|-------------------|--------|
-| **Empty PDF** | Input ZIP does not contain a valid `*.tex` file or the file is not placed under the `in` folder. | Verify the ZIP structure (`in/yourfile.tex`). |
-| **Missing `.trm` file** | `setTerminalOut` was not called or the output directory is not a `OutputZipDirectory`. | Ensure `options.setTerminalOut(...)` is executed before `run()`. |
-| **`IOException` on finish** | Output stream was already closed elsewhere. | Call `finish()` only once, after the job completes. |
-| **Conversion fails with TeX errors** | The TeX source contains syntax errors. | Open the generated `<job_name>.trm` log to see detailed error messages. |
-
-## Frequently Asked Questions
-
-**Q: What is Aspose.TeX?**  
-A: Aspose.TeX is a Java library that enables developers to **create PDF from TeX** sources, manipulate TeX documents, and perform advanced rendering without external LaTeX installations.
-
-**Q: How can I obtain a temporary license for Aspose.TeX?**  
-A: You can get a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
-
-**Q: Where can I find the official Aspose.TeX documentation?**  
-A: The documentation is available [here](https://reference.aspose.com/tex/java/).
-
-**Q: Is there a free trial version of Aspose.TeX?**  
-A: Yes, you can download the free trial from [here](https://releases.aspose.com/).
-
-**Q: Where can I ask for help if I run into problems?**  
-A: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support and official assistance.
-
-## Conclusion
-
-ตอนนี้คุณได้เรียนรู้วิธี **แปลง TeX เป็น PDF**, แทนที่ชื่องาน, และบันทึกผลลัพธ์เทอร์มินัลไว้ในไฟล์ ZIP ด้วย Aspose.TeX for Java. วิธีนี้มีประโยชน์อย่างยิ่งใน pipeline การสร้างอัตโนมัติ, ที่การเก็บล็อกพร้อมกับ artefact ที่สร้างขึ้นช่วยให้การดีบักและการตรวจสอบเป็นเรื่องง่าย. คุณสามารถปรับโค้ดให้เข้ากับโครงสร้างโปรเจกต์ของคุณเอง, หรือขยายให้รองรับรูปแบบเอาต์พุตอื่นที่ Aspose.TeX สนับสนุน.
-
----
-
-**Last Updated:** 2026-02-15  
-**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

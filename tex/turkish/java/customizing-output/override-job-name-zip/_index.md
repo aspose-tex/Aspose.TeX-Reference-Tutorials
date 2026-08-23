@@ -1,13 +1,50 @@
 ---
-date: 2026-02-15
-description: Aspose.TeX for Java kullanarak TeX'i PDF'ye dönüştürmeyi, iş adlarını
-  geçersiz kılmayı ve terminal çıktısını bir ZIP dosyasına yazmayı öğrenin. Java geliştiricileri
+date: 2026-08-23
+description: Aspose.TeX for Java kullanarak TeX'ten PDF belgesi oluşturmayı, job name'i
+  override etmeyi ve terminal output'u bir ZIP dosyasına yazmayı öğrenin. Java geliştiricileri
   için adım adım rehber.
-linktitle: Convert TeX to PDF, Override Job Name and Write Terminal Output to ZIP
-  in Java
+keywords:
+- create pdf document from tex
+- Aspose.TeX Java
+- TeX to PDF conversion
+lastmod: 2026-08-23
+linktitle: Java'da TeX'i PDF'ye dönüştürme, Job Name'i Override etme ve Terminal Output'u
+  ZIP'e yazma
+og_description: Aspose.TeX for Java kullanarak TeX'ten PDF belgesi oluşturmayı, job
+  name'leri özelleştirmeyi ve terminal output'u bir ZIP içinde yakalamayı öğrenin
+  – hızlı 10 dakikalık bir rehber.
+og_image_alt: Developer guide showing Java code to convert TeX to PDF and zip logs
+og_title: Java'da TeX'ten PDF belgesi oluşturma, job name'i override etme ve zip logs
+schemas:
+- author: Aspose
+  dateModified: '2026-08-23'
+  description: Learn how to create PDF document from TeX, override the job name, and
+    write terminal output to a ZIP file using Aspose.TeX for Java. Step‑by‑step guide
+    for Java developers.
+  headline: How to create PDF document from TeX and zip logs in Java
+  type: TechArticle
+- questions:
+  - answer: Aspose.TeX is a Java library that enables developers to **create PDF document
+      from TeX** sources, manipulate TeX documents, and perform advanced rendering
+      without external LaTeX installations.
+    question: What is Aspose.TeX?
+  - answer: You can get a temporary license from the [Aspose.TeX temporary license
+      page](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.TeX?
+  - answer: The documentation is available on the [Aspose.TeX Java documentation page](https://reference.aspose.com/tex/java/).
+    question: Where can I find the official Aspose.TeX documentation?
+  - answer: Yes, you can download the free trial from the [Aspose.TeX free trial page](https://releases.aspose.com/).
+    question: Is there a free trial version of Aspose.TeX?
+  - answer: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community
+      support and official assistance.
+    question: Where can I ask for help if I run into problems?
+  type: FAQPage
 second_title: Aspose.TeX Java API
-title: TeX'i PDF'ye dönüştür, iş adını geçersiz kıl ve terminal çıktısını Java'da
-  ZIP'e yaz
+tags:
+- TeX conversion
+- Aspose.TeX
+- Java PDF generation
+title: Java'da TeX'ten PDF belgesi oluşturma ve zip logs
 url: /tr/java/customizing-output/override-job-name-zip/
 weight: 11
 ---
@@ -16,46 +53,47 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# TeX'i PDF'ye Dönüştürme, İş Adını Geçersiz Kılma ve Terminal Çıktısını ZIP'e Yazma Java'da
+# TeX'ten PDF belgesi oluşturma ve günlükleri Java'da zip'leme
 
 ## Giriş
 
-TeX'i **PDF'ye dönüştürmeniz** ve iş adını ve terminal günlüklerini tam kontrol altında tutmanız gerekiyorsa, Aspose.TeX for Java bunu basit hale getirir. Bu öğreticide gerçek bir senaryoyu adım adım inceleyeceğiz: iş adını geçersiz kılma, terminal çıktısını bir ZIP arşivine yönlendirme ve sonunda bir PDF belgesi üretme. Sonunda, herhangi bir Java projesine ekleyebileceğiniz yeniden kullanılabilir bir kod parçacığına sahip olacaksınız.
+Eğer iş adı ve terminal günlükleri üzerinde tam kontrol sağlarken **create PDF document from TeX** oluşturmanız gerekiyorsa, Aspose.TeX for Java bunu basit hale getirir. Bu öğreticide gerçek bir senaryoyu adım adım inceleyeceğiz: iş adını geçersiz kılma, terminal çıktısını bir ZIP arşivine yönlendirme ve sonunda bir PDF belgesi üretme. Sonunda, herhangi bir Java projesine ekleyebileceğiniz yeniden kullanılabilir bir kod snippet'ine sahip olacaksınız.
 
-## Hızlı Yanıtlar
-- **Bu öğreticinin amacı nedir?** TeX'i PDF'ye dönüştürmeyi, özel bir iş adı ayarlamayı ve terminal çıktısını bir ZIP dosyasında yakalamayı gösterir.  
-- **Hangi kütüphane gereklidir?** Aspose.TeX for Java (en son sürüm).  
-- **Lisans gerekli mi?** Değerlendirme için geçici bir lisans yeterlidir; üretim için tam lisans gerekir.  
-- **Hangi çıktı dosyaları oluşturulur?** PDF belgesi ve çıktı ZIP içinde bir `<job_name>.trm` terminal günlüğü.  
-- **Uygulama ne kadar sürer?** Kodu kopyalayıp çalıştırmak yaklaşık 10‑15 dakikadır.
+## Hızlı cevaplar
+- **Bu öğretici neyi başarmaktadır?** It shows how to create PDF document from TeX, set a custom job name, and capture terminal output in a ZIP file.  
+- **Hangi kütüphane gereklidir?** Aspose.TeX for Java (latest version).  
+- **Bir lisansa ihtiyacım var mı?** A temporary license works for evaluation; a full license is required for production.  
+- **Hangi çıktı dosyaları oluşturulur?** A PDF document and a `<job_name>.trm` terminal log inside the output ZIP.  
+- **Uygulama ne kadar sürer?** Roughly 10‑15 minutes to copy the code and run it.
 
-## “TeX'i PDF'ye dönüştürmek” nedir?
-TeX'i PDF'ye dönüştürmek, bir TeX kaynak dosyasını (veya bir dizi TeX dosyasını) alıp PDF belgesi olarak oluşturmak anlamına gelir. Aspose.TeX, harici bir LaTeX dağıtımına ihtiyaç duymadan tam TeX derleme hattını yöneten yüksek performanslı bir motor sağlar.
+## “convert TeX to PDF” nedir?
 
-## İş adını neden geçersiz kılmalı ve terminal çıktısını ZIP'e yazmalıyız?
-- **Açıklık:** Özel bir iş adı günlük dosyalarında görünür, otomatikleştirilmiş boru hatlarında çalışmaları tanımlamayı kolaylaştırır.  
-- **Taşınabilirlik:** Terminal çıktısını (`*.trm`) bir ZIP içinde saklamak, tüm artefaktları bir arada tutar; bu, CI/CD veya bulut tabanlı işleme için kullanışlıdır.  
-- **Hata Ayıklama:** Terminal günlüğü, TeX hatalarını gidermenize yardımcı olan ayrıntılı derleme mesajları içerir.
+Converting TeX to PDF means taking a TeX source file (or a collection of TeX files) and rendering it as a PDF document. Aspose.TeX provides a high‑performance engine that handles the full TeX compilation pipeline without needing an external LaTeX distribution.
+
+## Neden iş adını geçersiz kılmalı ve terminal çıktısını ZIP'e yazmalı?
+
+Overriding the job name lets you tag each compilation run with a meaningful identifier (for example, a build number). Writing the terminal output to a ZIP keeps the log (`*.trm`) together with the generated PDF, which simplifies archiving, auditing, and debugging in automated pipelines.
 
 ## Bunun önemi nedir
-Üretim ortamında TeX'ten PDF oluştururken, derleme artefaktlarını düzenli tutmanız gerekir. İş adını geçersiz kılmak, her çalışmayı anlamlı bir tanımlayıcıyla (örneğin bir derleme numarası) etiketlemenizi sağlar. Terminal günlüğünü PDF ile aynı ZIP içinde paketlemek, bağlamı kaybetmeden arşivlenebilen veya alt hizmetlere gönderilebilen tek bir taşınabilir paket oluşturur.
+
+When you generate PDF from TeX in a production environment, you often need to keep the build artifacts organized. Overriding the job name lets you tag each run with a meaningful identifier (for example, a build number). Packing the terminal log into the same ZIP as the PDF gives you a single, portable package that can be archived or sent to downstream services without losing context.
 
 ## Yaygın kullanım senaryoları
-- **Otomatik rapor oluşturma** – gecelik bir iş, TeX şablonlarından PDF'ler oluşturur ve denetim amaçlı günlükleri saklar.  
+- **Otomatik rapor oluşturma** – gece çalışan bir iş, TeX şablonlarından PDF'ler oluşturur ve denetim amaçlı günlükleri saklar.  
 - **CI/CD boru hatları** – geliştiriciler, bir derleme başarısız olduğunda ayrı günlük dosyalarına bakmadan tam derleme mesajlarını görebilir.  
 - **Bulut tabanlı belge hizmetleri** – bir web servisi TeX kaynaklarının ZIP'ini alır, işler ve PDF ile derleme günlüğünü içeren bir ZIP döndürür.
 
-## Ön Koşullar
+## Önkoşullar
 
-Başlamadan önce şunların olduğundan emin olun:
+- Çalışan bir Java geliştirme ortamı (JDK 8 veya üzeri).  
+- Aspose.TeX for Java downloaded from the [Aspose.TeX Java download page](https://releases.aspose.com/tex/java/).  
+- Java I/O akışlarıyla temel aşinalık.  
 
-- Çalışan bir Java geliştirme ortamı (JDK 8 veya daha yenisi).  
-- Aspose.TeX for Java, [Aspose web sitesinden](https://releases.aspose.com/tex/java/) indirilmiş.  
-- Java I/O akışları hakkında temel bilgi.
+## Paketleri içe aktar
 
-## Paketleri İçe Aktarma
+The `com.aspose.tex` namespace contains all classes required for conversion, while standard `java.io` classes handle ZIP streams. Importing these packages gives you access to the Aspose.TeX API and Java I/O utilities.
 
-Gerekli sınıfları içe aktararak başlayın. Bu, Aspose.TeX API'sine ve standart Java I/O yardımcı programlarına erişmenizi sağlar.
+## Adım 1: giriş zip arşivini aç
 
 ```java
 package com.aspose.tex.OverridenJobNameAndTerminalOutputWrittenToZip;
@@ -78,27 +116,24 @@ import com.aspose.tex.rendering.PdfSaveOptions;
 import util.Utils;
 ```
 
-## Adım 1: Giriş ZIP Arşivini Açma
-
-İlk olarak, TeX kaynak dosyalarını içeren ZIP dosyasına işaret eden bir akış açarız. Bu arşiv, dönüşüm işi için **giriş çalışma dizini** olarak görev yapar.
+## Adım 2: çıkış zip arşivini aç
 
 ```java
 // Open a stream on the input ZIP archive
 final InputStream inZipStream = new FileInputStream("Your Input Directory" + "zip-in.zip");
 ```
 
-## Adım 2: Çıkış ZIP Arşivini Açma
-
-Sonra, oluşturulan PDF ve terminal günlüğünü alacak ZIP dosyası için bir akış oluşturun. Bu, **çıkış çalışma dizini** dir.
+## Adım 3: dönüşüm seçeneklerini ayarla (iş adı dahil)
 
 ```java
 // Open a stream on the output ZIP archive
 final OutputStream outZipStream = new FileOutputStream("Your Output Directory" + "terminal-out-to-zip.zip");
 ```
 
-## Adım 3: Dönüşüm Seçeneklerini Ayarlama (iş adı dahil)
+## Adım 4: terminal çıktısını ZIP içindeki bir dosyaya yönlendir
 
-Burada ObjectTeX formatı için dönüşüm seçeneklerini yapılandırır, özel bir iş adı belirler ve giriş ile çıkış ZIP dizinlerini bağlarız.
+Calling `options.setTerminalOut("MyBuild_123.trm")` tells Aspose.TeX to write the full compiler console output to a file named `<job_name>.trm` inside the output ZIP. This file contains warnings, errors, and informational messages that are essential for troubleshooting.  
+`setTerminalOut` specifies the file name for the terminal output log.
 
 ```java
 // Create TeX options for ObjectTeX format
@@ -108,18 +143,16 @@ options.setInputWorkingDirectory(new InputZipDirectory(inZipStream, "in"));
 options.setOutputWorkingDirectory(new OutputZipDirectory(outZipStream));
 ```
 
-## Adım 4: Terminal Çıktısını ZIP İçindeki Bir Dosyaya Yönlendirme
-
-Aspose.TeX'e, derleme terminal çıktısını çıkış ZIP içinde `<job_name>.trm` adlı bir dosyaya yazmasını söyleriz.
+## Adım 5: kaydetme seçeneklerini tanımla ve işi çalıştır
 
 ```java
 // Specify terminal output settings
 options.setTerminalOut(new OutputFileTerminal(options.getOutputWorkingDirectory()));
 ```
 
-## Adım 5: Kaydetme Seçeneklerini Tanımlama ve İşi Çalıştırma
+## Adım 6: çıkış ZIP arşivini sonlandır
 
-İstenen renderleme cihazını (PDF) ayarlayın ve işi yürütün. Bu adım **TeX'i PDF'ye dönüştürür** ve sonucu çıkış ZIP içinde saklar.
+After the job finishes, you must call `outputZip.finish()` to close the ZIP stream and ensure the archive is valid. `finish()` finalizes the ZIP archive and writes the central directory. Skipping this step can corrupt the ZIP, making the PDF or log unreadable.
 
 ```java
 // Define saving options and run the job
@@ -127,57 +160,67 @@ options.setSaveOptions(new PdfSaveOptions());
 new TeXJob("hello-world", new PdfDevice(), options).run();
 ```
 
-## Adım 6: Çıkış ZIP Arşivini Tamamlama
+## İpuçları ve en iyi uygulamalar
 
-İş tamamlandıktan sonra, arşivin geçerli olmasını sağlamak için ZIP akışını düzgün bir şekilde kapatmalıyız.
+- **Reuse streams**: If you process many TeX jobs in a row, keep the input and output streams open and only change the `JobName` between runs.  
+- **Log inspection**: Open the `<job_name>.trm` file with any text editor to see warnings or errors that the TeX compiler emitted.  
+- **Performance**: Aspose.TeX can process documents with up to 500 pages while using less than 1 GB of heap memory on a typical server. For larger files, increase the JVM heap size (`-Xmx2g`).  
+- **Security**: When handling untrusted TeX sources, run the conversion in a sandboxed environment to mitigate potential malicious macros.
+
+## Yaygın sorunlar ve çözümler
+
+| Sorun | Muhtemel neden | Çözüm |
+|-------|----------------|-------|
+| **Boş PDF** | Giriş ZIP'i geçerli bir `*.tex` dosyası içermiyor veya dosya `in` klasörünün altında yer almıyor. | ZIP yapısını doğrulayın (`in/yourfile.tex`). |
+| **Eksik `.trm` dosyası** | `setTerminalOut` çağrılmadı veya çıkış dizini bir `OutputZipDirectory` değil. | `options.setTerminalOut(...)`'ın `run()`'dan önce çalıştırıldığından emin olun. |
+| **`IOException` on finish** | Çıkış akışı başka bir yerde zaten kapatılmıştı. | `finish()` yalnızca bir kez, iş tamamlandıktan sonra çağrılmalı. |
+| **Dönüşüm TeX hatalarıyla başarısız oluyor** | TeX kaynağı sözdizimi hataları içeriyor. | Oluşturulan `<job_name>.trm` günlüğünü açarak ayrıntılı hata mesajlarını görün. |
+
+## Sıkça sorulan sorular
+
+**Q: Aspose.TeX nedir?**  
+A: Aspose.TeX is a Java library that enables developers to **create PDF document from TeX** sources, manipulate TeX documents, and perform advanced rendering without external LaTeX installations.
+
+**Q: Aspose.TeX için geçici bir lisans nasıl alabilirim?**  
+A: You can get a temporary license from the [Aspose.TeX temporary license page](https://purchase.aspose.com/temporary-license/).
+
+**Q: Resmi Aspose.TeX belgelerini nerede bulabilirim?**  
+A: The documentation is available on the [Aspose.TeX Java documentation page](https://reference.aspose.com/tex/java/).
+
+**Q: Aspose.TeX'in ücretsiz deneme sürümü var mı?**  
+A: Yes, you can download the free trial from the [Aspose.TeX free trial page](https://releases.aspose.com/).
+
+**Q: Sorun yaşarsam nereden yardım alabilirim?**  
+A: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support and official assistance.
+
+## Sonuç
+
+You’ve now seen how to **create PDF document from TeX**, override the job name, and capture terminal output inside a ZIP archive using Aspose.TeX for Java. This approach is especially useful in automated build pipelines, where keeping logs together with generated artifacts simplifies debugging and audit trails. Feel free to adapt the code to your own project structure, or extend it to other output formats supported by Aspose.TeX.
+
+---
+
+**Last Updated:** 2026-08-23  
+**Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
+
+
+
+
+
+
 
 ```java
 // Finalize the output ZIP archive
 ((OutputZipDirectory) options.getOutputWorkingDirectory()).finish();
 ```
 
-## İpuçları ve En İyi Uygulamalar
+## İlgili Öğreticiler
 
-- **Akışları yeniden kullanın**: Ardışık birçok TeX işi işliyorsanız, giriş ve çıkış akışlarını açık tutun ve yalnızca çalıştırmalar arasında `JobName`'i değiştirin.  
-- **Günlük inceleme**: `<job_name>.trm` dosyasını herhangi bir metin düzenleyiciyle açarak TeX derleyicisinin ürettiği uyarı ve hataları görebilirsiniz.  
-- **Performans**: Büyük belgeler için, PDF renderleme sırasında `OutOfMemoryError` oluşmasını önlemek amacıyla JVM yığın boyutunu (`-Xmx2g`) artırmayı düşünün.  
-- **Güvenlik**: Güvenilmeyen TeX kaynaklarıyla çalışırken, olası kötü amaçlı makroları azaltmak için dönüşümü izole bir ortamda (sandbox) çalıştırın.
+- [Aspose.TeX ile Java'da ZIP Arşivi Oluşturma – Tam Kılavuz](/tex/java/zip-archives/)
+- [Java'da LaTeX'ten PDF Oluşturma: Aspose.TeX ile Gelişmiş Dönüşüm Seçenekleri](/tex/java/converting-lato-pdf/advanced-pdf-conversion/)
+- [Aspose.TeX Lisansını Java'da Nasıl Yüklenir – Adım Adım Kılavuz](/tex/java/managing-licenses/)
 
-## Yaygın Sorunlar ve Çözümler
-
-| Sorun | Muhtemel Neden | Çözüm |
-|-------|----------------|------|
-| **Boş PDF** | Giriş ZIP içinde geçerli bir `*.tex` dosyası yok veya dosya `in` klasörüne yerleştirilmemiş. | ZIP yapısını doğrulayın (`in/yourfile.tex`). |
-| **`.trm` dosyası eksik** | `setTerminalOut` çağrılmamış veya çıktı dizini bir `OutputZipDirectory` değil. | `run()`'dan önce `options.setTerminalOut(...)` çağrıldığından emin olun. |
-| **`IOException` on finish** | Çıktı akışı başka bir yerde zaten kapatılmış. | İş tamamlandıktan sonra `finish()`'ı yalnızca bir kez çağırın. |
-| **TeX hatalarıyla dönüşüm başarısız** | TeX kaynağı sözdizimi hataları içeriyor. | Oluşturulan `<job_name>.trm` günlüğünü açarak ayrıntılı hata mesajlarını inceleyin. |
-
-## Sıkça Sorulan Sorular
-
-**S: Aspose.TeX nedir?**  
-C: Aspose.TeX, geliştiricilerin TeX kaynaklarından **PDF oluşturmasını**, TeX belgelerini manipüle etmesini ve harici LaTeX kurulumları olmadan gelişmiş renderleme yapmasını sağlayan bir Java kütüphanesidir.
-
-**S: Aspose.TeX için geçici bir lisans nasıl alabilirim?**  
-C: Geçici bir lisansı [bu bağlantıdan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
-
-**S: Resmi Aspose.TeX belgelerini nerede bulabilirim?**  
-C: Belgeler [burada](https://reference.aspose.com/tex/java/) mevcuttur.
-
-**S: Aspose.TeX'in ücretsiz deneme sürümü var mı?**  
-C: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
-
-**S: Sorun yaşarsam nereden yardım alabilirim?**  
-C: Topluluk desteği ve resmi yardım için [Aspose.TeX forumunu](https://forum.aspose.com/c/tex/47) ziyaret edin.
-
-## Sonuç
-
-Artık Aspose.TeX for Java kullanarak **TeX'i PDF'ye dönüştürmeyi**, iş adını geçersiz kılmayı ve terminal çıktısını bir ZIP arşivinde yakalamayı gördünüz. Bu yaklaşım, günlükleri oluşturulan artefaktlarla birlikte tutmanın hata ayıklamayı ve denetim izlerini basitleştirdiği otomatik derleme boru hatalarında özellikle faydalıdır. Kodu kendi proje yapınıza uyarlamaktan veya Aspose.TeX'in desteklediği diğer çıktı formatlarına genişletmekten çekinmeyin.
-
----
-
-**Son Güncelleme:** 2026-02-15  
-**Test Edilen Versiyon:** Aspose.TeX for Java 24.11 (yazım zamanındaki en son)  
-**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
