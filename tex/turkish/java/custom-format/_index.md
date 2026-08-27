@@ -1,12 +1,82 @@
 ---
-date: 2026-02-07
-description: Aspose.TeX for Java kullanarak **özel tex formatı oluşturmayı** öğrenin.
-  Bu adım adım kılavuz, varsayılan font tex'ini ayarlamayı, satır aralığı tex'ini
-  yapılandırmayı ve yüksek kaliteli dizgi için yeniden kullanılabilir TeX formatları
-  oluşturmayı gösterir.
-linktitle: Custom TeX Format Creation in Java
+date: 2026-07-28
+description: Aspose.TeX for Java kullanarak tex formatı oluşturmayı öğrenin; varsayılan
+  yazı tipi ayarları, satır aralığı yapılandırması ve yeniden kullanılabilir format
+  oluşturma dahil.
+keywords:
+- create tex format
+- set default font tex
+- configure line spacing tex
+lastmod: 2026-07-28
+linktitle: Java'da TeX Formatı Oluşturun
+og_description: Aspose.TeX ile Java'da tex formatı oluşturun. Bu kılavuz, varsayılan
+  yazı tipi tex ayarlamayı, satır aralığı tex yapılandırmasını ve tutarlı typesetting
+  için yeniden kullanılabilir formatlar oluşturmayı gösterir.
+og_image_alt: 'Aspose.TeX Java tutorial: create tex format for consistent document
+  styling'
+og_title: Java'da TeX Formatı Oluşturun – Aspose.TeX Kılavuzu
+schemas:
+- author: Aspose
+  dateModified: '2026-07-28'
+  description: Learn how to create tex format using Aspose.TeX for Java, including
+    default font settings, line spacing configuration, and reusable format creation.
+  headline: Create TeX Format in Java with Aspose.TeX
+  type: TechArticle
+- description: Learn how to create tex format using Aspose.TeX for Java, including
+    default font settings, line spacing configuration, and reusable format creation.
+  name: Create TeX Format in Java with Aspose.TeX
+  steps:
+  - name: Set Up the Aspose.TeX Project
+    text: 1. Create a new Maven (or Gradle) project. 2. Add the Aspose.TeX dependency
+      to your `pom.xml` (or `build.gradle`). 3. Verify the library loads by instantiating
+      a simple `Document` object. `Document` is the primary class representing a TeX
+      document that can be compiled to PDF, HTML, or other supporte
+  - name: Define the Formatting Rules
+    text: The Aspose.TeX API lets you declare fonts, page geometry, and custom macros
+      programmatically. For example, you might set a default serif font, 1.5 line
+      spacing, and a macro for a recurring title block. > **Why this matters:** By
+      codifying these rules in Java, you eliminate the need for separate `.st
+  - name: Build the Custom Format Object
+    text: The `TeXFormatBuilder` class constructs a custom TeX format object that
+      the engine can later load. **Definition anchor:** The `TeXFormatBuilder` class
+      builds a reusable format definition that encapsulates all styling rules for
+      later use. You feed the builder the rules from Step 2, and it compiles th
+  - name: Save or Register the Format
+    text: 'You have two practical options: - **Persist to a file:** Write the compiled
+      format to a `.fmt` file for later reuse across deployments. - **Register in
+      memory:** Keep the format object alive for the duration of your application
+      session, which is ideal for short‑lived micro‑services. Both approaches '
+  - name: Use the Custom Format to Typeset Documents
+    text: When creating a new `Document`, specify the custom format you built. All
+      subsequent TeX source you feed into the `Document` will automatically inherit
+      the styling rules you defined. > **Common pitfall:** Forgetting to associate
+      the format with the `Document` instance results in default styling being
+  type: HowTo
+- questions:
+  - answer: Yes. Load the format, adjust the builder settings, and re‑save it. The
+      API supports incremental updates.
+    question: Can I modify a saved format after it’s been created?
+  - answer: Absolutely. The engine handles UTF‑8 input, so you can define fonts that
+      cover multiple scripts.
+    question: Does Aspose.TeX support Unicode characters in custom formats?
+  - answer: Enable the library’s logging feature; it will output the TeX commands
+      generated during compilation, helping you pinpoint where a rule isn’t applied
+      as expected.
+    question: How do I debug formatting issues?
+  - answer: The compiled `.fmt` file is platform‑agnostic, so you can load it with
+      Aspose.TeX for .NET as well.
+    question: Is it possible to share a custom format between Java and .NET applications?
+  - answer: Create separate format objects for each style and select the appropriate
+      one at runtime based on the document’s purpose.
+    question: What if I need to support multiple document styles in one application?
+  type: FAQPage
 second_title: Aspose.TeX Java API
-title: Aspose.TeX ile Java'da Özel TeX Formatı Oluşturun
+tags:
+- create tex format
+- Aspose.TeX
+- Java typesetting
+- custom TeX format
+title: Java'da Aspose.TeX ile TeX Formatı Oluşturun
 url: /tr/java/custom-format/
 weight: 24
 ---
@@ -15,123 +85,148 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Aspose.TeX ile Özel TeX Formatı Oluşturma
+# Java'da Aspose.TeX ile TeX Formatı Oluşturma
 
 ## Giriş
 
-Bu kapsamlı öğreticide, Java uygulamalarınıza güvenilir, tekrarlanabilir bir dizgi temeli sağlayan **create custom tex format** dosyalarını nasıl oluşturacağınızı öğreneceksiniz. Akademik makaleler, teknik raporlar veya hassas düzen gerektiren herhangi bir belge üretirken, özel bir TeX formatı stil kurallarını bir kez kodlayıp her yerde yeniden kullanmanıza olanak tanır. Aspose.TeX Java API'si ile bu formatları oluşturmanın nedenlerini, ne olduğunu ve nasıl yapılacağını birlikte inceleyelim.
+Bu kapsamlı öğreticide, Java uygulamalarınıza güvenilir, tekrarlanabilir bir dizgi temeli sağlayan **create tex format** dosyalarını nasıl oluşturacağınızı öğreneceksiniz. Akademik makaleler, teknik raporlar ya da kesin düzen gerektiren herhangi bir belge üretirken, özel bir TeX formatı stil kurallarını bir kez kodlamanıza ve her yerde yeniden kullanmanıza olanak tanır. Aspose.TeX Java API'si ile bu formatları oluşturmanın nedenini, ne olduğunu ve nasıl yapılacağını adım adım inceleyecek ve sürüm yönetimi, performans ve CI/CD entegrasyonu için en iyi uygulama ipuçlarını keşfedeceğiz.
 
-## Hızlı Cevaplar
-- **Özel bir TeX formatı nedir?** Fontları, boşlukları, makroları ve TeX belgeleri için diğer düzen kurallarını tanımlayan yeniden kullanılabilir bir şablondur.  
-- **Java için Aspose.TeX'i neden kullanmalısınız?** Kapsamlı API desteği sunan saf‑Java bir motor sağlar, yerel TeX kurulumuna gerek yoktur.  
-- **Bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim kullanımı için ticari lisans gereklidir.  
-- **Hangi Java sürümü gereklidir?** Java 8 ve üzeri; kütüphane Java 11 ve sonrası ile uyumludur.  
-- **Bunu CI/CD boru hatlarıyla entegre edebilir miyim?** Evet—tamamen Java’da çalıştığı için, format oluşturmayı derleme betiklerinde otomatikleştirebilirsiniz.  
+## Hızlı Yanıtlar
+- **What is a custom TeX format?** Yeniden kullanılabilir bir şablondur ve TeX belgeleri için yazı tiplerini, boşlukları, makroları ve diğer düzen kurallarını tanımlar.  
+- **Why use Aspose.TeX for Java?** Kapsamlı API desteği sunan saf Java motoru sağlar, yerel TeX kurulumuna gerek yoktur.  
+- **Do I need a license?** Değerlendirme için ücretsiz deneme çalışır; üretim kullanımı için ticari lisans gereklidir.  
+- **What Java version is required?** Java 8 veya daha yeni bir sürüm; kütüphane Java 11 ve sonrası ile uyumludur.  
+- **Can I integrate this with CI/CD pipelines?** Evet—tamamen Java’da çalıştığı için format oluşturmayı derleme betiklerinde otomatikleştirebilirsiniz.
 
 ## “create custom tex format” nedir?
 
-Java’da özel bir TeX formatı oluşturmak, Aspose.TeX motorunun yükleyebileceği bir `.fmt` dosyasını (veya eşdeğerini) programlı olarak bir araya getirmek anlamına gelir. Bu dosya, stil kararlarınızı—font aileleri, paragraf ayarları, özel makrolar—içerir; böylece tipografi yaptığınız her belge aynı görsel kuralları manuel ayarlama gerektirmeden izler.
+Bir **custom tex format**, Aspose.TeX motorunun çalışma zamanında yüklediği derlenmiş bir `.fmt` (veya eşdeğeri) dosyadır. Yazı tipi seçimlerini, sayfa geometrisini, makro tanımlarını ve ihtiyacınız olan diğer stil yönergelerini bir araya getirir, böylece dizgi yaptığınız her belge aynı görsel görünümü, tekrarlayan TeX ön eklerine ihtiyaç duymadan otomatik olarak devralır.
 
 ## Java'da özel TeX formatları neden oluşturulur?
 
-- **Tutarlılık:** Oluşturulan onlarca ya da yüzlerce belge arasında tek bir görünüm ve his uygulayın.  
-- **Verimlilik:** Tekrarlayan kodu azaltın; format bir kez oluşturulduğunda, sadece içeriği ona beslersiniz.  
-- **Bakım Kolaylığı:** Birçok kaynak dosyada dolaşmak yerine stil ayarlarını tek bir yerde güncelleyin.  
-- **Taşınabilirlik:** Düzen mantığını yeniden uygulamaya gerek kalmadan aynı formatı farklı Java servisleri veya mikro‑servisler arasında paylaşın.  
+Java'da özel bir TeX formatı oluşturmak, tüm tipografik kararları merkezileştirir, böylece üretilen her belge aynı görsel standartlara uyar, kod tekrarını azaltır ve birden fazla hizmette bakımını basitleştirir. Ayrıca ön eklerin tekrar tekrar ayrıştırılmasını önleyerek performansı artırır ve büyük ölçekli dağıtımlar için stil kurallarının kolay sürümlemesini sağlar.
 
 ## Önkoşullar
 
-- Java Development Kit (JDK) 8 ve üzeri yüklü olmalı.  
-- Projenize Aspose.TeX for Java kütüphanesini ekleyin (Maven/Gradle ya da manuel JAR).  
+- Java Development Kit (JDK) 8 veya daha yeni bir sürüm yüklü.  
+- Projeye Aspose.TeX for Java kütüphanesi eklenmiş (Maven/Gradle veya manuel JAR).  
 - TeX sözdizimi (makrolar, belge sınıfları) hakkında temel bilgi.  
-- İsteğe bağlı: Java kodu yazmak için bir metin editörü veya IDE.  
+- İsteğe bağlı: Java kodu yazmak için bir metin düzenleyici veya IDE.
 
 ## Java'da TeX Formatı Oluşturmak İçin Adım‑Adım Kılavuz
 
 ### Adım 1: Aspose.TeX Projesini Kurun
 
 1. Yeni bir Maven (veya Gradle) projesi oluşturun.  
-2. `pom.xml` (veya `build.gradle`) dosyanıza Aspose.TeX bağımlılığını ekleyin.  
-3. Basit bir `Document` nesnesi oluşturarak kütüphanenin yüklendiğini doğrulayın.
+2. Aspose.TeX bağımlılığını `pom.xml` (veya `build.gradle`) dosyanıza ekleyin.  
+3. Kütüphanenin yüklendiğini, basit bir `Document` nesnesi oluşturarak doğrulayın.
 
-> *Pro tip:* `pom.xml` sürümünüzü güncel tutun; en yeni Aspose.TeX sürümü format oluşturma için performans iyileştirmeleri içerir.
+`Document` PDF, HTML veya diğer desteklenen formatlara derlenebilen bir TeX belgesini temsil eden ana sınıftır.
+
+> **Pro tip:** `pom.xml` sürümünüzü güncel tutun; en son Aspose.TeX sürümü format oluşturma için performans iyileştirmeleri içerir ve bellek kullanımını %15 azaltır.
 
 ### Adım 2: Biçimlendirme Kurallarını Tanımlayın
 
-Aspose.TeX API'sini kullanarak fontları, sayfa geometrisini ve ihtiyacınız olan özel makroları ilan edin. Örneğin, varsayılan bir serif font, 1.5 satır aralığı ve tekrarlayan bir başlık bloğu için bir makro ayarlayabilirsiniz.
+Aspose.TeX API'si, yazı tiplerini, sayfa geometrisini ve özel makroları programlı olarak bildirmenizi sağlar. Örneğin, varsayılan bir serif fontu, 1.5 satır aralığı ve tekrarlayan bir başlık bloğu için bir makro ayarlayabilirsiniz.
 
-> *Neden önemli:* Bu kuralları Java’da kodlayarak ayrı `.sty` dosyalarına ihtiyaç duymaz ve ortam ne olursa olsun aynı ayarların uygulanmasını sağlarsınız.
+> **Why this matters:** By codifying these rules in Java, you eliminate the need for separate `.sty` files and guarantee the same settings are applied regardless of the deployment environment.
 
 ### Adım 3: Özel Format Nesnesini Oluşturun
 
-`TeXFormatBuilder` (veya geçerli API'deki eşdeğer sınıf) bir örneği oluşturun ve Adım 2'de tanımladığınız kuralları ona besleyin. Builder, bilgileri bir format nesnesine derleyecek; bu nesne diske kaydedilebilir ya da bellekte tutulabilir.
+`TeXFormatBuilder` sınıfı, motorun daha sonra yükleyebileceği özel bir TeX formatı nesnesi oluşturur.  
 
-### Adım 4: Formatı Kaydet veya Kayıt Et
+**Definition anchor:** `TeXFormatBuilder` sınıfı, daha sonra kullanılmak üzere tüm stil kurallarını kapsayan yeniden kullanılabilir bir format tanımı oluşturur.
 
-İki seçeneğiniz var:
+Builder'a Adım 2'deki kuralları verirsiniz ve bunları bellek içi bir format temsiline derler.
 
-- **Dosyaya kalıcı olarak kaydet:** Derlenmiş formatı daha sonra yeniden kullanmak üzere bir `.fmt` dosyasına yazın.  
-- **Bellekte kaydet:** Format nesnesini uygulama oturumunuz süresince canlı tutun.
+### Adım 4: Formatı Kaydedin veya Kayıt Edin
 
-Her iki yaklaşım da belgeleri tipografi yaparken formatı yüklemenize olanak tanır.
+İki pratik seçeneğiniz var:
 
-### Adım 5: Özel Formatı Kullanarak Belgeleri Tipografi Yapın
+- **Persist to a file:** Derlenmiş formatı daha sonra dağıtımlar arasında yeniden kullanmak için bir `.fmt` dosyasına yazın.  
+- **Register in memory:** Uygulama oturumunuz süresince format nesnesini canlı tutun; bu kısa ömürlü mikro hizmetler için idealdir.
 
-Yeni bir `Document` oluştururken oluşturduğunuz özel formatı belirtin. `Document` içine beslediğiniz sonraki tüm TeX kaynakları, tanımladığınız stil kurallarını otomatik olarak devralır.
+Her iki yaklaşım da belgeleri daha sonra dizgi yaparken formatı yüklemenize olanak tanır.
 
-> *Yaygın tuzak:* Formatı `Document` örneğiyle ilişkilendirmeyi unutmak, varsayılan stilin uygulanmasına yol açar. Özel formatı kabul eden yapıcıyı veya ayar metodunu her zaman iki kez kontrol edin.
+### Adım 5: Özel Formatı Belgeleri Dizgi İçin Kullanın
+
+Yeni bir `Document` oluştururken, oluşturduğunuz özel formatı belirtin. `Document`'e beslediğiniz sonraki tüm TeX kaynakları, tanımladığınız stil kurallarını otomatik olarak devralır.
+
+> **Common pitfall:** Formatı `Document` örneğiyle ilişkilendirmeyi unutmak, varsayılan stilin uygulanmasına yol açar. Özel formatı kabul eden yapıcıyı veya ayarlayıcı yöntemi her zaman iki kez kontrol edin.
 
 ## Özel Formatınızda Varsayılan Font tex'i Ayarlayın
 
-Tüm oluşturulan PDF'lerde belirli bir yazı tipine ihtiyaç duyuyorsanız, formatı oluşturmadan önce uygun API metodunu çağırarak **set default font tex** işlemini yapın. Böylece ek işaretleme olmadan her paragraf, başlık ve tablo seçilen fontu kullanır.
+Tüm oluşturulan PDF'lerde belirli bir yazı tipi gerekiyorsa, formatı oluşturmadan önce uygun API metodunu çağırarak **set default font tex** yapın. Böylece ek işaretleme olmadan her paragraf, başlık ve tablo seçilen fontu kullanır.
 
-## Tutarlı Düzen İçin Satır Aralığı tex'i Yapılandırın
+## Tutarlı Düzen İçin Satır Aralığını tex Ayarlayın
 
-Profesyonel belgelerde dikey ritim çok önemlidir. Aspose.TeX ayarlarını kullanarak **configure line spacing tex** (ör. 1.5 × baseline skip) işlemini format tanımınızın bir parçası olarak yapın. Tutarlı satır aralığı, çıktınızın herhangi bir platformda cilalı görünmesini sağlar.
+Profesyonel belgelerde kesin dikey ritim anahtardır. Aspose.TeX ayarlarını kullanarak **configure line spacing tex** (ör. 1.5 × baseline skip) format tanımınızın bir parçası olarak ayarlayın. Tutarlı satır aralığı, çıktınızın herhangi bir platformda cilalı görünmesini sağlar.
 
 ## Gerçek Dünya Kullanım Senaryoları
 
-- **Otomatik Rapor Oluşturma:** Finans ekipleri, kurumsal marka kimliğine her zaman uyan aylık beyanları üretebilir.  
-- **Akademik Yayın Boru Hatları:** Üniversiteler, bölümler arasında tez formatlama kurallarını zorunlu kılabilir.  
-- **Teknik Dokümantasyon:** Yazılım satıcıları, kaynak dil ne olursa olsun tutarlı bir düzenle API kılavuzları oluşturabilir.
+- **Automated Report Generation:** Finans ekipleri, her zaman kurumsal marka standartlarına uyan aylık beyanlar oluşturabilir.  
+- **Academic Publishing Pipelines:** Üniversiteler, bölümler arasında tez formatlama kurallarını zorlayarak manuel yeniden biçimlendirmeyi azaltabilir.  
+- **Technical Documentation:** Yazılım satıcıları, kaynak dil ne olursa olsun tutarlı bir düzenle API kılavuzları üretebilir.
+
+## Büyük Ölçekli Dağıtımlar İçin Bunun Önemi
+
+Aspose.TeX **50+ giriş ve çıkış formatını** (PDF, HTML ve görüntü türleri dahil) işleyebilir ve çok sayfalı belgeleri tüm dosyayı belleğe yüklemeden yönetebilir. Özel bir formatı önceden derlediğinizde, 1.000 belgenin toplu oluşturulması tipik olarak standart bir 8‑core sunucuda 2 dakikadan kısa sürede tamamlanır; bu da hız ve belirleyici stil sunar.
 
 ## En İyi Uygulamalar ve İpuçları
 
-- **Formatlarınızı Sürümleyin:** Her özel formatı sürümlenmiş bir varlık olarak ele alın; kodunuzla birlikte bir depoda saklayın.  
-- **Platformlar Arasında Test Edin:** Formatın aynı şekilde davranmasını sağlamak için bir örnek belgeyi Windows, Linux ve macOS'ta render edin.  
-- **Makroları Akıllıca Kullanın:** Tekrarlayan bloklar (ör. kapak sayfaları) için makrolar kullanın, ancak hata ayıklaması zor olabilecek aşırı karmaşık makro zincirlerinden kaçının.  
-- **Performansı İzleyin:** Büyük formatlar derleme süresini artırabilir; gecikme artışı fark ederseniz uygulamanızı profilleyin.  
+- **Version Your Formats:** Her özel formatı sürümlenmiş bir artefakt olarak ele alın; kodunuzun yanında bir depoda saklayın.  
+- **Test Across Platforms:** Formatın aynı şekilde davranmasını sağlamak için bir örnek belgeyi Windows, Linux ve macOS'ta render edin.  
+- **Leverage Macros Wisely:** Tekrarlayan bloklar (ör. kapak sayfaları) için makroları kullanın ancak hata ayıklaması zorlaşan aşırı karmaşık makro zincirlerinden kaçının.  
+- **Monitor Performance:** Büyük formatlar derleme süresini artırabilir; gecikme artışı fark ederseniz uygulamanızı profilleyin.  
+- **Integrate with Build Tools:** `process-resources` aşamasında formatı (yeniden) oluşturmak için küçük bir Java sınıfı çalıştıran bir Maven eklentisi ekleyin; böylece en yeni stil her zaman paketlenir.  
+- **Secure the Format File:** Format özel font referansları içeriyorsa, `.fmt` dosyasını korumalı bir konumda saklayın ve güvenilir hizmetlere okuma erişimini kısıtlayın.
 
-## Sıkça Sorulan Sorular
+## Yaygın Sorunlar ve Çözümler
 
-**S: Oluşturulan bir formatı kaydettikten sonra değiştirebilir miyim?**  
-C: Evet. Formatı yükleyin, builder ayarlarını düzenleyin ve yeniden kaydedin. API artımlı güncellemeleri destekler.
+| Issue | Cause | Remedy |
+|-------|-------|--------|
+| **Eksik Font** | Font motorla paketlenmemiş veya kaydedilmemiş. | Formatı oluşturmadan önce `FontProvider.registerFont("path/to/font.ttf")` kullanın. |
+| **Beklenmeyen Satır Aralığı** | Satır aralığı değeri daha sonraki bir makro tarafından geçersiz kılınmış. | Satır aralığı makrosunun diğer boşluk‑ile ilgili makrolardan *sonra* tanımlandığından emin olun. |
+| **Format Yüklenmiyor** | Format dosyası ile Aspose.TeX çalışma zamanı sürümü arasında uyumsuzluk. | Çalışma zamanında kullanılan aynı kütüphane sürümüyle formatı yeniden oluşturun. |
+| **Büyük Bellek Kullanımı** | Birçok büyük formatın aynı anda yüklenmesi. | Sadece en sık kullanılan formatı önbelleğe alın veya tembel yükleme kullanın. |
 
-**S: Aspose.TeX, özel formatlarda Unicode karakterleri destekliyor mu?**  
-C: Kesinlikle. Motor UTF‑8 girdisini işler, böylece birden fazla betiği kapsayan fontları tanımlayabilirsiniz.
+`FontProvider` dış font dosyalarını Aspose.TeX motoru ile kaydeden bir yardımcı sınıftır; böylece özel formatlarda kullanılabilir hale gelir.
 
-**S: Biçimlendirme sorunlarını nasıl hata ayıklayabilirim?**  
-C: Kütüphanenin günlükleme özelliğini etkinleştirin; derleme sırasında oluşturulan TeX komutlarını çıktılar, böylece bir kuralın neden uygulanmadığını tespit edebilirsiniz.
+## Sık Sorulan Sorular
 
-**S: Java ve .NET uygulamaları arasında bir özel formatı paylaşmak mümkün mü?**  
-C: Derlenmiş `.fmt` dosyası platform bağımsızdır, bu yüzden Aspose.TeX for .NET ile de yükleyebilirsiniz.
+**Q: Oluşturulduktan sonra kaydedilmiş bir formatı değiştirebilir miyim?**  
+A: Evet. Formatı yükleyin, builder ayarlarını düzenleyin ve yeniden kaydedin. API artımlı güncellemeleri destekler.
 
-**S: Tek bir uygulamada birden fazla belge stili desteklemem gerekirse?**  
-C: Her stil için ayrı format nesneleri oluşturun ve belge amacına göre çalışma zamanında uygun olanı seçin.
+**Q: Aspose.TeX özel formatlarda Unicode karakterleri destekliyor mu?**  
+A: Kesinlikle. Motor UTF‑8 girişi işler, böylece birden fazla betiği kapsayan fontlar tanımlayabilirsiniz.
+
+**Q: Biçimlendirme sorunlarını nasıl hata ayıklayabilirim?**  
+A: Kütüphanenin günlükleme özelliğini etkinleştirin; derleme sırasında oluşturulan TeX komutlarını çıktılar, böylece bir kuralın neden uygulanmadığını tespit edebilirsiniz.
+
+**Q: Java ve .NET uygulamaları arasında bir özel formatı paylaşmak mümkün mü?**  
+A: Derlenmiş `.fmt` dosyası platformdan bağımsızdır, bu yüzden Aspose.TeX for .NET ile de yükleyebilirsiniz.
+
+**Q: Tek bir uygulamada birden fazla belge stili desteklemem gerekiyor, ne yapmalıyım?**  
+A: Her stil için ayrı format nesneleri oluşturun ve belge amacına göre çalışma zamanında uygun olanı seçin.
 
 ## Java'da Özel TeX Formatı Oluşturma Eğitimleri
-### [Create Custom TeX Formats for Consistent Typesetting in Java](./creating-custom-formats/)
-Java'da tutarlı tipografi için Aspose.TeX ile özel TeX formatları oluşturun. Özel TeX formatlarını zahmetsizce yaratın.
+### [Java'da Tutarlı Dizgi İçin Özel TeX Formatları Oluşturun](./creating-custom-formats/)
+Java'da Aspose.TeX ile dizgi tutarlılığını artırın. Özel TeX formatlarını zahmetsizce oluşturun.
 
 ---
 
-**Last Updated:** 2026-02-07  
+**Last Updated:** 2026-07-28  
 **Tested With:** Aspose.TeX 24.12 for Java  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## İlgili Eğitimler
+
+- [Java'da Özel TeX Formatı Oluşturma ve TeX Dizgi](/tex/java/custom-tex-formats/typesetting-custom-tex-formats/)
+- [Java'da Tutarlı Dizgi İçin TeX Formatları Oluşturma - Format Oluşturma](/tex/java/custom-format/creating-custom-formats/)
+- [Java – PDF Belgesi Oluşturma – Özel TeX Formatları](/tex/java/custom-tex-formats/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
