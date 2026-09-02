@@ -239,13 +239,18 @@ A: Yes. Instantiate a separate `FormatProvider` for each `.fmt` file and pass th
 
 You now know **how to generate pdf from tex** and **how to typeset tex java** in a Java application using Aspose.TeX. By following the steps above, you can integrate high‑quality typesetting into any Java‑based workflow, experiment with your own format files, and move from prototype to production with a proper license.
 
+```java
+// Simple hello‑world TeX example
+String tex = "\\documentclass{article}\\begin{document}Hello, World!\\end{document}";
+```
+
 ---
 
 **Last Updated:** 2026-08-13  
 **Tested With:** Aspose.TeX for Java 24.10  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -253,7 +258,9 @@ You now know **how to generate pdf from tex** and **how to typeset tex java** in
 - [How to Load Aspose.TeX License in Java – Step‑by‑Step Guide](/tex/java/managing-licenses/)
 - [How to Generate PDF from TeX in Java – Java PDF Conversion](/tex/java/typesetting-tex-to-pdf/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

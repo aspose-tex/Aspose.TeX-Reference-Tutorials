@@ -69,9 +69,13 @@ url: /java/converting-lato-pdf/
 weight: 20
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 
 # Create pdf from latex in Java – step by step LaTeX to PDF conversion
 
@@ -86,9 +90,9 @@ If you need to **create pdf from latex** inside a Java application, you’ve com
 - **Can I customize the output?** Yes – you can control page size, fonts, and add custom LaTeX packages.  
 - **How long does implementation take?** Most users get a working conversion in under 15 minutes.
 
-### The basics: [Convert LaTeX to PDF in Java Efficiently](./simplest-pdf-conversion/) and [Simplest PDF Conversion](./simplest-pdf-conversion/)
+### The basics: [Convert LaTeX to PDF in Java Efficiently]({{< relref "./simplest-pdf-conversion/" >}}) and [Simplest PDF Conversion]({{< relref "./simplest-pdf-conversion/" >}})
 
-### Advanced options: [Advanced LaTeX to PDF Conversion Options in Java](./advanced-pdf-conversion/) and [Advanced PDF Conversion Options](./advanced-pdf-conversion/)
+### Advanced options: [Advanced LaTeX to PDF Conversion Options in Java]({{< relref "./advanced-pdf-conversion/" >}}) and [Advanced PDF Conversion Options]({{< relref "./advanced-pdf-conversion/" >}})
 
 ## What is create pdf from latex?
 
@@ -113,6 +117,13 @@ Load your LaTeX source, instantiate the core `TeXDocument` class, and invoke its
 3. **Call `save` with `SaveFormat.PDF`** to generate the final PDF file on disk or as a stream.
 
 > **Pro tip:** When you embed non‑ASCII characters (e.g., accented letters or Asian scripts), ensure the source file starts with `\usepackage[utf8]{inputenc}` to avoid encoding issues.
+
+```java
+// Sample Java code to convert LaTeX to PDF using Aspose.TeX
+String latex = "\\documentclass{article}\\begin{document}Hello, World!\\end{document}";
+TeXDocument texDoc = new TeXDocument(latex);
+texDoc.save("hello.pdf", SaveFormat.PDF);
+```
 
 ### Generate report pdf
 
@@ -150,10 +161,10 @@ A: Not directly in Aspose.TeX, but you can encrypt the PDF after conversion usin
 Whether you’re a newcomer looking to **create pdf from latex** or an experienced developer seeking advanced customization, Aspose.TeX for Java provides a fast, reliable, and fully Java‑based solution. Follow the steps above, experiment with the advanced tutorials linked below, and integrate high‑quality PDF generation into your Java applications today.
 
 ## Converting LaTeX to PDF in Java tutorials
-### [Convert LaTeX to PDF in Java Efficiently](./simplest-pdf-conversion/)
+### [Convert LaTeX to PDF in Java Efficiently]({{< relref "./simplest-pdf-conversion/" >}})
 Learn how to convert LaTeX to PDF efficiently using Aspose.TeX for Java. Follow our step‑by‑step guide for seamless integration into your Java applications.
 
-### [Advanced LaTeX to PDF Conversion Options in Java](./advanced-pdf-conversion/)
+### [Advanced laTeX to PDF conversion options in java]({{< relref "./advanced-pdf-conversion/" >}})
 Explore advanced LaTeX to PDF conversion in Java using Aspose.TeX. Unlock powerful document processing with step‑by‑step guidance.
 
 ---
@@ -162,15 +173,17 @@ Explore advanced LaTeX to PDF conversion in Java using Aspose.TeX. Unlock powerf
 **Tested With:** Aspose.TeX for Java latest release  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
+
 
 ## Related Tutorials
 
-- [Java generate PDF from LaTeX: Advanced Conversion Options with Aspose.TeX](/tex/java/converting-lato-pdf/advanced-pdf-conversion/)
-- [How to Load Aspose.TeX License in Java – Step‑by‑Step Guide](/tex/java/managing-licenses/)
-- [How to Generate PDF from TeX in Java – Java PDF Conversion](/tex/java/typesetting-tex-to-pdf/)
-
+- [Java generate PDF from LaTeX: Advanced Conversion Options with Aspose.TeX]({{< relref "/tex/java/converting-lato-pdf/advanced-pdf-conversion/" >}})
+- [How to Load Aspose.TeX License in Java – Step‑by‑Step Guide]({{< relref "/tex/java/managing-licenses/" >}})
+- [How to Generate PDF from TeX in Java – Java PDF Conversion]({{< relref "/tex/java/typesetting-tex-to-pdf/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

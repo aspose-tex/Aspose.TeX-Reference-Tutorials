@@ -216,15 +216,17 @@ Ready to explore more? Check out the Aspose.TeX documentation for advanced topic
 **Tested With:** Aspose.TeX for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
-- [Java generate PDF from LaTeX: Advanced Conversion Options with Aspose.TeX](/tex/java/converting-lato-pdf/advanced-pdf-conversion/)
-- [How to Load Aspose.TeX License in Java – Step‑by‑Step Guide](/tex/java/managing-licenses/)
-- [How to Generate PDF from TeX in Java – Java PDF Conversion](/tex/java/typesetting-tex-to-pdf/)
-
+- [Java generate PDF from LaTeX: Advanced Conversion Options with Aspose.TeX](../../../../java/converting-lato-pdf/advanced-pdf-conversion/)
+- [How to Load Aspose.TeX License in Java – Step‑by‑Step Guide](../../../../java/managing-licenses/)
+- [How to Generate PDF from TeX in Java – Java PDF Conversion](../../../../java/typesetting-tex-to-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
