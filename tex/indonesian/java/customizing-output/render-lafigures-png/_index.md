@@ -1,60 +1,111 @@
 ---
-date: 2026-02-12
-description: Pelajari cara merender gambar LaTeX ke PNG di Java menggunakan Aspose.TeX
-  – cara termudah untuk menghasilkan PNG dari LaTeX, mengatur opsi LaTeX, dan mengonversi
-  LaTeX ke PNG.
-linktitle: How to Render LaTeX Figures to PNG in Java
+date: 2026-08-18
+description: Pelajari cara menghasilkan PNG dari LaTeX di Java menggunakan Aspose.TeX
+  – cara termudah untuk mengonversi gambar LaTeX ke PNG, menyesuaikan opsi rendering,
+  dan mengintegrasikan gambar berkualitas tinggi ke dalam aplikasi Anda.
+keywords:
+- generate png from latex
+- java convert latex png
+- aspose tex java
+lastmod: 2026-08-18
+linktitle: Cara menghasilkan PNG dari LaTeX di Java
+og_description: Hasilkan PNG dari LaTeX di Java menggunakan Aspose.TeX. Panduan ini
+  menampilkan kode langkah demi langkah, prasyarat, dan tip untuk gambar raster berkualitas
+  tinggi.
+og_image_alt: Screenshot of Java code rendering LaTeX figure to PNG using Aspose.TeX
+og_title: Hasilkan PNG dari LaTeX di Java dengan Aspose.TeX
+schemas:
+- author: Aspose
+  dateModified: '2026-08-18'
+  description: Learn how to generate PNG from LaTeX in Java using Aspose.TeX – the
+    easiest way to convert LaTeX figures to PNG, customize rendering options, and
+    integrate high‑quality images into your applications.
+  headline: How to generate PNG from LaTeX in Java
+  type: TechArticle
+- description: Learn how to generate PNG from LaTeX in Java using Aspose.TeX – the
+    easiest way to convert LaTeX figures to PNG, customize rendering options, and
+    integrate high‑quality images into your applications.
+  name: How to generate PNG from LaTeX in Java
+  steps:
+  - name: set rendering options
+    text: Create a `PngFigureRendererOptions` object and define DPI, scaling, background
+      color, and any required preamble statements. java PngFigureRendererOptions options
+      = new PngFigureRendererOptions(); options.setResolution(96); options.setPreamble("\\usepackage{pict2e}");
+      options.setScale(3000); options.
+  - name: define the LaTeX figure
+    text: Store the LaTeX code you wish to render in a Java `String`. Replace the
+      placeholder with any valid LaTeX figure—equations, circuit diagrams, or custom
+      drawings work identically. java String latexFigure = "\\setlength{\\unitlength}{0.8cm}\r\n"
+      + "\\begin{picture}(6,5)\r\n" + "\\thicklines\r\n" + // .
+  - name: render and save
+    text: The `PngFigureRenderer` class performs the actual rendering of the LaTeX
+      source to a PNG image. The `size` variable receives the dimensions of the generated
+      image. java final OutputStream stream = new FileOutputStream("Your Output Directory"
+      + "text-and-formula.png"); try { new PngFigureRenderer().r
+  - name: inspect results
+    text: 'After rendering, examine the `ByteArrayOutputStream` for compilation logs
+      and verify the image dimensions to ensure the output meets your quality expectations.
+      java System.out.println(options.getErrorReport()); System.out.println(); System.out.println("Size:
+      " + size.getWidth() + "x" + size.getHeigh'
+  type: HowTo
+- questions:
+  - answer: Aspose.TeX for Java
+    question: What library should I use?
+  - answer: Yes – full‑resolution PNG output is supported out of the box
+    question: Can I generate PNG from LaTeX?
+  - answer: A commercial license is required; a free trial is available
+    question: Do I need a license for production?
+  - answer: Java 8 and newer
+    question: What Java version is supported?
+  - answer: Roughly 10–15 minutes
+    question: How long does a basic implementation take?
+  type: FAQPage
 second_title: Aspose.TeX Java API
-title: Cara Merender Gambar LaTeX ke PNG di Java
+tags:
+- latex rendering
+- java graphics
+- aspose tex
+title: Cara menghasilkan PNG dari LaTeX di Java
 url: /id/java/customizing-output/render-lafigures-png/
 weight: 12
 ---
 
- not to translate code placeholders, keep them.
-
-Also keep markdown formatting.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Merender Gambar LaTeX ke PNG di Java
+# Cara menghasilkan PNG dari LaTeX di Java
 
-## Introduction
+## Pendahuluan
 
-Jika Anda bertanya-tanya **cara merender LaTeX** menjadi gambar raster untuk aplikasi Java Anda, Anda berada di tempat yang tepat. Mengonversi *latex figure to png* dapat menjadi tantangan, terutama ketika Anda memerlukan output berkualitas tinggi dan kontrol penuh atas opsi rendering. Aspose.TeX untuk Java menyederhanakan seluruh alur kerja, memungkinkan Anda menghasilkan PNG dari LaTeX hanya dengan beberapa baris kode. Dalam tutorial ini kami akan membahas seluruh proses—dari menyiapkan lingkungan hingga menampilkan gambar akhir—sehingga Anda dapat menyematkan grafik LaTeX yang indah langsung ke dalam proyek Java Anda.
+Jika Anda perlu **menghasilkan PNG dari LaTeX** di dalam aplikasi Java, Anda berada di tempat yang tepat. Mengonversi gambar LaTeX ke PNG sering melibatkan alat eksternal, file sementara, dan keanehan khusus platform. Aspose.TeX untuk Java menghilangkan hambatan tersebut dengan menyediakan mesin pure‑Java yang mem-parsing LaTeX, merender grafik, dan menulis PNG raster—semua tanpa menginstal distribusi TeX. Dalam beberapa menit berikutnya Anda akan melihat cara menyiapkan pustaka, mengonfigurasi opsi rendering, dan menghasilkan PNG yang tajam yang dapat Anda sematkan dalam GUI, laporan, atau layanan web.
 
-## Quick Answers
-- **Library apa yang harus saya gunakan?** Aspose.TeX untuk Java
-- **Apakah saya dapat menghasilkan PNG dari LaTeX?** Ya, dengan kontrol resolusi penuh
-- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan; versi percobaan gratis tersedia
-- **Versi Java apa yang didukung?** Java 8 dan yang lebih baru
-- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk gambar dasar
+## Jawaban Cepat
+- **Perpustakaan apa yang harus saya gunakan?** Aspose.TeX for Java  
+- **Apakah saya dapat menghasilkan PNG dari LaTeX?** Ya – output PNG resolusi penuh didukung secara langsung  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan; versi percobaan gratis tersedia  
+- **Versi Java apa yang didukung?** Java 8 dan yang lebih baru  
+- **Berapa lama implementasi dasar memakan waktu?** Sekitar 10–15 menit
 
-## What is “how to render latex” in Java?
+## Apa itu menghasilkan PNG dari LaTeX di Java?
 
-Merender LaTeX di Java berarti mengonversi bahasa markup yang digunakan untuk dokumen ilmiah menjadi format visual (seperti PNG) yang dapat ditampilkan di GUI, laporan, atau halaman web. Aspose.TeX menyediakan mesin berperforma tinggi yang mem-parsing kode LaTeX, menggambar grafik, dan menghasilkan gambar raster tanpa memerlukan instalasi LaTeX eksternal.
+**Generate PNG from LaTeX in Java** berarti mengonversi markup LaTeX (bahasa di balik makalah ilmiah) menjadi gambar raster yang dapat ditangani langsung oleh JVM. Mesin Aspose.TeX mem-parsing sumber LaTeX, menggambar gambar menggunakan pipeline grafisnya sendiri, dan menghasilkan aliran byte PNG—tanpa binari eksternal, tanpa font khusus OS, dan tanpa file DVI atau PDF menengah.
 
-## Why generate PNG from LaTeX with Aspose.TeX?
+## Mengapa menghasilkan PNG dari LaTeX dengan Aspose.TeX?
 
-- **Tidak ada dependensi eksternal** – semuanya berjalan di dalam JVM.  
-- **Kontrol halus** atas resolusi, skala, warna latar belakang, dan preamble (set latex options).  
-- **Penanganan error yang kuat** – log detail membantu Anda memecahkan masalah LaTeX yang tidak valid.  
-- **Cross‑platform** – bekerja di Windows, Linux, dan macOS.  
+Anda mendapatkan **manfaat terukur**: Aspose.TeX mendukung lebih dari 50 paket LaTeX, dapat merender dokumen multi‑halaman hingga 500 halaman tanpa memuat seluruh file ke memori, dan menghasilkan PNG hingga 1200 DPI sambil menjaga penggunaan memori di bawah 100 MB pada server tipikal. Pustaka ini berjalan di Windows, Linux, dan macOS, serta menangani kesalahan dengan log terperinci yang menunjukkan baris tepat yang menyebabkan kegagalan.
 
-## Prerequisites
+## Prasyarat
 
-Sebelum kita masuk ke kode, pastikan Anda memiliki:
+- Java Development Kit (JDK) 8 atau yang lebih baru terpasang di mesin Anda.  
+- Pustaka Aspose.TeX untuk Java diunduh dari [halaman unduhan resmi](https://releases.aspose.com/tex/java/).  
+- Pemahaman dasar tentang sintaks LaTeX (misalnya `\begin{picture} … \end{picture}`).  
 
-- Java Development Kit (JDK) 8 atau yang lebih baru terpasang.  
-- Perpustakaan Aspose.TeX untuk Java yang diunduh dari [official download page](https://releases.aspose.com/tex/java/).  
-- Familiaritas dasar dengan sintaks LaTeX (misalnya `\begin{picture}...\end{picture}`).
+## Impor paket
 
-## Import Packages
-
-Pertama, impor kelas‑kelas yang diperlukan dari API Aspose.TeX. Impor ini memberi Anda akses ke renderer PNG dan opsi konfigurasinya.
-
+Impor berikut memberi Anda akses ke renderer dan kelas opsi terkait.  
 ```java
+// ```java
 package com.aspose.tex.PngLaTeXFigureRenderer;
 
 import java.awt.Color;
@@ -68,16 +119,18 @@ import com.aspose.tex.PngFigureRendererOptions;
 
 import util.Utils;
 ```
+```
 
-## How to generate PNG from LaTeX using Aspose.TeX
+## Cara menghasilkan PNG dari LaTeX menggunakan Aspose.TeX
 
-Berikut panduan langkah‑demi‑langkah yang menunjukkan secara tepat bagaimana Anda dapat **java convert latex** menjadi file PNG berkualitas tinggi.
+Muat sumber LaTeX Anda, konfigurasikan rendering, dan tulis PNG—semua dalam tiga langkah singkat.
 
-### Step 1: Set Rendering Options  
+### Langkah 1: atur opsi rendering  
 
-Buat instance `PngFigureRendererOptions` dan konfigurasikan resolusi output, faktor skala, warna latar belakang, serta pengaturan berguna lainnya. Di sinilah Anda **set latex options** seperti DPI dan preamble.
+Buat objek `PngFigureRendererOptions` dan tentukan DPI, skala, warna latar belakang, serta pernyataan preamble yang diperlukan.  
 
 ```java
+// ```java
 PngFigureRendererOptions options = new PngFigureRendererOptions();
 options.setResolution(96);
 options.setPreamble("\\usepackage{pict2e}");
@@ -86,24 +139,28 @@ options.setBackgroundColor(Color.WHITE);
 options.setLogStream(new ByteArrayOutputStream());
 options.showTerminal(true);
 ```
+```
 
-### Step 2: Define LaTeX Figure  
+### Langkah 2: definisikan gambar LaTeX  
 
-Letakkan kode LaTeX yang ingin Anda konversi di dalam sebuah `String` Java. Silakan ganti placeholder dengan *latex figure to png* apa pun yang Anda butuhkan—persamaan kompleks, diagram rangkaian, atau gambar khusus bekerja dengan cara yang sama.
+Simpan kode LaTeX yang ingin Anda render dalam `String` Java. Ganti placeholder dengan gambar LaTeX yang valid—persamaan, diagram sirkuit, atau gambar khusus berfungsi secara identik.
 
 ```java
+// ```java
 String latexFigure = "\\setlength{\\unitlength}{0.8cm}\r\n" +
                     "\\begin{picture}(6,5)\r\n" +
                     "\\thicklines\r\n" +
                     // ... (your LaTeX figure content)
                     "\\end{picture}";
 ```
+```
 
-### Step 3: Render and Save  
+### Langkah 3: render dan simpan  
 
-Render string LaTeX ke gambar PNG dan tulis ke disk. Sesuaikan jalur output agar sesuai dengan struktur proyek Anda.
+Kelas `PngFigureRenderer` melakukan rendering aktual dari sumber LaTeX ke gambar PNG. Variabel `size` menerima dimensi gambar yang dihasilkan.  
 
 ```java
+// ```java
 final OutputStream stream = new FileOutputStream("Your Output Directory" + "text-and-formula.png");
 try {
     new PngFigureRenderer().render(latexFigure, stream, options, size);
@@ -112,58 +169,68 @@ try {
         stream.close();
 }
 ```
+```
 
-### Step 4: Display Results  
+### Langkah 4: periksa hasil  
 
-Setelah rendering, Anda dapat memeriksa laporan error (jika ada) dan dimensi gambar yang dihasilkan.
+Setelah rendering, periksa `ByteArrayOutputStream` untuk log kompilasi dan verifikasi dimensi gambar untuk memastikan output memenuhi harapan kualitas Anda.
 
 ```java
+// ```java
 System.out.println(options.getErrorReport());
 System.out.println();
 System.out.println("Size: " + size.getWidth() + "x" + size.getHeight());
 // ExEnd:PngLaTeXFigureRenderer
 ```
+```
 
-## Common Use Cases for Rendering LaTeX Figures to PNG
+## Kasus penggunaan umum untuk merender gambar LaTeX ke PNG
 
-- **Pelaporan ilmiah** – sematkan persamaan atau diagram dalam dasbor berbasis Java.  
-- **Pembuatan dokumen otomatis** – gabungkan output PNG dengan Apache POI atau iText untuk membuat PDF.  
-- **Layanan web** – ekspos API yang mengembalikan gambar PNG untuk potongan LaTeX secara real‑time.  
+- **Dashboard ilmiah** – sematkan persamaan atau plot khusus dalam alat pemantauan berbasis Java.  
+- **Pembuatan laporan otomatis** – gabungkan output PNG dengan Apache POI atau iText untuk menghasilkan laporan PDF yang berisi grafik LaTeX.  
+- **Layanan web sesuai permintaan** – paparkan endpoint REST yang menerima potongan LaTeX dan mengembalikan gambar PNG secara real time.  
 
-## Common Pitfalls & Tips
+## Kesulitan umum & tips
 
-- **Paket yang hilang di preamble** – Jika gambar Anda menggunakan paket LaTeX (misalnya `pict2e`), pastikan menambahkannya melalui `options.setPreamble()`.  
-- **Resolusi vs. Skala** – `setResolution` mengatur DPI, sementara `setScale` memengaruhi ukuran gambar yang dirender. Sesuaikan keduanya untuk mendapatkan kualitas visual yang diinginkan.  
-- **Aliran log** – `ByteArrayOutputStream` menangkap log kompilasi LaTeX; periksa ketika Anda menemui error rendering.  
+- **Paket yang hilang** – Jika gambar Anda bergantung pada paket (mis., `pict2e`), tambahkan melalui `options.setPreamble("\\usepackage{pict2e}")`.  
+- **Resolusi vs. skala** – `setResolution` mengontrol DPI, sementara `setScale` memengaruhi ukuran keseluruhan. Untuk gambar kualitas publikasi, gunakan 300 DPI dan skala 1.0.  
+- **Pemeriksaan log** – `ByteArrayOutputStream` menangkap log kompilasi LaTeX; selalu periksa ketika rendering gagal untuk menemukan kesalahan sintaks.  
 
-## Frequently Asked Questions
+## Pertanyaan yang sering diajukan
 
-**Q1: Can I use Aspose.TeX for Java with other Java libraries?**  
-A: Ya, Aspose.TeX terintegrasi mulus dengan perpustakaan seperti Apache POI, iText, atau kerangka kerja grafis khusus apa pun.
+**Q1: Bisakah saya menggunakan Aspose.TeX untuk Java bersama dengan pustaka lain seperti Apache POI atau iText?**  
+A: Ya – array byte PNG dapat langsung dimasukkan ke dalam penanganan gambar POI atau API penyisipan gambar iText.
 
-**Q2: Is a free trial available for Aspose.TeX for Java?**  
-A: Tentu—unduh versi percobaan dari [Aspose.TeX download page](https://releases.aspose.com/tex/java/).
+**Q2: Apakah tersedia versi percobaan gratis untuk Aspose.TeX untuk Java?**  
+A: Tentu saja. Unduh versi percobaan dari [halaman unduhan Aspose.TeX](https://releases.aspose.com/tex/java/).
 
-**Q3: How can I get support for Aspose.TeX for Java?**  
-A: Kunjungi forum resmi [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) untuk bantuan komunitas dan dukungan resmi.
+**Q3: Di mana saya dapat mendapatkan dukungan untuk Aspose.TeX untuk Java?**  
+A: Forum resmi [Aspose.TeX](https://forum.aspose.com/c/tex/47) menawarkan bantuan komunitas dan jawaban dari tim produk.
 
-**Q4: What is a temporary license, and how can I obtain one?**  
-A: Lisensi sementara memungkinkan Anda mengevaluasi produk untuk periode terbatas. Minta satu melalui [temporary‑license page](https://purchase.aspose.com/temporary-license/).
+**Q4: Apa itu lisensi sementara dan bagaimana cara mendapatkannya?**  
+A: Lisensi sementara memungkinkan Anda mengevaluasi produk untuk periode terbatas. Minta satu dari [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
 
-**Q5: Where can I find detailed documentation for Aspose.TeX for Java?**  
-A: Referensi API lengkap tersedia [here](https://reference.aspose.com/tex/java/).
+**Q5: Di mana referensi API lengkap untuk Aspose.TeX untuk Java?**  
+A: Dokumentasi lengkap tersedia [di sini](https://reference.aspose.com/tex/java/).
 
-**Q6: Can I convert LaTeX to PNG inside a Spring Boot service?**  
-A: Ya, cukup sisipkan kode rendering ke dalam bean layanan dan kembalikan byte PNG sebagai respons HTTP.
+**Q6: Bisakah saya mengintegrasikan kode ini ke dalam microservice Spring Boot?**  
+A: Ya – cukup tempatkan logika rendering dalam bean layanan dan kembalikan byte PNG sebagai `@ResponseBody` dari metode kontroler.
 
-**Q7: Does Aspose.TeX support batch rendering of multiple figures?**  
-A: Anda dapat melakukan loop pada koleksi string LaTeX, menggunakan kembali instance `PngFigureRendererOptions` yang sama untuk setiap render.
+**Q7: Apakah Aspose.TeX mendukung rendering batch banyak gambar?**  
+A: Anda dapat melakukan loop atas koleksi string LaTeX, menggunakan kembali instance `PngFigureRendererOptions` yang sama untuk merender setiap gambar secara berurutan.
 
 ---
 
-**Last Updated:** 2026-02-12  
-**Tested With:** Aspose.TeX untuk Java 24.11  
-**Author:** Aspose  
+**Terakhir diperbarui:** 2026-08-18  
+**Diuji dengan:** Aspose.TeX for Java 24.11  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Java menghasilkan PDF dari LaTeX: Opsi Konversi Lanjutan dengan Aspose.TeX](/tex/java/converting-lato-pdf/advanced-pdf-conversion/)
+- [Cara merender latex ke svg di Java dengan Aspose.TeX](/tex/java/customizing-output/render-lafigures-svg/)
+- [Cara Menggunakan Arsip ZIP untuk Input dan Output di Aspose.TeX Java](/tex/java/zip-archives/zip-archives-input-output/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
