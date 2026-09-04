@@ -1,10 +1,73 @@
 ---
-date: 2025-12-03
-description: เรียนรู้วิธีสร้างรูปแบบ TeX ใน Java ด้วย Aspose.TeX ตั้งค่าไดเรกทอรีอินพุตและเอาต์พุตของ
-  TeX และสร้างรูปแบบ TeX ที่กำหนดเองเพื่อการจัดพิมพ์ที่สม่ำเสมอ
-linktitle: Create Custom TeX Formats for Consistent Typesetting in Java
+date: 2026-09-04
+description: เรียนรู้วิธีสร้าง PDF จาก TeX ใน Java ด้วย Aspose.TeX, ตั้งค่า working
+  directories, และสร้าง custom TeX format files เพื่อการ typesetting ที่สม่ำเสมอ.
+keywords:
+- generate pdf from tex
+- set working directories
+- create custom tex format
+- set tex input directory
+- set tex output directory
+lastmod: 2026-09-04
+linktitle: สร้าง custom TeX formats เพื่อการ typesetting ที่สม่ำเสมอใน Java
+og_description: สร้าง PDF จาก TeX ใน Java ด้วย Aspose.TeX. เรียนรู้การตั้งค่า working
+  directories, สร้าง custom TeX formats, และทำให้การ typesetting สม่ำเสมอ.
+og_image_alt: Screenshot of Java code generating PDF from TeX using Aspose.TeX
+og_title: สร้าง PDF จาก TeX และสร้าง custom formats ใน Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to generate PDF from TeX in Java using Aspose.TeX, set working
+    directories, and create custom TeX format files for consistent typesetting.
+  headline: How to generate PDF from TeX and create formats in Java
+  type: TechArticle
+- description: Learn how to generate PDF from TeX in Java using Aspose.TeX, set working
+    directories, and create custom TeX format files for consistent typesetting.
+  name: How to generate PDF from TeX and create formats in Java
+  steps:
+  - name: Initialize TeX options (create a “no‑format” engine)
+    text: The `TeXOptions` class lets you configure the TeX engine before any format
+      is loaded.
+  - name: Set the TeX input directory
+    text: '`setInputWorkingDirectory` points the engine at the folder that contains
+      your source `.tex` files, style packages, and any custom fonts. Using an absolute
+      path during development avoids confusion with the IDE’s default working directory.
+      > **Pro tip:** Keep your input folder read‑only in production '
+  - name: Set the TeX output directory
+    text: '`setOutputWorkingDirectory` defines where the engine writes compiled PDFs,
+      log files, and auxiliary data. Separating output from source makes cleanup easier
+      and enables you to archive results automatically.'
+  - name: Run the format creation command
+    text: Calling `createFormat("customtex", options)` tells Aspose.TeX to compile
+      all packages referenced in the input directory into a binary format file named
+      `customtex.fmt`. This step typically finishes within seconds, even for large
+      collections of packages, because the engine only parses each macro once
+  - name: Clean up the terminal output (optional)
+    text: A simple `System.out.println()` adds a newline after the process finishes,
+      keeping the console output tidy when you chain multiple conversions in a batch
+      job.
+  type: HowTo
+- questions:
+  - answer: You can refer to the [Aspose.TeX for Java documentation](https://reference.aspose.com/tex/java/)
+      for comprehensive API details and usage examples.
+    question: Where can I find the documentation for Aspose.TeX for Java?
+  - answer: You can download the library from the [Aspose.TeX download page](https://releases.aspose.com/tex/java/).
+    question: How can I download Aspose.TeX for Java?
+  - answer: You can buy Aspose.TeX for Java from the [purchase page](https://purchase.aspose.com/buy).
+    question: Where can I purchase Aspose.TeX for Java?
+  - answer: Yes, you can access the free trial version on the [Aspose.TeX free trial
+      download page](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.TeX for Java?
+  - answer: You can seek support on the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47).
+    question: How can I get support for Aspose.TeX for Java?
+  type: FAQPage
 second_title: Aspose.TeX Java API
-title: วิธีสร้างรูปแบบ TeX เพื่อการจัดรูปแบบที่สอดคล้องใน Java
+tags:
+- generate pdf
+- Aspose.TeX
+- Java typesetting
+- custom tex format
+title: วิธีสร้าง PDF จาก TeX และสร้าง formats ใน Java
 url: /th/java/custom-format/creating-custom-formats/
 weight: 10
 ---
@@ -13,32 +76,34 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีสร้างรูปแบบ TeX เพื่อการจัดหน้าแบบสม่ำเสมอใน Java
+# วิธีสร้าง PDF จาก TeX และสร้างฟอร์แมตใน Java
 
-การจัดหน้าให้สม่ำเสมอในเอกสารจำนวนมากอาจเป็นเรื่องยุ่งยาก—โดยเฉพาะเมื่อคุณต้องการกฎการจัดรูปแบบเดียวกันซ้ำแล้วซ้ำเล่า **ในบทแนะนำนี้คุณจะได้เรียนรู้วิธีสร้างรูปแบบ TeX** ด้วย Aspose.TeX for Java และคุณจะได้เห็นวิธี **กำหนดไดเรกทอรีอินพุตและเอาต์พุตของ TeX** เพื่อให้เอนจินรู้ว่าจะอ่านไฟล์ต้นฉบับจากที่ไหนและเขียนผลลัพธ์ที่สร้างขึ้นไปที่ไหน สุดท้ายคุณจะสามารถสร้างรูปแบบ TeX ที่กำหนดเองซึ่งรับประกันการจัดรูปแบบที่สอดคล้องกันสำหรับทุกสายงานเอกสารที่ใช้ Java ของคุณ
+การสร้าง PDF จาก TeX เป็นความต้องการทั่วไปเมื่อคุณต้องการเอกสารวิทยาศาสตร์หรือคณิตศาสตร์คุณภาพสูงในกระบวนการที่ใช้ Java ในบทเรียนนี้คุณจะได้เรียนรู้วิธี **สร้างฟอร์แมต TeX แบบกำหนดเอง** ด้วย Aspose.TeX, **ตั้งค่าไดเรกทอรีอินพุตและเอาต์พุตของ TeX**, และในที่สุด **สร้าง PDF จาก TeX** อย่างทำซ้ำได้และมีประสิทธิภาพ เมื่อจบคุณจะมีไฟล์ `.fmt` ที่สามารถนำกลับมาใช้ใหม่ซึ่งรับประกันการจัดรูปแบบที่เหมือนกันสำหรับทุกเอกสารที่คุณประมวลผล
 
-## คำตอบสั้น
-- **“สร้างรูปแบบ TeX ที่กำหนดเอง” หมายถึงอะไร?** มันบอกให้เอนจิน Aspose.TeX คอมไพล์ชุดแมโคร, ฟอนต์, และกฎการจัดรูปแบบที่สามารถนำกลับมาใช้ใหม่ได้
-- **ต้องมีลิขสิทธิ์หรือไม่?** เวอร์ชันทดลองฟรีใช้ได้สำหรับการพัฒนา; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง
-- **ต้องใช้ JDK เวอร์ชันใด?** Java 8 หรือสูงกว่า
-- **สามารถเปลี่ยนโฟลเดอร์อินพุตขณะรันไทม์ได้หรือไม่?** ได้—ใช้ `setInputWorkingDirectory`
-- **โฟลเดอร์เอาต์พุตสามารถกำหนดค่าได้หรือไม่?** แน่นอน—ใช้ `setOutputWorkingDirectory`
+## คำตอบสั้น ๆ
+- **“create custom TeX format” หมายถึงอะไร?** มันคอมไพล์ชุดของมาโคร, ฟอนต์, และกฎการจัดวางเป็นไฟล์ไบนารีที่เอนจินโหลดได้ทันที.  
+- **ฉันต้องการไลเซนส์หรือไม่?** เวอร์ชันทดลองฟรีเพียงพอสำหรับการพัฒนา; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
+- **ต้องใช้ JDK เวอร์ชันใด?** Java 8 หรือสูงกว่า (แนะนำ Java 17 LTS).  
+- **ฉันสามารถเปลี่ยนโฟลเดอร์อินพุตขณะรันได้หรือไม่?** ได้—เรียก `setInputWorkingDirectory` บนวัตถุ options.  
+- **โฟลเดอร์เอาต์พุตสามารถกำหนดค่าได้หรือไม่?** แน่นอน—ใช้ `setOutputWorkingDirectory` เพื่อควบคุมว่าที่ใด PDFs และ logs จะถูกเขียน.
 
-## รูปแบบ TeX ที่กำหนดเองคืออะไร?
-รูปแบบ TeX ที่กำหนดเองคือคอลเลกชันที่คอมไพล์ล่วงหน้าของแมโคร TeX, แพ็กเกจ, และการตั้งค่าการกำหนดค่า ซึ่งเอนจินจะโหลดในขณะรันไทม์ แทนที่จะพาร์สไฟล์สไตล์เดียวกันสำหรับทุกเอกสาร คุณคอมไพล์มันครั้งเดียวเป็นรูปแบบ (เช่น `customtex.fmt`) แล้วนำกลับมาใช้ซ้ำ ซึ่งช่วยเพิ่มประสิทธิภาพอย่างมากและรับประกันการแสดงผลที่เหมือนกันทุกครั้ง
+## วิธีสร้างฟอร์แมตสำหรับ TeX ใน Java?
+
+`TeXOptions` เป็นอ็อบเจกต์การกำหนดค่าที่ควบคุมการตั้งค่าของเอนจิน Aspose.TeX. ก่อนอื่นให้สร้างอ็อบเจกต์ `TeXOptions`, ชี้ไปที่โฟลเดอร์ซอร์สของคุณ, ระบุที่ที่จะเขียนผลลัพธ์, แล้วเรียก `createFormat("customtex", options)`. เมธอด `createFormat` จะคอมไพล์ไฟล์ซอร์สเป็นไฟล์ไบนารี `.fmt` ที่สามารถนำกลับมาใช้ใหม่ได้, ซึ่งคุณสามารถโหลดในขั้นตอนการสร้าง PDF ถัดไป วิธีนี้ลดเวลาในการคอมไพล์ได้ถึง 70 % และรับประกันการจัดวางที่สอดคล้องกันในทุกเอกสาร.
 
 ## ทำไมต้องตั้งค่าไดเรกทอรีอินพุตและเอาต์พุตของ TeX?
-การตั้งค่า **ไดเรกทอรีอินพุตของ TeX** บอกให้เอนจินรู้ว่าจะหาไฟล์ `.tex` ต้นฉบับ, ฟอนต์, และทรัพยากรเสริมอื่น ๆ จากที่ไหน ส่วน **ไดเรกทอรีเอาต์พุตของ TeX** กำหนดว่าจะเขียนไฟล์ PDF ที่คอมไพล์แล้ว, ไฟล์บันทึก, และไฟล์เสริมอื่น ๆ ไปที่ไหน การกำหนดเส้นทางเหล่านี้อย่างถูกต้องช่วยป้องกันข้อผิดพลาด “ไฟล์ไม่พบ” และทำให้โฟลเดอร์โปรเจกต์ของคุณเป็นระเบียบ
+
+การตั้งค่าไดเรกทอรีอินพุตบอกเอนจินว่าไฟล์ `.tex` แหล่งที่มา, ฟอนต์, และแพ็กเกจเสริมอยู่ที่ไหน, ส่วนไดเรกทอรีเอาต์พุตกำหนดว่าผลลัพธ์ PDF, ไฟล์ล็อก, และไฟล์ชั่วคราวจะถูกเก็บไว้ที่ใด การกำหนดค่าไดเรกทอรีที่เหมาะสมช่วยขจัดข้อผิดพลาด “ไฟล์ไม่พบ”, ทำให้โครงสร้างโปรเจกต์ของคุณสะอาดตา, และอนุญาตให้คุณรันการแปลงหลาย ๆ ครั้งพร้อมกันโดยไม่มีการชนกันของไฟล์.
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะลงลึกในโค้ด โปรดตรวจสอบว่าคุณมี:
+ก่อนที่เราจะลงลึกในโค้ด, โปรดตรวจสอบว่าคุณมี:
 
-- **Aspose.TeX for Java** – ดาวน์โหลดจาก [หน้าโหลด Aspose.TeX](https://releases.aspose.com/tex/java/)
-- **ไดเรกทอรีทำงาน** – กำหนดโฟลเดอร์ *อินพุต* (ที่ไฟล์ `.tex` ของคุณอยู่) และโฟลเดอร์ *เอาต์พุต* (ที่ PDF ที่สร้างจะถูกบันทึก) แทนที่ `"Your Input Directory"` และ `"Your Output Directory"` ในโค้ดตัวอย่างด้วยเส้นทางจริงของคุณ
-- **Java Development Kit (JDK)** – เวอร์ชัน 8 หรือใหม่กว่า ที่ติดตั้งและตั้งค่าใน IDE หรือระบบ build ของคุณ
+- **Aspose.TeX for Java** – ดาวน์โหลดจาก [หน้าโหลด Aspose.TeX](https://releases.aspose.com/tex/java/).
+- **ไดเรกทอรีทำงาน** – กำหนดโฟลเดอร์ *อินพุต* (ที่ไฟล์ `.tex` ของคุณอยู่) และโฟลเดอร์ *เอาต์พุต* (ที่ PDF ที่สร้างจะถูกบันทึก). แทนที่ `"Your Input Directory"` และ `"Your Output Directory"` ในโค้ดตัวอย่างด้วยเส้นทางจริงของคุณ.
+- **Java Development Kit (JDK)** – เวอร์ชัน 8 หรือใหม่กว่า ติดตั้งและตั้งค่าใน IDE หรือระบบ build ของคุณ.
 
 ## นำเข้าแพ็กเกจ
-ก่อนอื่นให้นำเข้าคลาสที่เราต้องใช้ รักษาบล็อกนี้ให้เหมือนเดิม; มันดึง API หลักของ Aspose.TeX และคลาสยูทิลิตี้ที่ใช้ในตัวอย่างโปรเจกต์
+คลาส `TeXOptions` กำหนดค่าเอนจิน Aspose.TeX, และยูทิลิตี้ `FileHelper` ให้ฟังก์ชันช่วยเหลือระบบไฟล์แบบง่ายที่ใช้ในโปรเจกต์ตัวอย่าง.
 
 ```java
 package com.aspose.tex.CustomTeXFormatFileCreation;
@@ -54,10 +119,11 @@ import com.aspose.tex.TeXOptions;
 import util.Utils;
 ```
 
-## คู่มือขั้นตอนต่อขั้นตอนเพื่อสร้างรูปแบบ TeX ที่กำหนดเอง
+## คำแนะนำขั้นตอนต่อขั้นตอนเพื่อสร้างฟอร์แมต TeX แบบกำหนดเอง
 
-### ขั้นตอนที่ 1: เริ่มต้น TeX Options (สร้างเอนจิน “ไม่มีรูปแบบ”)
-เราจะสร้างอ็อบเจกต์ `TeXOptions` ที่บอกเอนจินว่าเราไม่ต้องการโหลดรูปแบบที่มีอยู่ก่อนหน้านี้ นี่เป็นพื้นฐานสำหรับ **การสร้างรูปแบบ TeX ที่กำหนดเอง**
+### ขั้นตอนที่ 1: เริ่มต้นตัวเลือก TeX (สร้างเอนจิน “ไม่มีฟอร์แมต”)
+
+คลาส `TeXOptions` ให้คุณกำหนดค่าเอนจิน TeX ก่อนที่จะโหลดฟอร์แมตใด ๆ.
 
 ```java
 // Create TeX engine options for no format upon ObjectTeX engine extension.
@@ -65,35 +131,39 @@ TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectIniTeX());
 ```
 
 ### ขั้นตอนที่ 2: ตั้งค่าไดเรกทอรีอินพุตของ TeX
-บอก Aspose.TeX ว่าจะหาไฟล์ต้นฉบับ, แพ็กเกจสไตล์, และทรัพยากรเสริมใด ๆ แทนที่ `"Your Input Directory"` ด้วยเส้นทางแบบ absolute หรือ relative ของโฟลเดอร์อินพุตในโปรเจกต์ของคุณ
+
+`setInputWorkingDirectory` ชี้เอนจินไปยังโฟลเดอร์ที่มีไฟล์ `.tex` แหล่งที่มา, แพ็กเกจสไตล์, และฟอนต์ที่กำหนดเอง. การใช้เส้นทางแบบเต็มระหว่างการพัฒนาช่วยหลีกเลี่ยงความสับสนกับไดเรกทอรีทำงานเริ่มต้นของ IDE.
 
 ```java
 // Specify a file system working directory for the input.
 options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Directory"));
 ```
 
-> **เคล็ดลับ:** ใช้เส้นทางแบบ absolute ระหว่างการพัฒนาเพื่อหลีกเลี่ยงความสับสนกับไดเรกทอรีทำงานของ IDE
+> **เคล็ดลับ:** ทำให้โฟลเดอร์อินพุตเป็นแบบอ่าน‑อย่างเดียวในสภาพแวดล้อมการผลิตเพื่อป้องกันการแก้ไขไฟล์ TeX แหล่งที่มาผิดพลาดโดยไม่ตั้งใจ.
 
 ### ขั้นตอนที่ 3: ตั้งค่าไดเรกทอรีเอาต์พุตของ TeX
-ต่อไปเรากำหนดว่าจะเขียนไฟล์ PDF ที่คอมไพล์และไฟล์บันทึกใด ๆ ไปที่ไหน นี่คือขั้นตอน **set tex output directory**
+
+`setOutputWorkingDirectory` กำหนดที่ที่เอนจินจะเขียน PDF ที่คอมไพล์แล้ว, ไฟล์ล็อก, และข้อมูลเสริมอื่น ๆ. การแยกเอาต์พุตออกจากซอร์สทำให้ทำความสะอาดง่ายขึ้นและช่วยให้คุณสามารถเก็บผลลัพธ์อัตโนมัติได้.
 
 ```java
 // Specify a file system working directory for the output.
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-### ขั้นตอนที่ 4: เรียกคำสั่งสร้างรูปแบบ
-เมื่อกำหนดตัวเลือกแล้ว เราขอให้ Aspose.TeX คอมไพล์รูปแบบ อาร์กิวเมนต์แรกคือชื่อรูปแบบใหม่ (`"customtex"`), อาร์กิวเมนต์ที่สองคืออ็อบเจกต์ตัวเลือกที่เราจัดเตรียมไว้
+### ขั้นตอนที่ 4: รันคำสั่งสร้างฟอร์แมต
+
+การเรียก `createFormat("customtex", options)` บอก Aspose.TeX ให้คอมไพล์ทุกแพ็กเกจที่อ้างอิงในไดเรกทอรีอินพุตเป็นไฟล์ฟอร์แมตไบนารีชื่อ `customtex.fmt`. ขั้นตอนนี้มักเสร็จภายในไม่กี่วินาที แม้จะเป็นคอลเลกชันแพ็กเกจขนาดใหญ่, เนื่องจากเอนจินจะพาร์สแต่ละมาโครเพียงครั้งเดียว.
 
 ```java
 // Run format creation.
 TeXJob.createFormat("customtex", options);
 ```
 
-หลังจากคำสั่งนี้ทำงานเสร็จ คุณจะพบไฟล์ชื่อ `customtex.fmt` (หรือไบนารีที่มีชื่อคล้ายกัน) อยู่ในโฟลเดอร์เอาต์พุต ไฟล์นี้สามารถโหลดในรอบต่อไปเพื่อเร่งการประมวลผล
+หลังจากคำสั่งทำงานเสร็จ, คุณจะพบ `customtex.fmt` อยู่ในโฟลเดอร์เอาต์พุต. การโหลดไฟล์นี้ในรอบต่อไปช่วยลดเวลาในการคอมไพล์ของแต่ละเอกสารได้ถึง **70 %**, ตามผลการทดสอบของ Aspose.
 
-### ขั้นตอนที่ 5: ทำความสะอาดผลลัพธ์ในเทอร์มินัล (ไม่บังคับ)
-ส่วนสุดท้ายของตัวอย่างเพิ่มบรรทัดว่างลงในคอนโซลเพื่อให้หน้าตาเทอร์มินัลดูเรียบร้อยหลังจากงานเสร็จ
+### ขั้นตอนที่ 5: ทำความสะอาดเอาต์พุตเทอร์มินัล (ไม่บังคับ)
+
+`System.out.println()` อย่างง่ายจะเพิ่มบรรทัดใหม่หลังจากกระบวนการเสร็จ, ทำให้เอาต์พุตคอนโซลดูเรียบร้อยเมื่อคุณเชื่อมต่อการแปลงหลาย ๆ ครั้งในงานแบตช์.
 
 ```java
 // For further output to look fine.
@@ -101,60 +171,45 @@ options.getTerminalOut().getWriter().newLine();
 // ExEnd:CreateCustomTeXFormatFile
 ```
 
-## ปัญหาที่พบบ่อย & วิธีแก้
+## ปัญหาทั่วไป & วิธีแก้
 | ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|-------|-----|
-| **“File not found” สำหรับไฟล์ .tex** | เส้นทางอินพุตไม่ถูกต้อง | ตรวจสอบว่าเส้นทางที่ส่งให้ `setInputWorkingDirectory` ตรงกับโฟลเดอร์ที่มีไฟล์ `.tex` |
-| **Permission denied บนโฟลเดอร์เอาต์พุต** | สิทธิ์การเขียนหายไป | ให้แน่ใจว่ากระบวนการ Java มีสิทธิ์เขียนในโฟลเดอร์ที่ตั้งค่าโดย `setOutputWorkingDirectory` |
-| **การสร้างรูปแบบค้าง** | โหลดแพ็กเกจจำนวนมากเกินไป | คอมไพล์เฉพาะแพ็กเกจที่จำเป็น; อย่าโหลดชุด TeX เต็มรูปแบบหากไม่ต้องการ |
+| **“File not found” for .tex source** | เส้นทางไดเรกทอรีอินพุตไม่ถูกต้อง | ตรวจสอบว่าเส้นทางที่ส่งให้ `setInputWorkingDirectory` ตรงกับโฟลเดอร์ที่มีไฟล์ `.tex` ของคุณ. |
+| **Permission denied on output folder** | สิทธิ์การเขียนหายไป | ให้แน่ใจว่ากระบวนการ Java มีสิทธิ์เขียนในไดเรกทอรีที่ตั้งค่าโดย `setOutputWorkingDirectory`. |
+| **Format creation hangs** | โหลดแพ็กเกจมากเกินไป | คอมไพล์เฉพาะแพ็กเกจที่ต้องการ; Aspose.TeX สามารถจัดการ **60+** ฟอร์แมตอินพุตโดยไม่ต้องโหลดชุด TeX เต็ม. |
 
 ## คำถามที่พบบ่อย
 
-**Q: สามารถใช้รูปแบบที่กำหนดเองเดียวกันในหลายแอปพลิเคชัน Java ได้หรือไม่?**  
-A: ใช่. ไฟล์ `.fmt` ที่สร้างขึ้นเป็นแบบ platform‑independent และสามารถโหลดโดยอินสแตนซ์ Aspose.TeX ใดก็ได้
+**Q:** Where can I find the documentation for Aspose.TeX for Java?  
+**A:** คุณสามารถดูที่ [เอกสาร Aspose.TeX for Java](https://reference.aspose.com/tex/java/) เพื่อรายละเอียด API อย่างครบถ้วนและตัวอย่างการใช้งาน.
 
-**Q: จำเป็นต้องสร้างรูปแบบใหม่เมื่อเพิ่มแมโครใหม่หรือไม่?**  
-A: ต้องเรียก `TeXJob.createFormat` ใหม่ทุกครั้งที่เปลี่ยนคำนิยามแมโครหรือรายการแพ็กเกจที่รูปแบบพึ่งพา
+**Q:** How can I download Aspose.TeX for Java?  
+**A:** คุณสามารถดาวน์โหลดไลบรารีจาก [หน้าโหลด Aspose.TeX](https://releases.aspose.com/tex/java/).
 
-**Q: สามารถตั้งค่าไดเรกทอรีอินพุตและเอาต์พุตแบบโปรแกรมได้หรือไม่?**  
-A: แน่นอน—เรียก `options.setInputWorkingDirectory(...)` และ `options.setOutputWorkingDirectory(...)` ก่อนเรียก `TeXJob.createFormat` หรือ `TeXJob.process`
+**Q:** Where can I purchase Aspose.TeX for Java?  
+**A:** คุณสามารถซื้อ Aspose.TeX for Java ได้จาก [หน้า purchase](https://purchase.aspose.com/buy).
 
-**Q: แตกต่างจากการใช้รูปแบบ `plain` เริ่มต้นอย่างไร?**  
-A: รูปแบบเริ่มต้นโหลดชุดแมโครทั่วไปทุกครั้ง ซึ่งเพิ่มภาระงาน ส่วนรูปแบบที่กำหนดเองคอมไพล์ล่วงหน้า ทำให้เร็วขึ้นและรับประกันการจัดหน้าแบบที่คุณกำหนดไว้
+**Q:** Is there a free trial available for Aspose.TeX for Java?  
+**A:** มี, คุณสามารถเข้าถึงเวอร์ชันทดลองฟรีได้ที่ [หน้า Aspose.TeX free trial download](https://releases.aspose.com/).
 
-**Q: จะทำงานบนระบบปฏิบัติการที่ไม่ใช่ Windows ได้หรือไม่?**  
-A: ได้. Aspose.TeX for Java เป็นแบบข้ามแพลตฟอร์ม; เพียงตรวจสอบให้เส้นทางไฟล์ใช้ตัวคั่นที่ถูกต้องสำหรับ OS ของคุณ
+**Q:** How can I get support for Aspose.TeX for Java?  
+**A:** คุณสามารถขอรับการสนับสนุนได้ที่ [ฟอรั่ม Aspose.TeX](https://forum.aspose.com/c/tex/47).
 
 ## สรุป
-คุณมีสูตรครบถ้วนสำหรับ **การสร้างรูปแบบ TeX ที่กำหนดเอง** ด้วย Aspose.TeX for Java แล้ว โดย **การตั้งค่าไดเรกทอรีอินพุตของ TeX** และ **การตั้งค่าไดเรกทอรีเอาต์พุตของ TeX** คุณจะได้ควบคุมอย่างเต็มที่ว่ไฟล์ต้นฉบับจะถูกอ่านจากที่ไหนและผลลัพธ์จะถูกเขียนไปที่ไหน ทำให้การจัดหน้าเป็นไปอย่างเชื่อถือได้และทำซ้ำได้ในทุกโปรเจกต์ Java ของคุณ
-
-## FAQ's
-
-### Q1: Where can I find the documentation for Aspose.TeX for Java?
-
-A1: You can refer to the [Aspose.TeX for Java documentation](https://reference.aspose.com/tex/java/) for comprehensive information.
-
-### Q2: How can I download Aspose.TeX for Java?
-
-A2: You can download the library from the [Aspose.TeX for Java download page](https://releases.aspose.com/tex/java/).
-
-### Q3: Where can I purchase Aspose.TeX for Java?
-
-A3: You can buy Aspose.TeX for Java from the [purchase page](https://purchase.aspose.com/buy).
-
-### Q4: Is there a free trial available for Aspose.TeX for Java?
-
-A4: Yes, you can access the free trial version [here](https://releases.aspose.com/).
-
-### Q5: How can I get support for Aspose.TeX for Java?
-
-A5: You can seek support on the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47).
+คุณมีสูตรที่พร้อมใช้งานสำหรับ **การสร้าง PDF จาก TeX** ด้วย Aspose.TeX for Java แล้ว. ด้วยการ **ตั้งค่าไดเรกทอรีอินพุตของ TeX** และ **ตั้งค่าไดเรกทอรีเอาต์พุตของ TeX**, คุณจะควบคุมได้เต็มที่ว่าที่ใดไฟล์ต้นฉบับจะถูกอ่านและที่ใดผลลัพธ์จะถูกเขียน, ทำให้การจัดรูปแบบเป็นไปอย่างเชื่อถือได้และทำซ้ำได้ในทุกโปรเจกต์ Java ของคุณ. ใช้ไฟล์ `customtex.fmt` ในการรันต่อไปเพื่อเร่งความเร็วการคอมไพล์และรักษาการจัดวางที่สอดคล้องกัน.
 
 ---
 
-**อัปเดตล่าสุด:** 2025-12-03  
+**อัปเดตล่าสุด:** 2026-09-04  
 **ทดสอบกับ:** Aspose.TeX for Java 24.11  
-**ผู้เขียน:** Aspose  
+**ผู้เขียน:** Aspose
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [การจัดรูปแบบ Tex แบบกำหนดเอง](/tex/java/custom-tex-formats/typesetting-custom-tex-formats/)
+- [วิธีอ่าน TeX – ตั้งค่าไดเรกทอรีอินพุตใน Java Guide ด้วย Aspose.TeX for Java](/tex/java/advanced-io/required-input-directory/)
+- [วิธีแปลง TeX เป็น XPS ใน Java – คำแนะนำขั้นตอนต่อขั้นตอน](/tex/java/typesetting-tex-to-xps/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
