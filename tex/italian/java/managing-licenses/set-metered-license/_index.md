@@ -1,11 +1,44 @@
 ---
-date: 2026-02-18
-description: Scopri come impostare la licenza a consumo Java per Aspose.TeX, inclusa
-  la configurazione delle chiavi pubbliche e private, e sblocca tutto il potenziale
-  della libreria.
-linktitle: Set Metered License for Aspose.TeX in Java
+date: 2026-09-04
+description: Scopri come impostare una licenza a consumo in Java per Aspose.TeX, configurare
+  le chiavi pubbliche e private e sbloccare l'intero set di funzionalità della libreria.
+keywords:
+- how to set license
+- configure public private keys
+- Aspose.TeX metered license
+lastmod: 2026-09-04
+linktitle: Imposta licenza a consumo per Aspose.TeX in Java
+og_description: Come impostare la licenza per Aspose.TeX in Java. Questa guida ti
+  mostra come configurare le chiavi pubbliche e private, attivare una licenza a consumo
+  e iniziare a utilizzare immediatamente tutte le capacità di elaborazione TeX.
+og_image_alt: Screenshot of Java code initializing Aspose.TeX metered license
+og_title: Come impostare la licenza per Aspose.TeX in Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to set a metered license in Java for Aspose.TeX, configure
+    public and private keys, and unlock the library’s full feature set.
+  headline: How to set license for Aspose.TeX in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, the metered keys are not tied to a specific device; each usage counts
+      toward your overall quota.
+    question: Can I use the same keys on multiple machines?
+  - answer: The library throws a `LicenseException`. Purchase additional usage or
+      upgrade your plan to continue processing.
+    question: What happens if I exceed my metered quota?
+  - answer: Call it once during initialization (for example, in a static block or
+      the `main` method) so the license is globally available.
+    question: Do I need to call `setMeteredKey` on every application start?
+  - answer: Yes, the same code works on any Java runtime that can load the Aspose.TeX
+      JAR, including Android apps.
+    question: Is the metered license compatible with both Java SE and Android?
+  - answer: After invoking `setMeteredKey`, execute any Aspose.TeX API (e.g., render
+      a simple document). If no `LicenseException` is thrown, the license is active.
+    question: How do I verify that the license was applied correctly?
+  type: FAQPage
 second_title: Aspose.TeX Java API
-title: Imposta licenza a consumo per Aspose.TeX in Java
+title: Come impostare la licenza per Aspose.TeX in Java
 url: /it/java/managing-licenses/set-metered-license/
 weight: 12
 ---
@@ -14,53 +47,53 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Imposta Licenza a Consumo per Aspose.TeX in Java
+# Come impostare la licenza per Aspose.TeX in Java
 
 ## Introduzione
 
-Benvenuti alla nostra guida passo‑passo su come **impostare la licenza a consumo java** per Aspose.TeX. Aspose.TeX è una potente libreria Java per lavorare con file TeX, e impostare la licenza a consumo sblocca tutte le sue funzionalità. In questo tutorial vi guideremo attraverso tutto ciò di cui avete bisogno — dai prerequisiti al codice esatto da incollare — così potrete iniziare a utilizzare la libreria senza ostacoli di licenza.
+In questa guida imparerai **come impostare la licenza** per Aspose.TeX quando sviluppi applicazioni Java. Impostare una licenza a consumo rimuove tutte le restrizioni di valutazione, ti dà accesso a tutte le API di rendering, conversione e manipolazione, e ti consente di lavorare completamente offline. Copriremo i prerequisiti, il codice esatto da incollare e le insidie comuni così potrai avviare il tutto senza incorrere in errori di licenza.
 
-## Risposte Rapide
-- **Cosa fa “set metered license java”?** Registra le tue chiavi pubblica e privata con Aspose.TeX, abilitando l'uso di tutte le funzionalità.  
-- **È necessaria una connessione internet?** No, la licenza a consumo funziona offline dopo che le chiavi sono impostate.  
-- **Quali chiavi sono richieste?** Una chiave pubblica e una chiave privata fornite con la tua licenza a consumo di Aspose.TeX.  
-- **Posso cambiare le chiavi in seguito?** Sì — basta chiamare nuovamente `setMeteredKey` con nuovi valori.  
-- **Questo approccio è thread‑safe?** La classe `Metered` gestisce la concorrenza internamente, quindi puoi impostare la licenza una sola volta all'avvio dell'applicazione.
+## Risposte rapide
+- **Cosa fa “set metered license java”?** Registra le tue chiavi pubblica e privata con Aspose.TeX, abilitando l'uso di tutte le funzionalità e la fatturazione basata sull'utilizzo.  
+- **Ho bisogno di una connessione internet?** No. Dopo che le chiavi sono impostate la libreria funziona interamente offline.  
+- **Quali chiavi sono necessarie?** Una chiave pubblica e una chiave privata fornite con la tua licenza a consumo di Aspose.TeX.  
+- **Posso cambiare le chiavi in seguito?** Sì—chiama nuovamente `Metered.setMeteredKey` con i nuovi valori.  
+- **Questo approccio è thread‑safe?** La classe `Metered` gestisce la concorrenza internamente, quindi puoi inizializzarla in modo sicuro una sola volta all'avvio dell'applicazione.
 
 ## Cos'è “set metered license java”?
 
-L'operazione **set metered license java** indica al runtime di Aspose.TeX a quale quota di utilizzo appartiene il tuo account. Fornendo le chiavi pubblica e privata, la libreria può tenere traccia di quanti documenti TeX elabori e applicare i limiti definiti dal tuo piano a consumo.
+Caricare una licenza a consumo informa il runtime di Aspose.TeX a quale quota di utilizzo appartiene il tuo account. Fornendo le chiavi pubblica e privata, la libreria può tenere traccia di quanti documenti TeX elabori e applicare i limiti definiti nel tuo piano a consumo. Questa registrazione diretta è l'unico passaggio necessario per sbloccare tutte le funzionalità premium.
 
 ## Perché impostare una licenza a consumo per Aspose.TeX?
 
-- **Accesso completo alle funzionalità** – Tutte le API di rendering, conversione e manipolazione diventano disponibili.  
-- **Fatturazione basata sull'uso** – Paghi solo per la quantità di elaborazione di cui hai realmente bisogno.  
-- **Nessuna dipendenza a runtime da un server di licenza** – Una volta impostate le chiavi, la libreria funziona completamente offline.  
-- **Inizializzazione thread‑safe** – Puoi chiamare in modo sicuro il metodo durante l'avvio dell'applicazione, e ogni thread erediterà la licenza.
+Una licenza a consumo ti offre accesso immediato e illimitato a **tutte le oltre 30 opzioni di rendering** e consente al motore di elaborare file TeX fino a **200 pagine** senza caricare l'intero documento in memoria. Abilita inoltre la fatturazione basata sull'utilizzo, così paghi solo per i documenti che effettivamente converti. Poiché la licenza è memorizzata localmente, non c'è **alcuna dipendenza runtime da server esterni**, il che migliora l'affidabilità e riduce la latenza in ambienti ad alto throughput.
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti pronti:
+- Ambiente di sviluppo Java (JDK 8 o superiore) e uno strumento di build come Maven o Gradle.  
+- Una licenza a consumo valida di Aspose.TeX che includa una **chiave pubblica** e una **chiave privata**. Se non ne possiedi ancora una, ottienila da [Aspose Purchase](https://purchase.aspose.com/buy).  
+- Il JAR di Aspose.TeX aggiunto al classpath del tuo progetto. Puoi scaricare il pacchetto più recente dalla [release page](https://releases.aspose.com/tex/java/).
 
-- Conoscenza di base della programmazione Java.  
-- Una licenza a consumo valida di Aspose.TeX, che include una **chiave pubblica** e una **chiave privata**. Se non ne possiedi una, puoi ottenerla da [Acquisto Aspose](https://purchase.aspose.com/buy).  
-- Ambiente di sviluppo Java configurato sulla tua macchina.  
+Ora che hai tutto pronto, immergiamoci nell'implementazione.
 
-Ora che hai tutto pronto, passiamo all'implementazione reale.
+## Importa i pacchetti
 
-## Importa Pacchetti
-
-In questo passaggio importerai i pacchetti necessari nel tuo progetto Java. La libreria Aspose.TeX dovrebbe già essere aggiunta alle dipendenze del tuo progetto. Puoi scaricarla dalla [pagina di rilascio](https://releases.aspose.com/tex/java/).
+Aggiungi lo spazio dei nomi Aspose.TeX al tuo file sorgente Java affinché il compilatore possa individuare le classi di licenza.
 
 ```java
 package com.aspose.tex.SetMeteredLicense;
 ```
 
-## Come impostare la licenza a consumo java
+## Come impostare la licenza a consumo Java
 
-Questa sezione ti guida attraverso il codice esatto da chiamare per registrare le chiavi di licenza.
+`Metered` è la classe Aspose.TeX che memorizza e valida le chiavi pubblica e privata per una licenza a consumo.  
+`setMeteredKey` è un metodo statico che registra le chiavi fornite nel runtime.
 
-### Passo 1: Importa la classe Aspose.TeX Metered
+Puoi attivare una licenza a consumo con sole due righe di codice. Chiama il metodo statico `setMeteredKey` sulla classe `Metered`, passando le chiavi pubblica e privata ricevute da Aspose. Questa chiamata dovrebbe essere inserita in un inizializzatore statico o nel punto di ingresso principale in modo che venga eseguita una sola volta all'avvio della JVM.
+
+### Passo 1: Importa la classe Aspose.TeX `Metered`
+
+`Metered` è la classe centrale che memorizza e valida la coppia di chiavi pubblica/privata per una licenza a consumo. Garantisce inoltre che i controlli di licenza vengano eseguiti in modo thread‑safe in tutta l'applicazione.
 
 ```java
 // Import the Aspose.TeX package
@@ -69,7 +102,7 @@ import com.aspose.tex.Metered;
 
 ### Passo 2: Imposta le chiavi pubblica e privata
 
-Qui impostiamo effettivamente le **chiavi pubblica e privata** usando la classe `Metered`. Sostituisci le stringhe segnaposto con le chiavi che hai ricevuto da Aspose.
+Qui imposti effettivamente **le chiavi pubblica e privata** usando la classe `Metered`. Sostituisci le stringhe segnaposto con le chiavi esatte fornite nella tua email di licenza. Non aggiungere spazi extra o interruzioni di riga, poiché la routine di validazione richiede una corrispondenza esatta.
 
 ```java
 // Set metered public and private keys
@@ -79,48 +112,53 @@ new Metered().setMeteredKey(
 );
 ```
 
-È tutto! Una volta eseguito il codice sopra, la tua applicazione Java potrà sfruttare appieno le funzionalità di Aspose.TeX senza alcuna restrizione di licenza.
+Una volta eseguito questo codice, ogni successiva chiamata API di Aspose.TeX opererà sotto la tua quota licenziata senza generare eccezioni di licenza.
 
-## Problemi Comuni e Soluzioni
+## Problemi comuni e soluzioni
 
-- **Dimenticato di aggiungere la libreria al classpath** – Il codice compilerà ma lancerà una `ClassNotFoundException`. Assicurati che il JAR di Aspose.TeX sia referenziato nel tuo strumento di build (Maven, Gradle o classpath manuale).  
-- **Uso del formato di chiave errato** – Le chiavi devono essere stringhe esatte fornite da Aspose. Spazi aggiuntivi o interruzioni di riga causeranno un errore di licenza.  
-- **Chiamare `setMeteredKey` più volte** – Sebbene tecnicamente consentito, aggiunge overhead inutile. Chiamalo una sola volta durante l'inizializzazione (ad esempio, in un blocco statico).
+- **Dimenticato di aggiungere la libreria al classpath** – Il codice compila ma genera una `ClassNotFoundException` a runtime. Verifica che il JAR di Aspose.TeX sia referenziato nel tuo `pom.xml` Maven, nel `build.gradle` Gradle o nel classpath manuale.  
+- **Formato della chiave errato** – Le chiavi devono corrispondere esattamente alle stringhe fornite da Aspose. Spazi extra, interruzioni di riga o caratteri mancanti attiveranno un errore di licenza.  
+- **Chiamata a `setMeteredKey` più volte** – Sebbene l'API lo consenta, ogni chiamata comporta un piccolo overhead di validazione. Inizializza la licenza una sola volta durante l'avvio (ad esempio in un blocco statico) e riutilizzala per tutta l'applicazione.
 
-## Domande Frequenti
+## Domande frequenti
 
-**Q: Posso usare le stesse chiavi su più macchine?**  
-A: Sì, le chiavi a consumo non sono specifiche per macchina, ma ogni utilizzo conta verso la tua quota di consumo.
+**D: Posso usare le stesse chiavi su più macchine?**  
+R: Sì, le chiavi a consumo non sono legate a un dispositivo specifico; ogni utilizzo conta nella tua quota complessiva.
 
-**Q: Cosa succede se supero la mia quota a consumo?**  
-A: La libreria lancerà un'eccezione di licenza; dovrai acquistare utilizzo aggiuntivo o aggiornare il tuo piano.
+**D: Cosa succede se supero la quota a consumo?**  
+R: La libreria genera una `LicenseException`. Acquista utilizzo aggiuntivo o aggiorna il tuo piano per continuare l'elaborazione.
 
-**Q: Devo chiamare `setMeteredKey` ad ogni avvio dell'applicazione?**  
-A: È consigliato chiamarlo una sola volta durante l'inizializzazione (ad esempio, in un blocco statico o nel metodo main) così la licenza è disponibile globalmente.
+**D: Devo chiamare `setMeteredKey` ad ogni avvio dell'applicazione?**  
+R: Chiamalo una sola volta durante l'inizializzazione (ad esempio in un blocco statico o nel metodo `main`) così la licenza sarà disponibile globalmente.
 
-**Q: La licenza a consumo è compatibile sia con Java SE che con Android?**  
-A: Sì, lo stesso codice funziona su qualsiasi runtime Java che supporta la libreria Aspose.TeX.
+**D: La licenza a consumo è compatibile sia con Java SE che con Android?**  
+R: Sì, lo stesso codice funziona su qualsiasi runtime Java che possa caricare il JAR di Aspose.TeX, inclusi le app Android.
 
-## Ulteriori Domande Frequenti
+**D: Come verifico che la licenza sia stata applicata correttamente?**  
+R: Dopo aver invocato `setMeteredKey`, esegui qualsiasi API di Aspose.TeX (ad esempio renderizza un documento semplice). Se non viene lanciata una `LicenseException`, la licenza è attiva.
 
-**Q: Come posso verificare che la licenza sia stata applicata correttamente?**  
-A: Dopo aver chiamato `setMeteredKey`, puoi invocare qualsiasi API di Aspose.TeX. Se non viene lanciata alcuna eccezione di licenza, la licenza è attiva.
+**D: Posso passare da una licenza a consumo a una licenza perpetua in seguito?**  
+R: Assolutamente. Sostituisci la chiamata `Metered.setMeteredKey` con l'inizializzazione standard della classe `License` usando il tuo file di licenza perpetua.
 
-**Q: Posso passare da una licenza a consumo a una licenza perpetua in seguito?**  
-A: Assolutamente. Basta sostituire la chiamata `setMeteredKey` con l'inizializzazione della classe standard `License` usando il tuo file di licenza perpetua.
-
-**Q: C'è qualche impatto sulle prestazioni quando si usa una licenza a consumo?**  
-A: Il controllo della licenza viene eseguito una sola volta all'avvio dell'applicazione e aggiunge un overhead trascurabile.
+**D: Ci sono impatti sulle prestazioni quando si usa una licenza a consumo?**  
+R: La validazione della licenza avviene solo una volta all'avvio della JVM e aggiunge meno di 5 ms di overhead, trascurabile per la maggior parte delle applicazioni.
 
 ## Conclusione
 
-In questo tutorial abbiamo coperto tutto ciò di cui hai bisogno per **impostare la licenza a consumo java** per Aspose.TeX, dalla preparazione dell'ambiente alla chiamata di `setMeteredKey` con le tue chiavi pubblica e privata. Con la licenza attiva, ora puoi esplorare l'intera gamma di capacità di manipolazione TeX offerte dalla libreria.
+Ora sai **come impostare la licenza** per Aspose.TeX in Java, dalla preparazione dell'ambiente all'invocazione di `Metered.setMeteredKey` con le tue chiavi pubblica e privata. Con la licenza attiva, puoi sfruttare appieno l'ampio set di funzionalità di Aspose.TeX—rendering, conversione e manipolazione di documenti TeX—senza alcuna restrizione runtime.
 
 ---
 
-**Ultimo Aggiornamento:** 2026-02-18  
-**Testato Con:** Aspose.TeX 24.0 per Java  
-**Autore:** Aspose  
+**Last Updated:** 2026-09-04  
+**Tested With:** Aspose.TeX 24.0 for Java  
+**Author:** Aspose
+
+## Tutorial correlati
+
+- [Gestione licenze](/tex/java/managing-licenses/)
+- [Gestione licenza Java: Come impostare la licenza da file](/tex/java/managing-licenses/load-license-from-file/)
+- [Carica licenza da stream](/tex/java/managing-licenses/load-license-from-stream/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

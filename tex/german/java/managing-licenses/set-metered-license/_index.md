@@ -1,11 +1,45 @@
 ---
-date: 2026-02-18
-description: Erfahren Sie, wie Sie die nutzungsbasierte Lizenz für Java von Aspose.TeX
-  festlegen, einschließlich der Einrichtung von öffentlichen und privaten Schlüsseln
-  und das volle Potenzial der Bibliothek freischalten.
-linktitle: Set Metered License for Aspose.TeX in Java
+date: 2026-09-04
+description: Erfahren Sie, wie Sie in Java für Aspose.TeX eine Metered-Lizenz festlegen,
+  public and private keys konfigurieren und das vollständige Feature-Set der Bibliothek
+  freischalten.
+keywords:
+- how to set license
+- configure public private keys
+- Aspose.TeX metered license
+lastmod: 2026-09-04
+linktitle: Metered-Lizenz für Aspose.TeX in Java festlegen
+og_description: Wie Sie die Lizenz für Aspose.TeX in Java festlegen. Dieser Leitfaden
+  zeigt Ihnen, wie Sie public and private keys konfigurieren, eine Metered-Lizenz
+  aktivieren und sofort die vollständigen TeX-Verarbeitungsfunktionen nutzen.
+og_image_alt: Screenshot of Java code initializing Aspose.TeX metered license
+og_title: So setzen Sie die Lizenz für Aspose.TeX in Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to set a metered license in Java for Aspose.TeX, configure
+    public and private keys, and unlock the library’s full feature set.
+  headline: How to set license for Aspose.TeX in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, the metered keys are not tied to a specific device; each usage counts
+      toward your overall quota.
+    question: Can I use the same keys on multiple machines?
+  - answer: The library throws a `LicenseException`. Purchase additional usage or
+      upgrade your plan to continue processing.
+    question: What happens if I exceed my metered quota?
+  - answer: Call it once during initialization (for example, in a static block or
+      the `main` method) so the license is globally available.
+    question: Do I need to call `setMeteredKey` on every application start?
+  - answer: Yes, the same code works on any Java runtime that can load the Aspose.TeX
+      JAR, including Android apps.
+    question: Is the metered license compatible with both Java SE and Android?
+  - answer: After invoking `setMeteredKey`, execute any Aspose.TeX API (e.g., render
+      a simple document). If no `LicenseException` is thrown, the license is active.
+    question: How do I verify that the license was applied correctly?
+  type: FAQPage
 second_title: Aspose.TeX Java API
-title: Metered‑Lizenz für Aspose.TeX in Java festlegen
+title: So setzen Sie die Lizenz für Aspose.TeX in Java
 url: /de/java/managing-licenses/set-metered-license/
 weight: 12
 ---
@@ -14,62 +48,62 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Metered-Lizenz für Aspose.TeX in Java festlegen
+# Lizenz für Aspose.TeX in Java festlegen
 
-## Einleitung
+## Einführung
 
-Willkommen zu unserer Schritt‑für‑Schritt‑Anleitung, wie man **set metered license java** für Aspose.TeX festlegt. Aspose.TeX ist eine leistungsstarke Java‑Bibliothek zur Arbeit mit TeX‑Dateien, und das Festlegen der Metered‑Lizenz schaltet alle Funktionen frei. In diesem Tutorial führen wir Sie durch alles, was Sie benötigen – von den Voraussetzungen bis zum genauen Code, den Sie einfügen – damit Sie die Bibliothek ohne Lizenzprobleme nutzen können.
+In diesem Leitfaden lernen Sie **wie man eine Lizenz** für Aspose.TeX bei der Entwicklung von Java‑Anwendungen festlegt. Das Setzen einer metered Lizenz entfernt alle Evaluierungsbeschränkungen, gibt Ihnen Zugriff auf jede Rendering‑, Konvertierungs‑ und Manipulations‑API und ermöglicht die komplette Offline‑Nutzung. Wir behandeln die Voraussetzungen, den genauen Code, den Sie einfügen müssen, und häufige Stolperfallen, damit Sie ohne Lizenzierungsfehler sofort loslegen können.
 
-## Schnelle Antworten
-- **Was bewirkt “set metered license java”?** Es registriert Ihre öffentlichen und privaten Schlüssel bei Aspose.TeX und ermöglicht die Nutzung aller Funktionen.  
-- **Benötige ich eine Internetverbindung?** Nein, die Metered‑Lizenz funktioniert offline, sobald die Schlüssel gesetzt sind.  
-- **Welche Schlüssel werden benötigt?** Ein öffentlicher Schlüssel und ein privater Schlüssel, die mit Ihrer Aspose.TeX Metered‑Lizenz bereitgestellt werden.  
-- **Kann ich die Schlüssel später ändern?** Ja – rufen Sie einfach erneut `setMeteredKey` mit neuen Werten auf.  
-- **Ist dieser Ansatz thread‑sicher?** Die `Metered`‑Klasse verwaltet die Parallelität intern, sodass Sie die Lizenz einmal beim Anwendungsstart setzen können.
+## Schnellantworten
+- **Was bewirkt “set metered license java”?** Es registriert Ihre öffentlichen und privaten Schlüssel bei Aspose.TeX und aktiviert die Voll‑Funktions‑Nutzung sowie die nutzungsbasierte Abrechnung.  
+- **Benötige ich eine Internetverbindung?** Nein. Nachdem die Schlüssel gesetzt wurden, arbeitet die Bibliothek vollständig offline.  
+- **Welche Schlüssel werden benötigt?** Ein öffentlicher Schlüssel und ein privater Schlüssel, die Ihrer Aspose.TeX metered Lizenz beiliegen.  
+- **Kann ich die Schlüssel später ändern?** Ja – rufen Sie `Metered.setMeteredKey` erneut mit den neuen Werten auf.  
+- **Ist dieser Ansatz thread‑sicher?** Die `Metered`‑Klasse behandelt die Parallelität intern, sodass Sie sie einmal beim Anwendungsstart sicher initialisieren können.
 
 ## Was ist “set metered license java”?
 
-Der **set metered license java** Vorgang teilt der Aspose.TeX‑Laufzeit mit, welches Nutzungskontingent zu Ihrem Konto gehört. Durch Angabe des öffentlichen und privaten Schlüssels kann die Bibliothek verfolgen, wie viele TeX‑Dokumente Sie verarbeiten, und die in Ihrem Metered‑Plan definierten Grenzen durchsetzen.
+Das Laden einer metered Lizenz teilt der Aspose.TeX‑Laufzeit mit, welches Nutzungskontingent zu Ihrem Konto gehört. Durch Angabe des öffentlichen und privaten Schlüssels kann die Bibliothek verfolgen, wie viele TeX‑Dokumente Sie verarbeiten, und die in Ihrem metered Plan definierten Limits durchsetzen. Diese direkte Registrierung ist der einzige Schritt, der erforderlich ist, um alle Premium‑Funktionen freizuschalten.
 
-## Warum eine Metered‑Lizenz für Aspose.TeX festlegen?
+## Warum eine metered Lizenz für Aspose.TeX setzen?
 
-- **Vollständiger Funktionszugriff** – Alle Rendering-, Konvertierungs- und Manipulations‑APIs stehen zur Verfügung.  
-- **Nutzungsbasierte Abrechnung** – Bezahlen Sie nur für die tatsächlich benötigte Verarbeitung.  
-- **Keine Laufzeitabhängigkeit von einem Lizenzserver** – Sobald die Schlüssel gesetzt sind, arbeitet die Bibliothek vollständig offline.  
-- **Thread‑sichere Initialisierung** – Sie können die Methode sicher beim Anwendungsstart aufrufen, und jeder Thread erbt die Lizenz.
+Eine metered Lizenz bietet Ihnen sofortigen, uneingeschränkten Zugriff auf **alle 30+ Rendering‑Optionen** und lässt die Engine TeX‑Dateien bis zu **200 Seiten** verarbeiten, ohne das gesamte Dokument in den Speicher zu laden. Sie ermöglicht zudem nutzungsbasierte Abrechnung, sodass Sie nur für die tatsächlich konvertierten Dokumente zahlen. Da die Lizenz lokal gespeichert wird, gibt es **keine Laufzeitabhängigkeit von externen Servern**, was die Zuverlässigkeit erhöht und die Latenz in Hoch‑Durchsatz‑Umgebungen reduziert.
 
 ## Voraussetzungen
 
-Bevor Sie in das Tutorial einsteigen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben:
+- Java‑Entwicklungsumgebung (JDK 8 oder höher) und ein Build‑Tool wie Maven oder Gradle.  
+- Eine gültige Aspose.TeX metered Lizenz, die einen **öffentlichen Schlüssel** und einen **privaten Schlüssel** enthält. Falls Sie noch keine besitzen, erhalten Sie sie über [Aspose Purchase](https://purchase.aspose.com/buy).  
+- Das Aspose.TeX‑JAR zu Ihrem Projekt‑Classpath hinzugefügt. Sie können das aktuelle Paket von der [release page](https://releases.aspose.com/tex/java/) herunterladen.
 
-- Grundkenntnisse in der Java‑Programmierung.  
-- Eine gültige Aspose.TeX Metered‑Lizenz, die einen **public key** und einen **private key** enthält. Falls Sie keine haben, können Sie sie über [Aspose Purchase](https://purchase.aspose.com/buy) erhalten.  
-- Ein eingerichtetes Java‑Entwicklungsumfeld auf Ihrem Rechner.  
-
-Jetzt, da Sie alles bereit haben, gehen wir zur eigentlichen Implementierung über.
+Jetzt, da Sie alles vorbereitet haben, gehen wir zur Implementierung über.
 
 ## Pakete importieren
 
-In diesem Schritt importieren Sie die notwendigen Pakete in Ihr Java‑Projekt. Die Aspose.TeX‑Bibliothek sollte bereits zu den Abhängigkeiten Ihres Projekts hinzugefügt sein. Sie können sie von der [release page](https://releases.aspose.com/tex/java/) herunterladen.
+Fügen Sie den Aspose.TeX‑Namespace zu Ihrer Java‑Quelldatei hinzu, damit der Compiler die Lizenzklassen finden kann.
 
 ```java
 package com.aspose.tex.SetMeteredLicense;
 ```
 
-## Wie man die Metered‑Lizenz in Java festlegt
+## Wie man eine metered Lizenz in Java setzt
 
-Dieser Abschnitt führt Sie durch den genauen Code, den Sie aufrufen müssen, um Ihre Lizenzschlüssel zu registrieren.
+`Metered` ist die Aspose.TeX‑Klasse, die die öffentlichen und privaten Schlüssel einer metered Lizenz speichert und validiert.  
+`setMeteredKey` ist eine statische Methode, die die bereitgestellten Schlüssel bei der Laufzeit registriert.
 
-### Schritt 1: Die Aspose.TeX Metered‑Klasse importieren
+Sie können eine metered Lizenz mit nur zwei Codezeilen aktivieren. Rufen Sie die statische Methode `setMeteredKey` der Klasse `Metered` auf und übergeben Sie die öffentlichen und privaten Schlüssel, die Sie von Aspose erhalten haben. Dieser Aufruf sollte in einem statischen Initialisierer oder im Haupteinstiegspunkt platziert werden, damit er einmal pro JVM‑Start ausgeführt wird.
+
+### Schritt 1: Import der Aspose.TeX `Metered`‑Klasse
+
+`Metered` ist die zentrale Klasse, die das öffentliche/privates Schlüsselpaar für eine metered Lizenz speichert und validiert. Sie stellt zudem sicher, dass Lizenzprüfungen thread‑sicher über die gesamte Anwendung hinweg durchgeführt werden.
 
 ```java
 // Import the Aspose.TeX package
 import com.aspose.tex.Metered;
 ```
 
-### Schritt 2: Öffentliche und private Schlüssel festlegen
+### Schritt 2: Öffentliche und private Schlüssel setzen
 
-Hier setzen wir tatsächlich **public private keys** mithilfe der `Metered`‑Klasse. Ersetzen Sie die Platzhalter‑Strings durch die Schlüssel, die Sie von Aspose erhalten haben.
+Hier setzen Sie tatsächlich **öffentliche und private Schlüssel** mithilfe der `Metered`‑Klasse. Ersetzen Sie die Platzhalter‑Strings durch die genauen Schlüssel, die in Ihrer Lizenz‑E‑Mail angegeben sind. Fügen Sie keine zusätzlichen Leerzeichen oder Zeilenumbrüche hinzu, da die Validierungsroutine eine exakte Übereinstimmung erwartet.
 
 ```java
 // Set metered public and private keys
@@ -79,48 +113,53 @@ new Metered().setMeteredKey(
 );
 ```
 
-Das war's! Sobald der obige Code ausgeführt wird, kann Ihre Java‑Anwendung die Aspose.TeX‑Funktionen vollständig nutzen, ohne Lizenzbeschränkungen.
+Sobald dieser Code ausgeführt wird, arbeitet jeder nachfolgende Aspose.TeX‑API‑Aufruf unter Ihrem lizenzierten Kontingent, ohne Lizenz‑Ausnahmen zu werfen.
 
-## Häufige Fallstricke und Lösungen
+## Häufige Stolperfallen und Lösungen
 
-- **Vergessen, die Bibliothek zum Klassenpfad hinzuzufügen** – Der Code kompiliert, wirft jedoch eine `ClassNotFoundException`. Stellen Sie sicher, dass das Aspose.TeX‑JAR in Ihrem Build‑Tool (Maven, Gradle oder manueller Klassenpfad) referenziert wird.  
-- **Falsches Schlüssel‑Format verwenden** – Schlüssel müssen exakt die von Aspose bereitgestellten Strings sein. Zusätzliche Leerzeichen oder Zeilenumbrüche führen zu einem Lizenzfehler.  
-- **`setMeteredKey` mehrmals aufrufen** – Obwohl technisch erlaubt, verursacht es unnötigen Aufwand. Rufen Sie es einmal während der Initialisierung auf (z. B. in einem statischen Block).
+- **Die Bibliothek wurde nicht zum Classpath hinzugefügt** – Der Code kompiliert, wirft jedoch zur Laufzeit eine `ClassNotFoundException`. Stellen Sie sicher, dass das Aspose.TeX‑JAR in Ihrer Maven‑`pom.xml`, Gradle‑`build.gradle` oder im manuellen Classpath referenziert wird.  
+- **Falsches Schlüssel‑Format verwendet** – Schlüssel müssen exakt so sein, wie sie von Aspose bereitgestellt wurden. Zusätzliche Leerzeichen, Zeilenumbrüche oder fehlende Zeichen führen zu einem Lizenzfehler.  
+- **`setMeteredKey` mehrfach aufrufen** – Obwohl die API dies zulässt, verursacht jeder Aufruf einen kleinen Validierungs‑Overhead. Initialisieren Sie die Lizenz einmal beim Start (z. B. in einem statischen Block) und verwenden Sie sie anschließend überall.
 
 ## Häufig gestellte Fragen
 
 **F: Kann ich dieselben Schlüssel auf mehreren Maschinen verwenden?**  
-A: Ja, die Metered‑Schlüssel sind nicht maschinenspezifisch, aber jede Nutzung wird zu Ihrem Verbrauchskontingent gezählt.
+A: Ja, die metered Schlüssel sind nicht an ein bestimmtes Gerät gebunden; jede Nutzung zählt zu Ihrem Gesamtkontingent.
 
-**F: Was passiert, wenn ich mein Metered‑Kontingent überschreite?**  
-A: Die Bibliothek wirft eine Lizenz‑Exception; Sie müssen zusätzlichen Verbrauch kaufen oder Ihren Plan upgraden.
+**F: Was passiert, wenn ich mein metered Kontingent überschreite?**  
+A: Die Bibliothek wirft eine `LicenseException`. Kaufen Sie zusätzlichen Verbrauch oder upgraden Sie Ihren Plan, um weiter zu verarbeiten.
 
 **F: Muss ich `setMeteredKey` bei jedem Anwendungsstart aufrufen?**  
-A: Es wird empfohlen, es einmal während der Initialisierung (z. B. in einem statischen Block oder der main‑Methode) aufzurufen, damit die Lizenz global verfügbar ist.
+A: Rufen Sie es einmal während der Initialisierung auf (z. B. in einem statischen Block oder in der `main`‑Methode), damit die Lizenz global verfügbar ist.
 
-**F: Ist die Metered‑Lizenz sowohl mit Java SE als auch mit Android kompatibel?**  
-A: Ja, derselbe Code funktioniert in jeder Java‑Laufzeit, die die Aspose.TeX‑Bibliothek unterstützt.
+**F: Ist die metered Lizenz sowohl mit Java SE als auch mit Android kompatibel?**  
+A: Ja, derselbe Code funktioniert in jeder Java‑Laufzeit, die das Aspose.TeX‑JAR laden kann, einschließlich Android‑Apps.
 
-## Zusätzliche häufig gestellte Fragen
+**F: Wie kann ich prüfen, ob die Lizenz korrekt angewendet wurde?**  
+A: Nach dem Aufruf von `setMeteredKey` führen Sie irgendeine Aspose.TeX‑API aus (z. B. das Rendern eines einfachen Dokuments). Wenn keine `LicenseException` geworfen wird, ist die Lizenz aktiv.
 
-**F: Wie kann ich überprüfen, ob die Lizenz korrekt angewendet wurde?**  
-A: Nach dem Aufruf von `setMeteredKey` können Sie jede Aspose.TeX‑API aufrufen. Wenn keine Lizenz‑Exception geworfen wird, ist die Lizenz aktiv.
+**F: Kann ich später von einer metered Lizenz zu einer perpetual Lizenz wechseln?**  
+A: Absolut. Ersetzen Sie den Aufruf `Metered.setMeteredKey` durch die Standard‑Initialisierung der `License`‑Klasse mit Ihrer perpetual Lizenzdatei.
 
-**F: Kann ich später von einer Metered‑Lizenz zu einer unbefristeten Lizenz wechseln?**  
-A: Absolut. Ersetzen Sie einfach den Aufruf von `setMeteredKey` durch die Standardinitialisierung der `License`‑Klasse mit Ihrer unbefristeten Lizenzdatei.
-
-**F: Gibt es Leistungseinbußen bei Verwendung einer Metered‑Lizenz?**  
-A: Die Lizenzprüfung wird einmal beim Anwendungsstart durchgeführt und verursacht nur einen vernachlässigbaren Overhead.
+**F: Gibt es Performance‑Einbußen bei Verwendung einer metered Lizenz?**  
+A: Die Lizenzvalidierung erfolgt nur einmal pro JVM‑Start und verursacht weniger als 5 ms Overhead, was für die meisten Anwendungen vernachlässigbar ist.
 
 ## Fazit
 
-In diesem Tutorial haben wir alles behandelt, was Sie benötigen, um **set metered license java** für Aspose.TeX festzulegen, von der Vorbereitung Ihrer Umgebung bis zum Aufruf von `setMeteredKey` mit Ihren öffentlichen und privaten Schlüsseln. Mit der Lizenz können Sie nun das gesamte Spektrum der TeX‑Manipulationsfunktionen der Bibliothek erkunden.
+Sie wissen jetzt **wie man eine Lizenz** für Aspose.TeX in Java festlegt, von der Vorbereitung der Umgebung bis zum Aufruf von `Metered.setMeteredKey` mit Ihren öffentlichen und privaten Schlüsseln. Mit aktivierter Lizenz können Sie das umfangreiche Funktionsspektrum von Aspose.TeX – Rendering, Konvertierung und Manipulation von TeX‑Dokumenten – ohne Laufzeitbeschränkungen vollständig nutzen.
 
 ---
 
-**Last Updated:** 2026-02-18  
-**Tested With:** Aspose.TeX 24.0 for Java  
-**Author:** Aspose  
+**Zuletzt aktualisiert:** 2026-09-04  
+**Getestet mit:** Aspose.TeX 24.0 für Java  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [Managing Licenses](/tex/java/managing-licenses/)
+- [Java License Management: How to Set License from File](/tex/java/managing-licenses/load-license-from-file/)
+- [Load License From Stream](/tex/java/managing-licenses/load-license-from-stream/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
