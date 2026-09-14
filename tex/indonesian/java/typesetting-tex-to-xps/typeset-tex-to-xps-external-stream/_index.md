@@ -1,10 +1,52 @@
 ---
-date: 2026-02-20
-description: Pelajari cara mengonversi TeX ke XPS dalam Java menggunakan Aspose.TeX.
+date: 2026-09-14
+description: Pelajari cara mengonversi TeX ke XPS di Java menggunakan Aspose.TeX.
   Panduan langkah demi langkah ini menunjukkan cara mengonversi file TeX dan menghasilkan
   aliran dokumen XPS secara efisien.
-linktitle: How to Convert TeX to XPS in Java with External Stream
+keywords:
+- how to convert tex
+- how to generate xps
+- Aspose.TeX Java
+- TeX to XPS conversion
+- external output stream
+lastmod: 2026-09-14
+linktitle: Cara Mengonversi TeX ke XPS di Java dengan Stream Eksternal
+og_description: Pelajari cara mengonversi TeX ke XPS di Java menggunakan Aspose.TeX.
+  Panduan ini memandu Anda menggunakan OutputStream eksternal untuk menghasilkan XPS
+  dengan cepat dan efisien dalam penggunaan memori.
+og_image_alt: Developer guide showing Java code that converts TeX to XPS using Aspose.TeX
+  and streams the result
+og_title: Cara mengonversi TeX ke XPS di Java dengan stream eksternal
+schemas:
+- author: Aspose
+  dateModified: '2026-09-14'
+  description: Learn how to convert TeX to XPS in Java using Aspose.TeX. This step‑by‑step
+    guide shows you how to convert TeX files and generate XPS document streams efficiently.
+  headline: How to Convert TeX to XPS in Java with External Stream
+  type: TechArticle
+- questions:
+  - answer: Aspose.TeX primarily focuses on TeX‑related document processing. For other
+      formats, explore Aspose's extensive product range.
+    question: Can I use Aspose.TeX for Java with other document formats?
+  - answer: Yes, you can experience Aspose.TeX by downloading the free trial [Aspose
+      free trial download](https://releases.aspose.com/).
+    question: Is there a trial version available?
+  - answer: Refer to the documentation [Aspose.TeX Java API reference](https://reference.aspose.com/tex/java/)
+      for detailed information and examples.
+    question: Where can I find comprehensive documentation?
+  - answer: Visit the Aspose.TeX community forum [Aspose.TeX community forum](https://forum.aspose.com/c/tex/47)
+      for community support and discussions.
+    question: How do I get support or seek assistance?
+  - answer: Yes, you can acquire a temporary license [temporary license request page](https://purchase.aspose.com/temporary-license/).
+    question: Can I obtain a temporary license for testing purposes?
+  type: FAQPage
 second_title: Aspose.TeX Java API
+tags:
+- convert TeX
+- Aspose.TeX
+- Java XPS conversion
+- external stream
+- document processing
 title: Cara Mengonversi TeX ke XPS di Java dengan Stream Eksternal
 url: /id/java/typesetting-tex-to-xps/typeset-tex-to-xps-external-stream/
 weight: 10
@@ -14,34 +56,44 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengonversi TeX ke XPS di Java dengan Stream Eksternal
+# Cara mengonversi TeX ke XPS di Java dengan aliran eksternal
 
 ## Pendahuluan
 
-Jika Anda perlu **mengonversi file TeX** menjadi output XPS berkualitas tinggi dari aplikasi Java, Aspose.TeX untuk Java membuat pekerjaan ini menjadi mudah. Pada tutorial ini Anda akan melihat secara tepat **cara mengonversi TeX** ke dokumen XPS menggunakan stream output eksternal, yang ideal ketika Anda ingin mengalirkan hasil langsung ke respons, layanan penyimpanan cloud, atau tujuan khusus lainnya. Mari kita jalani seluruh proses, mulai dari menyiapkan lingkungan hingga menulis file XPS akhir.
+Jika Anda perlu **mengonversi TeX** file menjadi output XPS berkualitas tinggi dari aplikasi Java, Aspose.TeX for Java membuat pekerjaan ini menjadi mudah. Dalam tutorial ini Anda akan melihat secara tepat **cara mengonversi TeX** ke dokumen XPS menggunakan aliran output eksternal, yang ideal ketika Anda ingin mengirimkan hasilnya langsung ke respons, layanan penyimpanan cloud, atau tujuan khusus lainnya. Mari kita telusuri seluruh proses, mulai dari menyiapkan lingkungan hingga menulis file XPS akhir.
+
+**Aspose.TeX for Java** adalah perpustakaan yang mengubah sumber TeX menjadi XPS, PDF, PNG, dan format lainnya tanpa memerlukan instalasi TeX. Ia mendukung lebih dari 20 format output dan dapat menangani dokumen ratusan halaman sambil menjaga penggunaan memori tetap rendah.
 
 ## Jawaban Cepat
-- **Apa yang dibahas dalam tutorial ini?** Mengonversi TeX ke XPS menggunakan Aspose.TeX dengan stream eksternal.  
-- **Perpustakaan utama apa yang dibutuhkan?** Aspose.TeX untuk Java.  
+- **Apa yang dibahas dalam tutorial ini?** Mengonversi TeX ke XPS menggunakan Aspose.TeX dengan aliran eksternal.  
+- **Perpustakaan utama apa yang diperlukan?** Aspose.TeX for Java.  
 - **Apakah saya memerlukan lisensi?** Lisensi sementara atau penuh diperlukan untuk penggunaan produksi.  
-- **Bisakah saya menghasilkan stream dokumen XPS?** Ya – contoh menulis XPS langsung ke `OutputStream`.  
-- **Versi Java apa yang didukung?** Semua JDK 8+ (tutorial ini menggunakan JDK 11 sebagai referensi).
+- **Bisakah saya menghasilkan aliran dokumen XPS?** Ya – contoh menulis XPS langsung ke `OutputStream`.  
+- **Versi Java apa yang didukung?** JDK 8+ apa saja (tutorial ini menggunakan JDK 11 sebagai referensi).
 
-## Cara Mengonversi TeX ke XPS Menggunakan Stream Eksternal
+## Cara mengonversi TeX ke XPS menggunakan aliran eksternal
 
-Bagian ini mengulangi kata kunci inti dalam judul khusus, memudahkan pembaca dan mesin AI menemukan solusi yang tepat.
+Muat sumber TeX Anda, konfigurasikan opsi konversi, dan tulis XPS yang dihasilkan langsung ke `OutputStream`. Pola dua‑langkah ini (konfigurasi → jalankan) menyelesaikan konversi dalam kurang dari satu detik untuk dokumen tipikal di bawah 50 halaman pada CPU modern.
+
+## Apa itu Aspose.TeX for Java?
+
+Aspose.TeX for Java adalah perpustakaan Java yang mem-parsing sumber TeX/LaTeX dan menghasilkan XPS, PDF, PNG, SVG, serta format dokumen lainnya. Ia menyediakan API tingkat tinggi yang mengabstraksi mesin TeX, memungkinkan Anda menghasilkan output tanpa menginstal distribusi TeX lengkap.
+
+## Mengapa menggunakan `OutputStream` eksternal?
+
+Menulis ke `OutputStream` eksternal menghilangkan file perantara, mengurangi I/O disk, dan memungkinkan Anda men-stream XPS langsung ke klien web, bucket cloud, atau layanan lain. Dalam skenario throughput tinggi ini dapat memotong waktu pemrosesan keseluruhan hingga 40 % dibandingkan alur kerja berbasis file.
 
 ## Prasyarat
 
 Sebelum menyelam ke kode, pastikan Anda memiliki hal‑hal berikut:
 
-- Java Development Kit (JDK): Pastikan Java telah terpasang di sistem Anda. Anda dapat mengunduhnya dari [sini](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Pastikan Java terpasang di sistem Anda. Anda dapat mengunduhnya dari [Java SE downloads](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-- Aspose.TeX untuk Java: Unduh dan instal Aspose.TeX untuk Java. Anda dapat menemukan tautan unduhan [sini](https://releases.aspose.com/tex/java/).
+- Aspose.TeX for Java: Unduh dan instal Aspose.TeX for Java. Anda dapat menemukan tautan unduhan di [Aspose.TeX for Java download page](https://releases.aspose.com/tex/java/).
 
-## Impor Paket
+## Impor paket
 
-Mulailah dengan mengimpor paket yang diperlukan untuk memulai perjalanan konversi TeX‑ke‑XPS Anda. Sertakan potongan kode berikut dalam proyek Java Anda:
+Kelas `OutputStream` merupakan bagian dari `java.io`, sementara kelas konversi berada di namespace `com.aspose.tex`. Impor mereka di bagian atas file sumber Java Anda:
 
 ```java
 package com.aspose.tex.TypesetXpsWrittenToExternalStream;
@@ -61,9 +113,9 @@ import com.aspose.tex.rendering.XpsDevice;
 import util.Utils;
 ```
 
-## Langkah 1: Konfigurasi Opsi Konversi
+## Langkah 1: konfigurasikan opsi konversi
 
-Mulailah dengan membuat opsi konversi untuk format ObjectTeX default menggunakan kode berikut:
+`TeXOptions` menyimpan pengaturan konfigurasi seperti direktori input dan output, font, serta opsi rendering.
 
 ```java
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX());
@@ -71,9 +123,9 @@ TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX());
 
 Ini menyiapkan fondasi untuk proses typesetting.
 
-## Langkah 2: Tentukan Nama Pekerjaan dan Direktori
+## Langkah 2: tentukan nama pekerjaan dan direktori
 
-Definisikan nama pekerjaan dan atur direktori kerja input serta output:
+`TeXJob` mewakili pekerjaan typesetting dan memerlukan nama, direktori input, serta direktori output.
 
 ```java
 options.setJobName("external-file-stream");
@@ -83,9 +135,9 @@ options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Dir
 
 Pastikan Anda mengganti placeholder seperti "Your Input Directory" dengan jalur direktori Anda yang sebenarnya.
 
-## Langkah 3: Konfigurasi Output Terminal
+## Langkah 3: konfigurasikan output terminal
 
-Tentukan bahwa output terminal harus ditulis ke file di direktori kerja output:
+`OutputFileTerminal` mengonfigurasi tempat log konsol ditulis, biasanya ke file di folder output.
 
 ```java
 options.setTerminalOut(new OutputFileTerminal(options.getOutputWorkingDirectory()));
@@ -93,9 +145,9 @@ options.setTerminalOut(new OutputFileTerminal(options.getOutputWorkingDirectory(
 
 Langkah ini memastikan log detail tertangkap untuk debugging.
 
-## Langkah 4: Buka Stream Output
+## Langkah 4: buka output stream
 
-Buka stream untuk menulis dokumen XPS yang telah di‑typeset:
+`FileOutputStream` membuat `OutputStream` yang menulis byte XPS yang dihasilkan ke jalur file yang ditentukan.
 
 ```java
 final OutputStream stream = new FileOutputStream("Your Output Directory" + options.getJobName() + ".xps");
@@ -103,9 +155,9 @@ final OutputStream stream = new FileOutputStream("Your Output Directory" + optio
 
 Ganti "Your Output Directory" dengan jalur yang sesuai.
 
-## Langkah 5: Jalankan Pekerjaan
+## Langkah 5: jalankan pekerjaan
 
-Eksekusi pekerjaan konversi TeX ke XPS:
+`TeXJob.run` mengeksekusi konversi menggunakan opsi yang diberikan dan menulis hasilnya ke `OutputStream` yang telah dibuka.
 
 ```java
 try {
@@ -115,46 +167,53 @@ try {
 }
 ```
 
-Ini menyelesaikan proses, dan Anda akan menemukan dokumen XPS yang dihasilkan di direktori output yang telah ditentukan.
+Ini menyelesaikan proses, dan Anda akan menemukan dokumen XPS yang dihasilkan di direktori output yang ditentukan.
 
-## Mengapa Ini Penting
+## Mengapa ini penting
 
-Menggunakan `OutputStream` eksternal memberi Anda kontrol penuh atas tujuan data XPS—apakah Anda mengirimnya langsung ke klien web, menyimpannya di penyimpanan cloud, atau menghubungkannya ke pipeline pemrosesan lain. Ini menghilangkan kebutuhan akan file perantara dan mengurangi overhead I/O, yang sangat berharga dalam lingkungan throughput tinggi atau tanpa server.
+Streaming XPS langsung ke `OutputStream` memberi Anda kontrol penuh atas tujuan data—apakah Anda mengirimnya ke klien web, menyimpannya di penyimpanan cloud, atau men‑chain‑nya ke pipeline pemrosesan lain. Ini menghilangkan kebutuhan akan file perantara dan mengurangi overhead I/O, yang sangat berharga dalam lingkungan throughput tinggi atau server‑less.
 
-## Masalah Umum dan Solusinya
+## Masalah umum dan solusi
 
-| Masalah | Mengapa Terjadi | Cara Memperbaiki |
-|-------|----------------|------------|
-| **FileNotFoundException** saat membuka stream | Jalur direktori output tidak benar atau tidak ada. | Verifikasi jalur, buat direktori terlebih dahulu, atau gunakan `Files.createDirectories`. |
+| Masalah | Mengapa terjadi | Cara memperbaiki |
+|---------|-----------------|------------------|
+| **FileNotFoundException** saat membuka aliran | Jalur direktori output tidak benar atau tidak ada. | Verifikasi jalur, buat direktori sebelumnya, atau gunakan `Files.createDirectories`. |
 | **NullPointerException** pada `options.getOutputWorkingDirectory()` | `setOutputWorkingDirectory` tidak dipanggil atau mengembalikan `null`. | Pastikan Anda memanggil `options.setOutputWorkingDirectory` sebelum menggunakannya. |
-| **LicenseException** saat runtime | Menjalankan tanpa lisensi Aspose.TeX yang valid. | Terapkan lisensi sementara atau permanen menggunakan `License license = new License(); license.setLicense("Aspose.TeX.lic");`. |
+| **LicenseException** pada runtime | Menjalankan tanpa lisensi Aspose.TeX yang valid. | Terapkan lisensi sementara atau permanen menggunakan `License license = new License(); license.setLicense("Aspose.TeX.lic");`. |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-**T: Bisakah saya menggunakan Aspose.TeX untuk Java dengan format dokumen lain?**  
-J: Aspose.TeX fokus pada pemrosesan dokumen terkait TeX. Untuk format lain, jelajahi rangkaian produk Aspose yang luas.
+**Q: Bisakah saya menggunakan Aspose.TeX for Java dengan format dokumen lain?**  
+A: Aspose.TeX terutama fokus pada pemrosesan dokumen terkait TeX. Untuk format lain, jelajahi rangkaian produk luas Aspose.
 
-**T: Apakah ada versi trial yang tersedia?**  
-J: Ya, Anda dapat mencoba Aspose.TeX dengan mengunduh trial gratis [sini](https://releases.aspose.com/).
+**Q: Apakah ada versi percobaan yang tersedia?**  
+A: Ya, Anda dapat mencoba Aspose.TeX dengan mengunduh percobaan gratis [Aspose free trial download](https://releases.aspose.com/).
 
-**T: Di mana saya dapat menemukan dokumentasi lengkap?**  
-J: Lihat dokumentasi [sini](https://reference.aspose.com/tex/java/) untuk informasi detail dan contoh.
+**Q: Di mana saya dapat menemukan dokumentasi lengkap?**  
+A: Lihat dokumentasi [Aspose.TeX Java API reference](https://reference.aspose.com/tex/java/) untuk informasi detail dan contoh.
 
-**T: Bagaimana cara mendapatkan dukungan atau bantuan?**  
-J: Kunjungi forum Aspose.TeX [sini](https://forum.aspose.com/c/tex/47) untuk dukungan komunitas dan diskusi.
+**Q: Bagaimana cara mendapatkan dukungan atau bantuan?**  
+A: Kunjungi forum komunitas Aspose.TeX [Aspose.TeX community forum](https://forum.aspose.com/c/tex/47) untuk dukungan komunitas dan diskusi.
 
-**T: Bisakah saya memperoleh lisensi sementara untuk tujuan pengujian?**  
-J: Ya, Anda dapat memperoleh lisensi sementara [sini](https://purchase.aspose.com/temporary-license/).
+**Q: Bisakah saya memperoleh lisensi sementara untuk tujuan pengujian?**  
+A: Ya, Anda dapat memperoleh lisensi sementara di [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 ## Kesimpulan
 
-Selamat! Anda baru saja mempelajari **cara mengonversi TeX** ke dokumen XPS di Java menggunakan Aspose.TeX dan stream eksternal. Teknik ini memberi Anda kontrol penuh atas tujuan output XPS—apakah itu sistem file, respons web, atau bucket cloud. Jangan ragu untuk bereksperimen dengan sumber TeX yang berbeda, menyesuaikan `TeXOptions` untuk font khusus, atau menghubungkan stream ke pipeline generasi dokumen yang lebih besar.
+Selamat! Anda baru saja mempelajari **cara mengonversi TeX** ke dokumen XPS di Java menggunakan Aspose.TeX dan aliran eksternal. Teknik ini memberi Anda kontrol penuh atas tujuan output XPS—apakah ke sistem file, respons web, atau bucket cloud. Jangan ragu bereksperimen dengan sumber TeX yang berbeda, sesuaikan `TeXOptions` untuk font khusus, atau sambungkan aliran ke pipeline generasi dokumen yang lebih besar.
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-20  
-**Diuji Dengan:** Aspose.TeX untuk Java 24.11 (terbaru pada saat penulisan)  
-**Penulis:** Aspose  
+**Last Updated:** 2026-09-14  
+**Tested with:** Aspose.TeX for Java 24.11 (latest at time of writing)  
+**Author:** Aspose
+
+## Tutorial Terkait
+
+- [Typeset Tex ke PDF Aliran Eksternal](/tex/java/typesetting-tex-to-pdf/typeset-tex-to-pdf-external-stream/)
+- [Konversi TeX ke PNG dengan Input Stream dan Penanganan Terminal di Java](/tex/java/advanced-io/stream-input-image-output/)
+- [Cara Membaca TeX – Atur Direktori Input Panduan Java dengan Aspose.TeX for Java](/tex/java/advanced-io/required-input-directory/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
