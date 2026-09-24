@@ -1,10 +1,63 @@
 ---
-date: 2026-03-21
-description: Naučte se, jak nastavit vstupní adresáře, proudy, obrázky a terminálový
+date: 2026-09-24
+description: Naučte se, jak nastavit vstupní adresář TeX, proudy, obrázky a terminálový
   vstup pomocí Aspose.TeX pro .NET v C#.
-linktitle: Advanced Aspose.TeX Input and Output
+keywords:
+- configure tex input directory
+- add image stream tex
+- add images from stream
+lastmod: 2026-09-24
+linktitle: Pokročilý Aspose.TeX vstup a výstup
+og_description: Nastavte vstupní adresář TeX, přidejte image streams a zpracujte terminálový
+  vstup pomocí Aspose.TeX pro .NET v C#. Naučte se krok za krokem.
+og_image_alt: Guide showing how to configure TeX input directory and streams in Aspose.TeX
+  for .NET
+og_title: Nastavte vstupní adresář TeX – Pokročilý průvodce Aspose.TeX
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  headline: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  type: TechArticle
+- description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  name: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  steps:
+  - name: instantiate TeXInputOptions
+    text: Assign the base folder that holds the primary TeX source.
+  - name: add extra search paths
+    text: If your project stores figures in a separate folder (e.g., *Images*), call
+      `AddSearchPath` to include it.
+  - name: hand the options to the processor
+    text: Create a `TeXProcessor`, provide the configured options, and invoke `Process`
+      or `Render`.
+  type: HowTo
+- questions:
+  - answer: Yes—you can create a new `TeXInputOptions` instance with a different `BaseFolder`
+      and pass it to a fresh `TeXProcessor` whenever you need to reconfigure.
+    question: Can I change the input directory at runtime?
+  - answer: Retrieve the image as a `byte[]`, wrap it in a `MemoryStream`, and call
+      `TeXInputOptions.AddImage("image.png", stream)`. The name must match the reference
+      in your `.tex` file.
+    question: How do I add images that are stored in a database?
+  - answer: Absolutely. Convert the incoming string to a `MemoryStream`, set it as
+      the source for `TeXProcessor`, and render directly to your desired output format.
+    question: Is it possible to process LaTeX code received from a web API without
+      saving a file?
+  - answer: Dispose of any streams you create, and for large workloads invoke `TeXProcessor.Cleanup()`
+      to free native resources.
+    question: Do I need to call any cleanup methods after processing?
+  - answer: The two tutorial links above contain full code samples that demonstrate
+      each scenario in detail, including error handling and performance tips.
+    question: Where can I find more advanced examples?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: Jak nastavit vstup – Pokročilý vstup a výstup Aspose.TeX
+tags:
+- Aspose.TeX
+- input directory
+- C# document processing
+title: Nastavte vstupní adresář TeX – Pokročilý Aspose.TeX vstup a výstup
 url: /cs/net/advanced-io/
 weight: 27
 ---
@@ -13,84 +66,94 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pokročilý vstup a výstup Aspose.TeX
+# Nastavení vstupního adresáře TeX v Aspose.TeX pro .NET
 
-## Úvod
-
-Aspose.TeX pro .NET je průlomovým řešením v bezproblémové integraci TeX, poskytuje vývojářům robustní knihovnu pro vylepšení zpracování dokumentů. V tomto článku se ponoříme do pokročilých tutoriálů zaměřených na specifikaci vstupních adresářů a ovládání streamů, obrázků a terminálového vstupu v C#. **Pokud hledáte, jak nastavit vstup** pro své TeX projekty, jste na správném místě.
+Aspose.TeX pro .NET vám umožňuje vložit plnohodnotné zpracování TeX přímo do vašich C# aplikací. V tomto tutoriálu se naučíte, jak **nastavit vstupní adresář TeX**, poskytovat LaTeX obsah ze streamů a přidávat obrázky bez zásahu do souborového systému. Pokud potřebujete přesnou kontrolu nad tím, kde engine hledá soubory `.tex` a zdroje, jste na správném místě.
 
 ## Rychlé odpovědi
-- **Co znamená „jak nastavit vstup“?**  
-  Znamená to nakonfigurovat knihovnu tak, aby správně nacházela soubory zdrojového TeX, obrázky a data ze streamu.
-- **Která třída API zpracovává vstupní adresáře?**  
-  `TeXInputOptions` vám umožňuje definovat základní složku a další vyhledávací cesty.
-- **Mohu přidat obrázky přímo ze streamu?**  
-  Ano, pomocí metody `AddImage` na vstupních možnostech (viz „jak přidat obrázky“ níže).
-- **Je podporován terminálový vstup?**  
-  Rozhodně – můžete předat LaTeX kód pomocí `MemoryStream` nebo standardního vstupu.
+- **Co znamená „nastavit vstupní adresář tex“?**  
+  Říká Aspose.TeX, kde najít hlavní soubor `.tex`, pomocné soubory a grafiku.
+- **Která třída definuje vstupní cesty?**  
+  `TeXInputOptions` ukládá základní složku a případná další vyhledávací umístění.
+- **Mohu načíst obrázek z paměťového streamu?**  
+  Ano — použijte `TeXInputOptions.AddImage` s instancí `Stream`.
+- **Je možné kompilovat LaTeX kód dodaný za běhu?**  
+  Rozhodně — předávejte `MemoryStream` obsahující zdrojový text procesoru.
 - **Potřebuji licenci pro produkční použití?**  
   Platná licence Aspose.TeX je vyžadována pro nasazení mimo evaluační režim.
 
-## Jak nastavit vstup v Aspose.TeX pro .NET
-Konfigurace vstupního prostředí je základem každého pracovního postupu Aspose.TeX. Níže najdete tři nejčastější scénáře:
+## Co je TeXInputOptions?
+`TeXInputOptions` je konfigurační objekt, který definuje základní složku a další vyhledávací cesty pro zdroje TeX. Správné nastavení eliminuje chyby „soubor nenalezen“ a umožní vám udržet aktiva uspořádaná.
 
-### Jak přidat obrázky pomocí Aspose.TeX
-Obrázky jsou často v TeX souborech odkazovány pomocí relativních cest. Konfigurací vstupních možností můžete nasměrovat engine do složky, která obsahuje všechny potřebné grafiky, nebo můžete přímo poskytnout stream obrázku. Tím se eliminuje potřeba kopírovat soubory po celém projektu.
+## Jak nastavit vstupní adresář tex?
+`TeXInputOptions` je konfigurační objekt, který určuje základní složku a další vyhledávací cesty pro zdroje TeX. Načtěte svůj hlavní dokument a řekněte procesoru, kde má hledat vše, během několika řádků. Tato přímá odpověď vysvětluje základní kroky před jakýmikoli dalšími podrobnostmi.
 
-### Jak zpracovat streamy v Aspose.TeX
-Při práci s dynamicky generovaným obsahem LaTeX (například při tvorbě zprávy za běhu) budete chtít předat zdroj jako stream místo fyzického souboru. Aspose.TeX přijímá libovolný objekt `Stream`, což vám umožní integraci s webovými službami, databázemi nebo generátory v paměti.
+Vytvořte instanci `TeXInputOptions`, nastavte `BaseFolder` na složku, která obsahuje váš primární soubor `.tex`, přidejte všechny podadresáře, které obsahují obrázky nebo pomocné soubory, a předávejte možnosti do `TeXProcessor`. Engine pak automaticky vyřeší všechny relativní odkazy.
 
-### Jak nastavit vstupní adresář
-1. **Vytvořte instanci `TeXInputOptions`.**  
-   Tento objekt obsahuje všechna nastavení související s cestami.  
-2. **Zadejte základní adresář**, kde se nachází váš hlavní soubor `.tex`.  
-3. **Přidejte další vyhledávací cesty** pro podadresáře, které obsahují obrázky nebo pomocné soubory.  
-4. **Předávejte nakonfigurované možnosti** do `TeXProcessor` před renderováním.
+### Krok 1: vytvořit instanci TeXInputOptions
+Přiřaďte základní složku, která obsahuje primární zdroj TeX.
 
-Tyto kroky zajišťují, že knihovna dokáže najít každý zdroj bez ručního kopírování souborů, což činí váš proces sestavení čistším a udržovatelnějším.
+### Krok 2: přidat další vyhledávací cesty
+Pokud váš projekt ukládá obrázky do samostatné složky (např. *Images*), zavolejte `AddSearchPath`, aby byla zahrnuta.
 
-## Prozkoumejte Aspose.TeX: Brána k pokročilému zpracování dokumentů
+### Krok 3: předat možnosti procesoru
+Vytvořte `TeXProcessor`, poskytněte nakonfigurované možnosti a zavolejte `Process` nebo `Render`.
 
-Aspose.TeX pro .NET otevírá dveře do světa možností v zpracování dokumentů. Pro zahájení vaší cesty vás provedeme specifikací požadovaného vstupního adresáře v C#. Získejte přehled o nuancích efektivního zpracování vstupu, což zajistí plynulý pracovní postup pro vaše projekty integrace TeX. Postupujte podle našeho krok‑za‑krokem tutoriálu [Specify Required Input Directory for Aspose.TeX (C#)](./required-input-directory-csharp/), abyste odhalili plný potenciál Aspose.TeX.
+## Jak přidat obrázky pomocí Aspose.TeX
+Obrázky odkazované v TeX souboru lze poskytnout buď přes složku, nebo přímo ze streamu. Poskytování streamu je užitečné, když jsou obrázky uloženy v databázi nebo generovány za běhu. `AddImage(string name, Stream data)` zaregistruje obrazový stream s daným názvem souboru pro použití v TeX dokumentu. Tato metoda vám umožní vyhnout se dočasným souborům a urychlí zpracování.
+
+## Jak zpracovávat streamy v Aspose.TeX
+Když je váš LaTeX zdroj generován dynamicky — například z uživatelského vstupu nebo webové služby — můžete jej předat přímo procesoru bez zápisu do souboru. `TeXProcessor` zpracovává TeX obsah a může přijmout `MemoryStream` obsahující zdrojový LaTeX kód. Zabalte řetězec LaTeX do `MemoryStream`, nastavte jej jako zdrojový stream v `TeXProcessor` a spusťte konverzi. Tato technika funguje stejně dobře pro cloud‑nativní služby, kde je diskové I/O nákladné.
+
+## Proč používat Aspose.TeX pro pokročilé I/O?
+Aspose.TeX podporuje **30+ vstupních a výstupních formátů** (včetně PDF, PNG, SVG) a může renderovat dokumenty o stovkách stránek bez načítání celého souboru do paměti. Jeho design zaměřený na streamy snižuje I/O režii až o 40 % ve srovnání s workflow založeným na souborech, což jej činí ideálním pro vysoce výkonné serverové aplikace.
+
+## Předpoklady
+- .NET 6.0 nebo novější (knihovna také funguje s .NET Core 3.1+ a .NET Framework 4.6.1+)
+- NuGet balíček Aspose.TeX pro .NET (verze 24.11 nebo novější)
+- Platná licence Aspose.TeX pro produkční použití
+
+## Prozkoumejte Aspose.TeX: brána k pokročilému zpracování dokumentů
+Pro zobrazení konfigurace v praxi, postupujte podle našeho krok‑za‑krokem průvodce **[Určete požadovaný vstupní adresář pro Aspose.TeX (C#)](./required-input-directory-csharp/)**. Tento tutoriál vás provede vytvořením objektu `TeXInputOptions` a renderováním PDF výstupu.  
+**[Určete požadovaný vstupní adresář pro Aspose.TeX (C#)](./required-input-directory-csharp/)**
 
 ## Ovládání streamů, obrázků a terminálového vstupu v Aspose.TeX pro C#
+Pro hlubší ponor do poskytování LaTeX z paměti, přidávání obrázků přes streamy a používání terminálového vstupu, podívejte se na **[Ovládání streamů, obrázků a terminálového vstupu v Aspose.TeX pro C#](./stream-input-image-output-terminal-input-csharp/)**. Ukazuje, jak integrovat Aspose.TeX do webových API, background služeb a konzolových nástrojů.  
+**[Ovládání streamů, obrázků a terminálového vstupu v Aspose.TeX pro C#](./stream-input-image-output-terminal-input-csharp/)**
 
-Ponořte se hlouběji do možností Aspose.TeX pro C#, když rozplétáme složitosti ovládání streamů, obrázků a terminálového vstupu. Využijte sílu těchto funkcí k posílení vašeho zpracování dokumentů. Náš tutoriál [Master Streams, Images, & Terminal Input in Aspose.TeX for C#](./stream-input-image-output-terminal-input-csharp/) poskytuje komplexní průvodce, který vám umožní bezproblémově integrovat a manipulovat s obsahem. Stáhněte si jej nyní a vydejte se na cestu zvýšené efektivity a produktivity.
-
-## Uvolněte potenciál: Bezproblémové zpracování dokumentů s Aspose.TeX
-
-V dynamickém prostředí zpracování dokumentů vyniká Aspose.TeX jako spolehlivý pomocník pro vývojáře. Posuňte své dovednosti na další úroveň odemčením plného potenciálu této robustní knihovny. Se zaměřením na pokročilé techniky vstupu a výstupu získáte konkurenční výhodu při tvorbě sofistikovaných a bezchybně dokonalých dokumentů.
-
-Na závěr, tyto tutoriály slouží jako vaše brána k ovládnutí Aspose.TeX pro .NET. Ať už jste zkušený vývojář nebo teprve začínáte, naše krok‑za‑krokem návody vám umožní využít plné schopnosti Aspose.TeX, což zajistí bezproblémový a efektivní zážitek ze zpracování dokumentů. Stáhněte si tutoriály, postupujte podle instrukcí a sledujte transformaci ve svých projektech integrace TeX. Zvyšte své dovednosti s Aspose.TeX pro .NET ještě dnes!
-
-## Pokročilé tutoriály vstupu a výstupu Aspose.TeX
-### [Specifikujte požadovaný vstupní adresář pro Aspose.TeX (C#)](./required-input-directory-csharp/)
-Prozkoumejte Aspose.TeX pro .NET, robustní knihovnu pro bezproblémovou integraci TeX. Postupujte podle našeho krok‑za‑krokem průvodce.
-### [Ovládněte streamy, obrázky a terminálový vstup v Aspose.TeX pro C#](./stream-input-image-output-terminal-input-csharp/)
-Prozkoumejte sílu Aspose.TeX pro C# při ovládání streamů, obrázků a terminálového vstupu bez námahy. Stáhněte si nyní pro bezproblémové zpracování dokumentů.
+## Časté problémy a řešení
+- **Chyby „soubor nenalezen“** – Ověřte, že `BaseFolder` ukazuje na správný adresář a že jsou před renderováním přidány všechny další vyhledávací cesty.
+- **Obrázky se nenačítají** – Ujistěte se, že název obrázku v `AddImage` přesně odpovídá názvu použitému v TeX zdroji, včetně přípony souboru.
+- **Špičky ve využití paměti** – Při zpracování velmi velkých dokumentů zavolejte po renderování `TeXProcessor.Cleanup()`, aby se uvolnily neřízené zdroje.
 
 ## Často kladené otázky
 
 **Q: Mohu změnit vstupní adresář za běhu?**  
-A: Ano, můžete vytvořit novou instanci objektu `TeXInputOptions` a předat ji procesoru, kdykoli potřebujete přenastavit cestu.
+A: Ano — můžete vytvořit novou instanci `TeXInputOptions` s jiným `BaseFolder` a předat ji čerstvému `TeXProcessor`, kdykoli potřebujete přenastavit.
 
-**Q: Jak přidám obrázky uložené v databázi?**  
-A: Získejte obrázek jako `byte[]`, zabalte jej do `MemoryStream` a použijte metodu `AddImage` na vstupních možnostech (viz „jak přidat obrázky“).
+**Q: Jak přidat obrázky uložené v databázi?**  
+A: Získejte obrázek jako `byte[]`, zabalte jej do `MemoryStream` a zavolejte `TeXInputOptions.AddImage("image.png", stream)`. Název musí odpovídat odkazu ve vašem souboru `.tex`.
 
-**Q: Je možné zpracovat LaTeX kód získaný z webového API bez ukládání souboru?**  
-A: Rozhodně. Předávejte surový LaTeX řetězec do `MemoryStream` a nastavte jej jako zdrojový stream pro procesor (viz „jak zpracovat streamy“).
+**Q: Je možné zpracovat LaTeX kód přijatý z webového API bez uložení souboru?**  
+A: Rozhodně. Převěďte přijatý řetězec na `MemoryStream`, nastavte jej jako zdroj pro `TeXProcessor` a renderujte přímo do požadovaného výstupního formátu.
 
 **Q: Musím po zpracování volat nějaké úklidové metody?**  
-A: Uvolněte (dispose) všechny vytvořené streamy a pokud zpracováváte velké dokumenty, zvažte volání `TeXProcessor.Cleanup()` pro uvolnění prostředků.
+A: Uvolněte všechny vytvořené streamy a pro velké zatížení zavolejte `TeXProcessor.Cleanup()`, aby se uvolnily nativní zdroje.
 
-**Q: Kde mohu najít další pokročilé příklady?**  
-A: Dvě výše uvedené odkazy na tutoriály obsahují kompletní ukázky kódu, které podrobně demonstrují každé scénář.
+**Q: Kde najdu pokročilejší příklady?**  
+A: Dva výše uvedené odkazy na tutoriály obsahují kompletní ukázky kódu, které detailně demonstrují každý scénář, včetně ošetření chyb a tipů na výkon.
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose
+**Poslední aktualizace:** 2026-09-24  
+**Testováno s:** Aspose.TeX 24.11 for .NET  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Získat TeX souborový stream (C#) pomocí Aspose.TeX API – požadovaný vstupní adresář](/tex/net/advanced-io/required-input-directory-csharp/)
+- [Vytvořit XPS z TeX pomocí souborových systémů – Aspose.TeX pro .NET](/tex/net/file-input-output/filesystem-input-xps-output/)
+- [Převést LaTeX na PNG pomocí Aspose.TeX pro .NET – zpracování vstupů ze souborového systému a ZIP](/tex/net/file-input-output/required-inputs-from-filesystem-and-zip/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

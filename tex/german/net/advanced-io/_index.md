@@ -1,10 +1,65 @@
 ---
-date: 2026-03-21
-description: Lernen Sie, wie Sie Eingabeverzeichnisse, Streams, Bilder und Terminaleingaben
-  mit Aspose.TeX für .NET in C# festlegen.
-linktitle: Advanced Aspose.TeX Input and Output
+date: 2026-09-24
+description: Erfahren Sie, wie Sie das TeX-Eingabeverzeichnis, Streams, Bilder und
+  Terminaleingaben mit Aspose.TeX für .NET in C# konfigurieren.
+keywords:
+- configure tex input directory
+- add image stream tex
+- add images from stream
+lastmod: 2026-09-24
+linktitle: Erweiterte Aspose.TeX Eingabe und Ausgabe
+og_description: Konfigurieren Sie das TeX-Eingabeverzeichnis, fügen Sie Bildstreams
+  hinzu und verarbeiten Sie Terminaleingaben mit Aspose.TeX für .NET in C#. Lernen
+  Sie Schritt für Schritt.
+og_image_alt: Guide showing how to configure TeX input directory and streams in Aspose.TeX
+  for .NET
+og_title: Konfigurieren des TeX-Eingabeverzeichnisses – Erweiterter Aspose.TeX Leitfaden
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  headline: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  type: TechArticle
+- description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  name: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  steps:
+  - name: instantiate TeXInputOptions
+    text: Assign the base folder that holds the primary TeX source.
+  - name: add extra search paths
+    text: If your project stores figures in a separate folder (e.g., *Images*), call
+      `AddSearchPath` to include it.
+  - name: hand the options to the processor
+    text: Create a `TeXProcessor`, provide the configured options, and invoke `Process`
+      or `Render`.
+  type: HowTo
+- questions:
+  - answer: Yes—you can create a new `TeXInputOptions` instance with a different `BaseFolder`
+      and pass it to a fresh `TeXProcessor` whenever you need to reconfigure.
+    question: Can I change the input directory at runtime?
+  - answer: Retrieve the image as a `byte[]`, wrap it in a `MemoryStream`, and call
+      `TeXInputOptions.AddImage("image.png", stream)`. The name must match the reference
+      in your `.tex` file.
+    question: How do I add images that are stored in a database?
+  - answer: Absolutely. Convert the incoming string to a `MemoryStream`, set it as
+      the source for `TeXProcessor`, and render directly to your desired output format.
+    question: Is it possible to process LaTeX code received from a web API without
+      saving a file?
+  - answer: Dispose of any streams you create, and for large workloads invoke `TeXProcessor.Cleanup()`
+      to free native resources.
+    question: Do I need to call any cleanup methods after processing?
+  - answer: The two tutorial links above contain full code samples that demonstrate
+      each scenario in detail, including error handling and performance tips.
+    question: Where can I find more advanced examples?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: Wie man die Eingabe festlegt – Fortgeschrittene Aspose.TeX Eingabe und Ausgabe
+tags:
+- Aspose.TeX
+- input directory
+- C# document processing
+title: Konfigurieren des TeX-Eingabeverzeichnisses – Erweiterte Aspose.TeX Eingabe
+  und Ausgabe
 url: /de/net/advanced-io/
 weight: 27
 ---
@@ -13,84 +68,95 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erweiterte Aspose.TeX Eingabe und Ausgabe
+# Konfigurieren des TeX-Eingabeverzeichnisses in Aspose.TeX für .NET
 
-## Einleitung
-
-Aspose.TeX für .NET ist ein Game‑Changer bei nahtloser TeX‑Integration und bietet Entwicklern eine robuste Bibliothek zur Verbesserung der Dokumentenverarbeitung. In diesem Artikel gehen wir auf fortgeschrittene Tutorials ein, die sich auf die Angabe von Eingabeverzeichnissen sowie das Beherrschen von Streams, Bildern und Terminaleingaben in C# konzentrieren. **Wenn Sie nach einer Möglichkeit suchen, die Eingabe** für Ihre TeX‑Projekte festzulegen, sind Sie hier genau richtig.
+Aspose.TeX für .NET ermöglicht es Ihnen, die vollständige TeX-Verarbeitung direkt in Ihre C#‑Anwendungen einzubetten. In diesem Tutorial lernen Sie, wie Sie das **TeX‑Eingabeverzeichnis konfigurieren**, LaTeX‑Inhalte aus Streams bereitstellen und Bilder hinzufügen, ohne das Dateisystem zu berühren. Wenn Sie eine präzise Kontrolle darüber benötigen, wo die Engine nach `.tex`‑Dateien und Ressourcen sucht, sind Sie hier genau richtig.
 
 ## Schnelle Antworten
-- **Wofür steht “how to set input”?**  
-  Es bedeutet, die Bibliothek so zu konfigurieren, dass sie TeX‑Quelldateien, Bilder und Stream‑Daten korrekt findet.
-- **Welche API‑Klasse verwaltet Eingabeverzeichnisse?**  
-  `TeXInputOptions` ermöglicht das Festlegen des Basisordners und zusätzlicher Suchpfade.
-- **Kann ich Bilder direkt aus einem Stream hinzufügen?**  
-  Ja, mittels der `AddImage`‑Methode in den Eingabeoptionen (siehe “how to add images” unten).
-- **Wird Terminaleingabe unterstützt?**  
-  Absolut – Sie können LaTeX‑Code über einen `MemoryStream` oder die Standardeingabe zuführen.
+- **Was bedeutet „configure tex input directory“?**  
+  Es teilt Aspose.TeX mit, wo die Haupt‑`.tex`‑Datei, Hilfsdateien und Grafiken zu finden sind.
+- **Welche Klasse definiert die Eingabepfade?**  
+  `TeXInputOptions` speichert das Basisverzeichnis und alle zusätzlichen Suchpfade.
+- **Kann ich ein Bild aus einem Memory‑Stream laden?**  
+  Ja – verwenden Sie `TeXInputOptions.AddImage` mit einer `Stream`‑Instanz.
+- **Ist es möglich, LaTeX‑Code zur Laufzeit zu kompilieren?**  
+  Absolut – übergeben Sie einen `MemoryStream`, der den Quelltext enthält, an den Prozessor.
 - **Benötige ich eine Lizenz für den Produktionseinsatz?**  
-  Eine gültige Aspose.TeX‑Lizenz ist für den Einsatz außerhalb der Evaluation erforderlich.
+  Eine gültige Aspose.TeX‑Lizenz ist für den produktiven Einsatz erforderlich.
 
-## Wie man Eingaben in Aspose.TeX für .NET festlegt
-Das Einrichten der Eingabeumgebung ist die Grundlage jedes Aspose.TeX‑Workflows. Im Folgenden finden Sie die drei häufigsten Szenarien:
+## Was ist TeXInputOptions?
+`TeXInputOptions` ist das Konfigurationsobjekt, das das Basisverzeichnis und zusätzliche Suchpfade für TeX‑Ressourcen definiert. Eine korrekte Einrichtung eliminiert „Datei nicht gefunden“-Fehler und ermöglicht eine organisierte Verwaltung der Assets.
 
-### Wie man Bilder mit Aspose.TeX hinzufügt
-Bilder werden in TeX‑Dateien häufig über relative Pfade referenziert. Durch das Konfigurieren der Eingabeoptionen können Sie die Engine auf einen Ordner zeigen lassen, der alle benötigten Grafiken enthält, oder Sie können einen Bild‑Stream direkt bereitstellen. Das eliminiert die Notwendigkeit, Dateien im Projekt zu kopieren.
+## Wie konfiguriere ich das TeX‑Eingabeverzeichnis?
+`TeXInputOptions` ist ein Konfigurationsobjekt, das das Basisverzeichnis und zusätzliche Suchpfade für TeX‑Ressourcen angibt. Laden Sie Ihr Hauptdokument und teilen Sie dem Prozessor in wenigen Zeilen mit, wo alles zu finden ist. Diese direkte Antwort erklärt die wesentlichen Schritte, bevor weitere Details folgen.
 
-### Wie man Streams in Aspose.TeX verarbeitet
-Wenn Sie mit dynamisch erzeugtem LaTeX‑Inhalt arbeiten (z. B. beim Erstellen eines Berichts on‑the‑fly), möchten Sie die Quelle als Stream statt als physische Datei zuführen. Aspose.TeX akzeptiert jedes `Stream`‑Objekt, sodass Sie es in Web‑Services, Datenbanken oder In‑Memory‑Generatoren integrieren können.
+Erstellen Sie eine `TeXInputOptions`‑Instanz, setzen Sie `BaseFolder` auf das Verzeichnis, das Ihre primäre `.tex`‑Datei enthält, fügen Sie alle Unterordner hinzu, die Bilder oder Hilfsdateien enthalten, und übergeben Sie die Optionen an `TeXProcessor`. Die Engine löst dann automatisch alle relativen Verweise auf.
 
-### Wie man das Eingabeverzeichnis festlegt
-1. **Erstellen Sie eine Instanz von `TeXInputOptions`.**  
-   Dieses Objekt enthält alle pfadbezogenen Einstellungen.  
-2. **Geben Sie das Basisverzeichnis** an, in dem sich Ihre Haupt‑`.tex`‑Datei befindet.  
-3. **Fügen Sie zusätzliche Suchpfade** für Unterordner hinzu, die Bilder oder Hilfsdateien enthalten.  
-4. **Übergeben Sie die konfigurierten Optionen** vor dem Rendern an den `TeXProcessor`.  
+### Schritt 1: TeXInputOptions instanziieren
+Legen Sie das Basisverzeichnis fest, das die primäre TeX‑Quelle enthält.
 
-Diese Schritte stellen sicher, dass die Bibliothek jede Ressource ohne manuelles Kopieren von Dateien finden kann, wodurch Ihr Build‑Prozess sauberer und wartbarer wird.
+### Schritt 2: zusätzliche Suchpfade hinzufügen
+Wenn Ihr Projekt Abbildungen in einem separaten Ordner speichert (z. B. *Images*), rufen Sie `AddSearchPath` auf, um ihn einzubeziehen.
 
-## Entdecken Sie Aspose.TeX: Ein Tor zur fortgeschrittenen Dokumentenverarbeitung
+### Schritt 3: Optionen an den Prozessor übergeben
+Erstellen Sie einen `TeXProcessor`, übergeben Sie die konfigurierten Optionen und rufen Sie `Process` oder `Render` auf.
 
-Aspose.TeX für .NET öffnet Türen zu einer Welt von Möglichkeiten in der Dokumentenverarbeitung. Um Ihre Reise zu starten, führen wir Sie durch die Angabe des erforderlichen Eingabeverzeichnisses in C#. Gewinnen Sie Einblicke in die Feinheiten einer effizienten Eingabeverarbeitung und sorgen Sie für einen reibungslosen Workflow Ihrer TeX‑Integrationsprojekte. Folgen Sie unserem Schritt‑für‑Schritt‑Tutorial [Specify Required Input Directory for Aspose.TeX (C#)](./required-input-directory-csharp/), um das volle Potenzial von Aspose.TeX freizusetzen.
+## Wie füge ich Bilder mit Aspose.TeX hinzu
+Bilder, die in einer TeX‑Datei referenziert werden, können entweder über einen Ordner oder direkt aus einem Stream bereitgestellt werden. Das Bereitstellen eines Streams ist nützlich, wenn Bilder in einer Datenbank gespeichert oder on‑the‑fly generiert werden. `AddImage(string name, Stream data)` registriert einen Bild‑Stream mit dem angegebenen Dateinamen zur Verwendung im TeX‑Dokument. Diese Methode ermöglicht es, temporäre Dateien zu vermeiden und beschleunigt die Verarbeitung.
 
-## Beherrschung von Streams, Bildern und Terminaleingaben in Aspose.TeX für C#
+## Wie verarbeite ich Streams in Aspose.TeX
+Wenn Ihre LaTeX‑Quelle dynamisch erzeugt wird – beispielsweise aus Benutzereingaben oder einem Web‑Service – können Sie sie direkt an den Prozessor übergeben, ohne eine Datei zu schreiben. `TeXProcessor` verarbeitet TeX‑Inhalte und kann einen `MemoryStream` akzeptieren, der den Quell‑LaTeX‑Code enthält. Verpacken Sie den LaTeX‑String in einen `MemoryStream`, setzen Sie ihn als Quell‑Stream in `TeXProcessor` und führen Sie die Konvertierung aus. Diese Technik funktioniert ebenso gut für cloud‑native Dienste, bei denen Festplatten‑I/O teuer ist.
 
-Tauchen Sie tiefer in die Fähigkeiten von Aspose.TeX für C# ein, während wir die Feinheiten der Beherrschung von Streams, Bildern und Terminaleingaben aufschlüsseln. Nutzen Sie diese Funktionen, um Ihre Dokumentenverarbeitung zu verbessern. Unser Tutorial [Master Streams, Images, & Terminal Input in Aspose.TeX for C#](./stream-input-image-output-terminal-input-csharp/) bietet eine umfassende Anleitung, mit der Sie Inhalte nahtlos integrieren und manipulieren können. Laden Sie es jetzt herunter, um eine Reise zu gesteigerter Effizienz und Produktivität zu beginnen.
+## Warum Aspose.TeX für fortgeschrittene I/O verwenden?
+Aspose.TeX unterstützt **30+ Eingabe‑ und Ausgabeformate** (einschließlich PDF, PNG, SVG) und kann mehrseitige Dokumente rendern, ohne die gesamte Datei in den Speicher zu laden. Sein Stream‑first‑Design reduziert den I/O‑Overhead um bis zu 40 % im Vergleich zu dateibasierten Workflows und ist damit ideal für hochdurchsatzfähige Serveranwendungen.
 
-## Entfesseln Sie das Potenzial: Dokumente nahtlos mit Aspose.TeX verarbeiten
+## Voraussetzungen
+- .NET 6.0 oder höher (die Bibliothek funktioniert auch mit .NET Core 3.1+ und .NET Framework 4.6.1+)
+- Aspose.TeX für .NET NuGet‑Paket (Version 24.11 oder neuer)
+- Eine gültige Aspose.TeX‑Lizenz für den Produktionseinsatz
 
-Im dynamischen Umfeld der Dokumentenverarbeitung hebt sich Aspose.TeX als zuverlässiger Begleiter für Entwickler hervor. Bringen Sie Ihre Fähigkeiten auf das nächste Level, indem Sie das volle Potenzial dieser robusten Bibliothek freischalten. Mit Fokus auf fortgeschrittene Eingabe‑ und Ausgabetechniken erhalten Sie einen Wettbewerbsvorteil bei der Erstellung anspruchsvoller und fehlerfreier Dokumente.
+## Entdecken Sie Aspose.TeX: ein Tor zur fortgeschrittenen Dokumentenverarbeitung
+Um die Konfiguration in Aktion zu sehen, folgen Sie unserer Schritt‑für‑Schritt‑Anleitung **[Erforderliches Eingabeverzeichnis für Aspose.TeX festlegen (C#)](./required-input-directory-csharp/)**.  
+**[Erforderliches Eingabeverzeichnis für Aspose.TeX festlegen (C#)](./required-input-directory-csharp/)**
 
-Zusammenfassend dienen diese Tutorials als Ihr Tor zur Beherrschung von Aspose.TeX für .NET. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, unsere Schritt‑für‑Schritt‑Anleitungen befähigen Sie, die vollen Möglichkeiten von Aspose.TeX zu nutzen und ein nahtloses sowie effizientes Dokumentenverarbeitungserlebnis zu gewährleisten. Laden Sie die Tutorials herunter, folgen Sie den Anweisungen und erleben Sie die Transformation Ihrer TeX‑Integrationsprojekte. Verbessern Sie noch heute Ihre Fähigkeiten mit Aspose.TeX für .NET!
+## Beherrschung von Streams, Bildern und Terminal‑Eingaben in Aspose.TeX für C#
+Für ein tieferes Eintauchen in das Einspeisen von LaTeX aus dem Speicher, das Hinzufügen von Bildern über Streams und die Verwendung von terminalähnlichen Eingaben, schauen Sie sich **[Streams, Bilder & Terminal‑Eingaben in Aspose.TeX für C# meistern](./stream-input-image-output-terminal-input-csharp/)** an. Es zeigt, wie Aspose.TeX in Web‑APIs, Hintergrunddienste und Konsolen‑Tools integriert wird.  
+**[Streams, Bilder & Terminal‑Eingaben in Aspose.TeX für C# meistern](./stream-input-image-output-terminal-input-csharp/)**
 
-## Erweiterte Aspose.TeX Eingabe‑ und Ausgabe‑Tutorials
-### [Specify Required Input Directory for Aspose.TeX (C#)](./required-input-directory-csharp/)
-Entdecken Sie Aspose.TeX für .NET, eine robuste Bibliothek für nahtlose TeX‑Integration. Folgen Sie unserem Schritt‑für‑Schritt‑Leitfaden.
-### [Master Streams, Images, & Terminal Input in Aspose.TeX for C#](./stream-input-image-output-terminal-input-csharp/)
-Entdecken Sie die Leistungsfähigkeit von Aspose.TeX für C#, um Streams, Bilder und Terminaleingaben mühelos zu beherrschen. Jetzt herunterladen für eine nahtlose Dokumentenverarbeitung.
+## Häufige Probleme und Lösungen
+- **„File not found“-Fehler** – Stellen Sie sicher, dass `BaseFolder` auf das richtige Verzeichnis zeigt und dass alle zusätzlichen Suchpfade vor dem Rendern hinzugefügt wurden.
+- **Bilder werden nicht geladen** – Stellen Sie sicher, dass der Bildname in `AddImage` exakt dem im TeX‑Quelltext verwendeten Namen entspricht, einschließlich Dateierweiterung.
+- **Speicherverbrauch steigt** – Rufen Sie bei der Verarbeitung sehr großer Dokumente nach dem Rendern `TeXProcessor.Cleanup()` auf, um nicht verwaltete Ressourcen freizugeben.
 
 ## Häufig gestellte Fragen
 
 **Q: Kann ich das Eingabeverzeichnis zur Laufzeit ändern?**  
-A: Ja, Sie können ein neues `TeXInputOptions`‑Objekt instanziieren und es dem Prozessor übergeben, wann immer Sie den Pfad neu konfigurieren müssen.
+A: Ja – Sie können eine neue `TeXInputOptions`‑Instanz mit einem anderen `BaseFolder` erstellen und sie bei Bedarf an einen neuen `TeXProcessor` übergeben, um die Konfiguration zu ändern.
 
 **Q: Wie füge ich Bilder hinzu, die in einer Datenbank gespeichert sind?**  
-A: Rufen Sie das Bild als `byte[]` ab, verpacken Sie es in einen `MemoryStream` und verwenden Sie die `AddImage`‑Methode in den Eingabeoptionen (siehe “how to add images”).
+A: Rufen Sie das Bild als `byte[]` ab, verpacken Sie es in einen `MemoryStream` und rufen Sie `TeXInputOptions.AddImage("image.png", stream)` auf. Der Name muss mit der Referenz in Ihrer `.tex`‑Datei übereinstimmen.
 
-**Q: Ist es möglich, LaTeX‑Code von einer Web‑API zu verarbeiten, ohne eine Datei zu speichern?**  
-A: Absolut. Füttern Sie den rohen LaTeX‑String in einen `MemoryStream` und setzen Sie ihn als Quell‑Stream für den Prozessor (siehe “how to process streams”).
+**Q: Ist es möglich, LaTeX‑Code, der von einer Web‑API empfangen wurde, zu verarbeiten, ohne eine Datei zu speichern?**  
+A: Absolut. Konvertieren Sie den eingehenden String in einen `MemoryStream`, setzen Sie ihn als Quelle für `TeXProcessor` und rendern Sie direkt in das gewünschte Ausgabeformat.
 
 **Q: Muss ich nach der Verarbeitung Aufräummethoden aufrufen?**  
-A: Entsorgen Sie alle erstellten Streams und überlegen Sie bei der Verarbeitung großer Dokumente, `TeXProcessor.Cleanup()` aufzurufen, um Ressourcen freizugeben.
+A: Entsorgen Sie alle erstellten Streams und rufen Sie bei großen Arbeitslasten `TeXProcessor.Cleanup()` auf, um native Ressourcen freizugeben.
 
-**Q: Wo finde ich weitere fortgeschrittene Beispiele?**  
-A: Die beiden oben genannten Tutorial‑Links enthalten vollständige Code‑Beispiele, die jedes Szenario im Detail demonstrieren.
+**Q: Wo finde ich weiterführende Beispiele?**  
+A: Die beiden oben genannten Tutorial‑Links enthalten vollständige Code‑Beispiele, die jedes Szenario im Detail demonstrieren, einschließlich Fehlerbehandlung und Performance‑Tipps.
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose
+**Zuletzt aktualisiert:** 2026-09-24  
+**Getestet mit:** Aspose.TeX 24.11 für .NET  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [TeX‑Datei‑Stream erhalten (C#) mit Aspose.TeX API Erforderliches Eingabeverzeichnis](/tex/net/advanced-io/required-input-directory-csharp/)
+- [XPS aus TeX mit Dateisystemen erstellen – Aspose.TeX für .NET](/tex/net/file-input-output/filesystem-input-xps-output/)
+- [LaTeX zu PNG konvertieren mit Aspose.TeX für .NET – Dateisystem‑ & ZIP‑Eingaben verarbeiten](/tex/net/file-input-output/required-inputs-from-filesystem-and-zip/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

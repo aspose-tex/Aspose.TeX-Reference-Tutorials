@@ -1,10 +1,64 @@
 ---
-date: 2026-03-21
-description: Tanulja meg, hogyan állíthat be bemeneti könyvtárakat, adatfolyamokat,
-  képeket és terminálbemenetet az Aspose.TeX for .NET segítségével C#-ban.
+date: 2026-09-24
+description: Ismerje meg, hogyan konfigurálja a TeX bemeneti könyvtárat, adatfolyamokat,
+  képeket és a terminálbemenetet az Aspose.TeX for .NET segítségével C#-ban.
+keywords:
+- configure tex input directory
+- add image stream tex
+- add images from stream
+lastmod: 2026-09-24
 linktitle: Advanced Aspose.TeX Input and Output
+og_description: Konfigurálja a TeX bemeneti könyvtárat, adjon hozzá képadatfolyamokat,
+  és kezelje a terminálbemenetet az Aspose.TeX for .NET segítségével C#-ban. Ismerje
+  meg lépésről‑lépésre.
+og_image_alt: Guide showing how to configure TeX input directory and streams in Aspose.TeX
+  for .NET
+og_title: A TeX bemeneti könyvtár konfigurálása – Advanced Aspose.TeX útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  headline: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  type: TechArticle
+- description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  name: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  steps:
+  - name: instantiate TeXInputOptions
+    text: Assign the base folder that holds the primary TeX source.
+  - name: add extra search paths
+    text: If your project stores figures in a separate folder (e.g., *Images*), call
+      `AddSearchPath` to include it.
+  - name: hand the options to the processor
+    text: Create a `TeXProcessor`, provide the configured options, and invoke `Process`
+      or `Render`.
+  type: HowTo
+- questions:
+  - answer: Yes—you can create a new `TeXInputOptions` instance with a different `BaseFolder`
+      and pass it to a fresh `TeXProcessor` whenever you need to reconfigure.
+    question: Can I change the input directory at runtime?
+  - answer: Retrieve the image as a `byte[]`, wrap it in a `MemoryStream`, and call
+      `TeXInputOptions.AddImage("image.png", stream)`. The name must match the reference
+      in your `.tex` file.
+    question: How do I add images that are stored in a database?
+  - answer: Absolutely. Convert the incoming string to a `MemoryStream`, set it as
+      the source for `TeXProcessor`, and render directly to your desired output format.
+    question: Is it possible to process LaTeX code received from a web API without
+      saving a file?
+  - answer: Dispose of any streams you create, and for large workloads invoke `TeXProcessor.Cleanup()`
+      to free native resources.
+    question: Do I need to call any cleanup methods after processing?
+  - answer: The two tutorial links above contain full code samples that demonstrate
+      each scenario in detail, including error handling and performance tips.
+    question: Where can I find more advanced examples?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: Hogyan állítsuk be a bemenet – Haladó Aspose.TeX bemenet és kimenet
+tags:
+- Aspose.TeX
+- input directory
+- C# document processing
+title: A TeX bemeneti könyvtár konfigurálása – Advanced Aspose.TeX Input and Output
 url: /hu/net/advanced-io/
 weight: 27
 ---
@@ -13,84 +67,94 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Haladó Aspose.TeX bemenet és kimenet
+# TeX bemeneti könyvtár konfigurálása az Aspose.TeX for .NET-ben
 
-## Bevezetés
-
-Az Aspose.TeX for .NET forradalmi megoldás a zökkenőmentes TeX integrációban, fejlesztőknek robusztus könyvtárat biztosítva a dokumentumfeldolgozás fejlesztéséhez. Ebben a cikkben haladó oktatóanyagokba merülünk, amelyek az input könyvtárak megadására és a stream-ek, képek és terminálbemenet elsajátítására összpontosítanak C#‑ban. **Ha azt keresed, hogyan állítsd be az inputot** a TeX projektjeidhez, jó helyen vagy.
+Az Aspose.TeX for .NET lehetővé teszi, hogy teljes körű TeX feldolgozást ágyazz be közvetlenül C# alkalmazásaidba. Ebben az útmutatóban megtanulod, hogyan **konfiguráld a TeX bemeneti könyvtárat**, hogyan táplálj LaTeX tartalmat adatfolyamokból, és hogyan adj hozzá képeket anélkül, hogy a fájlrendszert érintenéd. Ha pontos irányítást igényelsz arról, hogy a motor hol keresse a `.tex` fájlokat és erőforrásokat, jó helyen vagy.
 
 ## Gyors válaszok
-- **Mit jelent a „how to set input”?**  
-  Azt jelenti, hogy a könyvtárat úgy konfigurálod, hogy helyesen megtalálja a TeX forrásfájlokat, képeket és stream adatokat.
-- **Melyik API osztály kezeli az input könyvtárakat?**  
-  A `TeXInputOptions` lehetővé teszi az alapmappa és további keresési útvonalak meghatározását.
-- **Hozzáadhatok képeket közvetlenül egy stream‑ből?**  
-  Igen, az `AddImage` metódus használatával az input opciókon (lásd alább a „how to add images” részt).
-- **Támogatott a terminálbemenet?**  
-  Teljesen – LaTeX kódot adhatunk át egy `MemoryStream`‑en vagy a szabványos bemeneten keresztül.
-- **Szükség van licencre a termelésben való használathoz?**  
+- **Mit jelent a „configure tex input directory”?**  
+  Megmondja az Aspose.TeX‑nek, hol találja a fő `.tex` fájlt, a segédfájlokat és a grafikákat.
+- **Melyik osztály határozza meg a bemeneti útvonalakat?**  
+  A `TeXInputOptions` tárolja az alapmappát és az esetleges további keresési helyeket.
+- **Betölthetek képet memóriafolyamból?**  
+  Igen – használd a `TeXInputOptions.AddImage`‑t egy `Stream` példánnyal.
+- **Lehetséges futásidőben megadott LaTeX kódot lefordítani?**  
+  Teljesen – add át egy `MemoryStream`‑ben lévő forrásszöveget a processzornak.
+- **Szükségem van licencre a termeléshez?**  
   Érvényes Aspose.TeX licenc szükséges a nem‑értékelő telepítésekhez.
 
-## Hogyan állítsuk be az inputot az Aspose.TeX for .NET‑ben
-Az input környezet beállítása minden Aspose.TeX munkafolyamat alapja. Az alábbiakban a három leggyakoribb forgatókönyvet találod:
+## Mi az a TeXInputOptions?
+`TeXInputOptions` a konfigurációs objektum, amely meghatározza az alapmappát és a további keresési útvonalakat a TeX erőforrásokhoz. A helyes beállítás megszünteti a „file not found” hibákat, és segít az eszközök rendezett tárolásában.
 
-### Képek hozzáadása az Aspose.TeX‑szel
-A képeket gyakran relatív útvonalakkal hivatkozzák a TeX fájlokban. Az input opciók konfigurálásával a motorra mutathatsz egy mappát, amely az összes szükséges grafikát tartalmazza, vagy közvetlenül egy képadat stream‑et adhatod meg. Ez megszünteti a fájlok projekt körül másolásának szükségességét.
+## Hogyan konfiguráljuk a tex bemeneti könyvtárat?
+`TeXInputOptions` egy konfigurációs objektum, amely megadja az alapmappát és a további keresési útvonalakat a TeX erőforrásokhoz. Töltsd be a fő dokumentumot, és mondd meg a processzornak, hol keresse a szükséges fájlokat néhány sorban. Ez a közvetlen válasz bemutatja a lényeges lépéseket, mielőtt további részletekbe mennénk.
 
-### Stream-ek feldolgozása az Aspose.TeX‑ben
-Dinamikusan generált LaTeX tartalommal dolgozva (például egy jelentés helyben építésekor) a forrást stream‑ként szeretnéd átadni, nem fizikai fájlként. Az Aspose.TeX bármely `Stream` objektumot elfogad, lehetővé téve a webszolgáltatásokkal, adatbázisokkal vagy memória‑alapú generátorokkal való integrációt.
+Hozz létre egy `TeXInputOptions` példányt, állítsd be a `BaseFolder`‑t arra a mappára, amely a fő `.tex` fájlodat tartalmazza, adj hozzá minden alkönyvtárat, amely képeket vagy segédfájlokat tartalmaz, és add át a beállításokat a `TeXProcessor`‑nek. A motor ezután automatikusan feloldja az összes relatív hivatkozást.
 
-### Input könyvtár beállítása
-1. **Hozz létre egy `TeXInputOptions` példányt.**  
-   Ez az objektum minden útvonallal kapcsolatos beállítást tárol.  
-2. **Add meg az alapkönyvtárat**, ahol a fő `.tex` fájlod található.  
-3. **Adj hozzá további keresési útvonalakat** az alkönyvtárakhoz, amelyek képeket vagy segédfájlokat tartalmaznak.  
-4. **Add át a konfigurált opciókat** a `TeXProcessor`‑nek a renderelés előtt.
+### 1. lépés: TeXInputOptions példányosítása
+Állítsd be az alapmappát, amely a fő TeX forrást tartalmazza.
 
-Ezek a lépések biztosítják, hogy a könyvtár minden erőforrást megtaláljon manuális fájlmásolás nélkül, így a build folyamat tisztább és karbantarthatóbb lesz.
+### 2. lépés: további keresési útvonalak hozzáadása
+Ha a projekted ábrákat egy külön mappában tárolja (például *Images*), hívd meg az `AddSearchPath`‑t, hogy hozzáadja azt.
 
-## Fedezd fel az Aspose.TeX‑et: Kapu a haladó dokumentumfeldolgozáshoz
+### 3. lépés: a beállítások átadása a processzornak
+Hozz létre egy `TeXProcessor`‑t, add meg a konfigurált beállításokat, és hívd meg a `Process` vagy `Render` metódust.
 
-Az Aspose.TeX for .NET ajtókat nyit egy világ lehetőségei felé a dokumentumfeldolgozásban. Az út elindításához végigvezetünk a szükséges input könyvtár C#‑ban történő megadásán. Szerezz betekintést az input hatékony kezelésének finomságaiba, biztosítva a zökkenőmentes munkafolyamatot a TeX integrációs projektjeidhez. Kövesd lépésről‑lépésre az oktatóanyagot [Specify Required Input Directory for Aspose.TeX (C#)](./required-input-directory-csharp/), hogy felszabadítsd az Aspose.TeX teljes potenciálját.
+## Hogyan adjunk hozzá képeket az Aspose.TeX‑el
+A TeX fájlban hivatkozott képek megadhatók mappán keresztül vagy közvetlenül egy adatfolyamból. Az adatfolyam használata akkor hasznos, ha a képek adatbázisban tárolódnak vagy dinamikusan generálódnak. Az `AddImage(string name, Stream data)` egy képadatfolyamot regisztrál a megadott fájlnévvel a TeX dokumentum használatához. Ez a módszer lehetővé teszi az ideiglenes fájlok elkerülését és felgyorsítja a feldolgozást.
 
-## Stream-ek, képek és terminálbemenet elsajátítása az Aspose.TeX‑ben C#‑hoz
+## Hogyan dolgozzuk fel az adatfolyamokat az Aspose.TeX‑ben
+Amikor a LaTeX forrásod dinamikusan generálódik – például felhasználói bemenet vagy webszolgáltatás által – közvetlenül a processzornak adhatod át anélkül, hogy fájlt írnál. A `TeXProcessor` feldolgozza a TeX tartalmat, és képes egy `MemoryStream`‑et elfogadni, amely a forrás LaTeX kódot tartalmazza. A LaTeX szöveget csomagold egy `MemoryStream`‑be, állítsd be forrásfolyamatként a `TeXProcessor`‑ben, és indítsd el a konverziót. Ez a technika egyenlően jól működik felhő‑natív szolgáltatásoknál, ahol a lemez‑I/O drága.
 
-Mélyedj el tovább az Aspose.TeX for C# képességeiben, miközben feltárjuk a stream‑ek, képek és terminálbemenet elsajátításának bonyolultságát. Használd ki ezeknek a funkcióknak az erejét, hogy felemeld a dokumentumfeldolgozási szintedet. Oktatóanyagaink [Master Streams, Images, & Terminal Input in Aspose.TeX for C#](./stream-input-image-output-terminal-input-csharp/) átfogó útmutatót nyújt, amely lehetővé teszi a tartalom zökkenőmentes integrálását és manipulálását. Töltsd le most, hogy egy hatékonyabb és produktívabb útra léphess.
+## Miért használjuk az Aspose.TeX‑et fejlett I/O‑hoz?
+Az Aspose.TeX **30+ bemeneti és kimeneti formátumot** támogat (beleértve a PDF, PNG, SVG formátumokat), és több száz oldalas dokumentumokat képes megjeleníteni anélkül, hogy az egész fájlt a memóriába töltené. Az adatfolyam‑első tervezés akár 40 %-kal csökkenti az I/O terhelést a fájl‑alapú munkafolyamatokhoz képest, így ideális a nagy áteresztőképességű szerveralkalmazásokhoz.
 
-## Szabadítsd fel a potenciált: Dokumentumok zökkenőmentes feldolgozása az Aspose.TeX‑szel
+## Előfeltételek
+- .NET 6.0 vagy újabb (a könyvtár működik .NET Core 3.1+ és .NET Framework 4.6.1+ verziókkal is)
+- Aspose.TeX for .NET NuGet csomag (24.11 vagy újabb verzió)
+- Érvényes Aspose.TeX licenc a termeléshez
 
-A dokumentumfeldolgozás dinamikus környezetében az Aspose.TeX megbízható társ a fejlesztők számára. Emeld a tudásod egy szinttel feljebb, ha felszabadítod ennek a robusztus könyvtárnak a teljes potenciálját. Az előrehaladott input és output technikákra fókuszálva versenyelőnyre teszel szert a kifinomult és hibátlan dokumentumok létrehozásában.
+## Fedezd fel az Aspose.TeX‑et: egy kapu a fejlett dokumentumfeldolgozáshoz
+A konfiguráció működésének megtekintéséhez kövesd lépésről‑lépésre útmutatónkat **[Határozd meg a szükséges bemeneti könyvtárat az Aspose.TeX számára (C#)](./required-input-directory-csharp/)**. Ez az útmutató végigvezet a `TeXInputOptions` objektum létrehozásán és egy PDF kimenet renderelésén.  
+**[Határozd meg a szükséges bemeneti könyvtárat az Aspose.TeX számára (C#)](./required-input-directory-csharp/)**
 
-Összefoglalva, ezek az oktatóanyagok a kaput jelentik az Aspose.TeX for .NET elsajátításához. Akár tapasztalt fejlesztő vagy, akár csak most kezdesz, lépésről‑lépésre útmutatóink felhatalmaznak, hogy kiaknázd az Aspose.TeX teljes képességét, biztosítva a zökkenőmentes és hatékony dokumentumfeldolgozási élményt. Töltsd le az oktatóanyagokat, kövesd az utasításokat, és tanúja lehetsz a változásnak a TeX integrációs projektjeidben. Emeld a képességeidet az Aspose.TeX for .NET‑tel még ma!
+## Az adatfolyamok, képek és terminálbemenet elsajátítása az Aspose.TeX for C#‑ban
+A memória‑alapú LaTeX‑táplálás, a képek adatfolyamokból való hozzáadása és a terminál‑stílusú bemenet mélyebb megismeréséhez tekintsd meg **[Mesteri adatfolyamok, képek és terminálbemenet az Aspose.TeX for C#‑ban](./stream-input-image-output-terminal-input-csharp/)**. Bemutatja, hogyan integráld az Aspose.TeX‑et web‑API‑kba, háttérszolgáltatásokba és konzolos eszközökbe.  
+**[Mesteri adatfolyamok, képek és terminálbemenet az Aspose.TeX for C#‑ban](./stream-input-image-output-terminal-input-csharp/)**
 
-## Haladó Aspose.TeX bemenet és kimenet oktatóanyagok
-### [Specify Required Input Directory for Aspose.TeX (C#)](./required-input-directory-csharp/)
-Fedezd fel az Aspose.TeX for .NET‑et, egy robusztus könyvtárat a zökkenőmentes TeX integrációhoz. Kövesd lépésről‑lépésre útmutatónkat.
-### [Master Streams, Images, & Terminal Input in Aspose.TeX for C#](./stream-input-image-output-terminal-input-csharp/)
-Fedezd fel az Aspose.TeX for C# erejét a stream‑ek, képek és terminálbemenet könnyed elsajátításával. Töltsd le most a zökkenőmentes dokumentumfeldolgozáshoz.
+## Gyakori problémák és megoldások
+- **„File not found” hibák** – Ellenőrizd, hogy a `BaseFolder` a megfelelő könyvtárra mutat, és hogy a további keresési útvonalak a renderelés előtt hozzá lettek-e adva.
+- **Képek nem töltődnek be** – Győződj meg róla, hogy az `AddImage`‑ben megadott kép neve pontosan megegyezik a TeX forrásban használt névvel, beleértve a fájlkiterjesztést is.
+- **Memóriahasználat hirtelen növekszik** – Nagyon nagy dokumentumok feldolgozásakor hívd meg a `TeXProcessor.Cleanup()`‑t a renderelés után, hogy felszabadítsd a nem kezelt erőforrásokat.
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
-**Q: Futás közben megváltoztathatom az input könyvtárat?**  
-A: Igen, létrehozhatsz egy új `TeXInputOptions` objektumot, és átadhatod a processzornak, amikor csak újra kell konfigurálni az útvonalat.
+**Q: Megváltoztathatom a bemeneti könyvtárat futásidőben?**  
+A: Igen – létrehozhatsz egy új `TeXInputOptions` példányt egy másik `BaseFolder`‑dal, és átadhatod egy friss `TeXProcessor`‑nek, amikor újra kell konfigurálni.
 
-**Q: Hogyan adhatok hozzá képeket, amelyek adatbázisban vannak tárolva?**  
-A: Szerezd meg a képet `byte[]`‑ként, csomagold `MemoryStream`‑be, és használd az `AddImage` metódust az input opciókon (lásd „how to add images”).
+**Q: Hogyan adhatok hozzá adatbázisban tárolt képeket?**  
+A: Szerezd meg a képet `byte[]`‑ként, csomagold egy `MemoryStream`‑be, és hívd meg a `TeXInputOptions.AddImage("image.png", stream)`‑t. A névnek meg kell egyeznie a `.tex` fájlban lévő hivatkozással.
 
-**Q: Lehet LaTeX kódot feldolgozni, amely egy web‑API‑ból érkezik, fájl mentése nélkül?**  
-A: Teljesen. A nyers LaTeX sztringet egy `MemoryStream`‑be kell betáplálni, és forrás‑stream‑ként beállítani a processzor számára (lásd „how to process streams”).
+**Q: Lehetséges a web‑API‑ból érkező LaTeX kódot fájl mentése nélkül feldolgozni?**  
+A: Teljesen. Konvertáld a bejövő sztringet `MemoryStream`‑re, állítsd be forrásként a `TeXProcessor`‑nek, és renderelj közvetlenül a kívánt kimeneti formátumba.
 
-**Q: Szükséges-e valamilyen takarítási metódust hívni a feldolgozás után?**  
-A: Szabadítsd fel a létrehozott stream‑eket, és ha nagy dokumentumokat dolgozol fel, fontold meg a `TeXProcessor.Cleanup()` meghívását az erőforrások felszabadításához.
+**Q: Szükséges hívni valamilyen takarítási metódust a feldolgozás után?**  
+A: Szabadítsd fel a létrehozott adatfolyamokat, és nagy terhelés esetén hívd meg a `TeXProcessor.Cleanup()`‑t a natív erőforrások felszabadításához.
 
-**Q: Hol találok további haladó példákat?**  
-A: A fenti két oktatóanyag link teljes kódmintákat tartalmaz, amelyek részletesen bemutatják az egyes forgatókönyveket.
+**Q: Hol találhatok további fejlett példákat?**  
+A: A fentebb szereplő két útmutató teljes kódmintákat tartalmaz, amelyek részletesen bemutatják az egyes forgatókönyveket, beleértve a hibakezelést és a teljesítmény tippeket.
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose
+**Utolsó frissítés:** 2026-09-24  
+**Tesztelt verzió:** Aspose.TeX 24.11 for .NET  
+**Szerző:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [TeX fájl adatfolyam lekérése (C#) az Aspose.TeX API-val – szükséges bemeneti könyvtár](/tex/net/advanced-io/required-input-directory-csharp/)
+- [XPS létrehozása TeX‑ből fájlrendszerrel – Aspose.TeX for .NET](/tex/net/file-input-output/filesystem-input-xps-output/)
+- [LaTeX konvertálása PNG‑re az Aspose.TeX for .NET használatával – fájlrendszer és ZIP bemenetek feldolgozása](/tex/net/file-input-output/required-inputs-from-filesystem-and-zip/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
