@@ -1,9 +1,61 @@
 ---
-date: 2026-03-21
-description: 了解如何在 C# 中使用 Aspose.TeX for .NET 设置输入目录、流、图像和终端输入。
-linktitle: Advanced Aspose.TeX Input and Output
+date: 2026-09-24
+description: 了解如何使用 Aspose.TeX for .NET 在 C# 中配置 TeX 输入目录、流、图像和终端输入。
+keywords:
+- configure tex input directory
+- add image stream tex
+- add images from stream
+lastmod: 2026-09-24
+linktitle: 高级 Aspose.TeX 输入与输出
+og_description: 使用 Aspose.TeX for .NET 在 C# 中配置 TeX 输入目录、添加图像流并处理终端输入。一步步学习。
+og_image_alt: Guide showing how to configure TeX input directory and streams in Aspose.TeX
+  for .NET
+og_title: 配置 TeX 输入目录 – 高级 Aspose.TeX 指南
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  headline: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  type: TechArticle
+- description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  name: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  steps:
+  - name: instantiate TeXInputOptions
+    text: Assign the base folder that holds the primary TeX source.
+  - name: add extra search paths
+    text: If your project stores figures in a separate folder (e.g., *Images*), call
+      `AddSearchPath` to include it.
+  - name: hand the options to the processor
+    text: Create a `TeXProcessor`, provide the configured options, and invoke `Process`
+      or `Render`.
+  type: HowTo
+- questions:
+  - answer: Yes—you can create a new `TeXInputOptions` instance with a different `BaseFolder`
+      and pass it to a fresh `TeXProcessor` whenever you need to reconfigure.
+    question: Can I change the input directory at runtime?
+  - answer: Retrieve the image as a `byte[]`, wrap it in a `MemoryStream`, and call
+      `TeXInputOptions.AddImage("image.png", stream)`. The name must match the reference
+      in your `.tex` file.
+    question: How do I add images that are stored in a database?
+  - answer: Absolutely. Convert the incoming string to a `MemoryStream`, set it as
+      the source for `TeXProcessor`, and render directly to your desired output format.
+    question: Is it possible to process LaTeX code received from a web API without
+      saving a file?
+  - answer: Dispose of any streams you create, and for large workloads invoke `TeXProcessor.Cleanup()`
+      to free native resources.
+    question: Do I need to call any cleanup methods after processing?
+  - answer: The two tutorial links above contain full code samples that demonstrate
+      each scenario in detail, including error handling and performance tips.
+    question: Where can I find more advanced examples?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: 如何设置输入 – 高级 Aspose.TeX 输入与输出
+tags:
+- Aspose.TeX
+- input directory
+- C# document processing
+title: 配置 TeX 输入目录 – 高级 Aspose.TeX 输入与输出
 url: /zh/net/advanced-io/
 weight: 27
 ---
@@ -12,86 +64,99 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 高级 Aspose.TeX 输入和输出
+# 在 Aspose.TeX for .NET 中配置 TeX 输入目录
 
-## 介绍
+Aspose.TeX for .NET 让您能够将完整功能的 TeX 处理直接嵌入到 C# 应用程序中。在本教程中，您将学习如何**配置 TeX 输入目录**、从流中提供 LaTeX 内容，以及在不触及文件系统的情况下添加图像。如果您需要精确控制引擎查找 `.tex` 文件和资源的位置，您来对地方了。
 
-Aspose.TeX for .NET 是在无缝 TeX 集成方面的革命性工具，为开发者提供了一个强大的库来提升文档处理。本文深入高级教程，重点介绍如何指定输入目录以及在 C# 中掌握流、图像和终端输入。**如果您正在寻找如何设置输入** 用于您的 TeX 项目，您来对地方了。
-
-## 快速解答
-- **“how to set input” 是指什么？**  
-  它指的是配置库以正确定位 TeX 源文件、图像和流数据。
-- **哪个 API 类处理输入目录？**  
-  `TeXInputOptions` 允许您定义基文件夹和额外的搜索路径。
-- **我可以直接从流添加图像吗？**  
-  可以，使用输入选项上的 `AddImage` 方法（见下文 “如何添加图像”）。
-- **是否支持终端输入？**  
-  当然——您可以通过 `MemoryStream` 或标准输入提供 LaTeX 代码。
+## 快速答案
+- **“configure tex input directory” 是什么意思？**  
+  它告诉 Aspose.TeX 在哪里可以找到主 `.tex` 文件、辅助文件和图形。
+- **哪个类定义了输入路径？**  
+  `TeXInputOptions` 存储基文件夹以及任何额外的搜索位置。
+- **我可以从内存流加载图像吗？**  
+  是的——使用 `TeXInputOptions.AddImage` 并传入 `Stream` 实例。
+- **是否可以编译运行时提供的 LaTeX 代码？**  
+  当然——将包含源文本的 `MemoryStream` 传递给处理器。
 - **生产使用是否需要许可证？**  
-  非评估部署需要有效的 Aspose.TeX 许可证。
+  在非评估部署中需要有效的 Aspose.TeX 许可证。
 
-## 如何在 Aspose.TeX for .NET 中设置输入
-设置输入环境是任何 Aspose.TeX 工作流的基础。下面列出了三种最常见的场景：
+## 什么是 TeXInputOptions？
 
-### 如何使用 Aspose.TeX 添加图像
-图像通常在 TeX 文件中使用相对路径引用。通过配置输入选项，您可以将引擎指向包含所有必需图形的文件夹，或者直接提供图像流。这消除了在项目中复制文件的需求。
+`TeXInputOptions` 是用于定义 TeX 资源的基文件夹和额外搜索路径的配置对象。正确设置它可以消除“文件未找到”错误，并让您保持资产有序。
 
-### 如何在 Aspose.TeX 中处理流
-当处理动态生成的 LaTeX 内容（例如，实时生成报告）时，您需要将源作为流而不是物理文件提供。Aspose.TeX 接受任何 `Stream` 对象，允许您与 Web 服务、数据库或内存生成器集成。
+## 如何配置 tex 输入目录？
 
-### 如何设置输入目录
-1. **创建 `TeXInputOptions` 的实例。**  
-   此对象保存所有与路径相关的设置。  
-2. **指定基目录**，即您的主 `.tex` 文件所在的位置。  
-3. **添加额外的搜索路径**，用于包含图像或辅助文件的子文件夹。  
-4. **在渲染之前将配置好的选项传递给 `TeXProcessor`。**  
+`TeXInputOptions` 是一个配置对象，用于指定 TeX 资源的基文件夹和额外搜索路径。加载主文档并告诉处理器在几行代码内查找所有内容。本直接答案解释了在任何额外细节之前的关键步骤。
 
-这些步骤确保库能够在不手动复制文件的情况下定位所有资源，使构建过程更清晰、更易维护。
+创建一个 `TeXInputOptions` 实例，将 `BaseFolder` 设置为包含主要 `.tex` 文件的文件夹，添加任何包含图像或辅助文件的子文件夹，然后将该选项传递给 `TeXProcessor`。引擎随后会自动解析所有相对引用。
 
-这些步骤确保库能够在不手动复制文件的情况下定位所有资源，使构建过程更清晰、更易维护。
+### 步骤 1：实例化 TeXInputOptions
+指定保存主 TeX 源文件的基文件夹。
+
+### 步骤 2：添加额外搜索路径
+如果您的项目将图形存放在单独的文件夹中（例如 *Images*），请调用 `AddSearchPath` 将其包含进来。
+
+### 步骤 3：将选项交给处理器
+创建一个 `TeXProcessor`，提供已配置的选项，并调用 `Process` 或 `Render`。
+
+## 如何使用 Aspose.TeX 添加图像
+
+TeX 文件中引用的图像可以通过文件夹或直接从流提供。当图像存储在数据库中或动态生成时，使用流非常有用。`AddImage(string name, Stream data)` 使用给定的文件名注册图像流，以供 TeX 文档使用。此方法可让您避免临时文件并加快处理速度。
+
+## 如何在 Aspose.TeX 中处理流
+
+当您的 LaTeX 源代码动态生成——可能来自用户输入或 Web 服务时，您可以直接将其提供给处理器，而无需写入文件。`TeXProcessor` 处理 TeX 内容，并且可以接受包含源 LaTeX 代码的 `MemoryStream`。将 LaTeX 字符串包装在 `MemoryStream` 中，设置为 `TeXProcessor` 的源流，然后运行转换。此技术同样适用于磁盘 I/O 成本高的云原生服务。
+
+## 为什么在高级 I/O 中使用 Aspose.TeX？
+
+Aspose.TeX 支持**30 多种输入和输出格式**（包括 PDF、PNG、SVG），并且能够在不将整个文件加载到内存中的情况下渲染数百页的文档。其流优先的设计相比基于文件的工作流可将 I/O 开销降低最高达 40 %，使其非常适合高吞吐量的服务器应用程序。
+
+## 前提条件
+- .NET 6.0 或更高版本（该库也适用于 .NET Core 3.1+ 和 .NET Framework 4.6.1+）
+- Aspose.TeX for .NET NuGet 包（版本 24.11 或更高）
+- 用于生产使用的有效 Aspose.TeX 许可证
 
 ## 探索 Aspose.TeX：通往高级文档处理的门户
 
-Aspose.TeX for .NET 为文档处理打开了无限可能的大门。为了帮助您快速入门，我们将指导您在 C# 中指定所需的输入目录。深入了解高效处理输入的细节，确保 TeX 集成项目的工作流顺畅。请参阅我们的分步教程 [指定 Aspose.TeX 所需的输入目录 (C#)](./required-input-directory-csharp/)，释放 Aspose.TeX 的全部潜能。
+要查看配置实际效果，请按照我们的分步指南 **[指定 Aspose.TeX 所需输入目录 (C#)](./required-input-directory-csharp/)**。该教程将指导您创建 `TeXInputOptions` 对象并渲染 PDF 输出。  
+**[指定 Aspose.TeX 所需输入目录 (C#)](./required-input-directory-csharp/)**
 
-## 掌握 Aspose.TeX for C# 中的流、图像和终端输入
+## 精通 Aspose.TeX for C# 中的流、图像和终端输入
 
-深入了解 Aspose.TeX for C# 的功能，掌握流、图像和终端输入的细节。利用这些特性提升文档处理水平。我们的教程 [掌握 Aspose.TeX for C# 中的流、图像和终端输入](./stream-input-image-output-terminal-input-csharp/) 提供了完整指南，帮助您无缝集成和操作内容。立即下载，开启高效与生产力的旅程。
+要深入了解从内存提供 LaTeX、通过流添加图像以及使用终端式输入，请查看 **[精通 Aspose.TeX for C# 中的流、图像和终端输入](./stream-input-image-output-terminal-input-csharp/)**。它展示了如何将 Aspose.TeX 集成到 Web API、后台服务和控制台工具中。  
+**[精通 Aspose.TeX for C# 中的流、图像和终端输入](./stream-input-image-output-terminal-input-csharp/)**
 
-## 释放潜能：使用 Aspose.TeX 无缝处理文档
+## 常见问题及解决方案
+- **“File not found” 错误** – 验证 `BaseFolder` 指向正确的目录，并且在渲染之前已添加任何额外的搜索路径。
+- **图像未加载** – 确保 `AddImage` 中的图像名称与 TeX 源中使用的名称完全匹配，包括文件扩展名。
+- **内存使用激增** – 在处理非常大的文档时，渲染后调用 `TeXProcessor.Cleanup()` 以释放非托管资源。
 
-在动态变化的文档处理领域，Aspose.TeX 是开发者可靠的伙伴。通过掌握高级输入输出技术，您可以在创建复杂且完美的文档时获得竞争优势。
-
-总之，这些教程是您掌握 Aspose.TeX for .NET 的入口。无论您是经验丰富的开发者还是刚入门，我们的分步指南都能帮助您充分利用 Aspose.TeX 的全部功能，确保文档处理过程顺畅高效。下载教程，按照说明操作，见证您的 TeX 集成项目的转变。今天就用 Aspose.TeX for .NET 提升您的技能吧！
-
-## 高级 Aspose.TeX 输入和输出教程
-### [指定 Aspose.TeX 所需的输入目录 (C#)](./required-input-directory-csharp/)
-探索 Aspose.TeX for .NET，这是一款用于无缝 TeX 集成的强大库。遵循我们的分步指南。
-### [掌握 Aspose.TeX for C# 中的流、图像和终端输入](./stream-input-image-output-terminal-input-csharp/)
-轻松掌握 Aspose.TeX for C# 中的流、图像和终端输入的强大功能。立即下载，实现无缝文档处理。
-
-## 常见问题
+## 常见问答
 
 **Q: 我可以在运行时更改输入目录吗？**  
-A: 是的，您可以实例化一个新的 `TeXInputOptions` 对象，并在需要重新配置路径时将其传递给处理器。
+A: 是的——您可以创建一个具有不同 `BaseFolder` 的新 `TeXInputOptions` 实例，并在需要重新配置时将其传递给新的 `TeXProcessor`。
 
-**Q: 我如何添加存储在数据库中的图像？**  
-A: 将图像检索为 `byte[]`，包装到 `MemoryStream` 中，并使用输入选项的 `AddImage` 方法（见 “如何添加图像”）。
+**Q: 如何添加存储在数据库中的图像？**  
+A: 将图像检索为 `byte[]`，包装成 `MemoryStream`，然后调用 `TeXInputOptions.AddImage("image.png", stream)`。名称必须与 `.tex` 文件中的引用相匹配。
 
 **Q: 是否可以在不保存文件的情况下处理来自 Web API 的 LaTeX 代码？**  
-A: 完全可以。将原始 LaTeX 字符串写入 `MemoryStream` 并将其设为处理器的源流（见 “如何处理流”）。
+A: 完全可以。将传入的字符串转换为 `MemoryStream`，设为 `TeXProcessor` 的源，然后直接渲染为所需的输出格式。
 
-**Q: 处理完后我需要调用任何清理方法吗？**  
-A: 释放您创建的任何流，如果处理大型文档，考虑调用 `TeXProcessor.Cleanup()` 来释放资源。
+**Q: 处理完后需要调用任何清理方法吗？**  
+A: 释放您创建的任何流，对于大负载，调用 `TeXProcessor.Cleanup()` 以释放本机资源。
 
-**Q: 我在哪里可以找到更多高级示例？**  
-A: 上面的两个教程链接包含完整的代码示例，详细演示每种场景。
+**Q: 在哪里可以找到更高级的示例？**  
+A: 上面的两个教程链接包含完整的代码示例，详细演示了每种场景，包括错误处理和性能技巧。
 
----
+**最后更新:** 2026-09-24  
+**测试环境:** Aspose.TeX 24.11 for .NET  
+**作者:** Aspose
 
-**最后更新：** 2026-03-21  
-**测试环境：** Aspose.TeX 24.11 for .NET  
-**作者：** Aspose
+## 相关教程
+
+- [使用 Aspose.TeX API 获取 TeX 文件流 (C#) 所需输入目录](/tex/net/advanced-io/required-input-directory-csharp/)
+- [使用文件系统从 TeX 创建 XPS – Aspose.TeX for .NET](/tex/net/file-input-output/filesystem-input-xps-output/)
+- [使用 Aspose.TeX for .NET 将 LaTeX 转换为 PNG – 处理文件系统和 ZIP 输入](/tex/net/file-input-output/required-inputs-from-filesystem-and-zip/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

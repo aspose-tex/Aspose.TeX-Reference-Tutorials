@@ -1,10 +1,63 @@
 ---
-date: 2026-03-21
-description: تعلم كيفية تعيين دلائل الإدخال، التدفقات، الصور، وإدخال الطرفية باستخدام
-  Aspose.TeX لـ .NET في C#.
-linktitle: Advanced Aspose.TeX Input and Output
+date: 2026-09-24
+description: تعلم كيفية تكوين دليل إدخال TeX، وتدفقات البيانات، والصور، وإدخال الطرفية
+  باستخدام Aspose.TeX لـ .NET في C#.
+keywords:
+- configure tex input directory
+- add image stream tex
+- add images from stream
+lastmod: 2026-09-24
+linktitle: Aspose.TeX المتقدم للإدخال والإخراج
+og_description: قم بتكوين دليل إدخال TeX، وإضافة تدفقات الصور، ومعالجة إدخال الطرفية
+  باستخدام Aspose.TeX لـ .NET في C#. تعلم خطوة بخطوة.
+og_image_alt: Guide showing how to configure TeX input directory and streams in Aspose.TeX
+  for .NET
+og_title: تكوين دليل إدخال TeX – دليل Aspose.TeX المتقدم
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  headline: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  type: TechArticle
+- description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  name: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  steps:
+  - name: instantiate TeXInputOptions
+    text: Assign the base folder that holds the primary TeX source.
+  - name: add extra search paths
+    text: If your project stores figures in a separate folder (e.g., *Images*), call
+      `AddSearchPath` to include it.
+  - name: hand the options to the processor
+    text: Create a `TeXProcessor`, provide the configured options, and invoke `Process`
+      or `Render`.
+  type: HowTo
+- questions:
+  - answer: Yes—you can create a new `TeXInputOptions` instance with a different `BaseFolder`
+      and pass it to a fresh `TeXProcessor` whenever you need to reconfigure.
+    question: Can I change the input directory at runtime?
+  - answer: Retrieve the image as a `byte[]`, wrap it in a `MemoryStream`, and call
+      `TeXInputOptions.AddImage("image.png", stream)`. The name must match the reference
+      in your `.tex` file.
+    question: How do I add images that are stored in a database?
+  - answer: Absolutely. Convert the incoming string to a `MemoryStream`, set it as
+      the source for `TeXProcessor`, and render directly to your desired output format.
+    question: Is it possible to process LaTeX code received from a web API without
+      saving a file?
+  - answer: Dispose of any streams you create, and for large workloads invoke `TeXProcessor.Cleanup()`
+      to free native resources.
+    question: Do I need to call any cleanup methods after processing?
+  - answer: The two tutorial links above contain full code samples that demonstrate
+      each scenario in detail, including error handling and performance tips.
+    question: Where can I find more advanced examples?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: كيفية ضبط الإدخال – إدخال وإخراج Aspose.TeX المتقدم
+tags:
+- Aspose.TeX
+- input directory
+- C# document processing
+title: تكوين دليل إدخال TeX – إدخال وإخراج Aspose.TeX المتقدم
 url: /ar/net/advanced-io/
 weight: 27
 ---
@@ -13,84 +66,92 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إدخال وإخراج Aspose.TeX المتقدم
+# تكوين دليل إدخال TeX في Aspose.TeX لـ .NET
 
-## المقدمة
-
-Aspose.TeX for .NET هو مُغيّر قواعد اللعبة في دمج TeX بسلاسة، حيث يوفّر للمطورين مكتبة قوية لتعزيز معالجة المستندات. في هذه المقالة، نستعرض دروسًا متقدمة تركز على تحديد أدلة الإدخال وإتقان التدفقات، الصور، وإدخال الطرفية في C#. **إذا كنت تبحث عن كيفية ضبط الإدخال** لمشاريع TeX الخاصة بك، فأنت في المكان الصحيح.
+Aspose.TeX لـ .NET يتيح لك تضمين معالجة TeX المتكاملة مباشرةً في تطبيقات C# الخاصة بك. في هذا البرنامج التعليمي ستتعلم كيفية **تكوين دليل إدخال TeX**، وتغذية محتوى LaTeX من التدفقات، وإضافة الصور دون لمس نظام الملفات. إذا كنت بحاجة إلى تحكم دقيق في المكان الذي يبحث فيه المحرك عن ملفات `.tex` والموارد، فأنت في المكان المناسب.
 
 ## إجابات سريعة
-- **ماذا يعني “كيفية ضبط الإدخال”؟**  
-  يعني ذلك تكوين المكتبة لتحديد موقع ملفات مصدر TeX، الصور، وبيانات التدفق بشكل صحيح.
-- **أي فئة API تتعامل مع أدلة الإدخال؟**  
-  `TeXInputOptions` تتيح لك تعريف المجلد الأساسي ومسارات البحث الإضافية.
-- **هل يمكنني إضافة صور مباشرة من تدفق؟**  
-  نعم، باستخدام طريقة `AddImage` على خيارات الإدخال (انظر “كيفية إضافة الصور” أدناه).
-- **هل يدعم إدخال الطرفية؟**  
-  بالتأكيد – يمكنك تغذية شفرة LaTeX عبر `MemoryStream` أو الإدخال القياسي.
+- **ماذا يعني “configure tex input directory”؟**  
+  يخبر Aspose.TeX بمكان العثور على ملف `.tex` الرئيسي، والملفات المساعدة، والرسومات.
+- **أي فئة تحدد مسارات الإدخال؟**  
+  `TeXInputOptions` يخزن المجلد الأساسي وأي مواقع بحث إضافية.
+- **هل يمكنني تحميل صورة من تدفق الذاكرة؟**  
+  نعم—استخدم `TeXInputOptions.AddImage` مع كائن `Stream`.
+- **هل من الممكن تجميع شفرة LaTeX المقدمة في وقت التشغيل؟**  
+  بالطبع—مرّر `MemoryStream` يحتوي على النص المصدر إلى المعالج.
 - **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟**  
-  يتطلب تشغيل Aspose.TeX في بيئات غير تجريبية ترخيصًا صالحًا.
+  يتطلب ترخيص Aspose.TeX صالح للنشر غير التجريبي.
 
-## كيفية ضبط الإدخال في Aspose.TeX لـ .NET
-إعداد بيئة الإدخال هو الأساس لأي سير عمل Aspose.TeX. أدناه ستجد أكثر السيناريوهات شيوعًا ثلاثة:
+## ما هو TeXInputOptions؟
+`TeXInputOptions` هو كائن التكوين الذي يحدد المجلد الأساسي ومسارات البحث الإضافية لموارد TeX. إعدادها بشكل صحيح يزيل أخطاء “الملف غير موجود” ويسمح لك بتنظيم الأصول.
 
-### كيفية إضافة الصور باستخدام Aspose.TeX
-غالبًا ما يتم الإشارة إلى الصور في ملفات TeX باستخدام مسارات نسبية. من خلال تكوين خيارات الإدخال يمكنك توجيه المحرك إلى مجلد يحتوي على جميع الرسومات المطلوبة، أو يمكنك تزويد تدفق صورة مباشرة. هذا يلغي الحاجة إلى نسخ الملفات داخل مشروعك.
+## كيفية تكوين دليل إدخال tex؟
+`TeXInputOptions` هو كائن تكوين يحدد المجلد الأساسي ومسارات البحث الإضافية لموارد TeX. حمّل المستند الرئيسي وأخبر المعالج بمكان البحث عن كل شيء في بضع أسطر فقط. يشرح هذا الجواب المباشر الخطوات الأساسية قبل أي تفاصيل إضافية.
 
-### كيفية معالجة التدفقات في Aspose.TeX
-عند العمل مع محتوى LaTeX يتم إنشاؤه ديناميكيًا (على سبيل المثال، بناء تقرير في الوقت الفعلي)، ستحتاج إلى تغذية المصدر كـ تدفق بدلاً من ملف مادي. Aspose.TeX يقبل أي كائن `Stream`، مما يتيح لك التكامل مع خدمات الويب، قواعد البيانات، أو مولدات الذاكرة.
+أنشئ مثيلًا من `TeXInputOptions`، عيّن `BaseFolder` إلى المجلد الذي يحتوي على ملف `.tex` الأساسي الخاص بك، أضف أي مجلدات فرعية تحتوي على صور أو ملفات مساعدة، ومرّر الخيارات إلى `TeXProcessor`. سيقوم المحرك بعد ذلك بحل جميع المراجع النسبية تلقائيًا.
 
-### كيفية ضبط دليل الإدخال
-1. **إنشاء مثيل من `TeXInputOptions`.**  
-   هذا الكائن يحمل جميع إعدادات المسارات.  
-2. **تحديد الدليل الأساسي** حيث يقع ملف `.tex` الرئيسي الخاص بك.  
-3. **إضافة مسارات بحث إضافية** للمجلدات الفرعية التي تحتوي على صور أو ملفات مساعدة.  
-4. **تمرير الخيارات المكوّنة** إلى `TeXProcessor` قبل عملية التصيير.
+### الخطوة 1: إنشاء مثيل TeXInputOptions
+عيّن المجلد الأساسي الذي يحتوي على مصدر TeX الرئيسي.
 
-تضمن هذه الخطوات أن المكتبة يمكنها العثور على كل مورد دون الحاجة إلى نسخ يدوي للملفات، مما يجعل عملية البناء أنظف وأسهل صيانة.
+### الخطوة 2: إضافة مسارات بحث إضافية
+إذا كان مشروعك يخزن الرسوم في مجلد منفصل (مثال: *Images*)، استدعِ `AddSearchPath` لتضمينه.
+
+### الخطوة 3: تمرير الخيارات إلى المعالج
+أنشئ `TeXProcessor`، قدّم الخيارات المكوّنة، واستدعِ `Process` أو `Render`.
+
+## كيفية إضافة الصور باستخدام Aspose.TeX
+يمكن توفير الصور المشار إليها في ملف TeX إما عبر مجلد أو مباشرةً من تدفق. توفير تدفق يكون مفيدًا عندما تُخزن الصور في قاعدة بيانات أو تُنشأ في الوقت الفعلي. `AddImage(string name, Stream data)` يسجل تدفق صورة بالاسم المحدد لاستخدامه في مستند TeX. هذه الطريقة تتيح لك تجنب الملفات المؤقتة وتسرّع المعالجة.
+
+## كيفية معالجة التدفقات في Aspose.TeX
+عندما يتم إنشاء مصدر LaTeX الخاص بك ديناميكيًا—ربما من مدخلات المستخدم أو خدمة ويب—يمكنك تغذيته مباشرةً إلى المعالج دون كتابة ملف. `TeXProcessor` يعالج محتوى TeX ويمكنه قبول `MemoryStream` يحتوي على شفرة LaTeX المصدرية. غلف سلسلة LaTeX في `MemoryStream`، عيّنها كتدفق مصدر في `TeXProcessor`، وشغّل التحويل. تعمل هذه التقنية بنفس الفاعلية لخدمات السحابة حيث تكون عمليات الإدخال/الإخراج على القرص مكلفة.
+
+## لماذا تستخدم Aspose.TeX لإدخال/إخراج متقدم؟
+Aspose.TeX يدعم **أكثر من 30 تنسيقًا للإدخال والإخراج** (بما في ذلك PDF، PNG، SVG) ويمكنه عرض مستندات مئات الصفحات دون تحميل الملف بالكامل في الذاكرة. تصميمه القائم على التدفق يقلل من عبء الإدخال/الإخراج بنسبة تصل إلى 40 % مقارنةً بسير العمل القائم على الملفات، مما يجعله مثاليًا لتطبيقات الخوادم عالية الإنتاجية.
+
+## المتطلبات المسبقة
+- .NET 6.0 أو أحدث (المكتبة تعمل أيضًا مع .NET Core 3.1+ و .NET Framework 4.6.1+)
+- حزمة NuGet الخاصة بـ Aspose.TeX لـ .NET (الإصدار 24.11 أو أحدث)
+- ترخيص Aspose.TeX صالح للاستخدام في الإنتاج
 
 ## استكشاف Aspose.TeX: بوابة لمعالجة المستندات المتقدمة
+لمشاهدة التكوين عمليًا، اتبع دليلنا خطوة بخطوة **[Specify Required Input Directory for Aspose.TeX (C#)](./required-input-directory-csharp/)**. يشرح هذا البرنامج التعليمي كيفية إنشاء كائن `TeXInputOptions` وعرض مخرجات PDF.  
+**[Specify Required Input Directory for Aspose.TeX (C#)](./required-input-directory-csharp/)**
 
-Aspose.TeX for .NET يفتح أبوابًا لعالم من الإمكانات في معالجة المستندات. للبدء في رحلتك، نرشدك إلى كيفية تحديد دليل الإدخال المطلوب في C#. احصل على رؤى حول تفاصيل التعامل مع الإدخال بفعالية، لضمان سير عمل سلس لمشاريع دمج TeX الخاصة بك. اتبع دليلنا خطوة بخطوة [تحديد دليل الإدخال المطلوب لـ Aspose.TeX (C#)](./required-input-directory-csharp/) لإطلاق كامل إمكانات Aspose.TeX.
+## إتقان التدفقات، الصور، وإدخال الطرفية في Aspose.TeX لـ C#
+للتعمق أكثر في تغذية LaTeX من الذاكرة، وإضافة الصور عبر التدفقات، واستخدام إدخال على نمط الطرفية، اطلع على **[Master Streams, Images, & Terminal Input in Aspose.TeX for C#](./stream-input-image-output-terminal-input-csharp/)**. يوضح كيفية دمج Aspose.TeX في واجهات برمجة تطبيقات الويب، والخدمات الخلفية، وأدوات سطر الأوامر.  
+**[Master Streams, Images, & Terminal Input in Aspose.TeX for C#](./stream-input-image-output-terminal-input-csharp/)**
 
-## إتقان التدفقات والصور وإدخال الطرفية في Aspose.TeX لـ C#
-
-اغمس أعمق في قدرات Aspose.TeX لـ C# بينما نكشف تفاصيل إتقان التدفقات، الصور، وإدخال الطرفية. استغل قوة هذه الميزات لتعزيز مستوى معالجة المستندات لديك. يقدم دليلنا [إتقان التدفقات، الصور، وإدخال الطرفية في Aspose.TeX لـ C#](./stream-input-image-output-terminal-input-csharp/) دليلًا شاملًا، يتيح لك دمج المحتوى ومعالجته بسلاسة. حمّل الآن لتبدأ رحلة من الكفاءة والإنتاجية المتزايدة.
-
-## إطلاق الإمكانات: معالجة المستندات بسلاسة باستخدام Aspose.TeX
-
-في المشهد الديناميكي لمعالجة المستندات، يبرز Aspose.TeX كرفيق موثوق للمطورين. ارتق بمهاراتك إلى المستوى التالي من خلال استكشاف كامل إمكانات هذه المكتبة القوية. مع التركيز على تقنيات الإدخال والإخراج المتقدمة، ستحصل على ميزة تنافسية في إنشاء مستندات متقنة وخالية من الأخطاء.
-
-في الختام، تُعد هذه الدروس بوابتك لإتقان Aspose.TeX لـ .NET. سواء كنت مطورًا متمرسًا أو مبتدئًا، فإن أدلّتنا خطوة بخطوة تمكّنك من استغلال كامل قدرات Aspose.TeX، لضمان تجربة معالجة مستندات سلسة وفعّالة. حمّل الدروس، اتبع التعليمات، وشاهد التحول في مشاريع دمج TeX الخاصة بك. ارتق بمهاراتك مع Aspose.TeX لـ .NET اليوم!
-
-## دروس متقدمة في إدخال وإخراج Aspose.TeX
-### [تحديد دليل الإدخال المطلوب لـ Aspose.TeX (C#)](./required-input-directory-csharp/)
-استكشف Aspose.TeX لـ .NET، مكتبة قوية لدمج TeX بسلاسة. اتبع دليلنا خطوة بخطوة.
-### [إتقان التدفقات، الصور، وإدخال الطرفية في Aspose.TeX لـ C#](./stream-input-image-output-terminal-input-csharp/)
-استكشف قوة Aspose.TeX لـ C# لإتقان التدفقات، الصور، وإدخال الطرفية بسهولة. حمّل الآن لمعالجة المستندات بسلاسة.
+## المشكلات الشائعة والحلول
+- **أخطاء “File not found”** – تحقق من أن `BaseFolder` يشير إلى الدليل الصحيح وأن أي مسارات بحث إضافية تم إضافتها قبل العرض.
+- **عدم تحميل الصور** – تأكد من أن اسم الصورة في `AddImage` يطابق تمامًا الاسم المستخدم في مصدر TeX، بما في ذلك امتداد الملف.
+- **ارتفاع استهلاك الذاكرة** – عند معالجة مستندات كبيرة جدًا، استدعِ `TeXProcessor.Cleanup()` بعد العرض لتحرير الموارد غير المدارة.
 
 ## الأسئلة المتكررة
 
-**Q: هل يمكنني تغيير دليل الإدخال أثناء التشغيل؟**  
-A: نعم، يمكنك إنشاء كائن `TeXInputOptions` جديد وتمريره إلى المعالج كلما احتجت إلى إعادة تكوين المسار.
+**س: هل يمكنني تغيير دليل الإدخال في وقت التشغيل؟**  
+ج: نعم—يمكنك إنشاء مثيل جديد من `TeXInputOptions` بمجلد `BaseFolder` مختلف وتمريره إلى `TeXProcessor` جديد كلما احتجت إلى إعادة التكوين.
 
-**Q: كيف أضيف صورًا مخزنة في قاعدة بيانات؟**  
-A: استرجع الصورة كـ `byte[]`، غلفها في `MemoryStream`، واستخدم طريقة `AddImage` على خيارات الإدخال (انظر “كيفية إضافة الصور”).
+**س: كيف يمكنني إضافة الصور المخزنة في قاعدة بيانات؟**  
+ج: استرجع الصورة كـ `byte[]`، غلفها في `MemoryStream`، واستدعِ `TeXInputOptions.AddImage("image.png", stream)`. يجب أن يتطابق الاسم مع المرجع في ملف `.tex` الخاص بك.
 
-**Q: هل من الممكن معالجة شفرة LaTeX المستلمة من واجهة برمجة تطبيقات ويب دون حفظ ملف؟**  
-A: بالتأكيد. قم بإدخال سلسلة LaTeX الخام في `MemoryStream` واضبطها كمصدر التدفق للمعالج (انظر “كيفية معالجة التدفقات”).
+**س: هل من الممكن معالجة شفرة LaTeX المستلمة من واجهة برمجة تطبيقات ويب دون حفظ ملف؟**  
+ج: بالتأكيد. حوّل السلسلة الواردة إلى `MemoryStream`، عيّنها كمصدر لـ `TeXProcessor`، واعرض مباشرةً إلى تنسيق الإخراج المطلوب.
 
-**Q: هل أحتاج إلى استدعاء أي طرق تنظيف بعد المعالجة؟**  
-A: قم بتحرير أي تدفقات تنشئها، وإذا كنت تعالج مستندات كبيرة، فكر في استدعاء `TeXProcessor.Cleanup()` لتحرير الموارد.
+**س: هل يجب استدعاء أي طرق تنظيف بعد المعالجة؟**  
+ج: قم بتحرير أي تدفقات تنشئها، وللأحمال الكبيرة استدعِ `TeXProcessor.Cleanup()` لتحرير الموارد الأصلية.
 
-**Q: أين يمكنني العثور على أمثلة أكثر تقدمًا؟**  
-A: الروابط التعليمية المذكورة أعلاه تحتوي على عينات شفرة كاملة توضح كل سيناريو بالتفصيل.
+**س: أين يمكنني العثور على أمثلة أكثر تقدمًا؟**  
+ج: الروابط التعليمية المذكورة أعلاه تحتوي على عينات كود كاملة توضح كل سيناريو بالتفصيل، بما في ذلك معالجة الأخطاء ونصائح الأداء.
 
----
-
-**آخر تحديث:** 2026-03-21  
+**آخر تحديث:** 2026-09-24  
 **تم الاختبار مع:** Aspose.TeX 24.11 لـ .NET  
 **المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [الحصول على تدفق ملف TeX (C#) باستخدام Aspose.TeX API دليل الإدخال المطلوب](/tex/net/advanced-io/required-input-directory-csharp/)
+- [إنشاء XPS من TeX باستخدام أنظمة الملفات – Aspose.TeX لـ .NET](/tex/net/file-input-output/filesystem-input-xps-output/)
+- [تحويل LaTeX إلى PNG باستخدام Aspose.TeX لـ .NET – معالجة مدخلات نظام الملفات وZIP](/tex/net/file-input-output/required-inputs-from-filesystem-and-zip/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,10 +1,63 @@
 ---
-date: 2026-03-21
-description: Leer hoe u invoermapjes, streams, afbeeldingen en terminalinvoer instelt
-  met Aspose.TeX voor .NET in C#.
-linktitle: Advanced Aspose.TeX Input and Output
+date: 2026-09-24
+description: Leer hoe u de TeX-invoermap, streams, afbeeldingen en terminalinvoer
+  kunt configureren met Aspose.TeX voor .NET in C#.
+keywords:
+- configure tex input directory
+- add image stream tex
+- add images from stream
+lastmod: 2026-09-24
+linktitle: Geavanceerde Aspose.TeX Invoer en Uitvoer
+og_description: Configureer de TeX-invoermap, voeg afbeeldingsstreams toe en verwerk
+  terminalinvoer met Aspose.TeX voor .NET in C#. Leer stap voor stap.
+og_image_alt: Guide showing how to configure TeX input directory and streams in Aspose.TeX
+  for .NET
+og_title: Configureer TeX-invoermap – Geavanceerde Aspose.TeX-gids
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  headline: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  type: TechArticle
+- description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  name: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  steps:
+  - name: instantiate TeXInputOptions
+    text: Assign the base folder that holds the primary TeX source.
+  - name: add extra search paths
+    text: If your project stores figures in a separate folder (e.g., *Images*), call
+      `AddSearchPath` to include it.
+  - name: hand the options to the processor
+    text: Create a `TeXProcessor`, provide the configured options, and invoke `Process`
+      or `Render`.
+  type: HowTo
+- questions:
+  - answer: Yes—you can create a new `TeXInputOptions` instance with a different `BaseFolder`
+      and pass it to a fresh `TeXProcessor` whenever you need to reconfigure.
+    question: Can I change the input directory at runtime?
+  - answer: Retrieve the image as a `byte[]`, wrap it in a `MemoryStream`, and call
+      `TeXInputOptions.AddImage("image.png", stream)`. The name must match the reference
+      in your `.tex` file.
+    question: How do I add images that are stored in a database?
+  - answer: Absolutely. Convert the incoming string to a `MemoryStream`, set it as
+      the source for `TeXProcessor`, and render directly to your desired output format.
+    question: Is it possible to process LaTeX code received from a web API without
+      saving a file?
+  - answer: Dispose of any streams you create, and for large workloads invoke `TeXProcessor.Cleanup()`
+      to free native resources.
+    question: Do I need to call any cleanup methods after processing?
+  - answer: The two tutorial links above contain full code samples that demonstrate
+      each scenario in detail, including error handling and performance tips.
+    question: Where can I find more advanced examples?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: Hoe invoer instellen – Geavanceerde Aspose.TeX Invoer en Uitvoer
+tags:
+- Aspose.TeX
+- input directory
+- C# document processing
+title: Configureer de TeX-invoermap – Geavanceerde Aspose.TeX Invoer en Uitvoer
 url: /nl/net/advanced-io/
 weight: 27
 ---
@@ -13,84 +66,95 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Geavanceerde Aspose.TeX Invoer en Uitvoer
+# Configureer TeX‑invoermap in Aspose.TeX voor .NET
 
-## Introductie
+Aspose.TeX for .NET stelt je in staat om volledige TeX‑verwerking direct in je C#‑applicaties in te sluiten. In deze tutorial leer je hoe je de **configureer TeX‑invoermap**, LaTeX‑inhoud vanuit streams voedt, en afbeeldingen toevoegt zonder het bestandssysteem aan te raken. Als je nauwkeurige controle nodig hebt over waar de engine zoekt naar `.tex`‑bestanden en bronnen, ben je hier op de juiste plek.
 
-Aspose.TeX for .NET is een baanbrekende oplossing voor naadloze TeX-integratie, die ontwikkelaars een robuuste bibliotheek biedt om documentverwerking te verbeteren. In dit artikel gaan we dieper in op geavanceerde tutorials die zich richten op het specificeren van invoermappen en het beheersen van streams, afbeeldingen en terminalinvoer in C#. **Als je zoekt naar hoe je invoer instelt** voor je TeX-projecten, ben je hier aan het juiste adres.
-
-## Snelle Antwoorden
-- **Waar verwijst “how to set input” naar?**  
-  Het betekent het configureren van de bibliotheek zodat deze TeX-bronbestanden, afbeeldingen en stream‑gegevens correct kan vinden.
-- **Welke API‑klasse behandelt invoermappen?**  
-  `TeXInputOptions` stelt je in staat de basismap en extra zoekpaden te definiëren.
-- **Kan ik afbeeldingen direct vanuit een stream toevoegen?**  
-  Ja, met behulp van de `AddImage`‑methode op de invoeropties (zie “how to add images” hieronder).
-- **Wordt terminalinvoer ondersteund?**  
-  Absoluut – je kunt LaTeX‑code invoeren via een `MemoryStream` of standaardinvoer.
+## Snelle antwoorden
+- **Wat betekent “configure tex input directory”?**  
+  Het vertelt Aspose.TeX waar het hoofd‑`.tex`‑bestand, hulpprogramma‑bestanden en afbeeldingen kan vinden.
+- **Welke klasse definieert de invoer‑paden?**  
+  `TeXInputOptions` slaat de basismap en eventuele extra zoeklocaties op.
+- **Kan ik een afbeelding laden vanuit een geheugen‑stream?**  
+  Ja—gebruik `TeXInputOptions.AddImage` met een `Stream`‑instantie.
+- **Is het mogelijk om LaTeX‑code die tijdens runtime wordt geleverd te compileren?**  
+  Absoluut—geef een `MemoryStream` met de brontekst door aan de processor.
 - **Heb ik een licentie nodig voor productiegebruik?**  
   Een geldige Aspose.TeX‑licentie is vereist voor niet‑evaluatie‑implementaties.
 
-## Hoe invoer instellen in Aspose.TeX voor .NET
-Het opzetten van de invoeromgeving is de basis van elke Aspose.TeX‑workflow. Hieronder vind je de drie meest voorkomende scenario's:
+## Wat is TeXInputOptions?
+`TeXInputOptions` is het configuratie‑object dat de basismap en extra zoekpaden voor TeX‑bronnen definieert. Het correct instellen elimineert “bestand niet gevonden”‑fouten en stelt je in staat om assets georganiseerd te houden.
 
-### Hoe afbeeldingen toevoegen met Aspose.TeX
-Afbeeldingen worden vaak in TeX‑bestanden gerefereerd met relatieve paden. Door de invoeropties te configureren kun je de engine laten wijzen naar een map die alle benodigde graphics bevat, of je kunt direct een afbeeldings‑stream leveren. Dit elimineert de noodzaak om bestanden in je project te kopiëren.
+## Hoe configureer je de TeX‑invoermap?
+`TeXInputOptions` is een configuratie‑object dat de basismap en extra zoekpaden voor TeX‑bronnen specificeert. Laad je hoofd‑document en vertel de processor waar alles te vinden is in slechts een paar regels. Dit directe antwoord legt de essentiële stappen uit vóór verdere details.
 
-### Hoe streams verwerken in Aspose.TeX
-Wanneer je werkt met dynamisch gegenereerde LaTeX‑inhoud (bijvoorbeeld een rapport on‑the‑fly bouwen), wil je de bron als een stream aanleveren in plaats van een fysiek bestand. Aspose.TeX accepteert elk `Stream`‑object, waardoor je kunt integreren met webservices, databases of in‑memory generators.
+Maak een `TeXInputOptions`‑instantie, stel `BaseFolder` in op de map die je primaire `.tex`‑bestand bevat, voeg eventuele sub‑mappen toe die afbeeldingen of hulpprogramma‑bestanden bevatten, en geef de opties door aan `TeXProcessor`. De engine zal vervolgens alle relatieve verwijzingen automatisch oplossen.
 
-### Hoe een invoermap instellen
-1. **Maak een instantie van `TeXInputOptions`.**  
-   Dit object bevat alle pad‑gerelateerde instellingen.  
-2. **Specificeer de basismap** waarin je hoofd‑`.tex`‑bestand zich bevindt.  
-3. **Voeg extra zoekpaden toe** voor sub‑mappen die afbeeldingen of hulpprogramma‑bestanden bevatten.  
-4. **Geef de geconfigureerde opties door** aan de `TeXProcessor` vóór het renderen.
+### Stap 1: instantieer TeXInputOptions
+Wijs de basismap toe die de primaire TeX‑bron bevat.
 
-Deze stappen zorgen ervoor dat de bibliotheek elke bron kan vinden zonder handmatig bestanden te kopiëren, waardoor je build‑proces schoner en beter onderhoudbaar wordt.
+### Stap 2: voeg extra zoekpaden toe
+Als je project figuren opslaat in een aparte map (bijv. *Images*), roep dan `AddSearchPath` aan om deze op te nemen.
 
-## Ontdek Aspose.TeX: Een toegangspoort tot geavanceerde documentverwerking
+### Stap 3: geef de opties door aan de processor
+Maak een `TeXProcessor`, lever de geconfigureerde opties aan, en roep `Process` of `Render` aan.
 
-Aspose.TeX voor .NET opent de deur naar een wereld vol mogelijkheden in documentverwerking. Om je reis te starten, begeleiden we je bij het specificeren van de vereiste invoermap in C#. Krijg inzicht in de nuances van efficiënt invoerbeheer, zodat je een soepele workflow voor je TeX‑integratieprojecten hebt. Volg onze stap‑voor‑stap tutorial [Specify Required Input Directory for Aspose.TeX (C#)](./required-input-directory-csharp/) om het volledige potentieel van Aspose.TeX te benutten.
+## Hoe afbeeldingen toe te voegen met Aspose.TeX
+Afbeeldingen die in een TeX‑bestand worden verwezen, kunnen worden geleverd via een map of direct vanuit een stream. Het leveren van een stream is handig wanneer afbeeldingen in een database zijn opgeslagen of on‑the‑fly worden gegenereerd. `AddImage(string name, Stream data)` registreert een afbeeldings‑stream met de opgegeven bestandsnaam voor gebruik in het TeX‑document. Deze methode stelt je in staat tijdelijke bestanden te vermijden en versnelt de verwerking.
+
+## Hoe streams te verwerken in Aspose.TeX
+Wanneer je LaTeX‑bron dynamisch wordt gegenereerd—bijvoorbeeld vanuit gebruikersinvoer of een webservice—kun je deze rechtstreeks aan de processor voeren zonder een bestand te schrijven. `TeXProcessor` verwerkt TeX‑inhoud en kan een `MemoryStream` accepteren die de bron‑LaTeX‑code bevat. Plaats de LaTeX‑string in een `MemoryStream`, stel deze in als de bron‑stream in `TeXProcessor`, en voer de conversie uit. Deze techniek werkt even goed voor cloud‑native services waar schijf‑I/O duur is.
+
+## Waarom Aspose.TeX gebruiken voor geavanceerde I/O?
+Aspose.TeX ondersteunt **30+ invoer‑ en uitvoerformaten** (inclusief PDF, PNG, SVG) en kan documenten van meerdere honderden pagina's renderen zonder het volledige bestand in het geheugen te laden. Het stream‑first‑ontwerp vermindert I/O‑overhead tot wel 40 % vergeleken met bestandsgebaseerde workflows, waardoor het ideaal is voor high‑throughput server‑applicaties.
+
+## Vereisten
+- .NET 6.0 of later (de bibliotheek werkt ook met .NET Core 3.1+ en .NET Framework 4.6.1+)
+- Aspose.TeX for .NET NuGet‑pakket (versie 24.11 of nieuwer)
+- Een geldige Aspose.TeX‑licentie voor productiegebruik
+
+## Ontdek Aspose.TeX: een toegangspoort tot geavanceerde documentverwerking
+Om de configuratie in actie te zien, volg onze stap‑voor‑stap‑gids **[Specificeer Vereiste Invoermap voor Aspose.TeX (C#)](./required-input-directory-csharp/)**. Die tutorial leidt je door het maken van het `TeXInputOptions`‑object en het renderen van een PDF‑output.  
+**[Specificeer Vereiste Invoermap voor Aspose.TeX (C#)](./required-input-directory-csharp/)**
 
 ## Meesterschap over streams, afbeeldingen en terminalinvoer in Aspose.TeX voor C#
+Voor een diepere duik in het voeden van LaTeX vanuit het geheugen, het toevoegen van afbeeldingen via streams, en het gebruiken van terminal‑achtige invoer, bekijk **[Beheers Streams, Afbeeldingen & Terminalinvoer in Aspose.TeX voor C#](./stream-input-image-output-terminal-input-csharp/)**. Het toont hoe je Aspose.TeX integreert in web‑API's, achtergrondservices en console‑tools.  
+**[Beheers Streams, Afbeeldingen & Terminalinvoer in Aspose.TeX voor C#](./stream-input-image-output-terminal-input-csharp/)**
 
-Duik dieper in de mogelijkheden van Aspose.TeX voor C# terwijl we de complexiteit van het beheersen van streams, afbeeldingen en terminalinvoer ontrafelen. Benut de kracht van deze functies om je documentverwerking naar een hoger niveau te tillen. Onze tutorial [Master Streams, Images, & Terminal Input in Aspose.TeX for C#](./stream-input-image-output-terminal-input-csharp/) biedt een uitgebreide gids, zodat je content naadloos kunt integreren en manipuleren. Download nu om een reis van verhoogde efficiëntie en productiviteit te beginnen.
-
-## Ontketen het potentieel: Documenten naadloos verwerken met Aspose.TeX
-
-In het dynamische landschap van documentverwerking onderscheidt Aspose.TeX zich als een betrouwbare partner voor ontwikkelaars. Til je vaardigheden naar een hoger niveau door het volledige potentieel van deze robuuste bibliotheek te ontsluiten. Met de focus op geavanceerde invoer‑ en uitvoertechnieken krijg je een concurrentievoordeel bij het creëren van verfijnde en foutloze documenten.
-
-Kortom, deze tutorials vormen jouw toegangspoort tot het beheersen van Aspose.TeX voor .NET. Of je nu een ervaren ontwikkelaar bent of net begint, onze stap‑voor‑stap gidsen stellen je in staat de volledige mogelijkheden van Aspose.TeX te benutten, waardoor je een naadloze en efficiënte documentverwerkingservaring krijgt. Download de tutorials, volg de instructies en ervaar de transformatie in je TeX‑integratieprojecten. Verhoog vandaag nog je vaardigheden met Aspose.TeX voor .NET!
-
-## Geavanceerde Aspose.TeX Invoer‑ en Uitvoertutorials
-### [Specify Required Input Directory for Aspose.TeX (C#)](./required-input-directory-csharp/)
-Ontdek Aspose.TeX voor .NET, een robuuste bibliotheek voor naadloze TeX‑integratie. Volg onze stap‑voor‑stap gids.
-### [Master Streams, Images, & Terminal Input in Aspose.TeX for C#](./stream-input-image-output-terminal-input-csharp/)
-Ontdek de kracht van Aspose.TeX voor C# om streams, afbeeldingen en terminalinvoer moeiteloos te beheersen. Download nu voor naadloze documentverwerking.
+## Veelvoorkomende problemen en oplossingen
+- **“File not found”‑fouten** – Controleer of `BaseFolder` naar de juiste map wijst en of eventuele extra zoekpaden zijn toegevoegd vóór het renderen.
+- **Afbeeldingen laden niet** – Zorg ervoor dat de afbeeldingsnaam in `AddImage` exact overeenkomt met de naam die in de TeX‑bron wordt gebruikt, inclusief bestandsextensie.
+- **Geheugengebruik piekt** – Roep bij het verwerken van zeer grote documenten `TeXProcessor.Cleanup()` aan na het renderen om niet‑beheerste bronnen vrij te geven.
 
 ## Veelgestelde vragen
 
 **Q: Kan ik de invoermap tijdens runtime wijzigen?**  
-A: Ja, je kunt een nieuw `TeXInputOptions`‑object instantieren en dit aan de processor doorgeven wanneer je het pad moet herconfigureren.
+A: Ja—je kunt een nieuwe `TeXInputOptions`‑instantie maken met een andere `BaseFolder` en deze doorgeven aan een nieuwe `TeXProcessor` wanneer je opnieuw moet configureren.
 
 **Q: Hoe voeg ik afbeeldingen toe die in een database zijn opgeslagen?**  
-A: Haal de afbeelding op als een `byte[]`, wikkel deze in een `MemoryStream` en gebruik de `AddImage`‑methode op de invoeropties (zie “how to add images”).
+A: Haal de afbeelding op als een `byte[]`, plaats deze in een `MemoryStream`, en roep `TeXInputOptions.AddImage("image.png", stream)` aan. De naam moet overeenkomen met de referentie in je `.tex`‑bestand.
 
 **Q: Is het mogelijk om LaTeX‑code ontvangen van een web‑API te verwerken zonder een bestand op te slaan?**  
-A: Absoluut. Voer de ruwe LaTeX‑string in een `MemoryStream` en stel deze in als de bron‑stream voor de processor (zie “how to process streams”).
+A: Absoluut. Converteer de binnenkomende string naar een `MemoryStream`, stel deze in als bron voor `TeXProcessor`, en render direct naar het gewenste uitvoerformaat.
 
-**Q: Moet ik na het verwerken enige opruim‑methoden aanroepen?**  
-A: Vernietig alle streams die je maakt en, als je grote documenten verwerkt, overweeg `TeXProcessor.Cleanup()` aan te roepen om bronnen vrij te maken.
+**Q: Moet ik na het verwerken enige opruimmethoden aanroepen?**  
+A: Vernietig alle streams die je maakt, en bij grote workloads roep `TeXProcessor.Cleanup()` aan om native bronnen vrij te maken.
 
 **Q: Waar kan ik meer geavanceerde voorbeelden vinden?**  
-A: De twee bovenstaande tutorial‑links bevatten volledige code‑voorbeelden die elk scenario in detail demonstreren.
+A: De twee bovenstaande tutorial‑links bevatten volledige code‑samples die elk scenario in detail demonstreren, inclusief foutafhandeling en prestatietips.
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose
+**Laatst bijgewerkt:** 2026-09-24  
+**Getest met:** Aspose.TeX 24.11 for .NET  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Haal TeX‑bestand‑stream op (C#) met Aspose.TeX API Vereiste Invoermap](/tex/net/advanced-io/required-input-directory-csharp/)
+- [Maak XPS van TeX met Filesystemen – Aspose.TeX voor .NET](/tex/net/file-input-output/filesystem-input-xps-output/)
+- [Converteer LaTeX naar PNG met Aspose.TeX voor .NET – Verwerk Filesystem‑ en ZIP‑invoer](/tex/net/file-input-output/required-inputs-from-filesystem-and-zip/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

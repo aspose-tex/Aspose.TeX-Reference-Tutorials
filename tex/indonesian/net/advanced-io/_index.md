@@ -1,10 +1,63 @@
 ---
-date: 2026-03-21
-description: Pelajari cara mengatur direktori input, aliran, gambar, dan input terminal
-  menggunakan Aspose.TeX untuk .NET dalam C#.
-linktitle: Advanced Aspose.TeX Input and Output
+date: 2026-09-24
+description: Pelajari cara mengonfigurasi direktori input TeX, aliran, gambar, dan
+  input terminal menggunakan Aspose.TeX untuk .NET dalam C#.
+keywords:
+- configure tex input directory
+- add image stream tex
+- add images from stream
+lastmod: 2026-09-24
+linktitle: Input dan Output Aspose.TeX Lanjutan
+og_description: Konfigurasikan direktori input TeX, tambahkan aliran gambar, dan tangani
+  input terminal dengan Aspose.TeX untuk .NET dalam C#. Pelajari langkah demi langkah.
+og_image_alt: Guide showing how to configure TeX input directory and streams in Aspose.TeX
+  for .NET
+og_title: Konfigurasikan direktori input TeX – Panduan Aspose.TeX Lanjutan
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  headline: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  type: TechArticle
+- description: Learn how to configure TeX input directory, streams, images, and terminal
+    input using Aspose.TeX for .NET in C#.
+  name: Configure TeX input directory – Advanced Aspose.TeX Input and Output
+  steps:
+  - name: instantiate TeXInputOptions
+    text: Assign the base folder that holds the primary TeX source.
+  - name: add extra search paths
+    text: If your project stores figures in a separate folder (e.g., *Images*), call
+      `AddSearchPath` to include it.
+  - name: hand the options to the processor
+    text: Create a `TeXProcessor`, provide the configured options, and invoke `Process`
+      or `Render`.
+  type: HowTo
+- questions:
+  - answer: Yes—you can create a new `TeXInputOptions` instance with a different `BaseFolder`
+      and pass it to a fresh `TeXProcessor` whenever you need to reconfigure.
+    question: Can I change the input directory at runtime?
+  - answer: Retrieve the image as a `byte[]`, wrap it in a `MemoryStream`, and call
+      `TeXInputOptions.AddImage("image.png", stream)`. The name must match the reference
+      in your `.tex` file.
+    question: How do I add images that are stored in a database?
+  - answer: Absolutely. Convert the incoming string to a `MemoryStream`, set it as
+      the source for `TeXProcessor`, and render directly to your desired output format.
+    question: Is it possible to process LaTeX code received from a web API without
+      saving a file?
+  - answer: Dispose of any streams you create, and for large workloads invoke `TeXProcessor.Cleanup()`
+      to free native resources.
+    question: Do I need to call any cleanup methods after processing?
+  - answer: The two tutorial links above contain full code samples that demonstrate
+      each scenario in detail, including error handling and performance tips.
+    question: Where can I find more advanced examples?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: Cara Mengatur Input – Input dan Output Aspose.TeX Tingkat Lanjut
+tags:
+- Aspose.TeX
+- input directory
+- C# document processing
+title: Konfigurasikan direktori input TeX – Input dan Output Aspose.TeX Lanjutan
 url: /id/net/advanced-io/
 weight: 27
 ---
@@ -13,84 +66,94 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Input dan Output Aspose.TeX Lanjutan
+# Konfigurasikan Direktori Input TeX di Aspose.TeX untuk .NET
 
-## Pendahuluan
-
-Aspose.TeX untuk .NET adalah pengubah permainan dalam integrasi TeX yang mulus, menyediakan pengembang dengan pustaka yang kuat untuk meningkatkan pemrosesan dokumen. Dalam artikel ini, kami menyelami tutorial lanjutan yang berfokus pada penentuan direktori input serta menguasai stream, gambar, dan input terminal dalam C#. **Jika Anda mencari cara mengatur input** untuk proyek TeX Anda, Anda berada di tempat yang tepat.
+Aspose.TeX untuk .NET memungkinkan Anda menyematkan pemrosesan TeX lengkap langsung ke dalam aplikasi C# Anda. Dalam tutorial ini Anda akan belajar cara **mengonfigurasi direktori input TeX**, memberi umpan konten LaTeX dari aliran, dan menambahkan gambar tanpa menyentuh sistem file. Jika Anda memerlukan kontrol yang tepat tentang di mana mesin mencari file `.tex` dan sumber daya, Anda berada di tempat yang tepat.
 
 ## Jawaban Cepat
-- **Apa yang dimaksud dengan “how to set input”?**  
-  Itu berarti mengkonfigurasi pustaka untuk menemukan file sumber TeX, gambar, dan data stream dengan benar.
-- **Kelas API mana yang menangani direktori input?**  
-  `TeXInputOptions` memungkinkan Anda menentukan folder dasar dan jalur pencarian tambahan.
-- **Bisakah saya menambahkan gambar langsung dari stream?**  
-  Ya, dengan menggunakan metode `AddImage` pada opsi input (lihat “how to add images” di bawah).
-- **Apakah input terminal didukung?**  
-  Tentu – Anda dapat memberi kode LaTeX melalui `MemoryStream` atau input standar.
+- **Apa arti “configure tex input directory”?**  
+  Itu memberi tahu Aspose.TeX di mana menemukan file `.tex` utama, file tambahan, dan grafik.
+- **Kelas mana yang mendefinisikan jalur input?**  
+  `TeXInputOptions` menyimpan folder dasar dan lokasi pencarian tambahan.
+- **Bisakah saya memuat gambar dari aliran memori?**  
+  Ya—gunakan `TeXInputOptions.AddImage` dengan instance `Stream`.
+- **Apakah memungkinkan untuk mengompilasi kode LaTeX yang diberikan pada waktu berjalan?**  
+  Tentu—lewatkan `MemoryStream` yang berisi teks sumber ke processor.
 - **Apakah saya memerlukan lisensi untuk penggunaan produksi?**  
   Lisensi Aspose.TeX yang valid diperlukan untuk penyebaran non‑evaluasi.
 
-## Cara Mengatur Input di Aspose.TeX untuk .NET
-Menyiapkan lingkungan input adalah dasar dari setiap alur kerja Aspose.TeX. Di bawah ini Anda akan menemukan tiga skenario paling umum:
+## Apa itu TeXInputOptions?
+`TeXInputOptions` adalah objek konfigurasi yang mendefinisikan folder dasar dan jalur pencarian tambahan untuk sumber daya TeX. Menyiapkannya dengan benar menghilangkan kesalahan “file not found” dan memungkinkan Anda menjaga aset terorganisir.
 
-### Cara Menambahkan Gambar dengan Aspose.TeX
-Gambar sering direferensikan dalam file TeX menggunakan jalur relatif. Dengan mengkonfigurasi opsi input, Anda dapat mengarahkan mesin ke folder yang berisi semua grafik yang diperlukan, atau Anda dapat menyediakan stream gambar secara langsung. Ini menghilangkan kebutuhan untuk menyalin file di sekitar proyek Anda.
+## Cara mengonfigurasi direktori input TeX?
+`TeXInputOptions` adalah objek konfigurasi yang menentukan folder dasar dan jalur pencarian tambahan untuk sumber daya TeX. Muat dokumen utama Anda dan beri tahu processor di mana mencari semua hal dalam beberapa baris saja. Jawaban langsung ini menjelaskan langkah-langkah penting sebelum detail tambahan apa pun.
 
-### Cara Memproses Stream di Aspose.TeX
-Saat bekerja dengan konten LaTeX yang dihasilkan secara dinamis (misalnya, membuat laporan secara langsung), Anda ingin memberi sumber sebagai stream bukan sebagai file fisik. Aspose.TeX menerima objek `Stream` apa pun, memungkinkan Anda mengintegrasikan dengan layanan web, basis data, atau generator dalam memori.
+Buat instance `TeXInputOptions`, set `BaseFolder` ke folder yang berisi file `.tex` utama Anda, tambahkan sub‑folder apa pun yang menyimpan gambar atau file tambahan, dan berikan opsi tersebut ke `TeXProcessor`. Mesin kemudian akan menyelesaikan semua referensi relatif secara otomatis.
 
-### Cara Mengatur Direktori Input
-1. **Buat instance `TeXInputOptions`.**  
-   Objek ini menyimpan semua pengaturan yang terkait dengan jalur.  
-2. **Tentukan direktori dasar** tempat file `.tex` utama Anda berada.  
-3. **Tambahkan jalur pencarian tambahan** untuk sub‑folder yang berisi gambar atau file bantu.  
-4. **Berikan opsi yang telah dikonfigurasi** ke `TeXProcessor` sebelum rendering.
+### Langkah 1: buat instance TeXInputOptions
+Tetapkan folder dasar yang menyimpan sumber TeX utama.
 
-Langkah-langkah ini memastikan pustaka dapat menemukan setiap sumber daya tanpa menyalin file secara manual, membuat proses build Anda lebih bersih dan lebih mudah dipelihara.
+### Langkah 2: tambahkan jalur pencarian tambahan
+Jika proyek Anda menyimpan gambar dalam folder terpisah (mis., *Images*), panggil `AddSearchPath` untuk menyertakannya.
 
-## Jelajahi Aspose.TeX: Gerbang ke Pemrosesan Dokumen Lanjutan
+### Langkah 3: serahkan opsi ke processor
+Buat `TeXProcessor`, berikan opsi yang telah dikonfigurasi, dan panggil `Process` atau `Render`.
 
-Aspose.TeX untuk .NET membuka pintu ke dunia kemungkinan dalam pemrosesan dokumen. Untuk memulai perjalanan Anda, kami membimbing Anda melalui penentuan direktori input yang diperlukan dalam C#. Dapatkan wawasan tentang nuansa penanganan input secara efisien, memastikan alur kerja yang lancar untuk proyek integrasi TeX Anda. Ikuti tutorial langkah‑demi‑langkah kami [Specify Required Input Directory for Aspose.TeX (C#)](./required-input-directory-csharp/) untuk memanfaatkan potensi penuh Aspose.TeX.
+## Cara menambahkan gambar dengan Aspose.TeX
+Gambar yang direferensikan dalam file TeX dapat disediakan baik melalui folder maupun langsung dari aliran. Menyediakan aliran berguna ketika gambar disimpan dalam basis data atau dihasilkan secara dinamis. `AddImage(string name, Stream data)` mendaftarkan aliran gambar dengan nama file yang diberikan untuk digunakan dalam dokumen TeX. Metode ini memungkinkan Anda menghindari file sementara dan mempercepat pemrosesan.
 
-## Menguasai Stream, Gambar, dan Input Terminal di Aspose.TeX untuk C#
+## Cara memproses aliran dalam Aspose.TeX
+Ketika sumber LaTeX Anda dihasilkan secara dinamis—mungkin dari masukan pengguna atau layanan web—Anda dapat memberi makan langsung ke processor tanpa menulis file. `TeXProcessor` memproses konten TeX dan dapat menerima `MemoryStream` yang berisi kode LaTeX sumber. Bungkus string LaTeX dalam `MemoryStream`, setel sebagai aliran sumber di `TeXProcessor`, dan jalankan konversi. Teknik ini bekerja sama baiknya untuk layanan cloud‑native di mana I/O disk mahal.
 
-Menyelami lebih dalam kemampuan Aspose.TeX untuk C# saat kami mengungkap seluk‑beluk menguasai stream, gambar, dan input terminal. Manfaatkan kekuatan fitur-fitur ini untuk meningkatkan kemampuan pemrosesan dokumen Anda. Tutorial kami [Master Streams, Images, & Terminal Input in Aspose.TeX for C#](./stream-input-image-output-terminal-input-csharp/) menyediakan panduan komprehensif, memungkinkan Anda mengintegrasikan dan memanipulasi konten secara mulus. Unduh sekarang untuk memulai perjalanan efisiensi dan produktivitas yang meningkat.
+## Mengapa menggunakan Aspose.TeX untuk I/O lanjutan?
+Aspose.TeX mendukung **lebih dari 30 format input dan output** (termasuk PDF, PNG, SVG) dan dapat merender dokumen ratusan halaman tanpa memuat seluruh file ke memori. Desain berbasis aliran pertama mengurangi overhead I/O hingga 40 % dibandingkan alur kerja berbasis file, menjadikannya ideal untuk aplikasi server dengan throughput tinggi.
 
-## Lepaskan Potensi: Proses Dokumen Secara Mulus dengan Aspose.TeX
+## Prasyarat
+- .NET 6.0 atau lebih baru (perpustakaan juga berfungsi dengan .NET Core 3.1+ dan .NET Framework 4.6.1+)
+- Paket NuGet Aspose.TeX untuk .NET (versi 24.11 atau lebih baru)
+- Lisensi Aspose.TeX yang valid untuk penggunaan produksi
 
-Dalam lanskap dinamis pemrosesan dokumen, Aspose.TeX menonjol sebagai pendamping yang dapat diandalkan bagi pengembang. Tingkatkan keterampilan Anda ke level berikutnya dengan membuka potensi penuh pustaka yang kuat ini. Dengan fokus pada teknik input dan output lanjutan, Anda akan memperoleh keunggulan kompetitif dalam menciptakan dokumen yang canggih dan sempurna.
+## Jelajahi Aspose.TeX: gerbang ke pemrosesan dokumen lanjutan
+Untuk melihat konfigurasi dalam aksi, ikuti panduan langkah‑demi‑langkah kami **[Tentukan Direktori Input yang Diperlukan untuk Aspose.TeX (C#)](./required-input-directory-csharp/)**. Tutorial itu memandu Anda membuat objek `TeXInputOptions` dan merender output PDF.  
+**[Tentukan Direktori Input yang Diperlukan untuk Aspose.TeX (C#)](./required-input-directory-csharp/)**
 
-Sebagai kesimpulan, tutorial ini berfungsi sebagai gerbang Anda untuk menguasai Aspose.TeX untuk .NET. Baik Anda pengembang berpengalaman maupun yang baru memulai, panduan langkah‑demi‑langkah kami memberi Anda kemampuan untuk memanfaatkan seluruh kapabilitas Aspose.TeX, memastikan pengalaman pemrosesan dokumen yang mulus dan efisien. Unduh tutorialnya, ikuti instruksi, dan saksikan transformasi dalam proyek integrasi TeX Anda. Tingkatkan keterampilan Anda dengan Aspose.TeX untuk .NET hari ini!
+## Menguasai aliran, gambar, dan input terminal dalam Aspose.TeX untuk C#
+Untuk pendalaman lebih lanjut tentang memberi umpan LaTeX dari memori, menambahkan gambar via aliran, dan menggunakan input bergaya terminal, lihat **[Kuasai Aliran, Gambar, & Input Terminal dalam Aspose.TeX untuk C#](./stream-input-image-output-terminal-input-csharp/)**. Itu menunjukkan cara mengintegrasikan Aspose.TeX ke dalam API web, layanan latar belakang, dan alat konsol.  
+**[Kuasai Aliran, Gambar, & Input Terminal dalam Aspose.TeX untuk C#](./stream-input-image-output-terminal-input-csharp/)**
 
-## Tutorial Input dan Output Aspose.TeX Lanjutan
-### [Tentukan Direktori Input yang Diperlukan untuk Aspose.TeX (C#)](./required-input-directory-csharp/)
-Jelajahi Aspose.TeX untuk .NET, pustaka yang kuat untuk integrasi TeX yang mulus. Ikuti panduan langkah‑demi‑langkah kami.
-### [Kuasi Stream, Gambar, & Input Terminal di Aspose.TeX untuk C#](./stream-input-image-output-terminal-input-csharp/)
-Jelajahi kekuatan Aspose.TeX untuk C# menguasai stream, gambar, dan input terminal dengan mudah. Unduh sekarang untuk pemrosesan dokumen yang mulus.
+## Masalah umum dan solusi
+- **Kesalahan “File not found”** – Pastikan `BaseFolder` mengarah ke direktori yang benar dan semua jalur pencarian tambahan ditambahkan sebelum rendering.
+- **Gambar tidak dimuat** – Pastikan nama gambar di `AddImage` persis sama dengan nama yang digunakan dalam sumber TeX, termasuk ekstensi file.
+- **Lonjakan penggunaan memori** – Saat memproses dokumen sangat besar, panggil `TeXProcessor.Cleanup()` setelah rendering untuk melepaskan sumber daya yang tidak dikelola.
 
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya mengubah direktori input saat runtime?**  
-A: Ya, Anda dapat menginstansiasi objek `TeXInputOptions` baru dan memberikannya ke processor setiap kali Anda perlu mengkonfigurasi ulang jalur.
+A: Ya—Anda dapat membuat instance `TeXInputOptions` baru dengan `BaseFolder` yang berbeda dan memberikannya ke `TeXProcessor` baru setiap kali Anda perlu mengkonfigurasi ulang.
 
 **Q: Bagaimana cara menambahkan gambar yang disimpan dalam basis data?**  
-A: Ambil gambar sebagai `byte[]`, bungkus dalam `MemoryStream`, dan gunakan metode `AddImage` pada opsi input (lihat “how to add images”).
+A: Ambil gambar sebagai `byte[]`, bungkus dalam `MemoryStream`, dan panggil `TeXInputOptions.AddImage("image.png", stream)`. Nama harus cocok dengan referensi di file `.tex` Anda.
 
 **Q: Apakah memungkinkan memproses kode LaTeX yang diterima dari API web tanpa menyimpan file?**  
-A: Tentu saja. Masukkan string LaTeX mentah ke dalam `MemoryStream` dan tetapkan sebagai stream sumber untuk processor (lihat “how to process streams”).
+A: Tentu saja. Konversi string yang masuk ke `MemoryStream`, setel sebagai sumber untuk `TeXProcessor`, dan render langsung ke format output yang diinginkan.
 
 **Q: Apakah saya perlu memanggil metode pembersihan apa pun setelah pemrosesan?**  
-A: Buang (dispose) semua stream yang Anda buat dan, jika Anda memproses dokumen besar, pertimbangkan memanggil `TeXProcessor.Cleanup()` untuk membebaskan sumber daya.
+A: Hapus (dispose) semua aliran yang Anda buat, dan untuk beban kerja besar panggil `TeXProcessor.Cleanup()` untuk membebaskan sumber daya native.
 
-**Q: Di mana saya dapat menemukan contoh lanjutan lainnya?**  
-A: Dua tautan tutorial di atas berisi contoh kode lengkap yang menunjukkan setiap skenario secara detail.
+**Q: Di mana saya dapat menemukan contoh yang lebih lanjutan?**  
+A: Dua tautan tutorial di atas berisi contoh kode lengkap yang menunjukkan setiap skenario secara detail, termasuk penanganan kesalahan dan tips kinerja.
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose
+**Terakhir Diperbarui:** 2026-09-24  
+**Diuji Dengan:** Aspose.TeX 24.11 untuk .NET  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Dapatkan Aliran File TeX (C#) Menggunakan API Aspose.TeX (Direktori Input yang Diperlukan)](/tex/net/advanced-io/required-input-directory-csharp/)
+- [Buat XPS dari TeX dengan Sistem File – Aspose.TeX untuk .NET](/tex/net/file-input-output/filesystem-input-xps-output/)
+- [Konversi LaTeX ke PNG Menggunakan Aspose.TeX untuk .NET – Proses Input Sistem File & ZIP](/tex/net/file-input-output/required-inputs-from-filesystem-and-zip/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
