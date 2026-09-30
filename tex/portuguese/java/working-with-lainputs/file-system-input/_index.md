@@ -11,9 +11,8 @@ url: /pt/java/working-with-lainputs/file-system-input/
 weight: 10
 ---
 
- markdown formatting.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,17 +9,12 @@ url: /it/java/custom-tex-formats/
 weight: 29
 ---
 
- "**Last Updated:** 2026-02-10" => "**Ultimo Aggiornamento:** 2026-02-10"
 
-"**Tested With:** Aspose.TeX for Java 24.12" => "**Testato Con:** Aspose.TeX for Java 24.12"
 
-"**Author:** Aspose" => "**Autore:** Aspose"
 
-Now close shortcodes.
 
-Now ensure we keep all shortcodes exactly as original.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

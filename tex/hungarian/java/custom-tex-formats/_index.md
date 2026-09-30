@@ -10,15 +10,10 @@ url: /hu/java/custom-tex-formats/
 weight: 29
 ---
 
-Tesztelve:** Aspose.TeX for Java 24.12"
 
-**Author:** Aspose -> "**Szerző:** Aspose"
 
-Then closing shortcodes.
 
-Now produce final content with same shortcodes.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

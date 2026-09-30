@@ -11,11 +11,8 @@ url: /de/java/working-with-lainputs/file-system-input/
 weight: 10
 ---
 
-.
 
-Also "Last Updated", "Tested With", "Author".
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

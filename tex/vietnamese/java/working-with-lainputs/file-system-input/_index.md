@@ -10,19 +10,12 @@ url: /vi/java/working-with-lainputs/file-system-input/
 weight: 10
 ---
 
- đề | Nguyên nhân | Giải pháp | maybe.
 
-But we must keep same number of columns. We'll translate.
 
-Similarly FAQ questions: translate Q and A but keep links.
 
-Let's proceed.
 
-Also "## Frequently Asked Questions" translate to "## Câu hỏi thường gặp". Keep Q/A.
 
-Make sure to keep markdown link format unchanged.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

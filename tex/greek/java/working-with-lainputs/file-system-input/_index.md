@@ -12,15 +12,11 @@ url: /el/java/working-with-lainputs/file-system-input/
 weight: 10
 ---
 
-μπέρασμα".
 
-Translate "Last Updated" etc.
 
-Make sure not to translate URLs.
 
-Also keep code block placeholders unchanged.
 
-Let's craft final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
