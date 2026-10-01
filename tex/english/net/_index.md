@@ -105,7 +105,7 @@ Unlock document generation mastery with Aspose.TeX for .NET. Learn to create cus
 ### [Zip File Input and Output]({{< relref "zip-file-io/_index.md" >}})
 Unlock the potential of Aspose.TeX for .NET with our Zip File Input and Output Tutorials. Explore ZIP file handling, document processing for your applications.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+
 
 ## Frequently Asked Questions
 
@@ -150,7 +150,9 @@ document.Save("output.pdf", options);
 **Tested With:** Aspose.TeX for .NET 24.11  
 **Author:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

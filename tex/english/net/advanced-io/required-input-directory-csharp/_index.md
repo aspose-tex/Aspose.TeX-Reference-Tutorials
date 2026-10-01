@@ -171,11 +171,11 @@ A: Aspose.TeX works with .NET 5, .NET 6, and later, as well as .NET Framewor
 
 **Last Updated:** 2026-03-24  
 **Tested With:** Aspose.TeX 24.11 for .NET  
-**Author:** Aspose  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
