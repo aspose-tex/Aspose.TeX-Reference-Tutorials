@@ -177,9 +177,9 @@ A: Yes, set the `EmbedFonts` option in `PdfSaveOptions` to embed all used fonts.
 
 ## Related Tutorials
 
-- [How to Write Output - Control Aspose.TeX Job Output]({{< relref "/tex/net/job-output/_index.md" >}})
-- [Convert LaTeX to PNG in .NET with Aspose.TeX]({{< relref "/tex/net/latex-conversion/to-png/_index.md" >}})
-- [Advanced Aspose.TeX Input and Output]({{< relref "/tex/net/advanced-io/_index.md" >}})
+- [How to Write Output - Control Aspose.TeX Job Output]({{< relref "/net/job-output/" >}})
+- [Convert LaTeX to PNG in .NET with Aspose.TeX]({{< relref "/net/latex-conversion/to-png/" >}})
+- [Advanced Aspose.TeX Input and Output]({{< relref "/net/advanced-io/" >}})
 
 ---  
 

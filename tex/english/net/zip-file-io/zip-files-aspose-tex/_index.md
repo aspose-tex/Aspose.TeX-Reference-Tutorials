@@ -231,9 +231,9 @@ A: Visit [this link](https://purchase.aspose.com/temporary-license/) to get a te
 
 ## Related Tutorials
 
-- [How to Read Zip Files Using Aspose.TeX for .NET]({{< relref "tex/net/zip-file-io/_index.md" >}})
-- [Convert TeX to PDF and Override Job Name – Write Output to ZIP (C#)]({{< relref "tex/net/job-output/override-job-name-zip-output-csharp/_index.md" >}})
-- [latex to pdf .net – 2 Easy Methods with Aspose.TeX]({{< relref "tex/net/latex-conversion/to-pdf/_index.md" >}})
+- [How to Read Zip Files Using Aspose.TeX for .NET]({{< relref "/net/zip-file-io/" >}})
+- [Convert TeX to PDF and Override Job Name – Write Output to ZIP (C#)]({{< relref "/net/job-output/override-job-name-zip-output-csharp/" >}})
+- [latex to pdf .net – 2 Easy Methods with Aspose.TeX]({{< relref "/net/latex-conversion/to-pdf/" >}})
 
 ```csharp
 using Aspose.TeX.IO;

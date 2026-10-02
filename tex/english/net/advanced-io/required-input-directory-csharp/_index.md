@@ -39,7 +39,7 @@ Aspose.TeX processes TeX documents by locating auxiliary files (images, style fi
 
 ## Prerequisites
 
-- **Aspose.TeX for .NET Library** – download it from the [release page]({{< relref "release-page.md" >}}).  
+- **Aspose.TeX for .NET Library** – download it from the [release page](https://releases.aspose.com/tex/net/).  
 - **.NET Development Environment** – Visual Studio 2022, Rider, or any IDE that supports .NET 6+.
 
 Now, let’s import the namespaces you’ll need.
@@ -142,19 +142,19 @@ With these five snippets you now have a fully functional `RequiredInputDirectory
 ## Frequently Asked Questions
 
 **Q: Where can I find the Aspose.TeX for .NET documentation?**  
-A: The documentation is available [here]({{< relref "documentation.md" >}}).
+A: The documentation is available [here](https://reference.aspose.com/tex/net/).
 
 **Q: How do I download the Aspose.TeX for .NET library?**  
-A: You can download the library from the [release page]({{< relref "release-page.md" >}}).
+A: You can download the library from the [release page](https://releases.aspose.com/tex/net/).
 
 **Q: Where can I get support for Aspose.TeX for .NET?**  
-A: Visit the [Aspose.TeX forum]({{< relref "forum.md" >}}) for community support.
+A: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support.
 
 **Q: Is there a free trial available?**  
-A: Yes, you can explore the free trial version [here]({{< relref "trial.md" >}}).
+A: Yes, you can explore the free trial version [here](https://releases.aspose.com/tex/net/).
 
 **Q: How can I obtain a temporary license for Aspose.TeX for .NET?**  
-A: You can acquire a temporary license [here]({{< relref "temporary-license.md" >}}).
+A: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
 ## Additional Frequently Asked Questions
 

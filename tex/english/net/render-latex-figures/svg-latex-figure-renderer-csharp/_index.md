@@ -184,9 +184,9 @@ You now have a complete, production‑ready pattern for **render latex to svg** 
 
 ## Related Tutorials
 
-- [Create SVG from LaTeX in .NET with Aspose.TeX]({{< relref "/tex/net/svg-math-rendering/render-latex-math-svg/" >}})
-- [Render LaTeX to PNG with Aspose.TeX (C#)]({{< relref "/tex/net/render-latex-figures/png-latex-figure-renderer-csharp/" >}})
-- [Create SVG from LaTeX in .NET with Aspose.TeX – Easy Guide]({{< relref "/tex/net/latex-conversion/to-svg/" >}})
+- [Create SVG from LaTeX in .NET with Aspose.TeX]({{< relref "/net/svg-math-rendering/render-latex-math-svg/" >}})
+- [Render LaTeX to PNG with Aspose.TeX (C#)]({{< relref "/net/render-latex-figures/png-latex-figure-renderer-csharp/" >}})
+- [Create SVG from LaTeX in .NET with Aspose.TeX – Easy Guide]({{< relref "/net/latex-conversion/to-svg/" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
