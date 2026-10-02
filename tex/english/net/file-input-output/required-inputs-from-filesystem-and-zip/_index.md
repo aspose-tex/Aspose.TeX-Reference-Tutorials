@@ -218,9 +218,9 @@ You’ve now learned how to **convert LaTeX to PNG**, **save LaTeX as PNG**, and
 
 ## Related Tutorials
 
-[Specify Required Input Directory for Aspose.TeX (C#)]({{< relref "../../../net/advanced-io/required-input-directory-csharp/_index.md" >}})
-[How to Read Zip Files Using Aspose.TeX for .NET]({{< relref "../../../net/zip-file-io/_index.md" >}})
-[Create SVG from LaTeX in .NET with Aspose.TeX – Easy Guide]({{< relref "../../../net/latex-conversion/to-svg/_index.md" >}})
+[Specify Required Input Directory for Aspose.TeX (C#)]({{< relref "/net/advanced-io/required-input-directory-csharp/" >}})
+[How to Read Zip Files Using Aspose.TeX for .NET]({{< relref "/net/zip-file-io/" >}})
+[Create SVG from LaTeX in .NET with Aspose.TeX – Easy Guide]({{< relref "/net/latex-conversion/to-svg/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

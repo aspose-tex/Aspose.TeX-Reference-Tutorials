@@ -95,19 +95,19 @@ class Program
 }
 ```
 
-[Read the tutorial: Load Aspose.TeX License from File (C#)]({{< relref "./load-license-from-file-csharp/_index.md" >}})
+[Read the tutorial: Load Aspose.TeX License from File (C#)]({{< relref "/net/licensing/load-license-from-file-csharp/" >}})
 
 ## Load Aspose.TeX license from stream (C#)
 
 When your license is stored in a database, embedded resource, or retrieved over the network, you can load it from any `Stream`. Remember to reset the stream position before passing it to the loader.
 
-[Read the tutorial: Load Aspose.TeX License from Stream (C#)]({{< relref "./load-license-from-stream-csharp/_index.md" >}})
+[Read the tutorial: Load Aspose.TeX License from Stream (C#)]({{< relref "/net/licensing/load-license-from-stream-csharp/" >}})
 
 ## Set metered license for Aspose.TeX (C#)
 
 Metered licensing is ideal for SaaS or micro‑service architectures where you pay per rendered page or per API call. You initialize the metered key once, and the library automatically tracks usage against your subscription.
 
-[Read the tutorial: Set Metered License for Aspose.TeX (C#)]({{< relref "./set-metered-license-csharp/_index.md" >}})
+[Read the tutorial: Set Metered License for Aspose.TeX (C#)]({{< relref "/net/licensing/set-metered-license-csharp/" >}})
 
 ### Common pitfalls & tips
 
@@ -118,13 +118,13 @@ Metered licensing is ideal for SaaS or micro‑service architectures where you p
 In conclusion, mastering the management of Aspose.TeX licenses is the key to unlocking the full potential of this powerful library. Whether you prefer loading licenses from a file or a stream, or setting up metered licensing, these tutorials provide the guidance you need for seamless integration into your C# projects. Explore, create, and manipulate TeX files with confidence, thanks to Aspose.TeX for .NET.
 
 ## Manage Aspose.TeX licenses tutorials
-### [Load Aspose.TeX License from File (C#)]({{< relref "./load-license-from-file-csharp/_index.md" >}})
+### [Load Aspose.TeX License from File (C#)]({{< relref "/net/licensing/load-license-from-file-csharp/" >}})
 Explore the limitless possibilities of Aspose.TeX for .NET. Create, modify, and convert TeX files seamlessly.
 
-### [Load Aspose.TeX License from Stream (C#)]({{< relref "./load-license-from-stream-csharp/_index.md" >}})
+### [Load Aspose.TeX License from Stream (C#)]({{< relref "/net/licensing/load-license-from-stream-csharp/" >}})
 Explore Aspose.TeX for .NET Load licenses seamlessly, enhance document processing. Check out the tutorial for step-by-step guidance.
 
-### [Set Metered License for Aspose.TeX (C#)]({{< relref "./set-metered-license-csharp/_index.md" >}})
+### [Set Metered License for Aspose.TeX (C#)]({{< relref "/net/licensing/set-metered-license-csharp/" >}})
 Explore Aspose.TeX for .NET, set up metered licensing effortlessly, and unlock the full potential of TeX file manipulation in your C# projects.
 
 ## Frequently asked questions
@@ -152,9 +152,9 @@ Explore Aspose.TeX for .NET, set up metered licensing effortlessly, and unlock t
 
 ## Related Tutorials
 
-- [Load License C# – Load Aspose.TeX License from File]({{< relref "/tex/net/licensing/load-license-from-file-csharp/_index.md" >}})
-- [How to Load License from Stream in Aspose.TeX (C#)]({{< relref "/tex/net/licensing/load-license-from-stream-csharp/_index.md" >}})
-- [How to Set License for Aspose.TeX (C#)]({{< relref "/tex/net/licensing/set-metered-license-csharp/_index.md" >}})
+- [Load License C# – Load Aspose.TeX License from File]({{< relref "/net/licensing/load-license-from-file-csharp/" >}})
+- [How to Load License from Stream in Aspose.TeX (C#)]({{< relref "/net/licensing/load-license-from-stream-csharp/" >}})
+- [How to Set License for Aspose.TeX (C#)]({{< relref "/net/licensing/set-metered-license-csharp/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

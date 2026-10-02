@@ -75,8 +75,8 @@ Metered licensing gives you **full feature access** while keeping deployment sim
 
 Before you begin, make sure you have:
 
-1. **Aspose.TeX for .NET Library** – Download and install the library from the [download page]({{< relref "download-page/_index.md" >}}).  
-2. **Metered License Keys** – Obtain the public and private keys from your Aspose account (sign‑up [Aspose purchase page]({{< relref "purchase-page/_index.md" >}}) if you don’t have one).  
+1. **Aspose.TeX for .NET Library** – Download and install the library from the [download page](https://releases.aspose.com/tex/net/).  
+2. **Metered License Keys** – Obtain the public and private keys from your Aspose account (sign‑up [Aspose purchase page](https://purchase.aspose.com/buy) if you don’t have one).  
 3. **C# Development Environment** – Visual Studio (any recent version) or another C# IDE.
 
 > **Pro tip:** Store your metered keys in a secure configuration store (e.g., Azure Key Vault) instead of hard‑coding them.
@@ -144,19 +144,19 @@ A `LicenseException` is raised when licensing is not set before using Aspose.TeX
 ## Frequently asked questions
 
 **Q1: How can I obtain a metered license for Aspose.TeX?**  
-A1: You can purchase a metered license from the [Aspose purchase page]({{< relref "purchase-page/_index.md" >}}).
+A1: You can purchase a metered license from the [Aspose purchase page](https://purchase.aspose.com/buy).
 
 **Q2: Is there a free trial available?**  
-A2: Yes, you can explore a free trial of Aspose.TeX by visiting [the trial page]({{< relref "trial-page/_index.md" >}}).
+A2: Yes, you can explore a free trial of Aspose.TeX by visiting [the trial page](https://releases.aspose.com/tex/net/).
 
 **Q3: Where can I find documentation for Aspose.TeX?**  
-A3: Refer to the [Aspose.TeX documentation]({{< relref "documentation-page/_index.md" >}}) for comprehensive guidance.
+A3: Refer to the [Aspose.TeX documentation](https://reference.aspose.com/tex/net/) for comprehensive guidance.
 
 **Q4: How can I get support for Aspose.TeX?**  
-A4: Visit the [Aspose.TeX forum]({{< relref "forum-page/_index.md" >}}) for community support and discussions.
+A4: Visit the [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) for community support and discussions.
 
 **Q5: Can I use a temporary license for Aspose.TeX?**  
-A5: Yes, you can obtain a temporary license [temporary license page]({{< relref "temporary-license-page/_index.md" >}}).
+A5: Yes, you can obtain a temporary license [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 **Additional Q&A**
 
@@ -179,9 +179,9 @@ By following the steps above you now know **how to set metered license C#** for 
 
 ## Related Tutorials
 
-- [Load License C# – Load Aspose.TeX License from File]({{< relref "load-license-from-file-csharp/_index.md" >}})
-- [How to Load License from Stream in Aspose.TeX (C#)]({{< relref "load-license-from-stream-csharp/_index.md" >}})
-- [Load Aspose.TeX License – Manage Aspose.TeX Licenses]({{< relref "." >}})
+- [Load License C# – Load Aspose.TeX License from File]({{< relref "/net/licensing/load-license-from-file-csharp/" >}})
+- [How to Load License from Stream in Aspose.TeX (C#)]({{< relref "/net/licensing/load-license-from-stream-csharp/" >}})
+- [Load Aspose.TeX License – Manage Aspose.TeX Licenses]({{< relref "/net/licensing/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
