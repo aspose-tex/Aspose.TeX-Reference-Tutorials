@@ -1,12 +1,58 @@
 ---
-date: 2026-03-26
-description: .NET'te Aspose.TeX ile özel tex formatı oluşturmayı ve esnek belge üretimi
-  için tex giriş dizinini ayarlamayı öğrenin. Bu adım adım kılavuz, format sağlayıcısını
-  nasıl yapılandıracağınızı, tex giriş dizinini nasıl ayarlayacağınızı ve XPS çıktısı
-  oluşturmayı gösterir.
-linktitle: Creating Custom TeX Formats in .NET
+date: 2026-10-19
+description: Aspose.TeX for .NET kullanarak tex belge oluşturmayı, özel tex formatı
+  oluşturmayı ve tex giriş dizinini ayarlamayı öğrenin. Kod örnekleri ve sorun giderme
+  ipuçlarıyla adım adım rehber.
+keywords:
+- tex document generation
+- create custom tex format
+- set tex input directory
+- custom tex macros
+lastmod: 2026-10-19
+linktitle: .NET'te Özel TeX Formatları Oluşturma
+og_description: Aspose.TeX ile tex belge oluşturma, .NET'te özel tex formatı oluşturmanıza
+  ve tex giriş dizinini ayarlamanıza olanak tanır. XPS, PDF veya PNG çıktısı için
+  bu rehberi izleyin.
+og_image_alt: Developer guide showing tex document generation using Aspose.TeX in
+  .NET
+og_title: .NET'te formatlı tex belge oluşturma nasıl yapılır
+schemas:
+- author: Aspose
+  dateModified: '2026-10-19'
+  description: Learn how to perform tex document generation, create custom tex format
+    and set tex input directory using Aspose.TeX for .NET. Step‑by‑step guide with
+    code snippets and troubleshooting tips.
+  headline: How to do tex document generation with format in .NET
+  type: TechArticle
+- description: Learn how to perform tex document generation, create custom tex format
+    and set tex input directory using Aspose.TeX for .NET. Step‑by‑step guide with
+    code snippets and troubleshooting tips.
+  name: How to do tex document generation with format in .NET
+  steps:
+  - name: '**Aspose.TeX for .NET** – download it from the [Aspose.TeX website](https://releases.aspose.com/tex/net/).'
+    text: '**Aspose.TeX for .NET** – download it from the [Aspose.TeX website](https://releases.aspose.com/tex/net/).'
+  - name: A **.NET development environment** (Visual Studio, VS Code, or the .NET
+      CLI).
+    text: A **.NET development environment** (Visual Studio, VS Code, or the .NET
+      CLI).
+  - name: (Optional) A valid **Aspose.TeX license** for production use.
+    text: (Optional) A valid **Aspose.TeX license** for production use.
+  type: HowTo
+- questions:
+  - answer: Absolutely. Replace `new XpsDevice()` with `new PdfDevice()` and adjust
+      the output path accordingly.
+    question: Can I output PDF instead of XPS?
+  - answer: Yes. Any modification to macros or engine settings requires re‑running
+      `tex -ini` to generate a fresh `.fmt` file.
+    question: Do I need to re‑compile the format file after every change?
+  type: FAQPage
 second_title: Aspose.TeX .NET API
-title: Aspose.TeX kullanarak .NET'te özel tex formatı nasıl oluşturulur
+tags:
+- tex document generation
+- Aspose.TeX
+- .NET document processing
+- custom tex format
+title: .NET'te formatlı tex belge oluşturma nasıl yapılır
 url: /tr/net/custom-tex-formats/create-custom-tex-formats/
 weight: 10
 ---
@@ -15,34 +61,37 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET'te Aspose.TeX kullanarak özel tex formatı nasıl oluşturulur
+# .NET'te format ile tex belge oluşturma nasıl yapılır
 
-Dinamik .NET geliştirme dünyasında, **özel tex formatı** dosyaları oluşturmak, belgelerin nasıl dizildiği üzerinde ince ayar kontrolü sağlar. Aspose.TeX for .NET ile TeX motorunu özelleştirebilir, belirli bir giriş klasörüne yönlendirebilir ve birkaç C# satırıyla profesyonel görünümlü XPS çıktısı üretebilirsiniz.
+Modern .NET geliştirmede, **tex document generation** harici LaTeX kurulumlarına bağlı kalmadan yüksek kaliteli tipografi çıktısı üretmenin güçlü bir yoludur. Aspose.TeX for .NET size tam kontrol sağlar: **create custom tex format** oluşturabilir, motoru özel bir giriş klasörüne yönlendirebilir ve XPS, PDF, PNG veya diğer cihazlara dışa aktarabilirsiniz—hepsi basit C# kodu ile.
 
-## Hızlı Yanıtlar
-- **“create custom tex format” ne anlama geliyor?** Kendi TeX motoru yapılandırmanızı ve format dosyalarınızı tanımlayarak dizleme sürecini kontrol etmek anlamına gelir.  
-- **Hangi kütüphane gerekiyor?** Aspose.TeX for .NET.  
-- **Tex giriş dizinini ayarlamam gerekiyor mu?** Evet – bunu `InputFileSystemDirectory` ile belirtirsiniz.  
-- **Hangi çıktıyı üretebilirim?** Aspose.TeX tarafından desteklenen herhangi bir cihaz, ör. XPS, PDF veya PNG.  
-- **Üretim için lisans gerekli mi?** Ticari kullanım için geçerli bir Aspose.TeX lisansı gereklidir.
+## Hızlı cevaplar
+- **create custom tex format** ne anlama geliyor? Bu, kendi TeX motoru yapılandırmanızı ve derlenmiş format dosyanızı tanımlamak anlamına gelir, böylece işlemci makrolarınızı ve ayarlarınızı izler.  
+- **Hangi kütüphane gerekiyor?** Aspose.TeX for .NET, 30'dan fazla giriş ve çıkış formatını destekler.  
+- **Bir tex giriş dizini ayarlamam gerekiyor mu?** Evet – motorun yardımcı dosyaların nerede olduğunu bilmesi için `InputWorkingDirectory` kullanın.  
+- **Hangi çıktıyı üretebilirim?** XPS, PDF, PNG, TIFF ve daha birçok cihaz formatı.  
+- **Üretim için lisans gerekli mi?** Geçerli bir Aspose.TeX lisansı ticari dağıtımlar için zorunludur.
 
-## Özel bir TeX formatı nedir?
-Özel bir TeX formatı, TeX işlemcisinin kaynak dosyalarınızı yorumlamak için kullandığı önceden derlenmiş makrolar ve motor ayarları kümesidir. Bir tane oluşturarak şirket marka kimliğini ekleyebilir, belge standartlarını zorlayabilir veya tekrarlayan görevler için derleme süresini hızlandırabilirsiniz.
+## Özel bir tex formatı nedir?
+Özel bir tex formatı, TeX işlemcisinin başlangıçta yüklediği önceden derlenmiş makrolar ve motor ayarları koleksiyonudur. Bir tane oluşturarak, kurumsal markalama ekleyebilir, düzen standartlarını zorlayabilir ve tekrarlayan belgeler için derleme süresini azaltabilirsiniz. Bu, tüm oluşturulan belgelerde tutarlı stil sağlar ve karmaşık tipografi iş akışlarının bakımını basitleştirir.
 
-## Neden bir tex giriş dizini ayarlamalısınız?
-**Tex giriş dizini** ayarlamak, motorun yardımcı dosyaları, özel yazı tiplerini veya ek stil dosyalarını nerede arayacağını belirtir. Bu, projenizi düzenli tutar ve derleme sırasında “dosya bulunamadı” hatalarını önler.
+## Neden bir tex giriş dizini ayarlamalıyım?
+**tex input directory** ayarlamak, motorun stil dosyaları, özel yazı tipleri veya ek makro paketleri gibi yardımcı dosyaları nerede bulacağını söyler. Bu, “dosya bulunamadı” hatalarını ortadan kaldırır ve proje klasörünüzü düzenli tutar. Ayrıca, tüm kaynakların bilinen bir konumdan çözümlendiğinden emin olarak derleme tekrarlanabilirliğini artırır.
 
 ## Önkoşullar
 
-Özelleştirme sürecine başlamadan önce, şunlara sahip olduğunuzdan emin olun:
+Başlamadan önce şunların olduğundan emin olun:
 
-1. **Aspose.TeX for .NET** – [Aspose.TeX web sitesinden](https://releases.aspose.com/tex/net/) indirin.  
+1. **Aspose.TeX for .NET** – indirin [Aspose.TeX website](https://releases.aspose.com/tex/net/).  
 2. **.NET geliştirme ortamı** (Visual Studio, VS Code veya .NET CLI).  
-3. (İsteğe bağlı) Üretimde kodu çalıştırmayı planlıyorsanız geçerli bir **Aspose.TeX lisansı**.
+3. (İsteğe bağlı) Üretim kullanımı için geçerli bir **Aspose.TeX lisansı**.
 
-## Ad Alanlarını İçe Aktarın
+## Ad alanlarını içe aktar
 
-İlk olarak, Aspose.TeX API'sine erişim sağlayan ad alanlarını içe aktarın. Bu adım, kullanacağımız sınıfların derleyici tarafından tanınmasını sağlar.
+Aşağıdaki ad alanları, temel Aspose.TeX sınıflarına erişim sağlar.  
+`Document`‑ile ilgili sınıflar `Aspose.TeX` altında, seçenekler ve cihazlar ise `Aspose.TeX.Rendering` içinde bulunur.
+
+`Document` sınıfı, bellekte tek bir TeX belgesini temsil eden üst düzey nesnedir.  
 
 ```csharp
 using Aspose.TeX.IO;
@@ -52,9 +101,11 @@ using System.IO;
 using System.Text;
 ```
 
-## Adım 1: Format Sağlayıcısını Oluşturun
+## Adım 1: format sağlayıcıyı oluştur
 
-`FormatProvider`, motoru özel format dosyanızı (`customtex.fmt`) içeren klasöre yönlendirir. `"Your Output Directory"` ifadesini, derlenmiş formatı sakladığınız yol ile değiştirin.
+`FormatProvider`, motorun derlenmiş format dosyasının (`customtex.fmt`) nerede olduğunu söyler. `"Your Output Directory"` ifadesini, özel formatınızı içeren mutlak yol ile değiştirin.
+
+`FormatProvider`, `.fmt` dosyasını bir kez yükleyen ve her dönüşümde yeniden kullanan hafif bir sarmalayıcıdır, toplu işler için performansı önemli ölçüde artırır.
 
 ```csharp
 using (FormatProvider formatProvider =
@@ -62,9 +113,11 @@ using (FormatProvider formatProvider =
 {
 ```
 
-## Adım 2: Dönüştürme Seçeneklerini Yapılandırın (ve tex giriş dizinini ayarlayın)
+## Adım 2: dönüşüm seçeneklerini yapılandır (ve tex giriş dizinini ayarla)
 
-Burada `TeXOptions` nesnesini oluşturuyoruz. `InputWorkingDirectory`'e dikkat edin – burada **tex giriş dizinini** ayarlıyoruz, böylece motor gerekli destek dosyalarını bulabilir.
+Burada bir `TeXOptions` örneği oluşturuyoruz. `InputWorkingDirectory` özelliği **tex giriş dizinini ayarlar**, böylece motor özel paketler veya yazı tipleri gibi destek dosyalarını bulabilir.
+
+`TeXOptions` ayrıca çıkış cihazını, sayfa boyutunu ve render kalitesini belirlemenize olanak tanır. Büyük ölçekli üretim için, çok çekirdekli sunucularda renderı hızlandırmak amacıyla `EnableParallelProcessing` özelliğini etkinleştirebilirsiniz.
 
 ```csharp
     TeXOptions options = TeXOptions.ConsoleAppOptions(TeXConfig.ObjectTeX(formatProvider));
@@ -73,9 +126,11 @@ Burada `TeXOptions` nesnesini oluşturuyoruz. `InputWorkingDirectory`'e dikkat e
     options.OutputWorkingDirectory = new OutputFileSystemDirectory("Your Output Directory");
 ```
 
-## Adım 3: İşi Çalıştırın
+## Adım 3: işi çalıştır
 
-Şimdi motoru basit bir TeX dizesiyle besliyoruz, bir çıktı cihazı seçiyoruz (bu örnekte XPS) ve işi yürütüyoruz.
+Şimdi basit bir TeX dizesini motora verin, bir çıkış cihazı seçin (bu örnekte XPS) ve işi yürütün. `TeXEngine` özel formatı okur, kaynağı işler ve sonucu seçilen cihaza yazar.
+
+`TeXEngine`, TeX kaynağını ayrıştıran, özel formatı uygulayan ve render edilen sayfaları belirttiğiniz cihaza akıtan Aspose.TeX'in çekirdek işlemcisidir.
 
 ```csharp
     new TeXJob(new MemoryStream(Encoding.ASCII.GetBytes(
@@ -83,9 +138,11 @@ Burada `TeXOptions` nesnesini oluşturuyoruz. `InputWorkingDirectory`'e dikkat e
         new XpsDevice(), options).Run();
 ```
 
-## Adım 4: Terminal Çıktısını Düzenleyin
+## Adım 4: terminal çıktısını düzenle
 
-Boş bir satır eklemek, özellikle bir toplu işlemde birden fazla işi çalıştırdığınızda, konsol çıktısını okumayı kolaylaştırır.
+İş bittiğinde boş bir satır eklemek, özellikle bir betikte birden fazla dönüşümü zincirlediğinizde, konsol günlüklerini okumayı kolaylaştırır.
+
+`Console.WriteLine()` standart çıktı akışına bir metin satırı yazar. Burada yalnızca görsel ayrım için kullanılır; oluşturulan belgeyi etkilemez.
 
 ```csharp
     options.TerminalOut.Writer.WriteLine();
@@ -93,45 +150,58 @@ Boş bir satır eklemek, özellikle bir toplu işlemde birden fazla işi çalı�
 // ExEnd:TypesetWithCustomTeXFormat
 ```
 
-Tebrikler! Artık **özel bir tex formatı** oluşturdunuz ve .NET'te bir belgeyi dizlemek için başarıyla kullandınız.
+Tebrikler! Artık **created a custom tex format** ve **tex document generation** .NET'te kullandınız. `XpsDevice`'ı `PdfDevice`, `PngDevice` veya ihtiyacınıza uygun diğer desteklenen cihazlarla değiştirebilirsiniz.
 
-## Yaygın Sorunlar ve Çözümleri
+## Yaygın sorunlar ve çözümler
 
-| Sorun | Neden | Çözüm |
+| Sorun | Sebep | Çözüm |
 |-------|--------|-----|
 | *“Format file not found”* | `FormatProvider` içinde yanlış yol | `"Your Output Directory"` içinde `customtex.fmt` bulunduğunu ve yolun mutlak ya da çalıştırılabilir dosyaya göre doğru göreceli olduğundan emin olun. |
 | *“Cannot find input file”* | `InputWorkingDirectory` yanlış klasöre işaret ediyor | `"Your Input Directory"` içinde TeX kaynak dosyasının bulunduğunu veya kaynağı bir akış olarak (örnekteki gibi) gönderdiğinizi doğrulayın. |
 | *Terminal output garbled* | Kodlama uyumsuzluğu | TeX kaynağınız ASCII dışı karakterler içeriyorsa `Encoding.UTF8` kullanın. |
-| *XPS file is empty* | İş, önceki bir istisna nedeniyle çalışmadı | Konsolda hata mesajlarını kontrol edin; genellikle eksik paketleri veya TeX dizesindeki sözdizimi hatalarını gösterir. |
+| *XPS file is empty* | İş, önceki bir istisna nedeniyle çalışmadı | Konsolu hata mesajları için kontrol edin; genellikle eksik paketler veya TeX dizesindeki sözdizimi hatalarını gösterir. |
 
-## Sık Sorulan Sorular
+## Sıkça sorulan sorular
 
-### Q1: Aspose.TeX for .NET'i diğer belge işleme kütüphaneleriyle kullanabilir miyim?
-A1: Evet, Aspose.TeX, kapsamlı belge yönetimi için diğer Aspose belge işleme kütüphaneleriyle sorunsuz entegrasyon sağlamak üzere tasarlanmıştır.
+**Q1: Aspose.TeX for .NET'i diğer Aspose kütüphaneleriyle kullanabilir miyim?**  
+A: Evet, Aspose.TeX, Aspose.PDF, Aspose.Words ve diğer Aspose ürünleriyle uçtan uca belge hatları için sorunsuz bir şekilde entegre olur.
 
-### Q2: Aspose.TeX for .NET için ücretsiz deneme sürümü var mı?
-A2: Evet, ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+**Q2: Aspose.TeX for .NET için ücretsiz deneme mevcut mu?**  
+A: Evet, **Aspose.TeX free trial download page** adresinden bir deneme indirebilirsiniz (https://releases.aspose.com/tex/net/).
 
-### Q3: Aspose.TeX for .NET için nasıl destek alabilirim?
-A3: Topluluk desteği için [Aspose.TeX forumunu](https://forum.aspose.com/c/tex/47) ziyaret edin veya premium destek seçeneklerini [buradan](https://purchase.aspose.com/buy) inceleyin.
+**Q3: Aspose.TeX for .NET için destek nasıl alabilirim?**  
+A: Topluluk yardımı için [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) adresini ziyaret edin veya **premium support purchase page** üzerinden premium seçenekleri inceleyin (https://purchase.aspose.com/buy).
 
-### Q4: Aspose.TeX for .NET için geçici lisanslar mevcut mu?
-A4: Evet, geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
+**Q4: Aspose.TeX for .NET için geçici lisanslar mevcut mu?**  
+A: Evet, **temporary license request page** üzerinden bir talep oluşturabilirsiniz (https://purchase.aspose.com/temporary-license/).
 
-### Q5: Aspose.TeX for .NET belgelerine nereden ulaşabilirim?
-A5: Kapsamlı belgelere [buradan](https://reference.aspose.com/tex/net/) bakabilirsiniz.
+**Q5: Resmi API referansını nerede bulabilirim?**  
+A: Kapsamlı dokümantasyon **API reference documentation** adresinde barındırılmaktadır (https://reference.aspose.com/tex/net/).
 
-**Ek Soru & Cevap**
+### Ek Soru & Cevap
 
-**S: XPS yerine PDF çıktısı alabilir miyim?**  
-C: Kesinlikle. `new XpsDevice()` ifadesini `new PdfDevice()` ile değiştirin ve çıktı dizinini buna göre ayarlayın.
+**Q: XPS yerine PDF çıktısı alabilir miyim?**  
+A: Kesinlikle. `new XpsDevice()` ifadesini `new PdfDevice()` ile değiştirin ve çıktı yolunu buna göre ayarlayın.
 
-**S: Her değişiklikten sonra format dosyasını yeniden derlemem gerekir mi?**  
-C: Evet. Makrolarda veya motor ayarlarında yapılan her değişiklik, yeni bir `.fmt` dosyası oluşturmak için `tex -ini` komutunun yeniden çalıştırılmasını gerektirir.
+**Q: Her değişiklikten sonra format dosyasını yeniden derlemem gerekiyor mu?**  
+A: Evet. Makrolarda veya motor ayarlarında yapılan herhangi bir değişiklik, yeni bir `.fmt` dosyası oluşturmak için `tex -ini` komutunun yeniden çalıştırılmasını gerektirir.
 
 ## Sonuç
 
-Sonuç olarak, Aspose.TeX for .NET, **özel tex formatı oluşturma** senaryoları için sağlam bir çözüm sunar ve geliştiricilere belge dizimi üzerinde benzeri görülmemiş bir kontrol sağlar. Farklı yapılandırmalarla deneyler yapın, uygun tex giriş dizinini ayarlayın ve iş akışını daha büyük .NET uygulamalarınıza entegre ederek otomatik, yüksek kaliteli belge üretimi sağlayın.
+Aspose.TeX for .NET, **robust, high‑performance solution for tex document generation** sunar, **create custom tex format**, **tex input directory** ayarlamanıza ve herhangi bir desteklenen cihaza çıktı vermenize olanak tanır. Yukarıdaki adımları CI/CD boru hattınıza entegre edin, büyük ölçekli rapor üretimini otomatikleştirin veya kuruluşunuzun marka standartlarını karşılayan özel bir yayın motoru oluşturun.
+
+---
+
+**Son Güncelleme:** 2026-10-19  
+**Test Edilen:** Aspose.TeX 24.11 for .NET  
+**Yazar:** Aspose
+
+## İlgili Eğitimler
+
+- [Aspose.TeX API Kullanarak TeX Dosya Akışı Al (C#) Gerekli Giriş Dizini](/tex/net/advanced-io/required-input-directory-csharp/)
+- [Aspose.TeX for .NET ile PDF Oluşturma – Adım Adım](/tex/net/pdf-output/)
+- [XPS Belgesi Oluşturma .NET – Aspose.TeX for .NET ile TeX'i XPS Çıktısına Dönüştürme](/tex/net/xps-output/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -139,9 +209,3 @@ Sonuç olarak, Aspose.TeX for .NET, **özel tex formatı oluşturma** senaryolar
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-03-26  
-**Test Edilen Versiyon:** Aspose.TeX 24.11 for .NET  
-**Yazar:** Aspose
