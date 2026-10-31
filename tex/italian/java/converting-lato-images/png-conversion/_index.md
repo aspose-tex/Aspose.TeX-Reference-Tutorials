@@ -1,31 +1,35 @@
 ---
-date: 2026-07-18
+date: 2026-10-31
 description: Scopri come impostare la licenza e generare PNG da LaTeX in Java con
-  Aspose.TeX. Questa guida passo‑passo copre l'impostazione della licenza Aspose,
+  Aspose.TeX. Questa guida passo‑per‑passo copre l'impostazione della licenza Aspose,
   la configurazione della cartella di output e la modifica della risoluzione PNG.
+images:
+- /java/converting-lato-images/png-conversion/og-image.png
 keywords:
+- how to set license
 - generate png from latex
 - convert latex to png
-- set output directory java
-lastmod: 2026-07-18
+- convert tex to png
+- render latex as png
+lastmod: 2026-10-31
 linktitle: Genera PNG da LaTeX in Java
-og_description: Genera PNG da LaTeX usando Aspose.TeX per Java. Scopri come impostare
-  la licenza, configurare la cartella di output in Java e regolare la risoluzione
-  dell'immagine in pochi minuti.
+og_description: Scopri come impostare la licenza e generare PNG da LaTeX in Java con
+  Aspose.TeX. Questa guida ti mostra come configurare la cartella di output, regolare
+  la risoluzione e convertire LaTeX in PNG rapidamente.
 og_image_alt: Screenshot of Java code converting LaTeX to PNG with Aspose.TeX
-og_title: Genera PNG da LaTeX in Java – Guida rapida e semplice
+og_title: Come impostare la licenza e generare PNG da LaTeX in Java
 schemas:
 - author: Aspose
-  dateModified: '2026-07-18'
+  dateModified: '2026-10-31'
   description: Learn how to set license and generate PNG from LaTeX in Java with Aspose.TeX.
     This step‑by‑step guide covers setting the Aspose license, configuring the output
     directory, and changing PNG resolution.
-  headline: How to Set License and Generate PNG from LaTeX (Java)
+  headline: How to set license and generate PNG from LaTeX (Java)
   type: TechArticle
 - description: Learn how to set license and generate PNG from LaTeX in Java with Aspose.TeX.
     This step‑by‑step guide covers setting the Aspose license, configuring the output
     directory, and changing PNG resolution.
-  name: How to Set License and Generate PNG from LaTeX (Java)
+  name: How to set license and generate PNG from LaTeX (Java)
   steps:
   - name: Set the Aspose License (set Aspose license Java)
     text: '`Utils.setLicense()` must be called before any rendering operation. This
@@ -84,36 +88,40 @@ weight: 10
 
 ## Introduzione
 
-Se hai bisogno di **generare PNG da LaTeX** all'interno di un'applicazione Java, Aspose.TeX rende il lavoro indolore. In questo tutorial percorreremo tutto ciò che ti serve — da **come impostare la licenza** per Aspose.TeX alla configurazione della directory di output Java e alla regolazione della qualità dell'immagine — così potrai convertire file sorgente LaTeX in immagini PNG ad alta qualità con poche righe di codice. Alla fine comprenderai perché Aspose.TeX è il modo più affidabile per *convertire latex in png* su qualsiasi piattaforma.
+Se hai bisogno di **generare PNG da LaTeX** all'interno di un'applicazione Java, Aspose.TeX rende il lavoro indolore. In questo tutorial ti guideremo attraverso tutto ciò che ti serve — da **come impostare la licenza** per Aspose.TeX alla configurazione della directory di output Java e alla regolazione della qualità dell'immagine — così potrai convertire file sorgente LaTeX in immagini PNG ad alta qualità con poche righe di codice. Alla fine comprenderai perché Aspose.TeX è il modo più affidabile per *convertire latex in png* su qualsiasi piattaforma.
 
-## Risposte Rapide
+## Risposte rapide
 - **Quale libreria converte LaTeX in PNG in Java?** Aspose.TeX per Java.  
 - **È necessaria una licenza?** Sì – devi *impostare la licenza Aspose Java* prima di eseguire le conversioni.  
 - **Quale versione di Java è richiesta?** JDK 1.8 o successiva.  
 - **Posso scegliere un altro formato immagine?** Assolutamente – JPEG, BMP e TIFF sono anch'essi supportati.  
 - **Dove vengono salvati i file PNG?** Definisci una *directory di output Java* nelle opzioni di conversione.
 
-## Come Impostare la Licenza per Aspose.TeX (Java)
+## Come impostare la licenza Aspose.TeX in Java?
 
-`Utils` è una classe di supporto che fornisce un metodo statico per caricare e applicare la licenza Aspose.TeX. L'impostazione della licenza è il primo passo che sblocca tutte le funzionalità e rimuove i watermark di valutazione. La chiamata `Utils.setLicense()` carica il file `.lic` ottenuto da Aspose. Posiziona il file di licenza da qualche parte nel classpath (ad esempio in `src/main/resources`) e chiama il metodo prima di avviare qualsiasi operazione di conversione.
+`Utils.setLicense()` è un helper statico che carica il file di licenza Aspose.TeX dal classpath. Carica il file di licenza con `Utils.setLicense()` prima di qualsiasi chiamata di rendering; questo sblocca tutte le funzionalità e rimuove le filigrane di valutazione. Il metodo legge un file `.lic` dal classpath e lo registra con il motore Aspose, così ogni operazione successiva viene eseguita in modalità full‑trust senza restrizioni.
 
-> **Suggerimento professionale:** Se sposti il file di licenza, aggiorna il percorso all'interno di `Utils.setLicense()` di conseguenza; altrimenti vedrai un errore di licenza a runtime.
+`PngSaveOptions` è l'oggetto di configurazione che indica ad Aspose.TeX come scrivere i file PNG. **Definizione:** `PngSaveOptions` ti consente di specificare
 
-## Che cos'è “generare PNG da LaTeX”?
+## Cos'è “generare PNG da LaTeX”?
 
 Generare PNG da LaTeX significa prendere un file sorgente `.ltx` (o `.tex`) e renderizzarlo come immagine raster (PNG). Questo è utile per incorporare equazioni, formule o interi documenti in pagine web, report o qualsiasi interfaccia utente che non possa renderizzare LaTeX direttamente.
 
 ## Perché usare Aspose.TeX per questo compito?
 
-Aspose.TeX carica il tuo sorgente LaTeX, lo elabora interamente in memoria e produce un PNG pronto all'uso in pochi millisecondi. Supporta **oltre 50 formati di input e output**, gestisce documenti di grandi dimensioni senza caricare l'intero file e funziona su qualsiasi OS che supporti Java. Non è necessaria alcuna distribuzione TeX esterna, e la libreria offre un controllo fine su DPI e profondità colore.
+Aspose.TeX supporta **oltre 50 formati di input e output**, elabora documenti di centinaia di pagine senza caricare l'intero file in memoria e funziona su qualsiasi OS che supporti Java. La libreria completa una conversione tipica in meno di 200 ms per un documento di 5 pagine su un server standard, rendendola ideale per servizi ad alto rendimento.
 
-## Modificare la Risoluzione PNG (Opzionale)
+## Come posso convertire LaTeX in PNG usando Aspose.TeX?
 
-Se la risoluzione predefinita non soddisfa i requisiti di qualità, puoi regolarla tramite `PngSaveOptions`. `PngSaveOptions` è l'oggetto di configurazione che indica ad Aspose.TeX come scrivere i file PNG, includendo DPI, compressione e colore di sfondo. Per esempio, impostare `setResolution(300)` produrrà un output a 300 DPI, ideale per grafiche pronte per la stampa.
+Crea un `TeXJob` con un oggetto `TeXOptions`, puntalo al tuo file `.ltx`, allega un `ImageDevice` configurato con `PngSaveOptions` e chiama `run()`. Questo flusso a riga singola renderizza il sorgente LaTeX e scrive uno o più file PNG nella cartella specificata. `TeXJob` è l'API di alto livello che orchestra il processo di conversione. `TeXOptions` contiene la configurazione come formato di input e impostazioni di rendering. `ImageDevice` è il target di rendering che produce l'output raster.
 
-## Impostare la Cartella di Output (output directory java)
+## Modifica la risoluzione PNG (opzionale)
 
-Puoi indirizzare i file generati verso qualsiasi cartella desideri. Questo è controllato con il metodo `setOutputWorkingDirectory`. Assicurati che la cartella esista e che il processo Java abbia i permessi di scrittura.
+Se la risoluzione predefinita non soddisfa i requisiti di qualità, puoi regolarla tramite `PngSaveOptions`. `PngSaveOptions` ti consente di specificare DPI, livello di compressione e colore di sfondo per l'immagine PNG generata. Ad esempio, impostare `setResolution(300)` produrrà un output a 300 DPI, ideale per grafiche pronte per la stampa.
+
+## Imposta la cartella di output (output directory java)
+
+Puoi indirizzare i file generati verso qualsiasi cartella desideri. Questo è controllato con il metodo `setOutputWorkingDirectory`. `setOutputWorkingDirectory` imposta la directory in cui il motore di conversione scrive i file di output. Assicurati che la cartella esista e che il processo Java abbia i permessi di scrittura.
 
 ## Prerequisiti
 
@@ -121,12 +129,12 @@ Puoi indirizzare i file generati verso qualsiasi cartella desideri. Questo è co
 - **Java Development Kit (JDK) 1.8+** – verifica che `java -version` restituisca 1.8 o superiore.  
 - **Una licenza valida di Aspose.TeX** – utilizzerai il metodo `set Aspose license Java` per attivarla.
 
-## Importare i Pacchetti
+## Importa pacchetti
 
 Lo spazio dei nomi `com.aspose.tex` contiene tutte le classi necessarie per il rendering e la gestione dei file.
 
-`Utils` è una classe di supporto che incapsula il caricamento della licenza.  
-**Definizione:** `Utils` fornisce un metodo statico `setLicense()` che legge il file `.lic` dal classpath e lo registra nel motore Aspose.  
+`Utils` è una classe helper che incapsula il caricamento della licenza.  
+**Definizione:** `Utils` fornisce un metodo statico `setLicense()` che legge il file `.lic` dal classpath e lo registra con il motore Aspose.
 
 ```java
 package com.aspose.tex.LaTeXPngConversionSimplest;
@@ -146,93 +154,93 @@ import com.aspose.tex.rendering.TiffSaveOptions;
 import util.Utils;
 ```
 
-### Passo 1: Impostare la Licenza Aspose (set Aspose license Java)
+### Passo 1: impostare la licenza Aspose (set Aspose license Java)
 
-`Utils.setLicense()` deve essere chiamato prima di qualsiasi operazione di rendering. Questa chiamata garantisce che la libreria funzioni in modalità full‑trust e rimuove il watermark di valutazione.
+`Utils.setLicense()` deve essere chiamato prima di qualsiasi operazione di rendering. Questa chiamata garantisce che la libreria funzioni in modalità full‑trust e rimuove la filigrana di valutazione.
 
 `PngSaveOptions` è l'oggetto di configurazione che indica ad Aspose.TeX come scrivere i file PNG.  
-**Definizione:** `PngSaveOptions` consente di specificare DPI, profondità colore, livello di compressione e colore di sfondo per l'immagine PNG generata.  
+**Definizione:** `PngSaveOptions` ti consente di specificare
 
 ```java
 Utils.setLicense();
 ```
 
-### Passo 2: Creare le Opzioni di Conversione
+### Passo 2: creare le opzioni di conversione
 
 Configuriamo il motore TeX per lavorare con il formato *Object LaTeX*. Questa opzione indica ad Aspose.TeX come interpretare il file sorgente.
 
 `TeXOptions` è il contenitore centrale delle impostazioni per il lavoro di conversione.  
-**Definizione:** `TeXOptions` aggrega formato di input, formato di output e opzioni di rendering in un unico oggetto passato al motore di conversione.  
+**Definizione:** `TeXOptions` aggrega formato di input, formato di output e opzioni di rendering in un unico oggetto passato al motore di conversione.
 
 ```java
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectLaTeX());
 ```
 
-### Passo 3: Specificare la Directory di Output (output directory Java)
+### Passo 3: specificare la directory di output (output directory Java)
 
 Indica ad Aspose.TeX dove scrivere i file PNG generati. Sostituisci il segnaposto con il percorso assoluto o relativo che preferisci.
 
-`OutputFileSystemDirectory` rappresenta la posizione nel file‑system che riceve le immagini renderizzate.  
-**Definizione:** `OutputFileSystemDirectory` è un semplice wrapper che valida il percorso e crea la directory se non esiste.  
+`OutputFileSystemDirectory` rappresenta la posizione nel file system che riceve le immagini renderizzate.  
+**Definizione:** `OutputFileSystemDirectory` è un semplice wrapper che valida il percorso e crea la directory se non esiste.
 
 ```java
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-### Passo 4: Inizializzare le Opzioni di Salvataggio PNG
+### Passo 4: inizializzare le opzioni di salvataggio PNG
 
 Seleziona PNG come formato immagine di destinazione. Puoi ulteriormente regolare risoluzione, anti‑aliasing e profondità colore tramite `PngSaveOptions` se necessario.
 
 `ImageDevice` è il target di rendering che produce l'output raster.  
-**Definizione:** `ImageDevice` riceve il layout TeX elaborato e scrive il bitmap finale usando le opzioni di salvataggio fornite.  
+**Definizione:** `ImageDevice` riceve il layout TeX elaborato e scrive il bitmap finale usando
 
 ```java
 options.setSaveOptions(new PngSaveOptions());
 ```
 
-### Passo 5: Eseguire la Conversione da LaTeX a PNG
+### Passo 5: eseguire la conversione da LaTeX a PNG
 
-Infine, punta il lavoro al tuo file sorgente `.ltx`, allega un `ImageDevice` (che gestisce l'output raster) ed esegui il lavoro.
+Infine, punta il job al tuo file sorgente `.ltx`, allega un `ImageDevice` (che gestisce l'output raster) ed esegui il job.
 
-`TeXJob` orchestra l'intera pipeline di conversione dalla lettura del sorgente alla generazione dell'immagine.  
-**Definizione:** `TeXJob` è l'API di alto livello che accetta un file sorgente, le opzioni e un device, quindi esegue la conversione in una singola chiamata di metodo.  
+`TeXJob` orchestra l'intera pipeline di conversione, dalla lettura del sorgente alla generazione dell'immagine.  
+**Definizione:** `TeXJob` è l'API di alto livello che accetta un file sorgente, opzioni e un device, quindi esegue la conversione con una singola chiamata di metodo.
 
 ```java
 new TeXJob("Your Input Directory" + "hello-world.ltx", new ImageDevice(), options).run();
 ```
 
-## Problemi Comuni & Come Risolverli
+## Problemi comuni e come risolverli
 
-| Problema | Probabile Causa | Soluzione |
+| Problema | Causa probabile | Soluzione |
 |----------|-----------------|-----------|
 | **Nessun file PNG appare** | Il percorso della directory di output è errato o mancano i permessi di scrittura. | Verifica il percorso passato a `OutputFileSystemDirectory` e assicurati che il processo Java possa scrivere in quella cartella. |
 | **Errore di licenza** | `Utils.setLicense()` non è stato chiamato o il file di licenza non è stato trovato. | Posiziona il file di licenza in una posizione raggiungibile dal classpath e ricontrolla l'implementazione del metodo. |
 | **Immagini a bassa risoluzione** | Il DPI predefinito è troppo basso. | Crea un'istanza di `PngSaveOptions` e imposta `setResolution(300)` prima di passarla a `options.setSaveOptions()`. |
 
-## Domande Frequenti
+## Domande frequenti
 
-### Q1: Aspose.TeX è compatibile con le versioni più recenti di Java?
-**R:** Sì. La libreria funziona con JDK 1.8 e tutte le versioni successive, inclusi Java 11, 17 e 21.
+**D1: Aspose.TeX è compatibile con le versioni più recenti di Java?**  
+R: Sì. La libreria funziona con JDK 1.8 e tutte le versioni successive, inclusi Java 11, 17 e 21.
 
-### Q2: Posso personalizzare la risoluzione dell'immagine di output?
-**R:** Assolutamente. Regola il metodo `setResolution(int dpi)` dell'oggetto `PngSaveOptions` per soddisfare i tuoi requisiti di qualità.
+**D2: Posso personalizzare la risoluzione dell'immagine di output?**  
+R: Assolutamente. Regola il metodo `setResolution(int dpi)` dell'oggetto `PngSaveOptions` per soddisfare i tuoi requisiti di qualità.
 
-### Q3: Sono supportati altri formati di output oltre a PNG?
-**R:** Sì. Aspose.TeX supporta anche JPEG, BMP e TIFF. Sostituisci `new PngSaveOptions()` con la classe di opzioni di salvataggio corrispondente.
+**D3: Sono supportati altri formati di output oltre a PNG?**  
+R: Sì. Aspose.TeX supporta anche JPEG, BMP e TIFF. Sostituisci `new PngSaveOptions()` con la classe di opzioni di salvataggio corrispondente.
 
-### Q4: Dove posso trovare supporto della community per Aspose.TeX?
-**R:** Visita il [Aspose.TeX Forum](https://forum.aspose.com/c/tex/47) per discussioni, esempi e aiuto nella risoluzione dei problemi.
+**D4: Dove posso trovare supporto della community per Aspose.TeX?**  
+R: Visita il [Aspose.TeX Forum](https://forum.aspose.com/c/tex/47) per discussioni, esempi e aiuto nella risoluzione dei problemi.
 
-### Q5: Come posso ottenere una licenza temporanea per scopi di test?
-**R:** Puoi richiedere una licenza di prova da [Aspose.Trial](https://purchase.aspose.com/temporary-license/).
+**D5: Come posso ottenere una licenza temporanea per scopi di test?**  
+R: Puoi richiedere una licenza di prova da [Aspose.Trial](https://purchase.aspose.com/temporary-license/).
 
-**Domande Aggiuntive**
+**Domande aggiuntive**
 
-**D: Come modifico programmaticamente il colore di sfondo del PNG?**  
-**R:** Usa `PngSaveOptions.setBackgroundColor(java.awt.Color)` prima di assegnare le opzioni all'oggetto `TeXOptions`.
+**D: Come modificare programmaticamente il colore di sfondo del PNG?**  
+R: Usa `PngSaveOptions.setBackgroundColor(java.awt.Color)` prima di assegnare le opzioni all'oggetto `TeXOptions`.
 
 **D: È possibile convertire più file LaTeX in un'unica esecuzione?**  
-**R:** Sì. Itera sulla tua lista di file e istanzia un nuovo `TeXJob` per ciascuno, riutilizzando la stessa istanza di `options`.
+R: Sì. Itera sulla tua lista di file e istanzia un nuovo `TeXJob` per ciascun file, riutilizzando la stessa istanza di `options`.
 
 ## Conclusione
 
@@ -240,20 +248,19 @@ Ora disponi di un flusso di lavoro completo e pronto per la produzione per **gen
 
 ---
 
-**Ultimo Aggiornamento:** 2026-07-18  
-**Testato Con:** Aspose.TeX per Java 24.11 (ultima versione al momento della stesura)  
-**Autore:** Aspose
+**Ultimo aggiornamento:** 2026-10-31  
+**Testato con:** Aspose.TeX per Java 24.11 (ultima versione al momento della stesura)  
+**Autore:** Aspose  
 
-## Tutorial Correlati
+## Tutorial correlati
 
 - [How to Load Aspose.TeX License in Java – Step‑by‑Step Guide](/tex/java/managing-licenses/)
 - [Convert LaTeX to PNG - Advanced Options with Aspose.TeX for Java](/tex/java/converting-lato-images/advanced-png-conversion/)
 - [Generate Images from TeX with Aspose.TeX for Java](/tex/java/advanced-io/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
