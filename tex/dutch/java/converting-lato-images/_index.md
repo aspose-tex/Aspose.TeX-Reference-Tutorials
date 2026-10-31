@@ -1,32 +1,37 @@
 ---
-date: 2026-07-23
-description: Leer hoe u transparante LaTeX PNG-afbeeldingen kunt maken in Java met
-  Aspose.TeX – een stapsgewijze handleiding met geavanceerde instellingen, beste praktijken
-  en praktijkvoorbeelden.
+date: 2026-10-31
+description: Leer hoe u latex kunt exporteren naar transparante PNG-afbeeldingen in
+  Java met Aspose.TeX – een stapsgewijze handleiding met geavanceerde instellingen,
+  best practices en praktijkvoorbeelden.
+images:
+- /java/converting-lato-images/og-image.png
 keywords:
-- create transparent latex png
-- transparent background latex png
-- aspose.tex java
-lastmod: 2026-07-23
-linktitle: Hoe transparante LaTeX PNG-afbeeldingen te maken in Java
-og_description: Maak transparante LaTeX PNG-afbeeldingen in Java met Aspose.TeX. Deze
-  gids laat zien hoe u hoogwaardige PNG's kunt genereren, DPI, grootte en achtergrond
-  kunt aanpassen, en batchconversies efficiënt kunt verwerken.
-og_image_alt: 'Developer guide: Create transparent LaTeX PNG images in Java using
+- how to export latex
+- convert latex to png
+- how to set dpi
+- how to batch convert
+- make transparent png
+lastmod: 2026-10-31
+linktitle: Hoe latex exporteren naar transparante PNG-afbeeldingen in Java
+og_description: Leer hoe u latex kunt exporteren naar transparante PNG-afbeeldingen
+  in Java met Aspose.TeX. Deze handleiding laat zien hoe u hoogwaardige PNG's kunt
+  genereren, DPI, grootte en achtergrond kunt aanpassen, en batchconversies efficiënt
+  kunt afhandelen.
+og_image_alt: 'Developer guide: Export latex to transparent PNG images in Java using
   Aspose.TeX'
-og_title: Transparante LaTeX PNG-afbeeldingen maken in Java – Aspose.TeX-gids
+og_title: Hoe latex exporteren naar transparante PNG-afbeeldingen in Java – Aspose.TeX-gids
 schemas:
 - author: Aspose
-  dateModified: '2026-07-23'
-  description: Learn how to create transparent LaTeX PNG images in Java using Aspose.TeX
+  dateModified: '2026-10-31'
+  description: Learn how to export latex to transparent PNG images in Java using Aspose.TeX
     – a step‑by‑step guide with advanced settings, best practices, and real‑world
     examples.
-  headline: How to Create Transparent LaTeX PNG Images in Java
+  headline: How to export latex to transparent PNG images in Java
   type: TechArticle
-- description: Learn how to create transparent LaTeX PNG images in Java using Aspose.TeX
+- description: Learn how to export latex to transparent PNG images in Java using Aspose.TeX
     – a step‑by‑step guide with advanced settings, best practices, and real‑world
     examples.
-  name: How to Create Transparent LaTeX PNG Images in Java
+  name: How to export latex to transparent PNG images in Java
   steps:
   - name: Add Aspose.TeX to Your Project
     text: Include the Maven coordinate (or download the JAR) and add it to your `pom.xml`
@@ -74,7 +79,7 @@ tags:
 - LaTeX to PNG
 - Aspose.TeX
 - Java image conversion
-title: Hoe transparante LaTeX PNG-afbeeldingen te maken in Java
+title: Hoe latex exporteren naar transparante PNG-afbeeldingen in Java
 url: /nl/java/converting-lato-images/
 weight: 22
 ---
@@ -83,146 +88,144 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe maak je transparante LaTeX PNG-afbeeldingen in Java
+# Hoe LaTeX exporteren naar transparante PNG-afbeeldingen in Java
 
 ## Introductie
 
-If you need to **transparante LaTeX PNG** images inside a Java application, you’ve landed on the right tutorial. Aspose.TeX for Java eliminates the need for a local TeX distribution and lets you turn complex mathematical formulas or whole papers into crisp, web‑ready PNG files with just a few lines of code. In the next sections we’ll explain why this matters, walk you through a complete step‑by‑step conversion, and show you how to fine‑tune resolution, size, and background transparency for optimal performance.
+Als je **transparante LaTeX PNG maken** afbeeldingen nodig hebt binnen een Java‑applicatie, ben je op de juiste tutorial terechtgekomen. Aspose.TeX for Java elimineert de noodzaak van een lokale TeX‑distributie en stelt je in staat complexe wiskundige formules of volledige documenten om te zetten in scherpe, web‑klare PNG‑bestanden met slechts een paar regels code. In de volgende secties leggen we uit waarom dit belangrijk is, lopen we stap‑voor‑stap door een volledige conversie, en laten we zien hoe je resolutie, grootte en achtergrondtransparantie kunt afstemmen voor optimale prestaties.
 
 ## Snelle antwoorden
-- **Which library handles LaTeX → PNG conversion?** Aspose.TeX for Java  
-- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
-- **Which Java versions are supported?** Java 8 through 17 (and newer LTS releases).  
-- **Can I customize image size and resolution?** Yes – the API exposes width, height, DPI, and color options.  
-- **How long does a typical conversion take?** Usually under a second for standard documents; larger files can be optimized (see the performance section).
+- **Welke bibliotheek verwerkt LaTeX → PNG‑conversie?** Aspose.TeX for Java.  
+- **Hoe LaTeX exporteren?** Gebruik de `Document`‑klasse samen met `PngExportOptions` – deze verwerkt parsing, rendering en rasterisatie in één stroom.  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een commerciële licentie is vereist voor productie.  
+- **Welke Java‑versies worden ondersteund?** Java 8 tot 17 (en nieuwere LTS‑releases).  
+- **Kan ik de afbeeldingsgrootte en resolutie aanpassen?** Ja – de API biedt breedte, hoogte, DPI en kleuropties.  
+- **Hoe lang duurt een typische conversie?** Meestal minder dan een seconde voor standaarddocumenten; grotere bestanden kunnen geoptimaliseerd worden (zie de prestatie‑sectie).
 
 ## Wat is “hoe LaTeX naar PNG converteren”?
 
-Creating a transparent LaTeX PNG means rendering a LaTeX source string (or .tex file) into a raster PNG image that can include an alpha channel. PNG is ideal for web pages, mobile apps, or any environment where vector formats like PDF aren’t practical, because it offers lossless compression and full support for transparency.
+Een transparante LaTeX PNG maken betekent dat je een LaTeX‑bronstring of .tex‑bestand neemt en deze rendert naar een raster‑PNG‑afbeelding die een alfakanaal bevat. De verliesloze compressie van PNG en de volledige ondersteuning voor transparantie maken het ideaal voor webpagina’s, mobiele apps en elke omgeving waar vectorformaten zoals PDF ongeschikt zijn.
 
 ## Waarom Aspose.TeX voor Java gebruiken?
 
-Aspose.TeX supports **50+ input and output formats** and can render a 300‑page LaTeX document at 300 DPI in under 0.8 seconds on a standard 2.5 GHz CPU. The library is **zero‑dependency**, **thread‑safe**, and gives you pixel‑perfect fidelity while letting you control image dimensions, DPI, background color, and transparency—all without installing a TeX distribution.
+Aspose.TeX ondersteunt **50+ invoer‑ en uitvoerformaten** en kan een LaTeX‑document van 300 pagina’s bij 300 DPI renderen in minder dan 0,8 seconden op een standaard 2,5 GHz CPU. De bibliotheek is **zero‑dependency**, **thread‑safe**, en biedt pixel‑perfecte getrouwheid terwijl je de afbeeldingsafmetingen, DPI, achtergrondkleur en transparantie kunt regelen – alles zonder een TeX‑distributie te installeren.
 
 ## Waarom dit belangrijk is voor Java‑ontwikkelaars?
 
-You often need to embed scientific formulas in a Java‑based web service or mobile back‑end. Managing a full TeX installation adds deployment overhead and can cause version‑drift issues. With Aspose.TeX you can generate PNGs on‑the‑fly, keep your server footprint small, and guarantee that every client sees the same rendering, regardless of operating system.
+Je moet vaak wetenschappelijke formules in een Java‑gebaseerde webservice of mobiele back‑end embedden. Het beheren van een volledige TeX‑installatie voegt implementatie‑overhead toe en kan versie‑drift veroorzaken. Met Aspose.TeX kun je PNG‑s on‑the‑fly genereren, je server‑footprint klein houden, en garanderen dat elke client dezelfde weergave ziet, ongeacht het besturingssysteem.
 
-## Veelvoorkomende gebruikssituaties
-- **Dynamische rapportgeneratie** – embed formulas in PDFs or HTML reports on the fly.  
-- **Educatieve apps** – render quiz questions or lecture notes with live LaTeX rendering.  
-- **Mobiele back‑ends** – serve PNGs to Android/iOS clients where vector support is limited.  
+## Veelvoorkomende use‑cases
+- **Dynamische rapportgeneratie** – formules insluiten in PDF‑ of HTML‑rapporten on‑the‑fly.  
+- **Educatieve apps** – quizvragen of college‑notities renderen met live LaTeX‑rendering.  
+- **Mobiele back‑ends** – PNG‑s serveren aan Android/iOS‑clients waar vectorondersteuning beperkt is.  
 
-## Voorwaarden
-- Java Development Kit (JDK) 8 of later.  
+## Vereisten
+- Java Development Kit (JDK) 8 of hoger.  
 - Maven of Gradle voor afhankelijkheidsbeheer (of handmatige JAR‑inclusie).  
-- Een Aspose.TeX voor Java‑licentie (proef‑sleutel werkt voor evaluatie).  
+- Een Aspose.TeX‑licentie voor Java (proef‑sleutel werkt voor evaluatie).  
 
-## Hoe LaTeX naar PNG converteren in Java – Stapsgewijze gids
+## Hoe LaTeX naar PNG converteren in Java – stapsgewijze handleiding
 
-Load your LaTeX source, configure export options, and call `save`. The entire pipeline requires only three lines of code once the library is referenced.
+Laad je LaTeX‑bron, configureer exportopties, en roep `save` aan. De volledige pijplijn vereist slechts drie regels code zodra de bibliotheek is gerefereerd.
 
-### Stap 1: Voeg Aspose.TeX toe aan je project
-Include the Maven coordinate (or download the JAR) and add it to your `pom.xml` or `build.gradle`. This gives you access to the `com.aspose.tex` package.
+### Stap 1: voeg Aspose.TeX toe aan je project
 
-### Stap 2: Bereid de LaTeX‑bron voor
-You can load LaTeX from a string, a file, or any `InputStream`. Keep the source UTF‑8 encoded to preserve special characters.
+Neem de Maven‑coördinaat (of download de JAR) op en voeg deze toe aan je `pom.xml` of `build.gradle`. Hiermee krijg je toegang tot het `com.aspose.tex`‑pakket.
 
-### Stap 3: Configureer de PNG‑exportopties
-`PngExportOptions` lets you define DPI, image dimensions, and background color.
+### Stap 2: bereid de LaTeX‑bron voor
 
-**Definition anchor:** `PngExportOptions` is the Aspose.TeX class that encapsulates all raster‑image settings such as resolution, size, and background color.  
+Je kunt LaTeX laden vanuit een string, een bestand, of elke `InputStream`. Houd de bron UTF‑8‑gecodeerd om speciale tekens te behouden.
 
-Set the properties you need before invoking the conversion.
+### Stap 3: configureer de PNG‑exportopties
 
-### Stap 4: Voer de conversie uit
-`Document` represents the parsed LaTeX content in memory.
+`PngExportOptions` laat je DPI, afbeeldingsafmetingen en achtergrondkleur definiëren. **Definition anchor:** `PngExportOptions` is de Aspose.TeX‑klasse die alle raster‑afbeeldingsinstellingen omvat, zoals resolutie, grootte en achtergrondkleur. Stel de eigenschappen in die je nodig hebt voordat je de conversie start.
 
-**Definition anchor:** The `Document` class is Aspose.TeX's core object that parses LaTeX source and provides rendering capabilities for various output formats.  
+### Stap 4: voer de conversie uit
 
-Instantiate `Document` with your LaTeX source, then call `save` while passing the configured `PngExportOptions` and the target file path (or an `OutputStream`). The library handles parsing, typesetting, and rasterization internally.
+`Document` is het kernobject van Aspose.TeX dat LaTeX‑bron parseert en render‑mogelijkheden biedt voor diverse uitvoerformaten. Instantieer `Document` met je LaTeX‑bron, roep vervolgens `save` aan terwijl je de geconfigureerde `PngExportOptions` en het doel‑bestandspad (of een `OutputStream`) doorgeeft. De bibliotheek verwerkt parsing, typesetting en rasterisatie intern.
 
-### Stap 5: Verifieer het resultaat
-Open the resulting PNG in any image viewer or embed it in a web page to confirm that the rendering matches expectations. Adjust the export options if you need higher resolution or a different background color.
+### Stap 5: controleer het resultaat
 
-> **Pro tip:** For batch processing, reuse the same `PngExportOptions` instance across multiple conversions to reduce object‑creation overhead.
+Open de resulterende PNG in een willekeurige afbeeldingsviewer of embed deze in een webpagina om te bevestigen dat de weergave aan de verwachtingen voldoet. Pas de exportopties aan als je een hogere resolutie of een andere achtergrondkleur nodig hebt.
+
+> **Pro tip:** Voor batch‑verwerking kun je dezelfde `PngExportOptions`‑instantie hergebruiken voor meerdere conversies om overhead bij objectcreatie te verminderen.
 
 ## Transparante achtergrond LaTeX PNG
 
-If you need a PNG with no background – for example, to overlay equations on a colored UI – set the `backgroundColor` property to `Color.Transparent` in the export options. This **transparante achtergrond latex png** capability works with all DPI settings and does not affect the quality of the rendered formula.
+Als je een PNG zonder achtergrond nodig hebt – bijvoorbeeld om formules over een gekleurde UI te leggen – stel dan de `backgroundColor`‑eigenschap in op `Color.Transparent` in de exportopties. `Color.Transparent` vertegenwoordigt een volledig transparante kleur in het Aspose.TeX‑kleurenpalet. Deze **transparent background latex png**‑functionaliteit werkt met alle DPI‑instellingen en beïnvloedt de kwaliteit van de gerenderde formule niet.
 
-**Definition anchor:** `Color.Transparent` is a constant in the Aspose.TeX color palette that represents a fully transparent background, enabling the generation of PNGs with an alpha channel.
+## LaTeX naar PNG‑afbeeldingen in Java moeiteloos converteren
 
-## LaTeX naar PNG-afbeeldingen in Java moeiteloos converteren
+Ben je het beu om te worstelen met de complexiteit van het converteren van LaTeX naar PNG‑afbeeldingen in Java? Zoek niet verder! Aspose.TeX for Java biedt een intuïtieve oplossing die het hele proces stroomlijnt. Volg onze stapsgewijze handleiding om naadloze integratie te bereiken en verbluffende PNG‑afbeeldingen uit je LaTeX‑documenten te produceren.  
 
-Are you tired of the complexities involved in converting LaTeX to PNG images in Java? Look no further! Aspose.TeX for Java provides an intuitive solution that streamlines the entire process. Follow our step‑by‑step guide to achieve seamless integration and produce stunning PNG images from your LaTeX documents.  
-
-[Convert LaTeX to PNG Images in Java Effortlessly](./png-conversion/)  
-[Read More](./png-conversion/)
+[LaTeX naar PNG‑afbeeldingen in Java moeiteloos converteren](./png-conversion/)  
+[Lees meer](./png-conversion/)
 
 ### Basisbegrip
 
-Before we dive into the conversion process, let's grasp the basics. LaTeX, a typesetting system, is widely used for the production of scientific and mathematical documents. Converting LaTeX to PNG images is crucial for sharing and displaying these documents on the web or in applications.
+LaTeX, een typesettingsysteem, wordt veel gebruikt voor de productie van wetenschappelijke en wiskundige documenten. Het converteren van LaTeX naar PNG‑afbeeldingen is cruciaal voor het delen en weergeven van deze documenten op het web of in applicaties.
 
-### Stapsgewijze gids
+### Stapsgewijze handleiding
 
-Our tutorial breaks down the conversion process into easy‑to‑follow steps. From setting up your Java environment to integrating Aspose.TeX for Java into your project, we've got you covered. You don't need to be a Java guru to navigate through the tutorial – it's designed for all skill levels.
+Onze tutorial splitst het conversieproces op in gemakkelijk te volgen stappen. Van het opzetten van je Java‑omgeving tot het integreren van Aspose.TeX for Java in je project, we hebben alles gedekt. Je hoeft geen Java‑goeroe te zijn om door de tutorial te navigeren – hij is ontworpen voor alle vaardigheidsniveaus.
 
 ### Naadloze integratie met Aspose.TeX
 
-Aspose.TeX for Java simplifies the integration process, allowing you to focus on the creative aspect rather than dealing with technical intricacies. The library seamlessly handles LaTeX to PNG conversion, ensuring the preservation of document quality and formatting.
+Aspose.TeX for Java vereenvoudigt het integratieproces, zodat je je kunt richten op het creatieve aspect in plaats van technische intriciteiten. De bibliotheek verwerkt LaTeX‑naar‑PNG‑conversie naadloos, waarbij de kwaliteit en opmaak van het document behouden blijven.
 
-## Verken geavanceerde PNG-conversie‑opties met Aspose.TeX voor Java
+## Verken geavanceerde PNG‑conversie‑opties met Aspose.TeX voor Java
 
-Ready to take your LaTeX to PNG conversion skills to the next level? Our tutorial on advanced PNG conversion with Aspose.TeX for Java is the perfect resource for you. Delve into the intricacies of customization and optimization, unlocking the full potential of Aspose.TeX.  
+Klaar om je LaTeX‑naar‑PNG‑conversievaardigheden naar een hoger niveau te tillen? Onze tutorial over geavanceerde PNG‑conversie met Aspose.TeX for Java is de perfecte bron voor jou. Duik in de fijne kneepjes van aanpassing en optimalisatie, en ontgrendel het volledige potentieel van Aspose.TeX.  
 
-[Explore Advanced PNG Conversion Options with Aspose.TeX for Java](./advanced-png-conversion/)  
-[Read More](./advanced-png-conversion/)
+[Geavanceerde PNG‑conversie‑opties verkennen met Aspose.TeX voor Java](./advanced-png-conversion/)  
+[Lees meer](./advanced-png-conversion/)
 
 ### De kracht van aanpassing benutten
 
-Aspose.TeX for Java doesn't just stop at basic conversion – it empowers you with advanced customization options. From tweaking image dimensions to adjusting resolution and color settings, our tutorial covers it all. Elevate the visual appeal of your PNG images with personalized touches.
+Aspose.TeX for Java stopt niet bij basisconversie – het biedt geavanceerde aanpassingsopties. Van het bijstellen van afbeeldingsafmetingen tot het aanpassen van resolutie en kleurinstellingen, onze tutorial behandelt alles. Verhoog de visuele aantrekkingskracht van je PNG‑afbeeldingen met gepersonaliseerde accenten.
 
 ### Optimalisatie voor prestaties
 
-Efficiency matters. Learn how to optimize PNG conversion for enhanced performance. Aspose.TeX for Java provides tools to fine‑tune the conversion process, ensuring speedy results without compromising on image quality. Impress your audience with images that load swiftly and look impeccable.
+Efficiëntie is belangrijk. Leer hoe je PNG‑conversie kunt optimaliseren voor betere prestaties. Aspose.TeX for Java biedt tools om het conversieproces fijn af te stemmen, waardoor snelle resultaten worden verkregen zonder in te boeten op beeldkwaliteit. Maak indruk op je publiek met afbeeldingen die snel laden en er perfect uitzien.
 
 ### Uitgebreide begeleiding voor ontwikkelaars
 
-Whether you're a seasoned developer or a Java enthusiast, our tutorial caters to all proficiency levels. Dive into the world of Aspose.TeX for Java with confidence, armed with knowledge that goes beyond the basics. Elevate your LaTeX to PNG conversion game and stand out in your projects.
+Of je nu een ervaren ontwikkelaar of een Java‑enthousiasteling bent, onze tutorial is geschikt voor alle vaardigheidsniveaus. Duik vol vertrouwen in de wereld van Aspose.TeX for Java, gewapend met kennis die verder gaat dan de basis. Til je LaTeX‑naar‑PNG‑conversie naar een hoger niveau en onderscheid je projecten.
 
 ## Veelvoorkomende valkuilen & probleemoplossing
 
 | Symptoom | Waarschijnlijke oorzaak | Oplossing |
 |----------|--------------------------|-----------|
-| Lege PNG-uitvoer | Ontbrekende lettertype‑bestanden in het classpath | Voeg de vereiste LaTeX‑lettertypen toe of gebruik de ingebouwde lettertype‑fallback. |
-| Lage resolutie afbeelding | Standaard DPI (72) is te laag voor uw geval | Verhoog `resolutionDpi` in `PngExportOptions`. |
-| Out‑of‑memory‑fout bij grote documenten | Hele document wordt in het geheugen geladen | Verwerk de LaTeX in delen of vergroot de JVM‑heap‑grootte (`-Xmx`). |
+| Blank PNG output | Missing font files in the classpath | Add the required LaTeX fonts or use the built‑in font fallback. |
+| Low‑resolution image | Default DPI (72) is too low for your use case | Increase `resolutionDpi` in `PngExportOptions`. |
+| Out‑of‑memory error on large documents | Whole document is loaded into memory | Process the LaTeX in chunks or increase JVM heap size (`-Xmx`). |
 
 ## Veelgestelde vragen
 
-**Q: Kan ik een volledig .tex‑document converteren dat meerdere secties bevat?**  
-A: Ja. Load the entire file into the `Document` object; Aspose.TeX will render each page sequentially and you can export each page as a separate PNG or combine them into a multi‑page PDF first.
+**Q: Kan ik een volledig .tex‑document dat meerdere secties bevat converteren?**  
+A: Ja. Laad het volledige bestand in het `Document`‑object; Aspose.TeX rendert elke pagina opeenvolgend en je kunt elke pagina exporteren als een aparte PNG of eerst combineren tot een meer‑pagina PDF.
 
-**Q: Is het mogelijk om een transparante achtergrond toe te voegen aan de PNG?**  
-A: Absoluut. Set the `backgroundColor` property to `Color.Transparent` in the export options.
+**Q: Is het mogelijk om een transparante achtergrond aan de PNG toe te voegen?**  
+A: Absoluut. Stel de `backgroundColor`‑eigenschap in op `Color.Transparent` in de exportopties.
 
 **Q: Ondersteunt de bibliotheek andere rasterformaten zoals JPEG of BMP?**  
-A: While PNG is the primary raster format, you can also export to JPEG, BMP, and TIFF by using the corresponding export option classes.
+A: Hoewel PNG het primaire rasterformaat is, kun je ook exporteren naar JPEG, BMP en TIFF door de bijbehorende exportoptie‑klassen te gebruiken.
 
 **Q: Hoe ga ik om met Unicode‑tekens (bijv. Griekse letters) in LaTeX?**  
-A: Ensure your source string is UTF‑8 encoded and that the required Unicode fonts are available. Aspose.TeX automatically maps Unicode characters to the appropriate glyphs.
+A: Zorg ervoor dat je bronstring UTF‑8‑gecodeerd is en dat de benodigde Unicode‑lettertypen beschikbaar zijn. Aspose.TeX mappt Unicode‑tekens automatisch naar de juiste glyphs.
 
-**Q: Welk licentiemodel gebruikt Aspose.TeX?**  
-A: It follows a per‑developer or per‑server subscription model. A free evaluation license is available for testing purposes.
+**Q: Welk licentiemodel hanteert Aspose.TeX?**  
+A: Het volgt een per‑developer of per‑server abonnementsmodel. Een gratis evaluatielicentie is beschikbaar voor testdoeleinden.
 
-**Q: Kan ik de API gebruiken in een high‑traffic webservice?**  
-A: Ja. The API is thread‑safe and can be instantiated once per application, then reused for many concurrent conversions.
+**Q: Kan ik de API gebruiken in een webservice met veel verkeer?**  
+A: Ja. De API is thread‑safe en kan één keer per applicatie worden geïnstantieerd, waarna hij hergebruikt kan worden voor vele gelijktijdige conversies.
 
-**Q: Hoe kan ik de conversiesnelheid verbeteren voor grote batches?**  
-A: Reuse a single `PngExportOptions` instance, increase the JVM heap if needed, and consider parallel processing with a thread pool.
+**Q: Hoe kan ik de conversiesnelheid voor grote batches verbeteren?**  
+A: Hergebruik een enkele `PngExportOptions`‑instantie, vergroot de JVM‑heap indien nodig, en overweeg parallelle verwerking met een thread‑pool.
 
-**Laatst bijgewerkt:** 2026-07-23  
+---
+
+**Laatst bijgewerkt:** 2026-10-31  
 **Getest met:** Aspose.TeX for Java 24.11 (latest)  
 **Auteur:** Aspose
 
@@ -230,8 +233,7 @@ A: Reuse a single `PngExportOptions` instance, increase the JVM heap if needed, 
 
 - [Hoe licentie instellen en PNG genereren vanuit LaTeX (Java)](/tex/java/converting-lato-images/png-conversion/)
 - [Hoe LaTeX renderen naar PNG in Java met Aspose.TeX](/tex/java/customizing-output/render-lamath-png/)
-- [Hoe TeX converteren naar PNG met stream‑invoer en terminalafhandeling in Java](/tex/java/advanced-io/stream-input-image-output/)
-
+- [Hoe TeX converteren naar PNG met stream‑invoer en terminal‑afhandeling in Java](/tex/java/advanced-io/stream-input-image-output/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
