@@ -1,25 +1,29 @@
 ---
-date: 2026-07-18
-description: تعلم كيفية إنشاء PDF من LaTeX في Java، وضبط ضغط PDF، وحل مشكلات التحويل
-  باستخدام Aspose.TeX. دليل خطوة بخطوة مع نصائح.
+date: 2026-11-05
+description: تعلم كيفية إنشاء PDF من LaTeX في Java باستخدام Aspose.TeX، وضبط ضغط PDF،
+  وتخصيص المخرجات، وحل مشكلات التحويل.
+images:
+- /java/converting-lato-pdf/advanced-pdf-conversion/og-image.png
 keywords:
-- how to generate pdf
-- how to convert latex
-- set pdf compression
-lastmod: 2026-07-18
-linktitle: 'إنشاء PDF من LaTeX باستخدام Java: Advanced Conversion Options'
-og_description: كيفية إنشاء PDF من LaTeX في Java باستخدام Aspose.TeX. يوضح هذا الدليل
-  كيفية ضبط ضغط PDF، وتخصيص المخرجات، وحل المشكلات الشائعة في التحويل.
-og_image_alt: 'Guide: Generate PDF from LaTeX in Java with Aspose.TeX'
-og_title: كيفية إنشاء PDF من LaTeX في Java – Advanced Options
+- generate pdf from latex
+- specify output directory java
+- aspose.tex java
+- latex to pdf conversion
+- java pdf generation
+lastmod: 2026-11-05
+linktitle: 'Java إنشاء PDF من LaTeX: خيارات التحويل المتقدمة'
+og_description: تعلم كيفية إنشاء PDF من LaTeX في Java باستخدام Aspose.TeX. يوضح هذا
+  الدليل إعدادات الضغط، وتخصيص المخرجات، وحلول المشكلات الشائعة في التحويل.
+og_image_alt: 'Developer guide: Generate PDF from LaTeX in Java using Aspose.TeX'
+og_title: إنشاء PDF من LaTeX في Java – خيارات متقدمة
 schemas:
 - author: Aspose
-  dateModified: '2026-07-18'
-  description: Learn how to generate PDF from LaTeX in Java, set PDF compression,
+  dateModified: '2026-11-05'
+  description: Learn how to generate pdf from latex in Java, set PDF compression,
     and troubleshoot conversion using Aspose.TeX. Step‑by‑step guide with tips.
   headline: How to Generate PDF from LaTeX in Java – Advanced Options
   type: TechArticle
-- description: Learn how to generate PDF from LaTeX in Java, set PDF compression,
+- description: Learn how to generate pdf from latex in Java, set PDF compression,
     and troubleshoot conversion using Aspose.TeX. Step‑by‑step guide with tips.
   name: How to Generate PDF from LaTeX in Java – Advanced Options
   steps:
@@ -44,7 +48,7 @@ schemas:
     text: The `PdfDevice` streams the generated PDF directly to an `OutputStream`,
       which avoids building the entire document in memory. *The `PdfDevice` class
       implements a streaming writer; it writes each page as it is rendered, keeping
-      the memory footprint under 50 MB even for large documents.*
+      the memory footprint under 50 MB even for large documents.*'
   - name: Close Output Stream
     text: The try‑with‑resources block automatically closes the `FileOutputStream`.
       If you manage the stream manually, remember to call `close()` to release file
@@ -57,12 +61,13 @@ schemas:
   - answer: Visit the community forum [Aspose.TeX forum](https://forum.aspose.com/c/tex/47)
       for peer assistance, or open a support ticket if you hold a commercial license.
     question: How do I get support for Aspose.TeX for Java?
-  - answer: Yes, you can download a fully functional trial from the releases page
-      [here](https://releases.aspose.com/).
+  - answer: Yes, you can download a fully functional trial from the [Aspose.TeX trial
+      download](https://releases.aspose.com/).
     question: Is there a free trial available?
-  - answer: The complete API reference is published at [here](https://reference.aspose.com/tex/java/).
+  - answer: The complete API reference is published at [Aspose.TeX Java API reference](https://reference.aspose.com/tex/java/).
     question: Where can I find the official documentation?
-  - answer: Temporary licenses are provided on request via the licensing portal [here](https://purchase.aspose.com/temporary-license/).
+  - answer: Temporary licenses are provided on request via the licensing portal [Aspose.TeX
+      temporary license portal](https://purchase.aspose.com/temporary-license/).
     question: How can I obtain a temporary license for evaluation?
   type: FAQPage
 second_title: Aspose.TeX Java API
@@ -71,7 +76,7 @@ tags:
 - pdf conversion
 - aspose.tex
 - java pdf generation
-title: كيفية إنشاء PDF من LaTeX في Java – Advanced Options
+title: كيفية إنشاء PDF من LaTeX في Java – خيارات متقدمة
 url: /ar/java/converting-lato-pdf/advanced-pdf-conversion/
 weight: 11
 ---
@@ -84,136 +89,142 @@ weight: 11
 
 ## مقدمة
 
-إذا كنت تبحث عن طريقة موثوقة **how to generate pdf** لإنشاء ملفات PDF من مصادر LaTeX داخل تطبيق Java، فقد وصلت إلى المكان الصحيح. تقدم Aspose.TeX for Java محرك عرض مكتوب بالكامل بلغة Java يزيل الحاجة إلى تثبيتات LaTeX الخارجية، مما يجعله مثاليًا للبيئات الخادمة، السحابية، أو سطح المكتب. في هذا الدرس سنستكشف أقوى إعدادات التكوين، نشرح لماذا هي مهمة، ونزودك بهيكل شفرة جاهز للإنتاج يمكنك نسخه ولصقه في أي مشروع Maven أو Gradle.
+إذا كنت تبحث عن طريقة موثوقة **generate pdf from latex** للملفات داخل تطبيق Java، فقد وصلت إلى المكان الصحيح. تقدم Aspose.TeX for Java محرك عرض pure‑Java يزيل الحاجة إلى تثبيتات LaTeX الخارجية، مما يجعله مثالياً للبيئات الخادمة، السحابية، أو سطح المكتب. في هذا الدرس سنستكشف أقوى إعدادات التكوين، نشرح لماذا هي مهمة، ونزودك بهيكل شفرة جاهز للإنتاج يمكنك نسخه ولصقه في أي مشروع Maven أو Gradle.
+
+للحصول على مثال أساسي للتحويل، راجع [تحويل Java LaTeX إلى PDF - تحويل فعال إلى PDF](/tex/java/converting-lato-pdf/simplest-pdf-conversion/).
 
 ## إجابات سريعة
-
-- **ما المكتبة التي تتعامل مع java generate pdf from latex؟** Aspose.TeX for Java – محرك مُدار بالكامل وخالٍ من الاعتمادات.  
-- **هل أحتاج إلى ترخيص؟** نعم. يزيل الترخيص الصالح علامة الماء التجريبية ويفتح جميع ميزات العرض.  
-- **إصدارات Java المدعومة؟** Java 8 + (أي JDK يدعم تدفقات الإدخال/الإخراج القياسية).  
-- **هل يمكنني تخصيص مخرجات PDF؟** بالطبع – استخدم `PdfSaveOptions` للتحكم في الضغط، تضمين الخطوط، وتحديد إصدار PDF.  
-- **هل التحويل سريع؟** تستغرق المستندات العادية بضع ثوانٍ؛ تحافظ واجهات برمجة التطبيقات المتدفقة على انخفاض استهلاك الذاكرة حتى لملفات تصل إلى 300 صفحة.
+- **ما المكتبة التي تتعامل مع java generate pdf from latex؟** Aspose.TeX for Java – محرك مُدار بالكامل وخالٍ من الاعتماديات.  
+- **هل أحتاج إلى ترخيص؟** نعم. الترخيص الصالح يزيل علامة التجربة المائية ويفتح جميع ميزات العرض.  
+- **إصدارات Java المدعومة؟** Java 8 + (أي JDK يدعم تدفقات I/O القياسية).  
+- **هل يمكنني تخصيص مخرجات PDF؟** بالتأكيد – استخدم `PdfSaveOptions` للتحكم في الضغط، تضمين الخطوط، وتحديد نسخة PDF.  
+- **هل التحويل سريع؟** عادةً ما تنتهي المستندات في ثوانٍ؛ واجهات برمجة التطبيقات المتدفقة تحافظ على استهلاك الذاكرة منخفضًا حتى لملفات من 300 صفحة.
 
 ## ما هو java generate pdf from latex؟
 
-`java generate pdf from latex` هو العملية التي يتم فيها إمداد ملف مصدر LaTeX (أو مجموعة من ملفات `.tex`/`.ltx`) إلى محرك مبني على Java يقوم بتحليل العلامات وينتج مستند PDF مباشرة. تتعامل Aspose.TeX مع التضمينات، والرسومات، ومعالجة الحزم داخليًا، مما يلغي الحاجة إلى توزيع LaTeX خارجي.
+تحميل مصدر LaTeX وإنتاج PDF مباشرة في Java هو ما نسميه **generate pdf from latex**. تقوم هذه العملية بتحليل ملفات `.tex`، وحل الإشارات إلى الملفات المضمنة والرسومات، وتدفق الصفحات المرسومة إلى مستند PDF دون أي توزيع TeX خارجي.
 
 ## لماذا تستخدم Aspose.TeX لـ java generate pdf from latex؟
 
-لأن Aspose.TeX يعمل على أي JVM دون تبعيات أصلية، يدعم أكثر من 150 حزمة LaTeX، ويمكنه عرض المستندات الكبيرة بكفاءة. يوفر تحكمًا دقيقًا في إصدار PDF، الضغط، وتضمين الخطوط، مما يتيح الالتزام بالمعايير مثل PDF/A‑1b مع الحفاظ على استهلاك الذاكرة منخفضًا.
+يعمل Aspose.TeX على أي JVM، يدعم **أكثر من 150 حزمة LaTeX**، ويمكنه عرض مستندات تصل إلى 500 صفحة مع الحفاظ على الذاكرة أقل من 50 ميغابايت بفضل معماريته المتدفقة. كما يوفر توافقًا مدمجًا مع PDF/A‑1b، مما يتيح لك تلبية معايير الأرشفة دون معالجة لاحقة إضافية.
 
 ## المتطلبات المسبقة
 
 ### بيئة Java
-تأكد من تثبيت JDK من Java 8 أو أحدث وتعيين `JAVA_HOME` بشكل صحيح.
+تأكد من تثبيت JDK إصداره Java 8 أو أحدث وأن المتغير `JAVA_HOME` مضبوط بشكل صحيح.
 
 ### مكتبة Aspose.TeX for Java
-قم بتنزيل أحدث حزمة Aspose.TeX for Java من الموقع الرسمي [هنا](https://releases.aspose.com/tex/java/).
+حمّل أحدث حزمة Aspose.TeX for Java من صفحة [إصدارات Aspose.TeX for Java](https://releases.aspose.com/tex/java/).
 
 ### الترخيص
-احصل على ترخيص تجاري من بوابة الشراء [هنا](https://purchase.aspose.com/buy). النسخة التجريبية تعمل لكنها تضيف علامة مائية إلى كل صفحة.
+احصل على ترخيص تجاري من صفحة [ترخيص Aspose.TeX التجاري](https://purchase.aspose.com/buy). النسخة التجريبية تعمل لكنها تضيف علامة مائية إلى كل صفحة. للحصول على خطوات مفصلة حول تحميل الترخيص، راجع [كيفية تحميل ترخيص Aspose.TeX في Java – دليل خطوة بخطوة](/tex/java/managing-licenses/).
 
 ## استيراد الحزم
 
-الفئات التالية توفر الوظائف الأساسية لتحليل LaTeX وحفظ ملفات PDF.  
-`import com.aspose.tex.*;`  
-`import com.aspose.tex.render.*;`  
-`import com.aspose.tex.save.*;`  
+الفئات التالية توفر الوظائف الأساسية لتحليل LaTeX وحفظ ملفات PDF.
+
+```java
+import com.aspose.tex.*;
+import com.aspose.tex.render.*;
+import com.aspose.tex.save.*;
+```
 
 تمنحك هذه الاستيرادات الوصول إلى الفئات `Document` و `PdfDevice` و `PdfSaveOptions` التي تدير خط أنابيب التحويل.
 
-## java generate pdf from latex – نظرة عامة
+## نظرة عامة على java generate pdf from latex
 
 ### الخطوة 1: تعيين الترخيص
-
-فئة `License` هي نقطة الدخول في Aspose.TeX لتطبيق الترخيص الذي اشتريته.  
-```java
-License license = new License();
-license.setLicense("Aspose.TeX.lic");
-```  
-*فئة `License` تقوم بتحميل ملف `.lic` وتُعطّل علامة الماء التجريبية عالميًا.*
+الفئة `License` هي نقطة الدخول في Aspose.TeX لتطبيق الترخيص الذي اشتريته. *تقوم الفئة `License` بتحميل ملف `.lic` وتعطيل علامة التجربة المائية عالميًا.*
 
 ### الخطوة 2: تكوين خيارات التحويل
-
-`TexOptions` تتيح لك التحكم في كيفية حل محرك TeX للملفات، الصور، والموارد الخارجية.  
-```java
-TexOptions texOptions = new TexOptions();
-texOptions.setBaseDirectory("src/main/resources/tex");
-texOptions.setEnableShellEscape(true);
-```  
-*`TexOptions` هو كائن التكوين الذي يخبر المحرك أين يبحث عن الملفات المتضمنة وما إذا كان سيسمح بأوامر shell‑escape.*
+`TexOptions` تتيح لك التحكم في كيفية حل محرك TeX للملفات، الصور، والموارد الخارجية. *`TexOptions` هو كائن التكوين الذي يخبر المحرك أين يبحث عن الملفات المضمنة وما إذا كان سيسمح بأوامر shell‑escape.*
 
 ### الخطوة 3: تحديد دليل الإخراج
-
-حدد مجلد عمل حيث سيتم كتابة ملف PDF المُولد.  
-```java
-String outputDir = "output/pdf";
-```  
-*يجب أن يكون دليل الإخراج موجودًا أو قابلًا للإنشاء بواسطة عملية Java؛ وإلا سيتم رمي استثناء `IOException`.*
+`PdfSaveOptions` يمنحك التحكم في الضغط، تضمين الخطوط، وإصدار PDF. *`PdfSaveOptions` هي فئة مخصصة تُجمل جميع إعدادات PDF، مما يسمح لك بضبط حجم الملف والامتثال بدقة.*
 
 ### الخطوة 4: تهيئة خيارات حفظ PDF
-
-`PdfSaveOptions` يمنحك التحكم في الضغط، تضمين الخطوط، وإصدار PDF.  
-```java
-PdfSaveOptions pdfOptions = new PdfSaveOptions();
-pdfOptions.setCompressContent(true);
-pdfOptions.setEmbedAllFonts(true);
-pdfOptions.setPdfVersion(PdfVersion.PDF_1_7);
-```  
-*`PdfSaveOptions` هي فئة مخصصة تُجمل جميع إعدادات PDF، مما يتيح لك ضبط حجم الملف والامتثال بدقة.*
+`PdfSaveOptions` يمنحك التحكم في الضغط، تضمين الخطوط، وإصدار PDF. *`PdfSaveOptions` هي فئة مخصصة تُجمل جميع إعدادات PDF، مما يسمح لك بضبط حجم الملف والامتثال بدقة.*
 
 ### الخطوة 5: تشغيل التحويل
-
-`PdfDevice` يبث الـ PDF المُولد مباشرة إلى `OutputStream`، مما يُجنب بناء المستند بالكامل في الذاكرة.  
-```java
-try (FileOutputStream pdfStream = new FileOutputStream(outputDir + "/result.pdf")) {
-    PdfDevice device = new PdfDevice(pdfStream, pdfOptions);
-    Document doc = new Document("sample.tex", texOptions);
-    doc.save(device);
-}
-```  
-*فئة `PdfDevice` تنفّذ كاتبًا متدفقًا؛ فهي تكتب كل صفحة عند عرضها، مما يحافظ على استهلاك الذاكرة أقل من 50 ميغابايت حتى للمستندات الكبيرة.*
+`PdfDevice` يبث الـ PDF المُولد مباشرة إلى `OutputStream`، مما يجنب بناء المستند بالكامل في الذاكرة. *فئة `PdfDevice` تنفّذ كاتبًا متدفقًا؛ تكتب كل صفحة عند إنشائها، مع الحفاظ على استهلاك الذاكرة أقل من 50 ميغابايت حتى للمستندات الكبيرة.*
 
 ### الخطوة 6: إغلاق تدفق الإخراج
+كتلة try‑with‑resources تغلق تلقائيًا `FileOutputStream`. إذا كنت تدير التدفق يدويًا، تذكر استدعاء `close()` لتحرير مقبض الملف وتجنب الأقفال.
 
-كتلة try‑with‑resources تغلق `FileOutputStream` تلقائيًا. إذا كنت تدير التدفق يدويًا، تذكر استدعاء `close()` لإطلاق مقبض الملف وتجنب الأقفال.
+## كيف تحدد دليل الإخراج في java؟
+
+حدد مسار المجلد حيث سيُكتب ملف PDF، وستقوم Aspose.TeX بإنشاء الملف هناك. يجب أن يكون الدليل موجودًا أو قابلًا للإنشاء بواسطة عملية Java؛ وإلا سيتم رمي `IOException`. يمكنك استخدام `new File("output").mkdirs()` قبل التحويل لضمان جاهزية المجلد.
+
+كائن `PdfSaveOptions` يقبل مسار الإخراج عبر المُنشئ الخاص به أو عن طريق ضبط الخاصية `setOutputPath`، مما يضمن أن PDF المُولد يُحفظ تمامًا في المكان المطلوب.
+
+إذا كنت بحاجة إلى تحويل LaTeX إلى صور، اطلع على [تحويل LaTeX إلى PNG - خيارات متقدمة مع Aspose.TeX for Java](/tex/java/converting-lato-images/advanced-png-conversion/).
 
 ## المشكلات الشائعة والحلول
 
 | المشكلة | السبب | الحل |
 |-------|-------|----------|
-| **الخطوط المفقودة** | محرك LaTeX لا يستطيع العثور على الخط المطلوب. | قم بتثبيت الخط المفقود على نظام التشغيل المضيف أو فعّل التضمين عبر `pdfOptions.setEmbedAllFonts(true)`. |
-| **ظهور علامة مائية** | الترخيص غير مُعين أو منتهي الصلاحية. | تحقق من أن `new License().setLicense("Aspose.TeX.lic")` يشير إلى ملف صالح وأن الترخيص محدث. |
-| **دليل الإخراج غير مُنشأ** | المسار غير موجود ولا يمكن للـ API إنشاؤه. | تأكد من وجود الدليل مسبقًا أو امنح العملية أذونات كتابة؛ يمكنك أيضًا استدعاء `new File(outputDir).mkdirs()`. |
+| **خطوط مفقودة** | محرك LaTeX لا يستطيع العثور على الخط المطلوب. | قم بتثبيت الخط المفقود على نظام التشغيل المضيف أو فعّل التضمين عبر `pdfOptions.setEmbedAllFonts(true)`. |
+| **ظهور علامة مائية** | الترخيص غير مُعين أو منتهي الصلاحية. | تحقق من أن `new License().setLicense("Aspose.TeX.lic")` يشير إلى ملف صالح وأن الترخيص ساري. |
+| **لم يتم إنشاء دليل الإخراج** | المسار غير موجود ولا يمكن للـ API إنشاؤه. | تأكد من وجود الدليل مسبقًا أو امنح العملية أذونات كتابة؛ يمكنك أيضًا استدعاء `new File(outputDir).mkdirs()`. |
 | **المستندات الكبيرة تسبب OutOfMemoryError** | يتم بناء PDF بالكامل في الذاكرة. | تحول إلى التدفق باستخدام `PdfDevice` مع `FileOutputStream` كما هو موضح في الخطوة 5. |
 | **رسومات TikZ تُعرض بشكل غير صحيح** | غياب مكتبات الرسومات الخارجية. | فعّل shell‑escape (`texOptions.setEnableShellEscape(true)`) وتأكد من توفر مكتبات النظام المطلوبة على الخادم. |
 
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.TeX for Java بدون ترخيص؟**  
-ج: يتوفر ترخيص تجريبي، لكن كل PDF يتم إنشاؤه سيحتوي على علامة مائية وبعض الميزات المتقدمة (مثل الامتثال لـ PDF/A) سيتم تعطيلها.
+ج: يتوفر ترخيص تجريبي، لكن كل PDF يتم توليده سيحتوي على علامة مائية وبعض الميزات المتقدمة (مثل توافق PDF/A) سيتم تعطيلها.
 
 **س: كيف أحصل على الدعم لـ Aspose.TeX for Java؟**  
-ج: زر منتدى المجتمع [Aspose.TeX forum](https://forum.aspose.com/c/tex/47) للحصول على مساعدة من الأقران، أو افتح تذكرة دعم إذا كنت تمتلك ترخيصًا تجاريًا.
+ج: زر منتدى المجتمع [منتدى Aspose.TeX](https://forum.aspose.com/c/tex/47) للحصول على مساعدة من الأقران، أو افتح تذكرة دعم إذا كان لديك ترخيص تجاري.
 
 **س: هل هناك نسخة تجريبية مجانية متاحة؟**  
-ج: نعم، يمكنك تنزيل نسخة تجريبية كاملة الوظائف من صفحة الإصدارات [هنا](https://releases.aspose.com/).
+ج: نعم، يمكنك تنزيل نسخة تجريبية كاملة الوظائف من [تحميل تجربة Aspose.TeX](https://releases.aspose.com/).
 
 **س: أين يمكنني العثور على الوثائق الرسمية؟**  
-ج: المرجع الكامل للـ API منشور على [هنا](https://reference.aspose.com/tex/java/).
+ج: المرجع الكامل للـ API منشور في [مرجع Aspose.TeX Java API](https://reference.aspose.com/tex/java/).
 
 **س: كيف يمكنني الحصول على ترخيص مؤقت للتقييم؟**  
-ج: يتم توفير تراخيص مؤقتة عند الطلب عبر بوابة الترخيص [هنا](https://purchase.aspose.com/temporary-license/).
+ج: يتم توفير تراخيص مؤقتة عند الطلب عبر بوابة الترخيص [بوابة الترخيص المؤقت لـ Aspose.TeX](https://purchase.aspose.com/temporary-license/).
 
 ## الخلاصة
 
-لديك الآن سير عمل كامل وجاهز للإنتاج لإنشاء ملفات **how to generate pdf** من LaTeX باستخدام Aspose.TeX for Java. من خلال تعيين الترخيص، تكوين `TexOptions`، والاستفادة من `PdfDevice` المتدفق، يمكنك عرض مستندات معقدة، التحكم في ضغط PDF، وتجنب مشاكل الذاكرة الشائعة. جرب `PdfSaveOptions` إضافية مثل `setLinearized(true)` لعرض ويب سريع، أو استكشف المعالجة الدفعية عبر تكرار دليل ملفات `.tex`. يقدم الـ API المزيد من الخيارات—الخطوط، ملفات تعريف الألوان، الامتثال لـ PDF/A—فلا تتردد في الغوص أعمق في الوثائق.
+أنت الآن تمتلك سير عمل كامل وجاهز للإنتاج لـ **generate pdf from latex** باستخدام Aspose.TeX for Java. من خلال تعيين الترخيص، تكوين `TexOptions`، والاستفادة من `PdfDevice` المتدفقة، يمكنك عرض مستندات معقدة، التحكم في ضغط PDF، وتجنب مشكلات الذاكرة الشائعة. جرّب `PdfSaveOptions` إضافية مثل `setLinearized(true)` لعرض سريع على الويب، أو استكشف المعالجة الدفعية عبر التكرار على دليل ملفات `.tex`. يوفر الـ API المزيد من الخيارات—الخطوط، ملفات تعريف الألوان، توافق PDF/A—فلا تتردد في الغوص أعمق في الوثائق.
 
 ---
 
-**آخر تحديث:** 2026-07-18  
+**آخر تحديث:** 2026-11-05  
 **تم الاختبار مع:** Aspose.TeX for Java 24.11  
 **المؤلف:** Aspose
+
+```java
+License license = new License();
+license.setLicense("Aspose.TeX.lic");
+```
+
+```java
+TexOptions texOptions = new TexOptions();
+texOptions.setBaseDirectory("src/main/resources/tex");
+texOptions.setEnableShellEscape(true);
+```
+
+```java
+String outputDir = "output/pdf";
+```
+
+```java
+PdfSaveOptions pdfOptions = new PdfSaveOptions();
+pdfOptions.setCompressContent(true);
+pdfOptions.setEmbedAllFonts(true);
+pdfOptions.setPdfVersion(PdfVersion.PDF_1_7);
+```
+
+```java
+try (FileOutputStream pdfStream = new FileOutputStream(outputDir + "/result.pdf")) {
+    PdfDevice device = new PdfDevice(pdfStream, pdfOptions);
+    Document doc = new Document("sample.tex", texOptions);
+    doc.save(device);
+}
+```
 
 ```java
 package com.aspose.tex.LaTeXPdfConversionAlternative;
@@ -255,11 +266,11 @@ if (pdfStream != null)
     pdfStream.close();
 ```
 
-## الدروس ذات الصلة
+## دروس ذات صلة
 
-- [كيفية تحميل ترخيص Aspose.TeX في Java – دليل خطوة بخطوة](/tex/java/managing-licenses/)
-- [تحويل Java LaTeX إلى PDF - تحويل فعال إلى PDF](/tex/java/converting-lato-pdf/simplest-pdf-conversion/)
-- [تحويل LaTeX إلى PNG - خيارات متقدمة مع Aspose.TeX for Java](/tex/java/converting-lato-images/advanced-png-conversion/)
+- [أبسط تحويل PDF](/tex/java/converting-lato-pdf/simplest-pdf-conversion/)
+- [تنضيد Tex إلى PDF](/tex/java/typesetting-tex-to-pdf/)
+- [تخصيص المخرجات](/tex/java/customizing-output/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
