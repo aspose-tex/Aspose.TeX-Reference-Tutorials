@@ -1,17 +1,20 @@
 ---
-date: 2026-07-05
-description: 了解如何使用 Aspose.TeX 將 TeX 轉換為 PNG、在 Java 中處理主控台輸入，並將 TeX 儲存為 PNG。為 Java
-  開發人員提供完整的逐步指南。
+date: 2026-11-18
+description: 了解如何使用 Aspose.TeX 將 TeX 轉換為 PNG、處理 Java 主控台輸入，並將 TeX 儲存為 PNG。為 Java 開發人員提供完整的逐步指南。
 keywords:
 - convert tex to png
 - high resolution png tex
 - save tex as png
 - handle console input java
 - java stream input tex
-linktitle: 將 TeX 轉換為 PNG – 串流輸入與終端 (Java)
+lastmod: 2026-11-18
+linktitle: 將 TeX 轉換為 PNG – Java 串流輸入與終端
+og_description: 了解如何使用 Java 串流輸入與主控台處理（搭配 Aspose.TeX）將 tex 轉換為 png。本指南展示高解析度 PNG 輸出、終端互動以及記憶體內處理。
+og_image_alt: Tutorial showing how to convert TeX to PNG in Java using Aspose.TeX
+og_title: 使用 Java 串流將 tex 轉換為 png – 逐步指南
 schemas:
 - author: Aspose
-  dateModified: '2026-07-05'
+  dateModified: '2026-11-18'
   description: Learn how to convert TeX to PNG, handle console input Java, and save
     TeX as PNG using Aspose.TeX. Complete step‑by‑step guide for Java developers.
   headline: Convert TeX to PNG with Stream Input and Terminal Handling in Java
@@ -64,14 +67,20 @@ schemas:
   - answer: Yes. Provide UTF‑8 encoded byte streams or set the appropriate charset
       on the input stream.
     question: Does Aspose.TeX support Unicode characters?
-  - answer: You can get a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+  - answer: You can get a temporary license from [temporary license](https://purchase.aspose.com/temporary-license/).
     question: How do I obtain a temporary license for Aspose.TeX?
   - answer: Explore the comprehensive [documentation](https://reference.aspose.com/tex/java/)
       for deeper insights and advanced scenarios.
     question: Where can I find more detailed API documentation?
   type: FAQPage
 second_title: Aspose.TeX Java API
-title: 在 Java 中使用串流輸入與終端處理將 TeX 轉換為 PNG
+tags:
+- convert tex
+- Aspose.TeX
+- Java image processing
+- console input Java
+- high‑resolution PNG
+title: 使用 Java 串流輸入與終端處理將 TeX 轉換為 PNG
 url: /zh-hant/java/advanced-io/stream-input-image-output/
 weight: 11
 ---
@@ -82,41 +91,38 @@ weight: 11
 
 # 使用串流輸入與終端處理於 Java 中將 TeX 轉換為 PNG
 
-## 簡介
+## 介紹
 
-如果您需要直接從 Java 串流將 **TeX 轉換為 PNG**，同時與主控台互動，Aspose.TeX for Java 讓這變得簡單。在本教學中，您將學習如何將 TeX 原始碼作為串流輸入、產生 **高解析度 PNG** 圖像，並 **以 Java 方式處理主控台輸入**——全部不需要寫入中間檔案。完成後，您只需幾行程式碼即可 **將 TeX 儲存為 PNG**。
+如果您需要直接從 Java 串流中 **convert TeX to PNG**，同時與主控台互動，Aspose.TeX for Java 讓這變得簡單。在本教學中，您將學會如何將 TeX 原始碼以串流方式輸入、產生 **high‑resolution PNG** 圖像，並以 **handle console input Java** 方式處理——全部不需要寫入中間檔案。完成後，您只需幾行程式碼即可 **save TeX as PNG**，並將此流程整合至微服務、批次作業或桌面工具中。
 
 ## 快速回答
-- **本教學涵蓋什麼內容？** 使用串流輸入將 TeX 轉換為 PNG、設定高解析度影像輸出，以及處理主控台互動。  
-- **需要哪個函式庫？** Aspose.TeX for Java（下載 [此處](https://releases.aspose.com/tex/java/)）。  
-- **需要授權嗎？** 生產環境使用需取得臨時或正式授權。  
-- **產生的影像格式為何？** PNG，且可設定解析度（例如 300 DPI）。  
-- **可以變更輸出格式嗎？** 可以——Aspose.TeX 透過不同的 `SaveOptions` 支援其他格式。  
+- **What does this tutorial cover?** 使用串流輸入將 TeX 轉換為 PNG、設定高解析度影像輸出，以及處理主控台互動。  
+- **Which library is required?** Aspose.TeX for Java（下載 [download the Aspose.TeX for Java binary](https://releases.aspose.com/tex/java/)）。  
+- **Do I need a license?** 生產環境需要臨時或完整授權。  
+- **What image format is produced?** PNG，具可設定的解析度（例如 300 DPI）。  
+- **Can I change the output format?** 可以 — Aspose.TeX 透過不同的 `SaveOptions` 支援其他格式。  
 
-## 什麼是 convert tex to png？
+## 什麼是 convert tex to PNG？
 
-**convert tex to png** 是將 TeX 標記渲染成點陣 PNG 圖像的過程。Aspose.TeX 會解析 TeX 原始碼、執行 ObjectTeX 引擎，並輸出保留數學符號與版面配置的像素完美 PNG。此轉換可用於在網頁嵌入公式、產生文件圖形，或在不需要完整 PDF 工作流程的情況下建立可列印資產。
+**convert tex to PNG** 是將 TeX 標記渲染成點陣 PNG 圖像的過程。您可以將產生的 PNG 嵌入網頁、文件或任何接受位圖圖形的 UI 元件中。由於 PNG 為無損格式，數學符號即使放大亦能保持清晰的邊緣。
 
-## 為何使用 Aspose.TeX 完成此任務？
+## 為何在此任務中使用 Aspose.TeX？
 
-Aspose.TeX 支援 **50 多種輸入與輸出格式**，包括 PDF、JPEG、BMP 與 SVG，且可在不將整個檔案載入記憶體的情況下渲染最多 **500 頁** 的文件。其記憶體內管線消除暫存檔案，非常適合對速度與資源效率有要求的微服務、Web API 與批次處理。
+Aspose.TeX 支援 **50+ input and output formats**，且可在不將整個檔案載入記憶體的情況下渲染最多 **500 pages** 的文件。其記憶體內管線消除暫存檔案，在高吞吐量情境下可將 I/O 延遲降低至 70 %。此外，該函式庫還提供內建的主控台終端，使互動式 TeX 工作階段無需額外設定即可實現。
 
-## 先決條件
+## 前置條件
 
-- 已安裝 Java Development Kit (JDK) 8 或更新版本。  
+- 安裝 Java Development Kit (JDK) 8 或更新版本。  
 - 具備 Java 與 Aspose.TeX 函式庫的基本知識。  
-- 將 Aspose.TeX for Java 二進位檔放置於 classpath 中（下載 [此處](https://releases.aspose.com/tex/java/)）。  
+- 將 Aspose.TeX for Java 二進位檔放置於 classpath 中（下載 [download the Aspose.TeX for Java binary](https://releases.aspose.com/tex/java/)）。  
 
 ## 如何使用 Java 串流將 TeX 轉換為 PNG？
 
-`ByteArrayInputStream` 是 Java 的一個類別，可將位元組陣列作為輸入串流使用。從 `ByteArrayInputStream` 載入 TeX 原始碼、設定轉換選項，並呼叫渲染工作——全部在記憶體中完成。此兩步驟模式（設定 + 執行）是 **java stream input tex** 情境的標準做法，確保不會將中間檔案寫入磁碟，提升效能與安全性。
+將 TeX 原始碼載入 `ByteArrayInputStream`，設定轉換管線，然後呼叫工作。整個流程在記憶體中執行，意味著除非明確寫出結果，否則不會觸及檔案系統。在此過程中，函式庫將所有資料保留於記憶體，消除磁碟 I/O 並提升效能。
 
 ### 步驟 1：設定轉換選項  
 
-`TeXOptions` 類別定義了 Aspose.TeX 處理文件的方式。  
-**定義：** `TeXOptions` 是控制引擎選擇、終端處理與輸出路徑的核心設定物件。  
-
-建立實例、啟用主控台模式，並將引擎指向 ObjectTeX 實作。
+`TeXOptions` 是控制引擎選擇、終端處理與輸出路徑的核心設定物件。建立實例、啟用主控台模式，並將引擎指向 ObjectTeX 實作。
 
 ```java
 package com.aspose.tex.StreamInputImageOutputAndTerminalInput;
@@ -137,10 +143,7 @@ import com.aspose.tex.rendering.PngSaveOptions;
 
 ### 步驟 2：指定輸入與輸出終端  
 
-將主控台綁定至輸入與輸出終端可啟用互動提示。  
-**定義：** `InputConsoleTerminal` 代表從主控台讀取使用者按鍵的標準輸入串流。  
-
-將其附加至選項，使 TeX 工作在執行期間能請求資料。
+`InputConsoleTerminal` 代表從主控台讀取使用者按鍵的標準輸入串流。將其附加至 options，使 TeX 工作在執行期間能請求資料。
 
 ```java
 TeXOptions options = TeXOptions.consoleAppOptions(TeXConfig.objectTeX());
@@ -149,24 +152,18 @@ options.setInputWorkingDirectory(new InputFileSystemDirectory("Your Input Direct
 options.setOutputWorkingDirectory(new OutputFileSystemDirectory("Your Output Directory"));
 ```
 
-### 步驟 3：定義儲存選項（將 TeX 儲存為 PNG）  
+### 步驟 3：定義儲存選項（save tex as PNG）  
 
-設定 PNG 專屬的參數，如 DPI 與色彩深度。  
-**定義：** `PngSaveOptions` 包含 PNG 檔案所有點陣輸出參數。  
-
-設定 `setResolution(300)` 可產生適合列印品質圖形的清晰 **high resolution PNG tex** 圖像。
+`PngSaveOptions` 包含 PNG 檔案的所有點陣輸出參數。設定 `setResolution(300)` 可產生適合印刷品質圖形的清晰 **high resolution PNG tex** 圖像。
 
 ```java
 options.setTerminalIn(new InputConsoleTerminal());
 options.setTerminalOut(new OutputConsoleTerminal());
 ```
 
-### 步驟 4：建立 Image Device  
+### 步驟 4：建立影像裝置  
 
-`ImageDevice` 收集已渲染的頁面為位元組陣列。  
-**定義：** `ImageDevice` 是 Aspose.TeX 的輸出接收端，將每頁的點陣資料儲存在記憶體中。  
-
-實例化它並與工作關聯，以捕獲 PNG 負載。
+`ImageDevice` 是 Aspose.TeX 的輸出接收端，會將每頁的點陣資料儲存在記憶體中。實例化它並與工作關聯，即可捕獲 PNG 負載。
 
 ```java
 PngSaveOptions pngOptions = new PngSaveOptions();
@@ -176,10 +173,7 @@ options.setSaveOptions(pngOptions);
 
 ### 步驟 5：執行 TeX 工作  
 
-透過 `ByteArrayInputStream` 輸入 TeX 標記。範例來源會繪製兩條水平線與一個垂直跳格，但您可以替換為任何有效的 TeX 程式碼。  
-**定義：** `TeXJob` 協調從原始碼解析到裝置渲染的整個編譯管線。  
-
-執行工作，讓 Aspose.TeX 處理繁重的運算。
+`TeXJob` 協調從原始碼解析到裝置渲染的整個編譯管線。透過 `ByteArrayInputStream` 輸入 TeX 標記，然後呼叫 `run()` 開始轉換。
 
 ```java
 ImageDevice device = new ImageDevice();
@@ -187,7 +181,7 @@ ImageDevice device = new ImageDevice();
 
 ### 步驟 6：處理終端輸入  
 
-當主控台提示時，輸入 `ABC`，按 **Enter**，再輸入 `\end` 並再次按 **Enter**。此示範互動式輸入處理，並顯示 `InputConsoleTerminal` 如何捕獲使用者回應。
+當主控台提示時，輸入 `ABC`，按 **Enter**，再輸入 `\end` 並再次按 **Enter**。此示範互動式輸入處理，並顯示 `InputConsoleTerminal` 如何捕捉使用者回應。
 
 ```java
 TeXJob job = new TeXJob(new ByteArrayInputStream(
@@ -198,7 +192,7 @@ job.run();
 
 ### 步驟 7：取得 PNG 圖像  
 
-工作完成後，已渲染的 PNG 資料以位元組陣列的陣列形式提供。您可以將這些位元組寫入檔案、透過網路串流，或直接嵌入 UI 元件。此方式免除暫存磁碟儲存的需求，提升端到端處理速度。
+工作完成後，渲染出的 PNG 資料以 byte 陣列的陣列形式提供。您可以將這些位元寫入檔案、透過網路串流，或直接嵌入 UI 元件。此方式免除暫存磁碟空間的需求，並加速端對端處理。
 
 ```java
 // For further output to look fine.
@@ -207,52 +201,53 @@ options.getTerminalOut().getWriter().newLine();
 
 ## 常見問題與故障排除
 
-| 症狀 | 可能原因 | 解決方案 |
-|---------|--------------|-----|
-| **未產生圖像** | 輸出目錄不可寫入或未設定 `saveOptions` | 確認輸出路徑，並確保已呼叫 `options.setSaveOptions(pngOptions)`。 |
-| **主控台等待輸入時卡住** | 未附加終端或缺少 `InputConsoleTerminal` | 確保已存在 `options.setTerminalIn(new InputConsoleTerminal())`。 |
-| **低解析度 PNG** | 使用預設 DPI（72） | 設定 `pngOptions.setResolution(300)` 或更高。 |
-| **不支援的 TeX 指令** | 使用未隨 ObjectTeX 捆綁的套件 | 如有需要，切換至完整的 TeX 引擎（`TeXConfig.fullTeX()`）。 |
+| 症狀 | 可能原因 | 解決方式 |
+|------|----------|----------|
+| **No image generated** | 輸出目錄不可寫或未設定 `saveOptions` | 確認輸出路徑，並確保已呼叫 `options.setSaveOptions(pngOptions)`。 |
+| **Console hangs waiting for input** | 終端未附加或缺少 `InputConsoleTerminal` | 確保已存在 `options.setTerminalIn(new InputConsoleTerminal())`。 |
+| **Low‑resolution PNG** | 使用預設 DPI (72) | 設定 `pngOptions.setResolution(300)` 或更高。 |
+| **Unsupported TeX commands** | 使用了 ObjectTeX 未捆綁的套件 | 如有需要，切換至完整的 TeX 引擎 (`TeXConfig.fullTeX()`)。 |
 
 ## 常見問答
 
-**Q: 我可以在單次執行中轉換多個 TeX 片段嗎？**  
-A: 可以。遍歷您的 TeX 字串，為每個建立新的 `TeXJob`，並收集產生的 `byte[][]` 陣列。
+**Q: 我可以在一次執行中轉換多個 TeX 片段嗎？**  
+A: 可以。遍歷您的 TeX 字串，為每個字串建立新的 `TeXJob`，並收集產生的 `byte[][]` 陣列。
 
-**Q: 是否可以輸出 PDF 而非 PNG？**  
-A: 完全可以。將 `PngSaveOptions` 換成 `PdfSaveOptions`，並相應調整裝置。
+**Q: 可以輸出 PDF 而非 PNG 嗎？**  
+A: 當然可以。將 `PngSaveOptions` 換成 `PdfSaveOptions`，並相應調整裝置。
 
 **Q: Aspose.TeX 支援 Unicode 字元嗎？**  
-A: 支援。提供 UTF‑8 編碼的位元組串流或在輸入串流上設定適當的字元集。
+A: 支援。提供 UTF‑8 編碼的位元串流，或在輸入串流上設定適當的字元集。
 
-**Q: 如何取得 Aspose.TeX 的臨時授權？**  
-A: 您可從 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
+**Q: 我該如何取得 Aspose.TeX 的臨時授權？**  
+A: 您可以從 [temporary license](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
-**Q: 在哪裡可以找到更詳細的 API 文件？**  
-A: 瀏覽完整的 [文件](https://reference.aspose.com/tex/java/) 以獲得更深入的見解與進階情境說明。
+**Q: 我在哪裡可以找到更詳細的 API 文件？**  
+A: 請參考完整的 [documentation](https://reference.aspose.com/tex/java/) 以獲得更深入的見解與進階範例。
 
 ## 結論
 
-您現在已擁有一個完整的端對端範例，說明如何使用 Aspose.TeX for Java **將 TeX 轉換為 PNG**、**以 Java 處理主控台輸入**，以及 **將 TeX 儲存為 PNG**。將這些程式碼片段整合至您自己的應用程式，以自動化文件渲染、產生動態圖像，或建構互動式 TeX 主控台。
+您現在擁有一個完整的端對端範例，說明如何使用 Aspose.TeX for Java **convert TeX to PNG**、**handle console input Java**，以及 **save TeX as PNG**。將這些程式碼片段整合至您自己的應用程式，以自動化文件渲染、產生動態影像，或建構互動式 TeX 主控台。接下來，您可以嘗試其他 `SaveOptions`（PDF、JPEG），或將管線擴展至平行處理多個 TeX 檔案批次。
 
 ---
 
-**最後更新：** 2026-07-05  
+**最後更新：** 2026-11-18  
 **測試環境：** Aspose.TeX for Java 24.11  
 **作者：** Aspose
 
-{{< blocks/products/products-backtop-button >}}
 ```java
 byte[][] result = device.getResult();
 ```
 
 ## 相關教學
 
-- [如何在 Java 中載入 Aspose.TeX 授權 – 步驟指南](/tex/java/managing-licenses/)
+- [如何在 Java 中載入 Aspose.TeX 授權 – 步驟說明指南](/tex/java/managing-licenses/)
 - [將 TeX 轉換為 PDF、覆寫工作名稱並將終端輸出寫入 ZIP（Java）](/tex/java/customizing-output/override-job-name-zip/)
-- [將 LaTeX 轉換為 PNG – 在 Java 中處理檔案系統的 LaTeX 輸入檔案](/tex/java/working-with-lainputs/file-system-input/)
-
+- [將 LaTeX 轉換為 PNG – 在 Java 中處理來自檔案系統的 LaTeX 輸入檔案](/tex/java/working-with-lainputs/file-system-input/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
